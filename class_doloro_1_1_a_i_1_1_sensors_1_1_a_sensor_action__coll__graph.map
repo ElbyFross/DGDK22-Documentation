@@ -1,0 +1,6 @@
+<map id="Doloro.AI.Sensors.ASensorAction" name="Doloro.AI.Sensors.ASensorAction">
+<area shape="rect" id="node1" title="Base class for sensor&#45;like AI behaviors." alt="" coords="5,185,187,227"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="45,89,104,115"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="Manager that controls placing of sensors and their core functions." alt="" coords="129,81,319,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="169,5,279,32"/>
+</map>

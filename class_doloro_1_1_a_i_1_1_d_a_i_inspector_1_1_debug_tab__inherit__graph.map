@@ -1,0 +1,4 @@
+<map id="Doloro.AI.DAIInspector.DebugTab" name="Doloro.AI.DAIInspector.DebugTab">
+<area shape="rect" id="node1" title="Tab that provides debug features." alt="" coords="5,80,220,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_inspector_tab.html" title="Base class for entire layout inspector tabs." alt="" coords="60,5,165,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.AssetPropertiesRemovePatchOrder" name="Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.AssetPropertiesRemovePatchOrder">
+<area shape="rect" id="node1" title="Removing properties from entire AssetPropertiesCollection instances at the object." alt="" coords="5,171,272,227"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order.html" title="Abstract class that implements bas AP I for patch instructions. Allows to extend patch features with ..." alt="" coords="90,95,187,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,5,138,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="163,5,229,32"/>
+</map>

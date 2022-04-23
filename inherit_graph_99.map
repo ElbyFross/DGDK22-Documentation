@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property_editor.html" title="Base editor for asset property." alt="" coords="5,333,252,374"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_bool_asset_property_editor.html" title="Editor for the BoolAssetProperty class." alt="" coords="310,5,549,61"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_default_asset_propertyt_editor.html" title="Editor using when any another not found." alt="" coords="301,85,558,141"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_flag_asset_property_editor.html" title="Editor for the FlagAssetProperty class." alt="" coords="310,165,549,221"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property_editor.html" title="Editor for the FloatAssetProperty class." alt="" coords="308,245,551,301"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_int_asset_property_editor.html" title="Editor for the IntAssetProperty class." alt="" coords="316,325,543,381"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property_editor.html" title="Editor for the StringAssetProperty class." alt="" coords="306,405,553,461"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property_editor.html" title="Editor for the Vector2AssetProperty class." alt="" coords="300,485,559,541"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector3_asset_property_editor.html" title="Editor for the Vector3AssetProperty class." alt="" coords="300,565,559,621"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector4_asset_property_editor.html" title="Editor for the Vector4AssetProperty class." alt="" coords="300,645,559,701"/>
+</map>

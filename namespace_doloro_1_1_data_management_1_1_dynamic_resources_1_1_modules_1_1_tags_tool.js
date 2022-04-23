@@ -1,0 +1,29 @@
+var namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool =
+[
+    [ "AddTagWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window" ],
+    [ "CategorizationProcessAlreadyInProgress", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress" ],
+    [ "CategorizedTagsDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database" ],
+    [ "Constants", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_constants.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_constants" ],
+    [ "EditableTagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element" ],
+    [ "EditableTagUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tag_u_i_element.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tag_u_i_element" ],
+    [ "Tag", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag" ],
+    [ "TagAlreadyExistsException", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception" ],
+    [ "TagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element" ],
+    [ "TagsDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database" ],
+    [ "TagsDatabaseNotLoadedYetException", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_not_loaded_yet_exception.html", null ],
+    [ "TagsDatabaseUtils", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils" ],
+    [ "TagsManagementWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window" ],
+    [ "TagUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element" ],
+    [ "CategorizationProcessState", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817", [
+      [ "NotStarted", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817afa7be7845bc42b3491d9d0377958be94", null ],
+      [ "LookingForTagsDatabases", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817afbdc5b94f76c7c89e66228b419fba539", null ],
+      [ "LookingForResources", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817a46a062c0674968e6ee7228bda1c98900", null ],
+      [ "ScanningResources", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817adbb1865ba2f9458e42238ce24ba67858", null ],
+      [ "BakingCatalogs", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817a01f4e25e4acd347a7c2ee16986ec52bf", null ],
+      [ "Finished", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817a8f3d10eb21bd36347c258679eba9e92b", null ]
+    ] ],
+    [ "TagVisibility", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6", [
+      [ "Always", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6a68eec46437c384d8dad18d5464ebc35c", null ],
+      [ "SearchOnly", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6ad56b40df987c52985f9615d27efaa77b", null ]
+    ] ]
+];

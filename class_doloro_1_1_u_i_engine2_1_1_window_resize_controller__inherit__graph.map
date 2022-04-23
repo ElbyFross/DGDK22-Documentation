@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.WindowResizeController" name="Doloro.UIEngine2.WindowResizeController">
+<area shape="rect" id="node1" title="Component that provides handling features for resizing of the Window by using its edges or corners." alt="" coords="5,304,217,345"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html" title="An abstract class that implement base background features for handling window layout." alt="" coords="26,229,197,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="18,155,205,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="65,80,157,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="56,5,167,32"/>
+</map>

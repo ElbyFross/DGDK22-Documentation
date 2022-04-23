@@ -1,0 +1,14 @@
+<map id="Doloro.UIEngine2.WindowUIController" name="Doloro.UIEngine2.WindowUIController">
+<area shape="rect" id="node1" title="The controller of window that bonds to the Window back&#45;end logic." alt="" coords="667,111,905,138"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector.html" title="Standalone window that provides logic and API related to stores inspector UI." alt="" coords="964,5,1173,47"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector.html" title="Controller that manages UI related to TransactionService.TransactionOrders handling." alt="" coords="953,71,1184,112"/>
+<area shape="rect" id="node11" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html" title="Standalone window that provides logic and API related to storages inspector UI." alt="" coords="983,136,1155,177"/>
+<area shape="rect" id="node12" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html" title="Controller that implements context menu related features." alt="" coords="979,201,1158,243"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="551,111,619,138"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module." alt="" coords="320,35,487,62"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="164,35,256,62"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,35,116,62"/>
+<area shape="rect" id="node6" href="$interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html" title="Declares members for classes that could be part of complex multi&#45;layer windows register." alt="" coords="304,86,503,113"/>
+<area shape="rect" id="node7" href="$interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html" title="Interface that declares API for GUI roots." alt="" coords="347,137,459,163"/>
+<area shape="rect" id="node8" href="$interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html" title="Declares properties required for layouts with a limited size values." alt="" coords="333,187,474,214"/>
+</map>

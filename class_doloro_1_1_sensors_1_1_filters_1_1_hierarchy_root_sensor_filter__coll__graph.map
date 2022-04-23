@@ -1,0 +1,5 @@
+<map id="Doloro.Sensors.Filters.HierarchyRootSensorFilter" name="Doloro.Sensors.Filters.HierarchyRootSensorFilter">
+<area shape="rect" id="node1" title="Checks is the detecting objects belong to the same root as the filter." alt="" coords="5,155,216,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build&#45;in sensor filter algorithms." alt="" coords="60,80,161,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="55,5,166,32"/>
+</map>

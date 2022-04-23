@@ -1,0 +1,7 @@
+<map id="Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;" name="Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;">
+<area shape="rect" id="node1" title="Encapsulates common Query logic for components filtering." alt="" coords="163,71,439,112"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html" title="Checks that the object has certain signature. (Case insensitive)" alt="" coords="500,5,748,47"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_tags_absence_filter.html" title="Checks that the ITagsCollection instance has no certain tags as defined." alt="" coords="488,71,760,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_tags_definition_filter.html" title="Checks that the ITagsCollection instance has certain tags as defined." alt="" coords="487,136,761,177"/>
+<area shape="rect" id="node2" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_i_resource_filter.html" title="An interface of the query entity used during advanced search among resources." alt="" coords="5,78,115,105"/>
+</map>

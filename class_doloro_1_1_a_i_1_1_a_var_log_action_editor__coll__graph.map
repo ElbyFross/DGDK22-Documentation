@@ -1,0 +1,4 @@
+<map id="Doloro.AI.AVarLogActionEditor" name="Doloro.AI.AVarLogActionEditor">
+<area shape="rect" id="node1" title="Base editor that provides Debug GUI with variables logs." alt="" coords="5,80,205,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="59,5,152,32"/>
+</map>

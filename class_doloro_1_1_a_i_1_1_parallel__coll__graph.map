@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Parallel" name="Doloro.AI.Parallel">
+<area shape="rect" id="node1" title="Executes child nodes in parallel way." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order" alt="" coords="39,80,94,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="37,5,96,32"/>
+</map>

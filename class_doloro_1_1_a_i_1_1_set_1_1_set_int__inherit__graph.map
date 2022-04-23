@@ -1,0 +1,4 @@
+<map id="Doloro.AI.Set.SetInt" name="Doloro.AI.Set.SetInt">
+<area shape="rect" id="node1" title="Action that sending int value to the memory." alt="" coords="21,95,158,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_set_1_1_a_set_memory_value_action.html" title=" " alt="" coords="5,5,173,47"/>
+</map>

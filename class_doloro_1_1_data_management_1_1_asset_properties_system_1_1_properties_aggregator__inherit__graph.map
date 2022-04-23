@@ -1,0 +1,7 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.PropertiesAggregator" name="Doloro.DataManagement.AssetPropertiesSystem.PropertiesAggregator">
+<area shape="rect" id="node1" title="Component that allows to aggregate the IPropertiesProvider in a single source without destroying thei..." alt="" coords="92,169,344,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,87,116,114"/>
+<area shape="rect" id="node3" title=" " alt="" coords="140,80,296,121"/>
+<area shape="rect" id="node4" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html" title="Derived from the interface classes considering as AssetProperty instances provider." alt="" coords="321,87,451,114"/>
+<area shape="rect" id="node5" title=" " alt="" coords="291,5,481,32"/>
+</map>

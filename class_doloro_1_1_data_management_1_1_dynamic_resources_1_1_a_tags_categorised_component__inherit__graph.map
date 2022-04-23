@@ -1,0 +1,8 @@
+<map id="Doloro.DataManagement.DynamicResources.ATagsCategorisedComponent" name="Doloro.DataManagement.DynamicResources.ATagsCategorisedComponent">
+<area shape="rect" id="node1" title="Component that contains features related to operating the Modules.TagsTool.Tag." alt="" coords="74,80,334,121"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="94,169,314,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="82,5,193,32"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html" title="Interface that defines members required to handle tag&#45;based features." alt="" coords="217,5,327,32"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="5,259,187,285"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in&#45;game storage." alt="" coords="211,259,413,285"/>
+</map>

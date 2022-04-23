@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.DEVTOOLS.SelectionHubListener" name="Doloro.UIEngine2.DEVTOOLS.SelectionHubListener">
+<area shape="rect" id="node1" title=" " alt="" coords="51,247,251,288"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub." alt="" coords="9,157,112,184"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="17,81,105,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="136,157,228,184"/>
+</map>

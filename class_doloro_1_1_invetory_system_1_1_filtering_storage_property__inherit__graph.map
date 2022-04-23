@@ -1,0 +1,12 @@
+<map id="Doloro.InvetorySystem.FilteringStorageProperty" name="Doloro.InvetorySystem.FilteringStorageProperty">
+<area shape="rect" id="node1" title="The storage property that implements some rules that can block the item from storage using." alt="" coords="481,136,684,177"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock.html" title="Allows to lock the storage from unauthorized access." alt="" coords="732,5,951,47"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter.html" title="Implements the slots limit to the storage." alt="" coords="732,71,951,112"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html" title="Implements the weight limit to the storage." alt="" coords="732,136,951,177"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_tags_filtered_storage.html" title=" " alt="" coords="732,201,951,243"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="732,267,951,308"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality." alt="" coords="317,143,433,170"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_entity_property.html" title="The custom property related to instance that extends entity&#39;s features." alt="" coords="164,143,269,170"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,143,116,170"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_stretchable_storage_volume.html" title="Implements the conception of the volume that can be starched." alt="" coords="999,267,1279,308"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Doloro.Sensors.Filters.TagSensorFilter" name="Doloro.Sensors.Filters.TagSensorFilter">
+<area shape="rect" id="node1" title="Filtering detecting objects along with the GameObject.tag property." alt="" coords="5,155,181,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build&#45;in sensor filter algorithms." alt="" coords="43,80,144,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="38,5,149,32"/>
+</map>

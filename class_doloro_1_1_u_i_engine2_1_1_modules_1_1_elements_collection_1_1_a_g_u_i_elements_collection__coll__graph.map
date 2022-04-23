@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollection" name="Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollection">
+<area shape="rect" id="node1" title="Base class for any UI element that handling bunch of another elements and should provide navigation a..." alt="" coords="703,20,927,76"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,5,257,32"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html" title="Base class for any GUi element that feature is indicating selection of some another element." alt="" coords="307,27,576,69"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="371,93,511,120"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Doloro.Sensors.Filters.GameObjectSensorFilter" name="Doloro.Sensors.Filters.GameObjectSensorFilter">
+<area shape="rect" id="node1" title="Compares game objects and pass through the filter only if object the same." alt="" coords="5,155,196,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build&#45;in sensor filter algorithms." alt="" coords="50,80,151,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="45,5,156,32"/>
+</map>

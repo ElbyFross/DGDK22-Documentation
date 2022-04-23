@@ -1,0 +1,8 @@
+<map id="Doloro.UIEngine2.AWindowLayoutController" name="Doloro.UIEngine2.AWindowLayoutController">
+<area shape="rect" id="node1" title="An abstract class that implement base background features for handling window layout." alt="" coords="129,229,310,271"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html" title="Provides free&#45;space drag for Window related instance." alt="" coords="5,319,204,360"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html" title="Component that provides handling features for resizing of the Window by using its edges or corners." alt="" coords="228,319,440,360"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="126,155,313,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="173,80,265,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="164,5,275,32"/>
+</map>

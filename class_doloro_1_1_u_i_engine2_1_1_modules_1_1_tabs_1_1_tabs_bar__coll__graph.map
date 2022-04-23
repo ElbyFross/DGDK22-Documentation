@@ -1,0 +1,9 @@
+<map id="Doloro.UIEngine2.Modules.Tabs.TabsBar" name="Doloro.UIEngine2.Modules.Tabs.TabsBar">
+<area shape="rect" id="node1" title="Control element that contains bunch of Windows opened into the certain WorkspaceLayout." alt="" coords="1069,27,1248,69"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html" title="Collection of the GUIElements that displays content in the grid format." alt="" coords="917,35,1020,61"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html" title="Base class for any UI element that handling bunch of another elements and should provide navigation a..." alt="" coords="703,35,868,61"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,5,257,32"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html" title="Base class for any GUi element that feature is indicating selection of some another element." alt="" coords="307,27,576,69"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="371,93,511,120"/>
+</map>

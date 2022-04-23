@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.Vector4AssetProperty" name="Doloro.DataManagement.AssetPropertiesSystem.Vector4AssetProperty">
+<area shape="rect" id="node1" title="Property that provides Vector4 field." alt="" coords="5,155,264,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property.html" title="Abstract class that implements core features related to the dynamic asset properties framework." alt="" coords="37,80,142,107"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_key_holder.html" title="Declares member for key related features." alt="" coords="24,5,109,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="134,5,226,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Operators.AMathActionEditor&lt; T &gt;" name="Doloro.AI.Operators.AMathActionEditor&lt; T &gt;">
+<area shape="rect" id="node1" title="Base editor for actions derived from AMathAction&lt;T&gt; ." alt="" coords="5,155,184,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_a_var_log_action_editor.html" title="Base editor that provides Debug GUI with variables logs." alt="" coords="23,80,166,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="48,5,141,32"/>
+</map>

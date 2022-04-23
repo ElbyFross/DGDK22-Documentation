@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Get.GetRectAroundObjectEditor" name="Doloro.AI.Get.GetRectAroundObjectEditor">
+<area shape="rect" id="node1" title="Editor for the GetRectAroundObject action." alt="" coords="5,155,199,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_a_var_log_action_editor.html" title="Base editor that provides Debug GUI with variables logs." alt="" coords="31,80,173,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="55,5,149,32"/>
+</map>

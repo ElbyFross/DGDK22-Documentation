@@ -1,0 +1,4 @@
+var class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator_editor =
+[
+    [ "OnInspectorGUI", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator_editor.html#a5940bf37e938f8e4e8ef147953530b3f", null ]
+];

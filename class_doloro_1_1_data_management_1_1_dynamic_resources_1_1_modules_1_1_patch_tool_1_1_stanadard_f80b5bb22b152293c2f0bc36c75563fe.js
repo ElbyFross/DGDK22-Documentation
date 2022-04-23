@@ -1,0 +1,4 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe =
+[
+    [ "OnInspectorGUI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe.html#aec98d0ed56a6ebdcd8edcb5087274e72", null ]
+];

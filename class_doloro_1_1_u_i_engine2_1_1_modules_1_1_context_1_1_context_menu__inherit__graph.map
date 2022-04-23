@@ -1,0 +1,11 @@
+<map id="Doloro.UIEngine2.Modules.Context.ContextMenu" name="Doloro.UIEngine2.Modules.Context.ContextMenu">
+<area shape="rect" id="node1" title="Controller that implements context menu related features." alt="" coords="295,379,474,420"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back&#45;end logic." alt="" coords="317,304,452,331"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="351,229,419,256"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module." alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="43,80,135,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="33,5,144,32"/>
+<area shape="rect" id="node7" href="$interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html" title="Declares members for classes that could be part of complex multi&#45;layer windows register." alt="" coords="196,155,395,181"/>
+<area shape="rect" id="node8" href="$interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html" title="Interface that declares API for GUI roots." alt="" coords="419,155,531,181"/>
+<area shape="rect" id="node9" href="$interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html" title="Declares properties required for layouts with a limited size values." alt="" coords="555,155,697,181"/>
+</map>

@@ -1,0 +1,5 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress =
+[
+    [ "CategorizationProcessAlreadyInProgress", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress.html#afd7c2c139fa333a552eb74566ce373d4", null ],
+    [ "Message", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress.html#a20391f8d0d76d00379b09bf6d5a04bb3", null ]
+];

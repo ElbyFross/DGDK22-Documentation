@@ -1,0 +1,4 @@
+<map id="Doloro.AI.Memory.RemoveByType" name="Doloro.AI.Memory.RemoveByType">
+<area shape="rect" id="node1" title="Removing entire variables from memory by the type." alt="" coords="5,80,225,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="86,5,145,32"/>
+</map>

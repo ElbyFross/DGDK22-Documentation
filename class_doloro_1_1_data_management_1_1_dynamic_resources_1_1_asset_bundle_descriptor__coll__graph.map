@@ -1,0 +1,4 @@
+<map id="Doloro.DataManagement.DynamicResources.AssetBundleDescriptor" name="Doloro.DataManagement.DynamicResources.AssetBundleDescriptor">
+<area shape="rect" id="node1" title="Contains formated data those describes the bundle meta and internal content." alt="" coords="5,109,227,151"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container.html" title="Container that holds resource as well with extra metadata." alt="" coords="6,5,226,47"/>
+</map>

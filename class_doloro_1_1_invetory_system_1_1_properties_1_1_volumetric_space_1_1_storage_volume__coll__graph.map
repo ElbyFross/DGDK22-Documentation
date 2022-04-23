@@ -1,0 +1,12 @@
+<map id="Doloro.InvetorySystem.Properties.VolumetricSpace.StorageVolume" name="Doloro.InvetorySystem.Properties.VolumetricSpace.StorageVolume">
+<area shape="rect" id="node1" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="815,99,1033,141"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_filtering_storage_property.html" title="The storage property that implements some rules that can block the item from storage using." alt="" coords="530,5,693,32"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality." alt="" coords="320,5,436,32"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_entity_property.html" title="The custom property related to instance that extends entity&#39;s features." alt="" coords="165,5,271,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="522,56,701,83"/>
+<area shape="rect" id="node7" href="$interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html" title="Interface that should be implemented for any EntityProperty that must handle TransactionService...." alt="" coords="548,107,675,133"/>
+<area shape="rect" id="node8" title=" " alt="" coords="337,165,419,192"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume_1_1_cross_session_data.html" title="Container that contains certain entity related data between game sessions." alt="" coords="485,208,737,264"/>
+<area shape="rect" id="node10" title=" " alt="" coords="332,224,424,251"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Doloro.AI.ReorderableSequenceEditor" name="Doloro.AI.ReorderableSequenceEditor">
+<area shape="rect" id="node1" title="Editor for the ReorderableSequence order." alt="" coords="5,80,212,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="62,5,155,32"/>
+</map>

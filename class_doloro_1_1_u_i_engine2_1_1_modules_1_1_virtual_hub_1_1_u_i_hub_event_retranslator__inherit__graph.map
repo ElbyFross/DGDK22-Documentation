@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRetranslator" name="Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRetranslator">
+<area shape="rect" id="node1" title="Component that listens events from attached GUIElement and re&#45;translates them to parental or manually..." alt="" coords="300,13,523,54"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_656f7c814c0a69b4b61d5ce5bddcff7e.html" title="Extends base UIHubEventRetranslator with logic related to the AGUIElementsCollection component." alt="" coords="571,5,857,61"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="164,20,252,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,20,116,47"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_retranslator.html" title="GUI controller that provides selection between several Storages." alt="" coords="905,13,1136,54"/>
+</map>

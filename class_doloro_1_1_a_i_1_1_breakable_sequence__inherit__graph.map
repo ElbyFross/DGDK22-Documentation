@@ -1,0 +1,5 @@
+<map id="Doloro.AI.BreakableSequence" name="Doloro.AI.BreakableSequence">
+<area shape="rect" id="node1" title="Sequence that allow to interrupt execution in case if faced certain result at the child." alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order" alt="" coords="75,80,130,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="73,5,132,32"/>
+</map>

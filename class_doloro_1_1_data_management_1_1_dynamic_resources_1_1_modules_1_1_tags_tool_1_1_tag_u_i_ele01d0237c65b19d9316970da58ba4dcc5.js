@@ -1,0 +1,5 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_ele01d0237c65b19d9316970da58ba4dcc5 =
+[
+    [ "ElementActivatedException", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_ele01d0237c65b19d9316970da58ba4dcc5.html#ac06ece5abe66d9b08e51c121119633fd", null ],
+    [ "UIElementRect", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_ele01d0237c65b19d9316970da58ba4dcc5.html#a9ecfe9d4ce0c5c839ca48d263fac9c5c", null ]
+];

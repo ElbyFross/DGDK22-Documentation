@@ -1,0 +1,8 @@
+<map id="Doloro.DataManagement.Serialization.StorableAsset" name="Doloro.DataManagement.Serialization.StorableAsset">
+<area shape="rect" id="node1" title="Class that implements API for handling the object as file system asset." alt="" coords="145,104,389,145"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html" title="Data cluster that contains scalable space of the memory related to the small data realm." alt="" coords="437,5,648,47"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_tables_1_1_solution.html" title=" " alt="" coords="437,71,648,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html" title="Spreadsheet that contain data of the table explorer editor." alt="" coords="437,136,648,177"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_tables_1_1_table.html" title="GUI element that provides the way to draw the table." alt="" coords="437,201,648,243"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,111,97,138"/>
+</map>

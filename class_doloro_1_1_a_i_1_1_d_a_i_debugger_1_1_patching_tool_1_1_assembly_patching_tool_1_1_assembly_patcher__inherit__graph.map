@@ -1,0 +1,5 @@
+<map id="Doloro.AI.DAIDebugger.PatchingTool.AssemblyPatchingTool.AssemblyPatcher" name="Doloro.AI.DAIDebugger.PatchingTool.AssemblyPatchingTool.AssemblyPatcher">
+<area shape="rect" id="node1" title="Provides assembly validation and fixing of loosed\modified types referenced by projects...." alt="" coords="5,80,251,136"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_scripts_patching_tool_1_1_scripts_patcher.html" title=" " alt="" coords="23,184,233,240"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_a_patch_logic.html" title="The base class for any integrable patchers. Will be called by the Patcher instance during validation ..." alt="" coords="80,5,176,32"/>
+</map>

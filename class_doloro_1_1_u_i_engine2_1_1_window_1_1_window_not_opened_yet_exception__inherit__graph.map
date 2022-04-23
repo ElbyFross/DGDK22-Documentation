@@ -1,0 +1,4 @@
+<map id="Doloro.UIEngine2.Window.WindowNotOpenedYetException" name="Doloro.UIEngine2.Window.WindowNotOpenedYetException">
+<area shape="rect" id="node1" title="Occurs when you trying to handle window that has WindowStateOptions.Undefined state." alt="" coords="5,80,216,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="71,5,151,32"/>
+</map>

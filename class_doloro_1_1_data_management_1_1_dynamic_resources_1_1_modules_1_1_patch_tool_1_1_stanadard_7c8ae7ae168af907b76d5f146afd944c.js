@@ -1,0 +1,10 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c =
+[
+    [ "Awake", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#abc4e2030d31f186d35cca92634445041", null ],
+    [ "Patch", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#a34d22ab06111dbac0b485880af296b9b", null ],
+    [ "Start", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#af75444acf360ae0de1d5399751efc3d1", null ],
+    [ "assignationTime", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#ac5b236a544f05c7436b190e1739fb9bb", null ],
+    [ "component", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#a633e713c152320047175ca3fdf9b6bd3", null ],
+    [ "executionTime", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#a056fd1134823bd878d443a156bf67c82", null ],
+    [ "OrderKey", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html#a12d3046de9f7d9d51541feb922b96934", null ]
+];

@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_inspector_tab.html" title="Base class for entire layout inspector tabs." alt="" coords="5,101,245,127"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_custom_properties_tab.html" title="Drawing custom inspector GUI for the node." alt="" coords="301,5,504,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_debug_tab.html" title="Tab that provides debug features." alt="" coords="295,71,510,98"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_default_properties_tab.html" title="Provide auto generated UI for not internals." alt="" coords="304,123,501,164"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_history_tab.html" title="Tab that provides history related UI." alt="" coords="293,189,512,215"/>
+</map>

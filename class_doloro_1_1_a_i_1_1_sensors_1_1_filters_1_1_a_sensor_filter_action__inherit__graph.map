@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Sensors.Filters.ASensorFilterAction&lt; T &gt;" name="Doloro.AI.Sensors.Filters.ASensorFilterAction&lt; T &gt;">
+<area shape="rect" id="node1" title="Base class for actions that should declares ASensorFilters for the FilteredSensor instances via the A..." alt="" coords="5,155,176,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="36,80,145,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="61,5,120,32"/>
+</map>

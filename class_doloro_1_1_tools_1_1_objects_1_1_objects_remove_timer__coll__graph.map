@@ -1,0 +1,4 @@
+<map id="Doloro.Tools.Objects.ObjectsRemoveTimer" name="Doloro.Tools.Objects.ObjectsRemoveTimer">
+<area shape="rect" id="node1" title="Destroys objects selected in script after time pass." alt="" coords="5,80,197,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="46,5,157,32"/>
+</map>

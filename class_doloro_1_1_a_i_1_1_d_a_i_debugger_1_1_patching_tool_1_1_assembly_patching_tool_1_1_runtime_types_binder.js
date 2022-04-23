@@ -1,0 +1,4 @@
+var class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_runtime_types_binder =
+[
+    [ "BindToType", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_runtime_types_binder.html#a187af9fccdc1fb4e9803849b192449f8", null ]
+];

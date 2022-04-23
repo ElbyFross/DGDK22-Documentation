@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.DEVTOOLS.LayoutSearcher" name="Doloro.UIEngine2.DEVTOOLS.LayoutSearcher">
+<area shape="rect" id="node1" title="DVELOPERS&#45;ONLY Allows to find references to related layouts." alt="" coords="5,396,205,437"/>
+<area shape="rect" id="node2" title=" " alt="" coords="45,5,155,32"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="145,81,237,108"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html" title="Control that provides position managing for splitter between two runtime workspaces." alt="" coords="122,233,377,289"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="139,157,325,184"/>
+</map>

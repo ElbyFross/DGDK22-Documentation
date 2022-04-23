@@ -1,0 +1,5 @@
+<map id="Doloro.DataManagement.Serialization.IBinaryDataProvider" name="Doloro.DataManagement.Serialization.IBinaryDataProvider">
+<area shape="rect" id="node1" title="Class derived from the interface could be converted to binary back and forward." alt="" coords="5,5,249,47"/>
+<area shape="rect" id="node2" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_session_properties_provider.html" title="Class that implements the interface considering as cross&#45;session properties provider that could resto..." alt="" coords="8,95,247,151"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection.html" title="A collection of custom properties related to some asset." alt="" coords="16,199,239,255"/>
+</map>

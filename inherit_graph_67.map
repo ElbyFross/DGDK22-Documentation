@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_a_sensor_filter_action_editor.html" title=" " alt="" coords="5,24,245,95"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_filter_by_layer_editor.html" title="Custom editor for the FilterByLayer action." alt="" coords="293,5,464,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_filter_by_tag_editor.html" title="Custom editor for the FilterByTag action." alt="" coords="293,71,464,112"/>
+</map>

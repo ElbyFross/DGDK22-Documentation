@@ -1,0 +1,5 @@
+<map id="Doloro.AI.ReorderableSequence" name="Doloro.AI.ReorderableSequence">
+<area shape="rect" id="node1" title="Sequence those order defining by external component." alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order" alt="" coords="81,80,136,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="79,5,138,32"/>
+</map>

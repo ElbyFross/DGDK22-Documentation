@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_a_patch_logic.html" title="The base class for any integrable patchers. Will be called by the Patcher instance during validation ..." alt="" coords="5,116,216,157"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_absent_property_patcher.html" title=" " alt="" coords="281,5,492,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_assembly_patcher.html" title="Provides assembly validation and fixing of loosed\modified types referenced by projects...." alt="" coords="264,71,509,127"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_obsolete_property_patcher.html" title=" " alt="" coords="281,152,492,193"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_variables_version_patcher.html" title="Transfers obsolete variables stored at the node to the new format." alt="" coords="281,217,492,259"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_scripts_patching_tool_1_1_scripts_patcher.html" title=" " alt="" coords="557,71,768,127"/>
+</map>

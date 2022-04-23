@@ -1,0 +1,4 @@
+<map id="Doloro.UIEngine2.Window.WindowsLayer" name="Doloro.UIEngine2.Window.WindowsLayer">
+<area shape="rect" id="node1" title="Defines layer of windows." alt="" coords="17,80,193,121"/>
+<area shape="rect" id="node2" href="$interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html" title="Declares members for classes that could be part of complex multi&#45;layer windows register." alt="" coords="5,5,204,32"/>
+</map>

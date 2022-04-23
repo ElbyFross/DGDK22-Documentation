@@ -1,0 +1,4 @@
+<map id="Doloro.AI.DAIDebugger.ErrorsListTool.StringPropertiesValidator" name="Doloro.AI.DAIDebugger.ErrorsListTool.StringPropertiesValidator">
+<area shape="rect" id="node1" title="Provides validation for the string properties." alt="" coords="5,80,220,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_a_behavior_validator.html" title="Base class for any plug&#45;in that should validate AI behavior node." alt="" coords="47,5,178,32"/>
+</map>

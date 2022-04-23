@@ -1,0 +1,12 @@
+<map id="Doloro.AI.Order" name="Doloro.AI.Order">
+<area shape="rect" id="node1" title="Abstract class that used for calculations of order" alt="" coords="112,183,223,209"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_bind_external.html" title="Connecting external behavior map by the resource path." alt="" coords="297,5,451,32"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_breakable_sequence.html" title="Sequence that allow to interrupt execution in case if faced certain result at the child." alt="" coords="277,56,471,83"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_logic_cores_root.html" title="Root node that manages logic cores of the AI. Executes child nodes in parallel way." alt="" coords="289,107,459,133"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_parallel.html" title="Executes child nodes in parallel way." alt="" coords="313,157,435,184"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_a_i_1_1_reorderable_sequence.html" title="Sequence those order defining by external component." alt="" coords="271,208,477,235"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_a_i_1_1_sequence.html" title="Executes child behaviors at sequence." alt="" coords="305,259,443,285"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_a_i_1_1_switch_1_1_random.html" title="Executes random child." alt="" coords="289,309,459,336"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_a_i_1_1_switch_1_1_switch.html" title="Switches to child action\order by tag defined at memory." alt="" coords="293,360,455,387"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="5,183,64,209"/>
+</map>

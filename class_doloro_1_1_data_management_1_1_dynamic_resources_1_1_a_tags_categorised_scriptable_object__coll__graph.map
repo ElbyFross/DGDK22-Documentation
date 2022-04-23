@@ -1,0 +1,5 @@
+<map id="Doloro.DataManagement.DynamicResources.ATagsCategorisedScriptableObject" name="Doloro.DataManagement.DynamicResources.ATagsCategorisedScriptableObject">
+<area shape="rect" id="node1" title="ScriptableObject that contains features related to operating the Modules.TagsTool...." alt="" coords="8,80,260,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html" title="Interface that defines members required to handle tag&#45;based features." alt="" coords="148,5,259,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.DynamicResources.DynamicResourceEditor" name="Doloro.DataManagement.DynamicResources.DynamicResourceEditor">
+<area shape="rect" id="node1" title="Editor for the DynamicResource component." alt="" coords="90,80,318,121"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_item_editor.html" title="Custom editor related to the Item component." alt="" coords="5,169,187,211"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_storage_editor.html" title="Custom editor related to the Storage component." alt="" coords="211,169,413,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="176,5,232,32"/>
+</map>

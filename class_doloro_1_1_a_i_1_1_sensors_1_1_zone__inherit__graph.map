@@ -1,0 +1,6 @@
+<map id="Doloro.AI.Sensors.Zone" name="Doloro.AI.Sensors.Zone">
+<area shape="rect" id="node1" title="Returns success in case sensor has detected objects." alt="" coords="5,229,164,256"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_invertible_sensor_action.html" title="Sensor related action that result can be inverted." alt="" coords="5,155,164,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="30,80,139,107"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="55,5,114,32"/>
+</map>

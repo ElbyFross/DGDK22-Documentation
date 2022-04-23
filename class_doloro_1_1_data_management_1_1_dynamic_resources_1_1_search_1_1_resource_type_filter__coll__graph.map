@@ -1,0 +1,4 @@
+<map id="Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;" name="Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;">
+<area shape="rect" id="node1" title="Encapsulates common Query logic for components filtering." alt="" coords="5,80,281,121"/>
+<area shape="rect" id="node2" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_i_resource_filter.html" title="An interface of the query entity used during advanced search among resources." alt="" coords="89,5,198,32"/>
+</map>

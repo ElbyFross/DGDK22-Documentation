@@ -1,0 +1,7 @@
+<map id="Doloro.InvetorySystem.Modules.Shops.UI.ExchangeBufferUIHubListener" name="Doloro.InvetorySystem.Modules.Shops.UI.ExchangeBufferUIHubListener">
+<area shape="rect" id="node1" title="Connects ExchangeBufferGUIElement to the VirtualUIHub events network." alt="" coords="5,304,256,345"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection...." alt="" coords="39,229,222,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub." alt="" coords="79,155,182,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="87,80,175,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="75,5,186,32"/>
+</map>

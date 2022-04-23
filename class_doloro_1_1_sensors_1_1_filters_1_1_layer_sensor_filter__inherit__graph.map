@@ -1,0 +1,5 @@
+<map id="Doloro.Sensors.Filters.LayerSensorFilter" name="Doloro.Sensors.Filters.LayerSensorFilter">
+<area shape="rect" id="node1" title="Filters objects detected by the FilteredSensor along with the GameObject.layer property." alt="" coords="5,155,192,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build&#45;in sensor filter algorithms." alt="" coords="48,80,149,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="43,5,154,32"/>
+</map>

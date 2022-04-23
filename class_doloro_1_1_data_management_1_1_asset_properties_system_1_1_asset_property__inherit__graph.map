@@ -1,0 +1,13 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.AssetProperty" name="Doloro.DataManagement.AssetPropertiesSystem.AssetProperty">
+<area shape="rect" id="node1" title="Abstract class that implements core features related to the dynamic asset properties framework." alt="" coords="145,235,359,276"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_bool_asset_property.html" title="Property that provides boolean field." alt="" coords="417,5,655,47"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_flag_asset_property.html" title="Property that provides flag field." alt="" coords="417,71,655,112"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html" title="Property that provides float field." alt="" coords="415,136,657,177"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_int_asset_property.html" title="Property that provides int field." alt="" coords="423,201,649,243"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property.html" title="Property that provides string field." alt="" coords="413,267,659,308"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html" title="Property that provides Vector2 field." alt="" coords="407,332,665,373"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector3_asset_property.html" title="Property that provides Vector3 field." alt="" coords="407,397,665,439"/>
+<area shape="rect" id="node11" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector4_asset_property.html" title="Property that provides Vector4 field." alt="" coords="407,463,665,504"/>
+<area shape="rect" id="node2" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_key_holder.html" title="Declares member for key related features." alt="" coords="9,217,94,243"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,267,97,294"/>
+</map>

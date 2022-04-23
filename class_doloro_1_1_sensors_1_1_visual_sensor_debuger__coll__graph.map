@@ -1,0 +1,4 @@
+<map id="Doloro.Sensors.VisualSensorDebuger" name="Doloro.Sensors.VisualSensorDebuger">
+<area shape="rect" id="node1" title="Draws rays between points. Used in bunch of external frameworks to visualization of sensor related da..." alt="" coords="5,80,197,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="46,5,157,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.DynamicResources.ResourcesCollection" name="Doloro.DataManagement.DynamicResources.ResourcesCollection">
+<area shape="rect" id="node1" title="A class that contains catalog of resources gathered by the ResourcesManagementAPI handlers." alt="" coords="613,30,833,71"/>
+<area shape="rect" id="node2" title=" " alt="" coords="237,5,453,32"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection_1_1_asset_bundles_resources_collection.html" title="Class that handles assets collections. Guarantees the same order of resources then was during loading..." alt="" coords="223,56,468,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,63,173,105"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,166,97,193"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_project_enumerator.html" title="Enumerator that going across the project hierarchy and returns it&#39;s members." alt="" coords="209,5,403,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_types_t9183615fba24b22d07fe35b1eb947f9d.html" title=" " alt="" coords="172,71,440,127"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection_1_141f23d755ddab57653e19b8978bc1e71.html" title="Enumerator relayed to the ProperiesDomain collection." alt="" coords="151,151,461,207"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_tables_1_1_table_1_1_cells_enumerator.html" title="Enumerates only exists cells into the table structure." alt="" coords="201,232,411,273"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html" title="Enumerates GUI collection in search of GUIElementType elements to get SourceType content placed withi..." alt="" coords="145,297,467,368"/>
+</map>

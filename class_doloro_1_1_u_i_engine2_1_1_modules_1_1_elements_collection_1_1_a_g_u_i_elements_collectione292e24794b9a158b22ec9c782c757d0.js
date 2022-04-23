@@ -1,0 +1,8 @@
+var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0 =
+[
+    [ "GUICollectionAsStoragesEnum", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#aa0ac67566b8f2f84f4a6d8e89d75a030", null ],
+    [ "Dispose", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#ae50272995304012364b6711ee91e04f4", null ],
+    [ "MoveNext", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#a25318cfa0aa8d2a1b6a8e9b8b5cd55c6", null ],
+    [ "Reset", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#a07f42ceba6d5d610e1551b63dda54bee", null ],
+    [ "Current", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#ab91f5495f18287b260c83a9fa6edf451", null ]
+];

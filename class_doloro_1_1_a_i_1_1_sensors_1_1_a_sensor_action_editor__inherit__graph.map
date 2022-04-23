@@ -1,0 +1,11 @@
+<map id="Doloro.AI.Sensors.ASensorActionEditor" name="Doloro.AI.Sensors.ASensorActionEditor">
+<area shape="rect" id="node1" title="Base editor for entire nodes derived from the ASensorAction." alt="" coords="147,136,328,177"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_invertible_sensor_action_editor.html" title="Base editor for entire nodes derived from the AInvertibleSensorAction." alt="" coords="382,71,573,112"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_a_sensor_filter_action_editor.html" title=" " alt="" coords="376,136,579,177"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_zone_editor.html" title="Custom editor for the Zone action." alt="" coords="385,201,569,243"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="5,143,99,170"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action_editor.html" title="Base editor for entire nodes derived from the ASelectingSensorAction." alt="" coords="627,71,821,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_get_object_from_zone_editor.html" title="Custom editor for the GetObjectFromZone action." alt="" coords="869,5,1053,47"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_sound_listener_editor.html" title="Custom editor for the SoundListener action." alt="" coords="869,71,1053,112"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_visual_editor.html" title="Custom editor for the Visual action." alt="" coords="878,136,1045,177"/>
+</map>

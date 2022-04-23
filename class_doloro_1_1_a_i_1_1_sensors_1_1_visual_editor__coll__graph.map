@@ -1,0 +1,7 @@
+<map id="Doloro.AI.Sensors.VisualEditor" name="Doloro.AI.Sensors.VisualEditor">
+<area shape="rect" id="node1" title="Custom editor for the Visual action." alt="" coords="21,304,187,345"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action_editor.html" title="Base editor for entire nodes derived from the ASelectingSensorAction." alt="" coords="5,229,203,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_invertible_sensor_action_editor.html" title="Base editor for entire nodes derived from the AInvertibleSensorAction." alt="" coords="7,155,201,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action_editor.html" title="Base editor for entire nodes derived from the ASensorAction." alt="" coords="33,80,175,107"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="57,5,151,32"/>
+</map>

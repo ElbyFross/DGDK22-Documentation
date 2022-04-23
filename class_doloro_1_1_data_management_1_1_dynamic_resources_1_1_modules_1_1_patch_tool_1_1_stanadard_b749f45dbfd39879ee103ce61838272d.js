@@ -1,0 +1,10 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d =
+[
+    [ "Awake", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#abc4e2030d31f186d35cca92634445041", null ],
+    [ "Patch", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#a163e65b48be00d69f0c1dd5f922160fb", null ],
+    [ "Start", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#af75444acf360ae0de1d5399751efc3d1", null ],
+    [ "assignationTime", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#ac5b236a544f05c7436b190e1739fb9bb", null ],
+    [ "executionTime", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#a056fd1134823bd878d443a156bf67c82", null ],
+    [ "propertiesToRemove", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#af7990999580c40b9b382ea75385c0857", null ],
+    [ "OrderKey", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html#a12d3046de9f7d9d51541feb922b96934", null ]
+];

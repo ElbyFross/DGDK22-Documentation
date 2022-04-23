@@ -1,0 +1,7 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.StringAssetProperty" name="Doloro.DataManagement.AssetPropertiesSystem.StringAssetProperty">
+<area shape="rect" id="node1" title="Property that provides string field." alt="" coords="198,185,445,227"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property.html" title="Abstract class that implements core features related to the dynamic asset properties framework." alt="" coords="203,109,309,136"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_key_holder.html" title="Declares member for key related features." alt="" coords="5,13,91,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="342,13,434,39"/>
+<area shape="rect" id="node5" href="$struct_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info.html" title="Information about object representation at the UI." alt="" coords="115,5,317,47"/>
+</map>

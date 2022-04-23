@@ -1,0 +1,12 @@
+<map id="Doloro.UIEngine2.WindowResizeController" name="Doloro.UIEngine2.WindowResizeController">
+<area shape="rect" id="node1" title="Component that provides handling features for resizing of the Window by using its edges or corners." alt="" coords="1227,145,1439,186"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html" title="An abstract class that implement base background features for handling window layout." alt="" coords="1007,152,1177,179"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="529,199,716,225"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,192,257,219"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module." alt="" coords="323,5,489,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,192,116,219"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="740,107,912,133"/>
+<area shape="rect" id="node8" href="$interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html" title="Declares members for classes that could be part of complex multi&#45;layer windows register." alt="" coords="307,56,505,83"/>
+<area shape="rect" id="node9" href="$interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html" title="Interface that declares API for GUI roots." alt="" coords="350,107,462,133"/>
+<area shape="rect" id="node10" href="$interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html" title="Declares properties required for layouts with a limited size values." alt="" coords="335,157,477,184"/>
+</map>

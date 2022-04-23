@@ -1,0 +1,4 @@
+<map id="Doloro.AI.Sensors.Instance.DeclareDependentFilteredSensor" name="Doloro.AI.Sensors.Instance.DeclareDependentFilteredSensor">
+<area shape="rect" id="node1" title="Declaring new DependentFilteredSensor with Sphere collider via the AISensorsManager" alt="" coords="5,80,217,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="82,5,141,32"/>
+</map>

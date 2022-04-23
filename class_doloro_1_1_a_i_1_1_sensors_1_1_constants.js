@@ -1,0 +1,5 @@
+var class_doloro_1_1_a_i_1_1_sensors_1_1_constants =
+[
+    [ "ADD_COMPONENT_MENU_PREFIX", "class_doloro_1_1_a_i_1_1_sensors_1_1_constants.html#ae087e4dc704fccb6d852f892ece61e78", null ],
+    [ "VERSION", "class_doloro_1_1_a_i_1_1_sensors_1_1_constants.html#a1b1f11fd4708a033a4cd45e6cb4191cc", null ]
+];

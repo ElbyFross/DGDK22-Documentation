@@ -1,0 +1,5 @@
+<map id="Doloro.DataManagement.DynamicResources.Search.SignatureFilter&lt; T &gt;" name="Doloro.DataManagement.DynamicResources.Search.SignatureFilter&lt; T &gt;">
+<area shape="rect" id="node1" title="Checks that the object has certain signature. (Case insensitive)" alt="" coords="5,155,253,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html" title="Encapsulates common Query logic for components filtering." alt="" coords="47,80,212,107"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_i_resource_filter.html" title="An interface of the query entity used during advanced search among resources." alt="" coords="75,5,184,32"/>
+</map>

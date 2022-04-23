@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Set.AnimatorPropertyEditor" name="Doloro.AI.Set.AnimatorPropertyEditor">
+<area shape="rect" id="node1" title="Editor for the AnimatorProperty action." alt="" coords="5,155,209,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_a_var_log_action_editor.html" title="Base editor that provides Debug GUI with variables logs." alt="" coords="36,80,179,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="61,5,154,32"/>
+</map>

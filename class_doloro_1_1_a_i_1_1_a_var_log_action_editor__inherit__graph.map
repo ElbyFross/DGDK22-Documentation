@@ -1,0 +1,11 @@
+<map id="Doloro.AI.AVarLogActionEditor" name="Doloro.AI.AVarLogActionEditor">
+<area shape="rect" id="node1" title="Base editor that provides Debug GUI with variables logs." alt="" coords="147,187,347,214"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_get_1_1_child_object_editor.html" title="Editor for the ChildObject action." alt="" coords="415,5,585,47"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_get_1_1_get_rect_around_object_editor.html" title="Editor for the GetRectAroundObject action." alt="" coords="403,71,597,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_memory_1_1_copy_editor.html" title="Editor for the Copy action." alt="" coords="403,137,597,163"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_memory_1_1_exists_editor.html" title="Editor for the Exists action." alt="" coords="399,187,601,214"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_a_i_1_1_memory_1_1_remove_editor.html" title="Editor for the Remove action." alt="" coords="395,238,605,265"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_a_i_1_1_operators_1_1_a_operator_action_editor.html" title="Base editor for actions derived from AMathAction&lt;T&gt; ." alt="" coords="401,289,599,331"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_a_i_1_1_set_1_1_set_animator_property_editor.html" title="Editor for the SetAnimatorProperty action." alt="" coords="413,355,587,396"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="5,187,99,214"/>
+</map>

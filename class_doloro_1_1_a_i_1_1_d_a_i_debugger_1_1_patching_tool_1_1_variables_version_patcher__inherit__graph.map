@@ -1,0 +1,4 @@
+<map id="Doloro.AI.DAIDebugger.PatchingTool.VariablesVersionPatcher" name="Doloro.AI.DAIDebugger.PatchingTool.VariablesVersionPatcher">
+<area shape="rect" id="node1" title="Transfers obsolete variables stored at the node to the new format." alt="" coords="5,80,216,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_a_patch_logic.html" title="The base class for any integrable patchers. Will be called by the Patcher instance during validation ..." alt="" coords="63,5,159,32"/>
+</map>

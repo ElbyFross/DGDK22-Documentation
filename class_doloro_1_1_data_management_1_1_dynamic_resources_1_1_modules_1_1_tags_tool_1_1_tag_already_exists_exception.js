@@ -1,0 +1,6 @@
+var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception =
+[
+    [ "TagAlreadyExistsException", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception.html#ad8e73d6c40d9c31283aed4c89f4f2a01", null ],
+    [ "TagAlreadyExistsException", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception.html#a420329e21bb3748247567ec09fda3289", null ],
+    [ "CollidedTag", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_already_exists_exception.html#aa2713168531ec63b2e861e76bae00806", null ]
+];

@@ -1,0 +1,13 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.IKeyHolder" name="Doloro.DataManagement.AssetPropertiesSystem.IKeyHolder">
+<area shape="rect" id="node1" title="Declares member for key related features." alt="" coords="5,199,208,240"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection_1_1_properies_domain.html" title="Implements API for the layer relayed features." alt="" coords="256,154,479,210"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property.html" title="Abstract class that implements core features related to the dynamic asset properties framework." alt="" coords="261,235,474,276"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_bool_asset_property.html" title="Property that provides boolean field." alt="" coords="537,5,775,47"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_flag_asset_property.html" title="Property that provides flag field." alt="" coords="537,71,775,112"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html" title="Property that provides float field." alt="" coords="535,136,777,177"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_int_asset_property.html" title="Property that provides int field." alt="" coords="543,201,769,243"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property.html" title="Property that provides string field." alt="" coords="533,267,779,308"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html" title="Property that provides Vector2 field." alt="" coords="527,332,785,373"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector3_asset_property.html" title="Property that provides Vector3 field." alt="" coords="527,397,785,439"/>
+<area shape="rect" id="node11" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector4_asset_property.html" title="Property that provides Vector4 field." alt="" coords="527,463,785,504"/>
+</map>

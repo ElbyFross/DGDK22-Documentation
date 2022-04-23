@@ -1,0 +1,9 @@
+<map id="Doloro.DataManagement.AssetPropertiesSystem.AssetPropertiesCollection" name="Doloro.DataManagement.AssetPropertiesSystem.AssetPropertiesCollection">
+<area shape="rect" id="node1" title="A collection of custom properties related to some asset." alt="" coords="67,244,290,300"/>
+<area shape="rect" id="node2" title=" " alt="" coords="39,169,150,196"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_session_properties_provider.html" title="Class that implements the interface considering as cross&#45;session properties provider that could resto..." alt="" coords="174,169,351,196"/>
+<area shape="rect" id="node4" href="$interface_doloro_1_1_data_management_1_1_serialization_1_1_i_binary_data_provider.html" title="Class derived from the interface could be converted to binary back and forward." alt="" coords="5,80,173,121"/>
+<area shape="rect" id="node5" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html" title="Derived from the interface classes considering as AssetProperty instances provider." alt="" coords="197,87,328,114"/>
+<area shape="rect" id="node6" title=" " alt="" coords="168,5,357,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="352,87,435,114"/>
+</map>

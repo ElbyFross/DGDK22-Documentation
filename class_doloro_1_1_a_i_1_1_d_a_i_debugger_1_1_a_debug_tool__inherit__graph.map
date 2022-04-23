@@ -1,0 +1,8 @@
+<map id="Doloro.AI.DAIDebugger.ADebugTool" name="Doloro.AI.DAIDebugger.ADebugTool">
+<area shape="rect" id="node1" title="Base class for DAI Debug tool that must be inherited by any add&#45;on." alt="" coords="5,143,235,170"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html" title="Tools that provides a convenient way to manage source project&#39;s breakpoints." alt="" coords="283,5,511,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html" title="Tool that provides a view of the project&#39;s error and warnings." alt="" coords="299,71,494,112"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_memory_analyzer.html" title="Tool that controls AI memory and catching unprotected or suspicious operations with it." alt="" coords="293,136,500,177"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html" title="Tool for AI projects patching." alt="" coords="291,201,502,243"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_profiler.html" title="Tool for performance monitoring." alt="" coords="297,267,496,294"/>
+</map>

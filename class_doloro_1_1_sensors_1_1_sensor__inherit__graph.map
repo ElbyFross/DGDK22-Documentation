@@ -1,0 +1,7 @@
+<map id="Doloro.Sensors.Sensor" name="Doloro.Sensors.Sensor">
+<area shape="rect" id="node1" title="Menages the object entering and exits" alt="" coords="67,80,223,107"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_sensors_1_1_filtered_sensor.html" title="Sensor that pass only objects that pass conditions defined with ASensorFilter." alt="" coords="45,155,244,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,5,319,32"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html" title="Sensor that has not self trigger zone and using another sensor as source of triggered object to extra..." alt="" coords="56,229,233,271"/>
+</map>

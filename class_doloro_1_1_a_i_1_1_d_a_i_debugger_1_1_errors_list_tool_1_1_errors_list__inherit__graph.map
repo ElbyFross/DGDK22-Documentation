@@ -1,0 +1,4 @@
+<map id="Doloro.AI.DAIDebugger.ErrorsListTool.ErrorsList" name="Doloro.AI.DAIDebugger.ErrorsListTool.ErrorsList">
+<area shape="rect" id="node1" title="Tool that provides a view of the project&#39;s error and warnings." alt="" coords="5,80,200,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_a_debug_tool.html" title="Base class for DAI Debug tool that must be inherited by any add&#45;on." alt="" coords="57,5,149,32"/>
+</map>

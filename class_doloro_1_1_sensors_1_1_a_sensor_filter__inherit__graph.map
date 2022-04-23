@@ -1,0 +1,8 @@
+<map id="Doloro.Sensors.ASensorFilter" name="Doloro.Sensors.ASensorFilter">
+<area shape="rect" id="node1" title="An interface used into the Doloro Sensors module to extend the build&#45;in sensor filter algorithms." alt="" coords="164,111,359,138"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_sensors_1_1_filters_1_1_game_object_sensor_filter.html" title="Compares game objects and pass through the filter only if object the same." alt="" coords="417,5,607,47"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_sensors_1_1_filters_1_1_hierarchy_root_sensor_filter.html" title="Checks is the detecting objects belong to the same root as the filter." alt="" coords="407,71,617,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_sensors_1_1_filters_1_1_layer_sensor_filter.html" title="Filters objects detected by the FilteredSensor along with the GameObject.layer property." alt="" coords="419,136,605,177"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_sensors_1_1_filters_1_1_tag_sensor_filter.html" title="Filtering detecting objects along with the GameObject.tag property." alt="" coords="424,201,600,243"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,111,116,138"/>
+</map>

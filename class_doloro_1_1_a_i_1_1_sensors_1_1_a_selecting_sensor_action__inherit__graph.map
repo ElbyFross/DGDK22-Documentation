@@ -1,0 +1,9 @@
+<map id="Doloro.AI.Sensors.ASelectingSensorAction" name="Doloro.AI.Sensors.ASelectingSensorAction">
+<area shape="rect" id="node1" title="Base class for any action that selected one object for the Sensor&#39;s pool." alt="" coords="476,64,671,105"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_get_object_from_zone.html" title="Looking for object at the sensor&#39;s zone along with defined search parameters." alt="" coords="731,5,921,47"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_sound_listener.html" title="Checking noise parameter at the AudioSourceLoudnessTester for the detected object." alt="" coords="719,71,933,98"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html" title="Sensor that simulates character&#39;s view scope." alt="" coords="743,122,909,149"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_invertible_sensor_action.html" title="Sensor related action that result can be inverted." alt="" coords="269,71,428,98"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="112,71,221,98"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="5,71,64,98"/>
+</map>

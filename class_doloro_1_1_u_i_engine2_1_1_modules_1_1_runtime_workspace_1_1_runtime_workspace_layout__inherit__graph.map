@@ -1,0 +1,7 @@
+<map id="Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayout" name="Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayout">
+<area shape="rect" id="node1" title="Runtime workspace zone." alt="" coords="5,304,260,360"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html" title="Workspace provider clamped with size limits." alt="" coords="35,229,230,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html" title="GUI Element that provides workspace connection features." alt="" coords="61,155,204,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="87,80,179,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="77,5,188,32"/>
+</map>

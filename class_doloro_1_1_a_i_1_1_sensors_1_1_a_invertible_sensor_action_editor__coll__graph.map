@@ -1,0 +1,5 @@
+<map id="Doloro.AI.Sensors.AInvertibleSensorActionEditor" name="Doloro.AI.Sensors.AInvertibleSensorActionEditor">
+<area shape="rect" id="node1" title="Base editor for entire nodes derived from the AInvertibleSensorAction." alt="" coords="5,155,196,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action_editor.html" title="Base editor for entire nodes derived from the ASensorAction." alt="" coords="29,80,172,107"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="54,5,147,32"/>
+</map>

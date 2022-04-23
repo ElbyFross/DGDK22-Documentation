@@ -1,0 +1,7 @@
+<map id="Doloro.AI.AGenericActionEditor&lt; T &gt;" name="Doloro.AI.AGenericActionEditor&lt; T &gt;">
+<area shape="rect" id="node1" title="Base class for the editors with undefined handling type." alt="" coords="147,39,317,80"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_compare_1_1_a_binary_compare_action_editor.html" title="Editor that implements base UI for the ABinaryCompareAction&lt;T&gt; nodes with two states: equal,..." alt="" coords="365,5,547,47"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_set_1_1_a_set_memory_value_action_editor.html" title="Base editor for Set Memory&#45;like action." alt="" coords="367,71,545,112"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration." alt="" coords="5,46,99,73"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action_editor.html" title="Editor that implements base UI for the ACompareAction&lt;T&gt; nodes." alt="" coords="595,5,791,47"/>
+</map>

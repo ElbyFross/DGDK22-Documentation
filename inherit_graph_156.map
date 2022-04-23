@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension.html" title=" " alt="" coords="5,63,200,119"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html" title="GUI extension that allows to load Storage&#39;s items content to the AGUIElementsCollection instance." alt="" coords="248,5,488,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_lock_g_u_i_extension.html" title="Extends StorageGUIElement or similar with Properties.StorageLock related features." alt="" coords="281,71,455,112"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_weight_g_u_i_extension.html" title="Extends StorageGUIElement or similar with Properties.StorageWeightLimiter related features." alt="" coords="274,136,462,177"/>
+</map>

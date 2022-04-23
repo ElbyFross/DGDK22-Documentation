@@ -1,0 +1,7 @@
+<map id="Doloro.AI.Sensors.AInvertibleSensorAction" name="Doloro.AI.Sensors.AInvertibleSensorAction">
+<area shape="rect" id="node1" title="Sensor related action that result can be inverted." alt="" coords="5,261,196,303"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="46,185,155,212"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="50,89,109,115"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="Manager that controls placing of sensors and their core functions." alt="" coords="133,81,324,123"/>
+<area shape="rect" id="node5" title=" " alt="" coords="173,5,284,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Doloro.InvetorySystem.StorageEditor" name="Doloro.InvetorySystem.StorageEditor">
+<area shape="rect" id="node1" title="Custom editor related to the Storage component." alt="" coords="27,169,229,211"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource_editor.html" title="Editor for the DynamicResource component." alt="" coords="5,80,251,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,5,156,32"/>
+</map>

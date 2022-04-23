@@ -1,0 +1,4 @@
+<map id="Doloro.AI.DAIInspector.CustomPropertiesTab" name="Doloro.AI.DAIInspector.CustomPropertiesTab">
+<area shape="rect" id="node1" title="Drawing custom inspector GUI for the node." alt="" coords="5,80,208,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_inspector_tab.html" title="Base class for entire layout inspector tabs." alt="" coords="54,5,159,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Doloro.DataManagement.DynamicResources.ISignedResource" name="Doloro.DataManagement.DynamicResources.ISignedResource">
+<area shape="rect" id="node1" title="Declares sign members for the resource&#45;like type." alt="" coords="5,71,225,112"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info_1_1_icon_resource_info.html" title="Class that declares meta&#45;data for the icon related to resource." alt="" coords="273,5,539,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="296,71,516,112"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html" title="Container that using as data entry for the StoragesDatabase." alt="" coords="302,136,510,177"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="597,53,778,79"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in&#45;game storage." alt="" coords="587,103,788,130"/>
+</map>

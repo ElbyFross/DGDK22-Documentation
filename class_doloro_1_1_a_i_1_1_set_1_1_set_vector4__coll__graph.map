@@ -1,0 +1,4 @@
+<map id="Doloro.AI.Set.SetVector4" name="Doloro.AI.Set.SetVector4">
+<area shape="rect" id="node1" title="Action that sending BaseTypes.Vector4 value to the memory." alt="" coords="5,95,173,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_set_1_1_a_set_memory_value_action.html" title=" " alt="" coords="5,5,173,47"/>
+</map>
