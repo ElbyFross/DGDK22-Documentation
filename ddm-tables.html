@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -86,28 +87,10 @@ $(document).ready(function(){initNavTree('ddm-tables.html',''); initResizable();
   <div class="headertitle"><div class="title">Tables </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md47">About</a></li>
-<li class="level2"><a href="#autotoc_md48">Features</a></li>
-<li class="level2"><a href="#autotoc_md49">Structure</a><ul><li class="level3"><a href="#autotoc_md50">Table (Database)</a></li>
-<li class="level3"><a href="#autotoc_md51">Spreadsheet (Project)</a></li>
-<li class="level3"><a href="#autotoc_md52">Solution (Complex workspace)</a></li>
-<li class="level3"><a href="#autotoc_md53">SpreadsheetEditor</a></li>
-<li class="level3"><a href="#autotoc_md54">SolutionInspector</a></li>
-</ul>
-</li>
-<li class="level2"><a href="#autotoc_md55">How to use</a><ul><li class="level3"><a href="#autotoc_md56">How to export\import data to Excel</a></li>
-</ul>
-</li>
-</ul>
-</ul>
-</div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md47"></a>
-About</h2>
-<p >A system that implements clustered 2 dimensional database with.</p>
-<h2><a class="anchor" id="autotoc_md48"></a>
-Features</h2>
-<ul>
+<div class="textblock"><h1><a class="anchor" id="ddm-tables-a"></a>
+About</h1>
+<p >Growing up module that implements tables and follwing editors, API and utils to handle related content.</p>
+<p ><b>Features:</b></p><ul>
 <li>Fast element access: O(1).</li>
 <li>Economic RAM using.</li>
 <li>Fast allocation (database for 400 000 000 element allocates in &lt;1ms).</li>
@@ -115,55 +98,12 @@ Features</h2>
 <li>Unity-site table editor</li>
 <li>XML 2003 exporting (friendly with Excel)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md49"></a>
-Structure</h2>
-<h3><a class="anchor" id="autotoc_md50"></a>
-Table (Database)</h3>
-<p >Raw 2 dimensional data set.</p>
-<p >Provides elements read\write access in O(1) for existing clusters. New clusters initialization requires O(EXIST_CLUSTERS_N) time.</p>
-<p >Supports binary serialization.</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
-Spreadsheet (Project)</h3>
-<p >Meta file that contains setting referenced to certain table that defines high-end behavior.</p>
-<p >Main properties:</p><ul>
-<li>Columns\rows sizes</li>
-<li>Columns\rows titles</li>
-<li>User scope position</li>
-<li>Styles</li>
-<li>Reference to the source data set.</li>
+<p ><b>More in this category:</b></p><ul>
+<li><a class="el" href="ddm-tables-s.html">Runtime \ Data Structure</a></li>
+<li><a class="el" href="ddm-tables-editor.html">Editor controllers</a></li>
+<li><a class="el" href="ddm-tables-ht.html">How to ...</a></li>
+<li><a class="el" href="ddm-tables-converter-cstm.html">Custom data converter</a> </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md52"></a>
-Solution (Complex workspace)</h3>
-<p >Meta file that bonds different spreadsheets to single project.</p>
-<ul>
-<li><b>NOT IMPLEMENTED</b> Implements API for bridging data between different tables.</li>
-<li>Manages spreadsheets loading.</li>
-</ul>
-<h3><a class="anchor" id="autotoc_md53"></a>
-SpreadsheetEditor</h3>
-<p >Editor that displays UI for single <code>Table</code> + <code>Spreadsheet</code> pair.</p>
-<h3><a class="anchor" id="autotoc_md54"></a>
-SolutionInspector</h3>
-<p >Editor that manages data provides with the <code>Solution</code> instance.</p>
-<h2><a class="anchor" id="autotoc_md55"></a>
-How to use</h2>
-<h3><a class="anchor" id="autotoc_md56"></a>
-How to export\import data to Excel</h3>
-<p ><b>Export</b> </p><div class="fragment"><div class="line">namespace Doloro.DataManagement.Tables;</div>
-<div class="line"> </div>
-<div class="line">Table source;</div>
-<div class="line"> </div>
-<div class="line">// Table initialization</div>
-<div class="line">....</div>
-<div class="line">// --------------------</div>
-<div class="line"> </div>
-<div class="line">var converter = new LinqXMLConverter(); // Creating converter instance.</div>
-<div class="line">converter.StartEnvironment();           // Starting environment services.</div>
-<div class="line">converter.Open(FILE_DIR + FILE_NAME + &quot;.xml&quot;); // Opening directory to the file to create\override.</div>
-<div class="line">converter.Write(source);        // Exporting data to the file.</div>
-<div class="line">converter.Close();              // Closing file\directory access.</div>
-<div class="line">converter.FinishEnvironment();  // Finalizing environment services. </div>
-</div><!-- fragment --><p ><b>Import</b> <em>NOT IMPLEMENTED YET</em> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

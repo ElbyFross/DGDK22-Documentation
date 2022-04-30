@@ -12,6 +12,6 @@ var searchData=
   ['localresourcesbundlekey_9',['LocalResourcesBundleKey',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html#ae3111188dd025dddf949b93e79057ab8',1,'Doloro::DataManagement::DynamicResources::ResourcesCollection']]],
   ['locked_10',['locked',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock_1_1_data_container.html#abe3f91485a7d9f5ff64939526e7027da',1,'Doloro::InvetorySystem::Properties::StorageLock::DataContainer']]],
   ['lockicon_11',['lockIcon',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_lock_g_u_i_extension.html#a445486939f7369a9b6cc800dbed4fe51',1,'Doloro::InvetorySystem::UI::StorageLockGUIExtension']]],
-  ['loglabel_12',['logLabel',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_hashed_tags_resources_loader.html#a76044855ea3af9b74b84dd1d4283d26d',1,'Doloro::DataManagement::AssetBundlesTools::HashedTagsResourcesLoader']]],
+  ['loglabel_12',['logLabel',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html#ad20ed8417104d7fa07c1f0d6c71a9094',1,'Doloro::DataManagement::AssetBundlesTools::CachedTagsResourcesLoader']]],
   ['logtype_13',['logType',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#a78ea86843fc34997b815e1cde2b7f858',1,'Doloro::AI::Primitive::Log']]]
 ];

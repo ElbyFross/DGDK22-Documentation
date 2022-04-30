@@ -1,0 +1,4 @@
+var interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource =
+[
+    [ "IsConflictsWith", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html#a7804d40fa64729539329a2863d294182", null ]
+];

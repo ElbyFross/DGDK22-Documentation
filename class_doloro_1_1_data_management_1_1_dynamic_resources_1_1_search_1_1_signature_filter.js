@@ -5,7 +5,7 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signat
     [ "IsResourcePassingFilter", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#af2a65bb5bb0215e65d12fb41bed710a6", null ],
     [ "IsResourcePassingFilter", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a1773452bd4c30246ae84939434366ebc", null ],
     [ "IsResourcePassingFilter", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#abd3c2107bdbe5cdf8809469128cb3628", null ],
-    [ "ResourceFilter", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a7c0d66c60428c18d9d3da1cb8c942d95", null ],
+    [ "OnResourceFilter", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a22d0d482fbb1fb540c1d812c72fecc8d", null ],
     [ "Bundle", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#aa6e97eb97fb6d08875a980fad22e9299", null ],
     [ "GetStaticSignature", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#ab44b1d0841b6a404a731f12f521434f2", null ],
     [ "HandlingType", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#ade808561763775fb00ca628c63388ed2", null ],

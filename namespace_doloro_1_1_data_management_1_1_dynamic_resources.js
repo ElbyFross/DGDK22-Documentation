@@ -17,6 +17,6 @@ var namespace_doloro_1_1_data_management_1_1_dynamic_resources =
     [ "IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html", null ],
     [ "ResourceContainer", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container" ],
     [ "ResourcesCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection" ],
-    [ "ResourcesManagementAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i" ],
+    [ "ResourcesManager", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager" ],
     [ "Version", "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html", "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version" ]
 ];

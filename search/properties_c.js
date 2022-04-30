@@ -16,6 +16,7 @@ var searchData=
   ['minvalue_13',['minValue',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_g_u_i_element.html#a9c6c68144c0d859cf45fee973f61b89c',1,'Doloro::UIEngine2::Modules::BaseControls::MeasuredSliderGUIElement']]],
   ['mode_14',['mode',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element.html#a9e3b22c3e7304e2e98cfb58f99ff1aba',1,'Doloro::InvetorySystem::Modules::Shops::UI::ExchangeBufferGUIElement']]],
   ['modified_15',['Modified',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#a3425b6eb4e1f3727df37c7657e9235f7',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::TagsDatabase']]],
-  ['modifiesaisource_16',['ModifiesAISource',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_inspector_tab.html#aa1e6bc22fd57e68134094be5766f2e91',1,'Doloro::AI::DAIInspector::AInspectorTab']]],
-  ['mousesessiondelta_17',['MouseSessionDelta',['../class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html#a9de8dc22058fc94e9c8b9ae2354c4db6',1,'Doloro::UIEngine2::AFreespaceLayoutController']]]
+  ['modifier_16',['modifier',['../struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html#aed977c95642fea3abce00f12deb2856f',1,'Doloro::DataManagement::DynamicResources::Version']]],
+  ['modifiesaisource_17',['ModifiesAISource',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_inspector_tab.html#aa1e6bc22fd57e68134094be5766f2e91',1,'Doloro::AI::DAIInspector::AInspectorTab']]],
+  ['mousesessiondelta_18',['MouseSessionDelta',['../class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html#a9de8dc22058fc94e9c8b9ae2354c4db6',1,'Doloro::UIEngine2::AFreespaceLayoutController']]]
 ];

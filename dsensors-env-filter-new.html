@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -87,20 +88,20 @@ $(document).ready(function(){initNavTree('dsensors-env-filter-new.html',''); ini
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md82">New filter creation</a></li>
-<li class="level2"><a href="#autotoc_md83">Development rules</a></li>
+<ul><ul><li class="level2"><a href="#autotoc_md110">New filter creation</a></li>
+<li class="level2"><a href="#autotoc_md111">Development rules</a></li>
 </ul>
 </ul>
 </div>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000064">Todo:</a></b></dt><dd>Not completed tutorial</dd></dl>
-<h2><a class="anchor" id="autotoc_md82"></a>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>Not completed tutorial</dd></dl>
+<h2><a class="anchor" id="autotoc_md110"></a>
 New filter creation</h2>
 <ul>
 <li>Create a <code>MonoBechavior</code> component and inheirt it from the <code>ASensorFilter</code> interface.</li>
 <li>Add the component on the same object as the target <code>SensorManager</code>.</li>
 <li>The new filter will be loaded during the sensor awaking or manual via <code>ReloadFilters</code> API.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md83"></a>
+<h2><a class="anchor" id="autotoc_md111"></a>
 Development rules</h2>
 <ul>
 <li>Call <code>ASensorFilter.OnModified</code> handler each time when you modifies core properties of your filter in case if you what to update your filtered colletion alnong with new rules.</li>

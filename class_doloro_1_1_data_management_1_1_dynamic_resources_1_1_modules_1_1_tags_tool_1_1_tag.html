@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -85,8 +86,10 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_data_management_1_1_d
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag Class Reference</div></div>
 </div><!--header-->
@@ -100,7 +103,7 @@ Inheritance diagram for Doloro.DataManagement.DynamicResources.Modules.TagsTool.
 <div class="center"><img src="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag__inherit__graph.png" border="0" usemap="#a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_inherit__map" id="a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_inherit__map">
 <area shape="rect" title="A tag settings that defines behavior of systems those integrate the Tag Tool." alt="" coords="33,95,253,136"/>
-<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,5,145,47"/>
+<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,5,145,47"/>
 <area shape="rect" title=" " alt="" coords="170,13,253,39"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -110,7 +113,7 @@ Collaboration diagram for Doloro.DataManagement.DynamicResources.Modules.TagsToo
 <div class="center"><img src="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag__coll__graph.png" border="0" usemap="#a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_coll__map" alt="Collaboration graph"/></div>
 <map name="a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_coll__map" id="a_doloro_8_data_management_8_dynamic_resources_8_modules_8_tags_tool_8_tag_coll__map">
 <area shape="rect" title="A tag settings that defines behavior of systems those integrate the Tag Tool." alt="" coords="101,109,321,151"/>
-<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,5,145,47"/>
+<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,5,145,47"/>
 <area shape="rect" title=" " alt="" coords="170,13,253,39"/>
 <area shape="rect" title=" " alt="" coords="277,13,369,39"/>
 </map>
@@ -118,7 +121,10 @@ Collaboration diagram for Doloro.DataManagement.DynamicResources.Modules.TagsToo
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a174c64536cd8a59fe49ffca350af87da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a174c64536cd8a59fe49ffca350af87da">Tag</a> (string <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#afbe2914284c103ed3072e973bd025257">key</a>)</td></tr>
+<tr class="memitem:a69a4c0d1f54b11c54ee07e7a4cdc6da6"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a69a4c0d1f54b11c54ee07e7a4cdc6da6">TagHandler</a> (<a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html">Tag</a> tag)</td></tr>
+<tr class="memdesc:a69a4c0d1f54b11c54ee07e7a4cdc6da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler using for tag related operations.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a69a4c0d1f54b11c54ee07e7a4cdc6da6">More...</a><br /></td></tr>
+<tr class="separator:a69a4c0d1f54b11c54ee07e7a4cdc6da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174c64536cd8a59fe49ffca350af87da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a174c64536cd8a59fe49ffca350af87da">Tag</a> (string key)</td></tr>
 <tr class="memdesc:a174c64536cd8a59fe49ffca350af87da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates the tag's data.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a174c64536cd8a59fe49ffca350af87da">More...</a><br /></td></tr>
 <tr class="separator:a174c64536cd8a59fe49ffca350af87da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee50bb9d050f286ae47586c1ed86de1"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a6ee50bb9d050f286ae47586c1ed86de1">Clone</a> ()</td></tr>
@@ -127,52 +133,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7160dbcdf3d3487ee74d89004b3d31f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a7160dbcdf3d3487ee74d89004b3d31f4">MergeTo</a> (<a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html">Tag</a> to)</td></tr>
 <tr class="memdesc:a7160dbcdf3d3487ee74d89004b3d31f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copying values of the:  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a7160dbcdf3d3487ee74d89004b3d31f4">More...</a><br /></td></tr>
 <tr class="separator:a7160dbcdf3d3487ee74d89004b3d31f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68a1932be0f1848c3b77a27bbfaab4c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68a1932be0f1848c3b77a27bbfaab4c8">MergeTo</a> (<a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html">IMergeableResource</a> to)</td></tr>
+<tr class="memitem:a68a1932be0f1848c3b77a27bbfaab4c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68a1932be0f1848c3b77a27bbfaab4c8">MergeTo</a> (<a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html">IMergeableResource</a> to)</td></tr>
 <tr class="memdesc:a68a1932be0f1848c3b77a27bbfaab4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirecting to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a7160dbcdf3d3487ee74d89004b3d31f4" title="Copying values of the:">MergeTo(Tag)</a> with safe cast of resource to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html" title="A tag settings that defines behavior of systems those integrate the Tag Tool.">Tag</a>.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68a1932be0f1848c3b77a27bbfaab4c8">More...</a><br /></td></tr>
 <tr class="separator:a68a1932be0f1848c3b77a27bbfaab4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8847f76b562b0c6a7ce782a60159cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html#ae8847f76b562b0c6a7ce782a60159cf7">MergeTo</a> (T to)</td></tr>
-<tr class="memdesc:ae8847f76b562b0c6a7ce782a60159cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sharing itself values to some another merging resource.  <a href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html#ae8847f76b562b0c6a7ce782a60159cf7">More...</a><br /></td></tr>
-<tr class="separator:ae8847f76b562b0c6a7ce782a60159cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:afbe2914284c103ed3072e973bd025257"><td class="memItemLeft" align="right" valign="top"><a id="afbe2914284c103ed3072e973bd025257" name="afbe2914284c103ed3072e973bd025257"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>key</b></td></tr>
-<tr class="memdesc:afbe2914284c103ed3072e973bd025257"><td class="mdescLeft">&#160;</td><td class="mdescRight">An unique key of the tag. <br /></td></tr>
-<tr class="separator:afbe2914284c103ed3072e973bd025257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfbf4f295c1d72f3ce7cbfb052e51150"><td class="memItemLeft" align="right" valign="top"><a id="abfbf4f295c1d72f3ce7cbfb052e51150" name="abfbf4f295c1d72f3ce7cbfb052e51150"></a>
-<a class="el" href="namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6">TagVisibility</a>&#160;</td><td class="memItemRight" valign="bottom"><b>visibility</b></td></tr>
-<tr class="memdesc:abfbf4f295c1d72f3ce7cbfb052e51150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visibility of the tag among the systems. <br /></td></tr>
-<tr class="separator:abfbf4f295c1d72f3ce7cbfb052e51150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68e9e331d4bb85432afa835a5b394894"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68e9e331d4bb85432afa835a5b394894">hashable</a></td></tr>
-<tr class="memdesc:a68e9e331d4bb85432afa835a5b394894"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true than the <code><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DynamicResource</a></code>s with the tag will be placed by the <code>Dynamic Resource Tool</code> in separated hash table.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68e9e331d4bb85432afa835a5b394894">More...</a><br /></td></tr>
-<tr class="separator:a68e9e331d4bb85432afa835a5b394894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a574a65fef36122f9febd2a75e1217b7d"><td class="memItemLeft" align="right" valign="top"><a id="a574a65fef36122f9febd2a75e1217b7d" name="a574a65fef36122f9febd2a75e1217b7d"></a>
-Color&#160;</td><td class="memItemRight" valign="bottom"><b>color</b></td></tr>
-<tr class="memdesc:a574a65fef36122f9febd2a75e1217b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color of the tag backplate. <br /></td></tr>
-<tr class="separator:a574a65fef36122f9febd2a75e1217b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ad131e8263de94ac5233086446e540"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html#ac9ad131e8263de94ac5233086446e540">MergeTo</a> (T to)</td></tr>
+<tr class="memdesc:ac9ad131e8263de94ac5233086446e540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sharing itself values to some another merging resource.  <a href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html#ac9ad131e8263de94ac5233086446e540">More...</a><br /></td></tr>
+<tr class="separator:ac9ad131e8263de94ac5233086446e540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a7db88cee6f732138ac7e8dd22a0e302c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a7db88cee6f732138ac7e8dd22a0e302c">TOOLTIP_HASHABLE</a></td></tr>
-<tr class="memdesc:a7db88cee6f732138ac7e8dd22a0e302c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68e9e331d4bb85432afa835a5b394894" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">hashable</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a7db88cee6f732138ac7e8dd22a0e302c">More...</a><br /></td></tr>
-<tr class="separator:a7db88cee6f732138ac7e8dd22a0e302c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57272e3db4648d7f051221624436625"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ae57272e3db4648d7f051221624436625">TOOLTIP_CACHEABLE</a></td></tr>
+<tr class="memdesc:ae57272e3db4648d7f051221624436625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa6029ca6cca99189e09584818cd8d693" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">IsCached</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ae57272e3db4648d7f051221624436625">More...</a><br /></td></tr>
+<tr class="separator:ae57272e3db4648d7f051221624436625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa289787d54c8a627cdac78b23aba4ac3"><td class="memItemLeft" align="right" valign="top"><a id="aa289787d54c8a627cdac78b23aba4ac3" name="aa289787d54c8a627cdac78b23aba4ac3"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><b>TOOLTIP_VISIBILITY</b> = &quot;Visibility of the tag among the systems.&quot;</td></tr>
-<tr class="memdesc:aa289787d54c8a627cdac78b23aba4ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#abfbf4f295c1d72f3ce7cbfb052e51150" title="Visibility of the tag among the systems.">visibility</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
+<tr class="memdesc:aa289787d54c8a627cdac78b23aba4ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a67fa825e89e67d57a55ab2cf8271473a" title="Visibility of the tag among the systems.">Visibility</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
 <tr class="separator:aa289787d54c8a627cdac78b23aba4ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c74a37b29a9d42b78002a9b0fc5855c"><td class="memItemLeft" align="right" valign="top"><a id="a3c74a37b29a9d42b78002a9b0fc5855c" name="a3c74a37b29a9d42b78002a9b0fc5855c"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>TOOLTIP_KEY</b> = &quot;An unique <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#afbe2914284c103ed3072e973bd025257">key</a> of the tag.&quot;</td></tr>
-<tr class="memdesc:a3c74a37b29a9d42b78002a9b0fc5855c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#afbe2914284c103ed3072e973bd025257" title="An unique key of the tag.">key</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
+const string&#160;</td><td class="memItemRight" valign="bottom"><b>TOOLTIP_KEY</b> = &quot;An unique key of the tag.&quot;</td></tr>
+<tr class="memdesc:a3c74a37b29a9d42b78002a9b0fc5855c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a81a0e721adbc8062301befd61d2af54d" title="An unique key of the tag.">Key</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
 <tr class="separator:a3c74a37b29a9d42b78002a9b0fc5855c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924f4b2e0c6a3ec2832be95798a4ddee"><td class="memItemLeft" align="right" valign="top"><a id="a924f4b2e0c6a3ec2832be95798a4ddee" name="a924f4b2e0c6a3ec2832be95798a4ddee"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><b>TOOLTIP_COLOR</b> = &quot;Color of the tag backplate.&quot;</td></tr>
-<tr class="memdesc:a924f4b2e0c6a3ec2832be95798a4ddee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a574a65fef36122f9febd2a75e1217b7d" title="Color of the tag backplate.">color</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
+<tr class="memdesc:a924f4b2e0c6a3ec2832be95798a4ddee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ab68dff766df1d0b48991d7b5ea55038b" title="Color of the tag GUI backplate.">Tint</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. <br /></td></tr>
 <tr class="separator:a924f4b2e0c6a3ec2832be95798a4ddee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab791043e23ff10055fc9d488c0a796c3"><td class="memItemLeft" align="right" valign="top"><a id="ab791043e23ff10055fc9d488c0a796c3" name="ab791043e23ff10055fc9d488c0a796c3"></a>
-static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultTagColor</b> = new UnityEngine.Color(0.35f, 0.35f, 1f)</td></tr>
-<tr class="memdesc:ab791043e23ff10055fc9d488c0a796c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color applied to the tags by default. <br /></td></tr>
-<tr class="separator:ab791043e23ff10055fc9d488c0a796c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a886ae03c8dbf25656f0b1c5afe2bd4a0"><td class="memItemLeft" align="right" valign="top"><a id="a886ae03c8dbf25656f0b1c5afe2bd4a0" name="a886ae03c8dbf25656f0b1c5afe2bd4a0"></a>
+static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultTagTint</b> = new UnityEngine.Color(0.35f, 0.35f, 1f)</td></tr>
+<tr class="memdesc:a886ae03c8dbf25656f0b1c5afe2bd4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color applied to the tags by default. <br /></td></tr>
+<tr class="separator:a886ae03c8dbf25656f0b1c5afe2bd4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1e3e05cafc5e4289c44e467e418c5c81"><td class="memItemLeft" align="right" valign="top"><a id="a1e3e05cafc5e4289c44e467e418c5c81" name="a1e3e05cafc5e4289c44e467e418c5c81"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnModified</b> ()</td></tr>
+<tr class="memdesc:a1e3e05cafc5e4289c44e467e418c5c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when a tag's property has been changed. <br /></td></tr>
+<tr class="separator:a1e3e05cafc5e4289c44e467e418c5c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a81a0e721adbc8062301befd61d2af54d"><td class="memItemLeft" align="right" valign="top"><a id="a81a0e721adbc8062301befd61d2af54d" name="a81a0e721adbc8062301befd61d2af54d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a81a0e721adbc8062301befd61d2af54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An unique key of the tag. <br /></td></tr>
+<tr class="separator:a81a0e721adbc8062301befd61d2af54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fa825e89e67d57a55ab2cf8271473a"><td class="memItemLeft" align="right" valign="top"><a id="a67fa825e89e67d57a55ab2cf8271473a" name="a67fa825e89e67d57a55ab2cf8271473a"></a>
+<a class="el" href="namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6">TagVisibility</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Visibility</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a67fa825e89e67d57a55ab2cf8271473a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visibility of the tag among the systems. <br /></td></tr>
+<tr class="separator:a67fa825e89e67d57a55ab2cf8271473a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6029ca6cca99189e09584818cd8d693"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa6029ca6cca99189e09584818cd8d693">IsCached</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa6029ca6cca99189e09584818cd8d693"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true than the <code><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DynamicResource</a></code>s with the tag will be placed by the <code>Dynamic Resource Tool</code> in separated hash table.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa6029ca6cca99189e09584818cd8d693">More...</a><br /></td></tr>
+<tr class="separator:aa6029ca6cca99189e09584818cd8d693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab68dff766df1d0b48991d7b5ea55038b"><td class="memItemLeft" align="right" valign="top"><a id="ab68dff766df1d0b48991d7b5ea55038b" name="ab68dff766df1d0b48991d7b5ea55038b"></a>
+Color&#160;</td><td class="memItemRight" valign="bottom"><b>Tint</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab68dff766df1d0b48991d7b5ea55038b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color of the tag GUI backplate. <br /></td></tr>
+<tr class="separator:ab68dff766df1d0b48991d7b5ea55038b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:aa8ce5eada49a06cf9e019876afec6b65"><td class="memItemLeft" align="right" valign="top"><a id="aa8ce5eada49a06cf9e019876afec6b65" name="aa8ce5eada49a06cf9e019876afec6b65"></a>
+static <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a69a4c0d1f54b11c54ee07e7a4cdc6da6">TagHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><b>onModified</b></td></tr>
+<tr class="memdesc:aa8ce5eada49a06cf9e019876afec6b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when some tag has been modified. <br /></td></tr>
+<tr class="separator:aa8ce5eada49a06cf9e019876afec6b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a174c64536cd8a59fe49ffca350af87da" name="a174c64536cd8a59fe49ffca350af87da"></a>
@@ -231,7 +251,7 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
         <tr>
           <td class="memname">void Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.MergeTo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html">IMergeableResource</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html">IMergeableResource</a>&#160;</td>
           <td class="paramname"><em>to</em></td><td>)</td>
           <td></td>
         </tr>
@@ -248,8 +268,8 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
 
 </div>
 </div>
-<a id="ae8847f76b562b0c6a7ce782a60159cf7" name="ae8847f76b562b0c6a7ce782a60159cf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8847f76b562b0c6a7ce782a60159cf7">&#9670;&nbsp;</a></span>MergeTo() <span class="overload">[2/3]</span></h2>
+<a id="ac9ad131e8263de94ac5233086446e540" name="ac9ad131e8263de94ac5233086446e540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ad131e8263de94ac5233086446e540">&#9670;&nbsp;</a></span>MergeTo() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +278,7 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html">Doloro.DataManagement.DynamicResources.Modules.MergingTool.IMergeableResource</a>&lt; T &gt;.MergeTo </td>
+          <td class="memname">void <a class="el" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html">Doloro.DataManagement.DynamicResources.Modules.MergeTool.IMergeableResource</a>&lt; T &gt;.MergeTo </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>to</em></td><td>)</td>
@@ -300,9 +320,9 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
 
 <p>Copying values of the: </p>
 <ul>
-<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a574a65fef36122f9febd2a75e1217b7d" title="Color of the tag backplate.">color</a></li>
-<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#abfbf4f295c1d72f3ce7cbfb052e51150" title="Visibility of the tag among the systems.">visibility</a></li>
-<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68e9e331d4bb85432afa835a5b394894" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">hashable</a> fields to the target tag. </li>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ab68dff766df1d0b48991d7b5ea55038b" title="Color of the tag GUI backplate.">Tint</a></li>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a67fa825e89e67d57a55ab2cf8271473a" title="Visibility of the tag among the systems.">Visibility</a></li>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa6029ca6cca99189e09584818cd8d693" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">IsCached</a> fields to the target tag. </li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -313,17 +333,85 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a68e9e331d4bb85432afa835a5b394894" name="a68e9e331d4bb85432afa835a5b394894"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e9e331d4bb85432afa835a5b394894">&#9670;&nbsp;</a></span>hashable</h2>
+<a id="a69a4c0d1f54b11c54ee07e7a4cdc6da6" name="a69a4c0d1f54b11c54ee07e7a4cdc6da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a4c0d1f54b11c54ee07e7a4cdc6da6">&#9670;&nbsp;</a></span>TagHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.hashable</td>
+          <td class="memname">delegate void Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.TagHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html">Tag</a>&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p>Handler using for tag related operations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae57272e3db4648d7f051221624436625" name="ae57272e3db4648d7f051221624436625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae57272e3db4648d7f051221624436625">&#9670;&nbsp;</a></span>TOOLTIP_CACHEABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.TOOLTIP_CACHEABLE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;If true than the `DynamicResource`s with the tag will &quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;be placed by the `Dynamic Resource Tool` in cache.\n\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;That allows much faster search by the tag in future but &quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;damaging RAM using in case if collections is big.\n\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;Recommendation: Use for base resource tags like:\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;\t- `Car`\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;\t- `Weapon`\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;\t- `Character`\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;\t- `Props`&quot;</span></div>
+</div><!-- fragment -->
+<p>Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa6029ca6cca99189e09584818cd8d693" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">IsCached</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aa6029ca6cca99189e09584818cd8d693" name="aa6029ca6cca99189e09584818cd8d693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6029ca6cca99189e09584818cd8d693">&#9670;&nbsp;</a></span>IsCached</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.IsCached</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>If true than the <code><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DynamicResource</a></code>s with the tag will be placed by the <code>Dynamic Resource Tool</code> in separated hash table. </p>
@@ -334,40 +422,6 @@ static UnityEngine.Color&#160;</td><td class="memItemRight" valign="bottom"><b>D
 <li><code>Character</code></li>
 <li><code>Props</code> </li>
 </ul>
-
-</div>
-</div>
-<a id="a7db88cee6f732138ac7e8dd22a0e302c" name="a7db88cee6f732138ac7e8dd22a0e302c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7db88cee6f732138ac7e8dd22a0e302c">&#9670;&nbsp;</a></span>TOOLTIP_HASHABLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const string Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag.TOOLTIP_HASHABLE</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;If true than the `DynamicResource`s with the tag will &quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;be placed by the `Dynamic Resource Tool` in separated &quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;hash table.\n\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;That allows much faster search by the tag in future but &quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;damaging RAM using in case if collections is big.\n\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;Recommendation: Use for base resource tags like:\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;\t- `Car`\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;\t- `Weapon`\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;\t- `Character`\n&quot;</span> +</div>
-<div class="line">            <span class="stringliteral">&quot;\t- `Props`&quot;</span></div>
-</div><!-- fragment -->
-<p>Tool tip for the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a68e9e331d4bb85432afa835a5b394894" title="If true than the DynamicResources with the tag will be placed by the Dynamic Resource Tool in separat...">hashable</a> field's <a class="el" href="namespace_doloro_1_1_u_i.html">UI</a> element. </p>
 
 </div>
 </div>

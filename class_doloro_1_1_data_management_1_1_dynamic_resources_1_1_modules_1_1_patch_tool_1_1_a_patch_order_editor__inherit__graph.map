@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.DynamicResources.Modules.PatchTool.APatchOrderEditor" name="Doloro.DataManagement.DynamicResources.Modules.PatchTool.APatchOrderEditor">
+<area shape="rect" id="node1" title="Base editor for patch orders." alt="" coords="109,45,356,101"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_9ef338312e3441017fe816ffc04b12a5.html" title="Editor for the AssetPropertiesRemovePatchOrder component." alt="" coords="404,5,671,61"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe.html" title="Editor for the RemoveComponentPatchOrder component." alt="" coords="404,85,671,141"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,60,61,87"/>
+</map>

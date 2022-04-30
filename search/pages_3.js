@@ -14,5 +14,7 @@ var searchData=
   ['doloro_20sensor_11',['Doloro Sensor',['../md__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20tools_12',['Doloro Tools',['../md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20ui_202_13',['Doloro UI 2',['../md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html',1,'']]],
-  ['dynamic_20resource_20tools_14',['Dynamic Resource Tools',['../ddm-drt.html',1,'md_Doloro_GDK_Doloro_Data_Management_README']]]
+  ['dynamic_20resource_14',['Dynamic Resource',['../ddm-drt-dr.html',1,'ddm-drt']]],
+  ['dynamic_20resource_20tools_15',['Dynamic Resource Tools',['../ddm-drt.html',1,'md_Doloro_GDK_Doloro_Data_Management_README']]],
+  ['dynamic_20resources_20database_16',['Dynamic Resources Database',['../ddm-drt-api-drd.html',1,'ddm-drt']]]
 ];

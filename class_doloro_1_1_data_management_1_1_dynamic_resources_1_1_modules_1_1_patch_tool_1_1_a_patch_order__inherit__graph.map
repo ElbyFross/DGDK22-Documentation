@@ -1,6 +1,6 @@
 <map id="Doloro.DataManagement.DynamicResources.Modules.PatchTool.APatchOrder" name="Doloro.DataManagement.DynamicResources.Modules.PatchTool.APatchOrder">
 <area shape="rect" id="node1" title="Abstract class that implements bas AP I for patch instructions. Allows to extend patch features with ..." alt="" coords="164,53,443,94"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html" title="Removing properties from entire AssetPropertiesCollection instances at the object." alt="" coords="491,5,757,61"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html" title="Removing properties from entire IPropertiesProvider implementing instances at the game object." alt="" coords="491,5,757,61"/>
 <area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html" title="Removing component from the existed resource." alt="" coords="491,85,757,141"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,60,116,87"/>
 </map>

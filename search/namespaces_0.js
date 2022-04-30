@@ -40,7 +40,7 @@ var searchData=
   ['localization_37',['Localization',['../namespace_doloro_1_1_localization.html',1,'Doloro']]],
   ['materials_38',['Materials',['../namespace_doloro_1_1_tools_1_1_materials.html',1,'Doloro::Tools']]],
   ['memory_39',['Memory',['../namespace_doloro_1_1_a_i_1_1_memory.html',1,'Doloro::AI']]],
-  ['mergingtool_40',['MergingTool',['../namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool.html',1,'Doloro::DataManagement::DynamicResources::Modules']]],
+  ['mergetool_40',['MergeTool',['../namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool.html',1,'Doloro::DataManagement::DynamicResources::Modules']]],
   ['modules_41',['Modules',['../namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules.html',1,'Doloro.DataManagement.DynamicResources.Modules'],['../namespace_doloro_1_1_invetory_system_1_1_modules.html',1,'Doloro.InvetorySystem.Modules'],['../namespace_doloro_1_1_u_i_engine2_1_1_modules.html',1,'Doloro.UIEngine2.Modules']]],
   ['objects_42',['Objects',['../namespace_doloro_1_1_tools_1_1_objects.html',1,'Doloro::Tools']]],
   ['operators_43',['Operators',['../namespace_doloro_1_1_a_i_1_1_operators.html',1,'Doloro::AI']]],

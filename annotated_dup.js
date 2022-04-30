@@ -255,13 +255,13 @@ var annotated_dup =
       ] ],
       [ "DataManagement", "namespace_doloro_1_1_data_management.html", [
         [ "AssetBundlesTools", "namespace_doloro_1_1_data_management_1_1_asset_bundles_tools.html", [
-          [ "ADinamicResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader" ],
+          [ "AResourceLoadingBehavior", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior" ],
           [ "AssetBundlesBuilder", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_builder.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_builder" ],
           [ "AssetBundlesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader" ],
           [ "AsyncTaskHandler", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler" ],
+          [ "CachedTagsResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader" ],
           [ "Constants", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_constants.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_constants" ],
           [ "DynamicResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader" ],
-          [ "HashedTagsResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_hashed_tags_resources_loader.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_hashed_tags_resources_loader" ],
           [ "LoaderUtils", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils" ]
         ] ],
         [ "AssetPropertiesSystem", "namespace_doloro_1_1_data_management_1_1_asset_properties_system.html", [
@@ -290,7 +290,6 @@ var annotated_dup =
           [ "PropertyInspectorAttribute", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_property_inspector_attribute.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_property_inspector_attribute" ],
           [ "StringAssetProperty", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property" ],
           [ "StringAssetPropertyEditor", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property_editor.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_string_asset_property_editor" ],
-          [ "UIInfo", "struct_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info.html", "struct_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info" ],
           [ "Vector2AssetProperty", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property" ],
           [ "Vector2AssetPropertyEditor", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property_editor.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property_editor" ],
           [ "Vector3AssetProperty", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector3_asset_property.html", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector3_asset_property" ],
@@ -311,20 +310,21 @@ var annotated_dup =
             [ "DemoDRRequester", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples_1_1_demo_d_r_requester.html", null ]
           ] ],
           [ "Modules", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules.html", [
-            [ "MergingTool", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool.html", [
-              [ "IMergeableResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource" ],
-              [ "IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource" ],
-              [ "MergingAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i" ],
-              [ "NotMergeableAttribute", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_not_mergeable_attribute.html", null ]
+            [ "MergeTool", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool.html", [
+              [ "IMergeableResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource" ],
+              [ "IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource" ],
+              [ "MergingAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_merging_a_p_i.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_merging_a_p_i" ],
+              [ "NotMergeableAttribute", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_not_mergeable_attribute.html", null ]
             ] ],
             [ "PatchTool", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool.html", [
               [ "Stanadard", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard.html", [
                 [ "AssetPropertiesRemovePatchOrder", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d" ],
+                [ "AssetPropertiesRemovePatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_9ef338312e3441017fe816ffc04b12a5.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_9ef338312e3441017fe816ffc04b12a5" ],
                 [ "RemoveComponentPatchOrder", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c" ],
                 [ "RemoveComponentPatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe" ]
               ] ],
               [ "APatchOrder", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order" ],
-              [ "aPatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1a_patch_order_editor.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1a_patch_order_editor" ]
+              [ "APatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order_editor.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order_editor" ]
             ] ],
             [ "TagsTool", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html", [
               [ "AddTagWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window" ],
@@ -363,7 +363,7 @@ var annotated_dup =
           [ "IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html", null ],
           [ "ResourceContainer", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container" ],
           [ "ResourcesCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection" ],
-          [ "ResourcesManagementAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i" ],
+          [ "ResourcesManager", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager" ],
           [ "Version", "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html", "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version" ]
         ] ],
         [ "Serialization", "namespace_doloro_1_1_data_management_1_1_serialization.html", [
@@ -377,11 +377,13 @@ var annotated_dup =
         [ "Tables", "namespace_doloro_1_1_data_management_1_1_tables.html", [
           [ "Address", "struct_doloro_1_1_data_management_1_1_tables_1_1_address.html", "struct_doloro_1_1_data_management_1_1_tables_1_1_address" ],
           [ "Cell", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html", "class_doloro_1_1_data_management_1_1_tables_1_1_cell" ],
+          [ "CellEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_cell_editor.html", "class_doloro_1_1_data_management_1_1_tables_1_1_cell_editor" ],
           [ "DataCluster", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster" ],
           [ "ITableFormatConverter", "interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html", "interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter" ],
           [ "LinqXMLConverter", "class_doloro_1_1_data_management_1_1_tables_1_1_linq_x_m_l_converter.html", "class_doloro_1_1_data_management_1_1_tables_1_1_linq_x_m_l_converter" ],
           [ "Solution", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html", "class_doloro_1_1_data_management_1_1_tables_1_1_solution" ],
           [ "Spreadsheet", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet" ],
+          [ "SpreadsheetEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor" ],
           [ "Table", "class_doloro_1_1_data_management_1_1_tables_1_1_table.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table" ],
           [ "TableEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor" ],
           [ "TableStyles", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles" ],

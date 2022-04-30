@@ -7,5 +7,5 @@ var searchData=
   ['measuredsliderlabelguielement_4',['MeasuredSliderLabelGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_label_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::BaseControls']]],
   ['memory_5',['Memory',['../class_doloro_1_1_a_i_1_1_core_1_1_memory.html',1,'Doloro::AI::Core']]],
   ['memoryanalyzer_6',['MemoryAnalyzer',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_memory_analyzer.html',1,'Doloro::AI::DAIDebugger']]],
-  ['mergingapi_7',['MergingAPI',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i.html',1,'Doloro::DataManagement::DynamicResources::Modules::MergingTool']]]
+  ['mergingapi_7',['MergingAPI',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_merging_a_p_i.html',1,'Doloro::DataManagement::DynamicResources::Modules::MergeTool']]]
 ];

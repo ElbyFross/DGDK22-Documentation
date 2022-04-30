@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -87,29 +88,65 @@ $(document).ready(function(){initNavTree('ddm-ser.html',''); initResizable(); })
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md41">Binary Serialization Tool</a><ul><li class="level3"><a href="#autotoc_md42">About</a></li>
-<li class="level3"><a href="#autotoc_md43">Features</a></li>
-<li class="level3"><a href="#autotoc_md44">How to create supportive class</a></li>
-<li class="level3"><a href="#autotoc_md45">How to serialize</a></li>
-<li class="level3"><a href="#autotoc_md46">How to deserialize</a></li>
+<ul><li class="level1"><a href="#ddm-ser-a">About</a></li>
+<li class="level1"><a href="#ddm-set-i">Use cases</a></li>
+<li class="level1"><a href="#ddm-ser-bst">Binary Serialization Tool</a><ul><li class="level2"><a href="#ddm-ser-bst-a">About</a></li>
+<li class="level2"><a href="#ddm-ser-bst-ht">How to ...</a><ul><li class="level3"><a href="#ddm-ser-bst-ht-create">Create supportive class</a></li>
+<li class="level3"><a href="#ddm-ser-bst-ht-ser">Serialize (save data)</a></li>
+<li class="level3"><a href="#ddm-ser-bst-deser">Deserialize (load data)</a></li>
+<li class="level3"><a href="#ddm-ser-bst-for">Apply a binary formatter</a><ul><li class="level4"><a href="#ddm-ser-bst-for-api">API</a></li>
+<li class="level4"><a href="#ddm-ser-bst-for-exe">Example</a></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md41"></a>
-Binary Serialization Tool</h2>
-<h3><a class="anchor" id="autotoc_md42"></a>
-About</h3>
+<div class="textblock"><h1><a class="anchor" id="ddm-ser-a"></a>
+About</h1>
+<p ><b>DDM ST</b> is a growing module that exists to simplify cross-session work with a data both in editor and during runtime.</p>
+<h1><a class="anchor" id="ddm-set-i"></a>
+Use cases</h1>
+<p >Serialization process is a way to convert a runtime object to a data set that can be restored back to the same object using deserialization.</p>
+<p >This useful at any stage of any development: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Stage   </th><th class="markdownTableHeadNone">Case    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Editor   </td><td class="markdownTableBodyNone">Serialization of complex object and saving its data in binary arrays is <br  />
+ an easiest way to work with custom editor solutions avoiding <br  />
+ using of rough features of <br  />
+ <code>UnityEditor.SerializedObject</code> and <code>UnityEditor.SerializedProperty</code> <br  />
+ those have a lot of limits and tend to lose a changed data in any inaccurate way of use.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Runtime   </td><td class="markdownTableBodyNone">Serialization\Deserialization process is a most easy way to clone objects.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Cross-session   </td><td class="markdownTableBodyNone">Serialization\Deserialization is a most useful way to <br  />
+ save \ load game session data avoiding manual <br  />
+ streaming of a unstructured data to a file.   </td></tr>
+</table>
+<hr  />
+<h1><a class="anchor" id="ddm-ser-bst"></a>
+Binary Serialization Tool</h1>
+<h2><a class="anchor" id="ddm-ser-bst-a"></a>
+About</h2>
 <p >The tool that allows to serialize/deserialize object in binary format.</p>
-<h3><a class="anchor" id="autotoc_md43"></a>
-Features</h3>
-<ul>
-<li>Allows to load deserialize objects with changed members map. (the namespace and class must be the same)</li>
+<p ><b>Features:</b></p><ul>
+<li>Allows data loading to an object with changed members.<ol type="1">
+<li>Removed members avoiding.</li>
+<li>New members initializes with pre-defined or default values.</li>
+</ol>
+</li>
 <li>Encapsulates serialization\deserialization process to single line calls.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md44"></a>
-How to create supportive class</h3>
+<p ><b>Exmplore API:</b> <a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html" title="Tools for handling binary operations with a data.">Doloro.DataManagement.Serialization.BinarySerializationTool</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="ddm-ser-bst-ht"></a>
+How to ...</h2>
+<h3><a class="anchor" id="ddm-ser-bst-ht-create"></a>
+Create supportive class</h3>
 <p >Implement to your class <code>System.Runtime.Serialization.ISerializable</code> interface. </p><div class="fragment"><div class="line">[System.Serializable]</div>
 <div class="line">class YourCalss : System.Runtime.Serialization.ISerializable</div>
 <div class="line">{</div>
@@ -128,12 +165,66 @@ How to create supportive class</h3>
 <div class="line">        Doloro.DataManagement.Serialization.BinarySerializationTool.ToBinary(this, info);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md45"></a>
-How to serialize</h3>
-<p >Send your object to the <code>Doloro.DataManagement.Serialization.Serialize</code> method.</p>
-<h3><a class="anchor" id="autotoc_md46"></a>
-How to deserialize</h3>
-<p >Send binary data path to the <code>Doloro.DataManagement.Serialization.Deserialize</code> method and get decoded object. </p>
+</div><!-- fragment --><p ><br  />
+</p>
+<h3><a class="anchor" id="ddm-ser-bst-ht-ser"></a>
+Serialize (save data)</h3>
+<p >Send your object to the most suitable <code>Doloro.DataManagement.Serialization.Serialize</code> method.</p>
+<p >Follwoing example demonstrates serialization process for the compatible object created by following instruction provided at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-create">Create supportive class</a> section.</p>
+<p >The example works within runtime memory. But tool also allows you to work with streams and file system. </p><div class="fragment"><div class="line">OBJ_TYPE ORIGIN_OBJ = ... // Initializing the obejct.</div>
+<div class="line"> </div>
+<div class="line">using DataManagement.Serialization;</div>
+<div class="line">BinarySerializationTool.Serialize(ORIGIN_OBJ, out byte[] BINARY_DATA);</div>
+</div><!-- fragment --><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Member   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">OBJ_TYPE   </td><td class="markdownTableBodyNone">Type of the object that will be serialized.   </td></tr>
+</table>
+<p>| ORIGIN_OBJ| | A serializable object. | | BINARY_DATA | A data array received represents the object in binary format. |</p>
+<p ><br  />
+</p>
+<h3><a class="anchor" id="ddm-ser-bst-deser"></a>
+Deserialize (load data)</h3>
+<p >Send binary data path to the <code>Doloro.DataManagement.Serialization.Deserialize</code> method and get decoded object.</p>
+<p >Follwoing example demonstrates deserialization process of the serialized object created at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-ser">Serialize (save data)</a> step. </p><div class="fragment"><div class="line">using DataManagement.Serialization;</div>
+<div class="line">OBJ_TYPE loadedObj = null;</div>
+<div class="line"> </div>
+<div class="line">try</div>
+<div class="line">{</div>
+<div class="line">    // Reading an object from binary container</div>
+<div class="line">    // and tries to handle it as the `OBJ_TYPE`</div>
+<div class="line"> </div>
+<div class="line">    loadedObj = BinarySerializationTool.Deserialize&lt;OBJ_TYPE&gt;(BINARY_DATA);</div>
+<div class="line">}</div>
+<div class="line">catch (SerializationException ex)</div>
+<div class="line">{</div>
+<div class="line"> </div>
+<div class="line">}</div>
+<div class="line">catch (System.Exception ex)</div>
+<div class="line">{</div>
+<div class="line">    // Unexpected exception.</div>
+<div class="line">    // Handle cases may be faced at your environment here.</div>
+<div class="line">}</div>
+</div><!-- fragment --><p ><br  />
+ </p>
+<h3><a class="anchor" id="ddm-ser-bst-for"></a>
+Apply a binary formatter</h3>
+<p >During source modification you may face incompatibility of serialized data with a new object structure. <br  />
+By default <b>BST</b> handles such compatibility issues automatically, but for advanced task you may like to handle the process manually.</p>
+<p ><b>BST</b> leaves you a way to handle you data as you wish. For this during deserialization you may add a <br  />
+<code>System.Runtime.Serialization.Formatters.Binary.BinaryFormatter</code>.</p>
+<h4><a class="anchor" id="ddm-ser-bst-for-api"></a>
+API</h4>
+<p >Binary formater using deserialization provided with following <code>BinarySerializationTool</code> members.</p><ul>
+<li><code>object Deserialize(byte[] data, BinaryFormatter formatter)</code> <br  />
+</li>
+<li><code>object Deserialize(string fullPath, BinaryFormatter formatter)</code></li>
+<li><code>object Deserialize(Stream stream, BinaryFormatter formatter)</code></li>
+</ul>
+<h4><a class="anchor" id="ddm-ser-bst-for-exe"></a>
+Example</h4>
+<p >You may find an example of <code>BinaryFormatter</code> using at the official MS supplied documentation. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -8,5 +8,7 @@ var searchData=
   ['creation_20of_20a_20custom_20tool_5',['Creation of a custom tool',['../debug_env-debug_tool_ht_cct.html',1,'md_Doloro_GDK_Doloro_AI_Debug_Environment_README']]],
   ['cross_2dplugins_20data_6',['Cross-Plugins Data',['../dtools_crossdata.html',1,'md_Doloro_GDK_Doloro_Tools_README']]],
   ['custom_20controls_7',['Custom Controls',['../dui2-controls.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]],
-  ['custom_20inspector_20tabs_8',['Custom inspector tabs',['../dai-inspector-custom.html',1,'md_Doloro_GDK_Doloro_AI_Studio_README']]]
+  ['custom_20data_20converter_8',['Custom data converter',['../ddm-tables-converter-cstm.html',1,'ddm-tables']]],
+  ['custom_20inspector_20tabs_9',['Custom inspector tabs',['../dai-inspector-custom.html',1,'md_Doloro_GDK_Doloro_AI_Studio_README']]],
+  ['custom_20loading_20behavior_10',['Custom loading behavior',['../ddm-abt-ht-rlbdev.html',1,'ddm-abt']]]
 ];

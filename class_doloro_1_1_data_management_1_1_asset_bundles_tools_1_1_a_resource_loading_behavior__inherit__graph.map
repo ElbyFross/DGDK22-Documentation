@@ -1,0 +1,6 @@
+<map id="Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior" name="Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior">
+<area shape="rect" id="node1" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="164,50,427,91"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html" title="Provides loading categorization of content with used DynamicResource" alt="" coords="483,5,722,61"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html" title="Loading DynamicResources from packages via the DynamicResourcesDatabase.LoadResources." alt="" coords="475,86,731,127"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,57,116,84"/>
+</map>

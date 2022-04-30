@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -150,9 +151,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a7c0d66c60428c18d9d3da1cb8c942d95"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a7c0d66c60428c18d9d3da1cb8c942d95">ResourceFilter</a> (object resource, out UnityEngine.Object filteredResource)</td></tr>
-<tr class="memdesc:a7c0d66c60428c18d9d3da1cb8c942d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the signature of filtering object with requested.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a7c0d66c60428c18d9d3da1cb8c942d95">More...</a><br /></td></tr>
-<tr class="separator:a7c0d66c60428c18d9d3da1cb8c942d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d0d482fbb1fb540c1d812c72fecc8d"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a22d0d482fbb1fb540c1d812c72fecc8d">OnResourceFilter</a> (object resource, out UnityEngine.Object filteredResource)</td></tr>
+<tr class="memdesc:a22d0d482fbb1fb540c1d812c72fecc8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the signature of filtering object with requested.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html#a22d0d482fbb1fb540c1d812c72fecc8d">More...</a><br /></td></tr>
+<tr class="separator:a22d0d482fbb1fb540c1d812c72fecc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -279,7 +280,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsComponentsHandler</
 </div><div class="memdoc">
 
 <p>Looking for component with a type defined at the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html#ade808561763775fb00ca628c63388ed2" title="Type that will be handled by the query.">HandlingType</a> property. </p>
-<p >Handle it via ResourceFilter(object, out UnityEngine.Object) if found. </p>
+<p >Handle it via OnResourceFilter(object, out UnityEngine.Object) if found. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">resource</td><td>Input resource for check. </td></tr>
@@ -390,8 +391,8 @@ Checks is the resource passing the filter. False if check is impossible. </dd></
 
 </div>
 </div>
-<a id="a7c0d66c60428c18d9d3da1cb8c942d95" name="a7c0d66c60428c18d9d3da1cb8c942d95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c0d66c60428c18d9d3da1cb8c942d95">&#9670;&nbsp;</a></span>ResourceFilter()</h2>
+<a id="a22d0d482fbb1fb540c1d812c72fecc8d" name="a22d0d482fbb1fb540c1d812c72fecc8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d0d482fbb1fb540c1d812c72fecc8d">&#9670;&nbsp;</a></span>OnResourceFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,7 +401,7 @@ Checks is the resource passing the filter. False if check is impossible. </dd></
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override bool <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html">Doloro.DataManagement.DynamicResources.Search.SignatureFilter</a>&lt; T &gt;.ResourceFilter </td>
+          <td class="memname">override bool <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_signature_filter.html">Doloro.DataManagement.DynamicResources.Search.SignatureFilter</a>&lt; T &gt;.OnResourceFilter </td>
           <td>(</td>
           <td class="paramtype">object&#160;</td>
           <td class="paramname"><em>resource</em>, </td>
@@ -434,7 +435,7 @@ Checks is the resource passing the filter. False if check is impossible. </dd></
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result of filtering.</dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html#a49aff5e1218cd1e8a1be210b604ecb8e">Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;</a>.</p>
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html#a160fcd830f122951099fda85b3e70a88">Doloro.DataManagement.DynamicResources.Search.ResourceTypeFilter&lt; T &gt;</a>.</p>
 
 </div>
 </div>

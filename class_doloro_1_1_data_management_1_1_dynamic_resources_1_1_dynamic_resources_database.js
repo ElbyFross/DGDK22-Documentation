@@ -6,7 +6,7 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources
     [ "Find", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a11f43c86002fcc3758af59bc6a52afd1", null ],
     [ "LoadResources", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a7a0103110b743dc4f40a82eaf9f47a6f", null ],
     [ "Count", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a586fd623fedff74d3b23af9972a27b3f", null ],
-    [ "IsLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#adcfddb4f359ffbd31065d6da317e8f92", null ],
-    [ "IsStarted", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#ab1cfa76901de76c12cdcc1fea12ccd56", null ],
+    [ "isLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#aaa6ceb375d62a5c7bbd5f945e7d47774", null ],
+    [ "isStarted", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#acb9ee4f5ea1d90828c349d578677ec96", null ],
     [ "eLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#af52e878dd98f4c4a5cb5d769f1d5d8a2", null ]
 ];

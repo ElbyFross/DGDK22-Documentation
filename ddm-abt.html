@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -86,30 +87,93 @@ $(document).ready(function(){initNavTree('ddm-abt.html',''); initResizable(); })
   <div class="headertitle"><div class="title">Asset Bundles Tools </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><ul>
-<li><a class="el" href="ddm-abt-seq.html">Sequence Configuration Tool</a></li>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#ddm-abt-a">About</a></li>
+<li class="level1"><a href="#ddm-abt-loader">Asset Bundles Loader</a></li>
+<li class="level1"><a href="#ddm-abt-dynresload">Resource Loading Behavior</a></li>
+<li class="level1"><a href="#ddm-abt-ht">How to ...</a><ul><li class="level2"><a href="#ddm-abt-ht-cdr">Create distributable resource</a></li>
+<li class="level2"><a href="#ddm-abt-ht-create_bundle">Create AssetBundle</a></li>
+<li class="level2"><a href="#ddm-abt-ht-load">Load bundles</a></li>
+<li class="level2"><a href="#ddm-abt-ht-use">Access to resources from loaded bundles</a></li>
+<li class="level2"><a href="#ddm-abt-ht-isloaded">Track loading process</a></li>
 </ul>
-<p >The plugin that implements API and editor tools for Assets Bundls building.</p>
-<h1><a class="anchor" id="autotoc_md31"></a>
-How to use</h1>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="ddm-abt-a"></a>
+About</h1>
+<p >Module that simplifies work with AssetBundles.</p><ul>
+<li>Builds Asset Bundles.</li>
+<li>Encapsulates loading process.</li>
+<li>Shares statistic data.</li>
+<li>Provides flexible architecture that allows to operate the resources loading process by using custom <code>AResourceLoadingBehavior</code> implementations.</li>
+<li>Implements flexible API to managing of loaded bundles.</li>
+</ul>
+<p ><b>See also:</b> <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html" title="Abstract class that provides base API of component based on a dynamic resource.">Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior</a></p>
+<h1><a class="anchor" id="ddm-abt-loader"></a>
+Asset Bundles Loader</h1>
+<p ><code>AssetBundlesLoader</code> is a component that handles <b>AssetBundle</b> packages loading during game runtime.</p>
+<dl class="section warning"><dt>Warning</dt><dd>The component must be added to a scene manually.</dd></dl>
+<p><b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html" title="Manager that loads assets from the Asset Bundles.">Doloro.DataManagement.AssetBundlesTools.AssetBundlesLoader</a></li>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">Doloro.DataManagement.AssetBundlesTools.LoaderUtils</a></li>
+</ul>
+<h1><a class="anchor" id="ddm-abt-dynresload"></a>
+Resource Loading Behavior</h1>
+<p >One of the main features of the Loader is providing you with the way to handle found resources with a custom logic by using the <code>AResourceLoadingBehavior</code> extension over the component.</p>
+<dl class="section warning"><dt>Warning</dt><dd>The component extensions must be added to a Game Object with <code>AssetBundlesLoader</code> instance manually to be executed.</dd></dl>
+<p><b>See also:</b></p><ul>
+<li><a class="el" href="ddm-abt-ht-rlbdev.html">Custom loading behavior</a></li>
+<li><a class="el" href="ddm-drt-dabt_integration.html#ddm-drt-dabt_integration_dynres">DynamicResource</a></li>
+<li><a class="el" href="ddm-drt-dabt_integration.html#ddm-drt-dabt_integration_tagst">Tags Tool</a></li>
+</ul>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html" title="Abstract class that provides base API of component based on a dynamic resource.">Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior</a></li>
+</ul>
+<h1><a class="anchor" id="ddm-abt-ht"></a>
+How to ...</h1>
 <hr  />
-<ul>
-<li><b>Q: How to create a resource?</b></li>
-<li><b>A:</b> Select any packable resource and at the bottom of the <em>Inspector</em> define including into some of asset bundles. <hr  />
+<h2><a class="anchor" id="ddm-abt-ht-cdr"></a>
+Create distributable resource</h2>
+<ol type="1">
+<li>Select resource in <b>Project</b> window.</li>
+<li>At the bottom of the <b>Inspector</b> window define including into some of asset bundles.</li>
+</ol>
+<p >Now the resource is ready to be included to asset bundles build.</p>
+<hr  />
+<h2><a class="anchor" id="ddm-abt-ht-create_bundle"></a>
+Create AssetBundle</h2>
+<ol type="1">
+<li>At the top editor panel navigate to <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK/Build assets bundles</code> menu item.</li>
+<li>Select a destination folder for bundle packages.</li>
+<li>Wait till built complete.</li>
+</ol>
+<p >Entire bundles related resources found in the project will be assembled in bundles and located at the destination folder.</p>
+<hr  />
+<h2><a class="anchor" id="ddm-abt-ht-load"></a>
+Load bundles</h2>
+<ol type="1">
+<li>Instantiate loading manager at the scene via the <b>Add component</b> menu with <br  />
+the <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK/Assets Bundles Loader</code> list element.</li>
+<li>Set the relative bundles folder.<ol type="a">
+<li><em>In editor</em> - relative to Assets folder.</li>
+<li><em>In game</em> - relative to game installation folder.</li>
+</ol>
 </li>
-<li><b>Q: How to create/build/generate bundles?</b></li>
-<li><b>A:</b> Press <code>Assets/Build assets bundles</code> at the top panel and select destination folder. There would be generated all metioned bundles. <hr  />
-</li>
-<li><b>Q: How to load bundles?</b></li>
-<li><b>A:</b><ul>
-<li>Instantiate loading manager at the scene via the <b>Add component</b> menu with the <code><a class="el" href="namespace_doloro.html">Doloro</a> Toolkit/Assets Bundles Loader</code> list element.</li>
-<li>Set the relative bundles folder. (In editor - relative to Assets folder. In game - relative to game instalation folder).</li>
-<li>Bundles will be loaded during Awake call. <hr  />
-</li>
-</ul>
-</li>
-<li><b>Q: How to use resource from loaded bundles?</b></li>
-<li><b>A:</b> Resources loaded from the bundles availabel by the <code>Resource.Load</code> methods or any alternative way provided by Unity engine. </li>
+</ol>
+<p >Bundles will be loaded during Awake of the <code>Assets Bundles Loader</code> component.</p>
+<hr  />
+<h2><a class="anchor" id="ddm-abt-ht-use"></a>
+Access to resources from loaded bundles</h2>
+<p >Resources loaded from the bundles available by the <code>Resource.Load</code> methods or any alternative way provided by Unity engine.</p>
+<p >We are recommending you to take a closer look on the <a class="el" href="ddm-drt.html">Dynamic Resource Tools</a>. Using this module you will reach much more flexible management of the resources and avoid them manual loading.</p>
+<hr  />
+<h2><a class="anchor" id="ddm-abt-ht-isloaded"></a>
+Track loading process</h2>
+<p ><code>AssetBundlesLoader</code> is a singleton component. As soon as it has been added to the scene you can access it via <code>AssetBundlesLoader.Active</code> property.</p>
+<p >The component provides you with events to and tracking data. Explore API of following classes to find what you looking for:</p><ul>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html" title="Manager that loads assets from the Asset Bundles.">Doloro.DataManagement.AssetBundlesTools.AssetBundlesLoader</a></li>
+<li><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">Doloro.DataManagement.AssetBundlesTools.LoaderUtils</a> </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

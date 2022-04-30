@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -96,7 +97,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_data_management_1_1_d
 <div class="textblock"><p >Database of <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DynamicResource</a>s. During loading at the collections resources passing through^ </p>
 <ul>
 <li><code>conflicts resolver</code> that prevents existing resources with the same signature.</li>
-<li><code>data merger</code> that merges components with defined Modules.MergingTool.IMergeableResource&lt;T&gt; interface.</li>
+<li><code>data merger</code> that merges components with defined Modules.MergeTool.IMergeableResource&lt;T&gt; interface.</li>
 <li><code>data patcher</code> that executing <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order.html" title="Abstract class that implements bas AP I for patch instructions. Allows to extend patch features with ...">Modules.PatchTool.APatchOrder</a> components. </li>
 </ul>
 </div><table class="memberdecls">
@@ -116,7 +117,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadResources<
 <tr class="memdesc:a7a0103110b743dc4f40a82eaf9f47a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DynamicResource</a>s and performing <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a32aa9685f9ef7a3eb545a565282e7051" title="Adding resource to collection.">Add(DynamicResource)</a> operation to each one. <br /></td></tr>
 <tr class="separator:a7a0103110b743dc4f40a82eaf9f47a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde22d257b23f3e9080b8a7db81b8f7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html">ResourcesCollection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#acde22d257b23f3e9080b8a7db81b8f7a">BakeToResourcesCollection</a> ()</td></tr>
-<tr class="memdesc:acde22d257b23f3e9080b8a7db81b8f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Baking formed database to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html" title="A class that contains catalog of resources gathered by the ResourcesManagementAPI handlers.">ResourcesCollection</a> that can be registered at the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html" title="Provides common API for handling resources.">ResourcesManagementAPI</a>.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#acde22d257b23f3e9080b8a7db81b8f7a">More...</a><br /></td></tr>
+<tr class="memdesc:acde22d257b23f3e9080b8a7db81b8f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Baking formed database to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html" title="A class that contains catalog of resources gathered by the ResourcesManager handlers.">ResourcesCollection</a> that can be registered at the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html" title="Provides common API for handling resources.">ResourcesManager</a>.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#acde22d257b23f3e9080b8a7db81b8f7a">More...</a><br /></td></tr>
 <tr class="separator:acde22d257b23f3e9080b8a7db81b8f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32aa9685f9ef7a3eb545a565282e7051"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a32aa9685f9ef7a3eb545a565282e7051">Add</a> (<a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html">DynamicResource</a> resource)</td></tr>
 <tr class="memdesc:a32aa9685f9ef7a3eb545a565282e7051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding resource to collection.  <a href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a32aa9685f9ef7a3eb545a565282e7051">More...</a><br /></td></tr>
@@ -124,14 +125,14 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadResources<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:adcfddb4f359ffbd31065d6da317e8f92"><td class="memItemLeft" align="right" valign="top"><a id="adcfddb4f359ffbd31065d6da317e8f92" name="adcfddb4f359ffbd31065d6da317e8f92"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsLoaded</b><code> [get]</code></td></tr>
-<tr class="memdesc:adcfddb4f359ffbd31065d6da317e8f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is database loaded? <br /></td></tr>
-<tr class="separator:adcfddb4f359ffbd31065d6da317e8f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1cfa76901de76c12cdcc1fea12ccd56"><td class="memItemLeft" align="right" valign="top"><a id="ab1cfa76901de76c12cdcc1fea12ccd56" name="ab1cfa76901de76c12cdcc1fea12ccd56"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsStarted</b><code> [get]</code></td></tr>
-<tr class="memdesc:ab1cfa76901de76c12cdcc1fea12ccd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is loading already started? <br /></td></tr>
-<tr class="separator:ab1cfa76901de76c12cdcc1fea12ccd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6ceb375d62a5c7bbd5f945e7d47774"><td class="memItemLeft" align="right" valign="top"><a id="aaa6ceb375d62a5c7bbd5f945e7d47774" name="aaa6ceb375d62a5c7bbd5f945e7d47774"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLoaded</b><code> [get]</code></td></tr>
+<tr class="memdesc:aaa6ceb375d62a5c7bbd5f945e7d47774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is database loaded? <br /></td></tr>
+<tr class="separator:aaa6ceb375d62a5c7bbd5f945e7d47774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb9ee4f5ea1d90828c349d578677ec96"><td class="memItemLeft" align="right" valign="top"><a id="acb9ee4f5ea1d90828c349d578677ec96" name="acb9ee4f5ea1d90828c349d578677ec96"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isStarted</b><code> [get]</code></td></tr>
+<tr class="memdesc:acb9ee4f5ea1d90828c349d578677ec96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is loading already started? <br /></td></tr>
+<tr class="separator:acb9ee4f5ea1d90828c349d578677ec96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586fd623fedff74d3b23af9972a27b3f"><td class="memItemLeft" align="right" valign="top"><a id="a586fd623fedff74d3b23af9972a27b3f" name="a586fd623fedff74d3b23af9972a27b3f"></a>
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>Count</b><code> [get]</code></td></tr>
 <tr class="memdesc:a586fd623fedff74d3b23af9972a27b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count of resources at the database. <br /></td></tr>
@@ -176,7 +177,7 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>eLoaded</b><
   </table>
   </dd>
 </dl>
-<p >In case if resource with the same paint DynamicResource.bundle &amp; DynamicResource.key already has been registered then merge them via the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i.html#a068cc8bdb4fa58ef9f8f3e0973fb956c" title="Merging and patching game object with another source.">Modules.MergingTool.MergingAPI.MergeGameObjects(GameObject, GameObject)</a> handler. </p>
+<p >In case if resource with the same paint DynamicResource.bundle &amp; DynamicResource.key already has been registered then merge them via the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_merging_a_p_i.html#ac769efae54b9f3c430f88cd41206c414" title="Merging and patching game object with another source.">Modules.MergeTool.MergingAPI.MergeGameObjects(GameObject, GameObject)</a> handler. </p>
 
 </div>
 </div>
@@ -203,7 +204,7 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>eLoaded</b><
 </table>
 </div><div class="memdoc">
 
-<p>Baking formed database to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html" title="A class that contains catalog of resources gathered by the ResourcesManagementAPI handlers.">ResourcesCollection</a> that can be registered at the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html" title="Provides common API for handling resources.">ResourcesManagementAPI</a>. </p>
+<p>Baking formed database to the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html" title="A class that contains catalog of resources gathered by the ResourcesManager handlers.">ResourcesCollection</a> that can be registered at the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html" title="Provides common API for handling resources.">ResourcesManager</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Resources collection database.</dd></dl>
 
 </div>
@@ -255,7 +256,7 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>eLoaded</b><
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Doloro-GDK/Doloro-Data-Management/Runtime/Dynamic Resource Tools/Core/Containers/DynamicResourcesDatabase.cs</li>
+<li>Doloro-GDK/Doloro-Data-Management/Runtime/Dynamic Resource Tools/API/DynamicResourcesDatabase.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

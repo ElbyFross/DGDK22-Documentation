@@ -1,4 +1,4 @@
 <map id="Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResources" name="Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResources">
-<area shape="rect" id="node1" title="Looking for the Window among resources via the DataManagement.DynamicResources.ResourcesManagementAPI..." alt="" coords="5,80,252,136"/>
+<area shape="rect" id="node1" title="Looking for the Window among resources via the DataManagement.DynamicResources.ResourcesManager." alt="" coords="5,80,252,136"/>
 <area shape="rect" id="node2" title=" " alt="" coords="73,5,184,32"/>
 </map>

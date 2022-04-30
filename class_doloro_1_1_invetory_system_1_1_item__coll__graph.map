@@ -1,12 +1,11 @@
 <map id="Doloro.InvetorySystem.Item" name="Doloro.InvetorySystem.Item">
-<area shape="rect" id="node1" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="656,184,837,211"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="479,184,607,211"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_a_tags_categorised_component.html" title="Component that contains features related to operating the Modules.TagsTool.Tag." alt="" coords="178,31,373,57"/>
+<area shape="rect" id="node1" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="601,155,783,181"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="425,155,553,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_a_tags_categorised_component.html" title="Component that contains features related to operating the Modules.TagsTool.Tag." alt="" coords="173,31,368,57"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
 <area shape="rect" id="node5" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html" title="Interface that defines members required to handle tag&#45;based features." alt="" coords="5,56,116,83"/>
-<area shape="rect" id="node6" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource.html" title="Not allows exist of two resources that has conflict in the same collection." alt="" coords="201,82,350,123"/>
-<area shape="rect" id="node7" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="199,147,351,189"/>
-<area shape="rect" id="node8" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="215,213,335,240"/>
-<area shape="rect" id="node9" title=" " alt="" coords="169,264,382,291"/>
-<area shape="rect" id="node10" href="$struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html" title="Structure that contains current asset version." alt="" coords="165,315,385,357"/>
+<area shape="rect" id="node6" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html" title="Not allows exist of two resources that has conflict in the same collection." alt="" coords="201,82,340,123"/>
+<area shape="rect" id="node7" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="195,147,347,189"/>
+<area shape="rect" id="node8" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="211,213,331,240"/>
+<area shape="rect" id="node9" title=" " alt="" coords="164,264,377,291"/>
 </map>

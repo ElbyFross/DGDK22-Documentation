@@ -16,6 +16,5 @@ var searchData=
   ['minsize_13',['MinSize',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html#a7ced7196cfa59253e4791f639be645a5',1,'Doloro::UIEngine2::DEVTOOLS::DependenciesLoger']]],
   ['mode_14',['mode',['../class_doloro_1_1_a_i_1_1_memory_1_1_remove.html#a02a677dd07853c3db20982c5148a6609',1,'Doloro.AI.Memory.Remove.mode()'],['../class_doloro_1_1_a_i_1_1_memory_1_1_remove_by_type.html#abb69cae611a6d9cb5ec6ae3acf55d7d6',1,'Doloro.AI.Memory.RemoveByType.mode()']]],
   ['modeid_15',['modeID',['../class_doloro_1_1_a_i_1_1_switch_1_1_random.html#adfcf62d7b6120bcdafa726a1397455a1',1,'Doloro::AI::Switch::Random']]],
-  ['modifier_16',['modifier',['../struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html#aed977c95642fea3abce00f12deb2856f',1,'Doloro::DataManagement::DynamicResources::Version']]],
-  ['mouseaxises_17',['mouseAxises',['../class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html#ac790c26cefdf4edf47f4b3bf6ac4e903',1,'Doloro::Tools::Input::InputDeviceDetector']]]
+  ['mouseaxises_16',['mouseAxises',['../class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html#ac790c26cefdf4edf47f4b3bf6ac4e903',1,'Doloro::Tools::Input::InputDeviceDetector']]]
 ];

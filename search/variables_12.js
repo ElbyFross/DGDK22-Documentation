@@ -2,7 +2,7 @@ var searchData=
 [
   ['r_0',['r',['../struct_doloro_1_1_base_types_1_1_color.html#a673aa13531137fad17591ee8b5f9cf21',1,'Doloro::BaseTypes::Color']]],
   ['radius_1',['radius',['../class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_declare_filtered_sphere_sensor.html#a34cec28f9db2cd451f9ee802f364b3d0',1,'Doloro.AI.Sensors.Instance.DeclareFilteredSphereSensor.radius()'],['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html#a271631f3453084cddeca5e7b1ede0595',1,'Doloro.AI.Sensors.Visual.radius()']]],
-  ['rawbonds_2',['rawBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html#ab1d3f86c767f2832bb7b354187975243',1,'Doloro::DataManagement::Tables::TableEditor']]],
+  ['rawbonds_2',['rawBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html#affca7c4819ffa8befac13fc9c43676a1',1,'Doloro.DataManagement.Tables.SpreadsheetEditor.rawBonds()'],['../class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html#ab1d3f86c767f2832bb7b354187975243',1,'Doloro.DataManagement.Tables.TableEditor.rawBonds()']]],
   ['raycastlayermask_3',['raycastLayerMask',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html#a611217fee31acc81ddbbf8b965ad1174',1,'Doloro::AI::Sensors::Visual']]],
   ['raycastlayers_4',['raycastLayers',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual_editor.html#a7d6ca4a32a3b0aaf48e8263c9b81974b',1,'Doloro::AI::Sensors::VisualEditor']]],
   ['recordlogs_5',['recordLogs',['../class_doloro_1_1_a_i_1_1_parallel.html#a2a48ddc378116d747148b6df333a9c61',1,'Doloro.AI.Parallel.recordLogs()'],['../class_doloro_1_1_a_i_1_1_logic_cores_root.html#af401eb79a553337d13427964dc2bec2d',1,'Doloro.AI.LogicCoresRoot.recordLogs()']]],
@@ -16,14 +16,13 @@ var searchData=
   ['removebuttonstyle_13',['RemoveButtonStyle',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element.html#a5e72fc51ad5fdbc8ed3c62ec64bea5a7',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::TagUIElement']]],
   ['removebuttonwidth_14',['RemoveButtonWidth',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element.html#a813dfcb01c7d0e8e95f3b9b27542df2b',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::TagUIElement']]],
   ['rennderqueue_15',['rennderQueue',['../class_doloro_1_1_tools_1_1_materials_1_1_material_instantiating_tool.html#a34f5df07f2fb7ab91659d6339605ec2d',1,'Doloro::Tools::Materials::MaterialInstantiatingTool']]],
-  ['request_16',['request',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html#abc9092e1a5981318194639f65f26e191',1,'Doloro::DataManagement::AssetBundlesTools::ADinamicResourcesLoader']]],
-  ['resources_5ffolder_17',['RESOURCES_FOLDER',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_i_d_e_settings.html#a7f6be7a60688b25c803be4929c3b8a57',1,'Doloro::AI::DAIStudio::IDESettings']]],
-  ['resourcestable_18',['ResourcesTable',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html#aaec6d78ef2903b62cb9e3adf55f61d5b',1,'Doloro::DataManagement::DynamicResources::ResourcesCollection']]],
-  ['result_19',['result',['../class_doloro_1_1_a_i_1_1_operators_1_1_a_math_action.html#ac4a6e31f23b08e890bd9f31054c27495',1,'Doloro.AI.Operators.AMathAction.result()'],['../class_doloro_1_1_a_i_1_1_primitive_1_1_return.html#a8041a9d842259f8a314b3b2fa1d3d8da',1,'Doloro.AI.Primitive.Return.result()']]],
-  ['resultduringwait_20',['resultDuringWait',['../class_doloro_1_1_a_i_1_1_primitive_1_1_wait.html#ac56e1fcca97f9c0148cc6661cbc80615',1,'Doloro::AI::Primitive::Wait']]],
-  ['resultvariabletitle_21',['resultVariableTitle',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#ac0a3202fe98b9eaa4dbd8c2f48c64a2c',1,'Doloro::AI::Get::ChildObject']]],
-  ['right_22',['right',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html#a8009cfcd6260ed46c48b93d706078786',1,'Doloro::UIEngine2::DEVTOOLS::LayoutSearcher']]],
-  ['root_5ffolder_23',['ROOT_FOLDER',['../class_doloro_1_1_editor_configuration_1_1_runtime_constants.html#a4f159023535623ff8b1e7d6c61c83583',1,'Doloro::EditorConfiguration::RuntimeConstants']]],
-  ['rotationsourcemode_24',['rotationSourceMode',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html#a22969aab915edc8f46376981ce5145cd',1,'Doloro::AI::Sensors::Visual']]],
-  ['roundtime_25',['RoundTime',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler.html#a0db4ecd7f86020925ef55c3045a11152',1,'Doloro::DataManagement::AssetBundlesTools::AsyncTaskHandler']]]
+  ['resources_5ffolder_16',['RESOURCES_FOLDER',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_i_d_e_settings.html#a7f6be7a60688b25c803be4929c3b8a57',1,'Doloro::AI::DAIStudio::IDESettings']]],
+  ['resourcestable_17',['ResourcesTable',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html#aaec6d78ef2903b62cb9e3adf55f61d5b',1,'Doloro::DataManagement::DynamicResources::ResourcesCollection']]],
+  ['result_18',['result',['../class_doloro_1_1_a_i_1_1_operators_1_1_a_math_action.html#ac4a6e31f23b08e890bd9f31054c27495',1,'Doloro.AI.Operators.AMathAction.result()'],['../class_doloro_1_1_a_i_1_1_primitive_1_1_return.html#a8041a9d842259f8a314b3b2fa1d3d8da',1,'Doloro.AI.Primitive.Return.result()']]],
+  ['resultduringwait_19',['resultDuringWait',['../class_doloro_1_1_a_i_1_1_primitive_1_1_wait.html#ac56e1fcca97f9c0148cc6661cbc80615',1,'Doloro::AI::Primitive::Wait']]],
+  ['resultvariabletitle_20',['resultVariableTitle',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#ac0a3202fe98b9eaa4dbd8c2f48c64a2c',1,'Doloro::AI::Get::ChildObject']]],
+  ['right_21',['right',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html#a8009cfcd6260ed46c48b93d706078786',1,'Doloro::UIEngine2::DEVTOOLS::LayoutSearcher']]],
+  ['root_5ffolder_22',['ROOT_FOLDER',['../class_doloro_1_1_editor_configuration_1_1_runtime_constants.html#a4f159023535623ff8b1e7d6c61c83583',1,'Doloro::EditorConfiguration::RuntimeConstants']]],
+  ['rotationsourcemode_23',['rotationSourceMode',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html#a22969aab915edc8f46376981ce5145cd',1,'Doloro::AI::Sensors::Visual']]],
+  ['roundtime_24',['RoundTime',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler.html#a0db4ecd7f86020925ef55c3045a11152',1,'Doloro::DataManagement::AssetBundlesTools::AsyncTaskHandler']]]
 ];

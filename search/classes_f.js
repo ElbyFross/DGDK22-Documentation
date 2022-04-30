@@ -22,7 +22,7 @@ var searchData=
   ['resourcecontainer_19',['ResourceContainer',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container.html',1,'Doloro::DataManagement::DynamicResources']]],
   ['resourcescollection_20',['ResourcesCollection',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html',1,'Doloro::DataManagement::DynamicResources']]],
   ['resourceshelpers_21',['ResourcesHelpers',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_resources_helpers.html',1,'Doloro::AI::DAIStudio']]],
-  ['resourcesmanagementapi_22',['ResourcesManagementAPI',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html',1,'Doloro::DataManagement::DynamicResources']]],
+  ['resourcesmanager_22',['ResourcesManager',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html',1,'Doloro::DataManagement::DynamicResources']]],
   ['resourcetypefilter_23',['ResourceTypeFilter',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html',1,'Doloro::DataManagement::DynamicResources::Search']]],
   ['return_24',['Return',['../class_doloro_1_1_a_i_1_1_primitive_1_1_return.html',1,'Doloro::AI::Primitive']]],
   ['returneditor_25',['ReturnEditor',['../class_doloro_1_1_a_i_1_1_primitive_1_1_return_editor.html',1,'Doloro::AI::Primitive']]],

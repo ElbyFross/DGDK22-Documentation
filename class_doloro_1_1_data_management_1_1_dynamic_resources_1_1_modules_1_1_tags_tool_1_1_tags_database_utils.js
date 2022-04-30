@@ -7,7 +7,8 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     [ "Reload", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#aceb82b9d16210b564d93060d1e941790", null ],
     [ "DetectedDatabases", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#a4cb8e456b1129c9ff9388c674c73f80c", null ],
     [ "IsLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#af5afe632a22d8bf6868c0f1444706aa4", null ],
+    [ "IsLoading", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#acdcd5370ce47d57c3e2c1e60802f786a", null ],
     [ "MergedDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#adf031d8b60be55e6b0b620fe6d1bf5aa", null ],
     [ "eDetectedDatabasesChaged", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#a49d5293d8a385c90ec34b6795727d7d2", null ],
-    [ "eLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#a6c9820acb410c0d3b28de15065c667f1", null ]
+    [ "onLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html#ab02a639a5d0af4543095611ecd5b62a4", null ]
 ];

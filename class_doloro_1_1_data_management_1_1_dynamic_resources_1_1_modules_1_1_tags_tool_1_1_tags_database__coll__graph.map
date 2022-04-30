@@ -1,7 +1,7 @@
 <map id="Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsDatabase" name="Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsDatabase">
 <area shape="rect" id="node1" title="Collection of the tags." alt="" coords="193,115,473,157"/>
 <area shape="rect" id="node2" title=" " alt="" coords="16,5,135,32"/>
-<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,57,145,98"/>
+<area shape="rect" id="node3" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html" title=" " alt="" coords="5,57,145,98"/>
 <area shape="rect" id="node4" title=" " alt="" coords="30,123,121,149"/>
 <area shape="rect" id="node5" title=" " alt="" coords="24,173,127,200"/>
 <area shape="rect" id="node6" title=" " alt="" coords="8,224,143,251"/>

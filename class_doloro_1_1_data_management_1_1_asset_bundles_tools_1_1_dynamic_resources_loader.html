@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;22.1.0 Beta</span>
+   <div id="projectname">DoloroGDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
+   <div id="projectbrief">by Tauri Interactive LLC.</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +88,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_data_management_1_1_a
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pac-methods">Package Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.DataManagement.AssetBundlesTools.DynamicResourcesLoader Class Reference</div></div>
@@ -101,7 +102,7 @@ Inheritance diagram for Doloro.DataManagement.AssetBundlesTools.DynamicResources
 <div class="center"><img src="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader__inherit__graph.png" border="0" usemap="#a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_inherit__map" id="a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_inherit__map">
 <area shape="rect" title="Loading DynamicResources from packages via the DynamicResourcesDatabase.LoadResources." alt="" coords="5,155,261,196"/>
-<area shape="rect" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="44,80,223,107"/>
+<area shape="rect" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="43,80,223,107"/>
 <area shape="rect" title=" " alt="" coords="78,5,189,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -111,7 +112,7 @@ Collaboration diagram for Doloro.DataManagement.AssetBundlesTools.DynamicResourc
 <div class="center"><img src="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader__coll__graph.png" border="0" usemap="#a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_coll__map" alt="Collaboration graph"/></div>
 <map name="a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_coll__map" id="a_doloro_8_data_management_8_asset_bundles_tools_8_dynamic_resources_loader_coll__map">
 <area shape="rect" title="Loading DynamicResources from packages via the DynamicResourcesDatabase.LoadResources." alt="" coords="5,171,261,212"/>
-<area shape="rect" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="44,95,223,121"/>
+<area shape="rect" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="43,95,223,121"/>
 <area shape="rect" title=" " alt="" coords="22,5,133,32"/>
 <area shape="rect" title=" " alt="" coords="157,5,224,32"/>
 </map>
@@ -119,48 +120,60 @@ Collaboration diagram for Doloro.DataManagement.AssetBundlesTools.DynamicResourc
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ae3efff23f51c97e814e55ee5b85f79"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html#a7ae3efff23f51c97e814e55ee5b85f79">StartLoading</a> ()</td></tr>
-<tr class="memdesc:a7ae3efff23f51c97e814e55ee5b85f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts resource loading.  <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html#a7ae3efff23f51c97e814e55ee5b85f79">More...</a><br /></td></tr>
-<tr class="separator:a7ae3efff23f51c97e814e55ee5b85f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef22897a5cb42510550e7242470104ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html#aef22897a5cb42510550e7242470104ed">DrawGUI</a> ()</td></tr>
-<tr class="memdesc:aef22897a5cb42510550e7242470104ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls by external systems to update GUI with a data those relevant to the loader state.  <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html#aef22897a5cb42510550e7242470104ed">More...</a><br /></td></tr>
-<tr class="separator:aef22897a5cb42510550e7242470104ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e9fda75bf7eef85d6fe5530978dd93"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html#a22e9fda75bf7eef85d6fe5530978dd93">OnLoadingStarted</a> ()</td></tr>
+<tr class="memdesc:a22e9fda75bf7eef85d6fe5530978dd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts resource loading.  <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html#a22e9fda75bf7eef85d6fe5530978dd93">More...</a><br /></td></tr>
+<tr class="separator:a22e9fda75bf7eef85d6fe5530978dd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7ffcd41aff08f5bc42467b1d554ffd"><td class="memItemLeft" align="right" valign="top"><a id="a7f7ffcd41aff08f5bc42467b1d554ffd" name="a7f7ffcd41aff08f5bc42467b1d554ffd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnLoadingCompleted</b> ()</td></tr>
+<tr class="memdesc:a7f7ffcd41aff08f5bc42467b1d554ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when loading process considered completed. <br /></td></tr>
+<tr class="separator:a7f7ffcd41aff08f5bc42467b1d554ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d5bcfc0da1f8c4806792c7b53ad2ba"><td class="memItemLeft" align="right" valign="top"><a id="af2d5bcfc0da1f8c4806792c7b53ad2ba" name="af2d5bcfc0da1f8c4806792c7b53ad2ba"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnLoadingFailed</b> ()</td></tr>
+<tr class="memdesc:af2d5bcfc0da1f8c4806792c7b53ad2ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when process considering failed. <br /></td></tr>
+<tr class="separator:af2d5bcfc0da1f8c4806792c7b53ad2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41f0bd13f147fbb3ce292cfd87d8782b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html#a41f0bd13f147fbb3ce292cfd87d8782b">DrawGUI</a> ()</td></tr>
+<tr class="memdesc:a41f0bd13f147fbb3ce292cfd87d8782b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls by external systems to update GUI with a data those relevant to the loader state.  <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html#a41f0bd13f147fbb3ce292cfd87d8782b">More...</a><br /></td></tr>
+<tr class="separator:a41f0bd13f147fbb3ce292cfd87d8782b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a52f417afe400fd8ec7a084b36ac1f909"><td class="memItemLeft" align="right" valign="top"><a id="a52f417afe400fd8ec7a084b36ac1f909" name="a52f417afe400fd8ec7a084b36ac1f909"></a>
-static System.Action&lt; <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html">ADinamicResourcesLoader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>eStateChanged</b></td></tr>
-<tr class="memdesc:a52f417afe400fd8ec7a084b36ac1f909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when some loaded is loaded. Shares reference to the loader. <br /></td></tr>
-<tr class="separator:a52f417afe400fd8ec7a084b36ac1f909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ece6ee4bf0e05f8c97fc1ce22153ab"><td class="memItemLeft" align="right" valign="top"><a id="a76ece6ee4bf0e05f8c97fc1ce22153ab" name="a76ece6ee4bf0e05f8c97fc1ce22153ab"></a>
+static System.Action&lt; <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html">AResourceLoadingBehavior</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onStateChanged</b></td></tr>
+<tr class="memdesc:a76ece6ee4bf0e05f8c97fc1ce22153ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when some loaded is loaded. Shares reference to the loader. <br /></td></tr>
+<tr class="separator:a76ece6ee4bf0e05f8c97fc1ce22153ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2c86f9dc59718a881c3a540b6f091d12"><td class="memItemLeft" align="right" valign="top"><a id="a2c86f9dc59718a881c3a540b6f091d12" name="a2c86f9dc59718a881c3a540b6f091d12"></a>
+<tr class="memitem:a906a80a53f0262a59092bfb8acddeff1"><td class="memItemLeft" align="right" valign="top"><a id="a906a80a53f0262a59092bfb8acddeff1" name="a906a80a53f0262a59092bfb8acddeff1"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="memdesc:a2c86f9dc59718a881c3a540b6f091d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding the loader to the <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">LoaderUtils</a> register. <br /></td></tr>
-<tr class="separator:a2c86f9dc59718a881c3a540b6f091d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4d225d6a0898dd47c9d0949ab2cf50"><td class="memItemLeft" align="right" valign="top"><a id="a7d4d225d6a0898dd47c9d0949ab2cf50" name="a7d4d225d6a0898dd47c9d0949ab2cf50"></a>
+<tr class="memdesc:a906a80a53f0262a59092bfb8acddeff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding the loader to the <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">LoaderUtils</a> register. <br /></td></tr>
+<tr class="separator:a906a80a53f0262a59092bfb8acddeff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7662284f8bf9de3918ced82ac237ef8"><td class="memItemLeft" align="right" valign="top"><a id="ae7662284f8bf9de3918ced82ac237ef8" name="ae7662284f8bf9de3918ced82ac237ef8"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
-<tr class="memdesc:a7d4d225d6a0898dd47c9d0949ab2cf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing the loader from the <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">LoaderUtils</a> register. <br /></td></tr>
-<tr class="separator:a7d4d225d6a0898dd47c9d0949ab2cf50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ae7662284f8bf9de3918ced82ac237ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing the loader from the <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html" title="Class that provides unified API for loader features handling.">LoaderUtils</a> register. <br /></td></tr>
+<tr class="separator:ae7662284f8bf9de3918ced82ac237ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:abc9092e1a5981318194639f65f26e191"><td class="memItemLeft" align="right" valign="top"><a id="abc9092e1a5981318194639f65f26e191" name="abc9092e1a5981318194639f65f26e191"></a>
-ResourceRequest&#160;</td><td class="memItemRight" valign="bottom"><b>request</b></td></tr>
-<tr class="memdesc:abc9092e1a5981318194639f65f26e191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading request. <br /></td></tr>
-<tr class="separator:abc9092e1a5981318194639f65f26e191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Package Functions</h2></td></tr>
+<tr class="memitem:a1c712e2d6c7cd5d0519fb7298d8bc6f2"><td class="memItemLeft" align="right" valign="top"><a id="a1c712e2d6c7cd5d0519fb7298d8bc6f2" name="a1c712e2d6c7cd5d0519fb7298d8bc6f2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnLoadingStartedInternal</b> ()</td></tr>
+<tr class="separator:a1c712e2d6c7cd5d0519fb7298d8bc6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5190b56ecafe13290dd2efb70deee86"><td class="memItemLeft" align="right" valign="top"><a id="aa5190b56ecafe13290dd2efb70deee86" name="aa5190b56ecafe13290dd2efb70deee86"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnLoadingCompletedInternal</b> ()</td></tr>
+<tr class="separator:aa5190b56ecafe13290dd2efb70deee86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc1300d623c37fe00c1a24979050612"><td class="memItemLeft" align="right" valign="top"><a id="a7bc1300d623c37fe00c1a24979050612" name="a7bc1300d623c37fe00c1a24979050612"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnLoadingFailedInternal</b> ()</td></tr>
+<tr class="separator:a7bc1300d623c37fe00c1a24979050612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a67f58e72459df843c792e9e71862001b"><td class="memItemLeft" align="right" valign="top"><a id="a67f58e72459df843c792e9e71862001b" name="a67f58e72459df843c792e9e71862001b"></a>
-<a class="el" href="namespace_doloro_1_1_data_management_1_1_asset_bundles_tools.html#aced049ac9f12d74e1d9c0930761f0f83">LoadingState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>State</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a67f58e72459df843c792e9e71862001b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current state of the loading process. <br /></td></tr>
-<tr class="separator:a67f58e72459df843c792e9e71862001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffafea5fb7f68fca925d11c6457aeec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_doloro_1_1_data_management_1_1_asset_bundles_tools.html#aced049ac9f12d74e1d9c0930761f0f83">LoadingState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html#afffafea5fb7f68fca925d11c6457aeec">State</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afffafea5fb7f68fca925d11c6457aeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current state of the loading process.  <a href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html#afffafea5fb7f68fca925d11c6457aeec">More...</a><br /></td></tr>
+<tr class="separator:afffafea5fb7f68fca925d11c6457aeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aef22897a5cb42510550e7242470104ed" name="aef22897a5cb42510550e7242470104ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef22897a5cb42510550e7242470104ed">&#9670;&nbsp;</a></span>DrawGUI()</h2>
+<a id="a41f0bd13f147fbb3ce292cfd87d8782b" name="a41f0bd13f147fbb3ce292cfd87d8782b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f0bd13f147fbb3ce292cfd87d8782b">&#9670;&nbsp;</a></span>DrawGUI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +182,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Doloro.DataManagement.AssetBundlesTools.ADinamicResourcesLoader.DrawGUI </td>
+          <td class="memname">virtual void Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior.DrawGUI </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -184,12 +197,12 @@ Properties</h2></td></tr>
 
 <p>Calls by external systems to update GUI with a data those relevant to the loader state. </p>
 
-<p>Reimplemented in <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_hashed_tags_resources_loader.html#ac1a990a59822aaa9fa48e1be73cb0a98">Doloro.DataManagement.AssetBundlesTools.HashedTagsResourcesLoader</a>.</p>
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html#addc49e2780c4b4520f9bb7c1df5856f4">Doloro.DataManagement.AssetBundlesTools.CachedTagsResourcesLoader</a>.</p>
 
 </div>
 </div>
-<a id="a7ae3efff23f51c97e814e55ee5b85f79" name="a7ae3efff23f51c97e814e55ee5b85f79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ae3efff23f51c97e814e55ee5b85f79">&#9670;&nbsp;</a></span>StartLoading()</h2>
+<a id="a22e9fda75bf7eef85d6fe5530978dd93" name="a22e9fda75bf7eef85d6fe5530978dd93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e9fda75bf7eef85d6fe5530978dd93">&#9670;&nbsp;</a></span>OnLoadingStarted()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +211,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void Doloro.DataManagement.AssetBundlesTools.DynamicResourcesLoader.StartLoading </td>
+          <td class="memname">override void Doloro.DataManagement.AssetBundlesTools.DynamicResourcesLoader.OnLoadingStarted </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -213,7 +226,38 @@ Properties</h2></td></tr>
 
 <p>Starts resource loading. </p>
 
-<p>Reimplemented from <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html#a3f65b512a8321035cc52248be6e38f18">Doloro.DataManagement.AssetBundlesTools.ADinamicResourcesLoader</a>.</p>
+<p>Implements <a class="el" href="class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html#a2976b3d318dfd9dfe13704ee04f30874">Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="afffafea5fb7f68fca925d11c6457aeec" name="afffafea5fb7f68fca925d11c6457aeec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afffafea5fb7f68fca925d11c6457aeec">&#9670;&nbsp;</a></span>State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_doloro_1_1_data_management_1_1_asset_bundles_tools.html#aced049ac9f12d74e1d9c0930761f0f83">LoadingState</a> Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior.State</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current state of the loading process. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">System.NotSupportedException</td><td>Attempt to set <a class="el" href="namespace_doloro_1_1_data_management_1_1_asset_bundles_tools.html#aced049ac9f12d74e1d9c0930761f0f83afa7be7845bc42b3491d9d0377958be94" title="Loading process not started.">LoadingState.NotStarted</a> value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

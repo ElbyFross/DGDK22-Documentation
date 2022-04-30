@@ -18,15 +18,14 @@ var searchData=
   ['separator_15',['SEPARATOR',['../class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_filter_by_tag_editor.html#a0dd669147fe9c75b286dea304c7a269c',1,'Doloro::AI::Sensors::Filters::FilterByTagEditor']]],
   ['setrenderqueue_16',['setRenderQueue',['../class_doloro_1_1_tools_1_1_materials_1_1_material_instantiating_tool.html#a272832d33988f7879a28cc347b9d1225',1,'Doloro::Tools::Materials::MaterialInstantiatingTool']]],
   ['setzerotohandles_17',['setZeroToHandles',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html#a6dffa4585c9499624932cddba4bf3057',1,'Doloro::UIEngine2::Modules::ElementsCollection::GridCollection']]],
-  ['sheetbonds_18',['sheetBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html#a74d8bf5b6928043ae7cf935ab2ce74a6',1,'Doloro::DataManagement::Tables::TableEditor']]],
+  ['sheetbonds_18',['sheetBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html#a65bbe007bb70132aea47adba2a8437ad',1,'Doloro::DataManagement::Tables::SpreadsheetEditor']]],
   ['sign_19',['sign',['../class_doloro_1_1_a_i_1_1_reorderable_sequence.html#aa16f77f3c37f1c5728f6682fe74c365c',1,'Doloro::AI::ReorderableSequence']]],
   ['sizeprevalidator_20',['SizePreValidator',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#afd64e535520571e5d60ef0986cd5f277',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::Volume']]],
   ['snap_21',['snap',['../struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#aa350fc521d9d1be4a9c40282c4d8df73',1,'Doloro::EditorExtension::ProjectSettings::InputAxis']]],
-  ['solutionbonds_22',['solutionBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html#a62bf4de6ceefe8c97638a15477ce5400',1,'Doloro::DataManagement::Tables::TableEditor']]],
-  ['sorucerenderer_23',['soruceRenderer',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a1d609a0f818beacd6e5e136bd9697ae3',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
-  ['source_24',['source',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html#ae3fe311b0fe4512274ed5cc7d4d83253',1,'Doloro::AI::Memory::Copy']]],
-  ['sourcesensorid_25',['sourceSensorID',['../class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_declare_dependent_filtered_sensor.html#af60e2f68d1e600371829786805349157',1,'Doloro::AI::Sensors::Instance::DeclareDependentFilteredSensor']]],
-  ['sourcevariabletitle_26',['sourceVariableTitle',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#aeea5ea75d0e2f035102156ce7f6b2e19',1,'Doloro::AI::Get::ChildObject']]],
-  ['startpoints_27',['startPoints',['../class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html#aa84112854b2b5bc8a4909b46644d510e',1,'Doloro::Sensors::VisualSensorDebuger']]],
-  ['studio_5ftitle_28',['STUDIO_TITLE',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_i_d_e_settings.html#af59d0c54faf5a2abc809399d1d1a273e',1,'Doloro::AI::DAIStudio::IDESettings']]]
+  ['sorucerenderer_22',['soruceRenderer',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a1d609a0f818beacd6e5e136bd9697ae3',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
+  ['source_23',['source',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html#ae3fe311b0fe4512274ed5cc7d4d83253',1,'Doloro::AI::Memory::Copy']]],
+  ['sourcesensorid_24',['sourceSensorID',['../class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_declare_dependent_filtered_sensor.html#af60e2f68d1e600371829786805349157',1,'Doloro::AI::Sensors::Instance::DeclareDependentFilteredSensor']]],
+  ['sourcevariabletitle_25',['sourceVariableTitle',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#aeea5ea75d0e2f035102156ce7f6b2e19',1,'Doloro::AI::Get::ChildObject']]],
+  ['startpoints_26',['startPoints',['../class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html#aa84112854b2b5bc8a4909b46644d510e',1,'Doloro::Sensors::VisualSensorDebuger']]],
+  ['studio_5ftitle_27',['STUDIO_TITLE',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_i_d_e_settings.html#af59d0c54faf5a2abc809399d1d1a273e',1,'Doloro::AI::DAIStudio::IDESettings']]]
 ];

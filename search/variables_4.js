@@ -7,7 +7,7 @@ var searchData=
   ['debuglog_4',['debugLog',['../class_doloro_1_1_sensors_1_1_sensor.html#a729f23035f27ca5d7560d3209870e567',1,'Doloro::Sensors::Sensor']]],
   ['defaultmaxsize_5',['DefaultMaxSize',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#abe239ac88ade18f05d7bf8f5d83d65df',1,'Doloro::UIEngine2::WindowUIController']]],
   ['defaultminsize_6',['DefaultMinSize',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#aaca4b8926902dfb6725d542904e88d09',1,'Doloro::UIEngine2::WindowUIController']]],
-  ['defaulttagcolor_7',['DefaultTagColor',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ab791043e23ff10055fc9d488c0a796c3',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::Tag']]],
+  ['defaulttagtint_7',['DefaultTagTint',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a886ae03c8dbf25656f0b1c5afe2bd4a0',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::Tag']]],
   ['delta_8',['delta',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a15788a6a784e109fc2a54dcfbec18b34',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
   ['description_9',['description',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html#aa33e29f956a3d40a87f7f37ad89d7c68',1,'Doloro::InvetorySystem::Properties::StorageInfo::Info']]],
   ['descriptionfield_10',['descriptionField',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_g_u_i_element.html#a871ac3a38fc803344071e54ce09a633b',1,'Doloro::InvetorySystem::UI::StorageGUIElement']]],

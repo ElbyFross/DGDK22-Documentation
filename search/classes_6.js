@@ -5,7 +5,7 @@ var searchData=
   ['genericproxycontentprovider_3c_20gameobject_2c_20gameobject_20_3e_2',['GenericProxyContentProvider&lt; GameObject, GameObject &gt;',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html',1,'Doloro::Localization']]],
   ['genericproxycontentprovider_3c_20guicontent_2c_20guicontent_20_3e_3',['GenericProxyContentProvider&lt; GUIContent, GUIContent &gt;',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html',1,'Doloro::Localization']]],
   ['genericproxycontentprovider_3c_20sprite_2c_20sprite_20_3e_4',['GenericProxyContentProvider&lt; Sprite, Sprite &gt;',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html',1,'Doloro::Localization']]],
-  ['genericproxycontentprovider_3c_28string_20title_2c_20string_20description_29_2c_20string_20_3e_5',['GenericProxyContentProvider&lt;(string title, string description), string &gt;',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html',1,'Doloro::Localization']]],
+  ['genericproxycontentprovider_3c_20string_2c_20string_20_3e_5',['GenericProxyContentProvider&lt; string, string &gt;',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html',1,'Doloro::Localization']]],
   ['getobjectfromzone_6',['GetObjectFromZone',['../class_doloro_1_1_a_i_1_1_sensors_1_1_get_object_from_zone.html',1,'Doloro::AI::Sensors']]],
   ['getobjectfromzoneeditor_7',['GetObjectFromZoneEditor',['../class_doloro_1_1_a_i_1_1_sensors_1_1_instance_1_1_get_object_from_zone_editor.html',1,'Doloro::AI::Sensors::Instance']]],
   ['getrectaroundobject_8',['GetRectAroundObject',['../class_doloro_1_1_a_i_1_1_get_1_1_get_rect_around_object.html',1,'Doloro::AI::Get']]],

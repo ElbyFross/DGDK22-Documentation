@@ -1,4 +1,4 @@
 <map id="Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagAlreadyExistsException" name="Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagAlreadyExistsException">
-<area shape="rect" id="node1" title="Means that an operating Tag collides with another tag with the same Tag.key." alt="" coords="5,80,268,136"/>
+<area shape="rect" id="node1" title="Means that an operating Tag collides with another tag with the same Tag.Key." alt="" coords="5,80,268,136"/>
 <area shape="rect" id="node2" title=" " alt="" coords="97,5,177,32"/>
 </map>

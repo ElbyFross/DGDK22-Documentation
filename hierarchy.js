@@ -308,7 +308,7 @@ var hierarchy =
       [ "Doloro.AI.CustomActionEditorAttribute", "class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html", null ],
       [ "Doloro.AI.DAIInspector.InspectorPropertyAttribute", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_property_attribute.html", null ],
       [ "Doloro.DataManagement.AssetPropertiesSystem.PropertyInspectorAttribute", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_property_inspector_attribute.html", null ],
-      [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.NotMergeableAttribute", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_not_mergeable_attribute.html", null ],
+      [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.NotMergeableAttribute", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_not_mergeable_attribute.html", null ],
       [ "Doloro.DataManagement.Serialization.NotSerializeAttribute", "class_doloro_1_1_data_management_1_1_serialization_1_1_not_serialize_attribute.html", null ],
       [ "Doloro.DataManagement.Serialization.SerializeAttribute", "class_doloro_1_1_data_management_1_1_serialization_1_1_serialize_attribute.html", null ]
     ] ],
@@ -316,7 +316,7 @@ var hierarchy =
     [ "Doloro.DataManagement.Serialization.BinarySerializationTool", "class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html", null ],
     [ "Doloro.EditorExtension.SAL.DataContainer.CameraPrefabSettings", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_data_container_1_1_camera_prefab_settings.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.CategorizedTagsDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html", null ],
-    [ "Doloro.DataManagement.Tables.TableEditor.CellEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor_1_1_cell_editor.html", null ],
+    [ "Doloro.DataManagement.Tables.CellEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_cell_editor.html", null ],
     [ "Doloro.BaseTypes.Color", "struct_doloro_1_1_base_types_1_1_color.html", null ],
     [ "Doloro.Tools.ShowHashCodes.ComponentMeta", "struct_doloro_1_1_tools_1_1_show_hash_codes_1_1_component_meta.html", null ],
     [ "Doloro.AI.DAIDebugger.ConsoleLogsGUILayout", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_console_logs_g_u_i_layout.html", null ],
@@ -354,7 +354,8 @@ var hierarchy =
         [ "Doloro.InvetorySystem.ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
         [ "Doloro.InvetorySystem.StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", null ]
       ] ],
-      [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.aPatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1a_patch_order_editor.html", [
+      [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.APatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_a_patch_order_editor.html", [
+        [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.AssetPropertiesRemovePatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_9ef338312e3441017fe816ffc04b12a5.html", null ],
         [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.RemoveComponentPatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe.html", null ]
       ] ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.EditableTagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html", null ]
@@ -408,7 +409,7 @@ var hierarchy =
     [ "Doloro.Localization.GenericProxyContentProvider< Sprite, Sprite >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
       [ "Doloro.Localization.LocalizedSpriteContent", "class_doloro_1_1_localization_1_1_localized_sprite_content.html", null ]
     ] ],
-    [ "Doloro.Localization.GenericProxyContentProvider<(string title, string description), string >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
+    [ "Doloro.Localization.GenericProxyContentProvider< string, string >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
       [ "Doloro.Localization.LocalizedTextContent", "class_doloro_1_1_localization_1_1_localized_text_content.html", null ]
     ] ],
     [ "Doloro.AI.DAIStudio.Gizmos", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_gizmos.html", null ],
@@ -546,15 +547,15 @@ var hierarchy =
       [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< SourceType, GUIElementType >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", null ]
     ] ],
     [ "IMergeableResource", null, [
-      [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.IMergeableResource< T >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", null ]
+      [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.IMergeableResource< T >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html", null ]
     ] ],
-    [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.IMergeableResource< DynamicResource >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", [
+    [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.IMergeableResource< DynamicResource >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html", [
       [ "Doloro.DataManagement.DynamicResources.DynamicResource", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html", null ]
     ] ],
-    [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.IMergeableResource< Tag >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", [
+    [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.IMergeableResource< Tag >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html", [
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.Tag", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html", null ]
     ] ],
-    [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.IMergeableResource< TagsDatabase >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", [
+    [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.IMergeableResource< TagsDatabase >", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_mergeable_resource.html", [
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html", null ]
     ] ],
     [ "Doloro.InvetorySystem.Properties.StorageInfo.Info", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html", null ],
@@ -628,7 +629,6 @@ var hierarchy =
       [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
     ] ],
     [ "Doloro.DataManagement.DynamicResources.ISignedResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html", [
-      [ "Doloro.DataManagement.AssetPropertiesSystem.UIInfo.IconResourceInfo", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info_1_1_icon_resource_info.html", null ],
       [ "Doloro.DataManagement.DynamicResources.DynamicResource", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html", null ],
       [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
     ] ],
@@ -645,7 +645,7 @@ var hierarchy =
     ] ],
     [ "Doloro.InvetorySystem.Properties.StorageContentSpawner.ItemOrder", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner_1_1_item_order.html", null ],
     [ "Doloro.DataManagement.DynamicResources.IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html", null ],
-    [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource.html", [
+    [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html", [
       [ "Doloro.DataManagement.DynamicResources.DynamicResource", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html", null ]
     ] ],
     [ "Doloro.UIEngine2.IWindowRuntimeRegisterEntry", "interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html", [
@@ -658,15 +658,15 @@ var hierarchy =
     [ "Doloro.UIEngine2.Modules.Graphs.LineUtils", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_utils.html", null ],
     [ "Doloro.DataManagement.AssetBundlesTools.LoaderUtils", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html", null ],
     [ "Doloro.EditorExtension.SAL.Matrix", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_matrix.html", null ],
-    [ "Doloro.DataManagement.DynamicResources.Modules.MergingTool.MergingAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i.html", null ],
+    [ "Doloro.DataManagement.DynamicResources.Modules.MergeTool.MergingAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_merging_a_p_i.html", null ],
     [ "MonoBehaviour", null, [
       [ "AIMapSearchByString", "class_a_i_map_search_by_string.html", null ],
       [ "Doloro.AI.Brain", "class_doloro_1_1_a_i_1_1_brain.html", null ],
       [ "Doloro.AI.Sensors.AISensorsManager", "class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html", null ],
       [ "Doloro.AI.Sensors.AudioSourceLoudnessTester", "class_doloro_1_1_a_i_1_1_sensors_1_1_audio_source_loudness_tester.html", null ],
-      [ "Doloro.DataManagement.AssetBundlesTools.ADinamicResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_dinamic_resources_loader.html", [
-        [ "Doloro.DataManagement.AssetBundlesTools.DynamicResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html", null ],
-        [ "Doloro.DataManagement.AssetBundlesTools.HashedTagsResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_hashed_tags_resources_loader.html", null ]
+      [ "Doloro.DataManagement.AssetBundlesTools.AResourceLoadingBehavior", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html", [
+        [ "Doloro.DataManagement.AssetBundlesTools.CachedTagsResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html", null ],
+        [ "Doloro.DataManagement.AssetBundlesTools.DynamicResourcesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html", null ]
       ] ],
       [ "Doloro.DataManagement.AssetBundlesTools.AssetBundlesLoader", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html", null ],
       [ "Doloro.DataManagement.AssetBundlesTools.AsyncTaskHandler", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler.html", null ],
@@ -826,7 +826,7 @@ var hierarchy =
     [ "Doloro.UIEngine2.RectTransformExtensions", "class_doloro_1_1_u_i_engine2_1_1_rect_transform_extensions.html", null ],
     [ "Doloro.DataManagement.DynamicResources.ResourceContainer", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resource_container.html", null ],
     [ "Doloro.AI.DAIStudio.ResourcesHelpers", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_resources_helpers.html", null ],
-    [ "Doloro.DataManagement.DynamicResources.ResourcesManagementAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_management_a_p_i.html", null ],
+    [ "Doloro.DataManagement.DynamicResources.ResourcesManager", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html", null ],
     [ "Doloro.EditorConfiguration.RuntimeConstants", "class_doloro_1_1_editor_configuration_1_1_runtime_constants.html", null ],
     [ "Doloro.InvetorySystem.RuntimeStoragesHelper", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html", null ],
     [ "Doloro.EditorExtension.SAL.SALPlugin", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_s_a_l_plugin.html", [
@@ -856,6 +856,7 @@ var hierarchy =
     ] ],
     [ "Doloro.InvetorySystem.Properties.StorageContentSpawner.SessionData", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner_1_1_session_data.html", null ],
     [ "Doloro.AI.DAIInspector.Settings", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_settings.html", null ],
+    [ "Doloro.DataManagement.Tables.SpreadsheetEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html", null ],
     [ "StateMachineBehaviour", null, [
       [ "Doloro.Tools.Animator.AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_1_1_animator_loger.html", null ]
     ] ],
@@ -870,7 +871,6 @@ var hierarchy =
     [ "Doloro.InvetorySystem.TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.AssemblyPatchingTool.TypeSignatureGUIElement", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature_g_u_i_element.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.AssemblyPatchingTool.TypeTransferOrderGUIElement", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_transfer_order_g_u_i_element.html", null ],
-    [ "Doloro.DataManagement.AssetPropertiesSystem.UIInfo", "struct_doloro_1_1_data_management_1_1_asset_properties_system_1_1_u_i_info.html", null ],
     [ "Doloro.UIEngine2.Modules.Graphs.UniformGraphUI", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i.html", null ],
     [ "Doloro.UIEngine2.Modules.Graphs.UniformGraphUI.Utility", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i_1_1_utility.html", null ],
     [ "Doloro.AI.Core.Utils", "class_doloro_1_1_a_i_1_1_core_1_1_utils.html", null ],
