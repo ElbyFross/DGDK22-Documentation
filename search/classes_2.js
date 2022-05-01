@@ -1,8 +1,8 @@
 var searchData=
 [
   ['cachedtagsresourcesloader_0',['CachedTagsResourcesLoader',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_cached_tags_resources_loader.html',1,'Doloro::DataManagement::AssetBundlesTools']]],
-  ['cameracontrol_1',['CameraControl',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
-  ['cameracontroldatacontainer_2',['CameraControlDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
+  ['cameracontroldatacontainer_1',['CameraControlDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
+  ['cameracontrolplugin_2',['CameraControlPlugin',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
   ['cameraprefabsettings_3',['CameraPrefabSettings',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container_1_1_camera_prefab_settings.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins::CameraControlDataContainer']]],
   ['catalogpairsenumerator_4',['CatalogPairsEnumerator',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_types_t9183615fba24b22d07fe35b1eb947f9d.html',1,'Doloro::AI::DAIDebugger::PatchingTool::AssemblyPatchingTool::TypesTransferCatalog']]],
   ['categorizationprocessalreadyinprogress_5',['CategorizationProcessAlreadyInProgress',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorization_process_already_in_progress.html',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool']]],

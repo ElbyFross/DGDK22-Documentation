@@ -96,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md143", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md147", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
@@ -186,10 +186,10 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#a17eba9695e7f890051cd51265d9b7369",
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a5ee12fe0cca9b735b4caee189c16f723",
 "dai_core_gs_asm_inst.html#dai_core_gs_asm_inst_rt",
-"dinv_volume.html#dinv_volume_htu",
-"interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html",
-"namespace_doloro_1_1_u_i_engine2.html#abfca1f5d63c8debd8f5712d1a8056ab5a1dbcd970a876c8caf66ed6d72378266e",
-"struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html#a0e5c15ff0e4cf15f8e472859973d0d0d"
+"dinv-gstart.html#s_dinv_ds_db_rent",
+"interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html#a7cd4940dc803958ef3a2d2e66858c699",
+"namespace_doloro_1_1_tools_1_1_input.html#a59152808acb1a571407c1b31cd24c59faf2a47c6809d88e175dade0ef7b16aa13",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#af9cf225487dba92f40a0d68ef93a5bfb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

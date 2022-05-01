@@ -2,8 +2,8 @@ var searchData=
 [
   ['scalablelinegraph_0',['ScalableLineGraph',['../class_doloro_1_1_graphs_1_1_scalable_line_graph.html',1,'Doloro::Graphs']]],
   ['scalablelinegraphguielement_1',['ScalableLineGraphGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
-  ['sceneplacementmanager_2',['ScenePlacementManager',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
-  ['sceneplacementmanagerdatacontainer_3',['ScenePlacementManagerDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
+  ['sceneplacementmanagerdatacontainer_2',['ScenePlacementManagerDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
+  ['sceneplacementplugin_3',['ScenePlacementPlugin',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
   ['scriptspatcher_4',['ScriptsPatcher',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_scripts_patching_tool_1_1_scripts_patcher.html',1,'Doloro::AI::DAIDebugger::PatchingTool::ScriptsPatchingTool']]],
   ['searchcontext_5',['SearchContext',['../struct_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer_1_1_search_context.html',1,'Doloro::UIEngine2::Window::WindowsLayer']]],
   ['searchtarget_6',['SearchTarget',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_search_target.html',1,'Doloro::UIEngine2::DEVTOOLS']]],

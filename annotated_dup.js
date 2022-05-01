@@ -416,12 +416,12 @@ var annotated_dup =
         ] ],
         [ "SmallToolsHub", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub.html", [
           [ "Plugins", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins.html", [
-            [ "CameraControl", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control" ],
             [ "CameraControlDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container" ],
-            [ "LayoutInfo", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info" ],
+            [ "CameraControlPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin" ],
             [ "LayoutInfoDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_data_container.html", null ],
-            [ "ScenePlacementManager", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager" ],
-            [ "ScenePlacementManagerDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html", null ]
+            [ "LayoutInfoPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin" ],
+            [ "ScenePlacementManagerDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html", null ],
+            [ "ScenePlacementPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin" ]
           ] ],
           [ "Constants", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_constants.html", null ],
           [ "Matrix", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix" ],

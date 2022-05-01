@@ -95,8 +95,11 @@ $(document).ready(function(){initNavTree('deditorext_sth.html',''); initResizabl
 <li class="level2"><a href="#deditorext_sth-ht-conf">Configure a plug-in</a></li>
 </ul>
 </li>
+<li class="level1"><a href="#deditorext_sth_box">Pre-Intergrated plug-ins</a></li>
 <li class="level1"><a href="#deditorext_sth-dev">Custom plug-in</a><ul><li class="level2"><a href="#deditorext_sth-dev-class">Creation</a></li>
 <li class="level2"><a href="#deditorext_sth-dev-setting">Plug-in settings</a></li>
+<li class="level2"><a href="#deditorext_sth-dev-onscene">On-scene GUI</a></li>
+<li class="level2"><a href="#deditorext_sth-dev-example">Example</a></li>
 </ul>
 </li>
 </ul>
@@ -105,12 +108,14 @@ $(document).ready(function(){initNavTree('deditorext_sth.html',''); initResizabl
 About</h1>
 <p ><b>Small Tools Hub</b> (STH) its a handful editor tool crated for integration of small tools those need to run in the editor but not deserve its own window to be stated.</p>
 <p >The module supplies you with easy to use, still powerful API that allows you to embed a tool into Unity without digging into backstage processes.</p>
+<hr  />
 <h1><a class="anchor" id="deditorext_sth_work"></a>
 How does it work</h1>
 <p >The tool works as a <code>EditorWindow</code> that envelops Unity services and simplifies them access via own API.</p>
 <p >The tool scans entire in-project solutions for <code>STHPlugin</code> derived classes and loads them instances as plug-ins.</p>
 <p >Entire messages excluding the <code>OnInspectorGUI</code> calls for each enabled plug-in. <br  />
 Inspector GUI calls only when the plug-in interface selected at the inspector.</p>
+<hr  />
 <h1><a class="anchor" id="deditorext_sth-ht"></a>
 How to..</h1>
 <h2><a class="anchor" id="deditorext_sth-ht-start"></a>
@@ -123,12 +128,22 @@ Enable \ Disable plug-in</h2>
 <p >Each plugin within <b>Small Tools Hub</b> has a toggle at the left side of its catalog item.</p>
 <p >Toggle state defines is the plug-in receives editor messages. <br  />
  <br  />
- The only callback that works not matter status is, is a <code>OnInspectorGUI</code> over your plug-in, that draws GUI within <b>STH</b> window when the pluging has been selected in catalog.</p>
+ The only callback that works not matter status is, is a <code>OnInspectorGUI</code> over your plug-in, that draws GUI within <b>STH</b> window when the plug-in has been selected in catalog.</p>
 <p >That allows you to disable tools you no need at the moment.</p>
 <h2><a class="anchor" id="deditorext_sth-ht-conf"></a>
 Configure a plug-in</h2>
 <p >To enter the plug-in's GUI you just need to select it in <b>STH</b>'s catalog. <br  />
 After that the right side of the window will draw UI provided with a <code>OnInspectorGUI</code> supplied with the plug-in.</p>
+<hr  />
+<h1><a class="anchor" id="deditorext_sth_box"></a>
+Pre-Intergrated plug-ins</h1>
+<p >Along with the package you also got several pre-integrated plug-ins.</p>
+<ul>
+<li><a class="el" href="deditorext_sth_plg_li.html">Plug-in: Layout Info</a></li>
+<li><a class="el" href="deditorext_sth_plg_cc.html">Plug-in: Camera Control</a></li>
+<li><a class="el" href="deditorext_sth_plg_sp.html">Plug-in: Scene Placement</a></li>
+</ul>
+<hr  />
 <h1><a class="anchor" id="deditorext_sth-dev"></a>
 Custom plug-in</h1>
 <h2><a class="anchor" id="deditorext_sth-dev-class"></a>
@@ -137,9 +152,18 @@ Creation</h2>
 <h2><a class="anchor" id="deditorext_sth-dev-setting"></a>
 Plug-in settings</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="deditorext_sth-dev-class"></a>
-Creation</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="deditorext_sth-dev-onscene"></a>
+On-scene GUI</h2>
+<p ><b>STH</b> allows you simple access to the on scene scope view with a custom GUI.</p>
+<h2><a class="anchor" id="deditorext_sth-dev-example"></a>
+Example</h2>
+<p ><b>STH</b> shares several plug-ins with the package. <br  />
+The best way to explore plug-ins development is to use source of shared one.</p>
+<ul>
+<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html" title="Plug-in that provides extra layout info.">Doloro.EditorExtension.SmallToolsHub.Plugins.LayoutInfoPlugin</a></li>
+<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html" title="Plug-in that provides API more defining of editor camera presets.">Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin</a></li>
+<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html" title="Provides extra control to placing object to certain world position.">Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin</a> </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

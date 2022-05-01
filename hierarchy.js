@@ -856,9 +856,9 @@ var hierarchy =
       [ "Doloro.Tools.Animator.AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_1_1_animator_loger.html", null ]
     ] ],
     [ "Doloro.EditorExtension.SmallToolsHub.STHPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html", [
-      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControl", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control.html", null ],
-      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.LayoutInfo", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info.html", null ],
-      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementManager", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager.html", null ]
+      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html", null ],
+      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.LayoutInfoPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html", null ],
+      [ "Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html", null ]
     ] ],
     [ "Doloro.DataManagement.Tables.TableEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html", null ],
     [ "Doloro.DataManagement.Tables.TableStyles", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles.html", null ],
