@@ -429,6 +429,7 @@ var annotated_dup =
           [ "RotatedScreenSpace", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_rotated_screen_space.html", null ],
           [ "STHEditor", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor" ],
           [ "STHPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin" ],
+          [ "STHPluginHelpers", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers" ],
           [ "STHSettings", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings" ]
         ] ],
         [ "Fields", "class_doloro_1_1_editor_extension_1_1_fields.html", "class_doloro_1_1_editor_extension_1_1_fields" ]

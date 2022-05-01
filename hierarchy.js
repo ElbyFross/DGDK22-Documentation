@@ -860,6 +860,7 @@ var hierarchy =
       [ "Doloro.EditorExtension.SmallToolsHub.Plugins.LayoutInfoPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html", null ],
       [ "Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html", null ]
     ] ],
+    [ "Doloro.EditorExtension.SmallToolsHub.STHPluginHelpers", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers.html", null ],
     [ "Doloro.DataManagement.Tables.TableEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html", null ],
     [ "Doloro.DataManagement.Tables.TableStyles", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles.html", null ],
     [ "Doloro.AI.DAIInspector.TabsInspectorHelper", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_tabs_inspector_helper.html", null ],

@@ -10,7 +10,8 @@ var deditorext_sth =
     [ "Pre-Intergrated plug-ins", "deditorext_sth.html#deditorext_sth_box", null ],
     [ "Custom plug-in", "deditorext_sth.html#deditorext_sth-dev", [
       [ "Creation", "deditorext_sth.html#deditorext_sth-dev-class", null ],
-      [ "Plug-in settings", "deditorext_sth.html#deditorext_sth-dev-setting", null ],
+      [ "Plug-in settings", "deditorext_sth.html#deditorext_sth-dev-settings", null ],
+      [ "Cross-session data", "deditorext_sth.html#deditorext_sth-dev-crossession", null ],
       [ "On-scene GUI", "deditorext_sth.html#deditorext_sth-dev-onscene", null ],
       [ "Example", "deditorext_sth.html#deditorext_sth-dev-example", null ]
     ] ],

@@ -1,6 +1,4 @@
 <map id="Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin" name="Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin">
-<area shape="rect" id="node1" title="Plug&#45;in that provides API more defining of editor camera presets." alt="" coords="5,200,255,241"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html" title="Class that declares API for Small Tools Hub plug&#45;ins." alt="" coords="31,96,114,123"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container.html" title=" " alt="" coords="138,81,378,137"/>
-<area shape="rect" id="node4" title=" " alt="" coords="199,5,317,32"/>
+<area shape="rect" id="node1" title="Plug&#45;in that provides API more defining of editor camera presets." alt="" coords="5,80,255,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html" title="Class that declares API for Small Tools Hub plug&#45;ins." alt="" coords="89,5,171,32"/>
 </map>

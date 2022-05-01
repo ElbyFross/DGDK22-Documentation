@@ -97,7 +97,8 @@ $(document).ready(function(){initNavTree('deditorext_sth.html',''); initResizabl
 </li>
 <li class="level1"><a href="#deditorext_sth_box">Pre-Intergrated plug-ins</a></li>
 <li class="level1"><a href="#deditorext_sth-dev">Custom plug-in</a><ul><li class="level2"><a href="#deditorext_sth-dev-class">Creation</a></li>
-<li class="level2"><a href="#deditorext_sth-dev-setting">Plug-in settings</a></li>
+<li class="level2"><a href="#deditorext_sth-dev-settings">Plug-in settings</a></li>
+<li class="level2"><a href="#deditorext_sth-dev-crossession">Cross-session data</a></li>
 <li class="level2"><a href="#deditorext_sth-dev-onscene">On-scene GUI</a></li>
 <li class="level2"><a href="#deditorext_sth-dev-example">Example</a></li>
 </ul>
@@ -148,13 +149,73 @@ Pre-Intergrated plug-ins</h1>
 Custom plug-in</h1>
 <h2><a class="anchor" id="deditorext_sth-dev-class"></a>
 Creation</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="deditorext_sth-dev-setting"></a>
+<p >For plug-in create its enough to create a new class derived from the <code>STHPlugin</code> class.<br  />
+<b>See also:</b> <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html" title="Class that declares API for Small Tools Hub plug-ins.">Doloro.EditorExtension.SmallToolsHub.STHPlugin</a></p>
+<dl class="section warning"><dt>Warning</dt><dd>The class MUST be located at the editor folder.</dd></dl>
+<p>The new plug-in class will be automatically found among loaded in-project assemblies and connected to the <code>Small Tools Hub</code>.</p>
+<div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub;</div>
+<div class="line"> </div>
+<div class="line">public class NewPlugin : STHPlugin</div>
+<div class="line">{</div>
+<div class="line">    // Override members using at your plug-in logic here.</div>
+<div class="line">}</div>
+</div><!-- fragment --><h2><a class="anchor" id="deditorext_sth-dev-settings"></a>
 Plug-in settings</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="deditorext_sth-dev-crossession"></a>
+Cross-session data</h2>
+<p >For most plug-ins its important to store some data between editor using sessions.<br  />
+<b>STH</b> tool provides you to fillow a simple pattern to do this.</p>
+<ol type="1">
+<li>Create a new class at runtime assembly (not Editor folder).</li>
+<li>Derive it from <code>ScriptableObject</code>.</li>
+<li>Define members to store. Be sure that <code>private</code> and <code>protected</code> members has <code>SerializeField</code> attribute. <div class="fragment"><div class="line">public ExampleDataContainer : ScriptableObject</div>
+<div class="line">{</div>
+<div class="line">    public string prop0</div>
+<div class="line">    {</div>
+<div class="line">        get =&gt; _prop0;</div>
+<div class="line">        set =&gt; _prop0 = value;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public int field0;</div>
+<div class="line"> </div>
+<div class="line">    [SerializeField] private _prop0;</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li>Declare container class at the plug-in source scope.</li>
+<li>Implement <code>DataSave</code> and <code>DataLoad</code> methods as suggested below: <div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub.Plugins;</div>
+<div class="line"> </div>
+<div class="line">public class NewPlugin : STHPlugin</div>
+<div class="line">{   </div>
+<div class="line">    // Name of the container asset file to use.</div>
+<div class="line">    const string CONTAINER_ASSET_NAME = &quot;ExampleDataContainerFileName&quot;;</div>
+<div class="line"> </div>
+<div class="line">    public CameraControlDataContainer container</div>
+<div class="line">  {</div>
+<div class="line">      get</div>
+<div class="line">      {</div>
+<div class="line">          if (_container == null) DataLoad();</div>
+<div class="line">          return _container;</div>
+<div class="line">      }</div>
+<div class="line">      set =&gt; _container = value;</div>
+<div class="line">  }</div>
+<div class="line">  private CameraControlDataContainer _container;</div>
+<div class="line"> </div>
+<div class="line">    public override void DataLoad() =&gt;</div>
+<div class="line">      this.DataLoad(ref _container, CONTAINER_ASSET_NAME);</div>
+<div class="line"> </div>
+<div class="line">  public override void DataSave() =&gt;</div>
+<div class="line">      this.DataSave(ref _container);</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+</ol>
+<p >Now you data container will be operated automatically by the tool via <b><a class="el" href="namespace_doloro.html">Doloro</a> GDK</b> cache. <br  />
+The instance of data container will be always exists by <code>container</code> property call. <br  />
+</p>
 <h2><a class="anchor" id="deditorext_sth-dev-onscene"></a>
 On-scene GUI</h2>
 <p ><b>STH</b> allows you simple access to the on scene scope view with a custom GUI.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 <h2><a class="anchor" id="deditorext_sth-dev-example"></a>
 Example</h2>
 <p ><b>STH</b> shares several plug-ins with the package. <br  />
