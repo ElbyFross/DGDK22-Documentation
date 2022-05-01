@@ -29,7 +29,12 @@ var NAVTREE =
       [ "Thanks", "index.html#mainpage_thnx", null ],
       [ "About", "index.html#mainpage_about", null ],
       [ "Important", "index.html#mainpage_warning", null ],
-      [ "Beta", "index.html#mainpage_beta", null ]
+      [ "Beta", "index.html#mainpage_beta", [
+        [ "F.A.Q.", "index.html#mainpage_beta_faq", [
+          [ "How long Beta will go?", "index.html#mainpage_beta_faq_long", null ],
+          [ "Is the beta time goes into year subscribtion?", "index.html#mainpage_beta_faq_year", null ]
+        ] ]
+      ] ]
     ] ],
     [ "Licensing", "md__doloro__g_d_k_0__licenses.html", [
       [ "Main pillars", "md__doloro__g_d_k_0__licenses.html#licenses_mp", null ],
@@ -181,9 +186,9 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a5ee12fe0cca9b735b4caee189c16f723",
 "dai_core_gs_asm_inst.html#dai_core_gs_asm_inst_rt",
 "dsensors-env-filters.html",
-"interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html#ae29e48a2c0e6969d3c95fc917b379a5f",
-"namespace_doloro_1_1_u_i_engine2.html#ac266274ade07a6b45fb2848285d4ff23aec0fc0100c4fc1ce4eea230c3dc10360",
-"struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html#a8414ea1c2a79e344e8ecff0b7639ca59"
+"interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html#a4c4fcbc0bb71d010f06e57c66989dd1c",
+"namespace_doloro_1_1_u_i_engine2.html#ac266274ade07a6b45fb2848285d4ff23a03f4a47830f97377a35321051685071e",
+"struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html#a461b7f1081f782a1432637fb4ca36303"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
