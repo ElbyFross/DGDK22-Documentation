@@ -32,7 +32,8 @@ var NAVTREE =
       [ "Beta", "index.html#mainpage_beta", [
         [ "F.A.Q.", "index.html#mainpage_beta_faq", [
           [ "How long Beta will go?", "index.html#mainpage_beta_faq_long", null ],
-          [ "Is the beta time goes into year subscribtion?", "index.html#mainpage_beta_faq_year", null ]
+          [ "Is the beta time goes into year subscribtion?", "index.html#mainpage_beta_faq_year", null ],
+          [ "Is BETA means the product can't be used?", "index.html#mainpage_beta_faq_stability", null ]
         ] ]
       ] ]
     ] ],
@@ -95,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md143", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md146", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
@@ -187,7 +188,7 @@ var NAVTREEINDEX =
 "dai_core_gs_asm_inst.html#dai_core_gs_asm_inst_rt",
 "dsensors-env-filters.html",
 "interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html#a4c4fcbc0bb71d010f06e57c66989dd1c",
-"namespace_doloro_1_1_u_i_engine2.html#ac266274ade07a6b45fb2848285d4ff23a03f4a47830f97377a35321051685071e",
+"namespace_doloro_1_1_u_i_engine2.html#ac266274ade07a6b45fb2848285d4ff23",
 "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html#a461b7f1081f782a1432637fb4ca36303"
 ];
 
