@@ -74,17 +74,6 @@ var NAVTREE =
     [ "Doloro AI Studio", "md__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e" ],
     [ "Doloro Data Management", "md__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e" ],
     [ "Doloro Editor Extension", "md__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e" ],
-    [ "Small Tools Hub", "deditorext_sth.html", [
-      [ "About", "deditorext_sth.html#deditorext_sth-a", null ],
-      [ "How to..", "deditorext_sth.html#deditorext_sth-ht", [
-        [ "Start", "deditorext_sth.html#deditorext_sth-ht-start", null ],
-        [ "Enable \\ Disable plug-in", "deditorext_sth.html#deditorext_sth-ht-state", null ]
-      ] ],
-      [ "Custom plug-in", "deditorext_sth.html#deditorext_sth-dev", [
-        [ "Creation", "deditorext_sth.html#deditorext_sth-dev-class", null ],
-        [ "Plug-in settings", "deditorext_sth.html#deditorext_sth-dev-setting", null ]
-      ] ]
-    ] ],
     [ "Doloro Graphs", "md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e" ],
     [ "Doloro Input Tools", "md__doloro__g_d_k__doloro__input__tools__r_e_a_d_m_e.html", [
       [ "About", "md__doloro__g_d_k__doloro__input__tools__r_e_a_d_m_e.html#dtools-input-about", null ],
