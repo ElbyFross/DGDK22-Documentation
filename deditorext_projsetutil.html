@@ -88,59 +88,67 @@ $(document).ready(function(){initNavTree('deditorext_projsetutil.html',''); init
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md49">Как работает:</a><ul><li class="level2"><a href="#autotoc_md50">Tools &gt; Project Setting</a></li>
+<ul><li class="level1"><a href="#autotoc_md33">Project settings utils</a></li>
+<li class="level1"><a href="#autotoc_md34">РљР°Рє СЂР°Р±РѕС‚Р°РµС‚:</a><ul><li class="level2"><a href="#autotoc_md35">Tools &gt; Project Setting</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md51">Script:</a><ul><li class="level2"><a href="#autotoc_md52">PrjSt</a></li>
-<li class="level2"><a href="#autotoc_md53">CreatePrjSt</a></li>
-<li class="level2"><a href="#autotoc_md54">ProjectSetting</a></li>
-<li class="level2"><a href="#autotoc_md55">LayersSetting</a></li>
-<li class="level2"><a href="#autotoc_md56">TagsSetting</a></li>
-<li class="level2"><a href="#autotoc_md57">InputSetting</a></li>
-<li class="level2"><a href="#autotoc_md58">InputAxis</a></li>
+<li class="level1"><a href="#autotoc_md36">Script:</a><ul><li class="level2"><a href="#autotoc_md37">PrjSt</a></li>
+<li class="level2"><a href="#autotoc_md38">CreatePrjSt</a></li>
+<li class="level2"><a href="#autotoc_md39">ProjectSetting</a></li>
+<li class="level2"><a href="#autotoc_md40">LayersSetting</a></li>
+<li class="level2"><a href="#autotoc_md41">TagsSetting</a></li>
+<li class="level2"><a href="#autotoc_md42">InputSetting</a></li>
+<li class="level2"><a href="#autotoc_md43">InputAxis</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md59">Editor:</a><ul><li class="level2"><a href="#autotoc_md60">ProjectSettingsNew</a></li>
+<li class="level1"><a href="#autotoc_md44">Editor:</a><ul><li class="level2"><a href="#autotoc_md45">ProjectSettingsNew</a></li>
+<li class="level2"><a href="#autotoc_md46">ProjectSettingsWindow</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd><p class="startdd">Not formated \ translated page</p>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd><p class="startdd">Not formated \ translated page</p>
 <p class="enddd">The collection of plugin for Unity editor configuration.</p>
 </dd></dl>
-<h1><a class="anchor" id="autotoc_md49"></a>
-Как работает:</h1>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
+Project settings utils</h1>
+<p >The collection of plugin for Unity editor configuration.</p>
+<h1><a class="anchor" id="autotoc_md34"></a>
+РљР°Рє СЂР°Р±РѕС‚Р°РµС‚:</h1>
+<h2><a class="anchor" id="autotoc_md35"></a>
 Tools &gt; Project Setting</h2>
-<p >&gt; New - Создает в указаном месте asset. В котором можно задавать настройки для проекта. &gt; Load - Находит все данные asset, после выбираете какие хотите загрузить и они добавляются в настройки. </p>
-<h1><a class="anchor" id="autotoc_md51"></a>
+<p >&gt; New - РЎРѕР·РґР°РµС‚ РІ СѓРєР°Р·Р°РЅРѕРј РјРµСЃС‚Рµ asset. Р’ РєРѕС‚РѕСЂРѕРј РјРѕР¶РЅРѕ Р·Р°РґР°РІР°С‚СЊ РЅР°СЃС‚СЂРѕР№РєРё РґР»СЏ РїСЂРѕРµРєС‚Р°. &gt; Load - РќР°С…РѕРґРёС‚ РІСЃРµ РґР°РЅРЅС‹Рµ asset, РїРѕСЃР»Рµ РІС‹Р±РёСЂР°РµС‚Рµ РєР°РєРёРµ С…РѕС‚РёС‚Рµ Р·Р°РіСЂСѓР·РёС‚СЊ Рё РѕРЅРё РґРѕР±Р°РІР»СЏСЋС‚СЃСЏ РІ РЅР°СЃС‚СЂРѕР№РєРё. </p>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Script:</h1>
-<h2><a class="anchor" id="autotoc_md52"></a>
+<h2><a class="anchor" id="autotoc_md37"></a>
 PrjSt</h2>
-<p >Class : ScriptableObject, для хранения настроек проекта. Обязан рееализовывать определенный interface. </p>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<p >Class : ScriptableObject, РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РЅР°СЃС‚СЂРѕРµРє РїСЂРѕРµРєС‚Р°. РћР±СЏР·Р°РЅ СЂРµРµР°Р»РёР·РѕРІС‹РІР°С‚СЊ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ interface. </p>
+<h2><a class="anchor" id="autotoc_md38"></a>
 CreatePrjSt</h2>
-<p >Класс для создания asset из PrjSt. </p>
-<h2><a class="anchor" id="autotoc_md54"></a>
+<p >РљР»Р°СЃСЃ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ asset РёР· PrjSt. </p>
+<h2><a class="anchor" id="autotoc_md39"></a>
 ProjectSetting</h2>
-<p >Класс который содержит методы для нахождения файлов настроек и метод для добления этих настроек.</p>
-<h2><a class="anchor" id="autotoc_md55"></a>
+<p >РљР»Р°СЃСЃ РєРѕС‚РѕСЂС‹Р№ СЃРѕРґРµСЂР¶РёС‚ РјРµС‚РѕРґС‹ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ С„Р°Р№Р»РѕРІ РЅР°СЃС‚СЂРѕРµРє Рё РјРµС‚РѕРґ РґР»СЏ РґРѕР±Р»РµРЅРёСЏ СЌС‚РёС… РЅР°СЃС‚СЂРѕРµРє.</p>
+<h2><a class="anchor" id="autotoc_md40"></a>
 LayersSetting</h2>
-<p >Static class который реализует методы для добавления Layer в Tags &amp; Layers </p>
-<h2><a class="anchor" id="autotoc_md56"></a>
+<p >Static class РєРѕС‚РѕСЂС‹Р№ СЂРµР°Р»РёР·СѓРµС‚ РјРµС‚РѕРґС‹ РґР»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ Layer РІ Tags &amp; Layers </p>
+<h2><a class="anchor" id="autotoc_md41"></a>
 TagsSetting</h2>
-<p >Static class который реализует методы для добавления Tag в Tags &amp; Layers </p>
-<h2><a class="anchor" id="autotoc_md57"></a>
+<p >Static class РєРѕС‚РѕСЂС‹Р№ СЂРµР°Р»РёР·СѓРµС‚ РјРµС‚РѕРґС‹ РґР»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ Tag РІ Tags &amp; Layers </p>
+<h2><a class="anchor" id="autotoc_md42"></a>
 InputSetting</h2>
-<p >Static class который реализует методы для работы с Unity Input </p>
-<h2><a class="anchor" id="autotoc_md58"></a>
+<p >Static class РєРѕС‚РѕСЂС‹Р№ СЂРµР°Р»РёР·СѓРµС‚ РјРµС‚РѕРґС‹ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ Unity Input </p>
+<h2><a class="anchor" id="autotoc_md43"></a>
 InputAxis</h2>
-<p >Struct которая может хранит информацию Axis из Input</p>
-<h1><a class="anchor" id="autotoc_md59"></a>
+<p >Struct РєРѕС‚РѕСЂР°СЏ РјРѕР¶РµС‚ С…СЂР°РЅРёС‚ РёРЅС„РѕСЂРјР°С†РёСЋ Axis РёР· Input</p>
+<h1><a class="anchor" id="autotoc_md44"></a>
 Editor:</h1>
-<h2><a class="anchor" id="autotoc_md60"></a>
+<h2><a class="anchor" id="autotoc_md45"></a>
 ProjectSettingsNew</h2>
-<p >Окно в котором можно создать новый файл (asset) с насстройкками ## ProjectSettingsWindow Нходит все файлы настроек и дает возможность выбора тех что необходимо добавить. </p>
+<p >РћРєРЅРѕ РІ РєРѕС‚РѕСЂРѕРј РјРѕР¶РЅРѕ СЃРѕР·РґР°С‚СЊ РЅРѕРІС‹Р№ С„Р°Р№Р» (asset) СЃ РЅР°СЃСЃС‚СЂРѕР№РєРєР°РјРё </p>
+<h2><a class="anchor" id="autotoc_md46"></a>
+ProjectSettingsWindow</h2>
+<p >РќС…РѕРґРёС‚ РІСЃРµ С„Р°Р№Р»С‹ РЅР°СЃС‚СЂРѕРµРє Рё РґР°РµС‚ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РІС‹Р±РѕСЂР° С‚РµС… С‡С‚Рѕ РЅРµРѕР±С…РѕРґРёРјРѕ РґРѕР±Р°РІРёС‚СЊ. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

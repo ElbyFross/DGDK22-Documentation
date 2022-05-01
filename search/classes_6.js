@@ -18,7 +18,7 @@ var searchData=
   ['graphnodeapi_15',['GraphNodeAPI',['../class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html',1,'Doloro::Graphs']]],
   ['graphruntimeapi_16',['GraphRuntimeAPI',['../class_doloro_1_1_graphs_1_1_graph_runtime_a_p_i.html',1,'Doloro::Graphs']]],
   ['graphsnetwork_17',['GraphsNetwork',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html',1,'Doloro::Graphs::Fragmented']]],
-  ['graphtransform_18',['GraphTransform',['../class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_matrix_1_1_graph_transform.html',1,'Doloro::EditorExtension::SAL::Matrix']]],
+  ['graphtransform_18',['GraphTransform',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix_1_1_graph_transform.html',1,'Doloro::EditorExtension::SmallToolsHub::Matrix']]],
   ['graphunitguielement_19',['GraphUnitGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['gridcollection_20',['GridCollection',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
   ['gridspace_21',['GridSpace',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_grid_space.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],

@@ -414,21 +414,22 @@ var annotated_dup =
           [ "ProjectSettingsWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_window.html", null ],
           [ "TagsSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tags_setting.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tags_setting" ]
         ] ],
-        [ "SAL", "namespace_doloro_1_1_editor_extension_1_1_s_a_l.html", [
-          [ "Plugins", "namespace_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins.html", [
-            [ "CameraControl", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_camera_control.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_camera_control" ],
-            [ "LayoutInfo", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_layout_info.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_layout_info" ],
-            [ "ScenePlacementManager", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_scene_placement_manager.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_scene_placement_manager" ],
-            [ "SnapSystem", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_snap_system.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_plugins_1_1_snap_system" ]
+        [ "SmallToolsHub", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub.html", [
+          [ "Plugins", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins.html", [
+            [ "CameraControl", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control" ],
+            [ "CameraControlDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_data_container" ],
+            [ "LayoutInfo", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info" ],
+            [ "LayoutInfoDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_data_container.html", null ],
+            [ "ScenePlacementManager", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager" ],
+            [ "ScenePlacementManagerDataContainer", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html", null ]
           ] ],
-          [ "Constants", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_constants.html", null ],
-          [ "DataContainer", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_data_container.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_data_container" ],
-          [ "Matrix", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_matrix.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_matrix" ],
-          [ "PositionTest", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_position_test.html", null ],
-          [ "RotatedScreenSpace", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_rotated_screen_space.html", null ],
-          [ "SALEditor", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_s_a_l_editor.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_s_a_l_editor" ],
-          [ "SALPlugin", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_s_a_l_plugin.html", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_s_a_l_plugin" ],
-          [ "SpriteConverterDataContainer", "class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_sprite_converter_data_container.html", null ]
+          [ "Constants", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_constants.html", null ],
+          [ "Matrix", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix" ],
+          [ "PositionTest", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_position_test.html", null ],
+          [ "RotatedScreenSpace", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_rotated_screen_space.html", null ],
+          [ "STHEditor", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor" ],
+          [ "STHPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin" ],
+          [ "STHSettings", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings" ]
         ] ],
         [ "Fields", "class_doloro_1_1_editor_extension_1_1_fields.html", "class_doloro_1_1_editor_extension_1_1_fields" ]
       ] ],

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_matrix_1_1_graph_transform.html" title=" " alt="" coords="5,5,193,47"/>
+<area shape="rect" id="node1" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html" title="Class that declares API for Small Tools Hub plug&#45;ins." alt="" coords="5,71,197,112"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control.html" title="Plug&#45;in that provides API more defining of editor camera presets." alt="" coords="252,5,465,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info.html" title="Plug&#45;in that provides extra layout info." alt="" coords="263,71,455,112"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager.html" title="Provides extra control to placing object to certain world position." alt="" coords="245,137,472,193"/>
 </map>

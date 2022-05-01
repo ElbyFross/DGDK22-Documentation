@@ -24,9 +24,8 @@ var searchData=
   ['domain_5fweight_5fprop_21',['DOMAIN_WEIGHT_PROP',['../class_doloro_1_1_invetory_system_1_1_constants.html#a6006bfb564c1713e8647a87cd95446f7',1,'Doloro::InvetorySystem::Constants']]],
   ['domain_5fworth_5fprop_22',['DOMAIN_WORTH_PROP',['../class_doloro_1_1_invetory_system_1_1_constants.html#ad02f954595fb36cb0cee9472ada750da',1,'Doloro::InvetorySystem::Constants']]],
   ['domainheadercolor_23',['DomainHeaderColor',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection_editor.html#a805bbee73ce3584d575eca231017c87b',1,'Doloro::DataManagement::AssetPropertiesSystem::AssetPropertiesCollectionEditor']]],
-  ['dosnaponlyifmodified_24',['doSnapOnlyIfModified',['../class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_data_container.html#a95b56da68e0f4b1d9ee3f47230d8698b',1,'Doloro::EditorExtension::SAL::DataContainer']]],
-  ['dropifparentequal_25',['dropIfParentEqual',['../class_doloro_1_1_sensors_1_1_sensor.html#a508f3ac71e66ba28ecd122f5d6a88751',1,'Doloro::Sensors::Sensor']]],
-  ['dynamicsizeifclamped_26',['dynamicSizeIfClamped',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae0460e250631ea1d759efe084215ef51',1,'Doloro::UIEngine2::WindowUIController']]],
-  ['dyunamic_5fresource_5fbundle_27',['DYUNAMIC_RESOURCE_BUNDLE',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html#a805604e1aeebb1529669d0fa9cd89e2b',1,'Doloro::InvetorySystem::UI::StoragesInspector']]],
-  ['dyunamic_5fresource_5fkey_28',['DYUNAMIC_RESOURCE_KEY',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html#a39e5aeb3eb56fb5f8c484a8800b26384',1,'Doloro::InvetorySystem::UI::StoragesInspector']]]
+  ['dropifparentequal_24',['dropIfParentEqual',['../class_doloro_1_1_sensors_1_1_sensor.html#a508f3ac71e66ba28ecd122f5d6a88751',1,'Doloro::Sensors::Sensor']]],
+  ['dynamicsizeifclamped_25',['dynamicSizeIfClamped',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae0460e250631ea1d759efe084215ef51',1,'Doloro::UIEngine2::WindowUIController']]],
+  ['dyunamic_5fresource_5fbundle_26',['DYUNAMIC_RESOURCE_BUNDLE',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html#a805604e1aeebb1529669d0fa9cd89e2b',1,'Doloro::InvetorySystem::UI::StoragesInspector']]],
+  ['dyunamic_5fresource_5fkey_27',['DYUNAMIC_RESOURCE_KEY',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html#a39e5aeb3eb56fb5f8c484a8800b26384',1,'Doloro::InvetorySystem::UI::StoragesInspector']]]
 ];

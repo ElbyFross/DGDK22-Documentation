@@ -26,7 +26,7 @@ var searchData=
   ['resourcetypefilter_23',['ResourceTypeFilter',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_resource_type_filter.html',1,'Doloro::DataManagement::DynamicResources::Search']]],
   ['return_24',['Return',['../class_doloro_1_1_a_i_1_1_primitive_1_1_return.html',1,'Doloro::AI::Primitive']]],
   ['returneditor_25',['ReturnEditor',['../class_doloro_1_1_a_i_1_1_primitive_1_1_return_editor.html',1,'Doloro::AI::Primitive']]],
-  ['rotatedscreenspace_26',['RotatedScreenSpace',['../class_doloro_1_1_editor_extension_1_1_s_a_l_1_1_rotated_screen_space.html',1,'Doloro::EditorExtension::SAL']]],
+  ['rotatedscreenspace_26',['RotatedScreenSpace',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_rotated_screen_space.html',1,'Doloro::EditorExtension::SmallToolsHub']]],
   ['runtimeconstants_27',['RuntimeConstants',['../class_doloro_1_1_editor_configuration_1_1_runtime_constants.html',1,'Doloro::EditorConfiguration']]],
   ['runtimestorageshelper_28',['RuntimeStoragesHelper',['../class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html',1,'Doloro::InvetorySystem']]],
   ['runtimetypesbinder_29',['RuntimeTypesBinder',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_runtime_types_binder.html',1,'Doloro::AI::DAIDebugger::PatchingTool::AssemblyPatchingTool']]],
