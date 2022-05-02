@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DoloroGDK 22: Using</title>
+<title>DoloroGDK 22: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('dinv-gstart.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -83,54 +83,25 @@ $(document).ready(function(){initNavTree('dinv-gstart.html',''); initResizable()
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Using </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">Doloro.EditorExtension.EditorGUILayout Member List</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#s_dinv_ds_db">Database</a></li>
-<li class="level1"><a href="#s_dinv_ds_ecs">ECS</a><ul><li class="level2"><a href="#s_dinv_ds_db_rent">How to rent entity</a></li>
-<li class="level2"><a href="#s_dinv_ds_db_rel">How to release enity</a></li>
-</ul>
-</li>
-<li class="level1"><a href="#s_dinv_ds_ext">Extending</a><ul><li class="level2"><a href="#s_dinv_ds_ext_ns">New storages</a></li>
-<li class="level2"><a href="#s_dinv_ds_ext_itm">New items</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="textblock"><h1><a class="anchor" id="s_dinv_ds_db"></a>
-Database</h1>
-<p >A data related to the storages state holding by the single tone database accessible by the <code>StoragesDatabase</code> API. That data could be serialized to binary view and saved on the customer's computer for cross-session using.</p>
-<h1><a class="anchor" id="s_dinv_ds_ecs"></a>
-ECS</h1>
-<p >Inventory system has implemented <code>Entity-Component-System</code> conception that recomemended to be used via the <code>RuntimeStoragesHelper</code> service. In that case any <code>Storage</code> within in-game world wold exist only when you need it. Any other time its content will be stored inside the <code>StoragesDatabase</code> without creating garbage on the scene and damaging of customer's computer performance.</p>
-<p ><b>Remarks</b> The service always holds at least one entity of ones loaded resource on the scene even if it have been released from renting. That made to prevent uneccessaty often instantiations during each call. In case if you trying to rent entity but the single-tone entity already rented the system will create temporary entity that will be destroyed immediately as soon as released.</p>
-<h2><a class="anchor" id="s_dinv_ds_db_rent"></a>
-How to rent entity</h2>
-<p >There is several ways to rent an enity but the traditional one is to ask for enity with the <code>Storage.id</code> provided by the <code>StoragesDatabase</code> during storage registration.</p>
-<div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">var storageEntity = Doloro.InvetorySystem.RentStorrageEntity(storageId);</div>
-</div><!-- fragment --><h2><a class="anchor" id="s_dinv_ds_db_rel"></a>
-How to release enity</h2>
-<p >When you are done with entity access and it's not required anymore you hist need to release it with the same source as it was rented.</p>
-<div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">Doloro.InvetorySystem.ReleaseRentedEntity(storageId)</div>
-</div><!-- fragment --><h1><a class="anchor" id="s_dinv_ds_ext"></a>
-Extending</h1>
-<h2><a class="anchor" id="s_dinv_ds_ext_ns"></a>
-New storages</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<h2><a class="anchor" id="s_dinv_ds_ext_itm"></a>
-New items</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>Empty page</dd></dl>
-</div></div><!-- contents -->
-</div><!-- PageDoc -->
+
+<p>This is the complete list of members for <a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#ade76469d63027c1de17d9a6e3d64aa76">DrawGroupHeader</a>(bool state, string title)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#ae2381b6a52d4cdb6e8d229bc481bc1a4">DrawGroupHeader</a>(bool state, string title, string tooltip)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#ab6eba8f283141fceef7f4720196067cc">DrawGroupHeader</a>(string title)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#a2a29906ccd2a85942acc694b45daa2eb">DrawGroupHeader</a>(string title, string tooltip)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#a5c3cc9bf7a4556e91b84648ed5ba5ead">DrawSplitter</a>()</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#ade7385330671832b34f85c1d463f0932">DrawTooltip</a>(string message, MessageType type, float height)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html#aea7a44dc6cd2aeb48b212ad3b7fef07f">LayerMaskField</a>(string label, LayerMask layerMask)</td><td class="entry"><a class="el" href="class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html">Doloro.EditorExtension.EditorGUILayout</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>

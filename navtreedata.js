@@ -96,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md150", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md151", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
@@ -186,7 +186,7 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html#aef125e46ae27755c775dde349b7243ec",
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a3d2ffdbc50097b182380625c423816ef",
 "dai-debug-env-debug_tool.html#sec_dai-debug-env-debug_tool_ht_local_track",
-"deditorext_projsetutil.html#autotoc_md69",
+"deditorext_projsetutil.html#autotoc_md103",
 "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html",
 "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817afa7be7845bc42b3491d9d0377958be94",
 "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html#a8e86f5ea7d1d010463bbc3a45ba2ce76"

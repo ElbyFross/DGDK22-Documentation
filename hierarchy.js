@@ -369,6 +369,7 @@ var hierarchy =
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ]
     ] ],
     [ "Doloro.EditorConfiguration.EditorConstants", "class_doloro_1_1_editor_configuration_1_1_editor_constants.html", null ],
+    [ "Doloro.EditorExtension.EditorGUILayout", "class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.EditorStyles", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_editor_styles.html", null ],
     [ "Doloro.AI.EditorUtils", "class_doloro_1_1_a_i_1_1_editor_utils.html", null ],
     [ "EditorWindow", null, [
@@ -399,7 +400,6 @@ var hierarchy =
       [ "Doloro.UIEngine2.Window.WindowClosedException", "class_doloro_1_1_u_i_engine2_1_1_window_1_1_window_closed_exception.html", null ],
       [ "Doloro.UIEngine2.Window.WindowNotOpenedYetException", "class_doloro_1_1_u_i_engine2_1_1_window_1_1_window_not_opened_yet_exception.html", null ]
     ] ],
-    [ "Doloro.EditorExtension.Fields", "class_doloro_1_1_editor_extension_1_1_fields.html", null ],
     [ "Doloro.Localization.GenericProxyContentProvider< GameObject, GameObject >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
       [ "Doloro.Localization.LocalizedWorldContent", "class_doloro_1_1_localization_1_1_localized_world_content.html", null ]
     ] ],
