@@ -10,5 +10,6 @@ var searchData=
   ['custom_20controls_7',['Custom Controls',['../dui2-controls.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]],
   ['custom_20data_20converter_8',['Custom data converter',['../ddm-tables-converter-cstm.html',1,'ddm-tables']]],
   ['custom_20inspector_20tabs_9',['Custom inspector tabs',['../dai-inspector-custom.html',1,'md_Doloro_GDK_Doloro_AI_Studio_README']]],
-  ['custom_20loading_20behavior_10',['Custom loading behavior',['../ddm-abt-ht-rlbdev.html',1,'ddm-abt']]]
+  ['custom_20loading_20behavior_10',['Custom loading behavior',['../ddm-abt-ht-rlbdev.html',1,'ddm-abt']]],
+  ['custom_20plug_2din_20development_11',['Custom plug-in development',['../deditorext_sth-dev.html',1,'deditorext_sth']]]
 ];

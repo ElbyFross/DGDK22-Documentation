@@ -86,6 +86,8 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_editor_extension_1_1_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin Class Reference</div></div>
@@ -131,6 +133,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6db9bc6241b85ec41de934a3b2e528f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that will be called for draw of the custom on scene GUI.  <a href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a6db9bc6241b85ec41de934a3b2e528f4">More...</a><br /></td></tr>
 <tr class="separator:a6db9bc6241b85ec41de934a3b2e528f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7c88aaf7cbf28d6973dd97aeac09662d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html">STHPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a7c88aaf7cbf28d6973dd97aeac09662d">GetPlugin&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a7c88aaf7cbf28d6973dd97aeac09662d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return plug-in instance by its type.  <a href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a7c88aaf7cbf28d6973dd97aeac09662d">More...</a><br /></td></tr>
+<tr class="separator:a7c88aaf7cbf28d6973dd97aeac09662d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a45c1c45fe2deeda93b0e637bd5ef59ee"><td class="memItemLeft" align="right" valign="top"><a id="a45c1c45fe2deeda93b0e637bd5ef59ee" name="a45c1c45fe2deeda93b0e637bd5ef59ee"></a>
+static Dictionary&lt; Type, <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html">STHPlugin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_INST_REGISTRY_</b> = new Dictionary&lt;Type, <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html">STHPlugin</a>&gt;()</td></tr>
+<tr class="memdesc:a45c1c45fe2deeda93b0e637bd5ef59ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registry that contains plug-in instances. <br /></td></tr>
+<tr class="separator:a45c1c45fe2deeda93b0e637bd5ef59ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:af5b08662ab6db6881a4875a02a900adf"><td class="memItemLeft" align="right" valign="top"><a id="af5b08662ab6db6881a4875a02a900adf" name="af5b08662ab6db6881a4875a02a900adf"></a>
@@ -139,6 +154,13 @@ Properties</h2></td></tr>
 <tr class="memitem:a03b5ab372422ba8960a87acd66ea9b7f"><td class="memItemLeft" align="right" valign="top"><a id="a03b5ab372422ba8960a87acd66ea9b7f" name="a03b5ab372422ba8960a87acd66ea9b7f"></a>
 override int&#160;</td><td class="memItemRight" valign="bottom"><b>order</b><code> [get]</code></td></tr>
 <tr class="separator:a03b5ab372422ba8960a87acd66ea9b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4feb8914d5bf2d37be48e6f2c139a0e5"><td class="memItemLeft" align="right" valign="top"><a id="a4feb8914d5bf2d37be48e6f2c139a0e5" name="a4feb8914d5bf2d37be48e6f2c139a0e5"></a>
+virtual UnityEngine.GUIContent&#160;</td><td class="memItemRight" valign="bottom"><b>content</b> = null<code> [get]</code></td></tr>
+<tr class="memdesc:a4feb8914d5bf2d37be48e6f2c139a0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">GUI content to display within plug-in header. <br /></td></tr>
+<tr class="separator:a4feb8914d5bf2d37be48e6f2c139a0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8230a60f83cc8f4c575804230b71daa6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a8230a60f83cc8f4c575804230b71daa6">SystemName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8230a60f83cc8f4c575804230b71daa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the plug-in within internal registries.  <a href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a8230a60f83cc8f4c575804230b71daa6">More...</a><br /></td></tr>
+<tr class="separator:a8230a60f83cc8f4c575804230b71daa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab21d8afbd782f6693b9dca2f3efdc545" name="ab21d8afbd782f6693b9dca2f3efdc545"></a>
@@ -196,6 +218,48 @@ override int&#160;</td><td class="memItemRight" valign="bottom"><b>order</b><cod
 <p>Method that save data to a file system. </p>
 
 <p>Reimplemented from <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a8c773900b90f308a8c5e6a69e6ef2bde">Doloro.EditorExtension.SmallToolsHub.STHPlugin</a>.</p>
+
+</div>
+</div>
+<a id="a7c88aaf7cbf28d6973dd97aeac09662d" name="a7c88aaf7cbf28d6973dd97aeac09662d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c88aaf7cbf28d6973dd97aeac09662d">&#9670;&nbsp;</a></span>GetPlugin&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html">STHPlugin</a> Doloro.EditorExtension.SmallToolsHub.STHPlugin.GetPlugin&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return plug-in instance by its type. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of the plug-in to search.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Plug-in instance.</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>STHPlugin</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
 
 </div>
 </div>
@@ -304,6 +368,32 @@ override int&#160;</td><td class="memItemRight" valign="bottom"><b>order</b><cod
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a1dd264784be4766fbd7d064a96290e52">Doloro.EditorExtension.SmallToolsHub.STHPlugin</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8230a60f83cc8f4c575804230b71daa6" name="a8230a60f83cc8f4c575804230b71daa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8230a60f83cc8f4c575804230b71daa6">&#9670;&nbsp;</a></span>SystemName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Doloro.EditorExtension.SmallToolsHub.STHPlugin.SystemName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the plug-in within internal registries. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

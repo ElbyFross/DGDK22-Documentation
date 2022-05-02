@@ -96,19 +96,13 @@ $(document).ready(function(){initNavTree('deditorext_sth.html',''); initResizabl
 </ul>
 </li>
 <li class="level1"><a href="#deditorext_sth_box">Pre-Intergrated plug-ins</a></li>
-<li class="level1"><a href="#deditorext_sth-dev">Custom plug-in</a><ul><li class="level2"><a href="#deditorext_sth-dev-class">Creation</a></li>
-<li class="level2"><a href="#deditorext_sth-dev-settings">Plug-in settings</a></li>
-<li class="level2"><a href="#deditorext_sth-dev-crossession">Cross-session data</a></li>
-<li class="level2"><a href="#deditorext_sth-dev-onscene">On-scene GUI</a></li>
-<li class="level2"><a href="#deditorext_sth-dev-example">Example</a></li>
-</ul>
-</li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="deditorext_sth-a"></a>
 About</h1>
 <p ><b>Small Tools Hub</b> (STH) its a handful editor tool crated for integration of small tools those need to run in the editor but not deserve its own window to be stated.</p>
 <p >The module supplies you with easy to use, still powerful API that allows you to embed a tool into Unity without digging into backstage processes.</p>
+<p ><b>Read also:</b> <a class="el" href="deditorext_sth-dev.html">Custom plug-in development</a></p>
 <hr  />
 <h1><a class="anchor" id="deditorext_sth_work"></a>
 How does it work</h1>
@@ -124,6 +118,8 @@ Start</h2>
 <p ><b>Small Tools Hub</b> can be started via top editor menu panel by following path: <br  />
 <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK \ Small Tools Hub</code></p>
 <dl class="section warning"><dt>Warning</dt><dd>On some platforms or package versions the <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK</code> category can be a sub-category of <code>Tools</code> category.</dd></dl>
+<p><br  />
+</p>
 <h2><a class="anchor" id="deditorext_sth-ht-state"></a>
 Enable \ Disable plug-in</h2>
 <p >Each plugin within <b>Small Tools Hub</b> has a toggle at the left side of its catalog item.</p>
@@ -131,6 +127,8 @@ Enable \ Disable plug-in</h2>
  <br  />
  The only callback that works not matter status is, is a <code>OnInspectorGUI</code> over your plug-in, that draws GUI within <b>STH</b> window when the plug-in has been selected in catalog.</p>
 <p >That allows you to disable tools you no need at the moment.</p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="deditorext_sth-ht-conf"></a>
 Configure a plug-in</h2>
 <p >To enter the plug-in's GUI you just need to select it in <b>STH</b>'s catalog. <br  />
@@ -142,88 +140,7 @@ Pre-Intergrated plug-ins</h1>
 <ul>
 <li><a class="el" href="deditorext_sth_plg_li.html">Plug-in: Layout Info</a></li>
 <li><a class="el" href="deditorext_sth_plg_cc.html">Plug-in: Camera Control</a></li>
-<li><a class="el" href="deditorext_sth_plg_sp.html">Plug-in: Scene Placement</a></li>
-</ul>
-<hr  />
-<h1><a class="anchor" id="deditorext_sth-dev"></a>
-Custom plug-in</h1>
-<h2><a class="anchor" id="deditorext_sth-dev-class"></a>
-Creation</h2>
-<p >For plug-in create its enough to create a new class derived from the <code>STHPlugin</code> class.<br  />
-<b>See also:</b> <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html" title="Class that declares API for Small Tools Hub plug-ins.">Doloro.EditorExtension.SmallToolsHub.STHPlugin</a></p>
-<dl class="section warning"><dt>Warning</dt><dd>The class MUST be located at the editor folder.</dd></dl>
-<p>The new plug-in class will be automatically found among loaded in-project assemblies and connected to the <code>Small Tools Hub</code>.</p>
-<div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub;</div>
-<div class="line"> </div>
-<div class="line">public class NewPlugin : STHPlugin</div>
-<div class="line">{</div>
-<div class="line">    // Override members using at your plug-in logic here.</div>
-<div class="line">}</div>
-</div><!-- fragment --><h2><a class="anchor" id="deditorext_sth-dev-settings"></a>
-Plug-in settings</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="deditorext_sth-dev-crossession"></a>
-Cross-session data</h2>
-<p >For most plug-ins its important to store some data between editor using sessions.<br  />
-<b>STH</b> tool provides you to fillow a simple pattern to do this.</p>
-<ol type="1">
-<li>Create a new class at runtime assembly (not Editor folder).</li>
-<li>Derive it from <code>ScriptableObject</code>.</li>
-<li>Define members to store. Be sure that <code>private</code> and <code>protected</code> members has <code>SerializeField</code> attribute. <div class="fragment"><div class="line">public ExampleDataContainer : ScriptableObject</div>
-<div class="line">{</div>
-<div class="line">    public string prop0</div>
-<div class="line">    {</div>
-<div class="line">        get =&gt; _prop0;</div>
-<div class="line">        set =&gt; _prop0 = value;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    public int field0;</div>
-<div class="line"> </div>
-<div class="line">    [SerializeField] private _prop0;</div>
-<div class="line">}</div>
-</div><!-- fragment --></li>
-<li>Declare container class at the plug-in source scope.</li>
-<li>Implement <code>DataSave</code> and <code>DataLoad</code> methods as suggested below: <div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub.Plugins;</div>
-<div class="line"> </div>
-<div class="line">public class NewPlugin : STHPlugin</div>
-<div class="line">{   </div>
-<div class="line">    // Name of the container asset file to use.</div>
-<div class="line">    const string CONTAINER_ASSET_NAME = &quot;ExampleDataContainerFileName&quot;;</div>
-<div class="line"> </div>
-<div class="line">    public CameraControlDataContainer container</div>
-<div class="line">  {</div>
-<div class="line">      get</div>
-<div class="line">      {</div>
-<div class="line">          if (_container == null) DataLoad();</div>
-<div class="line">          return _container;</div>
-<div class="line">      }</div>
-<div class="line">      set =&gt; _container = value;</div>
-<div class="line">  }</div>
-<div class="line">  private CameraControlDataContainer _container;</div>
-<div class="line"> </div>
-<div class="line">    public override void DataLoad() =&gt;</div>
-<div class="line">      this.DataLoad(ref _container, CONTAINER_ASSET_NAME);</div>
-<div class="line"> </div>
-<div class="line">  public override void DataSave() =&gt;</div>
-<div class="line">      this.DataSave(ref _container);</div>
-<div class="line">}</div>
-</div><!-- fragment --></li>
-</ol>
-<p >Now you data container will be operated automatically by the tool via <b><a class="el" href="namespace_doloro.html">Doloro</a> GDK</b> cache. <br  />
-The instance of data container will be always exists by <code>container</code> property call. <br  />
-</p>
-<h2><a class="anchor" id="deditorext_sth-dev-onscene"></a>
-On-scene GUI</h2>
-<p ><b>STH</b> allows you simple access to the on scene scope view with a custom GUI.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
-<h2><a class="anchor" id="deditorext_sth-dev-example"></a>
-Example</h2>
-<p ><b>STH</b> shares several plug-ins with the package. <br  />
-The best way to explore plug-ins development is to use source of shared one.</p>
-<ul>
-<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html" title="Plug-in that provides extra layout info.">Doloro.EditorExtension.SmallToolsHub.Plugins.LayoutInfoPlugin</a></li>
-<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html" title="Plug-in that provides API more defining of editor camera presets.">Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin</a></li>
-<li><a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html" title="Provides extra control to placing object to certain world position.">Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin</a> </li>
+<li><a class="el" href="deditorext_sth_plg_sp.html">Plug-in: Scene Placement</a> </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
