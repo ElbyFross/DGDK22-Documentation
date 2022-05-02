@@ -88,20 +88,20 @@ $(document).ready(function(){initNavTree('dinv-gui.html',''); initResizable(); }
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md109">About</a></li>
-<li class="level2"><a href="#autotoc_md110">Controls</a></li>
-<li class="level2"><a href="#autotoc_md111">GUI extensions</a></li>
-<li class="level2"><a href="#autotoc_md112">How To</a><ul><li class="level3"><a href="#autotoc_md113">Make cross window bond</a></li>
-<li class="level3"><a href="#autotoc_md114">Get an enity property</a></li>
+<ul><ul><li class="level2"><a href="#autotoc_md110">About</a></li>
+<li class="level2"><a href="#autotoc_md111">Controls</a></li>
+<li class="level2"><a href="#autotoc_md112">GUI extensions</a></li>
+<li class="level2"><a href="#autotoc_md113">How To</a><ul><li class="level3"><a href="#autotoc_md114">Make cross window bond</a></li>
+<li class="level3"><a href="#autotoc_md115">Get an enity property</a></li>
 </ul>
 </li>
 </ul>
 </ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md109"></a>
+<div class="textblock"><h2><a class="anchor" id="autotoc_md110"></a>
 About</h2>
 <p >GUI elements and related features, and systems related to <code><a class="el" href="namespace_doloro.html">Doloro</a> Inventory</code> module.</p>
-<h2><a class="anchor" id="autotoc_md110"></a>
+<h2><a class="anchor" id="autotoc_md111"></a>
 Controls</h2>
 <ul>
 <li><b>StorageGUIElement:</b> GUI controller that makes a bond between <code>StoragesDatabase</code> data containers and front-end GUI elements.</li>
@@ -110,12 +110,12 @@ Controls</h2>
 <li><b>ExchageBufferGUIElement:</b> Implemented in way of 2 UI blocks. First contains relevant storage content available for transfer. Second one contains items reserved with transaction orders between c current and destination storages.</li>
 <li><b>StoragesSelectionGUIElement:</b> GUI controller that provides selection between several <code>Storage</code>s.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md111"></a>
+<h2><a class="anchor" id="autotoc_md112"></a>
 GUI extensions</h2>
 <p >The inventory entities can has defined custom properties that extends their features. To connect such a property should be used a custom component derived from <code>AEntityPropertyGUIExtension&lt;T&gt;</code> where <code>T</code> is a type of target entity (<code>Item</code> or <code>Storage</code> as example).</p>
-<h2><a class="anchor" id="autotoc_md112"></a>
+<h2><a class="anchor" id="autotoc_md113"></a>
 How To</h2>
-<h3><a class="anchor" id="autotoc_md113"></a>
+<h3><a class="anchor" id="autotoc_md114"></a>
 Make cross window bond</h3>
 <p ><code><a class="el" href="namespace_doloro.html">Doloro</a> UI Engine II</code> implements conception of layouts that could be connected with virtual chain. That conception allows to create flexible dynamic UI but can't proof a strong reference to child components.</p>
 <p >Basing on the fact you shouldn't develop direct UI command execution in case if you not sure that your implementation is final and can't has any followers.</p>
@@ -141,7 +141,7 @@ Make cross window bond</h3>
 </ul>
 </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md114"></a>
+<h3><a class="anchor" id="autotoc_md115"></a>
 Get an enity property</h3>
 <p >As soon as inventory system works via ECS a rented entity could take a different source at different time. So you should follow events to get relevant data.</p>
 <p >Following pattern allows you to update your UI with relevant data as soon as something changed without unnecessary checks.</p>

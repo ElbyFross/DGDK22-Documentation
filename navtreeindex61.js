@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"dai-debug-env-debug_tool.html#sec_dai-debug-env-debug_tool_ht_local_track":[8,2,1,5],
-"dai-inspector-custom-embed.html":[9,4],
 "dai-inspector-custom-embed.html#dai-inspector-custom-embed_a":[9,4,0],
 "dai-inspector-custom-embed.html#dai-inspector-custom-embed_in":[9,4,1],
 "dai-inspector-custom-embed.html#dai-inspector-custom-embed_in_init":[9,4,1,1],
@@ -247,7 +245,9 @@ var NAVTREEINDEX61 =
 "debug_env-debug_tool_ht_devnode.html#debug_env-debug_tool_ht_devnode_depth":[8,4,0],
 "debug_env-debug_tool_ht_devnode.html#debug_env-debug_tool_ht_devnode_interaction":[8,4,1],
 "deditorext_projsetutil.html":[11,3],
-"deditorext_projsetutil.html#autotoc_md100":[11,3,2,1],
-"deditorext_projsetutil.html#autotoc_md101":[11,3,2,2],
-"deditorext_projsetutil.html#autotoc_md102":[11,3,2,3]
+"deditorext_projsetutil.html#autotoc_md100":[11,3,2,0],
+"deditorext_projsetutil.html#autotoc_md101":[11,3,2,1],
+"deditorext_projsetutil.html#autotoc_md102":[11,3,2,2],
+"deditorext_projsetutil.html#autotoc_md103":[11,3,2,3],
+"deditorext_projsetutil.html#autotoc_md104":[11,3,2,4]
 };

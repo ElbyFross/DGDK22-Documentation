@@ -382,7 +382,6 @@ var hierarchy =
       [ "Doloro.DataManagement.Tables.TestTableInspector", "class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector.html", null ],
       [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsNew", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new.html", null ],
       [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_window.html", null ],
-      [ "Doloro.EditorExtension.SmallToolsHub.RotatedScreenSpace", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_rotated_screen_space.html", null ],
       [ "Doloro.EditorExtension.SmallToolsHub.STHEditor", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html", null ]
     ] ],
     [ "Doloro.AI.DAIStudio.EditorZoomArea", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_editor_zoom_area.html", null ],

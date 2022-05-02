@@ -1,7 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a7302de95d1349e4cddf82a2027da150a":[22,0,0,12,1,3,4,75],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a7302de95d1349e4cddf82a2027da150a":[21,0,0,12,1,3,4,75],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a7cc8ec7ab338c7016d956e415fb242ec":[21,0,0,12,1,3,4,49],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a7cc8ec7ab338c7016d956e415fb242ec":[22,0,0,12,1,3,4,49],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a7d0a8817150fad42996c63099a813f1a":[22,0,0,12,1,3,4,22],
@@ -249,5 +247,7 @@ var NAVTREEINDEX49 =
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#afd77d970e5f0b83d9e61e28f062a5ebf":[21,0,0,12,1,3,5,37],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#afd77d970e5f0b83d9e61e28f062a5ebf":[22,0,0,12,1,3,5,37],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#afff6df8fee72577a6b885c68248f07ba":[21,0,0,12,1,3,5,53],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#afff6df8fee72577a6b885c68248f07ba":[22,0,0,12,1,3,5,53]
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#afff6df8fee72577a6b885c68248f07ba":[22,0,0,12,1,3,5,53],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html":[22,0,0,12,1,3,6],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html":[21,0,0,12,1,3,6]
 };

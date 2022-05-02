@@ -1,7 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html":[22,0,0,12,1,3,6],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html":[21,0,0,12,1,3,6],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html#a693cf2d833a616c7fd5a7f33154408e1":[22,0,0,12,1,3,6,0],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html#a693cf2d833a616c7fd5a7f33154408e1":[21,0,0,12,1,3,6,0],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html#ab317bb017db1ac0a53c69a996e76449d":[22,0,0,12,1,3,6,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX50 =
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html#a955758e897a480e0898031d5075deaec":[22,0,0,12,1,4,0,4],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html#a955758e897a480e0898031d5075deaec":[21,0,0,12,1,4,0,4],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html#ab0af9f9828fd3ebf5eb336c80077bc09":[21,0,0,12,1,4,0,3],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html#ab0af9f9828fd3ebf5eb336c80077bc09":[22,0,0,12,1,4,0,3]
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html#ab0af9f9828fd3ebf5eb336c80077bc09":[22,0,0,12,1,4,0,3],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html":[21,0,0,12,1,4,1],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html":[22,0,0,12,1,4,1]
 };

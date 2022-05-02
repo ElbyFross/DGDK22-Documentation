@@ -1,7 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html":[21,0,0,12,1,4,1],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html":[22,0,0,12,1,4,1],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html#a131d2048a1dd31d4dc661ead0b6947db":[22,0,0,12,1,4,1,1],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html#a131d2048a1dd31d4dc661ead0b6947db":[21,0,0,12,1,4,1,1],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html#a63358c60d263d12e33ae89068fb1eb3a":[21,0,0,12,1,4,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX51 =
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edb":[21,0,0,12,1,5,3,2],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edb":[22,0,0,12,1,5,3,2],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edba7fb55ed0b7a30342ba6da306428cae04":[21,0,0,12,1,5,3,2,2],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edba7fb55ed0b7a30342ba6da306428cae04":[22,0,0,12,1,5,3,2,2]
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edba7fb55ed0b7a30342ba6da306428cae04":[22,0,0,12,1,5,3,2,2],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edbab8ab63f336c91e63bcc76c4824b3f6b3":[21,0,0,12,1,5,3,2,1],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edbab8ab63f336c91e63bcc76c4824b3f6b3":[22,0,0,12,1,5,3,2,1]
 };

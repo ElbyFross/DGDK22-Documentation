@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"class_doloro_1_1_u_i_engine2_1_1_window.html#aba68f57a8d80f5a10e024d8564d6b33f":[22,0,0,12,19,21],
-"class_doloro_1_1_u_i_engine2_1_1_window.html#aba68f57a8d80f5a10e024d8564d6b33f":[21,0,0,12,19,21],
 "class_doloro_1_1_u_i_engine2_1_1_window.html#abb744a3d26504cd7326b709ed78e43c4":[21,0,0,12,19,53],
 "class_doloro_1_1_u_i_engine2_1_1_window.html#abb744a3d26504cd7326b709ed78e43c4":[22,0,0,12,19,53],
 "class_doloro_1_1_u_i_engine2_1_1_window.html#abcdf74c4cbac7be418cdeed87a21d628":[22,0,0,12,19,102],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab2f341ec5dc0d3a93434c1712888a9de":[21,0,0,12,20,87],
 "class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab2f341ec5dc0d3a93434c1712888a9de":[22,0,0,12,20,87],
 "class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab3ba170cb1af892f72b33622bfd28190":[21,0,0,12,20,34],
-"class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab3ba170cb1af892f72b33622bfd28190":[22,0,0,12,20,34]
+"class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab3ba170cb1af892f72b33622bfd28190":[22,0,0,12,20,34],
+"class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab7f8fd522d9ed7228d2bbca8339de28f":[21,0,0,12,20,0],
+"class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html#ab7f8fd522d9ed7228d2bbca8339de28f":[22,0,0,12,20,0]
 };

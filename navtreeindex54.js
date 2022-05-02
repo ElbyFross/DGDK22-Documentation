@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#a15908192bec5db49798c71c834eb07af":[21,0,0,12,1,6,1,91],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#a15908192bec5db49798c71c834eb07af":[22,0,0,12,1,6,1,91],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#a167973e9418b3eb374b610160ad3ad21":[22,0,0,12,1,6,1,27],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#a167973e9418b3eb374b610160ad3ad21":[21,0,0,12,1,6,1,27],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#a17eba9695e7f890051cd51265d9b7369":[21,0,0,12,1,6,1,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a506e1bbf7dc1c17177be31149d9ffd26":[22,0,0,12,1,7,0,0,2,32],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a506e1bbf7dc1c17177be31149d9ffd26":[21,0,0,12,1,7,0,0,2,32],
 "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a5ff9db1aa3400709fa8c18fa529ceeff":[22,0,0,12,1,7,0,0,2,1],
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a5ff9db1aa3400709fa8c18fa529ceeff":[21,0,0,12,1,7,0,0,2,1]
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a5ff9db1aa3400709fa8c18fa529ceeff":[21,0,0,12,1,7,0,0,2,1],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a61cec9fcf18172abca96b6af701b139a":[22,0,0,12,1,7,0,0,2,9],
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a61cec9fcf18172abca96b6af701b139a":[21,0,0,12,1,7,0,0,2,9]
 };
