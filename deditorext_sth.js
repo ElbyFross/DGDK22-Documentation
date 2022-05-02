@@ -30,5 +30,8 @@ var deditorext_sth =
       [ "About", "deditorext_sth_plg_cc.html#deditorext_sth_plg_cc_a", null ],
       [ "How to use", "deditorext_sth_plg_cc.html#deditorext_sth_plg_cc_ht", null ]
     ] ],
-    [ "Plug-in: Scene Placement", "deditorext_sth_plg_sp.html", null ]
+    [ "Plug-in: Scene Placement", "deditorext_sth_plg_sp.html", [
+      [ "About", "deditorext_sth_plg_sp.html#deditorext_sth_plg_sp_a", null ],
+      [ "How to use", "deditorext_sth_plg_sp.html#deditorext_sth_plg_sp_ht", null ]
+    ] ]
 ];
