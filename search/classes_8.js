@@ -18,7 +18,7 @@ var searchData=
   ['inputaxis_15',['InputAxis',['../struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html',1,'Doloro::EditorExtension::ProjectSettings']]],
   ['inputdevicedetector_16',['InputDeviceDetector',['../class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html',1,'Doloro::Tools::Input']]],
   ['inputmanager_17',['InputManager',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager.html',1,'Doloro::UIEngine2::Modules']]],
-  ['inputsetting_18',['InputSetting',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_setting.html',1,'Doloro::EditorExtension::ProjectSettings']]],
+  ['inputsettings_18',['InputSettings',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_settings.html',1,'Doloro::EditorExtension::ProjectSettings']]],
   ['inspector_19',['Inspector',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector.html',1,'Doloro::AI::DAIInspector']]],
   ['inspectoreditorstyles_20',['InspectorEditorStyles',['../class_doloro_1_1_a_i_1_1_sensors_1_1_inspector_editor_styles.html',1,'Doloro::AI::Sensors']]],
   ['inspectorheader_21',['InspectorHeader',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html',1,'Doloro::AI::DAIInspector']]],

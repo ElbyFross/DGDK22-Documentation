@@ -7,7 +7,7 @@
 <area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window.html" title="Drop down window for Add Tag&#45;like events handling." alt="" coords="185,254,427,310"/>
 <area shape="rect" id="node7" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window.html" title="Window for tags collection management." alt="" coords="156,334,456,390"/>
 <area shape="rect" id="node8" href="$class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector.html" title=" " alt="" coords="201,415,411,456"/>
-<area shape="rect" id="node9" href="$class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new.html" title="Window to creating new Project settings cast." alt="" coords="206,480,406,521"/>
-<area shape="rect" id="node10" href="$class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_window.html" title="Implements UI window where user can select and load assets those contains project settings definition..." alt="" coords="201,545,411,587"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_load_window.html" title="Implements UI window where user can select and load assets those contains project settings definition..." alt="" coords="187,480,425,521"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new_window.html" title="Window to creating new Project settings cast." alt="" coords="189,545,423,587"/>
 <area shape="rect" id="node11" href="$class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html" title=" " alt="" coords="210,611,402,652"/>
 </map>

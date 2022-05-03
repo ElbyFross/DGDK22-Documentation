@@ -1,6 +1,5 @@
 var struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis =
 [
-    [ "ApplyTo", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a96c19a2c1e63fbf9e6c4d3a16beaac2f", null ],
     [ "altNegativeButton", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a3b6a7a897c51303edd6fbfbf45afb9ba", null ],
     [ "altPositiveButton", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a1afbb995bfc890799a57dde18d1a6ed9", null ],
     [ "axis", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#ae381993181c04423a80bedf10b785df2", null ],

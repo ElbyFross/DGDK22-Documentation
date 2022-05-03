@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"dai-debug-env-debug_tool-err.html#sec_dai-debug-env-debug_tool-err_dk_ext":[8,2,3,1,1],
+"dai-debug-env-debug_tool-err.html#sec_dai-debug-env-debug_tool-err_dk_smtc":[8,2,3,1,0],
 "dai-debug-env-debug_tool-patch.html":[8,2,4],
 "dai-debug-env-debug_tool-patch.html#dai-debug-env-debug_tool-patch_a":[8,2,4,0],
 "dai-debug-env-debug_tool-patch.html#dai-debug-env-debug_tool-patch_custom":[8,2,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "ddm-tables-ht.html#ddm-tables-ht-value":[10,7,3,2],
 "ddm-tables-ht.html#ddm-tables-ht-value-editor":[10,7,3,2,0],
 "ddm-tables-s.html":[10,7,1],
-"ddm-tables-s.html#ddm-tables-s-a":[10,7,1,0],
-"ddm-tables-s.html#ddm-tables-s-solution":[10,7,1,3],
-"ddm-tables-s.html#ddm-tables-s-spreadsheet":[10,7,1,2]
+"ddm-tables-s.html#ddm-tables-s-a":[10,7,1,0]
 };

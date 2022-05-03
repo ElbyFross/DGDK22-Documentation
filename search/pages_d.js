@@ -9,6 +9,6 @@ var searchData=
   ['plug_2din_3a_20layout_20info_6',['Plug-in: Layout Info',['../deditorext_sth_plg_li.html',1,'deditorext_sth']]],
   ['plug_2din_3a_20scene_20placement_7',['Plug-in: Scene Placement',['../deditorext_sth_plg_sp.html',1,'deditorext_sth']]],
   ['pre_2dintegrated_20patchers_8',['Pre-integrated patchers',['../ddm-drt-patchtool-box.html',1,'ddm-drt-patchtool']]],
-  ['project_20settings_20utils_9',['Project settings utils',['../deditorext_projsetutil.html',1,'md_Doloro_GDK_Doloro_Editor_Extension_README']]],
+  ['project_20settings_20toolkit_9',['Project Settings Toolkit',['../deditorext_projsetutil.html',1,'md_Doloro_GDK_Doloro_Editor_Extension_README']]],
   ['properties_20aggregator_10',['Properties Aggregator',['../ddm-aps-com-pa.html',1,'ddm-aps']]]
 ];

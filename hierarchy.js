@@ -380,8 +380,8 @@ var hierarchy =
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.AddTagWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window.html", null ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsManagementWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window.html", null ],
       [ "Doloro.DataManagement.Tables.TestTableInspector", "class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector.html", null ],
-      [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsNew", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new.html", null ],
-      [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_window.html", null ],
+      [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsLoadWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_load_window.html", null ],
+      [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsNewWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new_window.html", null ],
       [ "Doloro.EditorExtension.SmallToolsHub.STHEditor", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html", null ]
     ] ],
     [ "Doloro.AI.DAIStudio.EditorZoomArea", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_editor_zoom_area.html", null ],
@@ -559,7 +559,7 @@ var hierarchy =
     ] ],
     [ "Doloro.InvetorySystem.Properties.StorageInfo.Info", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html", null ],
     [ "Doloro.EditorExtension.ProjectSettings.InputAxis", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html", null ],
-    [ "Doloro.EditorExtension.ProjectSettings.InputSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_setting.html", null ],
+    [ "Doloro.EditorExtension.ProjectSettings.InputSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_settings.html", null ],
     [ "Doloro.AI.DAIInspector.Inspector", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector.html", null ],
     [ "Doloro.AI.Sensors.InspectorEditorStyles", "class_doloro_1_1_a_i_1_1_sensors_1_1_inspector_editor_styles.html", null ],
     [ "Doloro.AI.DAIInspector.InspectorHeader", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html", null ],
@@ -652,7 +652,7 @@ var hierarchy =
       [ "Doloro.UIEngine2.Window.WindowsLayer", "class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html", null ]
     ] ],
     [ "Doloro.Tools.Layers", "class_doloro_1_1_tools_1_1_layers.html", null ],
-    [ "Doloro.EditorExtension.ProjectSettings.LayersSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_setting.html", null ],
+    [ "Doloro.EditorExtension.ProjectSettings.LayersSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_settings.html", null ],
     [ "Doloro.UIEngine2.Modules.Graphs.LineShiftUtils", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html", null ],
     [ "Doloro.UIEngine2.Modules.Graphs.LineUtils", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_utils.html", null ],
     [ "Doloro.DataManagement.AssetBundlesTools.LoaderUtils", "class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html", null ],
@@ -813,7 +813,7 @@ var hierarchy =
     [ "Doloro.AI.Core.PipelineItem", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html", null ],
     [ "Doloro.AI.DAIDebugger.PipelineItemDebugShell", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_pipeline_item_debug_shell.html", null ],
     [ "Doloro.AI.DAIDebugger.ErrorsListTool.ProjectEnumeratorEntry", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_project_enumerator_entry.html", null ],
-    [ "Doloro.EditorExtension.ProjectSettings.ProjectSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_setting.html", null ],
+    [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsManager", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_manager.html", null ],
     [ "Doloro.AI.DAIInspector.PropertyInspectorHelper", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_property_inspector_helper.html", null ],
     [ "Doloro.Localization.ProxyContentProvider", "class_doloro_1_1_localization_1_1_proxy_content_provider.html", [
       [ "Doloro.Localization.GenericProxyContentProvider< ContentType, LocalizatorType >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", null ]
@@ -865,7 +865,7 @@ var hierarchy =
     [ "Doloro.AI.DAIInspector.TabsInspectorHelper", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_tabs_inspector_helper.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsDatabaseUtils", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database_utils.html", null ],
-    [ "Doloro.EditorExtension.ProjectSettings.TagsSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tags_setting.html", null ],
+    [ "Doloro.EditorExtension.ProjectSettings.TagSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tag_settings.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element.html", null ],
     [ "Doloro.InvetorySystem.TransactionService.TransactionOrder", "class_doloro_1_1_invetory_system_1_1_transaction_service_1_1_transaction_order.html", null ],
     [ "Doloro.InvetorySystem.TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", null ],

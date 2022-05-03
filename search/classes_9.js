@@ -2,7 +2,7 @@ var searchData=
 [
   ['layers_0',['Layers',['../class_doloro_1_1_tools_1_1_layers.html',1,'Doloro::Tools']]],
   ['layersensorfilter_1',['LayerSensorFilter',['../class_doloro_1_1_sensors_1_1_filters_1_1_layer_sensor_filter.html',1,'Doloro::Sensors::Filters']]],
-  ['layerssetting_2',['LayersSetting',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_setting.html',1,'Doloro::EditorExtension::ProjectSettings']]],
+  ['layerssettings_2',['LayersSettings',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_settings.html',1,'Doloro::EditorExtension::ProjectSettings']]],
   ['layoutinfodatacontainer_3',['LayoutInfoDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
   ['layoutinfoplugin_4',['LayoutInfoPlugin',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_layout_info_plugin.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
   ['layoutsearcher_5',['LayoutSearcher',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html',1,'Doloro::UIEngine2::DEVTOOLS']]],

@@ -405,14 +405,14 @@ var annotated_dup =
           [ "AssemblyUtils", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils" ],
           [ "AssetsHandler", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler" ],
           [ "InputAxis", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis" ],
-          [ "InputSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_setting.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_setting" ],
+          [ "InputSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_settings.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_settings" ],
           [ "IProjectSettings", "interface_doloro_1_1_editor_extension_1_1_project_settings_1_1_i_project_settings.html", null ],
-          [ "LayersSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_setting.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_setting" ],
+          [ "LayersSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_settings.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_layers_settings" ],
           [ "Preset", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_preset.html", null ],
-          [ "ProjectSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_setting.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_setting" ],
-          [ "ProjectSettingsNew", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new.html", null ],
-          [ "ProjectSettingsWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_window.html", null ],
-          [ "TagsSetting", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tags_setting.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tags_setting" ]
+          [ "ProjectSettingsLoadWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_load_window.html", null ],
+          [ "ProjectSettingsManager", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_manager.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_manager" ],
+          [ "ProjectSettingsNewWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new_window.html", null ],
+          [ "TagSettings", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tag_settings.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tag_settings" ]
         ] ],
         [ "SmallToolsHub", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub.html", [
           [ "Plugins", "namespace_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins.html", [
