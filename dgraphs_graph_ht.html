@@ -104,7 +104,8 @@ $(document).ready(function(){initNavTree('dgraphs_graph_ht.html',''); initResiza
 <li class="level2"><a href="#dgraphs_graph_ht_duplex_inst">Instance</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dgraphs_graph_ht_worldPosition">Define node&#39;s world position</a></li>
+<li class="level1"><a href="#dgraphs_graph_ht_pos">Define node&#39;s world position</a></li>
+<li class="level1"><a href="#dgraphs_graph_ht_graphid">Get graph by its ID</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_graph_ht_gr_create"></a>
@@ -275,7 +276,7 @@ Instance</h2>
 <div class="line">connection.isDuplex = IS_DUPLEX_ON;</div>
 </div><!-- fragment --><p> <b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_connection.html#a70146a1293a3d813b260df1082441c5a" title="If true then the connection visible for both directions. Otherwise works only in direction from =&gt; to">Doloro.Graphs.Connection.isDuplex</a></p>
 <hr  />
-<h1><a class="anchor" id="dgraphs_graph_ht_worldPosition"></a>
+<h1><a class="anchor" id="dgraphs_graph_ht_pos"></a>
 Define node's world position</h1>
 <p >As soon as we are talking about graphs using in games development, its a regular task to be able to use graph not only like a data set, but also as part of the in-game world (UI, Pathfinding, Maps, etc).</p>
 <p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> allows you to make a bond between a <code>GraphNode</code> and its in-world representation coordinates. </p><div class="fragment"><div class="line">// Creating graph.</div>
@@ -291,7 +292,25 @@ Define node's world position</h1>
 <div class="line">// Making bond between node and the position.</div>
 <div class="line">node.SetPostion(WORLD_POS);</div>
 </div><!-- fragment --><p >To get the stored node's position use the following pattern. </p><div class="fragment"><div class="line">var storedWorldPos = node.GetPostion();</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><hr  />
+<h1><a class="anchor" id="dgraphs_graph_ht_graphid"></a>
+Get graph by its ID</h1>
+<p >Entry graph has <code>id</code> property. Using the value of the property you can get reference to the graph any time while it exists.</p>
+<div class="fragment"><div class="line">// creatign graph.</div>
+<div class="line">var graph = new Graph();</div>
+<div class="line"> </div>
+<div class="line">// Getting graph&#39;s id.</div>
+<div class="line">var GRAPH_ID = graph.id;</div>
+<div class="line"> </div>
+<div class="line">// Getting access to the graph by its id.</div>
+<div class="line">Graph graphFromRegistry = GraphRuntimeAPI.Get(GRAPH_ID);</div>
+<div class="line"> </div>
+<div class="line">// `graph` equals to `graphFromRegistry`</div>
+</div><!-- fragment --><p> <b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_graphs_1_1_graph.html#abaf1bb84ab2c0d6f491bb494f0779eac" title="Id of the graph into internal runtime registry.">Doloro.Graphs.Graph.id</a></li>
+<li><a class="el" href="class_doloro_1_1_graphs_1_1_graph_runtime_a_p_i.html#a7e7f21a4fc8e81cc7b6b4ad543b691e3" title="Looking for a graph by it&#39;s id.">Doloro.Graphs.GraphRuntimeAPI.Get</a> </li>
+</ul>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

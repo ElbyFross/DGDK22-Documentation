@@ -134,7 +134,7 @@ var searchData=
   ['applydetected_131',['ApplyDetected',['../class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action.html#aabd3c9bf1899eeb47f9d43559b0270f0',1,'Doloro::AI::Sensors::ASelectingSensorAction']]],
   ['applyrotation_132',['ApplyRotation',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#a1b44c924fd823fc7f4a4d57b7cd4618f',1,'Doloro.InvetorySystem.Properties.VolumetricSpace.Volume.ApplyRotation(Coordinate rotation)'],['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#a53783f6b1965c78f78973802a4d0e221',1,'Doloro.InvetorySystem.Properties.VolumetricSpace.Volume.ApplyRotation(bool rotateX, bool rotateY, bool rotateZ)']]],
   ['applyto_133',['ApplyTo',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_settings.html#a91f9cd4173530c5a595c5d8c91120a9d',1,'Doloro::EditorExtension::ProjectSettings::InputSettings']]],
-  ['architecture_20and_20api_134',['Architecture and API',['../dgraphs_graph.html',1,'md_Doloro_GDK_Doloro_Graphs_README']]],
+  ['architecture_134',['Architecture',['../dgraphs_graph.html',1,'md_Doloro_GDK_Doloro_Graphs_README']]],
   ['aresourceloadingbehavior_135',['AResourceLoadingBehavior',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html',1,'Doloro::DataManagement::AssetBundlesTools']]],
   ['aselectingsensoraction_136',['ASelectingSensorAction',['../class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action.html',1,'Doloro::AI::Sensors']]],
   ['aselectingsensoractioneditor_137',['ASelectingSensorActionEditor',['../class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action_editor.html',1,'Doloro::AI::Sensors']]],

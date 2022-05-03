@@ -87,18 +87,46 @@ $(document).ready(function(){initNavTree('dgraphs_pathfinding.html',''); initRes
   <div class="headertitle"><div class="title">Pathfinding </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2><a class="anchor" id="dgraphs_pathfinding_about"></a>
-About</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dgraphs_pathfinding_about">About</a><ul><li class="level2"><a href="#dgraphs_pathfinding_about_intro">Brief idea of pathfinding, for beginners</a></li>
+<li class="level2"><a href="#dgraphs_pathfinding_api">API</a></li>
+<li class="level2"><a href="#dgraphs_pathfinding_astar">A*</a></li>
+<li class="level2"><a href="#dgraphs_pathfinding_new">Custom algorithm implementation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="dgraphs_pathfinding_about"></a>
+About</h1>
+<p >One of the main operation during work with graphs is a pathfinding. <br  />
+The operation allows to find path between graph nodes.</p>
+<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> implements architecture and core concepts for this tasks for you. Getting you both options:</p><ul>
+<li>use pre-implemented algorithms</li>
+<li>implement your own by extension of the architecture, in case you need non-standard output.</li>
+</ul>
+<h2><a class="anchor" id="dgraphs_pathfinding_about_intro"></a>
+Brief idea of pathfinding, for beginners</h2>
+<p >Following section isn't a serious lecture and made to introduce you into base ideas of pathfinding in simple words.</p>
+<p ><b>How pathfinding works:</b> <br  />
+</p><ul>
+<li>The main concept you should understand when you are working with graphs that the pathfinder algorithms usually builds a path basing computing on connection weights, that allows to build most efficient path cross the graph node.</li>
+<li>Second important part of pathfinder algorithms is a world position of the nodes. By using this data an algorithm can determine is the path leading toward destination point or now. Such knowledge allows to define which path in current pool is more perspective comparing to each other. <br  />
+</li>
+</ul>
+<p ><em>Always consider this ideas when you are planning implementation of some graph into the game.</em></p>
+<p >For more precise \ correct information we recommend you to introduce into Graph Theory as a segment of discrete math. Its important part of wide bunch of game development tasks and understanding of fundamentals will help you to reach higher grounds than any brief explanation.</p>
+<hr  />
 <h2><a class="anchor" id="dgraphs_pathfinding_api"></a>
 API</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<hr  />
 <h2><a class="anchor" id="dgraphs_pathfinding_astar"></a>
 A*</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<hr  />
 <h2><a class="anchor" id="dgraphs_pathfinding_new"></a>
 Custom algorithm implementation</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
