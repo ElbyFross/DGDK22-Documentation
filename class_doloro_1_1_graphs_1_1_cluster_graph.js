@@ -13,7 +13,7 @@ var class_doloro_1_1_graphs_1_1_cluster_graph =
     [ "Create", "class_doloro_1_1_graphs_1_1_cluster_graph.html#a2013ec397b0e334ab53f5da267fb81a0", null ],
     [ "GetConnection", "class_doloro_1_1_graphs_1_1_cluster_graph.html#ab997b381342c4307a3871e0212c902b6", null ],
     [ "GetEnumerator", "class_doloro_1_1_graphs_1_1_cluster_graph.html#a6b8266b9261e6833997aa863ede3f8dd", null ],
-    [ "GetNodePosition", "class_doloro_1_1_graphs_1_1_cluster_graph.html#aa2c35d7d22b3c0cbf9bd9e3dc6927093", null ],
+    [ "GetNodePosition", "class_doloro_1_1_graphs_1_1_cluster_graph.html#adfba9a8ca9afb5a923fb851e10521a32", null ],
     [ "GraphsRegistryChangeHandler", "class_doloro_1_1_graphs_1_1_cluster_graph.html#af3c501f49eb338a0b8901a6622f30aef", null ],
     [ "OnBinaryDataLoaded", "class_doloro_1_1_graphs_1_1_cluster_graph.html#a78403ebf37b445845158aaca38257950", null ],
     [ "ReleaseConnection", "class_doloro_1_1_graphs_1_1_cluster_graph.html#a78d84cb500c95cdd2a4cd333962c9521", null ],

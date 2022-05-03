@@ -96,8 +96,14 @@ $(document).ready(function(){initNavTree('dgraphs_graph_ht.html',''); initResiza
 <li class="level1"><a href="#dgraphs_graph_ht_connect">Connect nodes</a></li>
 <li class="level1"><a href="#dgraphs_graph_ht_disconnect">Disconnect nodes</a></li>
 <li class="level1"><a href="#dgraphs_graph_ht_connection_get">Get connection</a></li>
-<li class="level1"><a href="#dgraphs_graph_ht_weight">Set weight connection weight</a></li>
-<li class="level1"><a href="#dgraphs_graph_ht_duplex">Set duplex connection</a></li>
+<li class="level1"><a href="#dgraphs_graph_ht_weight">Set weight connection weight</a><ul><li class="level2"><a href="#dgraphs_graph_ht_weight_ctr">via constructor</a></li>
+<li class="level2"><a href="#dgraphs_graph_ht_weight_inst">Instance</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dgraphs_graph_ht_duplex">Set duplex connection state</a><ul><li class="level2"><a href="#dgraphs_graph_ht_duplex_ctr">via constructor</a></li>
+<li class="level2"><a href="#dgraphs_graph_ht_duplex_inst">Instance</a></li>
+</ul>
+</li>
 <li class="level1"><a href="#dgraphs_graph_ht_worldPosition">Define node&#39;s world position</a></li>
 </ul>
 </div>
@@ -174,7 +180,16 @@ In case if has no been defined will be generated automatically.</p>
 <div class="line">// Getting the node by its key.</div>
 <div class="line">var receivedNode0 = graph[CUSTOM_SIGNATURE];</div>
 <div class="line">// node0 equals to receivedNode0</div>
-</div><!-- fragment --><hr  />
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line">// Safer way to get node</div>
+<div class="line">if(graph.TryGetNode(CUSTOM_SIGNATURE, out var node))</div>
+<div class="line">{</div>
+<div class="line">  // Not has been found.</div>
+<div class="line">  // Use in case you aren&#39;t sure it exists.</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> <b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html#a6526a68887efaf4852e6648a2f9eaa6c" title="Tries to get graph`s node by the signature.">Doloro.Graphs.Graph.TryGetNode</a></p>
+<hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_connect"></a>
 Connect nodes</h1>
 <p >For connection of two nodes you enough to call them following next pattern. </p><div class="fragment"><div class="line">// Creating graph.</div>
@@ -226,16 +241,57 @@ Get connection</h1>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_weight"></a>
 Set weight connection weight</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The very popular segment of graphs in discrete math is weighted graphs. <br  />
+<b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> allows you to define weights for connections.</p>
+<h2><a class="anchor" id="dgraphs_graph_ht_weight_ctr"></a>
+via constructor</h2>
+<p >You may define connection weight when you are creating the connection. </p><div class="fragment"><div class="line">int CONNECTION_WEIGHT = ___ // &lt; Set your value.</div>
+<div class="line">nodeFrom.Connect(nodeTo, CONNECTION_WEIGHT);</div>
+</div><!-- fragment --><h2><a class="anchor" id="dgraphs_graph_ht_weight_inst"></a>
+Instance</h2>
+<p >You may change the connection weight after it has been established by access to its <code>weight</code> property.</p>
+<div class="fragment"><div class="line">// Creating connection between nodes.</div>
+<div class="line">var connection = nodeFrom.Connect(nodeTo);</div>
+<div class="line"> </div>
+<div class="line">int CONNECTION_WEIGHT = ___ // &lt; Set your value.</div>
+<div class="line">connection.weight = CONNECTION_WEIGHT;</div>
+</div><!-- fragment --><p> <b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855" title="Defines complexity weight for the connection.">Doloro.Graphs.Connection.weight</a></p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_duplex"></a>
-Set duplex connection</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+Set duplex connection state</h1>
+<p >By default entire connections goes as duplex (works in two way). <br  />
+But normal case in graphs math when the connection works only in one way. For this you have to turn off duplex mode on connection.</p>
+<h2><a class="anchor" id="dgraphs_graph_ht_duplex_ctr"></a>
+via constructor</h2>
+<p >You may define duplex mode state during connection the creation. </p><div class="fragment"><div class="line">boo IS_DUPLEX_ON = ___ // &lt; Set your value.</div>
+<div class="line">nodeFrom.Connect(nodeTo, IS_DUPLEX_ON);</div>
+</div><!-- fragment --><h2><a class="anchor" id="dgraphs_graph_ht_duplex_inst"></a>
+Instance</h2>
+<p >You may change the duplex mode after connection has been established by access to its <code>isDuplex</code> property.</p>
+<div class="fragment"><div class="line">// Creating connection between nodes.</div>
+<div class="line">var connection = nodeFrom.Connect(nodeTo);</div>
+<div class="line"> </div>
+<div class="line">boo IS_DUPLEX_ON = ___ // &lt; Set your value.</div>
+<div class="line">connection.isDuplex = IS_DUPLEX_ON;</div>
+</div><!-- fragment --><p> <b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_connection.html#a70146a1293a3d813b260df1082441c5a" title="If true then the connection visible for both directions. Otherwise works only in direction from =&gt; to">Doloro.Graphs.Connection.isDuplex</a></p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_worldPosition"></a>
 Define node's world position</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-</div></div><!-- contents -->
+<p >As soon as we are talking about graphs using in games development, its a regular task to be able to use graph not only like a data set, but also as part of the in-game world (UI, Pathfinding, Maps, etc).</p>
+<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> allows you to make a bond between a <code>GraphNode</code> and its in-world representation coordinates. </p><div class="fragment"><div class="line">// Creating graph.</div>
+<div class="line">var graph = new Graph();</div>
+<div class="line"> </div>
+<div class="line">// Adding node into it.</div>
+<div class="line">var node = graph.Add();</div>
+<div class="line"> </div>
+<div class="line">// Defining world position of node&#39;s</div>
+<div class="line">// in-world representation.</div>
+<div class="line">Vector3 WORLD_POS = ___ //</div>
+<div class="line"> </div>
+<div class="line">// Making bond between node and the position.</div>
+<div class="line">node.SetPostion(WORLD_POS);</div>
+</div><!-- fragment --><p >To get the stored node's position use the following pattern. </p><div class="fragment"><div class="line">var storedWorldPos = node.GetPostion();</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

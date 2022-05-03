@@ -18,7 +18,7 @@ var class_doloro_1_1_graphs_1_1_scalable_line_graph =
     [ "GetEnumerator", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#a6b8266b9261e6833997aa863ede3f8dd", null ],
     [ "GetNode", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#a260dc9b3dcdd27e96060f103a1254bdd", null ],
     [ "GetNodeAccessKey", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#a3b1a846a7482a477bcf503283f677dd3", null ],
-    [ "GetNodePosition", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#aa2c35d7d22b3c0cbf9bd9e3dc6927093", null ],
+    [ "GetNodePosition", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#adfba9a8ca9afb5a923fb851e10521a32", null ],
     [ "GraphsRegistryChangeHandler", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#af3c501f49eb338a0b8901a6622f30aef", null ],
     [ "OnBinaryDataLoaded", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#a78403ebf37b445845158aaca38257950", null ],
     [ "ReleaseConnection", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html#a78d84cb500c95cdd2a4cd333962c9521", null ],

@@ -19,8 +19,14 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
       [ "Connect nodes", "dgraphs_graph_ht.html#dgraphs_graph_ht_connect", null ],
       [ "Disconnect nodes", "dgraphs_graph_ht.html#dgraphs_graph_ht_disconnect", null ],
       [ "Get connection", "dgraphs_graph_ht.html#dgraphs_graph_ht_connection_get", null ],
-      [ "Set weight connection weight", "dgraphs_graph_ht.html#dgraphs_graph_ht_weight", null ],
-      [ "Set duplex connection", "dgraphs_graph_ht.html#dgraphs_graph_ht_duplex", null ],
+      [ "Set weight connection weight", "dgraphs_graph_ht.html#dgraphs_graph_ht_weight", [
+        [ "via constructor", "dgraphs_graph_ht.html#dgraphs_graph_ht_weight_ctr", null ],
+        [ "Instance", "dgraphs_graph_ht.html#dgraphs_graph_ht_weight_inst", null ]
+      ] ],
+      [ "Set duplex connection state", "dgraphs_graph_ht.html#dgraphs_graph_ht_duplex", [
+        [ "via constructor", "dgraphs_graph_ht.html#dgraphs_graph_ht_duplex_ctr", null ],
+        [ "Instance", "dgraphs_graph_ht.html#dgraphs_graph_ht_duplex_inst", null ]
+      ] ],
       [ "Define node's world position", "dgraphs_graph_ht.html#dgraphs_graph_ht_worldPosition", null ]
     ] ],
     [ "Pathfinding", "dgraphs_pathfinding.html", null ],
