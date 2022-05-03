@@ -111,9 +111,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a966c4d54bba3e12abe744486d3176a1b"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a966c4d54bba3e12abe744486d3176a1b">Connect&lt; T &gt;</a> (this <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node1, <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node2, params object[] args)</td></tr>
 <tr class="memdesc:a966c4d54bba3e12abe744486d3176a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Establishes a connection between two nodes.  <a href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a966c4d54bba3e12abe744486d3176a1b">More...</a><br /></td></tr>
 <tr class="separator:a966c4d54bba3e12abe744486d3176a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ceea2a3bd948adf7f98181e510b5125"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a9ceea2a3bd948adf7f98181e510b5125">Disconnect</a> (this <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node1, <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node2)</td></tr>
-<tr class="memdesc:a9ceea2a3bd948adf7f98181e510b5125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases entire connections between two nodes.  <a href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a9ceea2a3bd948adf7f98181e510b5125">More...</a><br /></td></tr>
-<tr class="separator:a9ceea2a3bd948adf7f98181e510b5125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7be777570a1d6bcb8bb33ca32d8f4d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a9d7be777570a1d6bcb8bb33ca32d8f4d">Disconnect</a> (this <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node1, <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node2)</td></tr>
+<tr class="memdesc:a9d7be777570a1d6bcb8bb33ca32d8f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases entire connections between two nodes.  <a href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a9d7be777570a1d6bcb8bb33ca32d8f4d">More...</a><br /></td></tr>
+<tr class="separator:a9d7be777570a1d6bcb8bb33ca32d8f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a550113e64bf355fdb2ced52aa1293244"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a550113e64bf355fdb2ced52aa1293244">DisconnectAll</a> (this <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> node)</td></tr>
 <tr class="memdesc:a550113e64bf355fdb2ced52aa1293244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases entire connections established with the node.  <a href="class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html#a550113e64bf355fdb2ced52aa1293244">More...</a><br /></td></tr>
 <tr class="separator:a550113e64bf355fdb2ced52aa1293244"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -572,8 +572,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ceea2a3bd948adf7f98181e510b5125" name="a9ceea2a3bd948adf7f98181e510b5125"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ceea2a3bd948adf7f98181e510b5125">&#9670;&nbsp;</a></span>Disconnect()</h2>
+<a id="a9d7be777570a1d6bcb8bb33ca32d8f4d" name="a9d7be777570a1d6bcb8bb33ca32d8f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7be777570a1d6bcb8bb33ca32d8f4d">&#9670;&nbsp;</a></span>Disconnect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,7 +582,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Doloro.Graphs.GraphNodeAPI.Disconnect </td>
+          <td class="memname">static bool Doloro.Graphs.GraphNodeAPI.Disconnect </td>
           <td>(</td>
           <td class="paramtype">this <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a>&#160;</td>
           <td class="paramname"><em>node1</em>, </td>
@@ -614,6 +614,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Is the nodes had been connected before call.</dd></dl>
 
 </div>
 </div>

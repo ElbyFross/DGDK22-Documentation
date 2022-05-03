@@ -463,6 +463,14 @@ var hierarchy =
       [ "Doloro.DataManagement.Collections.Generic.PriorityQueue< TElement, TPriority >", "class_doloro_1_1_data_management_1_1_collections_1_1_generic_1_1_priority_queue.html", null ],
       [ "Doloro.DataManagement.DynamicResources.ResourcesCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection.html", null ],
       [ "Doloro.DataManagement.DynamicResources.ResourcesCollection.AssetBundlesResourcesCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection_1_1_asset_bundles_resources_collection.html", null ],
+      [ "Doloro.Graphs.Graph", "class_doloro_1_1_graphs_1_1_graph.html", [
+        [ "Doloro.Graphs.Fragmented.AFragmentGraph", "class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html", [
+          [ "Doloro.Graphs.ClusterGraph", "class_doloro_1_1_graphs_1_1_cluster_graph.html", null ],
+          [ "Doloro.Graphs.ScalableLineGraph", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html", null ]
+        ] ],
+        [ "Doloro.Graphs.Fragmented.GraphsNetwork", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html", null ]
+      ] ],
+      [ "Doloro.Graphs.Graph", "class_doloro_1_1_graphs_1_1_graph.html", null ],
       [ "Doloro.Sensors.FilteredSensor", "class_doloro_1_1_sensors_1_1_filtered_sensor.html", [
         [ "Doloro.Sensors.DependentFilteredSensor", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html", null ]
       ] ],
@@ -492,13 +500,6 @@ var hierarchy =
       [ "Doloro.DataManagement.Tables.Solution", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html", null ],
       [ "Doloro.DataManagement.Tables.Table", "class_doloro_1_1_data_management_1_1_tables_1_1_table.html", null ],
       [ "Doloro.Graphs.Fragmented.GraphsNetwork", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html", null ],
-      [ "Doloro.Graphs.Graph", "class_doloro_1_1_graphs_1_1_graph.html", [
-        [ "Doloro.Graphs.Fragmented.AFragmentGraph", "class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html", [
-          [ "Doloro.Graphs.ClusterGraph", "class_doloro_1_1_graphs_1_1_cluster_graph.html", null ],
-          [ "Doloro.Graphs.ScalableLineGraph", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html", null ]
-        ] ],
-        [ "Doloro.Graphs.Fragmented.GraphsNetwork", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html", null ]
-      ] ],
       [ "Doloro.Graphs.Path", "class_doloro_1_1_graphs_1_1_path.html", [
         [ "Doloro.Graphs.AStarPath", "class_doloro_1_1_graphs_1_1_a_star_path.html", null ]
       ] ],

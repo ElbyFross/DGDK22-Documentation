@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DoloroGDK 22: Graph and API</title>
+<title>DoloroGDK 22: Architecture and API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,50 +84,44 @@ $(document).ready(function(){initNavTree('dgraphs_graph.html',''); initResizable
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Graph and API </div></div>
+  <div class="headertitle"><div class="title">Architecture and API </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dgraphs_graph_arch">Architecture</a><ul><li class="level2"><a href="#dgraphs_graph_arch_graph">Graph</a></li>
+<li class="level2"><a href="#dgraphs_graph_arch_node">Node</a></li>
+<li class="level2"><a href="#dgraphs_graph_arch_connection">Connection</a><ul><li class="level3"><a href="#dgraphs_graph_arch_connection_new">Custom connections</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_graph_arch"></a>
 Architecture</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dgraphs_graph_arch_graph"></a>
 Graph</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Data class that manages graph object logic. Works both like a collection of <code>GraphNode</code> or <code>string</code> (where string key represents unique node) elements.</p>
+<p ><b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Doloro.Graphs.Graph</a></p>
+<hr  />
 <h2><a class="anchor" id="dgraphs_graph_arch_node"></a>
 Node</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">Doloro.Graphs.GraphNode</a></p>
+<hr  />
 <h2><a class="anchor" id="dgraphs_graph_arch_connection"></a>
 Connection</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_connection.html" title="Connection descriptor.">Doloro.Graphs.Connection</a></p>
 <h3><a class="anchor" id="dgraphs_graph_arch_connection_new"></a>
 Custom connections</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h1><a class="anchor" id="dgraphs_graph_ht"></a>
-How to ...</h1>
-<h2><a class="anchor" id="dgraphs_graph_ht_gr_create"></a>
-Create graph</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_node_create"></a>
-Create node</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_node_get"></a>
-Get node</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_connect"></a>
-Connect nodes</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_disconnect"></a>
-Disconnect nodes</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_connectio_get"></a>
-Get connection</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_weight"></a>
-Set weight connection weight</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dgraphs_graph_ht_duplex"></a>
-Set duplex connection</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >For some custom logic you may face requirements for extending of the connection data or features.</p>
+<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graph</b> not interferes with such extension.</p><ol type="1">
+<li>Derive custom connection class from the <code>Connection</code>.</li>
+<li>Make sure it follows serialization requirements of <b><a class="el" href="namespace_doloro.html">Doloro</a> Data Management</b> module.</li>
+<li>Implement your own logic.</li>
+</ol>
+<p ><b>Explore:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_cross_graph_virtual_connection.html" title="Describes virtual link between two graphs.">Doloro.Graphs.Fragmented.GraphsNetwork.CrossGraphVirtualConnection</a> : Connection </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
