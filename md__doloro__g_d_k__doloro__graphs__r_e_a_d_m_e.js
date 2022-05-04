@@ -2,12 +2,10 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
 [
     [ "About", "md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e.html#dgraphs_about", null ],
     [ "Architecture", "dgraphs_graph.html", [
-      [ "Architecture", "dgraphs_graph.html#dgraphs_graph_arch", [
-        [ "Graph", "dgraphs_graph.html#dgraphs_graph_arch_graph", null ],
-        [ "Node", "dgraphs_graph.html#dgraphs_graph_arch_node", null ],
-        [ "Connection", "dgraphs_graph.html#dgraphs_graph_arch_connection", [
-          [ "Custom connections", "dgraphs_graph.html#dgraphs_graph_arch_connection_new", null ]
-        ] ]
+      [ "Graph", "dgraphs_graph.html#dgraphs_graph_arch_graph", null ],
+      [ "Node", "dgraphs_graph.html#dgraphs_graph_arch_node", null ],
+      [ "Connection", "dgraphs_graph.html#dgraphs_graph_arch_connection", [
+        [ "Custom connections", "dgraphs_graph.html#dgraphs_graph_arch_connection_new", null ]
       ] ]
     ] ],
     [ "How to ...", "dgraphs_graph_ht.html", [

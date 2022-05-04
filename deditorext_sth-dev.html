@@ -122,14 +122,14 @@ Plug-in settings</h1>
 Order in catalog</h2>
 <p >To setup an order of plug-in in catalog window override <code>order</code> property and define required value. <br  />
 Higher value means later call.</p>
-<p >Order also defines order in receving of editor messages. If some of your plug-in based on other one, be sure it has a higher order than the base one.</p>
+<p >Order also defines order in receiving of editor messages. If some of your plug-in based on other one, be sure it has a higher order than the base one.</p>
 <p ><b>See also:</b> <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#aeffecf06002c4f47f8e35f5659c3c035" title="Order of call for GUI toolbar.">Doloro.EditorExtension.SmallToolsHub.STHPlugin.order</a></p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="deditorext_sth-dev-settings-order-content"></a>
 Header GUIContent</h2>
 <p >You may declare a custom <code>GUIContent</code> to display at plug-in header \ catalog item GUI elements.</p>
-<p >To set your own conent you have to override <code>content</code> property. <br  />
+<p >To set your own content you have to override <code>content</code> property. <br  />
 To drop the content and turn on auto naming, set the property to <code>null</code>.</p>
 <p ><b>See also:</b> <a class="el" href="class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html#a4feb8914d5bf2d37be48e6f2c139a0e5" title="GUI content to display within plug-in header.">Doloro.EditorExtension.SmallToolsHub.STHPlugin.content</a></p>
 <p ><br  />
@@ -149,7 +149,7 @@ State setup via code</h2>
 <h1><a class="anchor" id="deditorext_sth-dev-crossession"></a>
 Cross-session data</h1>
 <p >For most plug-ins its important to store some data between editor using sessions.<br  />
-<b>STH</b> tool provides you to fillow a simple pattern to do this.</p>
+<b>STH</b> tool provides you to follow a simple pattern to do this.</p>
 <ol type="1">
 <li>Create a new class at runtime assembly (not Editor folder).</li>
 <li>Derive it from <code>ScriptableObject</code>.</li>
@@ -202,7 +202,7 @@ On-scene GUI</h1>
 <p ><b>STH</b> allows you simple access to the on scene scope view with a custom GUI.</p>
 <h2><a class="anchor" id="deditorext_sth-dev-onscene-main"></a>
 Main toolbar</h2>
-<p >The tool automatically integrates its own extra toolbar over scene view that allows you to integrate frequently used controles on the scene.</p>
+<p >The tool automatically integrates its own extra toolbar over scene view that allows you to integrate frequently used controls on the scene.</p>
 <p >All you need to do to place your GUI at the toolbar it's just override a <code>STHPlugin.OnSceneGUIMainToolbar</code> handler.</p>
 <div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub;</div>
 <div class="line"> </div>
@@ -218,7 +218,7 @@ Main toolbar</h2>
 </p>
 <h2><a class="anchor" id="deditorext_sth-dev-onscene-custom"></a>
 Custom layout</h2>
-<p >You may access free sceen view layout by overriding <code>STHPlugin.OnSceneGUI</code> hadnler.</p>
+<p >You may access free scene view layout by overriding <code>STHPlugin.OnSceneGUI</code> hadnler.</p>
 <div class="fragment"><div class="line">using Doloro.EditorExtension.SmallToolsHub;</div>
 <div class="line"> </div>
 <div class="line">public class NewPlugin : STHPlugin</div>

@@ -187,8 +187,8 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#ac298bf526ddd26cb82a9bfa49e8bb657",
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ad3be1a57e57e93176c03dba008937ee6",
 "ddm-drt-api-rm.html#ddm-drt-api-rm-rd-custom",
-"functions_func_d.html",
-"md__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_dinput",
+"functions_func_e.html",
+"md__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_local",
 "struct_doloro_1_1_base_types_1_1_color.html#a3a29aa3609f0a7c4d73df533ee044491",
 "struct_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer_1_1_search_context.html#a8a38cc645f64efd0f9796e85eb671b8d"
 ];

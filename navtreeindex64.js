@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"md__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_dinput":[4,3,1],
 "md__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_local":[4,3,2],
 "md__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_rmre":[4,3,0],
 "md__doloro__g_d_k_3__modules_overview.html#modules_overview_deprecated":[4,5],
@@ -230,24 +229,25 @@ var NAVTREEINDEX64 =
 "pages.html":[],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html":[21,0,0,0,3,1,0,4],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html":[22,0,0,0,3,1,0,4],
-"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a0bcdbee9b88b32d5b8f771a0a3506319":[21,0,0,0,3,1,0,4,7],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a0bcdbee9b88b32d5b8f771a0a3506319":[22,0,0,0,3,1,0,4,7],
-"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a2cb70e36c2586618ab327c13e2db921d":[21,0,0,0,3,1,0,4,6],
+"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a0bcdbee9b88b32d5b8f771a0a3506319":[21,0,0,0,3,1,0,4,7],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a2cb70e36c2586618ab327c13e2db921d":[22,0,0,0,3,1,0,4,6],
+"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a2cb70e36c2586618ab327c13e2db921d":[21,0,0,0,3,1,0,4,6],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a3273f53400e0dcf7460b05f852cc40fe":[21,0,0,0,3,1,0,4,2],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#a3273f53400e0dcf7460b05f852cc40fe":[22,0,0,0,3,1,0,4,2],
-"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#aa20f45603e8d5c9a79c09964ad6a9c1b":[22,0,0,0,3,1,0,4,5],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#aa20f45603e8d5c9a79c09964ad6a9c1b":[21,0,0,0,3,1,0,4,5],
+"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#aa20f45603e8d5c9a79c09964ad6a9c1b":[22,0,0,0,3,1,0,4,5],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#ab755d84ca994e6ad4d88c7063df90ace":[21,0,0,0,3,1,0,4,4],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#ab755d84ca994e6ad4d88c7063df90ace":[22,0,0,0,3,1,0,4,4],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#abde993cd6b85655342dd2958d0c6ed42":[21,0,0,0,3,1,0,4,1],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#abde993cd6b85655342dd2958d0c6ed42":[22,0,0,0,3,1,0,4,1],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#ad28ec723f44afb382a707f75d9c93737":[21,0,0,0,3,1,0,4,0],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#ad28ec723f44afb382a707f75d9c93737":[22,0,0,0,3,1,0,4,0],
-"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#af4213d8c073979783b74d5eac7dd9225":[22,0,0,0,3,1,0,4,3],
 "struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#af4213d8c073979783b74d5eac7dd9225":[21,0,0,0,3,1,0,4,3],
+"struct_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_type_signature.html#af4213d8c073979783b74d5eac7dd9225":[22,0,0,0,3,1,0,4,3],
 "struct_doloro_1_1_base_types_1_1_color.html":[21,0,0,1,0],
 "struct_doloro_1_1_base_types_1_1_color.html":[22,0,0,1,0],
+"struct_doloro_1_1_base_types_1_1_color.html#a0ce330e000aaeb8929d4d8c0b42dc330":[22,0,0,1,0,18],
 "struct_doloro_1_1_base_types_1_1_color.html#a0ce330e000aaeb8929d4d8c0b42dc330":[21,0,0,1,0,18],
-"struct_doloro_1_1_base_types_1_1_color.html#a0ce330e000aaeb8929d4d8c0b42dc330":[22,0,0,1,0,18]
+"struct_doloro_1_1_base_types_1_1_color.html#a3a29aa3609f0a7c4d73df533ee044491":[22,0,0,1,0,5]
 };
