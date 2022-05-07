@@ -62,14 +62,5 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
         [ "Build cross-network path", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_ht_path", null ]
       ] ]
     ] ],
-    [ "Graph-based GUI", "dgraphs_dui2.html", [
-      [ "About", "dgraphs_dui2.html#dgraphs_dui2_a", null ],
-      [ "Architecture", "dgraphs_dui2.html#dgraphs_dui2_arch", [
-        [ "Cluster Graph", "dgraphs_dui2.html#dgraphs_dui2_arch_cg", null ],
-        [ "Scalable Line Graph", "dgraphs_dui2.html#dgraphs_dui2_arch_slg", null ]
-      ] ],
-      [ "Using", "dgraphs_dui2.html#dgraphs_dui2_u", [
-        [ "Graph Unit GUI", "dgraphs_dui2.html#dgraphs_dui2_u_u", null ]
-      ] ]
-    ] ]
+    [ "Graph-based GUI", "dgraphs_dui2.html", "dgraphs_dui2" ]
 ];
