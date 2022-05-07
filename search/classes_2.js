@@ -13,7 +13,7 @@ var searchData=
   ['childobject_10',['ChildObject',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html',1,'Doloro::AI::Get']]],
   ['childobjecteditor_11',['ChildObjectEditor',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object_editor.html',1,'Doloro::AI::Get']]],
   ['clickablerectguielement_12',['ClickableRectGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_clickable_rect_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::BaseControls']]],
-  ['clustergraph_13',['ClusterGraph',['../class_doloro_1_1_graphs_1_1_cluster_graph.html',1,'Doloro::Graphs']]],
+  ['clustergraph_13',['ClusterGraph',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['clustergraphguielement_14',['ClusterGraphGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['color_15',['Color',['../struct_doloro_1_1_base_types_1_1_color.html',1,'Doloro::BaseTypes']]],
   ['colorpalette_16',['ColorPalette',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html',1,'Doloro::UIEngine2::Modules::Palettes']]],

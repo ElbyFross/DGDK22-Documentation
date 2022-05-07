@@ -87,28 +87,79 @@ $(document).ready(function(){initNavTree('dgraphs_fragmented_graph.html',''); in
   <div class="headertitle"><div class="title">Fragmented graphs </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dgraphs_fragmented_graph_a">About</a></li>
+<li class="level1"><a href="#dgraphs_fragmented_graph_arch">Architecture</a><ul><li class="level2"><a href="#dgraphs_fragmented_graph_arch_fg">Fragment graph</a></li>
+<li class="level2"><a href="#dgraphs_fragmented_graph_arch_gn">Graphs network</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dgraphs_fragmented_graph_ht">How to...</a><ul><li class="level2"><a href="#dgraphs_fragmented_graph_ht_cn">Create network</a></li>
+<li class="level2"><a href="#dgraphs_fragmented_graph_ht_path">Build cross-network path</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_fragmented_graph_a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >It's kind of possible situation when you need to navigate between several graphs like a whole. <br  />
+By default the graphs not allows that and during pathfinding cross several graphs you will get an exception caused by inability to build the path.</p>
+<p >For such cases <b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> module supplies you with a built above module that allows to build a path cross several supportive graphs.</p>
+<p >To be compatible the graph must be derived from a <code>FragmentedGraph</code> class, added to the <code>GraphNetwork</code> instance and navigated through it.</p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_fragmented_graph_arch"></a>
 Architecture</h1>
 <h2><a class="anchor" id="dgraphs_fragmented_graph_arch_fg"></a>
-Fragmented graph</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+Fragment graph</h2>
+<p >Fragment graph is a extended <code>Graph</code> class that allows to defined graph nodes used and enter \ escape points during cross graphs navigation.</p>
+<p >Such points define which node in graph represents which side in world space and allows to combine fragmented graphs to a network automatically. <br  />
+</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html" title="Graph that has entry points that allows to attack this graph to another fragments.">Doloro.Graphs.Fragmented.AFragmentGraph</a> : Graph</p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dgraphs_fragmented_graph_arch_gn"></a>
 Graphs network</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Graphs network by itself is also the <code>Graph</code>. But instead of working with a regular <code>GraphNode</code> instances it uses other <code>Graph</code> instances as nodes.</p>
+<p >To add any graph to the network, the graph must be derived from the <a class="el" href="dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch_fg">Fragment graph</a>. <br  />
+During graphs connection you are selecting which sides of graphs connects. That allows to build a whole graph in intuitive square tiles like format.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html" title="Graph that implements cross graphs connections logic.">Doloro.Graphs.Fragmented.GraphsNetwork</a> : Graph</p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_fragmented_graph_ht"></a>
 How to...</h1>
 <h2><a class="anchor" id="dgraphs_fragmented_graph_ht_cn"></a>
 Create network</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >To create a new network enough to call <code>new GraphsNetwork()</code> and sign <code>FragmentGraph</code> instances into it.</p>
+<p >Following example demonstrates connection of 4 graphs into mutual network. </p><div class="fragment"><div class="line">// Creating and filling graphs that will be a part o network.</div>
+<div class="line">FragmentGraph graph00 = ...;</div>
+<div class="line">FragmentGraph graph01 = ...;</div>
+<div class="line">FragmentGraph graph10 = ...;</div>
+<div class="line">FragmentGraph graph11 = ...;</div>
+<div class="line"> </div>
+<div class="line">// Creating a network.</div>
+<div class="line">var network = new GraphsNetwork();</div>
+<div class="line"> </div>
+<div class="line">// Connecting graphs to each other.</div>
+<div class="line">// 01 11</div>
+<div class="line">// 00 10</div>
+<div class="line">network.Connect(graph00, graph01, Direction.Top);</div>
+<div class="line">network.Connect(graph00, graph10, Direction.Right);</div>
+<div class="line">network.Connect(graph01, graph11, Direction.Right);</div>
+<div class="line">network.Connect(graph10, graph11, Direction.Top);</div>
+</div><!-- fragment --><p >You also can connect nodes of graphs in network manually using following pattern. In case if graphs not included to the network yet, the system will make this appointment automatically. </p><div class="fragment"><div class="line">var node0 =  graph00[NODE_SIGNATURE_0];</div>
+<div class="line">var node1 =  graph11[NODE_SIGNATURE_1];</div>
+<div class="line"> </div>
+<div class="line">network.Connect(node0, node1);</div>
+</div><!-- fragment --><p> where <code>NODE_SIGNATURE_0</code> and <code>NODE_SIGNATURE_1</code> are signature of nodes that allows to access them in graph.</p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dgraphs_fragmented_graph_ht_path"></a>
-Find cross-network path</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-</div></div><!-- contents -->
+Build cross-network path</h2>
+<p >To navigate cross graphs you enough to request path build via <code>GraphsNetwork</code> API. </p><div class="fragment"><div class="line">var path = network.BuildPath(</div>
+<div class="line">  graph00[NODE_SIGNATURE_0], Direction.Top,</div>
+<div class="line">  graph11[NODE_SIGNATURE_1], Direction.Bottom);</div>
+</div><!-- fragment --><p> or </p><div class="fragment"><div class="line">var path = await network.BuildPathAsync(</div>
+<div class="line">  graph00[NODE_SIGNATURE_0], Direction.Top,</div>
+<div class="line">  graph11[NODE_SIGNATURE_1], Direction.Bottom);</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

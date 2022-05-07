@@ -1,10 +1,10 @@
 <map id="Doloro.Graphs.Graph" name="Doloro.Graphs.Graph">
-<area shape="rect" id="node1" title="Base graph implementation logic." alt="" coords="233,80,377,107"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html" title="Graph that has entry points that allows to attack this graph to another fragments." alt="" coords="111,155,293,196"/>
-<area shape="rect" id="node8" href="$class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html" title="Graph that implements cross graphs connections logic." alt="" coords="317,155,500,196"/>
-<area shape="rect" id="node2" title=" " alt="" coords="103,5,195,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="219,5,390,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="414,5,553,32"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_graphs_1_1_cluster_graph.html" title="Hyper cell of the graph that could be scaled at deep." alt="" coords="5,251,191,278"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_graphs_1_1_scalable_line_graph.html" title="Side cluster that holds collection of related hyper cells." alt="" coords="215,244,397,285"/>
+<area shape="rect" id="node1" title="Base graph implementation logic." alt="" coords="224,78,368,105"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html" title="Graph that has entry points that allows to attack this graph to another fragments." alt="" coords="416,37,599,79"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html" title="Graph that implements cross graphs connections logic." alt="" coords="416,103,599,144"/>
+<area shape="rect" id="node2" title=" " alt="" coords="45,27,137,54"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,78,176,105"/>
+<area shape="rect" id="node4" title=" " alt="" coords="21,129,160,155"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html" title="Hyper cell of the graph that could be scaled at deep." alt="" coords="647,5,825,47"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html" title="Side cluster that holds collection of related hyper cells." alt="" coords="647,71,825,112"/>
 </map>

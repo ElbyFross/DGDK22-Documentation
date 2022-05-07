@@ -12,6 +12,7 @@ var searchData=
   ['buildasync_9',['BuildAsync',['../class_doloro_1_1_graphs_1_1_path.html#aab47fd293edb4575d1d0c618488d109b',1,'Doloro.Graphs.Path.BuildAsync()'],['../class_doloro_1_1_graphs_1_1_a_star_path.html#a49f231f8bd6244a11b1e06b5bf34de4f',1,'Doloro.Graphs.AStarPath.BuildAsync()']]],
   ['buildcoroutine_10',['BuildCoroutine',['../class_doloro_1_1_graphs_1_1_path.html#abbeb6e872bc8b7a4199430b175b9688e',1,'Doloro.Graphs.Path.BuildCoroutine()'],['../class_doloro_1_1_graphs_1_1_a_star_path.html#a9348b754524dd436b829b79a138ea9ee',1,'Doloro.Graphs.AStarPath.BuildCoroutine()']]],
   ['buildpath_11',['BuildPath',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#aff19e9f62aefbfcacdb2d3d72080ef62',1,'Doloro::Graphs::Fragmented::GraphsNetwork']]],
-  ['buildshiftedpath_12',['BuildShiftedPath',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html#a693cf2d833a616c7fd5a7f33154408e1',1,'Doloro::UIEngine2::Modules::Graphs::LineShiftUtils']]],
-  ['bundlesasyncloadround_13',['BundlesAsyncLoadRound',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html#aa4c4704d058033fc8114633ca493db72',1,'Doloro::DataManagement::AssetBundlesTools::LoaderUtils']]]
+  ['buildpathasync_12',['BuildPathAsync',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a530381faa0e92efc360f193f6c1b1e5c',1,'Doloro::Graphs::Fragmented::GraphsNetwork']]],
+  ['buildshiftedpath_13',['BuildShiftedPath',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html#a693cf2d833a616c7fd5a7f33154408e1',1,'Doloro::UIEngine2::Modules::Graphs::LineShiftUtils']]],
+  ['bundlesasyncloadround_14',['BundlesAsyncLoadRound',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html#aa4c4704d058033fc8114633ca493db72',1,'Doloro::DataManagement::AssetBundlesTools::LoaderUtils']]]
 ];

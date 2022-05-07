@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['scalablelinegraph_0',['ScalableLineGraph',['../class_doloro_1_1_graphs_1_1_scalable_line_graph.html',1,'Doloro::Graphs']]],
+  ['scalablelinegraph_0',['ScalableLineGraph',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['scalablelinegraphguielement_1',['ScalableLineGraphGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['sceneplacementmanagerdatacontainer_2',['ScenePlacementManagerDataContainer',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_manager_data_container.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],
   ['sceneplacementplugin_3',['ScenePlacementPlugin',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html',1,'Doloro::EditorExtension::SmallToolsHub::Plugins']]],

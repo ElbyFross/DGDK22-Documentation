@@ -442,14 +442,12 @@ var annotated_dup =
           [ "GraphsNetwork", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network" ]
         ] ],
         [ "AStarPath", "class_doloro_1_1_graphs_1_1_a_star_path.html", "class_doloro_1_1_graphs_1_1_a_star_path" ],
-        [ "ClusterGraph", "class_doloro_1_1_graphs_1_1_cluster_graph.html", "class_doloro_1_1_graphs_1_1_cluster_graph" ],
         [ "Connection", "class_doloro_1_1_graphs_1_1_connection.html", "class_doloro_1_1_graphs_1_1_connection" ],
         [ "Graph", "class_doloro_1_1_graphs_1_1_graph.html", "class_doloro_1_1_graphs_1_1_graph" ],
         [ "GraphNode", "class_doloro_1_1_graphs_1_1_graph_node.html", "class_doloro_1_1_graphs_1_1_graph_node" ],
         [ "GraphNodeAPI", "class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html", "class_doloro_1_1_graphs_1_1_graph_node_a_p_i" ],
         [ "GraphRuntimeAPI", "class_doloro_1_1_graphs_1_1_graph_runtime_a_p_i.html", "class_doloro_1_1_graphs_1_1_graph_runtime_a_p_i" ],
-        [ "Path", "class_doloro_1_1_graphs_1_1_path.html", "class_doloro_1_1_graphs_1_1_path" ],
-        [ "ScalableLineGraph", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html", "class_doloro_1_1_graphs_1_1_scalable_line_graph" ]
+        [ "Path", "class_doloro_1_1_graphs_1_1_path.html", "class_doloro_1_1_graphs_1_1_path" ]
       ] ],
       [ "InvetorySystem", "namespace_doloro_1_1_invetory_system.html", [
         [ "DebugTools", "namespace_doloro_1_1_invetory_system_1_1_debug_tools.html", [
@@ -632,6 +630,7 @@ var annotated_dup =
             [ "Demo", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_demo.html", [
               [ "LineClusterDemo", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_demo_1_1_line_cluster_demo.html", null ]
             ] ],
+            [ "ClusterGraph", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph" ],
             [ "ClusterGraphGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element" ],
             [ "ConnectionsVisualizer", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_connections_visualizer.html", null ],
             [ "FamilyTreeDemo", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_family_tree_demo.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_family_tree_demo" ],
@@ -639,6 +638,7 @@ var annotated_dup =
             [ "GraphUnitGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element" ],
             [ "LineShiftUtils", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils" ],
             [ "LineUtils", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_utils.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_utils" ],
+            [ "ScalableLineGraph", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph" ],
             [ "ScalableLineGraphGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element" ],
             [ "UniformGraphUI", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i" ]
           ] ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"ddm-aps-gs.html#ddm-aps-gs-object":[10,3,1,2],
+"ddm-aps-gs.html#ddm-aps-gs-scale":[10,3,1,3],
 "ddm-aps-gs.html#ddm-aps-gs-scale-object":[10,3,1,3,1],
 "ddm-aps-gs.html#ddm-aps-gs-scale-props":[10,3,1,3,0],
 "ddm-aps-gs.html#ddm-aps-gs-scale-resources":[10,3,1,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "dtool_obj.html":[17,6],
 "dtool_particles.html":[17,7],
 "dtool_rendering.html":[17,8],
-"dtool_sprites.html":[17,9],
-"dtools_animator.html":[17,1],
-"dtools_crossdata.html":[17,2]
+"dtool_sprites.html":[17,9]
 };

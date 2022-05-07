@@ -54,12 +54,12 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
     [ "Fragmented graphs", "dgraphs_fragmented_graph.html", [
       [ "About", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_a", null ],
       [ "Architecture", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch", [
-        [ "Fragmented graph", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch_fg", null ],
+        [ "Fragment graph", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch_fg", null ],
         [ "Graphs network", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch_gn", null ]
       ] ],
       [ "How to...", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_ht", [
         [ "Create network", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_ht_cn", null ],
-        [ "Find cross-network path", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_ht_path", null ]
+        [ "Build cross-network path", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_ht_path", null ]
       ] ]
     ] ],
     [ "Graph-based GUI", "dgraphs_dui2.html", null ]

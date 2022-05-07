@@ -13,6 +13,7 @@ var class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network =
     [ "Add", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a49ed12581863ab275953f54c71dcebad", null ],
     [ "Add< T >", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a1b26501f0d42eef11f88024de1c8e2b0", null ],
     [ "BuildPath", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#aff19e9f62aefbfcacdb2d3d72080ef62", null ],
+    [ "BuildPathAsync", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a530381faa0e92efc360f193f6c1b1e5c", null ],
     [ "Clear", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a24d0e812e9d34ac28acf3feab6c6b08f", null ],
     [ "Connect", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#aa87bb5d62ed211ce796d746691b45bbc", null ],
     [ "Connect", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html#a08d057ab2eb6d417bb8c9ac1f4c03386", null ],

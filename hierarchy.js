@@ -465,8 +465,8 @@ var hierarchy =
       [ "Doloro.DataManagement.DynamicResources.ResourcesCollection.AssetBundlesResourcesCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_collection_1_1_asset_bundles_resources_collection.html", null ],
       [ "Doloro.Graphs.Graph", "class_doloro_1_1_graphs_1_1_graph.html", [
         [ "Doloro.Graphs.Fragmented.AFragmentGraph", "class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html", [
-          [ "Doloro.Graphs.ClusterGraph", "class_doloro_1_1_graphs_1_1_cluster_graph.html", null ],
-          [ "Doloro.Graphs.ScalableLineGraph", "class_doloro_1_1_graphs_1_1_scalable_line_graph.html", null ]
+          [ "Doloro.UIEngine2.Modules.Graphs.ClusterGraph", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html", null ],
+          [ "Doloro.UIEngine2.Modules.Graphs.ScalableLineGraph", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html", null ]
         ] ],
         [ "Doloro.Graphs.Fragmented.GraphsNetwork", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network.html", null ]
       ] ],
