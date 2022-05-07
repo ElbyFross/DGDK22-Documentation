@@ -244,10 +244,10 @@ var NAVTREEINDEX62 =
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_a":[12,4,0],
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_ex":[12,4,2],
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_im":[12,4,1],
-"dinv-gstart.html":[14,0],
-"dinv-gstart.html#s_dinv_ds_db":[14,0,0],
-"dinv-gstart.html#s_dinv_ds_db_rel":[14,0,1,1],
-"dinv-gstart.html#s_dinv_ds_db_rent":[14,0,1,0],
-"dinv-gstart.html#s_dinv_ds_ecs":[14,0,1],
-"dinv-gstart.html#s_dinv_ds_ext":[14,0,2]
+"dinv-gstart.html":[14,1],
+"dinv-gstart.html#s_dinv_ds_db":[14,1,0],
+"dinv-gstart.html#s_dinv_ds_db_rel":[14,1,1,1],
+"dinv-gstart.html#s_dinv_ds_db_rent":[14,1,1,0],
+"dinv-gstart.html#s_dinv_ds_ecs":[14,1,1],
+"dinv-gstart.html#s_dinv_ds_ext":[14,1,2]
 };

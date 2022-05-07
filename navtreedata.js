@@ -96,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md167", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md169", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
@@ -188,9 +188,9 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a95f66057f7943add93955ca7d7b63452",
 "ddm-aps-com-ap.html#ddm-aps-com-ap-ser",
 "dinv-gstart.html#s_dinv_ds_ext_itm",
-"interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html#ad566132bd2cb945352daba35e84bb663",
-"namespace_doloro_1_1_tools_1_1_objects.html",
-"struct_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner_1_1_item_order.html#afd13696748d92484f8168a8392e2a0c2"
+"interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html#a7cd4940dc803958ef3a2d2e66858c699",
+"namespace_doloro_1_1_tools_1_1_input.html#a59152808acb1a571407c1b31cd24c59faf2a47c6809d88e175dade0ef7b16aa13",
+"struct_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner_1_1_item_order.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

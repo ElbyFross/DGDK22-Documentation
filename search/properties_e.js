@@ -24,6 +24,6 @@ var searchData=
   ['originnodesignature_21',['originNodeSignature',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_relay_graph_node.html#afcc5a085e506f5b64e01e01d831109d3',1,'Doloro::Graphs::Fragmented::GraphsNetwork::RelayGraphNode']]],
   ['originvolume_22',['originVolume',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume_split_order.html#a631e9ba280b226cd9a3bf8b7f26ca4d5',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::VolumeSplitOrder']]],
   ['outerlayouts_23',['OuterLayouts',['../class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html#a0fd79ed85861c55a718de05fd57b2899',1,'Doloro::UIEngine2::AWorkspaceProvider']]],
-  ['ownerid_24',['ownerId',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html#a056b64864bea3a19db3c623bf45eed78',1,'Doloro::InvetorySystem::Properties::StorageInfo::Info']]],
-  ['ownerid_25',['ownerID',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info.html#a4c946579e029afd41f08d6c249f973a0',1,'Doloro::InvetorySystem::Properties::StorageInfo']]]
+  ['ownerid_24',['ownerID',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info.html#a4c946579e029afd41f08d6c249f973a0',1,'Doloro::InvetorySystem::Properties::StorageInfo']]],
+  ['ownerid_25',['ownerId',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html#a056b64864bea3a19db3c623bf45eed78',1,'Doloro::InvetorySystem::Properties::StorageInfo::Info']]]
 ];

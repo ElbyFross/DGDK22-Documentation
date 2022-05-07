@@ -1,5 +1,6 @@
 var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
 [
+    [ "About", "md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#s_dinv_a", null ],
     [ "Using", "dinv-gstart.html", [
       [ "Database", "dinv-gstart.html#s_dinv_ds_db", null ],
       [ "ECS", "dinv-gstart.html#s_dinv_ds_ecs", [
