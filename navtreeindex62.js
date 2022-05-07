@@ -169,6 +169,12 @@ var NAVTREEINDEX62 =
 "deditorext_sth_plg_sp.html#deditorext_sth_plg_sp_a":[11,2,7,0],
 "deditorext_sth_plg_sp.html#deditorext_sth_plg_sp_ht":[11,2,7,1],
 "dgraphs_dui2.html":[12,6],
+"dgraphs_dui2.html#dgraphs_dui2_a":[12,6,0],
+"dgraphs_dui2.html#dgraphs_dui2_arch":[12,6,1],
+"dgraphs_dui2.html#dgraphs_dui2_arch_cg":[12,6,1,0],
+"dgraphs_dui2.html#dgraphs_dui2_arch_slg":[12,6,1,1],
+"dgraphs_dui2.html#dgraphs_dui2_u":[12,6,2],
+"dgraphs_dui2.html#dgraphs_dui2_u_u":[12,6,2,0],
 "dgraphs_fragmented_graph.html":[12,5],
 "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_a":[12,5,0],
 "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_arch":[12,5,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "dsensors-env.html#dsensors-env-types":[16,1,1],
 "dsensors-env.html#dsensors-env-types-dfsensor":[16,1,1,2],
 "dsensors-env.html#dsensors-env-types-fsensor":[16,1,1,1],
-"dsensors-env.html#dsensors-env-types-sensor":[16,1,1,0],
-"dtool_lighting.html":[17,4],
-"dtool_materials.html":[17,5],
-"dtool_obj.html":[17,6],
-"dtool_particles.html":[17,7],
-"dtool_rendering.html":[17,8],
-"dtool_sprites.html":[17,9]
+"dsensors-env.html#dsensors-env-types-sensor":[16,1,1,0]
 };

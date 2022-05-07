@@ -87,7 +87,107 @@ $(document).ready(function(){initNavTree('dgraphs_dui2.html',''); initResizable(
   <div class="headertitle"><div class="title">Graph-based GUI </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty page </dd></dl>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dgraphs_dui2_a">About</a></li>
+<li class="level1"><a href="#dgraphs_dui2_arch">Architecture</a><ul><li class="level2"><a href="#dgraphs_dui2_arch_cg">Cluster Graph</a></li>
+<li class="level2"><a href="#dgraphs_dui2_arch_slg">Scalable Line Graph</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dgraphs_dui2_u">Using</a><ul><li class="level2"><a href="#dgraphs_dui2_u_u">Graph Unit GUI</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="dgraphs_dui2_a"></a>
+About</h1>
+<dl class="section warning"><dt>Warning</dt><dd>Early access module. Not represents a final product. <br  />
+Included to showcase <b><a class="el" href="namespace_doloro.html">Doloro</a> Graph</b> modules using. Will be improved at following updates.</dd></dl>
+<p><b><a class="el" href="namespace_doloro.html">Doloro</a> UI2 Graphs</b> is a module that create a bridge between <b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> and <b><a class="el" href="namespace_doloro.html">Doloro</a> UI 2</b> modules. <br  />
+Its main purpose is implementation of the graphs visualization within games.</p>
+<hr  />
+<h1><a class="anchor" id="dgraphs_dui2_arch"></a>
+Architecture</h1>
+<h2><a class="anchor" id="dgraphs_dui2_arch_cg"></a>
+Cluster Graph</h2>
+<p ><code>FragmentGraph</code> that implements graph with graph with a 4 sockets for <code>ScalableLineGraph</code> instances. </p><pre>
+00---------------------01---------------------02
+|                      |                       |
+|                      50                      |
+|                      TC                      |
+|                      60                      |
+|                      |                       |
+10-------------11------12------13-------------14
+|              |       |        |              |
+|              |       |        |              |
+|              |       61       |              |
+20--21 LC 22--23--90  ROOT  91--24--25 RC 26--27
+|              |       70       |              |
+|              |       |        |              |
+|              |       |        |              |
+30-------------31------32------33-------------34
+|                      |                       |
+|                      71                      |
+|                      BC                      |
+|                      80                      |
+|                      |                       |
+40---------------------41---------------------42
+</pre><p >|</p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Mark   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Numbers   </td><td class="markdownTableBodyNone">Node and they signatures.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ROOT   </td><td class="markdownTableBodyNone">Content of the cluster.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">TC   </td><td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html#a681b1d9897aad4e3efae09a33ffc8f22" title="Data graph related to the top sub-cluster.">Doloro.UIEngine2.Modules.Graphs.ClusterGraph.topCluster</a>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">BC   </td><td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html#a133a6652c55032fb7a468b59d5f1d35e" title="Data graph related to the bottom sub-cluster.">Doloro.UIEngine2.Modules.Graphs.ClusterGraph.bottomCluster</a>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RC   </td><td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html#a94f95ed885d95aad33a5d9d801298a6e" title="Data graph related to the right sub-cluster.">Doloro.UIEngine2.Modules.Graphs.ClusterGraph.rightCluster</a>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">LC   </td><td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html#ab9b96a731ab7d7b23bfe6516a0f20651" title="Data graph related to the left sub-cluster.">Doloro.UIEngine2.Modules.Graphs.ClusterGraph.leftCluster</a>   </td></tr>
+</table>
+<p >Has dynamic structure. Unused sockets cutoffs from graph. The only constant parts is the <em>ROOT</em> and surrounding nodes: <br  />
+<em>11, 12, 13 ,23 ,24 ,31 ,32 ,33 ,61 ,70 ,90 ,91</em>.</p>
+<p >The graph using as root that defines directed relation between fragmented graphs.</p>
+<p ><b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph.html" title="Hyper cell of the graph that could be scaled at deep.">Doloro.UIEngine2.Modules.Graphs.ClusterGraph</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html">Doloro.UIEngine2.Modules.Graphs.ClusterGraphGUIElement</a></li>
+</ul>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dgraphs_dui2_arch_slg"></a>
+Scalable Line Graph</h2>
+<p ><code>FragmentGraph</code> that implements graph friendly for 1 side scaling.</p>
+<p ><b>Single graph segment map</b> </p><pre>
+00------------01------------02
+|              |             |
+|             30             |
+|                            |
+10-----11 Hyper Node 12-----13
+|                            |
+|             40             |
+|              |             |
+20------------21------------22
+</pre><p >Using as cluster content of <code>ClusterGraph</code>.</p><ul>
+<li>Can be extended with new segments.</li>
+<li>Allows to intergrade other fragment graphs as content.</li>
+</ul>
+<p ><b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html" title="Side cluster that holds collection of related hyper cells.">Doloro.UIEngine2.Modules.Graphs.ScalableLineGraph</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html">Doloro.UIEngine2.Modules.Graphs.ScalableLineGraphGUIElement</a></li>
+</ul>
+<hr  />
+<h1><a class="anchor" id="dgraphs_dui2_u"></a>
+Using</h1>
+<p >Module using separated on 2 stages:</p><ol type="1">
+<li>GUI elements configuration</li>
+<li>API calls</li>
+</ol>
+<h2><a class="anchor" id="dgraphs_dui2_u_u"></a>
+Graph Unit GUI</h2>
+<p ><code>GUIElement</code> controller that implements abstract GUI scope that works along with its content. Using <br  />
+ </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
