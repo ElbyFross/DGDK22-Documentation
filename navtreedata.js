@@ -96,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md162", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md160", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
@@ -187,10 +187,10 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#a95f66057f7943add93955ca7d7b63452",
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#abb744a3d26504cd7326b709ed78e43c4",
 "ddm-aps-gs.html#ddm-aps-gs-scale-object",
-"dui2-controls.html",
-"interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html",
-"namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace.html",
-"struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#afd64e535520571e5d60ef0986cd5f277"
+"dtools_gl.html",
+"interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html#adb91e2302fb268aeb65a165bf9e9ec89",
+"namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes.html#a2db3e6737d9b9cf07a19042e5853684da6ff9dd0d34f65181173c1e4bc39939de",
+"struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#af726e124acffa29ba5f75ccf09eaf8fe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -44,8 +44,12 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
           [ "Certain path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_get_typed", null ]
         ] ],
         [ "Release path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_release", null ]
-      ] ],
-      [ "Custom algorithm implementation", "dgraphs_pathfinding.html#dgraphs_pathfinding_new", null ]
+      ] ]
+    ] ],
+    [ "Custom algorithms", "dgraphs_pathfinding_new.html", [
+      [ "About", "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_a", null ],
+      [ "Implementation", "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_im", null ],
+      [ "Examples", "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_ex", null ]
     ] ],
     [ "Fragmented graphs", "dgraphs_fragmented_graph.html", [
       [ "About", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_a", null ],
