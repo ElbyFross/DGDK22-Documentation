@@ -87,17 +87,67 @@ $(document).ready(function(){initNavTree('md__doloro__g_d_k__doloro__input__tool
   <div class="headertitle"><div class="title"><a class="el" href="namespace_doloro.html">Doloro</a> Input Tools </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="dtools-input"></a></p>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dtools-input-about">About</a></li>
+<li class="level1"><a href="#dtools-input-idd">Input Device Detector</a><ul><li class="level2"><a href="#dtools-input-idd-htu">How to use</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><p ><a class="anchor" id="dtools-input"></a> </p>
 <h1><a class="anchor" id="dtools-input-about"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Aplha stage module. Not implements planned features yet. <br  />
+Integrated to take a place in global modules architecture map. Will be extended along with future updates.</dd></dl>
+<p><b><a class="el" href="namespace_doloro.html">Doloro</a> Input Tool</b> is a module that helps to handle input operation and reactions on them.<br  />
+The purpose of module is to make player experience much immersive no mater what device the player using. <br  />
+</p>
+<hr  />
 <h1><a class="anchor" id="dtools-input-idd"></a>
 Input Device Detector</h1>
-<p >The tool that receives input signal and define what a source device used to input. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Incomplete section.</dd></dl>
+<p >The tool that receives input signal and define what a source device used to input. It works as a stand alone component. To get access over it you enough to call it via <code>InputDeviceDetector.Active</code>.</p>
+<p >You also may create one via <em>Add Component</em> menu at <em>Inspector</em>. The related option located by following path: <br  />
+<code><a class="el" href="namespace_doloro.html">Doloro</a> GDK / Tools / Input / Device detector</code></p>
+<p ><b>See also:</b> <a class="el" href="class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html" title="Manager that checks what device player using to input.">Doloro.Tools.Input.InputDeviceDetector</a></p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dtools-input-idd-htu"></a>
 How to use</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section </dd></dl>
-</div></div><!-- contents -->
+<p >You have 2 way to interact with the manager: manually or via callbacks.</p>
+<p ><b>Manual check</b> </p><div class="fragment"><div class="line">using Doloro.Tools.Input</div>
+<div class="line"> </div>
+<div class="line">var device = InputDeviceDetector.Active.Current;</div>
+<div class="line">switch(device)</div>
+<div class="line">{</div>
+<div class="line">  case Device.Mouse:</div>
+<div class="line">  case Device.Keyboard:</div>
+<div class="line"> </div>
+<div class="line">          // Handling PC-like input.</div>
+<div class="line">          break;</div>
+<div class="line"> </div>
+<div class="line">  case Device.Controller:</div>
+<div class="line">          // Handling console-like input.</div>
+<div class="line">          break;</div>
+<div class="line">}</div>
+</div><!-- fragment --><p ><b>Callback</b> </p><div class="fragment"><div class="line">using Doloro.Tools.Input</div>
+<div class="line"> </div>
+<div class="line">void Awake()</div>
+<div class="line">{</div>
+<div class="line">    // Subscribing on input manager event.</div>
+<div class="line">    InputDeviceDetector.onDeviceChanged += OnDeviceChanged;</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">void OnDestroy()</div>
+<div class="line">{</div>
+<div class="line">    // Releasing event handler.</div>
+<div class="line">    InputDeviceDetector.onDeviceChanged -= OnDeviceChanged;</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">private void OnDeviceChanged(InputDeviceDetector manager)</div>
+<div class="line">{</div>
+<div class="line">    // Implement your reaction over device change.</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

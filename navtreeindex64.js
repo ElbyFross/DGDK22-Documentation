@@ -82,7 +82,7 @@ var NAVTREEINDEX64 =
 "md__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_tools":[4,2,5],
 "md__doloro__g_d_k_3__modules_overview.html#modules_overview_inprogress":[4,4],
 "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html":[19],
-"md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md166":[19,0],
+"md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md167":[19,0],
 "md__doloro__g_d_k__configs__r_e_a_d_m_e.html":[5],
 "md__doloro__g_d_k__d_a_i__nodes.html":[6],
 "md__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_actions":[6,1],

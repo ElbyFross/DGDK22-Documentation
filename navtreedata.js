@@ -96,7 +96,7 @@ var NAVTREE =
     [ "Doloro Tools", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__tools__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Changelog", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html", [
-      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md166", null ]
+      [ "v2022.1.0b", "md__doloro__g_d_k__c_h_a_n_g_e_l_o_g.html#autotoc_md167", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
