@@ -89,11 +89,22 @@ $(document).ready(function(){initNavTree('dgraphs_pathfinding.html',''); initRes
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dgraphs_pathfinding_about">About</a><ul><li class="level2"><a href="#dgraphs_pathfinding_about_intro">Brief idea of pathfinding, for beginners</a></li>
-<li class="level2"><a href="#dgraphs_pathfinding_api">API</a></li>
-<li class="level2"><a href="#dgraphs_pathfinding_astar">A*</a></li>
-<li class="level2"><a href="#dgraphs_pathfinding_new">Custom algorithm implementation</a></li>
 </ul>
 </li>
+<li class="level1"><a href="#dgraphs_pathfinding_path">Path</a><ul><li class="level2"><a href="#dgraphs_pathfinding_path_cache">Cache</a></li>
+<li class="level2"><a href="#dgraphs_pathfinding_path_relayed">Relayed state</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dgraphs_pathfinding_astar">A*</a></li>
+<li class="level1"><a href="#dgraphs_pathfinding_ht">How to...</a><ul><li class="level2"><a href="#dgraphs_pathfinding_ht_build">Build a path</a></li>
+<li class="level2"><a href="#dgraphs_pathfinding_ht_get">Get built path</a><ul><li class="level3"><a href="#dgraphs_pathfinding_ht_get_abstract">Abstract path</a></li>
+<li class="level3"><a href="#dgraphs_pathfinding_ht_get_typed">Certain path</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dgraphs_pathfinding_ht_release">Release path</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dgraphs_pathfinding_new">Custom algorithm implementation</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_pathfinding_about"></a>
@@ -116,17 +127,127 @@ Brief idea of pathfinding, for beginners</h2>
 <p ><em>Always consider this ideas when you are planning implementation of some graph into the game.</em></p>
 <p >For more precise \ correct information we recommend you to introduce into Graph Theory as a segment of discrete math. Its important part of wide bunch of game development tasks and understanding of fundamentals will help you to reach higher grounds than any brief explanation.</p>
 <hr  />
-<h2><a class="anchor" id="dgraphs_pathfinding_api"></a>
-API</h2>
+<h1><a class="anchor" id="dgraphs_pathfinding_path"></a>
+Path</h1>
+<p ><code>Path</code> by itself is an abstract class that represents path finding algorithm. Using a <code>Path</code> derived class instance you may request path build within some graph using <code>Path.Build</code> method.</p>
+<p >Pathfinding works in 3 ways, depending from which one is mode preffered with your architecture. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Operation type   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Synchronically   </td><td class="markdownTableBodyNone"><code>Build</code>   </td><td class="markdownTableBodyNone">Computes path between two points in the same thread without suspending the process util its computed. <dl class="section warning"><dt>Warning</dt><dd>Use only in very small graphs where you are sure that the search will be instant.    </dd></dl>
+</td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Asynchronically   </td><td class="markdownTableBodyNone"><code>BuildAsync</code>   </td><td class="markdownTableBodyNone">Suitable for multi-threading architecture. Allows to handle path build as a <code>Task</code>.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Coroutine   </td><td class="markdownTableBodyNone"><code>BuildCoroutine</code>   </td><td class="markdownTableBodyNone">Also kind of async operation using Unity <code>Coroutine</code> implementation that computes path not in a single call but as long as it takes without damage to performance.   </td></tr>
+</table>
+<dl class="section warning"><dt>Warning</dt><dd><code>Path</code> by itself not implements any pathfinding algorithm. <br  />
+You still may use it to get access to cached paths if it's not important which exactly pathfinder has been used during search.</dd></dl>
+<p><b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Doloro.Graphs.Path</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dgraphs_pathfinding_path_cache"></a>
+Cache</h2>
+<p >To speed up pathfinding search the module moves computed paths to a cache for continue using. That allows the engine to return you already computed paths instantly without starting a new search.</p>
+<p >Moving to the cache goes automatically and not requires any extra action. Still release from cache may demands manual call. You may do it directly from a <code>Path</code> instance using <code>Release</code> method or via static <code>Path.ReleaseCache</code> if you want to release the entire paths data.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Cache for path will automatically released in case if any path node has been modified. You no need to call release manually in that case.</dd></dl>
+<div class="fragment"><div class="line">var path = new AStartPath(FROM_NODE, TO_NODE);</div>
+<div class="line">path.Build();</div>
+<div class="line"> </div>
+<div class="line">// Handling the path</div>
+<div class="line">...</div>
+<div class="line">// -----------------</div>
+<div class="line"> </div>
+<div class="line">// Path no longer need.</div>
+<div class="line">// Releasing its data.</div>
+<div class="line">path.Release();</div>
+</div><!-- fragment --><p >You may try to get computed path via static <code>Path.TryGetCachedPath</code> handler. Call of the <code>Build</code> for the base <code>Path</code> instance will do the same. </p><div class="fragment"><div class="line">if (Path.TryGetCachedPath(FROM_NODE, TO_NODE, out var path))</div>
+<div class="line">{</div>
+<div class="line">  // The path between nodes has found in cache.</div>
+<div class="line">  // use output `path` as you need.</div>
+<div class="line">}</div>
+</div><!-- fragment --><p >You may force some path to cache to make something like a manual waypoints. </p><div class="fragment"><div class="line">var waypoints = new List&lt;GraphNode&gt;();</div>
+<div class="line">// Filling manual path</div>
+<div class="line">....</div>
+<div class="line">// -------------------</div>
+<div class="line"> </div>
+<div class="line">// Creating path and placing it to the cache.</div>
+<div class="line">new Path(true, waypoints);</div>
+</div><!-- fragment --><p ><br  />
+</p>
+<h2><a class="anchor" id="dgraphs_pathfinding_path_relayed"></a>
+Relayed state</h2>
+<p >In case you are requesting pathfinding between same points that already has been computed with the same algorithm you are using and the path has not been removed from the cache, the core will skip pathfinding and instantly return you related <code>Path</code> instance with computed result.</p>
+<p >Such a <code>Path</code> instance will has relayed <code>state</code> and will forward to another precomputed instance. The state considering as <code>isComputed</code> the same as <code>Built</code> one.</p>
+<hr  />
+<h1><a class="anchor" id="dgraphs_pathfinding_astar"></a>
+A*</h1>
+<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graph</b> module supplies you with a classic implementation of A* algorithm that frequently considering as most friendly algorithm for game tasks.</p>
+<p >To use it just operate pathfinding tasks via instance of <code>AStarPath</code> class. </p><div class="fragment"><div class="line">// Defining new path with origin \ destination points.</div>
+<div class="line">var path new AStarPath(FROM_NODE, TO_NODE);</div>
+</div><!-- fragment --><p ><b>Explore:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html" title="Implementation of the A* pathfinding algorithm.">Doloro.Graphs.AStarPath</a> : Path</p>
+<hr  />
+<h1><a class="anchor" id="dgraphs_pathfinding_ht"></a>
+How to...</h1>
+<h2><a class="anchor" id="dgraphs_pathfinding_ht_build"></a>
+Build a path</h2>
+<p >To build the path at first you should defined which algorithm you want to use. <br  />
+ Following example uses A* implemented with <code>AStarPath</code> class. An example skips a part of graph creation and connections establishing. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Member   </th><th class="markdownTableHeadNone">Type   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">GRAPH   </td><td class="markdownTableBodyNone"><code>Graph</code>   </td><td class="markdownTableBodyNone">Graph instance using as environment of pathfinder search.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">NODE_FROM   </td><td class="markdownTableBodyNone"><code>GraphNode</code>   </td><td class="markdownTableBodyNone">Node in <code>GRAPH</code> selected as path start point.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">NODE_TO   </td><td class="markdownTableBodyNone"><code>GraphNode</code>   </td><td class="markdownTableBodyNone">Node in <code>GRAPH</code> selected as destination point.   </td></tr>
+</table>
+<div class="fragment"><div class="line">// Building path.</div>
+<div class="line">var path = new AStarPath(FROM_NODE, TO_NODE);</div>
+<div class="line"> </div>
+<div class="line">// Requesting path build.</div>
+<div class="line">//</div>
+<div class="line">// !! Current tutorial using synchronically, to simplify example, but normally</div>
+<div class="line">// You should work asynchronically via `BuildAsync` or `BuildCoroutine`;</div>
+<div class="line">path.Build();</div>
+<div class="line"> </div>
+<div class="line">if(!path.isComputed)</div>
+<div class="line">{</div>
+<div class="line">  // Path can&#39;t be build</div>
+<div class="line">  throw new ...</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">// Handling computed path here.</div>
+<div class="line">...</div>
+<div class="line">// ----------------------------</div>
+</div><!-- fragment --><p ><br  />
+</p>
+<h2><a class="anchor" id="dgraphs_pathfinding_ht_get"></a>
+Get built path</h2>
+<p >At first in case of normal implementation of pathfinder algorithm and its interfragion within <b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> logic you no need any manual calls. Just build a new path the way you want and in case if its already has been built the system will return you chached instance instead on new computing process start.</p>
+<p >Still the API leave you several manual ways to get access to the cached instances.</p>
+<h3><a class="anchor" id="dgraphs_pathfinding_ht_get_abstract"></a>
+Abstract path</h3>
+<p >Normally its not important for you which type of pathfinder has been used during search. In such case you may check is the path is already has been cached by following call. </p><div class="fragment"><div class="line">if(Path.TryGetCachedPath(FROM_NODE, TO_NODE, out Path path))</div>
+<div class="line">{</div>
+<div class="line">  // Path between nodes exists in pre-computed cache.</div>
+<div class="line">}</div>
+</div><!-- fragment --><h3><a class="anchor" id="dgraphs_pathfinding_ht_get_typed"></a>
+Certain path</h3>
+<p >In case you are need specific path build behavior guaranties with a certain algorithm you may get access to previously build path following next pattern. </p><div class="fragment"><div class="line">if(Path.TryGetCachedPath&lt;ALGORITHM_TYPE&gt;(FROM_NODE, TO_NODE, out ALGORITHM_TYPE path))</div>
+<div class="line">{</div>
+<div class="line">  // Path between nodes exists in pre-computed cache.</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> where <code>ALGORITHM_TYPE</code> is a <code>Path</code> derived class type you expecting to use during path build.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dgraphs_pathfinding_ht_release"></a>
+Release path</h2>
+<p >In case you need new pathfinding process for <code>Path</code> that has been computed you may call the <code>Release</code> method over it and remove it from the <a class="el" href="dgraphs_pathfinding.html#dgraphs_pathfinding_path_cache">Cache</a></p>
+<hr  />
+<h1><a class="anchor" id="dgraphs_pathfinding_new"></a>
+Custom algorithm implementation</h1>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<hr  />
-<h2><a class="anchor" id="dgraphs_pathfinding_astar"></a>
-A*</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<hr  />
-<h2><a class="anchor" id="dgraphs_pathfinding_new"></a>
-Custom algorithm implementation</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

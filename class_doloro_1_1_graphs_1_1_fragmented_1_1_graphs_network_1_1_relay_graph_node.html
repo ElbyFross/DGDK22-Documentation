@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_graphs_1_1_fragmented
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pac-methods">Package Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_relay_graph_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.Graphs.Fragmented.GraphsNetwork.RelayGraphNode Class Reference</div></div>
 </div><!--header-->
@@ -139,6 +140,10 @@ Protected Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnConnectionsCollectionChanged</b> ()</td></tr>
 <tr class="memdesc:ad75fa1c7bbd06a4e0f3a5d625fcf7971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when connections collection has been changed via standard <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">GraphNode</a>'s API. <br /></td></tr>
 <tr class="separator:ad75fa1c7bbd06a4e0f3a5d625fcf7971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbecf4e4beee6f8850c698ae36a101bd"><td class="memItemLeft" align="right" valign="top"><a id="acbecf4e4beee6f8850c698ae36a101bd" name="acbecf4e4beee6f8850c698ae36a101bd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnModified</b> ()</td></tr>
+<tr class="memdesc:acbecf4e4beee6f8850c698ae36a101bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the node has been critically modified. <br /></td></tr>
+<tr class="separator:acbecf4e4beee6f8850c698ae36a101bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
 Package Functions</h2></td></tr>
@@ -182,6 +187,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectionsCount</b><c
 virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>position</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a2708ca97cd278e2d46514f7d8472453b"><td class="mdescLeft">&#160;</td><td class="mdescRight">World position of the node. <br /></td></tr>
 <tr class="separator:a2708ca97cd278e2d46514f7d8472453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a46bdd4adbb912b0b65401bdb4baa12ce"><td class="memItemLeft" align="right" valign="top"><a id="a46bdd4adbb912b0b65401bdb4baa12ce" name="a46bdd4adbb912b0b65401bdb4baa12ce"></a>
+Action&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onModified</b></td></tr>
+<tr class="memdesc:a46bdd4adbb912b0b65401bdb4baa12ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the node has been modified. <br /></td></tr>
+<tr class="separator:a46bdd4adbb912b0b65401bdb4baa12ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab9ebd4bea0663be08e2eb1a11fdeaa3a" name="ab9ebd4bea0663be08e2eb1a11fdeaa3a"></a>

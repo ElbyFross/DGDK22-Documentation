@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_graphs_1_1_path.html'
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_doloro_1_1_graphs_1_1_path-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.Graphs.Path Class Reference</div></div>
 </div><!--header-->
@@ -141,8 +142,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7077721cd57a3ff56a04762704f2ad49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates path with predefined way points.  <a href="class_doloro_1_1_graphs_1_1_path.html#a7077721cd57a3ff56a04762704f2ad49">More...</a><br /></td></tr>
 <tr class="separator:a7077721cd57a3ff56a04762704f2ad49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac20e0f25abc50995e79bfd0da044a455"><td class="memItemLeft" align="right" valign="top">virtual ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#ac20e0f25abc50995e79bfd0da044a455">Build</a> ()</td></tr>
-<tr class="memdesc:ac20e0f25abc50995e79bfd0da044a455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looking for hashed <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in not overridden.  <a href="class_doloro_1_1_graphs_1_1_path.html#ac20e0f25abc50995e79bfd0da044a455">More...</a><br /></td></tr>
+<tr class="memdesc:ac20e0f25abc50995e79bfd0da044a455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> if not overridden.  <a href="class_doloro_1_1_graphs_1_1_path.html#ac20e0f25abc50995e79bfd0da044a455">More...</a><br /></td></tr>
 <tr class="separator:ac20e0f25abc50995e79bfd0da044a455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbeb6e872bc8b7a4199430b175b9688e"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#abbeb6e872bc8b7a4199430b175b9688e">BuildCoroutine</a> ()</td></tr>
+<tr class="memdesc:abbeb6e872bc8b7a4199430b175b9688e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that should look the path using enumerator. In base implementation looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in Coroutine friendly way.  <a href="class_doloro_1_1_graphs_1_1_path.html#abbeb6e872bc8b7a4199430b175b9688e">More...</a><br /></td></tr>
+<tr class="separator:abbeb6e872bc8b7a4199430b175b9688e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab47fd293edb4575d1d0c618488d109b"><td class="memItemLeft" align="right" valign="top">virtual async Task&lt; ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#aab47fd293edb4575d1d0c618488d109b">BuildAsync</a> ()</td></tr>
+<tr class="memdesc:aab47fd293edb4575d1d0c618488d109b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that should look the path asynchronously. In base implementation looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in tasks friendly way.  <a href="class_doloro_1_1_graphs_1_1_path.html#aab47fd293edb4575d1d0c618488d109b">More...</a><br /></td></tr>
+<tr class="separator:aab47fd293edb4575d1d0c618488d109b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e0f077afc30d5c4c20fa385e89bd46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#ab8e0f077afc30d5c4c20fa385e89bd46">TryLoadCache</a> ()</td></tr>
 <tr class="memdesc:ab8e0f077afc30d5c4c20fa385e89bd46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads path cache to the instance in case if exists.  <a href="class_doloro_1_1_graphs_1_1_path.html#ab8e0f077afc30d5c4c20fa385e89bd46">More...</a><br /></td></tr>
 <tr class="separator:ab8e0f077afc30d5c4c20fa385e89bd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,6 +220,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComputed</b><code> 
 <tr class="memitem:a345e03337fd63b18dd6ce7547e9d4a68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#a345e03337fd63b18dd6ce7547e9d4a68">isCached</a><code> [get]</code></td></tr>
 <tr class="memdesc:a345e03337fd63b18dd6ce7547e9d4a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the path located at the cache registry to fast access.  <a href="class_doloro_1_1_graphs_1_1_path.html#a345e03337fd63b18dd6ce7547e9d4a68">More...</a><br /></td></tr>
 <tr class="separator:a345e03337fd63b18dd6ce7547e9d4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="memItemLeft" align="right" valign="top"><a id="af1d1d93eb242895dd27d905b5cd2eb5e" name="af1d1d93eb242895dd27d905b5cd2eb5e"></a>
+static Action&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_path.html">Path</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onPathReleased</b></td></tr>
+<tr class="memdesc:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when any path is no longer exists in cache. <br /></td></tr>
+<tr class="separator:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a60503af2d411ed3e67799ca340b2a690" name="a60503af2d411ed3e67799ca340b2a690"></a>
@@ -342,8 +356,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComputed</b><code> 
 </table>
 </div><div class="memdoc">
 
-<p>Looking for hashed <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in not overridden. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> instance if has been precomputed. <code>null</code> otherwise. </dd></dl>
+<p>Looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> if not overridden. </p>
+<dl class="section return"><dt>Returns</dt><dd>Collection of nodes selected as path root. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">NotSupportedException</td><td>Attempt to navigate between <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">GraphNode</a>s located at different <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Graph</a>s. </td></tr>
@@ -352,6 +366,78 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComputed</b><code> 
 </dl>
 
 <p>Reimplemented in <a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#afc56cccbf977836341cfe45bf769f64c">Doloro.Graphs.AStarPath</a>.</p>
+
+</div>
+</div>
+<a id="aab47fd293edb4575d1d0c618488d109b" name="aab47fd293edb4575d1d0c618488d109b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab47fd293edb4575d1d0c618488d109b">&#9670;&nbsp;</a></span>BuildAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async Task&lt; ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt; &gt; Doloro.Graphs.Path.BuildAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that should look the path asynchronously. In base implementation looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in tasks friendly way. </p>
+<dl class="section return"><dt>Returns</dt><dd>Task that returns collection of nodes selected as path root. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NotSupportedException</td><td>Attempt to navigate between <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">GraphNode</a>s located at different <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Graph</a>s. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#a49f231f8bd6244a11b1e06b5bf34de4f">Doloro.Graphs.AStarPath</a>.</p>
+
+</div>
+</div>
+<a id="abbeb6e872bc8b7a4199430b175b9688e" name="abbeb6e872bc8b7a4199430b175b9688e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbeb6e872bc8b7a4199430b175b9688e">&#9670;&nbsp;</a></span>BuildCoroutine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerator Doloro.Graphs.Path.BuildCoroutine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that should look the path using enumerator. In base implementation looks for cached <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Path</a> in Coroutine friendly way. </p>
+<dl class="section return"><dt>Returns</dt><dd>Enumerator to result await.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NotSupportedException</td><td>Attempt to navigate between <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">GraphNode</a>s located at different <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Graph</a>s. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#a9348b754524dd436b829b79a138ea9ee">Doloro.Graphs.AStarPath</a>.</p>
 
 </div>
 </div>

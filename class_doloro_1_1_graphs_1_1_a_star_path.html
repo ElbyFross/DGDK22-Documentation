@@ -91,13 +91,35 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_graphs_1_1_a_star_pat
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_doloro_1_1_graphs_1_1_a_star_path-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.Graphs.AStarPath Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implementation of the A* pathfinding algorithm. </p>
-</div><div class="dynheader">
+<p ><b>Python script:</b> </p><div class="fragment"><div class="line">frontier = PriorityQueue()</div>
+<div class="line">frontier.put(start, 0)</div>
+<div class="line">came_from = {}</div>
+<div class="line">cost_so_far = {}</div>
+<div class="line">came_from[start] = <a class="code hl_enumvalue" href="namespace_doloro_1_1_a_i_1_1_core.html#a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754">None</a></div>
+<div class="line">cost_so_far[start] = 0</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordflow">while</span> not frontier.empty():</div>
+<div class="line">   current = frontier.get()</div>
+<div class="line"> </div>
+<div class="line">   <span class="keywordflow">if</span> current == goal:</div>
+<div class="line">      <span class="keywordflow">break</span></div>
+<div class="line"> </div>
+<div class="line">   <span class="keywordflow">for</span> next in graph.neighbors(current):</div>
+<div class="line">      new_cost = cost_so_far[current] + graph.cost(current, next)</div>
+<div class="line">      <span class="keywordflow">if</span> next not in cost_so_far or new_cost &lt; cost_so_far[next]:</div>
+<div class="line">         cost_so_far[next] = new_cost</div>
+<div class="line">         priority = new_cost + heuristic(goal, next)</div>
+<div class="line">         frontier.put(next, priority)</div>
+<div class="line">         came_from[next] = current</div>
+<div class="ttc" id="anamespace_doloro_1_1_a_i_1_1_core_html_a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="namespace_doloro_1_1_a_i_1_1_core.html#a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754">Doloro.AI.Core.DebugDepth.None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">Debug disabled.</div></div>
+</div><!-- fragment --> </div><div class="dynheader">
 Inheritance diagram for Doloro.Graphs.AStarPath:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_graphs_1_1_a_star_path__inherit__graph.png" border="0" usemap="#a_doloro_8_graphs_8_a_star_path_inherit__map" alt="Inheritance graph"/></div>
@@ -137,8 +159,14 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AStarPath</b> (<a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> <a class="el" href="class_doloro_1_1_graphs_1_1_path.html#ad7d4df07a7c2f41d38ce98f1c35d424a">from</a>, <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> <a class="el" href="class_doloro_1_1_graphs_1_1_path.html#af6b77dc56b781b856350b804eb7336b7">to</a>)</td></tr>
 <tr class="separator:ac33939b536dcf039d96fbd8f246a7ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc56cccbf977836341cfe45bf769f64c"><td class="memItemLeft" align="right" valign="top">override ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#afc56cccbf977836341cfe45bf769f64c">Build</a> ()</td></tr>
-<tr class="memdesc:afc56cccbf977836341cfe45bf769f64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds A* path between declared points.  <a href="class_doloro_1_1_graphs_1_1_a_star_path.html#afc56cccbf977836341cfe45bf769f64c">More...</a><br /></td></tr>
+<tr class="memdesc:afc56cccbf977836341cfe45bf769f64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds path using A* algorithm between declared points.  <a href="class_doloro_1_1_graphs_1_1_a_star_path.html#afc56cccbf977836341cfe45bf769f64c">More...</a><br /></td></tr>
 <tr class="separator:afc56cccbf977836341cfe45bf769f64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9348b754524dd436b829b79a138ea9ee"><td class="memItemLeft" align="right" valign="top">override IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#a9348b754524dd436b829b79a138ea9ee">BuildCoroutine</a> ()</td></tr>
+<tr class="memdesc:a9348b754524dd436b829b79a138ea9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the path using A* algorithm in Coroutine friendly way.  <a href="class_doloro_1_1_graphs_1_1_a_star_path.html#a9348b754524dd436b829b79a138ea9ee">More...</a><br /></td></tr>
+<tr class="separator:a9348b754524dd436b829b79a138ea9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f231f8bd6244a11b1e06b5bf34de4f"><td class="memItemLeft" align="right" valign="top">override async Task&lt; ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#a49f231f8bd6244a11b1e06b5bf34de4f">BuildAsync</a> ()</td></tr>
+<tr class="memdesc:a49f231f8bd6244a11b1e06b5bf34de4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">BUilds the path using A* algorithm asynchronously.  <a href="class_doloro_1_1_graphs_1_1_a_star_path.html#a49f231f8bd6244a11b1e06b5bf34de4f">More...</a><br /></td></tr>
+<tr class="separator:a49f231f8bd6244a11b1e06b5bf34de4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024a42e24c2c9e473addcaa3f32f627a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_graphs_1_1_connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_a_star_path.html#a024a42e24c2c9e473addcaa3f32f627a">GetConection</a> (<a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> achivedNode)</td></tr>
 <tr class="memdesc:a024a42e24c2c9e473addcaa3f32f627a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looking for connection that leaded the path to the certain node.  <a href="class_doloro_1_1_graphs_1_1_a_star_path.html#a024a42e24c2c9e473addcaa3f32f627a">More...</a><br /></td></tr>
 <tr class="separator:a024a42e24c2c9e473addcaa3f32f627a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +240,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComputed</b><code> 
 <tr class="memitem:a345e03337fd63b18dd6ce7547e9d4a68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_graphs_1_1_path.html#a345e03337fd63b18dd6ce7547e9d4a68">isCached</a><code> [get]</code></td></tr>
 <tr class="memdesc:a345e03337fd63b18dd6ce7547e9d4a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the path located at the cache registry to fast access.  <a href="class_doloro_1_1_graphs_1_1_path.html#a345e03337fd63b18dd6ce7547e9d4a68">More...</a><br /></td></tr>
 <tr class="separator:a345e03337fd63b18dd6ce7547e9d4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="memItemLeft" align="right" valign="top"><a id="af1d1d93eb242895dd27d905b5cd2eb5e" name="af1d1d93eb242895dd27d905b5cd2eb5e"></a>
+static Action&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_path.html">Path</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onPathReleased</b></td></tr>
+<tr class="memdesc:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when any path is no longer exists in cache. <br /></td></tr>
+<tr class="separator:af1d1d93eb242895dd27d905b5cd2eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a60503af2d411ed3e67799ca340b2a690" name="a60503af2d411ed3e67799ca340b2a690"></a>
@@ -272,31 +307,70 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComputed</b><code> 
 </table>
 </div><div class="memdoc">
 
-<p>Builds A* path between declared points. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<p ><b>Python script:</b> </p><div class="fragment"><div class="line">frontier = PriorityQueue()</div>
-<div class="line">frontier.put(start, 0)</div>
-<div class="line">came_from = {}</div>
-<div class="line">cost_so_far = {}</div>
-<div class="line">came_from[start] = <a class="code hl_enumvalue" href="namespace_doloro_1_1_a_i_1_1_core.html#a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754">None</a></div>
-<div class="line">cost_so_far[start] = 0</div>
-<div class="line"> </div>
-<div class="line"><span class="keywordflow">while</span> not frontier.empty():</div>
-<div class="line">   current = frontier.get()</div>
-<div class="line"> </div>
-<div class="line">   <span class="keywordflow">if</span> current == goal:</div>
-<div class="line">      <span class="keywordflow">break</span></div>
-<div class="line"> </div>
-<div class="line">   <span class="keywordflow">for</span> next in graph.neighbors(current):</div>
-<div class="line">      new_cost = cost_so_far[current] + graph.cost(current, next)</div>
-<div class="line">      <span class="keywordflow">if</span> next not in cost_so_far or new_cost &lt; cost_so_far[next]:</div>
-<div class="line">         cost_so_far[next] = new_cost</div>
-<div class="line">         priority = new_cost + heuristic(goal, next)</div>
-<div class="line">         frontier.put(next, priority)</div>
-<div class="line">         came_from[next] = current</div>
-<div class="ttc" id="anamespace_doloro_1_1_a_i_1_1_core_html_a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="namespace_doloro_1_1_a_i_1_1_core.html#a6202629539fe14c1ecb7424dd90f9a27a6adf97f83acf6453d4a6a4b1070f3754">Doloro.AI.Core.DebugDepth.None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">Debug disabled.</div></div>
-</div><!-- fragment --> 
+<p>Builds path using A* algorithm between declared points. </p>
+<dl class="section return"><dt>Returns</dt><dd>Collection of nodes selected as path.</dd></dl>
+
 <p>Reimplemented from <a class="el" href="class_doloro_1_1_graphs_1_1_path.html#ac20e0f25abc50995e79bfd0da044a455">Doloro.Graphs.Path</a>.</p>
+
+</div>
+</div>
+<a id="a49f231f8bd6244a11b1e06b5bf34de4f" name="a49f231f8bd6244a11b1e06b5bf34de4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f231f8bd6244a11b1e06b5bf34de4f">&#9670;&nbsp;</a></span>BuildAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override async Task&lt; ICollection&lt; <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt; &gt; Doloro.Graphs.AStarPath.BuildAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>BUilds the path using A* algorithm asynchronously. </p>
+<dl class="section return"><dt>Returns</dt><dd>Task that returns collection of nodes selected as path.</dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_graphs_1_1_path.html#aab47fd293edb4575d1d0c618488d109b">Doloro.Graphs.Path</a>.</p>
+
+</div>
+</div>
+<a id="a9348b754524dd436b829b79a138ea9ee" name="a9348b754524dd436b829b79a138ea9ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9348b754524dd436b829b79a138ea9ee">&#9670;&nbsp;</a></span>BuildCoroutine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override IEnumerator Doloro.Graphs.AStarPath.BuildCoroutine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds the path using A* algorithm in Coroutine friendly way. </p>
+<dl class="section return"><dt>Returns</dt><dd>Enumerator can be used in unity coroutines.</dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_graphs_1_1_path.html#abbeb6e872bc8b7a4199430b175b9688e">Doloro.Graphs.Path</a>.</p>
 
 </div>
 </div>

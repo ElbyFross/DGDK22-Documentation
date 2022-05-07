@@ -30,11 +30,22 @@ var md__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e =
     ] ],
     [ "Pathfinding", "dgraphs_pathfinding.html", [
       [ "About", "dgraphs_pathfinding.html#dgraphs_pathfinding_about", [
-        [ "Brief idea of pathfinding, for beginners", "dgraphs_pathfinding.html#dgraphs_pathfinding_about_intro", null ],
-        [ "API", "dgraphs_pathfinding.html#dgraphs_pathfinding_api", null ],
-        [ "A*", "dgraphs_pathfinding.html#dgraphs_pathfinding_astar", null ],
-        [ "Custom algorithm implementation", "dgraphs_pathfinding.html#dgraphs_pathfinding_new", null ]
-      ] ]
+        [ "Brief idea of pathfinding, for beginners", "dgraphs_pathfinding.html#dgraphs_pathfinding_about_intro", null ]
+      ] ],
+      [ "Path", "dgraphs_pathfinding.html#dgraphs_pathfinding_path", [
+        [ "Cache", "dgraphs_pathfinding.html#dgraphs_pathfinding_path_cache", null ],
+        [ "Relayed state", "dgraphs_pathfinding.html#dgraphs_pathfinding_path_relayed", null ]
+      ] ],
+      [ "A*", "dgraphs_pathfinding.html#dgraphs_pathfinding_astar", null ],
+      [ "How to...", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht", [
+        [ "Build a path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_build", null ],
+        [ "Get built path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_get", [
+          [ "Abstract path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_get_abstract", null ],
+          [ "Certain path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_get_typed", null ]
+        ] ],
+        [ "Release path", "dgraphs_pathfinding.html#dgraphs_pathfinding_ht_release", null ]
+      ] ],
+      [ "Custom algorithm implementation", "dgraphs_pathfinding.html#dgraphs_pathfinding_new", null ]
     ] ],
     [ "Fragmented graphs", "dgraphs_fragmented_graph.html", [
       [ "About", "dgraphs_fragmented_graph.html#dgraphs_fragmented_graph_a", null ],

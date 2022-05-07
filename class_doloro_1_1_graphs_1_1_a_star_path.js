@@ -8,6 +8,8 @@ var class_doloro_1_1_graphs_1_1_a_star_path =
       [ "InProgress", "class_doloro_1_1_graphs_1_1_a_star_path.html#a60503af2d411ed3e67799ca340b2a690a12d868c18cb29bf58f02b504be9033fd", null ]
     ] ],
     [ "Build", "class_doloro_1_1_graphs_1_1_a_star_path.html#afc56cccbf977836341cfe45bf769f64c", null ],
+    [ "BuildAsync", "class_doloro_1_1_graphs_1_1_a_star_path.html#a49f231f8bd6244a11b1e06b5bf34de4f", null ],
+    [ "BuildCoroutine", "class_doloro_1_1_graphs_1_1_a_star_path.html#a9348b754524dd436b829b79a138ea9ee", null ],
     [ "GetConection", "class_doloro_1_1_graphs_1_1_a_star_path.html#a024a42e24c2c9e473addcaa3f32f627a", null ],
     [ "GetEnumerator", "class_doloro_1_1_graphs_1_1_a_star_path.html#a217fffdeb8a73b4f717818be2efa0517", null ],
     [ "MakeFailed", "class_doloro_1_1_graphs_1_1_a_star_path.html#aa0e98671b398a556916911450e2ed98c", null ],
@@ -25,5 +27,6 @@ var class_doloro_1_1_graphs_1_1_a_star_path =
     [ "Length", "class_doloro_1_1_graphs_1_1_a_star_path.html#ad0cdc2a057fc4b236b292f33893ba2f5", null ],
     [ "path", "class_doloro_1_1_graphs_1_1_a_star_path.html#a8e88c57b0a5cc8bca7d3c32a29ea7852", null ],
     [ "state", "class_doloro_1_1_graphs_1_1_a_star_path.html#a0116843bb11d29c3e6f5f5424b972af9", null ],
-    [ "to", "class_doloro_1_1_graphs_1_1_a_star_path.html#af6b77dc56b781b856350b804eb7336b7", null ]
+    [ "to", "class_doloro_1_1_graphs_1_1_a_star_path.html#af6b77dc56b781b856350b804eb7336b7", null ],
+    [ "onPathReleased", "class_doloro_1_1_graphs_1_1_a_star_path.html#af1d1d93eb242895dd27d905b5cd2eb5e", null ]
 ];
