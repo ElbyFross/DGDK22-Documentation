@@ -1,4 +1,4 @@
 <map id="Doloro.UIEngine2.IContentHolder&lt; T &gt;" name="Doloro.UIEngine2.IContentHolder&lt; T &gt;">
-<area shape="rect" id="node1" title="Declares members of the object that has internal content." alt="" coords="11,5,185,47"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="5,95,191,136"/>
+<area shape="rect" id="node1" title="Declares members of the object that has internal content." alt="" coords="33,5,208,47"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="5,95,236,136"/>
 </map>

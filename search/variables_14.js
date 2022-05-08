@@ -7,7 +7,7 @@ var searchData=
   ['target_4',['target',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html#a8289989bfb8bc2773bd88e31dd92ebd0',1,'Doloro::AI::Memory::Copy']]],
   ['targetglobalscale_5',['targetGlobalScale',['../class_doloro_1_1_tools_1_1_objects_1_1_global_scale_controller.html#a6c1fb41dba1994d056000094e24b1097',1,'Doloro::Tools::Objects::GlobalScaleController']]],
   ['targetpoints_6',['targetPoints',['../class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html#ae8d3158825148a2b4e5223155328ffe2',1,'Doloro::Sensors::VisualSensorDebuger']]],
-  ['targets_7',['targets',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_alter_u_i_toggle_controller.html#ab87015974421da0047456c49b4e28e16',1,'Doloro::InvetorySystem::Modules::Shops::UI::AlterUIToggleController']]],
+  ['targets_7',['targets',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_tooltip_g_u_i_controller.html#a709b501abe5207cc57205944029d19e8',1,'Doloro::UIEngine2::Modules::BaseControls::TooltipGUIController']]],
   ['targetvariable_8',['targetVariable',['../class_doloro_1_1_a_i_1_1_get_1_1_get_rect_around_object.html#afbb4127d062bc587d1e4189ba2629b1c',1,'Doloro::AI::Get::GetRectAroundObject']]],
   ['tasks_9',['Tasks',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_async_task_handler.html#af8b7f9ca29116e4a609a49fd3e8eb96b',1,'Doloro::DataManagement::AssetBundlesTools::AsyncTaskHandler']]],
   ['time_10',['time',['../class_doloro_1_1_tools_1_1_objects_1_1_objects_remove_timer.html#ad291dae2e0833cb622210724df55c609',1,'Doloro::Tools::Objects::ObjectsRemoveTimer']]],

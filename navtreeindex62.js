@@ -1,13 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"ddm-aps-com-ap.html#ddm-aps-com-ap-ser":[10,3,2,3],
-"ddm-aps-com-ap.html#ddm-aps-com-ap-types":[10,3,2,1],
-"ddm-aps-com-apc.html":[10,3,1,4],
-"ddm-aps-com-apc.html#ddm-aps-com-apc-a":[10,3,1,4,0],
-"ddm-aps-com-apc.html#ddm-aps-com-apc-use":[10,3,1,4,1],
-"ddm-aps-com-apc.html#ddm-aps-com-apc-use-begin":[10,3,1,4,1,0],
-"ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-code":[10,3,1,4,1,2],
-"ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-gui":[10,3,1,4,1,1],
 "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-session":[10,3,1,4,1,3],
 "ddm-aps-com-pa.html":[10,3,3],
 "ddm-aps-com-pa.html#ddm-aps-com-pa-a":[10,3,3,0],
@@ -245,9 +237,17 @@ var NAVTREEINDEX62 =
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_ex":[12,4,2],
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_im":[12,4,1],
 "dinv-gstart.html":[14,1],
-"dinv-gstart.html#s_dinv_ds_db":[14,1,0],
-"dinv-gstart.html#s_dinv_ds_db_rel":[14,1,1,1],
-"dinv-gstart.html#s_dinv_ds_db_rent":[14,1,1,0],
-"dinv-gstart.html#s_dinv_ds_ecs":[14,1,1],
-"dinv-gstart.html#s_dinv_ds_ext":[14,1,2]
+"dinv-gstart.html#s_dinv_ds_db":[14,1,2],
+"dinv-gstart.html#s_dinv_ds_db_rel":[14,1,3,1],
+"dinv-gstart.html#s_dinv_ds_db_rent":[14,1,3,0],
+"dinv-gstart.html#s_dinv_ds_ecs":[14,1,3],
+"dinv-gstart.html#s_dinv_ds_ext":[14,1,4],
+"dinv-gstart.html#s_dinv_ds_ext_itm":[14,1,4,1],
+"dinv-gstart.html#s_dinv_ds_ext_ns":[14,1,4,0],
+"dinv-gstart.html#s_dinv_ds_item_properties":[14,1,0],
+"dinv-gstart.html#s_dinv_ds_storage_properties":[14,1,1],
+"dinv-gstart.html#s_dinv_ds_storage_properties_filtering":[14,1,1,0],
+"dinv-gui.html":[14,4],
+"dinv_modules.html":[14,5],
+"dinv_shops.html":[14,5,1]
 };

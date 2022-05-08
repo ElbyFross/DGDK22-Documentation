@@ -1,6 +1,5 @@
 var namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i =
 [
-    [ "AlterUIToggleController", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_alter_u_i_toggle_controller.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_alter_u_i_toggle_controller" ],
     [ "ExchangeBufferGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element" ],
     [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener" ],
     [ "InvalidOrderInfoGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element" ],

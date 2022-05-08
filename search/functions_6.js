@@ -77,5 +77,5 @@ var searchData=
   ['graphsregistrychangehandler_74',['GraphsRegistryChangeHandler',['../class_doloro_1_1_graphs_1_1_graph.html#af3c501f49eb338a0b8901a6622f30aef',1,'Doloro::Graphs::Graph']]],
   ['greater_75',['Greater',['../class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action.html#a1df5f839c48eddf5a0e1e1ceb8daba0d',1,'Doloro::AI::Compare::ACompareAction']]],
   ['greaterorequal_76',['GreaterOrEqual',['../class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action.html#a6e28f7c7184a1f9cb4f58ac69da85f69',1,'Doloro::AI::Compare::ACompareAction']]],
-  ['guicollectionasstoragesenum_77',['GUICollectionAsStoragesEnum',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collectione292e24794b9a158b22ec9c782c757d0.html#aa0ac67566b8f2f84f4a6d8e89d75a030',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollectionDataConnector::GUICollectionAsStoragesEnum']]]
+  ['guicollectionasstoragesenumerator_77',['GUICollectionAsStoragesEnumerator',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c.html#a351a39d605da3b9a9046bb64d18d4bc5',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollectionDataConnector::GUICollectionAsStoragesEnumerator']]]
 ];

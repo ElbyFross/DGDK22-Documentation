@@ -460,7 +460,6 @@ var annotated_dup =
         [ "Modules", "namespace_doloro_1_1_invetory_system_1_1_modules.html", [
           [ "Shops", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops.html", [
             [ "UI", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i.html", [
-              [ "AlterUIToggleController", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_alter_u_i_toggle_controller.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_alter_u_i_toggle_controller" ],
               [ "ExchangeBufferGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element" ],
               [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener" ],
               [ "InvalidOrderInfoGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element" ],
@@ -496,8 +495,8 @@ var annotated_dup =
           [ "VolumeTestSequencesExecuter", "class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_test_sequences_executer.html", "class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_test_sequences_executer" ]
         ] ],
         [ "UI", "namespace_doloro_1_1_invetory_system_1_1_u_i.html", [
+          [ "AContentInspectorGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element" ],
           [ "AEntityPropertyGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension" ],
-          [ "AInspectorGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_inspector_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_inspector_g_u_i_element" ],
           [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector" ],
           [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element" ],
           [ "ItemPropertiesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_g_u_i_extension" ],
@@ -520,7 +519,7 @@ var annotated_dup =
         [ "IReservationAgent", "interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html", "interface_doloro_1_1_invetory_system_1_1_i_reservation_agent" ],
         [ "Item", "class_doloro_1_1_invetory_system_1_1_item.html", "class_doloro_1_1_invetory_system_1_1_item" ],
         [ "ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
-        [ "ItemFeature", "class_doloro_1_1_invetory_system_1_1_item_feature.html", "class_doloro_1_1_invetory_system_1_1_item_feature" ],
+        [ "ItemProperty", "class_doloro_1_1_invetory_system_1_1_item_property.html", "class_doloro_1_1_invetory_system_1_1_item_property" ],
         [ "RuntimeStoragesHelper", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper" ],
         [ "Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", "class_doloro_1_1_invetory_system_1_1_storage" ],
         [ "StorageCaller", "class_doloro_1_1_invetory_system_1_1_storage_caller.html", "class_doloro_1_1_invetory_system_1_1_storage_caller" ],
@@ -613,7 +612,8 @@ var annotated_dup =
           [ "BaseControls", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls.html", [
             [ "ClickableRectGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_clickable_rect_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_clickable_rect_g_u_i_element" ],
             [ "MeasuredSliderGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_g_u_i_element" ],
-            [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_label_g_u_i_element" ]
+            [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_measured_slider_label_g_u_i_element" ],
+            [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_base_controls_1_1_tooltip_g_u_i_controller" ]
           ] ],
           [ "Context", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context.html", [
             [ "ContextMenu", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu" ],

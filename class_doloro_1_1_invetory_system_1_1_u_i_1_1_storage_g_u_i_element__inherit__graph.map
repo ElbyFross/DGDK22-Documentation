@@ -1,6 +1,5 @@
 <map id="Doloro.InvetorySystem.UI.StorageGUIElement" name="Doloro.InvetorySystem.UI.StorageGUIElement">
-<area shape="rect" id="node1" title="GUI element controller that bonds StoragesDatabase entry and UI." alt="" coords="91,95,263,136"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shop_g_u_i_element.html" title="UI controller for store related UI. Provides bond between UI elements and TransactionService." alt="" coords="73,184,282,225"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_inspector_g_u_i_element.html" title=" " alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node3" href="$interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html" title=" " alt="" coords="185,5,359,47"/>
+<area shape="rect" id="node1" title="GUI element controller that bonds StoragesDatabase entry and UI." alt="" coords="24,95,196,136"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shop_g_u_i_element.html" title="UI controller for store related UI. Provides bond between UI elements and TransactionService." alt="" coords="5,184,215,225"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html" title=" " alt="" coords="11,5,209,47"/>
 </map>

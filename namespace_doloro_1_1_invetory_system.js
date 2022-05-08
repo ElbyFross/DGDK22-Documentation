@@ -13,7 +13,7 @@ var namespace_doloro_1_1_invetory_system =
     [ "IReservationAgent", "interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html", "interface_doloro_1_1_invetory_system_1_1_i_reservation_agent" ],
     [ "Item", "class_doloro_1_1_invetory_system_1_1_item.html", "class_doloro_1_1_invetory_system_1_1_item" ],
     [ "ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
-    [ "ItemFeature", "class_doloro_1_1_invetory_system_1_1_item_feature.html", "class_doloro_1_1_invetory_system_1_1_item_feature" ],
+    [ "ItemProperty", "class_doloro_1_1_invetory_system_1_1_item_property.html", "class_doloro_1_1_invetory_system_1_1_item_property" ],
     [ "RuntimeStoragesHelper", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper" ],
     [ "Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", "class_doloro_1_1_invetory_system_1_1_storage" ],
     [ "StorageCaller", "class_doloro_1_1_invetory_system_1_1_storage_caller.html", "class_doloro_1_1_invetory_system_1_1_storage_caller" ],

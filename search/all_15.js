@@ -16,12 +16,11 @@ var searchData=
   ['untilfail_13',['UntilFail',['../namespace_doloro_1_1_a_i_1_1_core.html#ae37f8e9163c8631bb51fa9bdcd987a82aa464698263bba17b6d2499f63a95bba5',1,'Doloro::AI::Core']]],
   ['untilsuccess_14',['UntilSuccess',['../namespace_doloro_1_1_a_i_1_1_core.html#ae37f8e9163c8631bb51fa9bdcd987a82ab3a4d066d0f80e47ff3cf38e9791057b',1,'Doloro::AI::Core']]],
   ['updatefrequency_15',['updateFrequency',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a3508914df34613f5f451a869cf6c11cb',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
-  ['updategui_16',['UpdateGUI',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_inspector_g_u_i_element.html#a84d14dea2d946deff9587d9367e8b346',1,'Doloro::InvetorySystem::UI::AInspectorGUIElement']]],
+  ['updategui_16',['UpdateGUI',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html#a1d388865ced8176e590c0ba6f7dc4982',1,'Doloro::InvetorySystem::UI::AContentInspectorGUIElement']]],
   ['updatehandler_17',['UpdateHandler',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a9e2e7c828ae6a01fac628c903f94cf85',1,'Doloro::Localization::GenericProxyContentProvider']]],
   ['updatelayout_18',['UpdateLayout',['../class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#a29634dc2eb2cf2c09dc6a0ca9d6fa69f',1,'Doloro.UIEngine2.AWorkspaceGUIElement.UpdateLayout()'],['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a05a16cc7e93674677a9deddfb77c4e3c',1,'Doloro.UIEngine2.WindowUIController.UpdateLayout()']]],
   ['updatereference_19',['UpdateReference',['../class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#ad926d670b00797eb825254e6df69eacc',1,'Doloro::DataManagement::Tables::Solution']]],
   ['updatestep_20',['updateStep',['../class_doloro_1_1_a_i_1_1_sensors_1_1_audio_source_loudness_tester.html#a87496dc245b52ceaa25b20b1f2c2dd14',1,'Doloro::AI::Sensors::AudioSourceLoudnessTester']]],
-  ['using_21',['Using',['../dinv-gstart.html',1,'md_Doloro_GDK_Doloro_Inventory_README']]],
-  ['utility_22',['Utility',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i_1_1_utility.html',1,'Doloro::UIEngine2::Modules::Graphs::UniformGraphUI']]],
-  ['utils_23',['Utils',['../class_doloro_1_1_a_i_1_1_core_1_1_utils.html',1,'Doloro::AI::Core']]]
+  ['utility_21',['Utility',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_uniform_graph_u_i_1_1_utility.html',1,'Doloro::UIEngine2::Modules::Graphs::UniformGraphUI']]],
+  ['utils_22',['Utils',['../class_doloro_1_1_a_i_1_1_core_1_1_utils.html',1,'Doloro::AI::Core']]]
 ];

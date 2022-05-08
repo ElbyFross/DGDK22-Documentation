@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['virtual_20ui_20hub_0',['Virtual UI Hub',['../dui2-vh.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]],
-  ['volumetric_20storage_20module_1',['Volumetric storage module',['../dinv_volume.html',1,'dinv_modules']]]
+  ['welcome_20to_20doloro_20gdk_2022_21_0',['Welcome to Doloro GDK 22!',['../index.html',1,'']]],
+  ['window_1',['Window',['../dui2-window.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]]
 ];

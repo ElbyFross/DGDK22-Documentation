@@ -9,7 +9,7 @@ var class_doloro_1_1_invetory_system_1_1_item =
     [ "ToString", "class_doloro_1_1_invetory_system_1_1_item.html#aa54bdb8011a88a69e92130e71154075b", null ],
     [ "Bundle", "class_doloro_1_1_invetory_system_1_1_item.html#a6ec435c68ca1ddfb1a145a34a9b6572d", null ],
     [ "description", "class_doloro_1_1_invetory_system_1_1_item.html#a81dea414c16507d66508aa0d6e85adec", null ],
-    [ "features", "class_doloro_1_1_invetory_system_1_1_item.html#aa6c0924abeed875da4ce642a92b999a0", null ],
+    [ "features", "class_doloro_1_1_invetory_system_1_1_item.html#a31188bee90435dacdbdbe351037c5a16", null ],
     [ "Key", "class_doloro_1_1_invetory_system_1_1_item.html#a07d86ca3e0839f61b31f87cfa84600bf", null ],
     [ "preview", "class_doloro_1_1_invetory_system_1_1_item.html#a21ffa24c914097072b2c967fc67340a9", null ],
     [ "properties", "class_doloro_1_1_invetory_system_1_1_item.html#a5e5558a89d70ccfc1cb006fa12b2864b", null ],
