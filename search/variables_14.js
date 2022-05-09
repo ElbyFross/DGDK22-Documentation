@@ -2,7 +2,7 @@ var searchData=
 [
   ['tag_0',['tag',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a2c7eb37ee5e24e24a3bd7f009410ffac',1,'Doloro::AI::Core::PipelineMap']]],
   ['tagfilter_1',['tagFilter',['../class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a5c115f82cbc4ff7215b0d7b9a0373f7c',1,'Doloro.AI.Get.ChildObject.tagFilter()'],['../class_doloro_1_1_a_i_1_1_get_1_1_near_game_object.html#a2e1ba01d97921acd5f96c571a387d5a7',1,'Doloro.AI.Get.NearGameObject.tagFilter()']]],
-  ['tagmask_2',['tagMask',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_tags_filtered_storage.html#aa9e87a0aca4cae5143d7fdb191208b34',1,'Doloro::InvetorySystem::Properties::TagsFilteredStorage']]],
+  ['tagmask_2',['tagMask',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_items_tags_filter.html#abe137a6b19068a245305f9e48c3ef60f',1,'Doloro::InvetorySystem::Properties::StorageItemsTagsFilter']]],
   ['tags_5ftool_5fin_5fcache_5fdir_3',['TAGS_TOOL_IN_CACHE_DIR',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_constants.html#af0b165f7f35b55b35ef01e835d9ea598',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::Constants']]],
   ['target_4',['target',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html#a8289989bfb8bc2773bd88e31dd92ebd0',1,'Doloro::AI::Memory::Copy']]],
   ['targetglobalscale_5',['targetGlobalScale',['../class_doloro_1_1_tools_1_1_objects_1_1_global_scale_controller.html#a6c1fb41dba1994d056000094e24b1097',1,'Doloro::Tools::Objects::GlobalScaleController']]],

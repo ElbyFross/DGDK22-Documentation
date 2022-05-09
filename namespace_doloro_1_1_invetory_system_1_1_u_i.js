@@ -2,8 +2,8 @@ var namespace_doloro_1_1_invetory_system_1_1_u_i =
 [
     [ "AContentInspectorGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element" ],
     [ "AEntityPropertyGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension" ],
-    [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector" ],
     [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element" ],
+    [ "ItemPropertiesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_collection_data_conector" ],
     [ "ItemPropertiesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_g_u_i_extension" ],
     [ "ItemPropertyGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_property_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_property_g_u_i_element" ],
     [ "ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension" ],

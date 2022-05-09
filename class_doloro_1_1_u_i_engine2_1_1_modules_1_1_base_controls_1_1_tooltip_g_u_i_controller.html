@@ -197,6 +197,14 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> 
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
 <tr class="memdesc:aba68f57a8d80f5a10e024d8564d6b33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when component disabled. <br /></td></tr>
 <tr class="separator:aba68f57a8d80f5a10e024d8564d6b33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50bb75f0c0dcd961b751f11bad63c60"><td class="memItemLeft" align="right" valign="top"><a id="ad50bb75f0c0dcd961b751f11bad63c60" name="ad50bb75f0c0dcd961b751f11bad63c60"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTransformChildrenChanged</b> ()</td></tr>
+<tr class="memdesc:ad50bb75f0c0dcd961b751f11bad63c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when children list has been changed. <br /></td></tr>
+<tr class="separator:ad50bb75f0c0dcd961b751f11bad63c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55483a1663fb88a38fb839a77ae0a4f9"><td class="memItemLeft" align="right" valign="top"><a id="a55483a1663fb88a38fb839a77ae0a4f9" name="a55483a1663fb88a38fb839a77ae0a4f9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTransformParentChanged</b> ()</td></tr>
+<tr class="memdesc:a55483a1663fb88a38fb839a77ae0a4f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when parent object has been changed. <br /></td></tr>
+<tr class="separator:a55483a1663fb88a38fb839a77ae0a4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a876286944192ed7984d14878a8a9d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a0a876286944192ed7984d14878a8a9d4">OnMoved</a> ()</td></tr>
 <tr class="memdesc:a0a876286944192ed7984d14878a8a9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should be called when element position is modified.  <a href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a0a876286944192ed7984d14878a8a9d4">More...</a><br /></td></tr>
 <tr class="separator:a0a876286944192ed7984d14878a8a9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,12 +284,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsRoot</b><code> [get
 <tr class="memitem:abb744a3d26504cd7326b709ed78e43c4"><td class="memItemLeft" align="right" valign="top">ReadOnlyCollection&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#abb744a3d26504cd7326b709ed78e43c4">Children</a> = new ReadOnlyCollection&lt;<a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a>&gt;(new <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a>[0])<code> [get]</code></td></tr>
 <tr class="memdesc:abb744a3d26504cd7326b709ed78e43c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of element children.  <a href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#abb744a3d26504cd7326b709ed78e43c4">More...</a><br /></td></tr>
 <tr class="separator:abb744a3d26504cd7326b709ed78e43c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c69aba93c53085731d37a9bb15b119"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#ac9c69aba93c53085731d37a9bb15b119">IsTheSameUnityHierarchyPosition</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac9c69aba93c53085731d37a9bb15b119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is element changed itself position at the Unity-site hierarchy.  <a href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#ac9c69aba93c53085731d37a9bb15b119">More...</a><br /></td></tr>
-<tr class="separator:ac9c69aba93c53085731d37a9bb15b119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213c2e0c55e9dd03ace52e029c4f7fd5"><td class="memItemLeft" align="right" valign="top">ReadOnlyCollection&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a213c2e0c55e9dd03ace52e029c4f7fd5">ChildrenStatic</a><code> [get]</code></td></tr>
-<tr class="memdesc:a213c2e0c55e9dd03ace52e029c4f7fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of ordered element's children.  <a href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a213c2e0c55e9dd03ace52e029c4f7fd5">More...</a><br /></td></tr>
-<tr class="separator:a213c2e0c55e9dd03ace52e029c4f7fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a73aa04ae613e6710392dd28831c49"><td class="memItemLeft" align="right" valign="top"><a id="ad4a73aa04ae613e6710392dd28831c49" name="ad4a73aa04ae613e6710392dd28831c49"></a>
 Rect&#160;</td><td class="memItemRight" valign="bottom"><b>LocalRect</b><code> [get]</code></td></tr>
 <tr class="memdesc:ad4a73aa04ae613e6710392dd28831c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns rect of the bond RectTransform component. <br /></td></tr>
@@ -342,9 +344,6 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsVisibleForE
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a7177576ee521ba60fcd6c2531d7055e0"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a>, Transform, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a7177576ee521ba60fcd6c2531d7055e0">eNoticedUnityHierarchyPositionChange</a></td></tr>
-<tr class="memdesc:a7177576ee521ba60fcd6c2531d7055e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when system handler noticing that the place of GUI element in Unity-site hierarchy is changed.  <a href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a7177576ee521ba60fcd6c2531d7055e0">More...</a><br /></td></tr>
-<tr class="separator:a7177576ee521ba60fcd6c2531d7055e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47fbc5dcae5c15840d8c438cde3ed679"><td class="memItemLeft" align="right" valign="top"><a id="a47fbc5dcae5c15840d8c438cde3ed679" name="a47fbc5dcae5c15840d8c438cde3ed679"></a>
 Action&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>eFocused</b></td></tr>
 <tr class="memdesc:a47fbc5dcae5c15840d8c438cde3ed679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when element is focused. <br /></td></tr>
@@ -709,7 +708,7 @@ Action&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.ht
 
 <p>Calling each draw frame. Use to update showing data. </p>
 <p >Calling each frame if element displayed. Before self draw call <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a560025fe5f3378dc23755874d8cac397" title="Calling each draw frame. Use to update showing data.">OnElementGUI</a> for all elements in <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#abb744a3d26504cd7326b709ed78e43c4" title="Collection of element children.">Children</a> collection.</p>
-<h3><a class="anchor" id="autotoc_md165"></a>
+<h3><a class="anchor" id="autotoc_md163"></a>
 IMPORTANT</h3>
 <p >Avoid reading inputs here. Use <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#aa2cad6935331a5d0cf6ebeab00e50c18" title="Handler that will be called for elements in input priority order. use to modify data along with input...">OnInput</a> instead. </p>
 
@@ -1051,31 +1050,6 @@ IMPORTANT</h3>
 
 </div>
 </div>
-<a id="a213c2e0c55e9dd03ace52e029c4f7fd5" name="a213c2e0c55e9dd03ace52e029c4f7fd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a213c2e0c55e9dd03ace52e029c4f7fd5">&#9670;&nbsp;</a></span>ChildrenStatic</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ReadOnlyCollection&lt;<a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a>&gt; Doloro.UIEngine2.GUIElement.ChildrenStatic</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Collection of ordered element's children. </p>
-<p >Requires extra checks if parent or hierarchy index of child is not the same as last time. </p>
-
-</div>
-</div>
 <a id="ad2bce46a92103d12e9677533e34821c2" name="ad2bce46a92103d12e9677533e34821c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2bce46a92103d12e9677533e34821c2">&#9670;&nbsp;</a></span>ElementOnAction</h2>
 
@@ -1171,31 +1145,6 @@ IMPORTANT</h3>
 
 <p>Defines is the element will handle mouse click events. </p>
 <p >Not affects children. Still handles <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a167973e9418b3eb374b610160ad3ad21" title="Occurs when th pointer is over the element.">OnHover</a>-like events. Not blocks manual call of <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a17eba9695e7f890051cd51265d9b7369" title="Simulates click above the element.">CallClick</a> and <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#a08db3e77cf91020974da23528ab3e88c" title="Simulates calling context menu over the element.">CallContextMenu</a> API members. </p>
-
-</div>
-</div>
-<a id="ac9c69aba93c53085731d37a9bb15b119" name="ac9c69aba93c53085731d37a9bb15b119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9c69aba93c53085731d37a9bb15b119">&#9670;&nbsp;</a></span>IsTheSameUnityHierarchyPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Doloro.UIEngine2.GUIElement.IsTheSameUnityHierarchyPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Checks is element changed itself position at the Unity-site hierarchy. </p>
-<p >Note that you checking not DoloroUI GUI hierarchy but the hierarchy of Unity itself. </p>
 
 </div>
 </div>
@@ -1322,37 +1271,6 @@ IMPORTANT</h3>
 
 <p>Size of element. </p>
 <p >Demands RectTransform if not overridden. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Event Documentation</h2>
-<a id="a7177576ee521ba60fcd6c2531d7055e0" name="a7177576ee521ba60fcd6c2531d7055e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7177576ee521ba60fcd6c2531d7055e0">&#9670;&nbsp;</a></span>eNoticedUnityHierarchyPositionChange</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action&lt;<a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html">GUIElement</a>, Transform, int&gt; Doloro.UIEngine2.GUIElement.eNoticedUnityHierarchyPositionChange</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Occurs when system handler noticing that the place of GUI element in Unity-site hierarchy is changed. </p>
-<h3><a class="anchor" id="autotoc_md163"></a>
-Arguments</h3>
-<p ><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">GUIElement</a> - element itself. Transform - new parent. int - new child index at the parent child hierarchy.</p>
-<h3><a class="anchor" id="autotoc_md164"></a>
-Note</h3>
-<p >Not calling immediately. If you need to force check - call <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html#ac9c69aba93c53085731d37a9bb15b119" title="Checks is element changed itself position at the Unity-site hierarchy.">IsTheSameUnityHierarchyPosition</a> property. In case of false the events would be called automatically. </p>
 
 </div>
 </div>

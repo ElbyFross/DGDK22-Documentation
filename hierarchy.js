@@ -175,7 +175,7 @@ var hierarchy =
       [ "Doloro.AI.DAIInspector.StringInspectorProperty", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_string_inspector_property.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< ItemProperty, ItemPropertyGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
-      [ "Doloro.InvetorySystem.UI.ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html", null ]
+      [ "Doloro.InvetorySystem.UI.ItemPropertiesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_collection_data_conector.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< Storage, StorageGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
       [ "Doloro.InvetorySystem.UI.StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_collection_data_conector.html", [
@@ -682,15 +682,15 @@ var hierarchy =
       [ "Doloro.InvetorySystem.Demo.StorageDatabaseGenerator", "class_doloro_1_1_invetory_system_1_1_demo_1_1_storage_database_generator.html", null ],
       [ "Doloro.InvetorySystem.EntityProperty", "class_doloro_1_1_invetory_system_1_1_entity_property.html", [
         [ "Doloro.InvetorySystem.ItemProperty", "class_doloro_1_1_invetory_system_1_1_item_property.html", [
-          [ "Doloro.InvetorySystem.AssetPropertyItemFeature", "class_doloro_1_1_invetory_system_1_1_asset_property_item_feature.html", null ]
+          [ "Doloro.InvetorySystem.UI.ItemPropertyGUIElement.AssetPropertyAdapter", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_property_g_u_i_element_1_1_asset_property_adapter.html", null ]
         ] ],
         [ "Doloro.InvetorySystem.Properties.VolumetricSpace.EntityVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_entity_volume.html", null ],
         [ "Doloro.InvetorySystem.StorageProperty", "class_doloro_1_1_invetory_system_1_1_storage_property.html", [
           [ "Doloro.InvetorySystem.FilteringStorageProperty", "class_doloro_1_1_invetory_system_1_1_filtering_storage_property.html", [
+            [ "Doloro.InvetorySystem.Properties.StorageItemsTagsFilter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_items_tags_filter.html", null ],
             [ "Doloro.InvetorySystem.Properties.StorageLock", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock.html", null ],
             [ "Doloro.InvetorySystem.Properties.StorageSlotsLimiter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter.html", null ],
             [ "Doloro.InvetorySystem.Properties.StorageWeightLimiter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html", null ],
-            [ "Doloro.InvetorySystem.Properties.TagsFilteredStorage", "class_doloro_1_1_invetory_system_1_1_properties_1_1_tags_filtered_storage.html", null ],
             [ "Doloro.InvetorySystem.Properties.VolumetricSpace.StorageVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html", null ]
           ] ],
           [ "Doloro.InvetorySystem.Modules.Shops.Shop", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop.html", null ],

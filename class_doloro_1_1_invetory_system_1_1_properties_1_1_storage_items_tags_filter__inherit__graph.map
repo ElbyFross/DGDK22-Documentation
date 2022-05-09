@@ -1,0 +1,7 @@
+<map id="Doloro.InvetorySystem.Properties.StorageItemsTagsFilter" name="Doloro.InvetorySystem.Properties.StorageItemsTagsFilter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,304,224,345"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_filtering_storage_property.html" title="The storage property that implements some rules that can block the item from storage using." alt="" coords="33,229,196,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality." alt="" coords="57,155,173,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_entity_property.html" title="The custom property related to instance that extends entity&#39;s features." alt="" coords="62,80,167,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="59,5,170,32"/>
+</map>
