@@ -223,6 +223,12 @@ var hierarchy =
       [ "Doloro.AI.DAIDebugger.PatchingTool.ObsoletePropertyPatcher", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_obsolete_property_patcher.html", null ],
       [ "Doloro.AI.DAIDebugger.PatchingTool.VariablesVersionPatcher", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_variables_version_patcher.html", null ]
     ] ],
+    [ "Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer< ItemProperty >", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html", [
+      [ "Doloro.InvetorySystem.StoragesDatabase.ItemContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html", null ]
+    ] ],
+    [ "Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer< StorageProperty >", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html", [
+      [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
+    ] ],
     [ "Doloro.AI.Sensors.Filters.ASensorFilterAction< Doloro.Sensors.Filters.LayerSensorFilter >", "class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_a_sensor_filter_action.html", [
       [ "Doloro.AI.Sensors.Filters.FilterByLayer", "class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_filter_by_layer.html", null ]
     ] ],
@@ -501,6 +507,8 @@ var hierarchy =
         [ "Doloro.Graphs.AStarPath", "class_doloro_1_1_graphs_1_1_a_star_path.html", null ]
       ] ],
       [ "Doloro.InvetorySystem.Properties.VolumetricSpace.StorageVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html", null ],
+      [ "Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer< Property >", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html", null ],
+      [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ],
       [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
     ] ],
     [ "IEnumerator", null, [
@@ -824,7 +832,6 @@ var hierarchy =
     [ "Doloro.AI.DAIStudio.ResourcesHelpers", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_resources_helpers.html", null ],
     [ "Doloro.DataManagement.DynamicResources.ResourcesManager", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html", null ],
     [ "Doloro.EditorConfiguration.RuntimeConstants", "class_doloro_1_1_editor_configuration_1_1_runtime_constants.html", null ],
-    [ "Doloro.InvetorySystem.RuntimeStoragesHelper", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html", null ],
     [ "ScriptableObject", null, [
       [ "Doloro.AI.Core.DAIProject", "class_doloro_1_1_a_i_1_1_core_1_1_d_a_i_project.html", null ],
       [ "Doloro.AI.Core.PipelineMap", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html", null ],
@@ -858,6 +865,7 @@ var hierarchy =
       [ "Doloro.EditorExtension.SmallToolsHub.Plugins.ScenePlacementPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_scene_placement_plugin.html", null ]
     ] ],
     [ "Doloro.EditorExtension.SmallToolsHub.STHPluginHelpers", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers.html", null ],
+    [ "Doloro.InvetorySystem.StoragesService", "class_doloro_1_1_invetory_system_1_1_storages_service.html", null ],
     [ "Doloro.DataManagement.Tables.TableEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html", null ],
     [ "Doloro.DataManagement.Tables.TableStyles", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles.html", null ],
     [ "Doloro.AI.DAIInspector.TabsInspectorHelper", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_tabs_inspector_helper.html", null ],

@@ -519,12 +519,12 @@ var annotated_dup =
         [ "Item", "class_doloro_1_1_invetory_system_1_1_item.html", "class_doloro_1_1_invetory_system_1_1_item" ],
         [ "ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
         [ "ItemProperty", "class_doloro_1_1_invetory_system_1_1_item_property.html", "class_doloro_1_1_invetory_system_1_1_item_property" ],
-        [ "RuntimeStoragesHelper", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html", "class_doloro_1_1_invetory_system_1_1_runtime_storages_helper" ],
         [ "Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", "class_doloro_1_1_invetory_system_1_1_storage" ],
         [ "StorageCaller", "class_doloro_1_1_invetory_system_1_1_storage_caller.html", "class_doloro_1_1_invetory_system_1_1_storage_caller" ],
         [ "StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", null ],
         [ "StorageProperty", "class_doloro_1_1_invetory_system_1_1_storage_property.html", "class_doloro_1_1_invetory_system_1_1_storage_property" ],
         [ "StoragesDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html", "class_doloro_1_1_invetory_system_1_1_storages_database" ],
+        [ "StoragesService", "class_doloro_1_1_invetory_system_1_1_storages_service.html", "class_doloro_1_1_invetory_system_1_1_storages_service" ],
         [ "TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", "class_doloro_1_1_invetory_system_1_1_transaction_service" ]
       ] ],
       [ "Localization", "namespace_doloro_1_1_localization.html", [

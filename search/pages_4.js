@@ -5,6 +5,5 @@ var searchData=
   ['elements_20collection_2',['Elements Collection',['../dui2-el_col.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]],
   ['errors_20list_3',['Errors List',['../dai-debug-env-debug_tool-err.html',1,'dai-debug-env-debug_tool']]],
   ['evirounment_20sensors_4',['Evirounment sensors',['../dsensors-env.html',1,'md_Doloro_GDK_Doloro_Sensor_README']]],
-  ['execution_20logic_20_26_20practices_5',['Execution logic &amp; Practices',['../dai_core_gs_exe.html',1,'dai_core_gs']]],
-  ['extensions_6',['Extensions',['../dai-inspector_ext.html',1,'md_Doloro_GDK_Doloro_Inventory_README']]]
+  ['execution_20logic_20_26_20practices_5',['Execution logic &amp; Practices',['../dai_core_gs_exe.html',1,'dai_core_gs']]]
 ];

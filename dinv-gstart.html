@@ -88,13 +88,7 @@ $(document).ready(function(){initNavTree('dinv-gstart.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#s_dinv_ds_item_properties">Item properties</a></li>
-<li class="level1"><a href="#s_dinv_ds_storage_properties">Storage properties</a><ul><li class="level2"><a href="#s_dinv_ds_storage_properties_filtering">Filtering property</a></li>
-</ul>
-</li>
-<li class="level1"><a href="#s_dinv_ds_db">Storages</a></li>
-<li class="level1"><a href="#s_dinv_ds_ecs">ECS</a><ul><li class="level2"><a href="#s_dinv_ds_db_rent">How to rent entity</a></li>
-<li class="level2"><a href="#s_dinv_ds_db_rel">How to release enity</a></li>
+<ul><li class="level1"><a href="#dinv-gstart-arch">Architecture</a><ul><li class="level2"><a href="#dinv-gstart-arch-m">Main pillars</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#s_dinv_ds_ext">Extending</a><ul><li class="level2"><a href="#s_dinv_ds_ext_ns">New storages</a></li>
@@ -103,57 +97,20 @@ $(document).ready(function(){initNavTree('dinv-gstart.html',''); initResizable()
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="s_dinv_ds_item_properties"></a>
-Item properties</h1>
+<div class="textblock"><h1><a class="anchor" id="dinv-gstart-arch"></a>
+Architecture</h1>
+<h2><a class="anchor" id="dinv-gstart-arch-m"></a>
+Main pillars</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_item_property.html" title="The custom property of the Item instance that defines item moderation policy.">Doloro.InvetorySystem.ItemProperty</a></p>
 <hr  />
-<h1><a class="anchor" id="s_dinv_ds_storage_properties"></a>
-Storage properties</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality.">Doloro.InvetorySystem.StorageProperty</a></p>
-<p ><br  />
-</p>
-<h2><a class="anchor" id="s_dinv_ds_storage_properties_filtering"></a>
-Filtering property</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_filtering_storage_property.html" title="The storage property that implements some rules that can block the item from storage using.">Doloro.InvetorySystem.FilteringStorageProperty</a></p>
-<hr  />
-<h1><a class="anchor" id="s_dinv_ds_db"></a>
-Storages</h1>
-<p >A data related to the storages state holding by the singleton database accessible by the <code>StoragesDatabase</code> API. <br  />
-That data could be serialized to binary view and saved on the customer's computer for cross-session using.</p>
-<hr  />
-<h1><a class="anchor" id="s_dinv_ds_ecs"></a>
-ECS</h1>
-<p >Inventory system has implemented <code>Entity-Component-System</code> conception that recomemended to be used via the <code>RuntimeStoragesHelper</code> service. In that case any <code>Storage</code> within in-game world wold exist only when you need it. Any other time its content will be stored inside the <code>StoragesDatabase</code> without creating garbage on the scene and damaging of customer's computer performance.</p>
-<p ><b>Remarks</b> <br  />
-The service always holds at least one entity of ones loaded resource on the scene even if it have been released from renting. <br  />
-That made to prevent unnecessary often instantiations during each call. <br  />
-In case if you trying to rent entity but the single-tone entity already rented the system will create temporary entity that will be destroyed immediately as soon as released.</p>
-<p ><br  />
-</p>
-<h2><a class="anchor" id="s_dinv_ds_db_rent"></a>
-How to rent entity</h2>
-<p >There is several ways to rent an enity but the traditional one is to ask for enity with the <code>Storage.id</code> provided by the <code>StoragesDatabase</code> during storage registration.</p>
-<div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">var storageEntity = Doloro.InvetorySystem.RentStorrageEntity(storageId);</div>
-</div><!-- fragment --><p ><br  />
-</p>
-<h2><a class="anchor" id="s_dinv_ds_db_rel"></a>
-How to release enity</h2>
-<p >When you are done with entity access and it's not required anymore you hist need to release it with the same source as it was rented.</p>
-<div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">Doloro.InvetorySystem.ReleaseRentedEntity(storageId)</div>
-</div><!-- fragment --><hr  />
 <h1><a class="anchor" id="s_dinv_ds_ext"></a>
 Extending</h1>
 <h2><a class="anchor" id="s_dinv_ds_ext_ns"></a>
 New storages</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty page</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty page</dd></dl>
 <h2><a class="anchor" id="s_dinv_ds_ext_itm"></a>
 New items</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty page</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty page</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

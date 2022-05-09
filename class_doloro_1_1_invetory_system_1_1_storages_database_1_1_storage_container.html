@@ -99,16 +99,18 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_invetory_system_1_1_s
 <p >Contains meta data related to the in-game storage instance that describes how to recreate it.</p>
 <p >Used <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Storage</a> prefab resource defined with the ISignedResource properties.</p>
 <p >Not allows direct access to the items. Use <a class="el" href="class_doloro_1_1_invetory_system_1_1_transaction_service.html" title="Services that handles transactions between right owners.">TransactionService</a> to handle items transfer. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_doloro_1_1_invetory_system_1_1_runtime_storages_helper.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">RuntimeStoragesHelper</a></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">StoragesService</a></dd></dl>
 </div><div class="dynheader">
 Inheritance diagram for Doloro.InvetorySystem.StoragesDatabase.StorageContainer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container__inherit__graph.png" border="0" usemap="#a_doloro_8_invetory_system_8_storages_database_8_storage_container_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_doloro_8_invetory_system_8_storages_database_8_storage_container_inherit__map" id="a_doloro_8_invetory_system_8_storages_database_8_storage_container_inherit__map">
-<area shape="rect" title="Container that using as data entry for the StoragesDatabase." alt="" coords="185,80,393,121"/>
-<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
-<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="229,5,349,32"/>
-<area shape="rect" title=" " alt="" coords="373,5,465,32"/>
+<area shape="rect" title="Container that using as data entry for the StoragesDatabase." alt="" coords="256,123,464,164"/>
+<area shape="rect" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html" title=" " alt="" coords="21,5,193,47"/>
+<area shape="rect" title=" " alt="" coords="7,71,206,98"/>
+<area shape="rect" title=" " alt="" coords="5,123,208,164"/>
+<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="47,189,167,215"/>
+<area shape="rect" title=" " alt="" coords="61,239,153,266"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -116,10 +118,12 @@ Collaboration diagram for Doloro.InvetorySystem.StoragesDatabase.StorageContaine
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container__coll__graph.png" border="0" usemap="#a_doloro_8_invetory_system_8_storages_database_8_storage_container_coll__map" alt="Collaboration graph"/></div>
 <map name="a_doloro_8_invetory_system_8_storages_database_8_storage_container_coll__map" id="a_doloro_8_invetory_system_8_storages_database_8_storage_container_coll__map">
-<area shape="rect" title="Container that using as data entry for the StoragesDatabase." alt="" coords="185,80,393,121"/>
-<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
-<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="229,5,349,32"/>
-<area shape="rect" title=" " alt="" coords="373,5,465,32"/>
+<area shape="rect" title="Container that using as data entry for the StoragesDatabase." alt="" coords="256,123,464,164"/>
+<area shape="rect" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html" title=" " alt="" coords="21,5,193,47"/>
+<area shape="rect" title=" " alt="" coords="7,71,206,98"/>
+<area shape="rect" title=" " alt="" coords="5,123,208,164"/>
+<area shape="rect" href="interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="47,189,167,215"/>
+<area shape="rect" title=" " alt="" coords="61,239,153,266"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -144,27 +148,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0519ad1d1029472a2a659f31f6a087b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a0519ad1d1029472a2a659f31f6a087b3">Find</a> (string bundle, string key)</td></tr>
 <tr class="memdesc:a0519ad1d1029472a2a659f31f6a087b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for storage entry related to the resource.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a0519ad1d1029472a2a659f31f6a087b3">More...</a><br /></td></tr>
 <tr class="separator:a0519ad1d1029472a2a659f31f6a087b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ed76332c892aa6189ef18a5cfd1379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a97ed76332c892aa6189ef18a5cfd1379">SetProperty</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html">StorageProperty</a> prop)</td></tr>
-<tr class="memdesc:a97ed76332c892aa6189ef18a5cfd1379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a97ed76332c892aa6189ef18a5cfd1379">More...</a><br /></td></tr>
-<tr class="separator:a97ed76332c892aa6189ef18a5cfd1379"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a766aa9928393d9ecbd58e8c32c7ce012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a766aa9928393d9ecbd58e8c32c7ce012">SetProperty</a> (Type propType, byte[] data)</td></tr>
-<tr class="memdesc:a766aa9928393d9ecbd58e8c32c7ce012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a766aa9928393d9ecbd58e8c32c7ce012">More...</a><br /></td></tr>
-<tr class="separator:a766aa9928393d9ecbd58e8c32c7ce012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e5d0f94d9ab21c141921dae51210b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a36e5d0f94d9ab21c141921dae51210b9">SetProperty</a> (string propFullType, byte[] data)</td></tr>
-<tr class="memdesc:a36e5d0f94d9ab21c141921dae51210b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a36e5d0f94d9ab21c141921dae51210b9">More...</a><br /></td></tr>
-<tr class="separator:a36e5d0f94d9ab21c141921dae51210b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af099c6c211c6d62c98d8f675460fdb9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#af099c6c211c6d62c98d8f675460fdb9a">ContainsProperty</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html">StorageProperty</a> prop)</td></tr>
-<tr class="memdesc:af099c6c211c6d62c98d8f675460fdb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#af099c6c211c6d62c98d8f675460fdb9a">More...</a><br /></td></tr>
-<tr class="separator:af099c6c211c6d62c98d8f675460fdb9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad501a69d627f26746b1be3fe7d67eb5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#ad501a69d627f26746b1be3fe7d67eb5b">ContainsProperty</a> (Type prop)</td></tr>
-<tr class="memdesc:ad501a69d627f26746b1be3fe7d67eb5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#ad501a69d627f26746b1be3fe7d67eb5b">More...</a><br /></td></tr>
-<tr class="separator:ad501a69d627f26746b1be3fe7d67eb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56982854e7138327931e2227f1b85390"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a56982854e7138327931e2227f1b85390">ContainsProperty</a> (string prop)</td></tr>
-<tr class="memdesc:a56982854e7138327931e2227f1b85390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a56982854e7138327931e2227f1b85390">More...</a><br /></td></tr>
-<tr class="separator:a56982854e7138327931e2227f1b85390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1567ba0f4ae2dc67e38ba09e56dccf6f"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a1567ba0f4ae2dc67e38ba09e56dccf6f">GetEnumerator</a> ()</td></tr>
 <tr class="memdesc:a1567ba0f4ae2dc67e38ba09e56dccf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns enumerator of stored items.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a1567ba0f4ae2dc67e38ba09e56dccf6f">More...</a><br /></td></tr>
 <tr class="separator:a1567ba0f4ae2dc67e38ba09e56dccf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b428d99613f852b2c9dbca93e0b088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#ac8b428d99613f852b2c9dbca93e0b088">SetProperty</a> (Property prop)</td></tr>
+<tr class="memdesc:ac8b428d99613f852b2c9dbca93e0b088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#ac8b428d99613f852b2c9dbca93e0b088">More...</a><br /></td></tr>
+<tr class="separator:ac8b428d99613f852b2c9dbca93e0b088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbffd95bde9a87552fe015a006fac7ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#adbffd95bde9a87552fe015a006fac7ac">SetProperty</a> (Type propType, byte[] data)</td></tr>
+<tr class="memdesc:adbffd95bde9a87552fe015a006fac7ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#adbffd95bde9a87552fe015a006fac7ac">More...</a><br /></td></tr>
+<tr class="separator:adbffd95bde9a87552fe015a006fac7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076c9d29a1bbed5d324ff4d808727f5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a076c9d29a1bbed5d324ff4d808727f5c">SetProperty</a> (string propFullType, byte[] data)</td></tr>
+<tr class="memdesc:a076c9d29a1bbed5d324ff4d808727f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects session data from the property and stores it in container.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a076c9d29a1bbed5d324ff4d808727f5c">More...</a><br /></td></tr>
+<tr class="separator:a076c9d29a1bbed5d324ff4d808727f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd1bca917fe5a35b69a96da6ac22eaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#aefd1bca917fe5a35b69a96da6ac22eaa">ContainsProperty</a> (Property prop)</td></tr>
+<tr class="memdesc:aefd1bca917fe5a35b69a96da6ac22eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#aefd1bca917fe5a35b69a96da6ac22eaa">More...</a><br /></td></tr>
+<tr class="separator:aefd1bca917fe5a35b69a96da6ac22eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94497dbab5ac5f525cb6ad513670ccb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a94497dbab5ac5f525cb6ad513670ccb8">ContainsProperty</a> (Type prop)</td></tr>
+<tr class="memdesc:a94497dbab5ac5f525cb6ad513670ccb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a94497dbab5ac5f525cb6ad513670ccb8">More...</a><br /></td></tr>
+<tr class="separator:a94497dbab5ac5f525cb6ad513670ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de3052dc1ba245e7ce3848eb7d6b31a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a5de3052dc1ba245e7ce3848eb7d6b31a">ContainsProperty</a> (string prop)</td></tr>
+<tr class="memdesc:a5de3052dc1ba245e7ce3848eb7d6b31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the container contains binary data related to the property.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a5de3052dc1ba245e7ce3848eb7d6b31a">More...</a><br /></td></tr>
+<tr class="separator:a5de3052dc1ba245e7ce3848eb7d6b31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0790d0c06df85816170b8f68d38723cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a0790d0c06df85816170b8f68d38723cf">DropProperty</a> (Type prop)</td></tr>
+<tr class="memdesc:a0790d0c06df85816170b8f68d38723cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops property related data.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a0790d0c06df85816170b8f68d38723cf">More...</a><br /></td></tr>
+<tr class="separator:a0790d0c06df85816170b8f68d38723cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af754e9d147d739584eee44664822d572"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#af754e9d147d739584eee44664822d572">DropProperty</a> (string prop)</td></tr>
+<tr class="memdesc:af754e9d147d739584eee44664822d572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops property data.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#af754e9d147d739584eee44664822d572">More...</a><br /></td></tr>
+<tr class="separator:af754e9d147d739584eee44664822d572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -183,16 +193,11 @@ Package Functions</h2></td></tr>
 <tr class="separator:afcf60f8d173c52491d5b36a412007dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0742cc3a7d1422cc9e7ff6343d7f1858"><td class="memItemLeft" align="right" valign="top"><a id="a0742cc3a7d1422cc9e7ff6343d7f1858" name="a0742cc3a7d1422cc9e7ff6343d7f1858"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnChanged</b> ()</td></tr>
+<tr class="memdesc:a0742cc3a7d1422cc9e7ff6343d7f1858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs as soon as container content has been changed. <br /></td></tr>
 <tr class="separator:a0742cc3a7d1422cc9e7ff6343d7f1858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a300c3b81b81c095a8074fc50afaadc75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a300c3b81b81c095a8074fc50afaadc75">this[Type type]</a><code> [get]</code></td></tr>
-<tr class="memdesc:a300c3b81b81c095a8074fc50afaadc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html" title="The container fro cross-session hold of the StorageProperty data.">PropertyContainer</a> by type in string format in case if it exists.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a300c3b81b81c095a8074fc50afaadc75">More...</a><br /></td></tr>
-<tr class="separator:a300c3b81b81c095a8074fc50afaadc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f66d96d377258a6dbc09747d429f7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a6f66d96d377258a6dbc09747d429f7c2">this[string type]</a><code> [get]</code></td></tr>
-<tr class="memdesc:a6f66d96d377258a6dbc09747d429f7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html" title="The container fro cross-session hold of the StorageProperty data.">PropertyContainer</a> by type in string format in case if it exists.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a6f66d96d377258a6dbc09747d429f7c2">More...</a><br /></td></tr>
-<tr class="separator:a6f66d96d377258a6dbc09747d429f7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8709f4dc27ce79f6ae993a98b6c5fce6"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6">id</a><code> [get]</code></td></tr>
 <tr class="memdesc:a8709f4dc27ce79f6ae993a98b6c5fce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique id provided to the storage.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6">More...</a><br /></td></tr>
 <tr class="separator:a8709f4dc27ce79f6ae993a98b6c5fce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,10 +207,16 @@ Properties</h2></td></tr>
 <tr class="memitem:a32f00e84fd3ce5797617c2bfaeb0ec1b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a32f00e84fd3ce5797617c2bfaeb0ec1b">Key</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a32f00e84fd3ce5797617c2bfaeb0ec1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource key related to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Storage</a> resource binded to the data set.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a32f00e84fd3ce5797617c2bfaeb0ec1b">More...</a><br /></td></tr>
 <tr class="separator:a32f00e84fd3ce5797617c2bfaeb0ec1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149abdf8806dc75291f89f3c85af2227"><td class="memItemLeft" align="right" valign="top"><a id="a149abdf8806dc75291f89f3c85af2227" name="a149abdf8806dc75291f89f3c85af2227"></a>
+<tr class="memitem:a30a7dfbd37b2b01c17179bf01d27922c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a30a7dfbd37b2b01c17179bf01d27922c">this[Type type]</a><code> [get]</code></td></tr>
+<tr class="memdesc:a30a7dfbd37b2b01c17179bf01d27922c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns PropertyContainer by type in string format in case if it exists.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a30a7dfbd37b2b01c17179bf01d27922c">More...</a><br /></td></tr>
+<tr class="separator:a30a7dfbd37b2b01c17179bf01d27922c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6005bbf829c7664580a146bf98cfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a2d6005bbf829c7664580a146bf98cfa9">this[string type]</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2d6005bbf829c7664580a146bf98cfa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns PropertyContainer by type in string format in case if it exists.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a2d6005bbf829c7664580a146bf98cfa9">More...</a><br /></td></tr>
+<tr class="separator:a2d6005bbf829c7664580a146bf98cfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9409c4cc544e1435567c1b9ee074be8"><td class="memItemLeft" align="right" valign="top"><a id="ac9409c4cc544e1435567c1b9ee074be8" name="ac9409c4cc544e1435567c1b9ee074be8"></a>
 Dictionary&lt; string, <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>properties</b><code> [get]</code></td></tr>
-<tr class="memdesc:a149abdf8806dc75291f89f3c85af2227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality.">StorageProperty</a> related cross-session data in binary format. <br /></td></tr>
-<tr class="separator:a149abdf8806dc75291f89f3c85af2227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ac9409c4cc544e1435567c1b9ee074be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of Property related cross-session data in binary format. <br /></td></tr>
+<tr class="separator:ac9409c4cc544e1435567c1b9ee074be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -319,20 +330,28 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="af099c6c211c6d62c98d8f675460fdb9a" name="af099c6c211c6d62c98d8f675460fdb9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af099c6c211c6d62c98d8f675460fdb9a">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[1/3]</span></h2>
+<a id="aefd1bca917fe5a35b69a96da6ac22eaa" name="aefd1bca917fe5a35b69a96da6ac22eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd1bca917fe5a35b69a96da6ac22eaa">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Doloro.InvetorySystem.StoragesDatabase.StorageContainer.ContainsProperty </td>
+          <td class="memname">bool <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.ContainsProperty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html">StorageProperty</a>&#160;</td>
+          <td class="paramtype">Property&#160;</td>
           <td class="paramname"><em>prop</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Checks is the container contains binary data related to the property. </p>
@@ -346,20 +365,28 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a56982854e7138327931e2227f1b85390" name="a56982854e7138327931e2227f1b85390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56982854e7138327931e2227f1b85390">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[2/3]</span></h2>
+<a id="a5de3052dc1ba245e7ce3848eb7d6b31a" name="a5de3052dc1ba245e7ce3848eb7d6b31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de3052dc1ba245e7ce3848eb7d6b31a">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Doloro.InvetorySystem.StoragesDatabase.StorageContainer.ContainsProperty </td>
+          <td class="memname">bool <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.ContainsProperty </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>prop</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Checks is the container contains binary data related to the property. </p>
@@ -373,20 +400,28 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="ad501a69d627f26746b1be3fe7d67eb5b" name="ad501a69d627f26746b1be3fe7d67eb5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad501a69d627f26746b1be3fe7d67eb5b">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[3/3]</span></h2>
+<a id="a94497dbab5ac5f525cb6ad513670ccb8" name="a94497dbab5ac5f525cb6ad513670ccb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94497dbab5ac5f525cb6ad513670ccb8">&#9670;&nbsp;</a></span>ContainsProperty() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Doloro.InvetorySystem.StoragesDatabase.StorageContainer.ContainsProperty </td>
+          <td class="memname">bool <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.ContainsProperty </td>
           <td>(</td>
           <td class="paramtype">Type&#160;</td>
           <td class="paramname"><em>prop</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Checks is the container contains binary data related to the property. </p>
@@ -397,6 +432,76 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> in case if there is stored property data.</dd></dl>
+
+</div>
+</div>
+<a id="af754e9d147d739584eee44664822d572" name="af754e9d147d739584eee44664822d572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af754e9d147d739584eee44664822d572">&#9670;&nbsp;</a></span>DropProperty() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.DropProperty </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops property data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>Property name to release.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Is the property container has been found and released.</dd></dl>
+
+</div>
+</div>
+<a id="a0790d0c06df85816170b8f68d38723cf" name="a0790d0c06df85816170b8f68d38723cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0790d0c06df85816170b8f68d38723cf">&#9670;&nbsp;</a></span>DropProperty() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.DropProperty </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops property related data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>Type of the Property to data release.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Is the property container has been found and released.</dd></dl>
 
 </div>
 </div>
@@ -557,20 +662,28 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a97ed76332c892aa6189ef18a5cfd1379" name="a97ed76332c892aa6189ef18a5cfd1379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97ed76332c892aa6189ef18a5cfd1379">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[1/3]</span></h2>
+<a id="ac8b428d99613f852b2c9dbca93e0b088" name="ac8b428d99613f852b2c9dbca93e0b088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b428d99613f852b2c9dbca93e0b088">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Doloro.InvetorySystem.StoragesDatabase.StorageContainer.SetProperty </td>
+          <td class="memname">void <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.SetProperty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html">StorageProperty</a>&#160;</td>
+          <td class="paramtype">Property&#160;</td>
           <td class="paramname"><em>prop</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Collects session data from the property and stores it in container. </p>
@@ -583,14 +696,17 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a36e5d0f94d9ab21c141921dae51210b9" name="a36e5d0f94d9ab21c141921dae51210b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36e5d0f94d9ab21c141921dae51210b9">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[2/3]</span></h2>
+<a id="a076c9d29a1bbed5d324ff4d808727f5c" name="a076c9d29a1bbed5d324ff4d808727f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a076c9d29a1bbed5d324ff4d808727f5c">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Doloro.InvetorySystem.StoragesDatabase.StorageContainer.SetProperty </td>
+          <td class="memname">void <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.SetProperty </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>propFullType</em>, </td>
@@ -607,6 +723,11 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Collects session data from the property and stores it in container. </p>
@@ -620,14 +741,17 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a766aa9928393d9ecbd58e8c32c7ce012" name="a766aa9928393d9ecbd58e8c32c7ce012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a766aa9928393d9ecbd58e8c32c7ce012">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[3/3]</span></h2>
+<a id="adbffd95bde9a87552fe015a006fac7ac" name="adbffd95bde9a87552fe015a006fac7ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbffd95bde9a87552fe015a006fac7ac">&#9670;&nbsp;</a></span>SetProperty() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Doloro.InvetorySystem.StoragesDatabase.StorageContainer.SetProperty </td>
+          <td class="memname">void <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.SetProperty </td>
           <td>(</td>
           <td class="paramtype">Type&#160;</td>
           <td class="paramname"><em>propType</em>, </td>
@@ -644,6 +768,11 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Collects session data from the property and stores it in container. </p>
@@ -737,8 +866,8 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a6f66d96d377258a6dbc09747d429f7c2" name="a6f66d96d377258a6dbc09747d429f7c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f66d96d377258a6dbc09747d429f7c2">&#9670;&nbsp;</a></span>this[string type]</h2>
+<a id="a2d6005bbf829c7664580a146bf98cfa9" name="a2d6005bbf829c7664580a146bf98cfa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6005bbf829c7664580a146bf98cfa9">&#9670;&nbsp;</a></span>this[string type]</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,12 +876,12 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a> Doloro.InvetorySystem.StoragesDatabase.StorageContainer.this[string type]</td>
+          <td class="memname"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.this[string type]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -768,8 +897,8 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 
 </div>
 </div>
-<a id="a300c3b81b81c095a8074fc50afaadc75" name="a300c3b81b81c095a8074fc50afaadc75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a300c3b81b81c095a8074fc50afaadc75">&#9670;&nbsp;</a></span>this[Type type]</h2>
+<a id="a30a7dfbd37b2b01c17179bf01d27922c" name="a30a7dfbd37b2b01c17179bf01d27922c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a7dfbd37b2b01c17179bf01d27922c">&#9670;&nbsp;</a></span>this[Type type]</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -778,12 +907,12 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a> Doloro.InvetorySystem.StoragesDatabase.StorageContainer.this[Type type]</td>
+          <td class="memname"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html">PropertyContainer</a> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html">Doloro.InvetorySystem.StoragesDatabase.APropertyHolderContainer</a>&lt; Property &gt;.this[Type type]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -791,7 +920,7 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 <p>Returns <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html" title="The container fro cross-session hold of the StorageProperty data.">PropertyContainer</a> by type in string format in case if it exists. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>Type of the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality.">StorageProperty</a> instance. </td></tr>
+    <tr><td class="paramname">type</td><td>Type of the Property instance. </td></tr>
   </table>
   </dd>
 </dl>
@@ -800,7 +929,7 @@ static Action&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_stora
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Doloro-GDK/Doloro-Inventory/Runtime/Core/Databases/StoragesDatabase.StorageContainer.cs</li>
+<li>Doloro-GDK/Doloro-Inventory/Runtime/Core/Databases/Entities/StoragesDatabase.StorageContainer.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
