@@ -214,12 +214,13 @@ var NAVTREEINDEX62 =
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_ex":[12,4,2],
 "dgraphs_pathfinding_new.html#dgraphs_pathfinding_new_im":[12,4,1],
 "dinv-gs.html":[14,1],
-"dinv-gs.html#dinv-gs-demos":[14,1,5],
-"dinv-gs.html#dinv-gs-gui":[14,1,3],
-"dinv-gs.html#dinv-gs-modules":[14,1,4],
-"dinv-gs.html#dinv-gs-resoruces":[14,1,0],
-"dinv-gs.html#dinv-gs-services":[14,1,2],
-"dinv-gs.html#dinv-gs-session":[14,1,1],
+"dinv-gs.html#dinv-gs-a":[14,1,0],
+"dinv-gs.html#dinv-gs-demos":[14,1,6],
+"dinv-gs.html#dinv-gs-gui":[14,1,4],
+"dinv-gs.html#dinv-gs-modules":[14,1,5],
+"dinv-gs.html#dinv-gs-resoruces":[14,1,1],
+"dinv-gs.html#dinv-gs-services":[14,1,3],
+"dinv-gs.html#dinv-gs-session":[14,1,2],
 "dinv-gui.html":[14,7],
 "dinv-inventories_explorer-demo.html":[14,10],
 "dinv-inventories_explorer-demo.html#dinv-inventories_explorer-demo-a":[14,10,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "dinv-storages-database.html#dinv-storages-database-ic":[14,4,1,1],
 "dinv-storages-database.html#dinv-storages-database-pc":[14,4,1,2],
 "dinv-storages-database.html#dinv-storages-database-sc":[14,4,1,0],
-"dinv_modules.html":[14,8],
-"dinv_shops.html":[14,8,1]
+"dinv_modules.html":[14,8]
 };

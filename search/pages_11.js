@@ -1,5 +1,5 @@
 var searchData=
 [
   ['virtual_20ui_20hub_0',['Virtual UI Hub',['../dui2-vh.html',1,'md_Doloro_GDK_Doloro_UI_2_README']]],
-  ['volumetric_20storage_20module_1',['Volumetric storage module',['../dinv_volume.html',1,'dinv_modules']]]
+  ['volumetric_20storage_20sub_2dmodule_1',['Volumetric storage sub-module',['../dinv_volume.html',1,'dinv_modules']]]
 ];

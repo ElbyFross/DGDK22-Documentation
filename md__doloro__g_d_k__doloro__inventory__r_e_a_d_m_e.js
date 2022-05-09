@@ -2,11 +2,12 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
 [
     [ "About", "md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#s_dinv_a", null ],
     [ "Getting started", "dinv-gs.html", [
-      [ "Resoruces", "dinv-gs.html#dinv-gs-resoruces", null ],
+      [ "About", "dinv-gs.html#dinv-gs-a", null ],
+      [ "Resources", "dinv-gs.html#dinv-gs-resoruces", null ],
       [ "Cross-session data", "dinv-gs.html#dinv-gs-session", null ],
       [ "Services", "dinv-gs.html#dinv-gs-services", null ],
       [ "GUI elements", "dinv-gs.html#dinv-gs-gui", null ],
-      [ "Modules", "dinv-gs.html#dinv-gs-modules", null ],
+      [ "Sub-modules", "dinv-gs.html#dinv-gs-modules", null ],
       [ "Demos", "dinv-gs.html#dinv-gs-demos", null ]
     ] ],
     [ "Item", "dinv-item.html", [
@@ -44,7 +45,7 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
       [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", null ]
     ] ],
     [ "Inventory GUI", "dinv-gui.html", null ],
-    [ "Modules", "dinv_modules.html", "dinv_modules" ],
+    [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
     [ "Demo: Shops explorer", "dinv-shops_explorer-demo.html", [
       [ "About", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-a", null ],
       [ "How does it work", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-hdw", null ]
