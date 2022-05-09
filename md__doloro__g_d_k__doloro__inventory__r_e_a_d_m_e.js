@@ -41,7 +41,7 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
       [ "About", "dinv_storages_service.html#dinv_storages_service_a", null ]
     ] ],
     [ "Trasaction Service", "dinv_trasaction_service.html", [
-      [ "about", "dinv_trasaction_service.html#dinv_trasaction_service_a", null ],
+      [ "About", "dinv_trasaction_service.html#dinv_trasaction_service_a", null ],
       [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", null ]
     ] ],
     [ "Inventory GUI", "dinv-gui.html", null ],
