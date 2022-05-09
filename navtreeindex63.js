@@ -1,7 +1,7 @@
 var NAVTREEINDEX63 =
 {
 "dinv_shops.html":[14,8,1],
-"dinv_shops.html#dinv_shops":[14,8,1,0],
+"dinv_shops.html#dinv_shops-a":[14,8,1,0],
 "dinv_storages_service.html":[14,5],
 "dinv_storages_service.html#dinv_storages_service_a":[14,5,0],
 "dinv_trasaction_service.html":[14,6],
