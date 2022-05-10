@@ -92,7 +92,12 @@ $(document).ready(function(){initNavTree('dinv-gs.html',''); initResizable(); })
 <li class="level1"><a href="#dinv-gs-resoruces">Resources</a></li>
 <li class="level1"><a href="#dinv-gs-session">Cross-session data</a></li>
 <li class="level1"><a href="#dinv-gs-services">Services</a></li>
-<li class="level1"><a href="#dinv-gs-gui">GUI elements</a></li>
+<li class="level1"><a href="#dinv-gs-gui">GUI elements</a><ul><li class="level2"><a href="#dinv-gs-gui-controls">Controls</a></li>
+<li class="level2"><a href="#dinv-gs-gui-controls-ext">Controls extensions</a></li>
+<li class="level2"><a href="#dinv-gs-gui-data_connectors">Data connectors</a></li>
+<li class="level2"><a href="#dinv-gs-gui-vh">Virtual Hub extension</a></li>
+</ul>
+</li>
 <li class="level1"><a href="#dinv-gs-modules">Sub-modules</a></li>
 <li class="level1"><a href="#dinv-gs-demos">Demos</a></li>
 </ul>
@@ -101,22 +106,98 @@ $(document).ready(function(){initNavTree('dinv-gs.html',''); initResizable(); })
 About</h1>
 <p >In this category you will find brief information about each important part of the module. <br  />
 For more details you have to navigate in detailed sections devoted for each part.</p>
-<hr  />
+<p ><br  />
+</p>
 <h1><a class="anchor" id="dinv-gs-resoruces"></a>
 Resources</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The module operates each resource discreetly instead of some handling some internal solid database. <br  />
+That allows easy distribution of new resources along with Asset Bundles by using <a class="el" href="ddm-abt.html">Asset Bundles Tools</a> features.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Resource   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="dinv-item.html">Item</a>   </td><td class="markdownTableBodyNone">Resource that defines in-game item and its features.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="dinv-storage.html">Storage</a>   </td><td class="markdownTableBodyNone">Resource that defines storage type and its in-game features.   </td></tr>
+</table>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-session"></a>
 Cross-session data</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Entire game world data along with all storages and their content and states stores within serializable data base provided with the <code>StoragesDatabase</code>. <br  />
+The database provides you safe and flexible way to operate player's session data in encapsulated way via simple API.</p>
+<p ><b>Read more:</b> <a class="el" href="dinv-storages-database.html">Database</a></p>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-services"></a>
 Services</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The module's features encapsulates via services those simplify management and lower requirement for engineering skills.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Service   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="dinv_storages_service.html">Storages Service</a>   </td><td class="markdownTableBodyNone">Service that handles on-scene storages using. Encapsulated ECS features using. Handles automatic session database update.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="dinv_trasaction_service.html">Trasaction Service</a>   </td><td class="markdownTableBodyNone">Service that encapsulates cross-storages operations. Prevents internal operation from frequently bugs, like dupes, or ref forgery, facing in games.   </td></tr>
+</table>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-gui"></a>
 GUI elements</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The module implements <code>GUIElement</code> to handle internal features and services API with <a class="el" href="md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a>.</p>
+<h2><a class="anchor" id="dinv-gs-gui-controls"></a>
+Controls</h2>
+<p >The module has</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>ItemGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that cant connect base content provided with <code>Item</code> instance to in-game GUI.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>StorageGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that cant connect base content provided with <code>Storage</code> instance to in-game GUI.   </td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>empty section</dd></dl>
+<h2><a class="anchor" id="dinv-gs-gui-controls-ext"></a>
+Controls extensions</h2>
+<p ><code>ItemGUIElement</code> and <code>StorageGUIElement</code> controls supports its features extension with custom implemented <code>AEntityPropertyGUIExtension&lt;CONTROL_TYPE&gt;</code> components those connect extension to controls messages.</p>
+<p >That allows to avoid extra calls and deep hierarchy searches comparing to way of creation GUI controls for each small feature separately. <br  />
+</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Item GUI Extension   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Storage GUI Extension   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<h2><a class="anchor" id="dinv-gs-gui-data_connectors"></a>
+Data connectors</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>empty section</dd></dl>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>empty section</dd></dl>
+<h2><a class="anchor" id="dinv-gs-gui-vh"></a>
+Virtual Hub extension</h2>
+<p >The package shares several extension for <code>Virtual Hub</code> supplied with <a class="el" href="md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> module.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Storages Selection Event Relay   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Storage UI Hub Listener   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html" title="Receives events from parental VirtualUIHub and updates StorageGUIElement content along with applied v...">Doloro.InvetorySystem.UI.StorageUIHubListener</a></li>
+<li><p class="startli"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages.">Doloro.InvetorySystem.UI.StoragesSelectionEventRelay</a></p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>empty section</dd></dl>
+</li>
+</ul>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-modules"></a>
 Sub-modules</h1>

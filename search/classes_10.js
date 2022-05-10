@@ -71,7 +71,7 @@ var searchData=
   ['storagesdatabase_68',['StoragesDatabase',['../class_doloro_1_1_invetory_system_1_1_storages_database.html',1,'Doloro::InvetorySystem']]],
   ['storagesinspector_69',['StoragesInspector',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html',1,'Doloro::InvetorySystem::UI']]],
   ['storageslotslimiter_70',['StorageSlotsLimiter',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter.html',1,'Doloro::InvetorySystem::Properties']]],
-  ['storagesselectioneventretranslator_71',['StoragesSelectionEventRetranslator',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_retranslator.html',1,'Doloro::InvetorySystem::UI']]],
+  ['storagesselectioneventrelay_71',['StoragesSelectionEventRelay',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html',1,'Doloro::InvetorySystem::UI']]],
   ['storagesservice_72',['StoragesService',['../class_doloro_1_1_invetory_system_1_1_storages_service.html',1,'Doloro::InvetorySystem']]],
   ['storageuihublistener_73',['StorageUIHubListener',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html',1,'Doloro::InvetorySystem::UI']]],
   ['storagevolume_74',['StorageVolume',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],

@@ -6,7 +6,12 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
       [ "Resources", "dinv-gs.html#dinv-gs-resoruces", null ],
       [ "Cross-session data", "dinv-gs.html#dinv-gs-session", null ],
       [ "Services", "dinv-gs.html#dinv-gs-services", null ],
-      [ "GUI elements", "dinv-gs.html#dinv-gs-gui", null ],
+      [ "GUI elements", "dinv-gs.html#dinv-gs-gui", [
+        [ "Controls", "dinv-gs.html#dinv-gs-gui-controls", null ],
+        [ "Controls extensions", "dinv-gs.html#dinv-gs-gui-controls-ext", null ],
+        [ "Data connectors", "dinv-gs.html#dinv-gs-gui-data_connectors", null ],
+        [ "Virtual Hub extension", "dinv-gs.html#dinv-gs-gui-vh", null ]
+      ] ],
       [ "Sub-modules", "dinv-gs.html#dinv-gs-modules", null ],
       [ "Demos", "dinv-gs.html#dinv-gs-demos", null ]
     ] ],
@@ -19,7 +24,9 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
     [ "Storage", "dinv-storage.html", [
       [ "About", "dinv-storage.html#dinv-storage-a", null ],
       [ "Resource", "dinv-storage.html#dinv-storage-r", null ],
-      [ "Properties", "dinv-storage.html#dinv-storage-p", null ],
+      [ "Properties", "dinv-storage.html#dinv-storage-p", [
+        [ "In-box", "dinv-storage.html#dinv-storage-p-box", null ]
+      ] ],
       [ "GUI", "dinv-storage.html#dinv-storage-gui", null ]
     ] ],
     [ "Database", "dinv-storages-database.html", [

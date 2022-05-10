@@ -217,6 +217,10 @@ var NAVTREEINDEX62 =
 "dinv-gs.html#dinv-gs-a":[14,1,0],
 "dinv-gs.html#dinv-gs-demos":[14,1,6],
 "dinv-gs.html#dinv-gs-gui":[14,1,4],
+"dinv-gs.html#dinv-gs-gui-controls":[14,1,4,0],
+"dinv-gs.html#dinv-gs-gui-controls-ext":[14,1,4,1],
+"dinv-gs.html#dinv-gs-gui-data_connectors":[14,1,4,2],
+"dinv-gs.html#dinv-gs-gui-vh":[14,1,4,3],
 "dinv-gs.html#dinv-gs-modules":[14,1,5],
 "dinv-gs.html#dinv-gs-resoruces":[14,1,1],
 "dinv-gs.html#dinv-gs-services":[14,1,3],
@@ -237,6 +241,7 @@ var NAVTREEINDEX62 =
 "dinv-storage.html#dinv-storage-a":[14,3,0],
 "dinv-storage.html#dinv-storage-gui":[14,3,3],
 "dinv-storage.html#dinv-storage-p":[14,3,2],
+"dinv-storage.html#dinv-storage-p-box":[14,3,2,0],
 "dinv-storage.html#dinv-storage-r":[14,3,1],
 "dinv-storages-database.html":[14,4],
 "dinv-storages-database.html#dinv-storages-database-a":[14,4,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "dinv-storages-database.html#dinv-storages-database-arch":[14,4,1],
 "dinv-storages-database.html#dinv-storages-database-ecs":[14,4,2,0],
 "dinv-storages-database.html#dinv-storages-database-ht":[14,4,3],
-"dinv-storages-database.html#dinv-storages-database-ht-release":[14,4,3,1],
-"dinv-storages-database.html#dinv-storages-database-ht-rent":[14,4,3,0],
-"dinv-storages-database.html#dinv-storages-database-ic":[14,4,1,1],
-"dinv-storages-database.html#dinv-storages-database-pc":[14,4,1,2],
-"dinv-storages-database.html#dinv-storages-database-sc":[14,4,1,0],
-"dinv_modules.html":[14,8]
+"dinv-storages-database.html#dinv-storages-database-ht-release":[14,4,3,1]
 };

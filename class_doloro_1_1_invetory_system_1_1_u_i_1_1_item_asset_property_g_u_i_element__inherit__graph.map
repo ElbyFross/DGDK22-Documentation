@@ -1,0 +1,4 @@
+<map id="Doloro.InvetorySystem.UI.ItemAssetPropertyGUIElement" name="Doloro.InvetorySystem.UI.ItemAssetPropertyGUIElement">
+<area shape="rect" id="node1" title="GUI Element that connects AssetProperty to UI." alt="" coords="5,95,205,136"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html" title=" " alt="" coords="6,5,205,47"/>
+</map>

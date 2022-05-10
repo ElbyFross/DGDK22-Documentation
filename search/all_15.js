@@ -1,7 +1,7 @@
 var searchData=
 [
   ['uielementrect_0',['UIElementRect',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_ele01d0237c65b19d9316970da58ba4dcc5.html#a9ecfe9d4ce0c5c839ca48d263fac9c5c',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::TagUIElement::ElementActivatedException']]],
-  ['uihubeventretranslator_1',['UIHubEventRetranslator',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_retranslator.html',1,'Doloro::UIEngine2::Modules::VirtualHub']]],
+  ['uihubeventrelay_1',['UIHubEventRelay',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html',1,'Doloro::UIEngine2::Modules::VirtualHub']]],
   ['uihublistener_2',['UIHubListener',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html',1,'Doloro::UIEngine2::Modules::VirtualHub']]],
   ['uiwidth_3',['UIWidth',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a158d3e9f44c5caabaee17737e55aff25',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::EditableTagsCollectionUIElement']]],
   ['undefined_4',['Undefined',['../namespace_doloro_1_1_tools_1_1_input.html#a59152808acb1a571407c1b31cd24c59faec0fc0100c4fc1ce4eea230c3dc10360',1,'Doloro.Tools.Input.Undefined()'],['../namespace_doloro_1_1_u_i_engine2.html#ac266274ade07a6b45fb2848285d4ff23aec0fc0100c4fc1ce4eea230c3dc10360',1,'Doloro.UIEngine2.Undefined()']]],
