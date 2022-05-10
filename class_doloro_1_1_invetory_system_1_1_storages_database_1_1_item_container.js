@@ -21,11 +21,11 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container =
     [ "Bundle", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#ade8061ca7e2f2016afd3feb8a97ba6d1", null ],
     [ "Count", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a866c17da7a6d305ea07927b691cd51b9", null ],
     [ "Key", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a2b6c42481cae9cc8aa56a0cebe16afae", null ],
-    [ "properties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#ac9409c4cc544e1435567c1b9ee074be8", null ],
+    [ "properties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a50887e96eedb0b71216b1f886f83b34e", null ],
     [ "Reserved", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a9dda009982843a1adea8e059f7166bc1", null ],
     [ "Resource", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1", null ],
     [ "storageId", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#af4120e74f33a2594dfcff4da2092bfc7", null ],
-    [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a2d6005bbf829c7664580a146bf98cfa9", null ],
-    [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a30a7dfbd37b2b01c17179bf01d27922c", null ],
+    [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a2c68825594977d9c6298daaf4134b39b", null ],
+    [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a0392e5cc587263dc3146849f11d8cb8a", null ],
     [ "onChanged", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a0163c5840b86aae6ee02b202d15e0379", null ]
 ];

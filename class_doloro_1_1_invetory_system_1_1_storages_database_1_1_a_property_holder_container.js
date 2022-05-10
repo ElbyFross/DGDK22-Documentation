@@ -8,7 +8,7 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder
     [ "SetProperty", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#ac8b428d99613f852b2c9dbca93e0b088", null ],
     [ "SetProperty", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a076c9d29a1bbed5d324ff4d808727f5c", null ],
     [ "SetProperty", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#adbffd95bde9a87552fe015a006fac7ac", null ],
-    [ "properties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#ac9409c4cc544e1435567c1b9ee074be8", null ],
-    [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a2d6005bbf829c7664580a146bf98cfa9", null ],
-    [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a30a7dfbd37b2b01c17179bf01d27922c", null ]
+    [ "properties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a50887e96eedb0b71216b1f886f83b34e", null ],
+    [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a2c68825594977d9c6298daaf4134b39b", null ],
+    [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html#a0392e5cc587263dc3146849f11d8cb8a", null ]
 ];

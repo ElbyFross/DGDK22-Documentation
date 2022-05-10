@@ -18,5 +18,5 @@ var class_doloro_1_1_invetory_system_1_1_transaction_service =
     [ "PlaceTransactionOrder", "class_doloro_1_1_invetory_system_1_1_transaction_service.html#aba935654ea0593bffd8d86b2e67e656a", null ],
     [ "PlaceTransactionOrder", "class_doloro_1_1_invetory_system_1_1_transaction_service.html#af994477744af5f99b85c12335b44a29e", null ],
     [ "PlaceTransactionOrder", "class_doloro_1_1_invetory_system_1_1_transaction_service.html#ab3c7e649a546a9b400785e6eee2e4484", null ],
-    [ "LastInvalidProperty", "class_doloro_1_1_invetory_system_1_1_transaction_service.html#ad734102ed6eacedf34c4be1483d078ef", null ]
+    [ "LastInvalidProperty", "class_doloro_1_1_invetory_system_1_1_transaction_service.html#a4bb4e30587a11bdd64542602e885fbbe", null ]
 ];

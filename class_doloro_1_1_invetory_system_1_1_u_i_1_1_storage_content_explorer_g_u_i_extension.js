@@ -5,6 +5,6 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_
     [ "OnItemAddDefaultHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#ab502a2edc884c22c235824531bb80d55", null ],
     [ "collection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#a892da76256adfa07d477063a556916af", null ],
     [ "GUIPrefab", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#aec3e766650d7a9e44e758623b0789e58", null ],
-    [ "inspector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#aae5e485e359b58277120a561894f6fe9", null ],
+    [ "inspector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#aba60d99b50d86bbbdc99a4d8314baf82", null ],
     [ "OnItemAddHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_content_explorer_g_u_i_extension.html#a7b8c4ac714f96b651d4e5b67a27da5ef", null ]
 ];

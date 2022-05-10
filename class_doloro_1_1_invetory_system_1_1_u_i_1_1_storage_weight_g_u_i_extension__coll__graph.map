@@ -1,5 +1,5 @@
 <map id="Doloro.InvetorySystem.UI.StorageWeightGUIExtension" name="Doloro.InvetorySystem.UI.StorageWeightGUIExtension">
-<area shape="rect" id="node1" title="Extends StorageGUIElement or similar with Properties.StorageWeightLimiter related features." alt="" coords="93,109,281,151"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension.html" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node3" title=" " alt="" coords="225,13,317,39"/>
+<area shape="rect" id="node1" title="Extends StorageGUIElement or similar with Properties.StorageWeightLimiter related features." alt="" coords="89,109,277,151"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="219,13,311,39"/>
 </map>

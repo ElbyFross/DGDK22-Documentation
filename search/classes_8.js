@@ -38,16 +38,13 @@ var searchData=
   ['itableformatconverter_35',['ITableFormatConverter',['../interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html',1,'Doloro::DataManagement::Tables']]],
   ['itagscollection_36',['ITagsCollection',['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html',1,'Doloro::DataManagement::DynamicResources']]],
   ['item_37',['Item',['../class_doloro_1_1_invetory_system_1_1_item.html',1,'Doloro::InvetorySystem']]],
-  ['itemassetpropertyguielement_38',['ItemAssetPropertyGUIElement',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_asset_property_g_u_i_element.html',1,'Doloro::InvetorySystem::UI']]],
-  ['itemcontainer_39',['ItemContainer',['../class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html',1,'Doloro::InvetorySystem::StoragesDatabase']]],
-  ['itemeditor_40',['ItemEditor',['../class_doloro_1_1_invetory_system_1_1_item_editor.html',1,'Doloro::InvetorySystem']]],
+  ['itemcontainer_38',['ItemContainer',['../class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html',1,'Doloro::InvetorySystem::StoragesDatabase']]],
+  ['itemeditor_39',['ItemEditor',['../class_doloro_1_1_invetory_system_1_1_item_editor.html',1,'Doloro::InvetorySystem']]],
+  ['itemfeaturesguiextension_40',['ItemFeaturesGUIExtension',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html',1,'Doloro::InvetorySystem::UI']]],
   ['itemguielement_41',['ItemGUIElement',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html',1,'Doloro::InvetorySystem::UI']]],
   ['itemorder_42',['ItemOrder',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner_1_1_item_order.html',1,'Doloro::InvetorySystem::Properties::StorageContentSpawner']]],
-  ['itempropertiescollectiondataconector_43',['ItemPropertiesCollectionDataConector',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_collection_data_conector.html',1,'Doloro::InvetorySystem::UI']]],
-  ['itempropertiesguiextension_44',['ItemPropertiesGUIExtension',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_properties_g_u_i_extension.html',1,'Doloro::InvetorySystem::UI']]],
-  ['itemproperty_45',['ItemProperty',['../class_doloro_1_1_invetory_system_1_1_item_property.html',1,'Doloro::InvetorySystem']]],
-  ['itemstackweightguiextension_46',['ItemStackWeightGUIExtension',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html',1,'Doloro::InvetorySystem::UI']]],
-  ['itemuihublistener_47',['ItemUIHubListener',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener.html',1,'Doloro::InvetorySystem::UI']]],
-  ['iuniqueresource_48',['IUniqueResource',['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.IUniqueResource'],['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.Modules.MergeTool.IUniqueResource']]],
-  ['iwindowruntimeregisterentry_49',['IWindowRuntimeRegisterEntry',['../interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html',1,'Doloro::UIEngine2']]]
+  ['itemstackweightguiextension_43',['ItemStackWeightGUIExtension',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html',1,'Doloro::InvetorySystem::UI']]],
+  ['itemuihublistener_44',['ItemUIHubListener',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener.html',1,'Doloro::InvetorySystem::UI']]],
+  ['iuniqueresource_45',['IUniqueResource',['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.IUniqueResource'],['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.Modules.MergeTool.IUniqueResource']]],
+  ['iwindowruntimeregisterentry_46',['IWindowRuntimeRegisterEntry',['../interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html',1,'Doloro::UIEngine2']]]
 ];

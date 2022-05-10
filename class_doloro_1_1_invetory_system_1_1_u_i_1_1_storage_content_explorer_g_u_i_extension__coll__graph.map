@@ -1,4 +1,4 @@
 <map id="Doloro.InvetorySystem.UI.StorageContentExplorerGUIExtension" name="Doloro.InvetorySystem.UI.StorageContentExplorerGUIExtension">
 <area shape="rect" id="node1" title="GUI extension that allows to load Storage&#39;s items content to the AGUIElementsCollection instance." alt="" coords="5,95,245,136"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_property_g_u_i_extension.html" title=" " alt="" coords="28,5,223,47"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="31,5,220,47"/>
 </map>

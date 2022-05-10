@@ -1,8 +1,8 @@
 var class_doloro_1_1_invetory_system_1_1_storages_database =
 [
     [ "APropertyHolderContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container.html", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_property_holder_container" ],
+    [ "FeatureContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_feature_container.html", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_feature_container" ],
     [ "ItemContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container" ],
-    [ "PropertyContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container.html", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_property_container" ],
     [ "StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container" ],
     [ "StoragesDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a8fc8205401bcb128e96381de2559e2fc", null ],
     [ "StoragesDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html#aa10bbb3b9ebd80effdc0b2989b32a714", null ],

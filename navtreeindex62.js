@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"ddm-drt-api-drd.html":[10,5,2],
 "ddm-drt-api-drd.html#ddm-drt-api-drd-a":[10,5,2,0],
 "ddm-drt-api-drd.html#ddm-drt-api-drd-stp":[10,5,2,1],
 "ddm-drt-api-drd.html#ddm-drt-api-drd-stp-abt":[10,5,2,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "dinv-storages-database.html#dinv-storages-database-api":[14,4,2],
 "dinv-storages-database.html#dinv-storages-database-arch":[14,4,1],
 "dinv-storages-database.html#dinv-storages-database-ecs":[14,4,2,0],
-"dinv-storages-database.html#dinv-storages-database-ht":[14,4,3],
-"dinv-storages-database.html#dinv-storages-database-ht-release":[14,4,3,1]
+"dinv-storages-database.html#dinv-storages-database-ht":[14,4,3]
 };

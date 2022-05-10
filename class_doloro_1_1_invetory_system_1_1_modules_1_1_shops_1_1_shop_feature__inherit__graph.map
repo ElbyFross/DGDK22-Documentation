@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.Modules.Shops.ShopFeature" name="Doloro.InvetorySystem.Modules.Shops.ShopFeature">
+<area shape="rect" id="node1" title="Implements shop functionality to the storage." alt="" coords="5,229,215,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality." alt="" coords="50,155,170,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="55,80,165,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="55,5,165,32"/>
+</map>

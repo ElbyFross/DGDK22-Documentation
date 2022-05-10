@@ -1,11 +1,11 @@
 <map id="Doloro.InvetorySystem.Properties.VolumetricSpace.StretchableStorageVolume" name="Doloro.InvetorySystem.Properties.VolumetricSpace.StretchableStorageVolume">
-<area shape="rect" id="node1" title="Implements the conception of the volume that can be starched." alt="" coords="229,379,509,420"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="314,304,425,331"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_filtering_storage_property.html" title="The storage property that implements some rules that can block the item from storage using." alt="" coords="5,229,168,256"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_storage_property.html" title="A property attached to the Storage instance that extends its functionality." alt="" coords="29,155,145,181"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_entity_property.html" title="The custom property related to instance that extends entity&#39;s features." alt="" coords="34,80,139,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="31,5,142,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="192,229,371,256"/>
-<area shape="rect" id="node8" href="$interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html" title="Interface that should be implemented for any EntityProperty that must handle TransactionService...." alt="" coords="395,229,522,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="547,229,629,256"/>
+<area shape="rect" id="node1" title="Implements the conception of the volume that can be starched." alt="" coords="219,379,499,420"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="303,304,414,331"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html" title="The storage feature that implements some rules that can block the item from storage using." alt="" coords="5,229,157,256"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality." alt="" coords="21,155,141,181"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="27,80,136,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="26,5,137,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="181,229,360,256"/>
+<area shape="rect" id="node8" href="$interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html" title="Interface that should be implemented for any AEntityFeature that must handle TransactionService...." alt="" coords="385,229,511,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="536,229,619,256"/>
 </map>
