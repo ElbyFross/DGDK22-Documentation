@@ -497,9 +497,9 @@ var annotated_dup =
         [ "UI", "namespace_doloro_1_1_invetory_system_1_1_u_i.html", [
           [ "AContentInspectorGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element" ],
           [ "AEntityFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension" ],
-          [ "AssetPropertiesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_properties_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_properties_collection_data_conector" ],
-          [ "AssetPropertyGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_property_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_property_g_u_i_element" ],
-          [ "ItemFeaturesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension" ],
+          [ "ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element" ],
+          [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector" ],
+          [ "ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension" ],
           [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element" ],
           [ "ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension" ],
           [ "ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener" ],
@@ -513,6 +513,7 @@ var annotated_dup =
           [ "StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_weight_g_u_i_extension" ]
         ] ],
         [ "AEntityFeature", "class_doloro_1_1_invetory_system_1_1_a_entity_feature.html", "class_doloro_1_1_invetory_system_1_1_a_entity_feature" ],
+        [ "AFeaturesExtendingResource", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource" ],
         [ "AItemFeature", "class_doloro_1_1_invetory_system_1_1_a_item_feature.html", "class_doloro_1_1_invetory_system_1_1_a_item_feature" ],
         [ "AMaskStorageFeature", "class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html", "class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature" ],
         [ "AStorageFeature", "class_doloro_1_1_invetory_system_1_1_a_storage_feature.html", "class_doloro_1_1_invetory_system_1_1_a_storage_feature" ],

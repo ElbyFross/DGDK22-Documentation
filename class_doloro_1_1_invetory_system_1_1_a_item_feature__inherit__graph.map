@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.AItemFeature" name="Doloro.InvetorySystem.AItemFeature">
+<area shape="rect" id="node1" title="The custom feature that implements extra logic over of the Item instance." alt="" coords="34,155,225,196"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element_1_1_asset_property_adapter.html" title="AItemFeature connected to the AssetProperty instance." alt="" coords="5,244,253,300"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="75,80,184,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="74,5,185,32"/>
+</map>

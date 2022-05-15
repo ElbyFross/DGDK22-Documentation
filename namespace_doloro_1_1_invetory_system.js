@@ -7,6 +7,7 @@ var namespace_doloro_1_1_invetory_system =
     [ "Tests", "namespace_doloro_1_1_invetory_system_1_1_tests.html", "namespace_doloro_1_1_invetory_system_1_1_tests" ],
     [ "UI", "namespace_doloro_1_1_invetory_system_1_1_u_i.html", "namespace_doloro_1_1_invetory_system_1_1_u_i" ],
     [ "AEntityFeature", "class_doloro_1_1_invetory_system_1_1_a_entity_feature.html", "class_doloro_1_1_invetory_system_1_1_a_entity_feature" ],
+    [ "AFeaturesExtendingResource", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource" ],
     [ "AItemFeature", "class_doloro_1_1_invetory_system_1_1_a_item_feature.html", "class_doloro_1_1_invetory_system_1_1_a_item_feature" ],
     [ "AMaskStorageFeature", "class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html", "class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature" ],
     [ "AStorageFeature", "class_doloro_1_1_invetory_system_1_1_a_storage_feature.html", "class_doloro_1_1_invetory_system_1_1_a_storage_feature" ],

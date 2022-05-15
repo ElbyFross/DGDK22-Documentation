@@ -125,7 +125,7 @@ That allows easy distribution of new resources along with Asset Bundles by using
 Cross-session data</h1>
 <p >Entire game world data along with all storages and their content and states stores within serializable data base provided with the <code>StoragesDatabase</code>. <br  />
 The database provides you safe and flexible way to operate player's session data in encapsulated way via simple API.</p>
-<p ><b>Read more:</b> <a class="el" href="dinv-storages-database.html">Database</a></p>
+<p ><b>Read more:</b> <a class="el" href="dinv-storages-database.html">Storages Database</a></p>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-services"></a>
 Services</h1>
@@ -156,17 +156,20 @@ Controls</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>empty section</dd></dl>
 <h2><a class="anchor" id="dinv-gs-gui-controls-ext"></a>
 Controls extensions</h2>
-<p ><code>ItemGUIElement</code> and <code>StorageGUIElement</code> controls supports its features extension with custom implemented <code>AEntityPropertyGUIExtension&lt;CONTROL_TYPE&gt;</code> components those connect extension to controls messages.</p>
+<p ><code>ItemGUIElement</code> and <code>StorageGUIElement</code> controls supports its features extension with custom implemented <code>AEntityFeatureGUIExtension&lt;CONTROL_TYPE&gt;</code> components those connect extension to controls messages.</p>
 <p >That allows to avoid extra calls and deep hierarchy searches comparing to way of creation GUI controls for each small feature separately. <br  />
 </p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Item GUI Extension   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">ItemPropertiesGUIExtension   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">Item Features List   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Item Stack Weight   </td><td class="markdownTableBodyNone"></td></tr>
 </table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <p ><b>See also:</b></p><ul>
-<li>Doloro.InvetorySystem.UI.ItemPropertiesGUIExtension</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension.html" title="Displays AItemFeature applied to the StoragesDatabase.ItemContainer.Resource selected with UI.">Doloro.InvetorySystem.UI.ItemFeaturesListGUIExtension</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html" title="Creates a bridge between database item entry&#39;s weight parameter of items stack and UI.">Doloro.InvetorySystem.UI.ItemStackWeightGUIExtension</a></li>
 </ul>
 <table class="markdownTable">
@@ -175,16 +178,17 @@ Controls extensions</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
 </table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dinv-gs-gui-data_connectors"></a>
 Data connectors</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>empty section</dd></dl>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
 </table>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>empty section</dd></dl>
 <h2><a class="anchor" id="dinv-gs-gui-vh"></a>
 Virtual Hub extension</h2>
 <p >The package shares several extension for <code>Virtual Hub</code> supplied with <a class="el" href="md__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> module.</p>
@@ -192,17 +196,17 @@ Virtual Hub extension</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Storages Selection Event Relay   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Storage UI Hub Listener   </td><td class="markdownTableBodyNone"></td></tr>
-</table>
-<p ><b>Explore API:</b></p><ul>
+<td class="markdownTableBodyNone">Storages Selection Event Relay   </td><td class="markdownTableBodyNone"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section    </dd></dl>
+<p class="intertd"><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html" title="Receives events from parental VirtualUIHub and updates StorageGUIElement content along with applied v...">Doloro.InvetorySystem.UI.StorageUIHubListener</a></li>
 <li><p class="startli"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages.">Doloro.InvetorySystem.UI.StoragesSelectionEventRelay</a></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>empty section</dd></dl>
 </li>
 </ul>
 <hr  />
+<p class="endtd"></p>
+</td></tr>
+</table>
 <h1><a class="anchor" id="dinv-gs-modules"></a>
 Sub-modules</h1>
 <p >The <b><a class="el" href="namespace_doloro.html">Doloro</a> Inventory</b> module has several sub-modules those extends base logic with new features.</p>

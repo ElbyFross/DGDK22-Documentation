@@ -1,8 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,115,129,142"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_tools_1_1_standartized_auto_editor.html" title="Abstract class that provides API for auto GUI with extra elements." alt="" coords="211,71,382,112"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html" title=" " alt="" coords="177,137,416,193"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_immediately_editor.html" title=" " alt="" coords="477,5,652,47"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly_editor.html" title=" " alt="" coords="477,71,652,112"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_tools_1_1_materials_1_1_material_instantiating_tool_editor.html" title=" " alt="" coords="464,136,665,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,217,125,243"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_core_1_1_storage_ignore_attribute.html" title="Attribute that must be applied in case if property must be ignored into the DAIProject instance." alt="" coords="221,5,411,47"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html" title="Attribute that bonds editor script with the Action source script." alt="" coords="219,71,413,112"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_property_attribute.html" title="Attribute using to make a bond between class derived from AGenericInspectorProperty&lt;T&gt; and Doloro AI ..." alt="" coords="211,136,421,177"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_property_inspector_attribute.html" title="Attribute that defines type of the property that will be displayed with the AssetPropertyEditor" alt="" coords="200,202,432,258"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_not_mergeable_attribute.html" title="Attribute that allows to exclude some component from merge operation." alt="" coords="173,282,459,338"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_data_management_1_1_serialization_1_1_not_serialize_attribute.html" title="Attribute that forces member to be ignored by the BinarySerializationTool." alt="" coords="194,363,438,404"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_data_management_1_1_serialization_1_1_serialize_attribute.html" title="Attribute that forces member to serialization by the BinarySerializationTool." alt="" coords="194,428,438,469"/>
 </map>

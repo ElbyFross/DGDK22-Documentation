@@ -86,13 +86,15 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_invetory_system_1_1_u
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Displays <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">AItemFeature</a> applied to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties.">StoragesDatabase.ItemContainer.Resource</a> selected with <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a>. </p>
+<div class="textblock"><p >Displays <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">AItemFeature</a> applied to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties. Returns null in case ...">StoragesDatabase.ItemContainer.Resource</a> selected with <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a>. </p>
+<p >Also can embed asset properties as a features in case if requested. </p>
 </div><div class="dynheader">
 Inheritance diagram for Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension:</div>
 <div class="dyncontent">
@@ -118,19 +120,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0d6364ed28bfb925d2cbef43ee73d9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases spawned GUI elements at the GUI grid.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#a0d6364ed28bfb925d2cbef43ee73d9ee">More...</a><br /></td></tr>
 <tr class="separator:a0d6364ed28bfb925d2cbef43ee73d9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7497eb2a2dfeb3a88083066e414bc7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#aad7497eb2a2dfeb3a88083066e414bc7">LoadGUIContent</a> ()</td></tr>
-<tr class="memdesc:aad7497eb2a2dfeb3a88083066e414bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">AEntityFeature</a> instances attached to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties.">StoragesDatabase.ItemContainer.Resource</a> to the <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> collection in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_property_g_u_i_element.html" title="GUI Element that connects AssetProperty to UI.">AssetPropertyGUIElement</a> format.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#aad7497eb2a2dfeb3a88083066e414bc7">More...</a><br /></td></tr>
+<tr class="memdesc:aad7497eb2a2dfeb3a88083066e414bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">AEntityFeature</a> instances attached to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties. Returns null in case ...">StoragesDatabase.ItemContainer.Resource</a> to the <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> collection in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html" title="GUI element that receives AItemFeature as content and display it at UI. Also can handle as content As...">ItemFeatureGUIElement</a> format.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#aad7497eb2a2dfeb3a88083066e414bc7">More...</a><br /></td></tr>
 <tr class="separator:aad7497eb2a2dfeb3a88083066e414bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a6c7e04b7e942c68d425a2ef7c0512feb"><td class="memItemLeft" align="right" valign="top"><a id="a6c7e04b7e942c68d425a2ef7c0512feb" name="a6c7e04b7e942c68d425a2ef7c0512feb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EmbedAssetProperties</b> ()</td></tr>
+<tr class="memdesc:a6c7e04b7e942c68d425a2ef7c0512feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#ad260eda0fe0f2e0b45ba65f8304c1ea2" title="AssetPropertiesCollection domains those content should be displayed at the features list as AssetProp...">APCDomains</a> content to the GUI as embedded features. <br /></td></tr>
+<tr class="separator:a6c7e04b7e942c68d425a2ef7c0512feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aa83c34bb6780204fb6b8f9dfd3d6fc59"><td class="memItemLeft" align="right" valign="top"><a id="aa83c34bb6780204fb6b8f9dfd3d6fc59" name="aa83c34bb6780204fb6b8f9dfd3d6fc59"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>APC_DOMAIN</b> = &quot;public&quot;<code> [get, set]</code></td></tr>
-<tr class="memdesc:aa83c34bb6780204fb6b8f9dfd3d6fc59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Domain of properties shared with AssetPropertiesCollection instead of <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">AItemFeature</a>s. <br /></td></tr>
-<tr class="separator:aa83c34bb6780204fb6b8f9dfd3d6fc59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d1062f47bf740689bd3bd977bd485a8"><td class="memItemLeft" align="right" valign="top"><a id="a9d1062f47bf740689bd3bd977bd485a8" name="a9d1062f47bf740689bd3bd977bd485a8"></a>
-virtual <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_properties_collection_data_conector.html">AssetPropertiesCollectionDataConector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DataConnector</b><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a9d1062f47bf740689bd3bd977bd485a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source data to <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> bridge. <br /></td></tr>
-<tr class="separator:a9d1062f47bf740689bd3bd977bd485a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6506c7f683ccd54228d2af1cb8375f13"><td class="memItemLeft" align="right" valign="top"><a id="a6506c7f683ccd54228d2af1cb8375f13" name="a6506c7f683ccd54228d2af1cb8375f13"></a>
+virtual <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html">ItemFeaturesCollectionDataConector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DataConnector</b><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a6506c7f683ccd54228d2af1cb8375f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source data to <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> bridge. <br /></td></tr>
+<tr class="separator:a6506c7f683ccd54228d2af1cb8375f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c439c37e086d2d2951eed8d8043ff40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#a2c439c37e086d2d2951eed8d8043ff40">IsAPCContentEmbedded</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2c439c37e086d2d2951eed8d8043ff40"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then features GUI list will receive values located over item located AssetPropertiesCollection from defined domains as embedded feature content.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html#a2c439c37e086d2d2951eed8d8043ff40">More...</a><br /></td></tr>
+<tr class="separator:a2c439c37e086d2d2951eed8d8043ff40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad260eda0fe0f2e0b45ba65f8304c1ea2"><td class="memItemLeft" align="right" valign="top"><a id="ad260eda0fe0f2e0b45ba65f8304c1ea2" name="ad260eda0fe0f2e0b45ba65f8304c1ea2"></a>
+string[]&#160;</td><td class="memItemRight" valign="bottom"><b>APCDomains</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad260eda0fe0f2e0b45ba65f8304c1ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">AssetPropertiesCollection domains those content should be displayed at the features list as AssetProperty embedded to <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html" title="GUI element that receives AItemFeature as content and display it at UI. Also can handle as content As...">ItemFeatureGUIElement</a> value. <br /></td></tr>
+<tr class="separator:ad260eda0fe0f2e0b45ba65f8304c1ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba60d99b50d86bbbdc99a4d8314baf82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html">AContentInspectorGUIElement</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html#aba60d99b50d86bbbdc99a4d8314baf82">inspector</a><code> [get]</code></td></tr>
 <tr class="memdesc:aba60d99b50d86bbbdc99a4d8314baf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector to extend.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html#aba60d99b50d86bbbdc99a4d8314baf82">More...</a><br /></td></tr>
 <tr class="separator:aba60d99b50d86bbbdc99a4d8314baf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,7 +200,7 @@ virtual <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_p
 </table>
 </div><div class="memdoc">
 
-<p>Loads <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">AEntityFeature</a> instances attached to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties.">StoragesDatabase.ItemContainer.Resource</a> to the <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> collection in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_property_g_u_i_element.html" title="GUI Element that connects AssetProperty to UI.">AssetPropertyGUIElement</a> format. </p>
+<p>Loads <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">AEntityFeature</a> instances attached to the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1" title="Gets an Item resource declared with the container by the Bundle.Key properties. Returns null in case ...">StoragesDatabase.ItemContainer.Resource</a> to the <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> collection in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html" title="GUI element that receives AItemFeature as content and display it at UI. Also can handle as content As...">ItemFeatureGUIElement</a> format. </p>
 
 <p>Implements <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html#ab545fc1c6b06a97bbafb04eed644fc80">Doloro.InvetorySystem.UI.AEntityFeatureGUIExtension&lt; StoragesDatabase.ItemContainer &gt;</a>.</p>
 
@@ -217,6 +229,31 @@ virtual <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_asset_p
 
 <p>Inspector to extend. </p>
 <p >Must be placed on the same object as the component. </p>
+
+</div>
+</div>
+<a id="a2c439c37e086d2d2951eed8d8043ff40" name="a2c439c37e086d2d2951eed8d8043ff40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c439c37e086d2d2951eed8d8043ff40">&#9670;&nbsp;</a></span>IsAPCContentEmbedded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension.IsAPCContentEmbedded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If true then features GUI list will receive values located over item located AssetPropertiesCollection from defined domains as embedded feature content. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html#a03e65481d7ce55a92d3c26c7d835c05f" title="Loads content in manual way form the shared AssetProperty instead of direct connect with the content;">ItemFeatureGUIElement.Read(AssetProperty)</a></dd></dl>
 
 </div>
 </div>

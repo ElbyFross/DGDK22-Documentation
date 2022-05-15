@@ -1,7 +1,6 @@
 <map id="Doloro.DataManagement.DynamicResources.DynamicResource" name="Doloro.DataManagement.DynamicResources.DynamicResource">
 <area shape="rect" id="node1" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="425,147,645,189"/>
-<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="703,129,885,156"/>
-<area shape="rect" id="node10" href="$class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in&#45;game storage." alt="" coords="693,180,895,207"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html" title="A resource that can be extended with AEntityFeature components. Implements members to integrate the f..." alt="" coords="693,147,924,189"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_a_tags_categorised_component.html" title="Component that contains features related to operating the Modules.TagsTool.Tag." alt="" coords="173,31,368,57"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,5,116,32"/>
 <area shape="rect" id="node4" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html" title="Interface that defines members required to handle tag&#45;based features." alt="" coords="5,56,116,83"/>

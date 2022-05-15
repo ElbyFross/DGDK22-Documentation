@@ -18,8 +18,11 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
     [ "Item", "dinv-item.html", [
       [ "About", "dinv-item.html#dinv-item-a", null ],
       [ "Resource", "dinv-item.html#dinv-item-r", null ],
-      [ "Properties", "dinv-item.html#dinv-item-p", null ],
-      [ "GUI", "dinv-item.html#dinv-item-gui", null ]
+      [ "Asset Properties", "dinv-item.html#dinv-item-p", null ],
+      [ "Item Features", "dinv-item.html#dinv-item-f", null ],
+      [ "GUI", "dinv-item.html#dinv-item-gui", [
+        [ "Item GUI control", "dinv-item.html#dinv-item-gui-control", null ]
+      ] ]
     ] ],
     [ "Storage", "dinv-storage.html", [
       [ "About", "dinv-storage.html#dinv-storage-a", null ],
@@ -29,7 +32,7 @@ var md__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
       ] ],
       [ "GUI", "dinv-storage.html#dinv-storage-gui", null ]
     ] ],
-    [ "Database", "dinv-storages-database.html", [
+    [ "Storages Database", "dinv-storages-database.html", [
       [ "About", "dinv-storages-database.html#dinv-storages-database-a", null ],
       [ "Architecture", "dinv-storages-database.html#dinv-storages-database-arch", [
         [ "Storage Container", "dinv-storages-database.html#dinv-storages-database-sc", null ],

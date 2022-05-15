@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_doloro_1_1_tools_1_1_constants.html" title=" " alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node1" href="$class_doloro_1_1_localization_1_1_proxy_content_provider.html" title="Ground level class for localization proxy containers." alt="" coords="5,13,176,54"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html" title="Proxy container that provides origin or localized content depending from its accessibility." alt="" coords="224,5,460,61"/>
 </map>
