@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['detected_0',['Detected',['../class_doloro_1_1_sensors_1_1_sensor.html#a8914992b8629c273e92e37a7bb4c4f55',1,'Doloro::Sensors::Sensor']]]
+  ['brainselected_0',['BrainSelected',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a4ff95af60793090b11466cd339b25878',1,'Doloro::AI::DAIStudio::Studio']]]
 ];

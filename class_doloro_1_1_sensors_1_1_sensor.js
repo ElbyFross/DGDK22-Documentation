@@ -20,6 +20,6 @@ var class_doloro_1_1_sensors_1_1_sensor =
     [ "LastEnterDetection", "class_doloro_1_1_sensors_1_1_sensor.html#a22db538d445391dcd5753d4ca0c93dba", null ],
     [ "LastExitDetection", "class_doloro_1_1_sensors_1_1_sensor.html#a9f5ed52b9c05442170487237aa8a3415", null ],
     [ "Detected", "class_doloro_1_1_sensors_1_1_sensor.html#a8914992b8629c273e92e37a7bb4c4f55", null ],
-    [ "eExit", "class_doloro_1_1_sensors_1_1_sensor.html#afcb28eec41b0662e48bc5688f28cc0ab", null ],
-    [ "eIdChanged", "class_doloro_1_1_sensors_1_1_sensor.html#ab95b4f75208e3962bedb3a0e054b6761", null ]
+    [ "Exited", "class_doloro_1_1_sensors_1_1_sensor.html#a3231bc8018036bca29a246c74a1fb57a", null ],
+    [ "IdChanged", "class_doloro_1_1_sensors_1_1_sensor.html#aec0981142ed0b1ca87c9eb12357c4560", null ]
 ];

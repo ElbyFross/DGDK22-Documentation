@@ -15,5 +15,5 @@ var class_doloro_1_1_localization_1_1_localized_g_u_i_content =
     [ "image", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html#a1b0816c05468011013dc1f6a1178c712", null ],
     [ "text", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html#a7d1fed6a3b97df01777a9201929f26c5", null ],
     [ "tooltip", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html#aa0668e82268fb633e83a2b2c010e0fa8", null ],
-    [ "onUpdated", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html#a4f590e8221d05f7681707db977ce4159", null ]
+    [ "Updated", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html#abc9883b01ad76b52d3a4511518662c28", null ]
 ];

@@ -9,7 +9,7 @@ var class_doloro_1_1_invetory_system_1_1_storage =
     [ "SaveItemState", "class_doloro_1_1_invetory_system_1_1_storage.html#ac09b8f9a3d5a2a3f6cfc7f487afec395", null ],
     [ "features", "class_doloro_1_1_invetory_system_1_1_storage.html#aeb5887ad69cfa2cc953c7b8a8e360ffd", null ],
     [ "source", "class_doloro_1_1_invetory_system_1_1_storage.html#a3a5c1175507ac9da4018d7b15dc1b3fb", null ],
-    [ "onNewStorage", "class_doloro_1_1_invetory_system_1_1_storage.html#aab433b724da06d55de9640f271f21f73", null ],
-    [ "onRentOver", "class_doloro_1_1_invetory_system_1_1_storage.html#a92484fbd94139b162179f98fe71634ba", null ],
-    [ "onRentStarted", "class_doloro_1_1_invetory_system_1_1_storage.html#a1212e6ddb2070f3a1e786321f59a146a", null ]
+    [ "NewStorage", "class_doloro_1_1_invetory_system_1_1_storage.html#af3079ec80cbfa18ac2454670995de04a", null ],
+    [ "RentOver", "class_doloro_1_1_invetory_system_1_1_storage.html#aa5067418dd176f7bedfc1b702549b1cf", null ],
+    [ "RentStarted", "class_doloro_1_1_invetory_system_1_1_storage.html#ae84fb622b1160424c4745a4910ea220d", null ]
 ];

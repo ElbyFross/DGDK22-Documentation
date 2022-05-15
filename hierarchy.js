@@ -163,6 +163,7 @@ var hierarchy =
       [ "Doloro.InvetorySystem.UI.StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_weight_g_u_i_extension.html", null ]
     ] ],
     [ "Doloro.InvetorySystem.UI.AEntityFeatureGUIExtension< StoragesDatabase.ItemContainer >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html", [
+      [ "Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html", null ],
       [ "Doloro.InvetorySystem.UI.ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension.html", null ],
       [ "Doloro.InvetorySystem.UI.ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html", null ]
     ] ],
@@ -353,7 +354,7 @@ var hierarchy =
     [ "Doloro.InvetorySystem.Constants", "class_doloro_1_1_invetory_system_1_1_constants.html", null ],
     [ "Doloro.Sensors.Constants", "class_doloro_1_1_sensors_1_1_constants.html", null ],
     [ "Doloro.Tools.Constants", "class_doloro_1_1_tools_1_1_constants.html", null ],
-    [ "Doloro.Tools.Input.Constants", "class_doloro_1_1_tools_1_1_input_1_1_constants.html", null ],
+    [ "Doloro.Tools.InputService.Constants", "class_doloro_1_1_tools_1_1_input_service_1_1_constants.html", null ],
     [ "Doloro.UIEngine2.Constants", "class_doloro_1_1_u_i_engine2_1_1_constants.html", null ],
     [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.Constants", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_constants.html", null ],
     [ "Doloro.UIEngine2.Modules.VirtualHub.Constants", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_constants.html", null ],
@@ -361,6 +362,7 @@ var hierarchy =
     [ "Doloro.InvetorySystem.Properties.StorageLock.DataContainer", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock_1_1_data_container.html", null ],
     [ "Doloro.AI.DAIDebugger.DebugEnvironment", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_debug_environment.html", null ],
     [ "Doloro.AI.DAIDebugger.DebugToolsHelper", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_debug_tools_helper.html", null ],
+    [ "Doloro.EditorExtension.DoloroEditorGUILayout", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html", null ],
     [ "Doloro.GL.Drawing", "class_doloro_1_1_g_l_1_1_drawing.html", null ],
     [ "Doloro.DataManagement.DynamicResources.DynamicResourcesDatabase.DRSign", "struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database_1_1_d_r_sign.html", null ],
     [ "Doloro.DataManagement.DynamicResources.DynamicResourcesDatabase", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html", null ],
@@ -389,7 +391,6 @@ var hierarchy =
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ]
     ] ],
     [ "Doloro.EditorConfiguration.EditorConstants", "class_doloro_1_1_editor_configuration_1_1_editor_constants.html", null ],
-    [ "Doloro.EditorExtension.EditorGUILayout", "class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.EditorStyles", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_editor_styles.html", null ],
     [ "Doloro.AI.EditorUtils", "class_doloro_1_1_a_i_1_1_editor_utils.html", null ],
     [ "EditorWindow", null, [
@@ -399,7 +400,6 @@ var hierarchy =
       [ "Doloro.DataManagement.AssetPropertiesSystem.NewPropertyWindow", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html", null ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.AddTagWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_add_tag_window.html", null ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.TagsManagementWindow", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window.html", null ],
-      [ "Doloro.DataManagement.Tables.TestTableInspector", "class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector.html", null ],
       [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsLoadWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_load_window.html", null ],
       [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsNewWindow", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_new_window.html", null ],
       [ "Doloro.EditorExtension.SmallToolsHub.STHEditor", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_editor.html", null ]
@@ -696,7 +696,6 @@ var hierarchy =
         [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.AssetPropertiesRemovePatchOrder", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_b749f45dbfd39879ee103ce61838272d.html", null ],
         [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.RemoveComponentPatchOrder", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_7c8ae7ae168af907b76d5f146afd944c.html", null ]
       ] ],
-      [ "Doloro.EditorExtension.ProjectSettings.QA.ProjectSettingsTester", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_q_a_1_1_project_settings_tester.html", null ],
       [ "Doloro.EditorExtension.SmallToolsHub.PositionTest", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_position_test.html", null ],
       [ "Doloro.InvetorySystem.AEntityFeature", "class_doloro_1_1_invetory_system_1_1_a_entity_feature.html", [
         [ "Doloro.InvetorySystem.AItemFeature", "class_doloro_1_1_invetory_system_1_1_a_item_feature.html", [
@@ -731,7 +730,7 @@ var hierarchy =
       ] ],
       [ "Doloro.Sensors.Sensor", "class_doloro_1_1_sensors_1_1_sensor.html", null ],
       [ "Doloro.Sensors.VisualSensorDebuger", "class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html", null ],
-      [ "Doloro.Tools.Input.InputDeviceDetector", "class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html", null ],
+      [ "Doloro.Tools.InputService.InputDeviceDetector", "class_doloro_1_1_tools_1_1_input_service_1_1_input_device_detector.html", null ],
       [ "Doloro.Tools.Lighting.LightBlinkImmediately", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_immediately.html", null ],
       [ "Doloro.Tools.Lighting.LightBlinkSmoothly", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html", null ],
       [ "Doloro.Tools.Materials.MaterialInstantiatingTool", "class_doloro_1_1_tools_1_1_materials_1_1_material_instantiating_tool.html", null ],
@@ -744,20 +743,7 @@ var hierarchy =
       [ "Doloro.Tools.Particles.ParticlesCollisionListener", "class_doloro_1_1_tools_1_1_particles_1_1_particles_collision_listener.html", null ],
       [ "Doloro.Tools.ShowHashCodes", "class_doloro_1_1_tools_1_1_show_hash_codes.html", null ],
       [ "Doloro.UI.Tools.ImageScaler", "class_doloro_1_1_u_i_1_1_tools_1_1_image_scaler.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.DependenciesLoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.ElementsCollectionTester", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.GUILoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.LayoutSearcher", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.LayoutUpdateLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_update_logger.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.NonSplittedBackgroound", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_non_splitted_backgroound.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.PointerAABB", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_pointer_a_a_b_b.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.SearchTarget", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_search_target.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.SetScreenRect", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_set_screen_rect.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.VirtualChildSearchDebuger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_child_search_debuger.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.VirtualHierarchyChildChecker", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_child_checker.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.VirtualHierarchyViewer", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_viewer.html", null ],
-      [ "Doloro.UIEngine2.DEVTOOLS.WorkspaceLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_workspace_logger.html", null ],
-      [ "Doloro.UIEngine2.GUIElement", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html", [
+      [ "Doloro.UIEngine2.AGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html", [
         [ "Doloro.InvetorySystem.Modules.Shops.UI.ExchangeBufferGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element.html", null ],
         [ "Doloro.InvetorySystem.Modules.Shops.UI.InvalidOrderInfoGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element.html", null ],
         [ "Doloro.InvetorySystem.Modules.Shops.UI.TradingConsoleGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_trading_console_g_u_i_element.html", null ],
@@ -793,7 +779,20 @@ var hierarchy =
         [ "Doloro.UIEngine2.Modules.Tabs.TabGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tab_g_u_i_element.html", null ],
         [ "Doloro.UIEngine2.WindowStateController", "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html", null ]
       ] ],
-      [ "Doloro.UIEngine2.GUIElement.GUIElementRuntimeRegister", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_element_1_1_g_u_i_element_runtime_register.html", null ],
+      [ "Doloro.UIEngine2.AGUIElement.GUIElementRuntimeRegister", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.DependenciesLoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.ElementsCollectionTester", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.GUILoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.LayoutSearcher", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.LayoutUpdateLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_update_logger.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.NonSplittedBackgroound", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_non_splitted_backgroound.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.PointerAABB", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_pointer_a_a_b_b.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.SearchTarget", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_search_target.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.SetScreenRect", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_set_screen_rect.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.VirtualChildSearchDebuger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_child_search_debuger.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.VirtualHierarchyChildChecker", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_child_checker.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.VirtualHierarchyViewer", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_viewer.html", null ],
+      [ "Doloro.UIEngine2.DEVTOOLS.WorkspaceLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_workspace_logger.html", null ],
       [ "Doloro.UIEngine2.GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", null ],
       [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< SourceType, GUIElementType >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", null ],
       [ "Doloro.UIEngine2.Modules.Graphs.ConnectionsVisualizer", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_connections_visualizer.html", null ],
@@ -870,7 +869,7 @@ var hierarchy =
     [ "Doloro.AI.DAIInspector.Settings", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_settings.html", null ],
     [ "Doloro.DataManagement.Tables.SpreadsheetEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html", null ],
     [ "StateMachineBehaviour", null, [
-      [ "Doloro.Tools.Animator.AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_1_1_animator_loger.html", null ]
+      [ "Doloro.Tools.AnimatorExtension.AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_extension_1_1_animator_loger.html", null ]
     ] ],
     [ "Doloro.EditorExtension.SmallToolsHub.STHPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin.html", [
       [ "Doloro.EditorExtension.SmallToolsHub.Plugins.CameraControlPlugin", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_plugins_1_1_camera_control_plugin.html", null ],

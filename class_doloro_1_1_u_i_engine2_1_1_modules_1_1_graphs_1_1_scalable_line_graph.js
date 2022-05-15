@@ -39,7 +39,7 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph 
     [ "IsReadOnly", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#a88e92cc5406f3ba2a460e63ee649ddad", null ],
     [ "nodes", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#a6421a3379b85b2356e896394537e8424", null ],
     [ "size", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#ac774a66fc3f6d0d4badcde111bd9a895", null ],
-    [ "onGraphObsolete", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#a1f176e037e508ad2da3bf136210e89f4", null ],
-    [ "OnNodeAdded", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#ad5e17f4ffe360435b12f3f05366d876a", null ],
-    [ "OnNodeRemoved", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#afd6bf5c073e8ab72a8856d18ef4e4f8c", null ]
+    [ "GraphObsoleted", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#ad7c9ece3ce57532fa623f2a816f4e8c0", null ],
+    [ "NodeAdded", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#a642fb61351004fefd6bbafab304c8680", null ],
+    [ "NodeRemoved", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph.html#a8b72c9f640ee3aa3541295ab50ab2b67", null ]
 ];

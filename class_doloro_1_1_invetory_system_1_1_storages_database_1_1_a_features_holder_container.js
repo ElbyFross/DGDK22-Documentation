@@ -12,6 +12,6 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder
     [ "features", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#acaa097e485d13d5c010accf52ec3a5d9", null ],
     [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a3af6a07a83182e47e241e71b711e37c1", null ],
     [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a272392c08de569417501c993ee734820", null ],
-    [ "onContainerModified", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a6fd9ac46d0409e59e38ddbed833c51d5", null ],
-    [ "onModified", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a454d5559e31c8e0f872eae65835ffd71", null ]
+    [ "ContainerModified", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a6265638b35321cbf078e1af63c923ad8", null ],
+    [ "Modified", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html#a158af441e863018da16431b81aa3c406", null ]
 ];

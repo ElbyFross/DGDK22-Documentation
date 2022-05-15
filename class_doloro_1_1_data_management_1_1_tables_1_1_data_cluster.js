@@ -23,5 +23,5 @@ var class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster =
     [ "size", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#a5d2b6b23217e79697ebb8e62a0b100e4", null ],
     [ "StoredAssetPath", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#a4455fa1e2c84d351a540ddc2e1684f90", null ],
     [ "width", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#ad2934c349e2350620fda6d03ea84eb3b", null ],
-    [ "onAssetObsolete", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#ab0613d933b70e33a9d4456bf15cefec3", null ]
+    [ "AssetObsoleted", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#ae5a98f53cdc6ba800e749453c439013d", null ]
 ];

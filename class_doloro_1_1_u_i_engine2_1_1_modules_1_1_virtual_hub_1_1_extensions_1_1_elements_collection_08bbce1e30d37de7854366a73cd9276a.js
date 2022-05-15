@@ -31,7 +31,7 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_
     [ "SetOnSelected", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#ad689f616f923a43c5ce1c6335a6854fb", null ],
     [ "SetOnSizeChanged", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a73ceb93cae42bcebcec98ccfd60cda27", null ],
     [ "DropHandlerWithHub", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a10bc3fd101f8600fd8a4621b7afea85f", null ],
-    [ "element", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#ad4af62eb97e80ad3790685b7fdb5d787", null ],
+    [ "element", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a5656a3373409b4bf738a4e039338da59", null ],
     [ "hub", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a506e1bbf7dc1c17177be31149d9ffd26", null ],
     [ "ReleaseIfDestroyed", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html#a36179ae2b384dfd3c18e08492c23de62", null ]
 ];

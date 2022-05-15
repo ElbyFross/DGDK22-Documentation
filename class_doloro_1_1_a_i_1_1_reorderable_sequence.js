@@ -4,7 +4,7 @@ var class_doloro_1_1_a_i_1_1_reorderable_sequence =
     [ "GetCommonResult", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a8921ad67c71dcd4e7bf1ff7c8aed437a", null ],
     [ "Init", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#adfb0f51b7f56e0854f5250ed460071f1", null ],
     [ "Pass", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a6b2239ad32de3cf506c62be345602366", null ],
-    [ "ReorderForm", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a46a5edc80b10d6a3138ab1752a400ae6", null ],
+    [ "ReorderForm", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a4a3095dc3306c340ffbc0a032b69b5af", null ],
     [ "actionInProgress", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a0730b57a3458160340ae1aaf879f2001", null ],
     [ "breakResultID", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#ad4580f96f19e652879524f3fe0b21e9d", null ],
     [ "compareMode", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#ad4c98fe42ff57887f1f247a0385d0d1c", null ],
@@ -15,5 +15,5 @@ var class_doloro_1_1_a_i_1_1_reorderable_sequence =
     [ "itemIsOver", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a008a5aa9a76d640baa967480d47e77e0", null ],
     [ "self", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a5247bae5a64e4fe4f528a78ff7498e71", null ],
     [ "version", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#ad0d678865dc3d6efb1b027b04270e708", null ],
-    [ "sequenceRequest", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#a7c3e2beb2e18313928968490006e9b1c", null ]
+    [ "SequenceRequested", "class_doloro_1_1_a_i_1_1_reorderable_sequence.html#adc8dbbfd5a544a3533da9edff27580bc", null ]
 ];

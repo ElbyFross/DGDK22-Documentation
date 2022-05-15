@@ -8,5 +8,5 @@ var class_doloro_1_1_a_i_1_1_variable =
     [ "type", "class_doloro_1_1_a_i_1_1_variable.html#a8ae0f0c27d301a2488f16e11fc06f4fa", null ],
     [ "value", "class_doloro_1_1_a_i_1_1_variable.html#a7c3257a0f2deda3b30c59f8ec2e2c9cc", null ],
     [ "valueBinary", "class_doloro_1_1_a_i_1_1_variable.html#a3d902e7e41a58d6e1025a114f409f4a6", null ],
-    [ "eValueChanged", "class_doloro_1_1_a_i_1_1_variable.html#aabef910ac3287407ee62d89fd27cd456", null ]
+    [ "ValueChanged", "class_doloro_1_1_a_i_1_1_variable.html#ab885b23a09264a9677adac246bdaf210", null ]
 ];

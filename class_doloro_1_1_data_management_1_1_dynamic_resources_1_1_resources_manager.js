@@ -15,6 +15,6 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager
     [ "GenerateRCKey< T >", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#ac66bc402b7ae52a4a0da0ec51a796af4", null ],
     [ "ScannedCollections", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#a71620b2df4fb39e875b440dcd3539b4f", null ],
     [ "SearchesInProcessing", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#a09336873969bfd0b57e8470c67d96e13", null ],
-    [ "eNewFilteredResourcesSearchFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#a0443714f79feba4d27947ef2c34a3d93", null ],
-    [ "eNewResourcesSearchFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#acdf5205e2342c5857bf4c3a31564625c", null ]
+    [ "NewFilteredResourcesSearchFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#adeab2135908ed1e29a99743ea8f6e07d", null ],
+    [ "NewResourcesSearchFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html#a7564d417c2c5a0c86dccdd4c3ab54e98", null ]
 ];

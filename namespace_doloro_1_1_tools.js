@@ -1,7 +1,7 @@
 var namespace_doloro_1_1_tools =
 [
-    [ "Animator", "namespace_doloro_1_1_tools_1_1_animator.html", "namespace_doloro_1_1_tools_1_1_animator" ],
-    [ "Input", "namespace_doloro_1_1_tools_1_1_input.html", "namespace_doloro_1_1_tools_1_1_input" ],
+    [ "AnimatorExtension", "namespace_doloro_1_1_tools_1_1_animator_extension.html", "namespace_doloro_1_1_tools_1_1_animator_extension" ],
+    [ "InputService", "namespace_doloro_1_1_tools_1_1_input_service.html", "namespace_doloro_1_1_tools_1_1_input_service" ],
     [ "Lighting", "namespace_doloro_1_1_tools_1_1_lighting.html", "namespace_doloro_1_1_tools_1_1_lighting" ],
     [ "Materials", "namespace_doloro_1_1_tools_1_1_materials.html", "namespace_doloro_1_1_tools_1_1_materials" ],
     [ "Objects", "namespace_doloro_1_1_tools_1_1_objects.html", "namespace_doloro_1_1_tools_1_1_objects" ],

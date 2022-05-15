@@ -17,7 +17,7 @@ var namespace_doloro_1_1_invetory_system =
     [ "ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
     [ "Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", "class_doloro_1_1_invetory_system_1_1_storage" ],
     [ "StorageCaller", "class_doloro_1_1_invetory_system_1_1_storage_caller.html", "class_doloro_1_1_invetory_system_1_1_storage_caller" ],
-    [ "StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", null ],
+    [ "StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", "class_doloro_1_1_invetory_system_1_1_storage_editor" ],
     [ "StoragesDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html", "class_doloro_1_1_invetory_system_1_1_storages_database" ],
     [ "StoragesService", "class_doloro_1_1_invetory_system_1_1_storages_service.html", "class_doloro_1_1_invetory_system_1_1_storages_service" ],
     [ "TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", "class_doloro_1_1_invetory_system_1_1_transaction_service" ]

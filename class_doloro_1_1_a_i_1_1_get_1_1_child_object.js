@@ -13,6 +13,6 @@ var class_doloro_1_1_a_i_1_1_get_1_1_child_object =
     [ "tagFilter", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a5c115f82cbc4ff7215b0d7b9a0373f7c", null ],
     [ "author", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a275b9540f6e6f8642446b2b7d0c76481", null ],
     [ "self", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a5247bae5a64e4fe4f528a78ff7498e71", null ],
-    [ "targetObject", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a76a5b9b665d86a2adeafd0a8ac6995cc", null ],
+    [ "TargetObject", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#a11e69879b1f02391bdae729b5d7a758f", null ],
     [ "version", "class_doloro_1_1_a_i_1_1_get_1_1_child_object.html#ad0d678865dc3d6efb1b027b04270e708", null ]
 ];

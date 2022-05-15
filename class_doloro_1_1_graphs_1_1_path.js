@@ -29,5 +29,5 @@ var class_doloro_1_1_graphs_1_1_path =
     [ "path", "class_doloro_1_1_graphs_1_1_path.html#a8e88c57b0a5cc8bca7d3c32a29ea7852", null ],
     [ "state", "class_doloro_1_1_graphs_1_1_path.html#a0116843bb11d29c3e6f5f5424b972af9", null ],
     [ "to", "class_doloro_1_1_graphs_1_1_path.html#af6b77dc56b781b856350b804eb7336b7", null ],
-    [ "onPathReleased", "class_doloro_1_1_graphs_1_1_path.html#af1d1d93eb242895dd27d905b5cd2eb5e", null ]
+    [ "PathReleased", "class_doloro_1_1_graphs_1_1_path.html#a06fcd9b31663bf7afeab636f7a9e5f8d", null ]
 ];

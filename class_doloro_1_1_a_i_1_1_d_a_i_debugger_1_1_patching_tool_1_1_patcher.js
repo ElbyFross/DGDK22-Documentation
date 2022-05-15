@@ -11,8 +11,8 @@ var class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher =
     [ "OnInstanceChanged", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a4e9326d7ab864ea62ffb06e5eddf15d2", null ],
     [ "OnPatchTicketSelected", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#ad9797f7b75d7c2492394492cc27b786e", null ],
     [ "Rebuild", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a38ad7f391977a6f8267f903d8d287732", null ],
-    [ "enabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a50015e5ecc4231e28def485571280c22", null ],
     [ "handlingStorage", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a2d9cdc682b6537fcfc13884aae0d9494", null ],
+    [ "IsEnabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#ac882caaf71d4b6c2717313e185788724", null ],
     [ "SelectedPatchOrderId", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a866242278f5181ba4db01d2fcaa7d2ba", null ],
     [ "SelectedTicket", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_patcher.html#a1c329fd870922c5dad2e037afa2e2946", null ]
 ];

@@ -17,9 +17,9 @@ var class_doloro_1_1_u_i_engine2_1_1_workspace_layout =
     [ "Key", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a425b9e56ee0921da1b6f8b3f5350772d", null ],
     [ "ScreenSpaceRect", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a219ddde3eec496fa0b4d3f705dc6348b", null ],
     [ "this[int index]", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a6adb74dc505a0ee6f8610696e503d800", null ],
-    [ "eCollectionChanged", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a59cfdb395fe7222c58bb8161a461abf6", null ],
-    [ "eElementBondAttached", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a39ec526185a62136729504bf999b51e3", null ],
-    [ "eElementBondDetached", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a33c6a3feed7fddd174636a6095e6c90a", null ],
-    [ "eLayoutCreated", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#ac91fd33374ae9729b4480916170c6810", null ],
-    [ "eLayoutUpdated", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#aa4686a1d4e625996188fb36619cd4f38", null ]
+    [ "CollectionChanged", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#acffbdb3a3b1896311a05037c9f0cb261", null ],
+    [ "ElementBondAttached", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a36bb123e3912d13529b812b721719d5c", null ],
+    [ "ElementBondDetached", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a3fe6aa1435c8aa0cf97f5d1ae663f4f8", null ],
+    [ "LayoutCreated", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a10b0834e0912fe93eb2868620c57eeb3", null ],
+    [ "LayoutUpdated", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#a47c6c5e03c2064d57387eaffd353e7cc", null ]
 ];

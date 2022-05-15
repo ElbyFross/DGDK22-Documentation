@@ -11,7 +11,7 @@ var class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly =
     [ "min", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#ae8497f1dacd0faa275cf93544fe4536f", null ],
     [ "soruceRenderer", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a1d609a0f818beacd6e5e136bd9697ae3", null ],
     [ "updateFrequency", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a3508914df34613f5f451a869cf6c11cb", null ],
-    [ "eLuminosityUpdated", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#af9a546f5ec47daa85fe95e5d2959bd19", null ],
-    [ "eStarted", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a249f1c6d74bece35f95585d1a62ada05", null ],
-    [ "eStoped", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a8a25988279699eafba44ad0ea7cc4d4b", null ]
+    [ "LuminosityUpdated", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#aef00778b208b3d6e96a5036deec6e894", null ],
+    [ "Started", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a2fa69b4cbe550f83bab3079d7b19faf4", null ],
+    [ "Stoped", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#ab965cfceb41362c10ec74d1c7a727a6b", null ]
 ];

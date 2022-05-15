@@ -1,6 +1,5 @@
 var namespace_doloro_1_1_editor_extension_1_1_project_settings =
 [
-    [ "QA", "namespace_doloro_1_1_editor_extension_1_1_project_settings_1_1_q_a.html", "namespace_doloro_1_1_editor_extension_1_1_project_settings_1_1_q_a" ],
     [ "AssemblyUtils", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils" ],
     [ "AssetsHandler", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler" ],
     [ "InputAxis", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis" ],

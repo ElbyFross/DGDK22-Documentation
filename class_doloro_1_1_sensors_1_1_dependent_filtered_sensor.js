@@ -32,8 +32,8 @@ var class_doloro_1_1_sensors_1_1_dependent_filtered_sensor =
     [ "LastExitDetection", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a9f5ed52b9c05442170487237aa8a3415", null ],
     [ "Source", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#af6d965053d54f761f7d58eafa267e095", null ],
     [ "Detected", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a8914992b8629c273e92e37a7bb4c4f55", null ],
-    [ "eExit", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#afcb28eec41b0662e48bc5688f28cc0ab", null ],
-    [ "eIdChanged", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#ab95b4f75208e3962bedb3a0e054b6761", null ],
-    [ "eSourceSensorChanged", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#abb56037a6c3e408a04643047b3c0d44f", null ],
-    [ "Filtered", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a008366558959a2e8f9e50cf79603b9fd", null ]
+    [ "Exited", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a3231bc8018036bca29a246c74a1fb57a", null ],
+    [ "Filtered", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a008366558959a2e8f9e50cf79603b9fd", null ],
+    [ "IdChanged", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#aec0981142ed0b1ca87c9eb12357c4560", null ],
+    [ "SourceSensorChanged", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#aad4dc1a143dfeb2df8c1ced96788fd8c", null ]
 ];

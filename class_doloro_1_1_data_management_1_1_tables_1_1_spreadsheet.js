@@ -51,5 +51,5 @@ var class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet =
     [ "source", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a37edfe11b1f6b0f13820e6fefde65959", null ],
     [ "SplitterColor", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a2efd8c8a69d220341129dcc3592acedd", null ],
     [ "StoredAssetPath", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a4455fa1e2c84d351a540ddc2e1684f90", null ],
-    [ "onAssetObsolete", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#ab0613d933b70e33a9d4456bf15cefec3", null ]
+    [ "AssetObsoleted", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#ae5a98f53cdc6ba800e749453c439013d", null ]
 ];

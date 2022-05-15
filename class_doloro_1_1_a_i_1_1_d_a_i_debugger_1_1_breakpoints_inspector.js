@@ -9,6 +9,6 @@ var class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector =
     [ "OnGUI", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#a97905de7d006f37651d0082530cb1c87", null ],
     [ "OnGUIBackground", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#a5ef2726d5720b5cfd1c0f6b0b224b0e2", null ],
     [ "OnInstanceChanged", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#a7e939c2ecd382ca4b6f48decb40742a2", null ],
-    [ "enabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#a50015e5ecc4231e28def485571280c22", null ],
-    [ "handlingProject", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#ac21c96547475b05a38c4c894b67dcd70", null ]
+    [ "handlingProject", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#ac21c96547475b05a38c4c894b67dcd70", null ],
+    [ "IsEnabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_breakpoints_inspector.html#ac882caaf71d4b6c2717313e185788724", null ]
 ];

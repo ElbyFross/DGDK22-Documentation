@@ -13,6 +13,6 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     [ "CategorizationProcessLog", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#a57d99dbabfbd9ffb9ce927782d7b08fd", null ],
     [ "CategorizationState", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#ada826c9c1663ab85206477694d78b3df", null ],
     [ "CategorizedTagsCount", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#a887ef51bdc5bcf57a5f63fa1dba2afe5", null ],
-    [ "onCategorizationFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#af4e0753f4de846c8c725ea3a54d9a3c8", null ],
-    [ "onCategorizationLogsUpdated", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#ad1ba3e0a1ceac9457f22968a28275f38", null ]
+    [ "CategorizationFinished", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#add94bdf1b7e0554179ddbd4c9009ce63", null ],
+    [ "CategorizationLogsUpdated", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_categorized_tags_database.html#acafb48e430d1047be2ad9b308942076d", null ]
 ];

@@ -1,11 +1,11 @@
 <map id="Doloro.UIEngine2.AWorkspaceGUIElement" name="Doloro.UIEngine2.AWorkspaceGUIElement">
-<area shape="rect" id="node1" title="GUI element that support workspace layout module." alt="" coords="304,104,505,145"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="553,111,725,138"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="164,111,256,138"/>
+<area shape="rect" id="node1" title="GUI element that support workspace layout module." alt="" coords="313,104,515,145"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="563,111,735,138"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="164,111,265,138"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,111,116,138"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back&#45;end logic." alt="" coords="773,111,1012,138"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector.html" title="Standalone window that provides logic and API related to stores inspector UI." alt="" coords="1071,5,1280,47"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector.html" title="Controller that manages UI related to TransactionService.TransactionOrders handling." alt="" coords="1060,71,1291,112"/>
-<area shape="rect" id="node8" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html" title="Standalone window that provides logic and API related to storages inspector UI." alt="" coords="1089,136,1261,177"/>
-<area shape="rect" id="node9" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html" title="Controller that implements context menu related features." alt="" coords="1086,201,1265,243"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back&#45;end logic." alt="" coords="783,111,1021,138"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector.html" title="Standalone window that provides logic and API related to stores inspector UI." alt="" coords="1080,5,1289,47"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector.html" title="Controller that manages UI related to TransactionService.TransactionOrders handling." alt="" coords="1069,71,1300,112"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_inspector.html" title="Standalone window that provides logic and API related to storages inspector UI." alt="" coords="1099,136,1271,177"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html" title="Controller that implements context menu related features." alt="" coords="1095,201,1274,243"/>
 </map>

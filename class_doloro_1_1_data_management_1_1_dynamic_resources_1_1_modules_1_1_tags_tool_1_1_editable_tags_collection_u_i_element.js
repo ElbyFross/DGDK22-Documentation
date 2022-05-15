@@ -8,5 +8,5 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     [ "IsContentHidden", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a1398c1793ea218369189d18327e3200c", null ],
     [ "SelectedIdx", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a375b99e28e24ab780495da58c78db253", null ],
     [ "UIWidth", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a158d3e9f44c5caabaee17737e55aff25", null ],
-    [ "eIndexChanged", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#af02867e33524c8abcab3af1737bbf17c", null ]
+    [ "IndexChanged", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a8d4ddee56928d03abaab149e141ee0cb", null ]
 ];

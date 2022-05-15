@@ -1,7 +1,7 @@
 <map id="Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay" name="Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay">
 <area shape="rect" id="node1" title="Extends base UIHubEventRelay with logic related to the AGUIElementsCollection component." alt="" coords="5,229,256,285"/>
 <area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages." alt="" coords="34,333,227,375"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html" title="Component that listens events from attached GUIElement and re&#45;translates them to parental or manually..." alt="" coords="69,155,192,181"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html" title="Component that listens events from attached AGUIElement and re&#45;translates them to parental or manuall..." alt="" coords="69,155,192,181"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="87,80,175,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="75,5,186,32"/>
 </map>

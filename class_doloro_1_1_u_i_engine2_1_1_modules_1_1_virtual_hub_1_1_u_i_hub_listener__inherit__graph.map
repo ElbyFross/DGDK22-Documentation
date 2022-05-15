@@ -5,5 +5,5 @@
 <area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="164,50,252,77"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,50,116,77"/>
 <area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html" title="Connects ExchangeBufferGUIElement to the VirtualUIHub events network." alt="" coords="819,39,1070,80"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; GUIElements." alt="" coords="817,104,1072,175"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; AGUIElements." alt="" coords="817,104,1072,175"/>
 </map>

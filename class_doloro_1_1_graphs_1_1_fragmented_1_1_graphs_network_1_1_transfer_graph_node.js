@@ -12,5 +12,5 @@ var class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph
     [ "graph", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html#aef26f71d4153ec973512e7d890d648c6", null ],
     [ "position", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html#a2708ca97cd278e2d46514f7d8472453b", null ],
     [ "signature", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html#af309bc5a1716e0cd38de3d706b605ec5", null ],
-    [ "onModified", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html#a46bdd4adbb912b0b65401bdb4baa12ce", null ]
+    [ "Modified", "class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html#a53ab3753e339c0b8a1c4947ae0359451", null ]
 ];

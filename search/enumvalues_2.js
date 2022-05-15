@@ -8,5 +8,5 @@ var searchData=
   ['const_5',['Const',['../namespace_doloro_1_1_a_i_1_1_core.html#a512059f12d7dca0eb1e8e20a7c01b68ea79ceee9f8e3c1f0cc74223e05d2448bf',1,'Doloro::AI::Core']]],
   ['contentdrop_6',['ContentDrop',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edbad9c7f9c6f0888c70e0ff839a827158ea',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
   ['contenttoroot_7',['ContentToRoot',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edbab8ab63f336c91e63bcc76c4824b3f6b3',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
-  ['controller_8',['Controller',['../namespace_doloro_1_1_tools_1_1_input.html#a59152808acb1a571407c1b31cd24c59fa9bbf373797bf7cf7ba62c80023682e25',1,'Doloro::Tools::Input']]]
+  ['controller_8',['Controller',['../namespace_doloro_1_1_tools_1_1_input_service.html#a6dec7b6c6097c1ccc72d5ab9f717ada3a9bbf373797bf7cf7ba62c80023682e25',1,'Doloro::Tools::InputService']]]
 ];

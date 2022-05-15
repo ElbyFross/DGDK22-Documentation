@@ -1,9 +1,9 @@
 <map id="Doloro.UIEngine2.AFreespaceLayoutController" name="Doloro.UIEngine2.AFreespaceLayoutController">
-<area shape="rect" id="node1" title="Layout controller that allows to operate GUI element in free space." alt="" coords="304,75,500,116"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html" title="An abstract class that implement base background features for handling window layout." alt="" coords="585,37,766,79"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html" title="Control that provides position managing for splitter between two runtime workspaces." alt="" coords="548,103,803,159"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="164,82,256,109"/>
+<area shape="rect" id="node1" title="Layout controller that allows to operate GUI element in free space." alt="" coords="313,75,509,116"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html" title="An abstract class that implement base background features for handling window layout." alt="" coords="594,37,775,79"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html" title="Control that provides position managing for splitter between two runtime workspaces." alt="" coords="557,103,812,159"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="164,82,265,109"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,82,116,109"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html" title="Provides free&#45;space drag for Window related instance." alt="" coords="857,5,1056,47"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html" title="Component that provides handling features for resizing of the Window by using its edges or corners." alt="" coords="851,71,1063,112"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html" title="Provides free&#45;space drag for Window related instance." alt="" coords="867,5,1065,47"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html" title="Component that provides handling features for resizing of the Window by using its edges or corners." alt="" coords="860,71,1072,112"/>
 </map>

@@ -8,5 +8,5 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources
     [ "Count", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a586fd623fedff74d3b23af9972a27b3f", null ],
     [ "isLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#aaa6ceb375d62a5c7bbd5f945e7d47774", null ],
     [ "isStarted", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#acb9ee4f5ea1d90828c349d578677ec96", null ],
-    [ "eLoaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#af52e878dd98f4c4a5cb5d769f1d5d8a2", null ]
+    [ "Loaded", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html#a5729abfa1f6dd741d2fe2a1cd1e58b2f", null ]
 ];

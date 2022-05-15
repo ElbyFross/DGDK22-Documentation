@@ -1,5 +1,5 @@
 <map id="Doloro.InvetorySystem.Modules.Shops.UI.TradingConsoleGUIElement" name="Doloro.InvetorySystem.Modules.Shops.UI.TradingConsoleGUIElement">
 <area shape="rect" id="node1" title="Console that provides trading interface along with relevant trading info." alt="" coords="5,155,244,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="45,80,204,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="41,80,209,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="69,5,180,32"/>
 </map>

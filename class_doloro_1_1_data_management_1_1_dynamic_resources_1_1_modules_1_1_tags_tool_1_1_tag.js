@@ -16,5 +16,5 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     [ "Key", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a81a0e721adbc8062301befd61d2af54d", null ],
     [ "Tint", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#ab68dff766df1d0b48991d7b5ea55038b", null ],
     [ "Visibility", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a67fa825e89e67d57a55ab2cf8271473a", null ],
-    [ "onModified", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#aa8ce5eada49a06cf9e019876afec6b65", null ]
+    [ "Modified", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#af1031333049b1daa145ce9476d23a1af", null ]
 ];

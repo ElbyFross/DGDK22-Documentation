@@ -10,6 +10,6 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     ] ],
     [ "DrawTagsCollectionPanel", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#ab4d5ac2b5d686fb96229e25c50915c2a", null ],
     [ "DrawTagsCollectionPanel", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#af1b5b248ba35a79af0505f8d7663fa1a", null ],
-    [ "AddButtonColor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#a7791edd189b41990971e0a6a57539117", null ],
-    [ "BackgroundColor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#a4d7114510d4a9850a5fd0614f7ef614c", null ]
+    [ "AddButtonColor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#a6e859853bc405af728d2ce05bdf2a5d6", null ],
+    [ "BackgroundColor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_collection_u_i_element.html#a9ac32b6c04047814e00c0773e21e0e79", null ]
 ];

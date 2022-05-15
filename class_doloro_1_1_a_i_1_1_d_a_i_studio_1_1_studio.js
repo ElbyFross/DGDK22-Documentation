@@ -2,6 +2,7 @@ var class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio =
 [
     [ "CreateEditorNode", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#ad8167e4d5c648296840f85c8fd67bbc7", null ],
     [ "EstablishEnvirounment", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a4ca630f99646e099dc3663ac0ff18026", null ],
+    [ "Init", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#ac1fe251c6c1096646a6e271ae94af35b", null ],
     [ "NodesCatalogContextGUI", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a5f0f00aef7765d2b4e783c6226790aca", null ],
     [ "OnDestroy", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a5663f2d9fe2a4632b3b0f79c223c130b", null ],
     [ "OnEditorValidation", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#af110186d4da0ad05b9fee86745aeae81", null ],
@@ -32,7 +33,7 @@ var class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio =
     [ "ProjectPath", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#aa9ae49b9a7fe2b93809ba50f5868251a", null ],
     [ "SelectedGameObject", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a2f776c5f3130169691600e6471fbdf3b", null ],
     [ "SelectedPipeline", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#adcdb7aebede5b7e925ab701cd616e27f", null ],
-    [ "onBrainSelected", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#aca3fa3b8399d5b9f916d1c9e169583db", null ],
-    [ "onMapLoaded", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#ace96b96ff8891ac04775ab68fcdd2b0c", null ],
-    [ "onNewItemSelected", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a8a25d80c4f51efa13cc3c2093861c352", null ]
+    [ "BrainSelected", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#a4ff95af60793090b11466cd339b25878", null ],
+    [ "MapLoaded", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#ab64623d66ab8261e7829ca521a49e33d", null ],
+    [ "NewItemSelected", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_studio.html#acc0f9b2d57088fe3aaf87c90e53e3301", null ]
 ];

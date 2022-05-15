@@ -2,6 +2,6 @@ var interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_prope
 [
     [ "Contains", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#a61af6d3508cbd2e860867879bfe00f1f", null ],
     [ "this[string path]", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#a8a718f6d570be400b24b4f971a5abc9c", null ],
-    [ "onPropertyAdded", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#ac6fa9d64c9cc4ec5f497d4b0dbfe467c", null ],
-    [ "onPropertyRemoved", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#a7fe8d24655f9d789dcf203977f79bff1", null ]
+    [ "PropertyAdded", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#a3142e15aa5ec6f30db1ea6645238cb75", null ],
+    [ "PropertyRemoved", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_properties_provider.html#a6f7251432b6a4b55e952bd7f464c1d94", null ]
 ];

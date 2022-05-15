@@ -16,6 +16,6 @@ var class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_
     [ "Count", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#af622fa15cfd906830768bd59003d6e6c", null ],
     [ "IsReadOnly", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a965b0521b3f272563cbf5c4372116b2d", null ],
     [ "this[string path]", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a05b18f6b84cda02c9b22e5ffde048864", null ],
-    [ "onPropertyAdded", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a9aad2335b40b68fae80ca2c0116feda5", null ],
-    [ "onPropertyRemoved", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a723b216f836b2d854a6c2d39ac50ee08", null ]
+    [ "PropertyAdded", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a3b594513565ce6c369c22a02ad73c493", null ],
+    [ "PropertyRemoved", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator.html#a5804c75b26b538438b13d486979f9c36", null ]
 ];

@@ -25,5 +25,5 @@ var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_
     [ "IsReadOnly", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#a7ac1106e24c45d0a90294542f2fa77fe", null ],
     [ "Modified", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#a3425b6eb4e1f3727df37c7657e9235f7", null ],
     [ "this[int index]", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#a793beecbd316ef3d1ce15e41797e670f", null ],
-    [ "eTagRemoved", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#ad78d204897684ce41cc33a1173045b9e", null ]
+    [ "TagRemoved", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_database.html#a28b4f84d9cac35e5404b2bf1358f3d02", null ]
 ];

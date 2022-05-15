@@ -30,7 +30,7 @@ var class_doloro_1_1_graphs_1_1_graph =
     [ "id", "class_doloro_1_1_graphs_1_1_graph.html#abaf1bb84ab2c0d6f491bb494f0779eac", null ],
     [ "IsReadOnly", "class_doloro_1_1_graphs_1_1_graph.html#a88e92cc5406f3ba2a460e63ee649ddad", null ],
     [ "nodes", "class_doloro_1_1_graphs_1_1_graph.html#a6421a3379b85b2356e896394537e8424", null ],
-    [ "onGraphObsolete", "class_doloro_1_1_graphs_1_1_graph.html#a1f176e037e508ad2da3bf136210e89f4", null ],
-    [ "OnNodeAdded", "class_doloro_1_1_graphs_1_1_graph.html#ad5e17f4ffe360435b12f3f05366d876a", null ],
-    [ "OnNodeRemoved", "class_doloro_1_1_graphs_1_1_graph.html#afd6bf5c073e8ab72a8856d18ef4e4f8c", null ]
+    [ "GraphObsoleted", "class_doloro_1_1_graphs_1_1_graph.html#ad7c9ece3ce57532fa623f2a816f4e8c0", null ],
+    [ "NodeAdded", "class_doloro_1_1_graphs_1_1_graph.html#a642fb61351004fefd6bbafab304c8680", null ],
+    [ "NodeRemoved", "class_doloro_1_1_graphs_1_1_graph.html#a8b72c9f640ee3aa3541295ab50ab2b67", null ]
 ];

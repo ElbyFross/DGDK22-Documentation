@@ -6,5 +6,5 @@ var class_doloro_1_1_localization_1_1_generic_proxy_content_provider =
     [ "UpdateHandler", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a9e2e7c828ae6a01fac628c903f94cf85", null ],
     [ "content", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a2a8dbc7d934ec8ae2d239b61c01bff2c", null ],
     [ "IsLocalizationExeptionsSuppressed", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a7b000f1137a097c2875af128ea6786a4", null ],
-    [ "onUpdated", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a4f590e8221d05f7681707db977ce4159", null ]
+    [ "Updated", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#abc9883b01ad76b52d3a4511518662c28", null ]
 ];

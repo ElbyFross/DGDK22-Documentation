@@ -13,6 +13,6 @@ var class_doloro_1_1_invetory_system_1_1_storages_service =
     [ "TryGetRented", "class_doloro_1_1_invetory_system_1_1_storages_service.html#a5d67848f84393f227b742eb6fd36ea8e", null ],
     [ "TryGetRented", "class_doloro_1_1_invetory_system_1_1_storages_service.html#a94ad1c2709af81b87b44f042d1e120e7", null ],
     [ "category", "class_doloro_1_1_invetory_system_1_1_storages_service.html#affda7df6bd8c53b635b20941e0389fff", null ],
-    [ "OnPreStorageRelease", "class_doloro_1_1_invetory_system_1_1_storages_service.html#a98d8c35e6070aea5535195f40cc401d7", null ],
-    [ "OnStorageRented", "class_doloro_1_1_invetory_system_1_1_storages_service.html#acc0f3b06adcfa96901abb0f34da5a962", null ]
+    [ "StorageReleasePreparation", "class_doloro_1_1_invetory_system_1_1_storages_service.html#adf2135f22f575d14238451b122110b75", null ],
+    [ "StorageRented", "class_doloro_1_1_invetory_system_1_1_storages_service.html#a97b0dfbea66fe7b4e6ce9ff514cfdae9", null ]
 ];

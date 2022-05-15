@@ -9,7 +9,7 @@ var class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset
     [ "Key", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a3485857dc8cdb6ff81814b1695b76c57", null ],
     [ "Value", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a33d4b37c442838894db413b30c5d6f2f", null ],
     [ "ValueAsFloat", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#abb87e00ab6ffa6addbda47ef25268465", null ],
-    [ "eKeyChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#adbcc12da8e1ad05ca6fa8dda9053dd05", null ],
-    [ "ePropertyKeyChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a3bcec6477e2bb9e749cca40a4e72209a", null ],
-    [ "eValueChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a92fc020d2da388cbcb748f49a97bbefc", null ]
+    [ "KeyChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#aea223a5781d542c56c08518fd3134b2c", null ],
+    [ "PropertyKeyChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a5857697af315ca1b4aa735bb4a8c4efc", null ],
+    [ "ValueChanged", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_float_asset_property.html#a021bec77c96801886d3877431db2d1ea", null ]
 ];

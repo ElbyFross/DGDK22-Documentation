@@ -31,5 +31,5 @@ var class_doloro_1_1_data_management_1_1_tables_1_1_solution =
     [ "ReferencesCount", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#ad66494985bea28b653f28fca359cdfb6", null ],
     [ "StoredAssetPath", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#a4455fa1e2c84d351a540ddc2e1684f90", null ],
     [ "unsaved", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#a6c15dd6f220da7b8dffccf16325f81f0", null ],
-    [ "onAssetObsolete", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#ab0613d933b70e33a9d4456bf15cefec3", null ]
+    [ "AssetObsoleted", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html#ae5a98f53cdc6ba800e749453c439013d", null ]
 ];

@@ -1,5 +1,5 @@
 <map id="Doloro.UIEngine2.AWorkspaceGUIElement" name="Doloro.UIEngine2.AWorkspaceGUIElement">
 <area shape="rect" id="node1" title="GUI element that support workspace layout module." alt="" coords="5,155,207,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="60,80,152,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="55,80,157,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="51,5,161,32"/>
 </map>

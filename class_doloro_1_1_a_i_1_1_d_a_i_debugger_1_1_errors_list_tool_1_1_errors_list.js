@@ -20,7 +20,7 @@ var class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list
     [ "SendMessage", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#a0b148f5fbae03e7c61e79de09a08d060", null ],
     [ "SendMessage", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#a0a95aed13362b6b83aedfc68c350d1fb", null ],
     [ "CellStyle", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#a12e17e5f92e507b37c0ffd5a5b855996", null ],
-    [ "enabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#a50015e5ecc4231e28def485571280c22", null ],
     [ "handlingStorage", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#a60a9580b78f8f0147703d7028293c13d", null ],
+    [ "IsEnabled", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#ac882caaf71d4b6c2717313e185788724", null ],
     [ "scrollBarPosition", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html#aa8299f82a6777b36aa2d9f837617f708", null ]
 ];

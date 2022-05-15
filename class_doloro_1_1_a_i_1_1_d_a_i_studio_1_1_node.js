@@ -8,12 +8,12 @@ var class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node =
     [ "children", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a8b4f639a20cb641096d689b869331c7c", null ],
     [ "linqs", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a8b566880087c7303f51e0a55eb54ff7e", null ],
     [ "BranchHeight", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a7d9ad9851abda522f2686d237f8db98e", null ],
+    [ "DestinationPosition", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a937be5df749b4a2e213aee7da320c05d", null ],
     [ "GUIRepresentation", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a686f2fb4621b6cba27db89ca93169c64", null ],
     [ "Height", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#ad58b668a381cb35b5f66dff71a2fa970", null ],
     [ "layer", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a79ec8e45b3706bfa6366e3327a0d65b9", null ],
     [ "parent", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a05c94b1770d820a4e5d3e965f4e671f8", null ],
     [ "ParentHierarchyIndex", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#ac1c4a1616f9c428ce397e9950e6324e6", null ],
     [ "position", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#aee6e1b39ce2d4fe45ae58d22208a47fb", null ],
-    [ "source", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#afc75c7500374bb4aaa074c68a85a614e", null ],
-    [ "targetPosition", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#a5d0fde4952ce052f8b4774d6ee7c9c80", null ]
+    [ "source", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_node.html#afc75c7500374bb4aaa074c68a85a614e", null ]
 ];

@@ -21,8 +21,8 @@ var class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item =
     [ "result", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a269dcb259defd089ae9f17ab09bf0d9b", null ],
     [ "Tag", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a8910d362e9f8e5113520b1059ff908c8", null ],
     [ "Title", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a68531ff66e383534f39cebd9e0dfe828", null ],
-    [ "onExecuted", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a4c45e76e73647e035340db3466bee43b", null ],
-    [ "onModified", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a68b8a3a429ec1e95200415234e5e3a33", null ],
-    [ "onNewItem", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#abbb4b36c2681c7841c85ef170dccd972", null ],
-    [ "onPreExecution", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a16d3ed27e3a4bbc78cfff4ad95c3b8f6", null ]
+    [ "Executed", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#aaf6f05246a121ef781787b8b6c79e9d0", null ],
+    [ "ExecutionPreparation", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#acc5913b17c8a8cb475ac929707e9f164", null ],
+    [ "Modified", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#af358be705dc3a5e3b1b74af54f735044", null ],
+    [ "NewItem", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a446227bc8138ede4cb2da6c6a6b50f48", null ]
 ];

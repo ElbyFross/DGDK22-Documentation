@@ -12,5 +12,5 @@ var class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset =
     [ "isObsolete", "class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#aa9dca926dc0bef0d2394f35a829f5354", null ],
     [ "isRamLocated", "class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#a959b1f9be11e2029818dca5386678b04", null ],
     [ "StoredAssetPath", "class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#a4455fa1e2c84d351a540ddc2e1684f90", null ],
-    [ "onAssetObsolete", "class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#ab0613d933b70e33a9d4456bf15cefec3", null ]
+    [ "AssetObsoleted", "class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#ae5a98f53cdc6ba800e749453c439013d", null ]
 ];

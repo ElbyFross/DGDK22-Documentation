@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['contentchanged_0',['ContentChanged',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html#a8539b826e6e5e2cfaf847eb871f7c1f7',1,'Doloro.InvetorySystem.UI.AContentInspectorGUIElement.ContentChanged()'],['../interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html#a811c9c0323e7fc35f34b71c4f6f95681',1,'Doloro.UIEngine2.IContentHolder.ContentChanged()']]]
+  ['activecontentchanged_0',['ActiveContentChanged',['../class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html#af7652b4edca933ac3868fbcf83aa2b0d',1,'Doloro::UIEngine2::AWorkspaceProvider']]],
+  ['assetobsoleted_1',['AssetObsoleted',['../class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#ae5a98f53cdc6ba800e749453c439013d',1,'Doloro::DataManagement::Serialization::StorableAsset']]]
 ];

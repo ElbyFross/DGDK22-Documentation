@@ -387,7 +387,6 @@ var annotated_dup =
           [ "Table", "class_doloro_1_1_data_management_1_1_tables_1_1_table.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table" ],
           [ "TableEditor", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table_editor" ],
           [ "TableStyles", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles.html", "class_doloro_1_1_data_management_1_1_tables_1_1_table_styles" ],
-          [ "TestTableInspector", "class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector.html", "class_doloro_1_1_data_management_1_1_tables_1_1_test_table_inspector" ],
           [ "UnreferencedContentException", "class_doloro_1_1_data_management_1_1_tables_1_1_unreferenced_content_exception.html", null ]
         ] ],
         [ "AssemblyUtils", "class_doloro_1_1_data_management_1_1_assembly_utils.html", "class_doloro_1_1_data_management_1_1_assembly_utils" ]
@@ -399,9 +398,6 @@ var annotated_dup =
       ] ],
       [ "EditorExtension", "namespace_doloro_1_1_editor_extension.html", [
         [ "ProjectSettings", "namespace_doloro_1_1_editor_extension_1_1_project_settings.html", [
-          [ "QA", "namespace_doloro_1_1_editor_extension_1_1_project_settings_1_1_q_a.html", [
-            [ "ProjectSettingsTester", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_q_a_1_1_project_settings_tester.html", null ]
-          ] ],
           [ "AssemblyUtils", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assembly_utils" ],
           [ "AssetsHandler", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler.html", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler" ],
           [ "InputAxis", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html", "struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis" ],
@@ -431,7 +427,7 @@ var annotated_dup =
           [ "STHPluginHelpers", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_plugin_helpers" ],
           [ "STHSettings", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings.html", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_s_t_h_settings" ]
         ] ],
-        [ "EditorGUILayout", "class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout.html", "class_doloro_1_1_editor_extension_1_1_editor_g_u_i_layout" ]
+        [ "DoloroEditorGUILayout", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout" ]
       ] ],
       [ "GL", "namespace_doloro_1_1_g_l.html", [
         [ "Drawing", "class_doloro_1_1_g_l_1_1_drawing.html", null ]
@@ -499,6 +495,7 @@ var annotated_dup =
           [ "AEntityFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension" ],
           [ "ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element" ],
           [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_collection_data_conector" ],
+          [ "ItemFeaturesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_g_u_i_extension" ],
           [ "ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_features_list_g_u_i_extension" ],
           [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element" ],
           [ "ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension" ],
@@ -523,7 +520,7 @@ var annotated_dup =
         [ "ItemEditor", "class_doloro_1_1_invetory_system_1_1_item_editor.html", null ],
         [ "Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", "class_doloro_1_1_invetory_system_1_1_storage" ],
         [ "StorageCaller", "class_doloro_1_1_invetory_system_1_1_storage_caller.html", "class_doloro_1_1_invetory_system_1_1_storage_caller" ],
-        [ "StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", null ],
+        [ "StorageEditor", "class_doloro_1_1_invetory_system_1_1_storage_editor.html", "class_doloro_1_1_invetory_system_1_1_storage_editor" ],
         [ "StoragesDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html", "class_doloro_1_1_invetory_system_1_1_storages_database" ],
         [ "StoragesService", "class_doloro_1_1_invetory_system_1_1_storages_service.html", "class_doloro_1_1_invetory_system_1_1_storages_service" ],
         [ "TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", "class_doloro_1_1_invetory_system_1_1_transaction_service" ]
@@ -551,12 +548,12 @@ var annotated_dup =
         [ "VisualSensorDebuger", "class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html", "class_doloro_1_1_sensors_1_1_visual_sensor_debuger" ]
       ] ],
       [ "Tools", "namespace_doloro_1_1_tools.html", [
-        [ "Animator", "namespace_doloro_1_1_tools_1_1_animator.html", [
-          [ "AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_1_1_animator_loger.html", null ]
+        [ "AnimatorExtension", "namespace_doloro_1_1_tools_1_1_animator_extension.html", [
+          [ "AnimatorLoger", "class_doloro_1_1_tools_1_1_animator_extension_1_1_animator_loger.html", null ]
         ] ],
-        [ "Input", "namespace_doloro_1_1_tools_1_1_input.html", [
-          [ "Constants", "class_doloro_1_1_tools_1_1_input_1_1_constants.html", null ],
-          [ "InputDeviceDetector", "class_doloro_1_1_tools_1_1_input_1_1_input_device_detector.html", "class_doloro_1_1_tools_1_1_input_1_1_input_device_detector" ]
+        [ "InputService", "namespace_doloro_1_1_tools_1_1_input_service.html", [
+          [ "Constants", "class_doloro_1_1_tools_1_1_input_service_1_1_constants.html", null ],
+          [ "InputDeviceDetector", "class_doloro_1_1_tools_1_1_input_service_1_1_input_device_detector.html", "class_doloro_1_1_tools_1_1_input_service_1_1_input_device_detector" ]
         ] ],
         [ "Lighting", "namespace_doloro_1_1_tools_1_1_lighting.html", [
           [ "LightBlinkImmediately", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_immediately.html", "class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_immediately" ],
@@ -679,11 +676,11 @@ var annotated_dup =
         ] ],
         [ "AClampedWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider" ],
         [ "AFreespaceLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller" ],
+        [ "AGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element" ],
         [ "AWindowLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller" ],
         [ "AWorkspaceGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element" ],
         [ "AWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider" ],
         [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_constants.html", "class_doloro_1_1_u_i_engine2_1_1_constants" ],
-        [ "GUIElement", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_element" ],
         [ "GUIField", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_field.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_field" ],
         [ "GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info" ],
         [ "IClampedSizeLayout", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout" ],

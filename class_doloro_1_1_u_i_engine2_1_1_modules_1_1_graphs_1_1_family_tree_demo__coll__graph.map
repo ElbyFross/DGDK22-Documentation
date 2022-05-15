@@ -1,10 +1,10 @@
 <map id="Doloro.UIEngine2.Modules.Graphs.FamilyTreeDemo" name="Doloro.UIEngine2.Modules.Graphs.FamilyTreeDemo">
-<area shape="rect" id="node1" title=" " alt="" coords="1508,39,1687,81"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,101,257,128"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html" title="Base class for any GUI representation of the Graph." alt="" coords="536,81,663,108"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html" title=" " alt="" coords="501,133,697,174"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1527,39,1705,81"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,101,267,128"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html" title="Base class for any GUI representation of the Graph." alt="" coords="555,81,681,108"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html" title=" " alt="" coords="520,133,716,174"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,149,116,176"/>
-<area shape="rect" id="node8" href="$class_doloro_1_1_u_i_engine2_1_1_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="281,185,477,212"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html" title=" " alt="" coords="1191,94,1405,135"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html" title=" " alt="" coords="827,94,1073,135"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="291,185,496,212"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html" title=" " alt="" coords="1209,94,1424,135"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html" title=" " alt="" coords="845,94,1092,135"/>
 </map>
