@@ -263,6 +263,9 @@ Protected Member Functions</h2></td></tr>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnClampedSizeChanged</b> ()</td></tr>
 <tr class="memdesc:a0e98cd0c3517eeb21d12393aa870d81a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should be called in case if <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#ae4d0bc926f965467a7cdf70045b8e28a" title="Minimum size that allowed to window.">MinSize</a> or <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a8adc3be056d26fd77968a7a633121f0f" title="Maximum size of the window.">MaxSize</a> is modified. <br /></td></tr>
 <tr class="separator:a0e98cd0c3517eeb21d12393aa870d81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2891f3a86539082af5d6e9040e22e09"><td class="memItemLeft" align="right" valign="top">delegate float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#ad2891f3a86539082af5d6e9040e22e09">ClampDelegate</a> (int mode, float coordinates, float elementSide, float wsCoord, float wsSize)</td></tr>
+<tr class="memdesc:ad2891f3a86539082af5d6e9040e22e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that should clamp left top corner of elements inside certain bounds.  <a href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#ad2891f3a86539082af5d6e9040e22e09">More...</a><br /></td></tr>
+<tr class="separator:ad2891f3a86539082af5d6e9040e22e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4fc7fac07be48b44d00e3da7c635bbe"><td class="memItemLeft" align="right" valign="top"><a id="ac4fc7fac07be48b44d00e3da7c635bbe" name="ac4fc7fac07be48b44d00e3da7c635bbe"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="memdesc:ac4fc7fac07be48b44d00e3da7c635bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when component enabled. <br /></td></tr>
@@ -367,8 +370,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsWindowFocused</b><c
 <tr class="memitem:abf79a1ef5a8316139d5ad7a6f7f72ca3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#abf79a1ef5a8316139d5ad7a6f7f72ca3">DynamicSizeIfClamped</a> = false<code> [get, set]</code></td></tr>
 <tr class="memdesc:abf79a1ef5a8316139d5ad7a6f7f72ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then the window would be resized in case if hit the screen bound.  <a href="class_doloro_1_1_u_i_engine2_1_1_window.html#abf79a1ef5a8316139d5ad7a6f7f72ca3">More...</a><br /></td></tr>
 <tr class="separator:abf79a1ef5a8316139d5ad7a6f7f72ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5665b2b520e3256e71070743a1561a89"><td class="memItemLeft" align="right" valign="top">override Func&lt; int, float, float, float, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a5665b2b520e3256e71070743a1561a89">ClampHandler</a><code> [get]</code></td></tr>
-<tr class="separator:a5665b2b520e3256e71070743a1561a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8158dbeef964f51876d6c266f61e1e"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#ad2891f3a86539082af5d6e9040e22e09">ClampDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a8b8158dbeef964f51876d6c266f61e1e">ClampHandler</a><code> [get]</code></td></tr>
+<tr class="separator:a8b8158dbeef964f51876d6c266f61e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a054e2cd3a2e1d2e4a507ea88379f20a8"><td class="memItemLeft" align="right" valign="top">override Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a054e2cd3a2e1d2e4a507ea88379f20a8">Position</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a054e2cd3a2e1d2e4a507ea88379f20a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of the windows in world coordinates.  <a href="class_doloro_1_1_u_i_engine2_1_1_window.html#a054e2cd3a2e1d2e4a507ea88379f20a8">More...</a><br /></td></tr>
 <tr class="separator:a054e2cd3a2e1d2e4a507ea88379f20a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -620,6 +623,73 @@ Action&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.
 <p>Reimplemented from <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#af8c05e25edb9970fa3fa2f39fdda83a2">Doloro.UIEngine2.AGUIElement</a>.</p>
 
 <p>Reimplemented in <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a079278b95330b01abfb5f70c8670cf1e">Doloro.UIEngine2.WindowUIController</a>.</p>
+
+</div>
+</div>
+<a id="ad2891f3a86539082af5d6e9040e22e09" name="ad2891f3a86539082af5d6e9040e22e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2891f3a86539082af5d6e9040e22e09">&#9670;&nbsp;</a></span>ClampDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate float Doloro.UIEngine2.AWorkspaceGUIElement.ClampDelegate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>coordinates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>elementSide</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>wsCoord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>wsSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that should clamp left top corner of elements inside certain bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Axis: 0 - horizontal, 1 - vertical.</td></tr>
+    <tr><td class="paramname">coordinates</td><td>Raw position by axis.</td></tr>
+    <tr><td class="paramname">elementSide</td><td>Element side size related to axis.</td></tr>
+    <tr><td class="paramname">wsCoord</td><td>Start point of workspace.</td></tr>
+    <tr><td class="paramname">wsSize</td><td>Size of the workspace side along with axis.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Clamped coordinate of the top left corner.</dd></dl>
 
 </div>
 </div>
@@ -1686,8 +1756,8 @@ Case:</h3>
 
 </div>
 </div>
-<a id="a5665b2b520e3256e71070743a1561a89" name="a5665b2b520e3256e71070743a1561a89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5665b2b520e3256e71070743a1561a89">&#9670;&nbsp;</a></span>ClampHandler</h2>
+<a id="a8b8158dbeef964f51876d6c266f61e1e" name="a8b8158dbeef964f51876d6c266f61e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8158dbeef964f51876d6c266f61e1e">&#9670;&nbsp;</a></span>ClampHandler</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1696,7 +1766,7 @@ Case:</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override Func&lt;int, float, float, float, float, float&gt; Doloro.UIEngine2.Window.ClampHandler</td>
+          <td class="memname">override <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#ad2891f3a86539082af5d6e9040e22e09">ClampDelegate</a> Doloro.UIEngine2.Window.ClampHandler</td>
         </tr>
       </table>
   </td>
@@ -1707,9 +1777,7 @@ Case:</h3>
 </div><div class="memdoc">
 
 <p></p>
-<p >Returns handler that should clamp left top corner of elements inside certain bounds.</p>
-<p ><code>mode</code> - Axis: 0 - horizontal, 1 - vertical. <code>coordinates</code>- Raw position by axis. <code>elementSide</code> - Element side size related to axis. <code>wsCoord</code> - Start point of workspace. <code>wsSize</code> - Size of the workspace side along with axis.</p>
-<p >returns: Clamped coordinate of the top left corner. </p>
+<p >Returns handler that should clamp left top corner of elements inside certain bounds. </p>
 
 </div>
 </div>

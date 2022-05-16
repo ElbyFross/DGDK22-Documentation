@@ -8,6 +8,6 @@ var class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_propert
     [ "PropertyHandler", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#a0dda2044c275f6bce13391133cc24afd", null ],
     [ "PropertyName", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#a06cbc736f15c924d147a77b9d768097f", null ],
     [ "ReceivedErrorMessage", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#a99babcb20f6b9e8cbcc6da5efd3d7eb7", null ],
-    [ "SelectedType", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#ad3b810622c98d42dcabf0de56ca625b2", null ],
+    [ "SelectedType", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#a1845c57f70a840e841210b4772137cb1", null ],
     [ "Size", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#afc0a006fb6a357f15d59b5be8c5ec5d1", null ]
 ];
