@@ -1,11 +1,7 @@
 var namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i =
 [
-    [ "ExchangeBufferGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_g_u_i_element" ],
-    [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener" ],
-    [ "InvalidOrderInfoGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_invalid_order_info_g_u_i_element" ],
-    [ "ShopGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shop_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shop_g_u_i_element" ],
-    [ "ShopsInspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector" ],
-    [ "TradingConsoleGUIElement", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_trading_console_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_trading_console_g_u_i_element" ],
-    [ "TransactionOrderInspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector" ],
-    [ "TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transfer_agent_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transfer_agent_collection_data_conector" ]
+    [ "Controls", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls.html", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls" ],
+    [ "DataBridge", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge.html", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge" ],
+    [ "Windows", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows.html", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows" ],
+    [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener" ]
 ];

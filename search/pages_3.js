@@ -14,9 +14,8 @@ var searchData=
   ['doloro_20inventory_20system_11',['Doloro Inventory System',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20localization_12',['Doloro Localization',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20sensor_13',['Doloro Sensor',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html',1,'']]],
-  ['doloro_20tools_14',['Doloro Tools',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__tools__r_e_a_d_m_e.html',1,'']]],
-  ['doloro_20ui_202_15',['Doloro UI 2',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html',1,'']]],
-  ['dynamic_20resource_16',['Dynamic Resource',['../ddm-drt-dr.html',1,'ddm-drt']]],
-  ['dynamic_20resource_20tools_17',['Dynamic Resource Tools',['../ddm-drt.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Data_Management_README']]],
-  ['dynamic_20resources_20database_18',['Dynamic Resources Database',['../ddm-drt-api-drd.html',1,'ddm-drt']]]
+  ['doloro_20ui_202_14',['Doloro UI 2',['../md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html',1,'']]],
+  ['dynamic_20resource_15',['Dynamic Resource',['../ddm-drt-dr.html',1,'ddm-drt']]],
+  ['dynamic_20resource_20tools_16',['Dynamic Resource Tools',['../ddm-drt.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Data_Management_README']]],
+  ['dynamic_20resources_20database_17',['Dynamic Resources Database',['../ddm-drt-api-drd.html',1,'ddm-drt']]]
 ];

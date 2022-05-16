@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['validator_0',['Validator',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_shops_inspector.html#a3f9732a5e4646a395757b209011b0dbd',1,'Doloro::InvetorySystem::Modules::Shops::UI::ShopsInspector']]],
+  ['validator_0',['Validator',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#aaf1235c9d47043fc7390e6e7c3f50b27',1,'Doloro::InvetorySystem::Modules::Shops::UI::Windows::ShopsInspector']]],
   ['variable_1',['Variable',['../class_doloro_1_1_a_i_1_1_variable.html#a5187f397ea971f4ae8e425a16a00b5a1',1,'Doloro::AI::Variable']]],
   ['vector2_2',['Vector2',['../struct_doloro_1_1_base_types_1_1_vector2.html#a4746668065bcbb317f567ac54653e1c1',1,'Doloro::BaseTypes::Vector2']]],
   ['vector2assetproperty_3',['Vector2AssetProperty',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html#a721d9458afdbd5520cfdd3d6035d9176',1,'Doloro.DataManagement.AssetPropertiesSystem.Vector2AssetProperty.Vector2AssetProperty()'],['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html#a079fe0e9f287200ea7c8f146421a4fd5',1,'Doloro.DataManagement.AssetPropertiesSystem.Vector2AssetProperty.Vector2AssetProperty(Vector2 value)'],['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector2_asset_property.html#a3b1135ff14439f42102f345c6665ca71',1,'Doloro.DataManagement.AssetPropertiesSystem.Vector2AssetProperty.Vector2AssetProperty(SerializationInfo info, StreamingContext context)']]],

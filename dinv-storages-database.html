@@ -118,14 +118,14 @@ Architecture</h1>
 Storage Container</h2>
 <p ><code>StorageContainer</code> represents content of a <code>Storage</code> entity that holding cross-session data.</p>
 <p ><b>Operates several child registries:</b></p><ul>
-<li><code>StorageFeature</code> binary data, that represents state of features applied over <code>Storage</code> instance during last rent session.</li>
+<li><code>AStorageFeature</code> binary data, that represents state of features applied over <code>Storage</code> instance during last rent session.</li>
 <li><code>ItemContainer</code> collection, that represents items metadata related to the storage instance.</li>
 </ul>
 <p ><code>StorageContainer</code> bonds with the <code>Storage</code> rented instance and updates in two case:</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html" title="Container that using as data entry for the StoragesDatabase.">Doloro.InvetorySystem.StoragesDatabase.StorageContainer</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a></li>
-<li>Doloro.InvetorySystem.StorageFeature</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality.">Doloro.InvetorySystem.AStorageFeature</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Doloro.InvetorySystem.Storage</a></li>
 </ul>
 <p ><br  />
@@ -136,12 +136,12 @@ Item Container</h2>
 <p ><b>Stores:</b></p><ul>
 <li>Item signature</li>
 <li>Items count</li>
-<li><code>ItemFeature</code> states found over rented <code>Item</code> instance.</li>
+<li><code>AItemFeature</code> states found over rented <code>Item</code> instance.</li>
 </ul>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a></li>
-<li>Doloro.InvetorySystem.ItemFeature</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">Doloro.InvetorySystem.AItemFeature</a></li>
 </ul>
 <p ><br  />
 </p>
@@ -189,7 +189,8 @@ How to release entity</h2>
 <div class="line"> </div>
 <div class="line">Guid storageId = YOUR_ID;</div>
 <div class="line">StoragesService.ReleaseRentedEntity(storageId)</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000040">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

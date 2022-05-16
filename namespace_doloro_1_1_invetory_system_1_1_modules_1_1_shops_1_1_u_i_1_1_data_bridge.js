@@ -1,0 +1,4 @@
+var namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge =
+[
+    [ "TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector" ]
+];

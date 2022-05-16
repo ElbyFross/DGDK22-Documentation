@@ -1,0 +1,5 @@
+<map id="Doloro.InvetorySystem.UI.Controls.ItemFeatureGUIElement" name="Doloro.InvetorySystem.UI.Controls.ItemFeatureGUIElement">
+<area shape="rect" id="node1" title="GUI element that receives AItemFeature as content and display it at UI. Also can handle as content As..." alt="" coords="82,124,295,165"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title=" " alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="228,13,320,39"/>
+</map>

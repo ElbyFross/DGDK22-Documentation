@@ -5,12 +5,10 @@ var namespace_doloro =
     [ "DataManagement", "namespace_doloro_1_1_data_management.html", "namespace_doloro_1_1_data_management" ],
     [ "EditorConfiguration", "namespace_doloro_1_1_editor_configuration.html", "namespace_doloro_1_1_editor_configuration" ],
     [ "EditorExtension", "namespace_doloro_1_1_editor_extension.html", "namespace_doloro_1_1_editor_extension" ],
-    [ "GL", "namespace_doloro_1_1_g_l.html", "namespace_doloro_1_1_g_l" ],
     [ "Graphs", "namespace_doloro_1_1_graphs.html", "namespace_doloro_1_1_graphs" ],
     [ "InvetorySystem", "namespace_doloro_1_1_invetory_system.html", "namespace_doloro_1_1_invetory_system" ],
     [ "Localization", "namespace_doloro_1_1_localization.html", "namespace_doloro_1_1_localization" ],
     [ "Sensors", "namespace_doloro_1_1_sensors.html", "namespace_doloro_1_1_sensors" ],
     [ "Tools", "namespace_doloro_1_1_tools.html", "namespace_doloro_1_1_tools" ],
-    [ "UI", "namespace_doloro_1_1_u_i.html", "namespace_doloro_1_1_u_i" ],
     [ "UIEngine2", "namespace_doloro_1_1_u_i_engine2.html", "namespace_doloro_1_1_u_i_engine2" ]
 ];

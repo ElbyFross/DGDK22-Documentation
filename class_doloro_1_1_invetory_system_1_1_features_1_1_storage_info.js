@@ -1,6 +1,5 @@
 var class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info =
 [
-    [ "Info", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info_1_1_info.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info_1_1_info" ],
     [ "LoadSession", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html#affee204ba2c9dfc78193150685ab8af9", null ],
     [ "OnModified", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html#a82a053fdc7ce60828ec31dc09853be57", null ],
     [ "OnStorageRented", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html#a8b9c7e9f2c630274cfb30eb478c9dcd6", null ],

@@ -1,0 +1,4 @@
+<map id="Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConector" name="Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConector">
+<area shape="rect" id="node1" title="Provides API to connect AItemFeature with ItemFeatureGUIElement handling UI." alt="" coords="5,109,228,165"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title=" " alt="" coords="21,5,213,61"/>
+</map>
