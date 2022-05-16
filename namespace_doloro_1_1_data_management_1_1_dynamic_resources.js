@@ -1,6 +1,5 @@
 var namespace_doloro_1_1_data_management_1_1_dynamic_resources =
 [
-    [ "Core", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_core.html", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_core" ],
     [ "Examples", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples.html", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples" ],
     [ "Modules", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules.html", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules" ],
     [ "Search", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search.html", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search" ],

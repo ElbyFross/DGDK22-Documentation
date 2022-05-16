@@ -35,11 +35,11 @@ var searchData=
   ['contextmenu_32',['ContextMenu',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html',1,'Doloro::UIEngine2::Modules::Context']]],
   ['contextmenuitem_33',['ContextMenuItem',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item.html',1,'Doloro::UIEngine2::Modules::Context']]],
   ['contextmenuiteminfo_34',['ContextMenuItemInfo',['../struct_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item_info.html',1,'Doloro::UIEngine2::Modules::Context']]],
-  ['coordinate_35',['Coordinate',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],
+  ['coordinate_35',['Coordinate',['../struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
   ['copy_36',['Copy',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html',1,'Doloro::AI::Memory']]],
   ['copyeditor_37',['CopyEditor',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy_editor.html',1,'Doloro::AI::Memory']]],
   ['crossgraphvirtualconnection_38',['CrossGraphVirtualConnection',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_cross_graph_virtual_connection.html',1,'Doloro::Graphs::Fragmented::GraphsNetwork']]],
-  ['crosssessiondata_39',['CrossSessionData',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume_1_1_cross_session_data.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::StorageVolume']]],
+  ['crosssessiondata_39',['CrossSessionData',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_1_1_cross_session_data.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace::StorageVolume']]],
   ['currentpositionincircleareabymemory_40',['CurrentPositionInCircleAreaByMemory',['../class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory.html',1,'Doloro::AI::Check']]],
   ['customactioneditorattribute_41',['CustomActionEditorAttribute',['../class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html',1,'Doloro::AI']]],
   ['custompropertiestab_42',['CustomPropertiesTab',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_custom_properties_tab.html',1,'Doloro::AI::DAIInspector']]]

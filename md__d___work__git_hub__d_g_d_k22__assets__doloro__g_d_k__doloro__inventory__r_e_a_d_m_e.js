@@ -27,7 +27,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
     [ "Storage", "dinv-storage.html", [
       [ "About", "dinv-storage.html#dinv-storage-a", null ],
       [ "Resource", "dinv-storage.html#dinv-storage-r", null ],
-      [ "Properties", "dinv-storage.html#dinv-storage-p", [
+      [ "Features", "dinv-storage.html#dinv-storage-p", [
         [ "In-box", "dinv-storage.html#dinv-storage-p-box", null ]
       ] ],
       [ "GUI", "dinv-storage.html#dinv-storage-gui", null ]
@@ -37,7 +37,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "Architecture", "dinv-storages-database.html#dinv-storages-database-arch", [
         [ "Storage Container", "dinv-storages-database.html#dinv-storages-database-sc", null ],
         [ "Item Container", "dinv-storages-database.html#dinv-storages-database-ic", null ],
-        [ "Property Container", "dinv-storages-database.html#dinv-storages-database-pc", null ]
+        [ "Feature Container", "dinv-storages-database.html#dinv-storages-database-pc", null ]
       ] ],
       [ "API", "dinv-storages-database.html#dinv-storages-database-api", [
         [ "ECS", "dinv-storages-database.html#dinv-storages-database-ecs", null ]

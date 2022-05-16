@@ -1,7 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"ddm-drt-patchtool.html#ddm-drt-patchtool-a":[10,5,7,0],
-"ddm-drt-patchtool.html#ddm-drt-patchtool-config":[10,5,7,3],
 "ddm-drt-patchtool.html#ddm-drt-patchtool-dev":[10,5,7,2],
 "ddm-drt-patchtool.html#ddm-drt-patchtool-dev-editor":[10,5,7,2,0],
 "ddm-drt-patchtool.html#ddm-drt-patchtool-dev-hw":[10,5,7,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX62 =
 "dtool_obj.html":[17,6],
 "dtool_particles.html":[17,7],
 "dtool_rendering.html":[17,8],
-"dtool_sprites.html":[17,9]
+"dtool_sprites.html":[17,9],
+"dtools_animator.html":[17,1],
+"dtools_crossdata.html":[17,2]
 };

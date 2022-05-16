@@ -3,7 +3,7 @@ var searchData=
   ['wait_0',['Wait',['../class_doloro_1_1_a_i_1_1_primitive_1_1_wait.html',1,'Doloro::AI::Primitive']]],
   ['waiteditor_1',['WaitEditor',['../class_doloro_1_1_a_i_1_1_primitive_1_1_wait_editor.html',1,'Doloro::AI::Primitive']]],
   ['warrning_2',['Warrning',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#adde078dfaeb8bb5a15509f4355983bf2a7d9f912a20368cd5a2203069f495dafc',1,'Doloro::AI::Primitive::Log']]],
-  ['weight_3',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro.Graphs.Connection.weight()'],['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html#a68127bda6cd5d3faec36e5b697c82c59',1,'Doloro.InvetorySystem.Properties.StorageWeightLimiter.weight()']]],
+  ['weight_3',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro.Graphs.Connection.weight()'],['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a725c3c438234245492652464ee69edab',1,'Doloro.InvetorySystem.Features.StorageWeightLimiter.weight()']]],
   ['weightlabel_4',['weightLabel',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_stack_weight_g_u_i_extension.html#a7566cbabb79f3b20d9de3a34314df3b7',1,'Doloro.InvetorySystem.UI.ItemStackWeightGUIExtension.weightLabel()'],['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_weight_g_u_i_extension.html#abe5a80b0d2b940829ff07d39f281087a',1,'Doloro.InvetorySystem.UI.StorageWeightGUIExtension.weightLabel()']]],
   ['welcome_20to_20doloro_20gdk_2022_21_5',['Welcome to Doloro GDK 22!',['../index.html',1,'']]],
   ['white_6',['white',['../struct_doloro_1_1_base_types_1_1_color.html#ab8a723e62e40f60ebf483ca52dd83615',1,'Doloro::BaseTypes::Color']]],

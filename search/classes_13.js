@@ -24,8 +24,8 @@ var searchData=
   ['visual_21',['Visual',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual.html',1,'Doloro::AI::Sensors']]],
   ['visualeditor_22',['VisualEditor',['../class_doloro_1_1_a_i_1_1_sensors_1_1_visual_editor.html',1,'Doloro::AI::Sensors']]],
   ['visualsensordebuger_23',['VisualSensorDebuger',['../class_doloro_1_1_sensors_1_1_visual_sensor_debuger.html',1,'Doloro::Sensors']]],
-  ['volume_24',['Volume',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],
+  ['volume_24',['Volume',['../struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
   ['volumefillsequences_25',['VolumeFillSequences',['../class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_fill_sequences.html',1,'Doloro::InvetorySystem::Tests']]],
-  ['volumesplitorder_26',['VolumeSplitOrder',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume_split_order.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],
+  ['volumesplitorder_26',['VolumeSplitOrder',['../struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
   ['volumetestsequencesexecuter_27',['VolumeTestSequencesExecuter',['../class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_test_sequences_executer.html',1,'Doloro::InvetorySystem::Tests']]]
 ];

@@ -19,7 +19,7 @@ var searchData=
   ['setzerotohandles_16',['setZeroToHandles',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html#a6dffa4585c9499624932cddba4bf3057',1,'Doloro::UIEngine2::Modules::ElementsCollection::GridCollection']]],
   ['sheetbonds_17',['sheetBonds',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet_editor.html#a65bbe007bb70132aea47adba2a8437ad',1,'Doloro::DataManagement::Tables::SpreadsheetEditor']]],
   ['sign_18',['sign',['../class_doloro_1_1_a_i_1_1_reorderable_sequence.html#aa16f77f3c37f1c5728f6682fe74c365c',1,'Doloro::AI::ReorderableSequence']]],
-  ['sizeprevalidator_19',['SizePreValidator',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html#afd64e535520571e5d60ef0986cd5f277',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::Volume']]],
+  ['sizeprevalidator_19',['SizePreValidator',['../struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html#a5ccf430e3706d9f55c76add1a60c4185',1,'Doloro::InvetorySystem::Features::VolumetricSpace::Volume']]],
   ['snap_20',['snap',['../struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#aa350fc521d9d1be4a9c40282c4d8df73',1,'Doloro::EditorExtension::ProjectSettings::InputAxis']]],
   ['sorucerenderer_21',['soruceRenderer',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a1d609a0f818beacd6e5e136bd9697ae3',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
   ['source_22',['source',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy.html#ae3fe311b0fe4512274ed5cc7d4d83253',1,'Doloro::AI::Memory::Copy']]],

@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.Features.StorageInfo" name="Doloro.InvetorySystem.Features.StorageInfo">
+<area shape="rect" id="node1" title="Information defined to storage." alt="" coords="5,229,216,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality." alt="" coords="51,155,171,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="56,80,165,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="55,5,166,32"/>
+</map>

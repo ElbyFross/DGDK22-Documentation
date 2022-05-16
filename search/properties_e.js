@@ -23,8 +23,8 @@ var searchData=
   ['origingraphid_20',['originGraphId',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_relay_graph_node.html#af318b74d58e816b2f8f00544ba921326',1,'Doloro::Graphs::Fragmented::GraphsNetwork::RelayGraphNode']]],
   ['originnodesignature_21',['originNodeSignature',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_relay_graph_node.html#afcc5a085e506f5b64e01e01d831109d3',1,'Doloro::Graphs::Fragmented::GraphsNetwork::RelayGraphNode']]],
   ['originstorage_22',['OriginStorage',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_transaction_order_inspector.html#a2f0c9528c714f8cc452ed13281d9d468',1,'Doloro::InvetorySystem::Modules::Shops::UI::TransactionOrderInspector']]],
-  ['originvolume_23',['originVolume',['../struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume_split_order.html#a631e9ba280b226cd9a3bf8b7f26ca4d5',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::VolumeSplitOrder']]],
+  ['originvolume_23',['originVolume',['../struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order.html#ae5b378066b9950b8f33db29748200f76',1,'Doloro::InvetorySystem::Features::VolumetricSpace::VolumeSplitOrder']]],
   ['outerlayouts_24',['OuterLayouts',['../class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html#a0fd79ed85861c55a718de05fd57b2899',1,'Doloro::UIEngine2::AWorkspaceProvider']]],
-  ['ownerid_25',['ownerId',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html#a056b64864bea3a19db3c623bf45eed78',1,'Doloro::InvetorySystem::Properties::StorageInfo::Info']]],
-  ['ownerid_26',['ownerID',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info.html#a4c946579e029afd41f08d6c249f973a0',1,'Doloro::InvetorySystem::Properties::StorageInfo']]]
+  ['ownerid_25',['ownerId',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info_1_1_info.html#ae7073713c1155172e630caccee47d8d4',1,'Doloro::InvetorySystem::Features::StorageInfo::Info']]],
+  ['ownerid_26',['ownerID',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html#a08754f31556e661f7fe4b6096cd5a89d',1,'Doloro::InvetorySystem::Features::StorageInfo']]]
 ];

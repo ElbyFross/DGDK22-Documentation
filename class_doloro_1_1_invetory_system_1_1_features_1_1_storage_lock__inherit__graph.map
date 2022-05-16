@@ -1,0 +1,7 @@
+<map id="Doloro.InvetorySystem.Features.StorageLock" name="Doloro.InvetorySystem.Features.StorageLock">
+<area shape="rect" id="node1" title="Allows to lock the storage from unauthorized access." alt="" coords="5,304,216,345"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html" title="The storage feature that implements some rules that can block the item from storage using." alt="" coords="35,229,187,256"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality." alt="" coords="51,155,171,181"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="56,80,165,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="55,5,166,32"/>
+</map>

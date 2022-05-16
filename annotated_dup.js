@@ -303,9 +303,6 @@ var annotated_dup =
           ] ]
         ] ],
         [ "DynamicResources", "namespace_doloro_1_1_data_management_1_1_dynamic_resources.html", [
-          [ "Core", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_core.html", [
-            [ "AEnumLikeCollection", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_core_1_1_a_enum_like_collection.html", null ]
-          ] ],
           [ "Examples", "namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples.html", [
             [ "DemoDRRequester", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples_1_1_demo_d_r_requester.html", null ]
           ] ],
@@ -453,6 +450,24 @@ var annotated_dup =
         [ "Demo", "namespace_doloro_1_1_invetory_system_1_1_demo.html", [
           [ "StorageDatabaseGenerator", "class_doloro_1_1_invetory_system_1_1_demo_1_1_storage_database_generator.html", null ]
         ] ],
+        [ "Features", "namespace_doloro_1_1_invetory_system_1_1_features.html", [
+          [ "VolumetricSpace", "namespace_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space.html", [
+            [ "Coordinate", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate" ],
+            [ "EntityVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume" ],
+            [ "GridSpace", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space" ],
+            [ "StorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume" ],
+            [ "StorageVolumeVisualizer", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer" ],
+            [ "StretchableStorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_stretchable_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_stretchable_storage_volume" ],
+            [ "Volume", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume" ],
+            [ "VolumeSplitOrder", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order" ]
+          ] ],
+          [ "StorageContentSpawner", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_content_spawner.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_content_spawner" ],
+          [ "StorageInfo", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info" ],
+          [ "StorageItemsTagsFilter", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_items_tags_filter.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_items_tags_filter" ],
+          [ "StorageLock", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock" ],
+          [ "StorageSlotsLimiter", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_slots_limiter.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_slots_limiter" ],
+          [ "StorageWeightLimiter", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter" ]
+        ] ],
         [ "Modules", "namespace_doloro_1_1_invetory_system_1_1_modules.html", [
           [ "Shops", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops.html", [
             [ "UI", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i.html", [
@@ -467,24 +482,6 @@ var annotated_dup =
             ] ],
             [ "ShopFeature", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature" ]
           ] ]
-        ] ],
-        [ "Properties", "namespace_doloro_1_1_invetory_system_1_1_properties.html", [
-          [ "VolumetricSpace", "namespace_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space.html", [
-            [ "Coordinate", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate.html", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_coordinate" ],
-            [ "EntityVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_entity_volume.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_entity_volume" ],
-            [ "GridSpace", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_grid_space.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_grid_space" ],
-            [ "StorageVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume" ],
-            [ "StorageVolumeVisualizer", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume_visualizer.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume_visualizer" ],
-            [ "StretchableStorageVolume", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_stretchable_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_stretchable_storage_volume" ],
-            [ "Volume", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume.html", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume" ],
-            [ "VolumeSplitOrder", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume_split_order.html", "struct_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_volume_split_order" ]
-          ] ],
-          [ "StorageContentSpawner", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner" ],
-          [ "StorageInfo", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info" ],
-          [ "StorageItemsTagsFilter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_items_tags_filter.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_items_tags_filter" ],
-          [ "StorageLock", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock" ],
-          [ "StorageSlotsLimiter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter" ],
-          [ "StorageWeightLimiter", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html", "class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter" ]
         ] ],
         [ "Tests", "namespace_doloro_1_1_invetory_system_1_1_tests.html", [
           [ "VolumeFillSequences", "class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_fill_sequences.html", null ],

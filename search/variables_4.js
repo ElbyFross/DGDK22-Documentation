@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_0',['data',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html#a8703cd41e484365bbec7c1d481df6685',1,'Doloro::InvetorySystem::Properties::VolumetricSpace::StorageVolume']]],
+  ['data_0',['data',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html#a752e7d994cb13bcc75866625cfcb61f4',1,'Doloro::InvetorySystem::Features::VolumetricSpace::StorageVolume']]],
   ['dead_1',['dead',['../struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a08955bdc84d86858de86d3e514527ba8',1,'Doloro::EditorExtension::ProjectSettings::InputAxis']]],
   ['debugbreak_2',['debugBreak',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#af58eed0f55bbfde75b76708e55a0132d',1,'Doloro::AI::Core::PipelineMap']]],
   ['debugbreakpaused_3',['debugBreakPaused',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#afc2cb6805b39c27c12ef3b1a196f9e2f',1,'Doloro::AI::Core::PipelineMap']]],
@@ -9,7 +9,7 @@ var searchData=
   ['defaultminsize_6',['DefaultMinSize',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#aaca4b8926902dfb6725d542904e88d09',1,'Doloro::UIEngine2::WindowUIController']]],
   ['defaulttagtint_7',['DefaultTagTint',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag.html#a886ae03c8dbf25656f0b1c5afe2bd4a0',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::Tag']]],
   ['delta_8',['delta',['../class_doloro_1_1_tools_1_1_lighting_1_1_light_blink_smoothly.html#a15788a6a784e109fc2a54dcfbec18b34',1,'Doloro::Tools::Lighting::LightBlinkSmoothly']]],
-  ['description_9',['description',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info_1_1_info.html#aa33e29f956a3d40a87f7f37ad89d7c68',1,'Doloro::InvetorySystem::Properties::StorageInfo::Info']]],
+  ['description_9',['description',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info_1_1_info.html#aec3e5ac080f782468549b817581abe42',1,'Doloro::InvetorySystem::Features::StorageInfo::Info']]],
   ['descriptionfield_10',['descriptionField',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_g_u_i_element.html#a871ac3a38fc803344071e54ce09a633b',1,'Doloro::InvetorySystem::UI::StorageGUIElement']]],
   ['descriptionlabel_11',['descriptionLabel',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_feature_g_u_i_element.html#a756e08e3fd5706d993b32af69ebc2ed9',1,'Doloro.InvetorySystem.UI.ItemFeatureGUIElement.descriptionLabel()'],['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_g_u_i_element.html#ae3f6a6f92fdf04be3cc1162b2363cba7',1,'Doloro.InvetorySystem.UI.ItemGUIElement.descriptionLabel()']]],
   ['descriptivename_12',['descriptiveName',['../struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#aa2642f83f6c002151c187ae5ff45ce78',1,'Doloro::EditorExtension::ProjectSettings::InputAxis']]],

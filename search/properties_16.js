@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['weight_0',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro.Graphs.Connection.weight()'],['../class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html#a68127bda6cd5d3faec36e5b697c82c59',1,'Doloro.InvetorySystem.Properties.StorageWeightLimiter.weight()']]],
+  ['weight_0',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro.Graphs.Connection.weight()'],['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a725c3c438234245492652464ee69edab',1,'Doloro.InvetorySystem.Features.StorageWeightLimiter.weight()']]],
   ['white_1',['white',['../struct_doloro_1_1_base_types_1_1_color.html#ab8a723e62e40f60ebf483ca52dd83615',1,'Doloro::BaseTypes::Color']]],
   ['width_2',['width',['../class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#ad2934c349e2350620fda6d03ea84eb3b',1,'Doloro::DataManagement::Tables::DataCluster']]],
   ['window_3',['window',['../struct_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer_1_1_search_context.html#ab9a11a6dfdc57e9cc2c74476f5b2f7c6',1,'Doloro.UIEngine2.Window.WindowsLayer.SearchContext.window()'],['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp.html#a706e5d1ae5a809b11820f458f5a13f92',1,'Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClamp.window()']]],

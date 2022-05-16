@@ -1,15 +1,15 @@
 <map id="Doloro.InvetorySystem.AStorageFeature" name="Doloro.InvetorySystem.AStorageFeature">
 <area shape="rect" id="node1" title="A feature attached to the Storage instance that extends its functionality." alt="" coords="321,235,532,276"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html" title="The storage feature that implements some rules that can block the item from storage using." alt="" coords="591,136,788,177"/>
-<area shape="rect" id="node11" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html" title="Implements shop functionality to the storage." alt="" coords="585,201,794,243"/>
-<area shape="rect" id="node12" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_content_spawner.html" title="Property of the storage that allows to refill it with resource along with predefined rules." alt="" coords="580,267,799,308"/>
-<area shape="rect" id="node13" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_info.html" title="Information defined to storage." alt="" coords="580,332,799,373"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_a_mask_storage_feature.html" title="The storage feature that implements some rules that can block the item from storage using." alt="" coords="587,136,784,177"/>
+<area shape="rect" id="node11" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_content_spawner.html" title="Property of the storage that allows to refill it with resource along with predefined rules." alt="" coords="580,201,791,243"/>
+<area shape="rect" id="node12" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html" title="Information defined to storage." alt="" coords="580,267,791,308"/>
+<area shape="rect" id="node13" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html" title="Implements shop functionality to the storage." alt="" coords="581,332,790,373"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="164,242,273,269"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,242,116,269"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_items_tags_filter.html" title=" " alt="" coords="847,5,1065,47"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_lock.html" title="Allows to lock the storage from unauthorized access." alt="" coords="847,71,1065,112"/>
-<area shape="rect" id="node7" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_slots_limiter.html" title="Implements the slots limit to the storage." alt="" coords="847,136,1065,177"/>
-<area shape="rect" id="node8" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_storage_weight_limiter.html" title="Implements the weight limit to the storage." alt="" coords="847,201,1065,243"/>
-<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="847,267,1065,308"/>
-<area shape="rect" id="node10" href="$class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_stretchable_storage_volume.html" title="Implements the conception of the volume that can be starched." alt="" coords="1113,267,1393,308"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_items_tags_filter.html" title=" " alt="" coords="841,5,1051,47"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html" title="Allows to lock the storage from unauthorized access." alt="" coords="841,71,1051,112"/>
+<area shape="rect" id="node7" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_slots_limiter.html" title="Implements the slots limit to the storage." alt="" coords="841,136,1051,177"/>
+<area shape="rect" id="node8" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html" title="Implements the weight limit to the storage." alt="" coords="841,201,1051,243"/>
+<area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume&#45;like space bounding the capacity of the storage." alt="" coords="839,267,1053,308"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_stretchable_storage_volume.html" title="Implements the conception of the volume that can be starched." alt="" coords="1101,267,1381,308"/>
 </map>

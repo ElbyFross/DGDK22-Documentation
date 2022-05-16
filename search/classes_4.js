@@ -8,7 +8,7 @@ var searchData=
   ['editorzoomarea_5',['EditorZoomArea',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_editor_zoom_area.html',1,'Doloro::AI::DAIStudio']]],
   ['elementactivatedexception_6',['ElementActivatedException',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_ele01d0237c65b19d9316970da58ba4dcc5.html',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::TagUIElement']]],
   ['elementscollectiontester_7',['ElementsCollectionTester',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester.html',1,'Doloro::UIEngine2::DEVTOOLS']]],
-  ['entityvolume_8',['EntityVolume',['../class_doloro_1_1_invetory_system_1_1_properties_1_1_volumetric_space_1_1_entity_volume.html',1,'Doloro::InvetorySystem::Properties::VolumetricSpace']]],
+  ['entityvolume_8',['EntityVolume',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
   ['entryalreadyexistsexception_9',['EntryAlreadyExistsException',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_entry_already_exists_exception.html',1,'Doloro::DataManagement::AssetPropertiesSystem']]],
   ['enumpropertiesvalidator_10',['EnumPropertiesValidator',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_enum_properties_validator.html',1,'Doloro::AI::DAIDebugger::ErrorsListTool']]],
   ['errorslist_11',['ErrorsList',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html',1,'Doloro::AI::DAIDebugger::ErrorsListTool']]],
