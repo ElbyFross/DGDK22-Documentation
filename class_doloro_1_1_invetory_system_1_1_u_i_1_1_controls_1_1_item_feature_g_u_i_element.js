@@ -1,9 +1,9 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element =
 [
     [ "AssetPropertyAdapter", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element_1_1_asset_property_adapter.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element_1_1_asset_property_adapter" ],
+    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#ad496aab8a6120fe8fe467d1cd674afb6", null ],
     [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#adf061be21cb52b8affa552b9cf3b79b9", null ],
-    [ "LoadGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#ae0dfe55858a7f2dc7830681e6dd91754", null ],
-    [ "OnCurrentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#aef83c6806d660f514e9962566e31b9a2", null ],
+    [ "OnContentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#acd3386507aef14d5b7155854aeaf03d4", null ],
     [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#ab450f6bb8ddd30f5efb2a9fda8eb6e38", null ],
     [ "Read", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#a9ac6e751c848d553043dceaff81452b1", null ],
     [ "ReleaseTemp", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#a6612e4f406aa47b9286ed14c613724f2", null ],

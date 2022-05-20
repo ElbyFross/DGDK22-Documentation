@@ -88,20 +88,20 @@ $(document).ready(function(){initNavTree('dsensors-env-filter-new.html',''); ini
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md141">New filter creation</a></li>
-<li class="level2"><a href="#autotoc_md142">Development rules</a></li>
+<ul><ul><li class="level2"><a href="#autotoc_md145">New filter creation</a></li>
+<li class="level2"><a href="#autotoc_md146">Development rules</a></li>
 </ul>
 </ul>
 </div>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd>Not completed tutorial</dd></dl>
-<h2><a class="anchor" id="autotoc_md141"></a>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Not completed tutorial</dd></dl>
+<h2><a class="anchor" id="autotoc_md145"></a>
 New filter creation</h2>
 <ul>
 <li>Create a <code>MonoBechavior</code> component and inheirt it from the <code>ASensorFilter</code> interface.</li>
 <li>Add the component on the same object as the target <code>SensorManager</code>.</li>
 <li>The new filter will be loaded during the sensor awaking or manual via <code>ReloadFilters</code> API.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md142"></a>
+<h2><a class="anchor" id="autotoc_md146"></a>
 Development rules</h2>
 <ul>
 <li>Call <code>ASensorFilter.OnModified</code> handler each time when you modifies core properties of your filter in case if you what to update your filtered colletion alnong with new rules.</li>

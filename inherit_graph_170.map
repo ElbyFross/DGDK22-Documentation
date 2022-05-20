@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html" title="Unstable class that handles list shifting tithing the canvas to prevent lines overlay." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node1" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title=" " alt="" coords="5,5,264,76"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html" title="Provides API to connect AItemFeature with ItemFeatureGUIElement handling UI." alt="" coords="312,13,535,69"/>
 </map>

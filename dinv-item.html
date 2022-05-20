@@ -91,8 +91,13 @@ $(document).ready(function(){initNavTree('dinv-item.html',''); initResizable(); 
 <ul><li class="level1"><a href="#dinv-item-a">About</a></li>
 <li class="level1"><a href="#dinv-item-r">Resource</a></li>
 <li class="level1"><a href="#dinv-item-p">Asset Properties</a></li>
-<li class="level1"><a href="#dinv-item-f">Item Features</a></li>
+<li class="level1"><a href="#dinv-item-f">Item Features</a><ul><li class="level2"><a href="#dinv-item-f-custom">Custom feature development</a></li>
+</ul>
+</li>
 <li class="level1"><a href="#dinv-item-gui">GUI</a><ul><li class="level2"><a href="#dinv-item-gui-control">Item GUI control</a></li>
+<li class="level2"><a href="#dinv-item-gui-ext">Item GUI extensions</a><ul><li class="level3"><a href="#dinv-item-gui-custom">Custom GUI extensions</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -107,6 +112,7 @@ The objects with implemented component considering as instances of <code>Dynamic
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">Doloro.InvetorySystem.AItemFeature</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a> isntance)</li>
 </ul>
+<hr  />
 <h1><a class="anchor" id="dinv-item-r"></a>
 Resource</h1>
 <p >To add a new <code>Item</code> resource you need to:</p><ol type="1">
@@ -120,11 +126,13 @@ Resource</h1>
 <li>Drag and drop the gamobject to any <code>Resources</code> folder to make it accessible to search.</li>
 <li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
 </ol>
+<hr  />
 <h1><a class="anchor" id="dinv-item-p"></a>
 Asset Properties</h1>
 <p >As soon as normally in-game items share some parameters (damage, integrity, weight, price, etc.) the <code>Item</code> component also has bond with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-aps">Asset Properties System</a>. That allows flexible extending of the object parameters without changes in the source of items.</p>
 <p >Some of GUI controls and systems may automatically search for values stored within the <code>AssetPropertiesCollection</code> attached to the <code>Item</code>. Normally the search goes within <code>public</code> domain, but the handlers must provide you with API to manage this option.</p>
 <p ><b>Read also:</b> <a class="el" href="ddm-aps-com-ap.html">Asset Property</a></p>
+<hr  />
 <h1><a class="anchor" id="dinv-item-f"></a>
 Item Features</h1>
 <p >You may need to extend regular custom logic with a custom behavior logic that may both moderate exited one or implement a new. The module offers you to handle this task via implementation of <code>AItemFeature</code> derived components that dully integrates to internal services in encapsulated way and save you time on development. <br  />
@@ -135,17 +143,36 @@ Item Features</h1>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">Doloro.InvetorySystem.AEntityFeature</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a></li>
 </ul>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv-item-f-custom"></a>
+Custom feature development</h2>
+<p >To develope</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<hr  />
 <h1><a class="anchor" id="dinv-item-gui"></a>
 GUI</h1>
 <h2><a class="anchor" id="dinv-item-gui-control"></a>
 Item GUI control</h2>
-<p >The module provides you with a main content inspector <code>ItemGUIElement</code> suitable for <code>Item</code> content display. <br  />
-The inspector can be extended with <code>AEntityFeatureGUIExtension&lt;StoragesDatabase.ItemContainer&gt;</code> derived components.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<p >The module provides you with a main content inspector <code>ItemGUIElement</code> suitable for <code>Item</code> content display.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 <p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html" title="GUI controller for item data display.">Doloro.InvetorySystem.UI.Controls.ItemGUIElement</a></li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data.">Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement</a> </li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html" title="GUI controller for item data display.">Doloro.InvetorySystem.UI.Controls.ItemGUIElement</a> : AContentInspectorGUIElement</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data.">Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement</a></li>
 </ul>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv-item-gui-ext"></a>
+Item GUI extensions</h2>
+<p >The inspector can be extended with <code>AItemFeatureGUIExtension</code> derived components. <br  />
+The class proofs components configuration on target game object that simplifies development comparing to manual implementation of <code>AEntityFeatureGUIExtension&lt;StoragesDatabase.ItemContainer&gt;</code> class.</p>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html" title="GUI extension for ItemGUIElement.">Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html" title="Creates a bond between AContentInspectorGUIElement&lt;T&gt; and inspecting entity&#39;s feature.">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension</a></li>
+</ul>
+<h3><a class="anchor" id="dinv-item-gui-custom"></a>
+Custom GUI extensions</h3>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

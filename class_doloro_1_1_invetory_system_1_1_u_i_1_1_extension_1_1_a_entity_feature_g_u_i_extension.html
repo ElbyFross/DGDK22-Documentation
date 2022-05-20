@@ -121,11 +121,11 @@ Collaboration diagram for Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIEx
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acf484959cf3512505e3e78e25ec5c650"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">DropGUIContent</a> ()</td></tr>
-<tr class="memdesc:acf484959cf3512505e3e78e25ec5c650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops current info visualization.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">More...</a><br /></td></tr>
+<tr class="memdesc:acf484959cf3512505e3e78e25ec5c650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that calls when inspector changed its content to null and requires GUI cleaning operation.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">More...</a><br /></td></tr>
 <tr class="separator:acf484959cf3512505e3e78e25ec5c650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9f7f78ac7be2f07034f751c441e74b"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#abb9f7f78ac7be2f07034f751c441e74b">LoadGUIContent</a> ()</td></tr>
-<tr class="memdesc:abb9f7f78ac7be2f07034f751c441e74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads content provided with not <code>null</code> content&gt; property.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#abb9f7f78ac7be2f07034f751c441e74b">More...</a><br /></td></tr>
-<tr class="separator:abb9f7f78ac7be2f07034f751c441e74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18465c008ca608079845ca7f7b7a52f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#ae18465c008ca608079845ca7f7b7a52f">ApplyGUIContent</a> ()</td></tr>
+<tr class="memdesc:ae18465c008ca608079845ca7f7b7a52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that calls when inspector changed its content and requesting loading to the GUI a new one related to relevant source. Content always not <code>null</code>.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#ae18465c008ca608079845ca7f7b7a52f">More...</a><br /></td></tr>
+<tr class="separator:ae18465c008ca608079845ca7f7b7a52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -134,6 +134,36 @@ Properties</h2></td></tr>
 <tr class="separator:a2b8c046924e4893eecd55ce53d48b1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae18465c008ca608079845ca7f7b7a52f" name="ae18465c008ca608079845ca7f7b7a52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae18465c008ca608079845ca7f7b7a52f">&#9670;&nbsp;</a></span>ApplyGUIContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension</a>&lt; T &gt;.ApplyGUIContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that calls when inspector changed its content and requesting loading to the GUI a new one related to relevant source. Content always not <code>null</code>. </p>
+<p >AContentInspectorGUIElement.content property. </p>
+
+<p>Implemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a6b3266776236be3b30e93df14d999029">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#ab4cc555ad0780b9f16c85998e7522948">Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension</a>, and <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_g_u_i_extension.html#a099b96ca82dee8c50c08e92eccc64a7e">Doloro.InvetorySystem.UI.Extension.StorageContentGUIExtension</a>.</p>
+
+</div>
+</div>
 <a id="acf484959cf3512505e3e78e25ec5c650" name="acf484959cf3512505e3e78e25ec5c650"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf484959cf3512505e3e78e25ec5c650">&#9670;&nbsp;</a></span>DropGUIContent()</h2>
 
@@ -157,39 +187,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Drops current info visualization. </p>
-<p >The content&gt; property will not be affected. </p>
+<p>Handler that calls when inspector changed its content to null and requires GUI cleaning operation. </p>
+<p >The AContentInspectorGUIElement.content&gt; property mustn't be affected. </p>
 
-<p>Implemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_g_u_i_extension.html#a17299c9246e7696a63a9aafe8b4777d7">Doloro.InvetorySystem.UI.Extension.ItemFeaturesGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#abbc08dd8b8110d9dc8bf36d10a9484d1">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#a62fef25776d0d5b6eb6361e423faa4ef">Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ad215b678ba0dda473c9672c19db61db3">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html#a652ffce98154bc2796e1842e92d9a913">Doloro.InvetorySystem.UI.Extension.StorageLockGUIExtension</a>, and <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html#a8e0fd2f8feb5eb5cc0c8362aa7b26fec">Doloro.InvetorySystem.UI.Extension.StorageWeightGUIExtension</a>.</p>
-
-</div>
-</div>
-<a id="abb9f7f78ac7be2f07034f751c441e74b" name="abb9f7f78ac7be2f07034f751c441e74b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb9f7f78ac7be2f07034f751c441e74b">&#9670;&nbsp;</a></span>LoadGUIContent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract void <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension</a>&lt; T &gt;.LoadGUIContent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loads content provided with not <code>null</code> content&gt; property. </p>
-
-<p>Implemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_g_u_i_extension.html#a1f870ed7d0e21cb36a8dbeacba873acb">Doloro.InvetorySystem.UI.Extension.ItemFeaturesGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a769df5a3d989e2ee2a81032f0dd4f429">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#aa7abb91a5d388b2a83d2ff885ed43c74">Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a142a9459f5c2b3a26e3e9cd60de297d7">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html#a34578e64490ab441ef0722cac0743df4">Doloro.InvetorySystem.UI.Extension.StorageLockGUIExtension</a>, and <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html#a2acd2f9d2a97a960d97d3b89feb1774c">Doloro.InvetorySystem.UI.Extension.StorageWeightGUIExtension</a>.</p>
+<p>Implemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#abbc08dd8b8110d9dc8bf36d10a9484d1">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>, <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#a62fef25776d0d5b6eb6361e423faa4ef">Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension</a>, and <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ad215b678ba0dda473c9672c19db61db3">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>.</p>
 
 </div>
 </div>

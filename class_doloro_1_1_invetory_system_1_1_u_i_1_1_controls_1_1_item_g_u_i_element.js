@@ -1,8 +1,8 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element =
 [
+    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#a0615a8f10b06262e28e9eff8f3c570fe", null ],
     [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#a94946db7df3d81384f71c1b87aece74b", null ],
-    [ "LoadGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#a1ed32fb900976985b971f64e5beabbab", null ],
-    [ "OnCurrentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#aef83c6806d660f514e9962566e31b9a2", null ],
+    [ "OnContentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#acd3386507aef14d5b7155854aeaf03d4", null ],
     [ "ReloadedGUIProperties", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#aeebb89cfd445b235c1641813e74186d3", null ],
     [ "UpdateGUI", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#a715c9ea98bc588fcd6310da842165956", null ],
     [ "countLabel", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html#a454191f193affb0d5d9ef207766b191b", null ],

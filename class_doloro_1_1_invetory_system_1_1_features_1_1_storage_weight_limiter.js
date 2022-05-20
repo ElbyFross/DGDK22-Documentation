@@ -15,6 +15,6 @@ var class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter =
     [ "message", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#aef36c18bef3bd860fae91c21c219cc99", null ],
     [ "ReservedWeight", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a38a13de02998f32d3290a4edf98fd8e9", null ],
     [ "storage", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a8e10e3532caa23338ca23aa5d0fc443d", null ],
-    [ "weight", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a725c3c438234245492652464ee69edab", null ],
+    [ "Weight", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a43b21735a2837883a0593312e62f02a5", null ],
     [ "Modified", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a107fee2afe59877f68ffdfb111f2bea1", null ]
 ];

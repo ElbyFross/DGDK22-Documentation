@@ -134,24 +134,24 @@ Services</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Service   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a class="el" href="dinv_storages_service.html">Storages Service</a>   </td><td class="markdownTableBodyNone">Service that handles on-scene storages using. Encapsulated ECS features using. Handles automatic session database update.    </td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="dinv_storages_service.html">Storages Service</a>   </td><td class="markdownTableBodyNone">Service that handles on-scene storages using. Encapsulates ECS features using. Handles automatic session database update.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a class="el" href="dinv_trasaction_service.html">Trasaction Service</a>   </td><td class="markdownTableBodyNone">Service that encapsulates cross-storages operations. Prevents internal operation from frequently bugs, like dupes, or ref forgery, facing in games.   </td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="dinv_trasaction_service.html">Trasaction Service</a>   </td><td class="markdownTableBodyNone">Service that encapsulates cross-storages operations. Prevents internal operation from frequent bugs, like dupes, or ref forgery.   </td></tr>
 </table>
 <hr  />
 <h1><a class="anchor" id="dinv-gs-gui"></a>
 GUI elements</h1>
-<p >The module implements <code>GUIElement</code> to handle internal features and services API with <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a>.</p>
+<p >The module implements various <code>GUIElement</code> to handle internal features and services API with <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a>.</p>
 <h2><a class="anchor" id="dinv-gs-gui-controls"></a>
 Controls</h2>
-<p >The module has</p>
+<p >The module has 2 main GUI control those using as extendable core for regular entities.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>ItemGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that cant connect base content provided with <code>Item</code> instance to in-game GUI.    </td></tr>
+<td class="markdownTableBodyNone"><code>ItemGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that connects base content provided with <code>Item</code> instance to in-game GUI.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><code>StorageGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that cant connect base content provided with <code>Storage</code> instance to in-game GUI.   </td></tr>
+<td class="markdownTableBodyNone"><code>StorageGUIElement</code>   </td><td class="markdownTableBodyNone"><code>GUIElement</code> that connects base content provided with <code>Storage</code> instance to in-game GUI.   </td></tr>
 </table>
 <p ><b>Read more:</b></p><ul>
 <li><a class="el" href="dinv-item.html">Item</a> <a class="el" href="dinv-item.html#dinv-item-gui">GUI</a></li>
@@ -161,41 +161,62 @@ Controls</h2>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html" title="GUI controller for item data display.">Doloro.InvetorySystem.UI.Controls.ItemGUIElement</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html" title="GUI element controller that bonds StoragesDatabase entry and UI.">Doloro.InvetorySystem.UI.Controls.StorageGUIElement</a></li>
 </ul>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dinv-gs-gui-controls-ext"></a>
 Controls extensions</h2>
 <p ><code>ItemGUIElement</code> and <code>StorageGUIElement</code> controls supports its features extension with custom implemented <code>AEntityFeatureGUIExtension&lt;CONTROL_TYPE&gt;</code> components those connect extension to controls messages.</p>
 <p >That allows to avoid extra calls and deep hierarchy searches comparing to way of creation GUI controls for each small feature separately. <br  />
 </p>
-<table class="markdownTable">
+<p >Following extensions listening for <code>ItemGUIElement</code> content change and then loads provided source content to configurated layout controls. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Item GUI Extension   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Item Features List   </td><td class="markdownTableBodyNone">GUI extension for <code>ItemGUIElement</code> that allows to display <code>ItemFeature</code> provided    </td></tr>
+<td class="markdownTableBodyNone">Item Features List   </td><td class="markdownTableBodyNone">Allows to display <code>ItemFeature</code> instances data found over <code>Item</code> instance selected as source in <code>AGUIElementsCollection</code> GUI Control. Also can parse <code>AssetProperty</code> entries to the same UI to display item characteristic.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Item Stack Weight   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">Item Stack Weight   </td><td class="markdownTableBodyNone">GUI extension that allows to compute and format weigh of stack of items stored at a storage, using data provided with <code>StorageDatabase.ItemContainer</code> connected toward source <code>ItemGUIElement</code> instance.   </td></tr>
 </table>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <p ><b>See also:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html" title="Displays AItemFeature applied to the StoragesDatabase.ItemContainer.Resource selected with UI.">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html" title="Creates a bridge between database item entry&#39;s weight parameter of items stack and UI.">Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension</a></li>
 </ul>
-<table class="markdownTable">
+<p >Following extensions listening for <code>StorageGUIElement</code> content change and then loads provided source content to configurated layout controls. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Storage GUI Extension   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">Storage Content Explorer   </td><td class="markdownTableBodyNone">Loads items located within a new source to referenced <code>AGUIElementsCollection</code> control.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Storage Lock   </td><td class="markdownTableBodyNone">Bonds <code>StorageLock</code> feature over <code>Storage</code> selected as source and GUI. Displays is the storage locked or not.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Storage Weight   </td><td class="markdownTableBodyNone">Bonds <code>StorageWeightLimiter</code> feature over <code>Storage</code> selected as source and GUI. Displays current storage weight and its fill state.   </td></tr>
 </table>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html" title="GUI extension that allows to load Storage&#39;s items content to the AGUIElementsCollection instance.">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html" title="Extends StorageGUIElement or similar with Features.StorageLock related features.">Doloro.InvetorySystem.UI.Extension.StorageLockGUIExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html" title="Extends StorageGUIElement or similar with Features.StorageWeightLimiter related features.">Doloro.InvetorySystem.UI.Extension.StorageWeightGUIExtension</a></li>
+</ul>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dinv-gs-gui-data_connectors"></a>
 Data connectors</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>empty section</dd></dl>
+<p >The module has several implementations for <code>AGUIElementsCollectionDataConnector</code> class provided with <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> module. <br  />
+It allows encapsulate bridge between data and GUI collections.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">Storages Collection   </td><td class="markdownTableBodyNone">Creates a bridge between <code>Storage</code> instances and they <code>StorageGUIElement</code> representation within <code>AGUIElementsCollection</code>. <br  />
+ Allows automatically rent of storages by its id instead as alternative of instance referencing.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Item Features   </td><td class="markdownTableBodyNone">Creates a bridge between <code>AItemFeature</code> and <code>ItemFeatureGUIElement</code> representation within <code>AGUIElementsCollection</code>.   </td></tr>
 </table>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>empty section</dd></dl>
+<p ><b>See also:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html" title="Provides API to connect Storage or StoragesDatabase.StorageContainer with StorageGUIElement handling ...">Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html" title="Provides API to connect AItemFeature with ItemFeatureGUIElement handling UI.">Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConector</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title="Component that provides API to connect source data with AGUIElementsCollection component in uniform w...">Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector</a></li>
+</ul>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dinv-gs-gui-vh"></a>
 Virtual Hub extension</h2>
 <p >The package shares several extension for <code>Virtual Hub</code> supplied with <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> module.</p>
@@ -203,17 +224,16 @@ Virtual Hub extension</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Storages Selection Event Relay   </td><td class="markdownTableBodyNone"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section    </dd></dl>
-<p class="intertd"><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html" title="Receives events from parental VirtualUIHub and updates StorageGUIElement content along with applied v...">Doloro.InvetorySystem.UI.StorageUIHubListener</a></li>
-<li><p class="startli"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages.">Doloro.InvetorySystem.UI.StoragesSelectionEventRelay</a></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>empty section</dd></dl>
-</li>
+<td class="markdownTableBodyNone">Storages Selection Event Relay   </td><td class="markdownTableBodyNone">Slightly extended <code>GUICollectionHubEventRelay</code> that proofs components configuration required for <code>StorageGUIElement</code> collection management. <br  />
+ Allows to catch events on the <code>AGUIElementsCollection</code> control and share them with listeners in virtual network via <code>VirtualUIHub</code> located at parental hierarchy.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Storage UI Hub Listener   </td><td class="markdownTableBodyNone"><code>VirtualUIHub</code> messages listener that automatically connects update of attached <code>StorageGUIElement</code> content as soon as a new <code>Storage</code> selected in collection located within virtual network.   </td></tr>
+</table>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html" title="Receives events from parental VirtualUIHub and updates StorageGUIElement content along with applied v...">Doloro.InvetorySystem.UI.StorageUIHubListener</a> : AContentHolderUIHubListener</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages.">Doloro.InvetorySystem.UI.StoragesSelectionEventRelay</a> : GUICollectionHubEventRelay</li>
 </ul>
 <hr  />
-<p class="endtd"></p>
-</td></tr>
-</table>
 <h1><a class="anchor" id="dinv-gs-modules"></a>
 Sub-modules</h1>
 <p >The <b><a class="el" href="namespace_doloro.html">Doloro</a> Inventory</b> module has several sub-modules those extends base logic with new features.</p>

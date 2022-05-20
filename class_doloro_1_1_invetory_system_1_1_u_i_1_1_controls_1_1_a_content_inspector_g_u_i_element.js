@@ -1,5 +1,6 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element =
 [
+    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a6219d1a77523998c0c681a30def8756e", null ],
     [ "Awake", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#af8c05e25edb9970fa3fa2f39fdda83a2", null ],
     [ "CallClick", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#aba32a2e9897ba9cd4f3f540085bb9917", null ],
     [ "CallContextMenu", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a2a57ac6d1c4496bb80703004a7dc68e0", null ],
@@ -9,9 +10,8 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspecto
     [ "Focus", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#af5a53db51e965647db19e0b4b12de516", null ],
     [ "IsChildOf", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#af3edfc6d231c92996966e4829302cc23", null ],
     [ "IsLocalHierarchyChildOf", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#aaff121e8054fac941311732db351bb33", null ],
-    [ "LoadGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#aa0d9ec8fc075ff317bb845beb2bce2ab", null ],
+    [ "OnContentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#acd3386507aef14d5b7155854aeaf03d4", null ],
     [ "OnContextMenu", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a5e0f6b6d5b2ead001ebb0886e894b195", null ],
-    [ "OnCurrentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#aef83c6806d660f514e9962566e31b9a2", null ],
     [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ad78974ebb9db6eb24148729d2ad4a777", null ],
     [ "OnDisable", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#aa1b8c13c66d9f23c201f4b815e6f3d8b", null ],
     [ "OnDrag", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a8b2c70b0fc680ef03ea9a5ac82daf68a", null ],

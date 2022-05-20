@@ -58,7 +58,7 @@ var class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_
     [ "IsMouseDragOn", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a56ed29a0637d453b6a91f496b219ac46", null ],
     [ "IsRaycastTarget", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a1d42958b04ce7bba1fa3c5a56eda9583", null ],
     [ "IsRoot", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#ad67c3ebbf3bd54da90bb6f20f85e706d", null ],
-    [ "isTradingPossible", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a3fef3aed8a164c96d52733c20a42d2a0", null ],
+    [ "IsTradingPossible", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a9488e5a852c131e289a42aa8bc62c1d3", null ],
     [ "IsVisibleForEngine", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#ae887e7670f060932828e1272b05facbb", null ],
     [ "LocalPosition", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a6c903e9d445b810d942986f8dbabd2d3", null ],
     [ "LocalRect", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#ada727e8c94fdaac9c3eca835bee3831f", null ],

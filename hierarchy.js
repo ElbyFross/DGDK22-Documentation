@@ -158,14 +158,16 @@ var hierarchy =
       [ "Doloro.AI.DAIDebugger.Profiler", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_profiler.html", null ]
     ] ],
     [ "Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension< Storage >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html", [
-      [ "Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html", null ],
-      [ "Doloro.InvetorySystem.UI.Extension.StorageLockGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html", null ],
-      [ "Doloro.InvetorySystem.UI.Extension.StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html", null ]
+      [ "Doloro.InvetorySystem.UI.Extension.StorageContentGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_g_u_i_extension.html", [
+        [ "Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension< FeatureType >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", null ],
+        [ "Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html", null ]
+      ] ]
     ] ],
     [ "Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension< StoragesDatabase.ItemContainer >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html", [
-      [ "Doloro.InvetorySystem.UI.Extension.ItemFeaturesGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_g_u_i_extension.html", null ],
-      [ "Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html", null ],
-      [ "Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html", null ]
+      [ "Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html", [
+        [ "Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html", null ],
+        [ "Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html", null ]
+      ] ]
     ] ],
     [ "Doloro.InvetorySystem.AFeaturesExtendingResource< AItemFeature >", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html", [
       [ "Doloro.InvetorySystem.Item", "class_doloro_1_1_invetory_system_1_1_item.html", null ]
@@ -326,6 +328,12 @@ var hierarchy =
       [ "Doloro.DataManagement.AssetPropertiesSystem.Vector4AssetPropertyEditor", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_vector4_asset_property_editor.html", null ]
     ] ],
     [ "Doloro.EditorExtension.ProjectSettings.AssetsHandler", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_assets_handler.html", null ],
+    [ "Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension< Features.StorageLock >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", [
+      [ "Doloro.InvetorySystem.UI.Extension.StorageLockGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html", null ]
+    ] ],
+    [ "Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension< Features.StorageWeightLimiter >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", [
+      [ "Doloro.InvetorySystem.UI.Extension.StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html", null ]
+    ] ],
     [ "System.Attribute", null, [
       [ "Doloro.AI.Core.StorageIgnoreAttribute", "class_doloro_1_1_a_i_1_1_core_1_1_storage_ignore_attribute.html", null ],
       [ "Doloro.AI.CustomActionEditorAttribute", "class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html", null ],

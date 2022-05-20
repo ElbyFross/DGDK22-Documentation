@@ -2,6 +2,8 @@ var class_doloro_1_1_invetory_system_1_1_a_features_extending_resource =
 [
     [ "Equals", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#adb6864bafb5402ff879464c18901f0db", null ],
     [ "IsConflictsWith", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#a26b689fd04e69b82f602f7300c25674b", null ],
+    [ "IsTagDefined", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#ac609ed6876dd899791730874e7b982cb", null ],
+    [ "IsTagDefined", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#ae0d35c3844982c4520b4ff68dd5de4c7", null ],
     [ "MergeTo", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#a2d54ee654b7848b8807d28e9abaa72cd", null ],
     [ "MergeTo", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#a33c988c23c129973aad85e1a34c47b23", null ],
     [ "MergeTo", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html#ac9ad131e8263de94ac5233086446e540", null ],
