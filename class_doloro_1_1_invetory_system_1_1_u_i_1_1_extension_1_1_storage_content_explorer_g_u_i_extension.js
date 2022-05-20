@@ -1,10 +1,10 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension =
 [
-    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a099b96ca82dee8c50c08e92eccc64a7e", null ],
-    [ "ApplyGUIContentInternal", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a7342d722338d4b2f316d0de3a4f96db4", null ],
+    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a671ecc0f8440a3e2560e6e332cde0277", null ],
+    [ "ApplyGUIContentInternal", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a31b30270a8abe42d1189af49df32c4f5", null ],
     [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ad215b678ba0dda473c9672c19db61db3", null ],
     [ "ItemEventHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ad387a7044144bd0e6248cf848635f880", null ],
-    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a6c6541fb3261d731a45c65e38d85c1de", null ],
+    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ac52698144ca79b982e4c55b935d092fe", null ],
     [ "OnItemAddDefaultHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ac4df04827c287b6ad4c65d8906efd76a", null ],
     [ "OnStorageModified", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#afadb2e7f09e04e85e03285d3634615aa", null ],
     [ "collection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a4d1ec7e981936c2a6eafd89d8a445082", null ],

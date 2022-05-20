@@ -1,5 +1,5 @@
 <map id="Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension&lt; FeatureType &gt;" name="Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension&lt; FeatureType &gt;">
 <area shape="rect" id="node1" title="GUI extension for StorageGUIElement. Provides automatically tracking of AStorageFeature modification,..." alt="" coords="5,169,268,225"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_g_u_i_extension.html" title="Class that implements storage content managing GUI extension." alt="" coords="41,95,233,121"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html" title="Class that implements storage content managing GUI extension." alt="" coords="36,95,237,121"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="42,5,231,47"/>
 </map>

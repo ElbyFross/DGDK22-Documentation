@@ -158,7 +158,7 @@ var hierarchy =
       [ "Doloro.AI.DAIDebugger.Profiler", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_profiler.html", null ]
     ] ],
     [ "Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension< Storage >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html", [
-      [ "Doloro.InvetorySystem.UI.Extension.StorageContentGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_g_u_i_extension.html", [
+      [ "Doloro.InvetorySystem.UI.Extension.AStorageContentGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html", [
         [ "Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension< FeatureType >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", null ],
         [ "Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html", null ]
       ] ]
