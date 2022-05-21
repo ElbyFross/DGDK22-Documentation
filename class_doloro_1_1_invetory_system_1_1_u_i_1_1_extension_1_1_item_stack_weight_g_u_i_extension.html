@@ -120,12 +120,12 @@ Collaboration diagram for Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIE
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a62fef25776d0d5b6eb6361e423faa4ef"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#a62fef25776d0d5b6eb6361e423faa4ef">DropGUIContent</a> ()</td></tr>
-<tr class="memdesc:a62fef25776d0d5b6eb6361e423faa4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> label content.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#a62fef25776d0d5b6eb6361e423faa4ef">More...</a><br /></td></tr>
-<tr class="separator:a62fef25776d0d5b6eb6361e423faa4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4cc555ad0780b9f16c85998e7522948"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#ab4cc555ad0780b9f16c85998e7522948">ApplyGUIContent</a> ()</td></tr>
-<tr class="memdesc:ab4cc555ad0780b9f16c85998e7522948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current weight of stack to <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a>.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#ab4cc555ad0780b9f16c85998e7522948">More...</a><br /></td></tr>
-<tr class="separator:ab4cc555ad0780b9f16c85998e7522948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995429a912a7f6224b76912ed121043a"><td class="memItemLeft" align="right" valign="top">sealed override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a995429a912a7f6224b76912ed121043a">ApplyGUIContent</a> ()</td></tr>
+<tr class="memdesc:a995429a912a7f6224b76912ed121043a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sealed handler that controls internal logic. Use <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#aa8fa013755be6905fe522e1813e1eb9c" title="Handler that calls when source item data container data has been modified.">OnItemModified(StoragesDatabase.ItemContainer)</a> instead.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a995429a912a7f6224b76912ed121043a">More...</a><br /></td></tr>
+<tr class="separator:a995429a912a7f6224b76912ed121043a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e7ffc9dcc467ea52f0abfd632fc9cf"><td class="memItemLeft" align="right" valign="top">sealed override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a92e7ffc9dcc467ea52f0abfd632fc9cf">DropGUIContent</a> ()</td></tr>
+<tr class="memdesc:a92e7ffc9dcc467ea52f0abfd632fc9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sealed handler that controls internal logic. Use OnItemNotSelected(StoragesDatabase.ItemContainer) instead.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a92e7ffc9dcc467ea52f0abfd632fc9cf">More...</a><br /></td></tr>
+<tr class="separator:a92e7ffc9dcc467ea52f0abfd632fc9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -149,17 +149,18 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>postfixLabel1kkPlus
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a00f6d680a5811b57a1cdf35526f1600f"><td class="memItemLeft" align="right" valign="top"><a id="a00f6d680a5811b57a1cdf35526f1600f" name="a00f6d680a5811b57a1cdf35526f1600f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="memdesc:a00f6d680a5811b57a1cdf35526f1600f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribing internal handlers on background events. <br /></td></tr>
-<tr class="separator:a00f6d680a5811b57a1cdf35526f1600f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4409f8c849584b865827cc2e69ed376f"><td class="memItemLeft" align="right" valign="top"><a id="a4409f8c849584b865827cc2e69ed376f" name="a4409f8c849584b865827cc2e69ed376f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
-<tr class="memdesc:a4409f8c849584b865827cc2e69ed376f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribes internal handlers from background events. <br /></td></tr>
-<tr class="separator:a4409f8c849584b865827cc2e69ed376f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af236f801c2ef2dfdda977aaf4b647291"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#af236f801c2ef2dfdda977aaf4b647291">OnValueChanged</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">StoragesDatabase.ItemContainer</a> source)</td></tr>
-<tr class="memdesc:af236f801c2ef2dfdda977aaf4b647291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs with StoragesDatabase.ItemContainer.Changed event.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#af236f801c2ef2dfdda977aaf4b647291">More...</a><br /></td></tr>
-<tr class="separator:af236f801c2ef2dfdda977aaf4b647291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae98bbbfd2b783dbd1ef65e6d13f6a070"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#ae98bbbfd2b783dbd1ef65e6d13f6a070">OnItemNotSelected</a> ()</td></tr>
+<tr class="memdesc:ae98bbbfd2b783dbd1ef65e6d13f6a070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> label content.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#ae98bbbfd2b783dbd1ef65e6d13f6a070">More...</a><br /></td></tr>
+<tr class="separator:ae98bbbfd2b783dbd1ef65e6d13f6a070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc52a162ccc7fe6065bf923dc9adafce"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#adc52a162ccc7fe6065bf923dc9adafce">OnItemModified</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">StoragesDatabase.ItemContainer</a> source)</td></tr>
+<tr class="memdesc:adc52a162ccc7fe6065bf923dc9adafce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when source container has been modified and loads data to GUI.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#adc52a162ccc7fe6065bf923dc9adafce">More...</a><br /></td></tr>
+<tr class="separator:adc52a162ccc7fe6065bf923dc9adafce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09967ceacf83503961eb2be0809ca086"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a09967ceacf83503961eb2be0809ca086">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a09967ceacf83503961eb2be0809ca086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribes internal handlers from background events.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a09967ceacf83503961eb2be0809ca086">More...</a><br /></td></tr>
+<tr class="separator:a09967ceacf83503961eb2be0809ca086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8923ae1be8366be77533684bd18a4c9c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a8923ae1be8366be77533684bd18a4c9c">OnItemRelease</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">StoragesDatabase.ItemContainer</a> toRelease)</td></tr>
+<tr class="memdesc:a8923ae1be8366be77533684bd18a4c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs before new <a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Item</a> apply and allows to release data bonded with previously used instance.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a8923ae1be8366be77533684bd18a4c9c">More...</a><br /></td></tr>
+<tr class="separator:a8923ae1be8366be77533684bd18a4c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -168,8 +169,8 @@ Properties</h2></td></tr>
 <tr class="separator:a2b8c046924e4893eecd55ce53d48b1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab4cc555ad0780b9f16c85998e7522948" name="ab4cc555ad0780b9f16c85998e7522948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4cc555ad0780b9f16c85998e7522948">&#9670;&nbsp;</a></span>ApplyGUIContent()</h2>
+<a id="a995429a912a7f6224b76912ed121043a" name="a995429a912a7f6224b76912ed121043a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995429a912a7f6224b76912ed121043a">&#9670;&nbsp;</a></span>ApplyGUIContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +179,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension.ApplyGUIContent </td>
+          <td class="memname">sealed override void Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension.ApplyGUIContent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,19 +187,19 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets current weight of stack to <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a>. </p>
+<p>Sealed handler that controls internal logic. Use <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#adc52a162ccc7fe6065bf923dc9adafce" title="Occurs when source container has been modified and loads data to GUI.">OnItemModified(StoragesDatabase.ItemContainer)</a> instead. </p>
 
 <p>Implements <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#ae18465c008ca608079845ca7f7b7a52f">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension&lt; StoragesDatabase.ItemContainer &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a62fef25776d0d5b6eb6361e423faa4ef" name="a62fef25776d0d5b6eb6361e423faa4ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62fef25776d0d5b6eb6361e423faa4ef">&#9670;&nbsp;</a></span>DropGUIContent()</h2>
+<a id="a92e7ffc9dcc467ea52f0abfd632fc9cf" name="a92e7ffc9dcc467ea52f0abfd632fc9cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e7ffc9dcc467ea52f0abfd632fc9cf">&#9670;&nbsp;</a></span>DropGUIContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +208,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension.DropGUIContent </td>
+          <td class="memname">sealed override void Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension.DropGUIContent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -215,19 +216,19 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Drops <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> label content. </p>
+<p>Sealed handler that controls internal logic. Use OnItemNotSelected(StoragesDatabase.ItemContainer) instead. </p>
 
 <p>Implements <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension&lt; StoragesDatabase.ItemContainer &gt;</a>.</p>
 
 </div>
 </div>
-<a id="af236f801c2ef2dfdda977aaf4b647291" name="af236f801c2ef2dfdda977aaf4b647291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af236f801c2ef2dfdda977aaf4b647291">&#9670;&nbsp;</a></span>OnValueChanged()</h2>
+<a id="a09967ceacf83503961eb2be0809ca086" name="a09967ceacf83503961eb2be0809ca086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09967ceacf83503961eb2be0809ca086">&#9670;&nbsp;</a></span>OnDestroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +237,36 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension.OnValueChanged </td>
+          <td class="memname">virtual void Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unsubscribes internal handlers from background events. </p>
+
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a2ac91640a2d508b361c4592362dacb3d">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>.</p>
+
+</div>
+</div>
+<a id="adc52a162ccc7fe6065bf923dc9adafce" name="adc52a162ccc7fe6065bf923dc9adafce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc52a162ccc7fe6065bf923dc9adafce">&#9670;&nbsp;</a></span>OnItemModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension.OnItemModified </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">StoragesDatabase.ItemContainer</a>&#160;</td>
           <td class="paramname"><em>source</em></td><td>)</td>
@@ -250,13 +280,80 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Occurs with StoragesDatabase.ItemContainer.Changed event. </p>
+<p>Occurs when source container has been modified and loads data to GUI. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td>Changed source.</td></tr>
+    <tr><td class="paramname">source</td><td>source container.</td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#aa8fa013755be6905fe522e1813e1eb9c">Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension</a>.</p>
+
+</div>
+</div>
+<a id="ae98bbbfd2b783dbd1ef65e6d13f6a070" name="ae98bbbfd2b783dbd1ef65e6d13f6a070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae98bbbfd2b783dbd1ef65e6d13f6a070">&#9670;&nbsp;</a></span>OnItemNotSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension.OnItemNotSelected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> label content. </p>
+
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html#a13781d47484188e77523b4969ff93bcd">Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension</a>.</p>
+
+</div>
+</div>
+<a id="a8923ae1be8366be77533684bd18a4c9c" name="a8923ae1be8366be77533684bd18a4c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8923ae1be8366be77533684bd18a4c9c">&#9670;&nbsp;</a></span>OnItemRelease()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension.OnItemRelease </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">StoragesDatabase.ItemContainer</a>&#160;</td>
+          <td class="paramname"><em>toRelease</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Occurs before new <a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Item</a> apply and allows to release data bonded with previously used instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">toRelease</td><td>Content used previously.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ac46f17a731cfe3e9aad8e1dc386e3d41">Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension</a>.</p>
 
 </div>
 </div>

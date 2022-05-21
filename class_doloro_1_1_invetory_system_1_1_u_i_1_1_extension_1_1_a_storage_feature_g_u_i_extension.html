@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_invetory_system_1_1_u
 <a href="#pac-methods">Package Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension&lt; FeatureType &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Doloro.InvetorySystem.UI.Extension.AStorageFeatureGUIExtension&lt; FeatureType &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -135,9 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a671ecc0f8440a3e2560e6e332cde0277"><td class="memItemLeft" align="right" valign="top">sealed override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#a671ecc0f8440a3e2560e6e332cde0277">ApplyGUIContent</a> ()</td></tr>
 <tr class="memdesc:a671ecc0f8440a3e2560e6e332cde0277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that calls when inspector changed its content and requesting loading to the GUI a new one related to relevant source. Content always not <code>null</code>.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#a671ecc0f8440a3e2560e6e332cde0277">More...</a><br /></td></tr>
 <tr class="separator:a671ecc0f8440a3e2560e6e332cde0277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf484959cf3512505e3e78e25ec5c650"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">DropGUIContent</a> ()</td></tr>
-<tr class="memdesc:acf484959cf3512505e3e78e25ec5c650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that calls when inspector changed its content to null and requires GUI cleaning operation.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">More...</a><br /></td></tr>
-<tr class="separator:acf484959cf3512505e3e78e25ec5c650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f3e125e10b081abe47b5c9498525c6"><td class="memItemLeft" align="right" valign="top">sealed override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#ac2f3e125e10b081abe47b5c9498525c6">DropGUIContent</a> ()</td></tr>
+<tr class="memdesc:ac2f3e125e10b081abe47b5c9498525c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sealed handler that controls internal logic. Use OnItemNotSelected(StoragesDatabase.ItemContainer) instead.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#ac2f3e125e10b081abe47b5c9498525c6">More...</a><br /></td></tr>
+<tr class="separator:ac2f3e125e10b081abe47b5c9498525c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -150,6 +150,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a27455774fa0cb325b5dc8f5371b1e165"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#a27455774fa0cb325b5dc8f5371b1e165">OnStorageModified</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html">StoragesDatabase.StorageContainer</a> storage)</td></tr>
 <tr class="memdesc:a27455774fa0cb325b5dc8f5371b1e165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html" title="Container that using as data entry for the StoragesDatabase.">StoragesDatabase.StorageContainer</a> selected as source of content in parent inspector has been changed.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#a27455774fa0cb325b5dc8f5371b1e165">More...</a><br /></td></tr>
 <tr class="separator:a27455774fa0cb325b5dc8f5371b1e165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53f5edc4592fb9730893d7cf56d396a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#ad53f5edc4592fb9730893d7cf56d396a">OnStorageNotSelected</a> ()</td></tr>
+<tr class="memdesc:ad53f5edc4592fb9730893d7cf56d396a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that calls when inspector content is <code>null</code>. Should be used to clear GUI.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html#ad53f5edc4592fb9730893d7cf56d396a">More...</a><br /></td></tr>
+<tr class="separator:ad53f5edc4592fb9730893d7cf56d396a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
 Package Functions</h2></td></tr>
@@ -228,8 +231,8 @@ FeatureType&#160;</td><td class="memItemRight" valign="bottom"><b>BondedFeature<
 
 </div>
 </div>
-<a id="acf484959cf3512505e3e78e25ec5c650" name="acf484959cf3512505e3e78e25ec5c650"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf484959cf3512505e3e78e25ec5c650">&#9670;&nbsp;</a></span>DropGUIContent()</h2>
+<a id="ac2f3e125e10b081abe47b5c9498525c6" name="ac2f3e125e10b081abe47b5c9498525c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f3e125e10b081abe47b5c9498525c6">&#9670;&nbsp;</a></span>DropGUIContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +241,7 @@ FeatureType&#160;</td><td class="memItemRight" valign="bottom"><b>BondedFeature<
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension</a>&lt; T &gt;.DropGUIContent </td>
+          <td class="memname">sealed override void Doloro.InvetorySystem.UI.Extension.AStorageContentGUIExtension.DropGUIContent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -246,15 +249,14 @@ FeatureType&#160;</td><td class="memItemRight" valign="bottom"><b>BondedFeature<
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Handler that calls when inspector changed its content to null and requires GUI cleaning operation. </p>
-<p >The AContentInspectorGUIElement.content&gt; property mustn't be affected. </p>
+<p>Sealed handler that controls internal logic. Use OnItemNotSelected(StoragesDatabase.ItemContainer) instead. </p>
 
-<p>Implemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ad215b678ba0dda473c9672c19db61db3">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>.</p>
+<p>Implements <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html#acf484959cf3512505e3e78e25ec5c650">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension&lt; Storage &gt;</a>.</p>
 
 </div>
 </div>
@@ -356,6 +358,35 @@ FeatureType&#160;</td><td class="memItemRight" valign="bottom"><b>BondedFeature<
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_data_container.html#a158af441e863018da16431b81aa3c406" title="Occurs when a container state has been somehow modified.">StoragesDatabase.ADataContainer&lt;ContainerType&gt;.Modified</a></dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#afadb2e7f09e04e85e03285d3634615aa">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>.</p>
+
+</div>
+</div>
+<a id="ad53f5edc4592fb9730893d7cf56d396a" name="ad53f5edc4592fb9730893d7cf56d396a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53f5edc4592fb9730893d7cf56d396a">&#9670;&nbsp;</a></span>OnStorageNotSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Doloro.InvetorySystem.UI.Extension.AStorageContentGUIExtension.OnStorageNotSelected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that calls when inspector content is <code>null</code>. Should be used to clear GUI. </p>
+
+<p>Reimplemented in <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#afc550039f70992d4012244004f9ce9dd">Doloro.InvetorySystem.UI.Extension.StorageContentExplorerGUIExtension</a>.</p>
 
 </div>
 </div>

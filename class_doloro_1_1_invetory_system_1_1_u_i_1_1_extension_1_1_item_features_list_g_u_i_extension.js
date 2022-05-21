@@ -1,8 +1,12 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension =
 [
-    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a6b3266776236be3b30e93df14d999029", null ],
-    [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#abbc08dd8b8110d9dc8bf36d10a9484d1", null ],
+    [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a995429a912a7f6224b76912ed121043a", null ],
+    [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a92e7ffc9dcc467ea52f0abfd632fc9cf", null ],
     [ "EmbedAssetProperties", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ae8670fb329d57f172f2c88c6f53f561c", null ],
+    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a2ac91640a2d508b361c4592362dacb3d", null ],
+    [ "OnItemModified", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a25c0e709a1a6c2c67528a2c93ed1e045", null ],
+    [ "OnItemNotSelected", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a5ac0db6dbff6c919a219476bc6a743aa", null ],
+    [ "OnItemRelease", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ac46f17a731cfe3e9aad8e1dc386e3d41", null ],
     [ "APCDomains", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a6728bb84baf40375ab84ad18f7a7fd52", null ],
     [ "DataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ac8079e8eadf620c1d3fa56188cfa07ea", null ],
     [ "inspector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a2b8c046924e4893eecd55ce53d48b1b6", null ],

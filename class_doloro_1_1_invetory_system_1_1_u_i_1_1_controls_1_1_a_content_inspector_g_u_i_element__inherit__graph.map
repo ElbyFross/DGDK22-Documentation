@@ -1,6 +1,6 @@
 <map id="Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement&lt; T &gt;" name="Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement&lt; T &gt;">
-<area shape="rect" id="node1" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="36,155,319,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="5,80,173,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="34,5,145,32"/>
-<area shape="rect" id="node4" href="$interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html" title="Declares members of the object that has internal content." alt="" coords="197,80,336,107"/>
+<area shape="rect" id="node1" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="5,155,288,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="24,80,125,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="19,5,130,32"/>
+<area shape="rect" id="node4" href="$interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html" title="Declares members of the object that has internal content." alt="" coords="149,80,288,107"/>
 </map>
