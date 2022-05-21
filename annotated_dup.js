@@ -512,12 +512,14 @@ var annotated_dup =
             [ "StorageLockGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_lock_g_u_i_extension" ],
             [ "StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension" ]
           ] ],
+          [ "VirtualHub", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub.html", [
+            [ "ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener" ],
+            [ "StoragesSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay" ],
+            [ "StorageUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_u_i_hub_listener" ]
+          ] ],
           [ "Windows", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_windows.html", [
             [ "StoragesInspector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector" ]
-          ] ],
-          [ "ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener" ],
-          [ "StoragesSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay" ],
-          [ "StorageUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener" ]
+          ] ]
         ] ],
         [ "AEntityFeature", "class_doloro_1_1_invetory_system_1_1_a_entity_feature.html", "class_doloro_1_1_invetory_system_1_1_a_entity_feature" ],
         [ "AFeaturesExtendingResource", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource.html", "class_doloro_1_1_invetory_system_1_1_a_features_extending_resource" ],

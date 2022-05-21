@@ -1,0 +1,4 @@
+<map id="Doloro.InvetorySystem.UI.VirtualHub.ItemUIHubListener" name="Doloro.InvetorySystem.UI.VirtualHub.ItemUIHubListener">
+<area shape="rect" id="node1" title="Receives events from parental VirtualUIHub and updates ItemGUIElement content along with applied valu..." alt="" coords="33,109,225,151"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title=" " alt="" coords="5,5,253,61"/>
+</map>

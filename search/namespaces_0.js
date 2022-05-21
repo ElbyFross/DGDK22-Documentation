@@ -65,7 +65,7 @@ var searchData=
   ['tools_62',['Tools',['../namespace_doloro_1_1_tools.html',1,'Doloro']]],
   ['ui_63',['UI',['../namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i.html',1,'Doloro.InvetorySystem.Modules.Shops.UI'],['../namespace_doloro_1_1_invetory_system_1_1_u_i.html',1,'Doloro.InvetorySystem.UI']]],
   ['uiengine2_64',['UIEngine2',['../namespace_doloro_1_1_u_i_engine2.html',1,'Doloro']]],
-  ['virtualhub_65',['VirtualHub',['../namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub.html',1,'Doloro::UIEngine2::Modules']]],
+  ['virtualhub_65',['VirtualHub',['../namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub.html',1,'Doloro.InvetorySystem.UI.VirtualHub'],['../namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub.html',1,'Doloro.UIEngine2.Modules.VirtualHub']]],
   ['volumetricspace_66',['VolumetricSpace',['../namespace_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space.html',1,'Doloro::InvetorySystem::Features']]],
   ['windows_67',['Windows',['../namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows.html',1,'Doloro.InvetorySystem.Modules.Shops.UI.Windows'],['../namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_windows.html',1,'Doloro.InvetorySystem.UI.Windows']]]
 ];

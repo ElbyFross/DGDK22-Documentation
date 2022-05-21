@@ -36,10 +36,10 @@ var hierarchy =
       [ "Doloro.AI.Compare.CompareIntEditor", "class_doloro_1_1_a_i_1_1_compare_1_1_compare_int_editor.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.AContentHolderUIHubListener< ItemGUIElement, StoragesDatabase.ItemContainer >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html", [
-      [ "Doloro.InvetorySystem.UI.ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_item_u_i_hub_listener.html", null ]
+      [ "Doloro.InvetorySystem.UI.VirtualHub.ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.AContentHolderUIHubListener< StorageGUIElement, Storage >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html", [
-      [ "Doloro.InvetorySystem.UI.StorageUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storage_u_i_hub_listener.html", null ]
+      [ "Doloro.InvetorySystem.UI.VirtualHub.StorageUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_u_i_hub_listener.html", null ]
     ] ],
     [ "Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement< AItemFeature >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html", [
       [ "Doloro.InvetorySystem.UI.Controls.ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html", null ]
@@ -788,7 +788,7 @@ var hierarchy =
       [ "Doloro.UIEngine2.Modules.VirtualHub.AHubAgent", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html", [
         [ "Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRelay", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html", [
           [ "Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html", [
-            [ "Doloro.InvetorySystem.UI.StoragesSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html", null ]
+            [ "Doloro.InvetorySystem.UI.VirtualHub.StoragesSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay.html", null ]
           ] ]
         ] ],
         [ "Doloro.UIEngine2.Modules.VirtualHub.UIHubListener", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html", [

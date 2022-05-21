@@ -3,5 +3,5 @@
 <area shape="rect" id="node4" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html" title="Extends base UIHubEventRelay with logic related to the AGUIElementsCollection component." alt="" coords="535,5,785,61"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="164,20,252,47"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,20,116,47"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages." alt="" coords="833,13,1027,54"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay.html" title="GUI controller that provides selection between several Storages." alt="" coords="833,13,1091,54"/>
 </map>

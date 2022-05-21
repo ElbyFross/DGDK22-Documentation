@@ -7,9 +7,9 @@ var class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock =
     [ "OnTrasactionMask", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a51a66499117994a3641a56029467b802", null ],
     [ "SaveSession", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#ae819a16c62014214eecfa6c319fd0e84", null ],
     [ "SetDefault", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a9d3cdb13f7696d3310065be2ee7c92ce", null ],
-    [ "allowsLockedAdd", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#ac24b64ac122f936ef5f91f555cd355a9", null ],
-    [ "keyID", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a6c1340e7f3d293fcd45052d88f0a91a8", null ],
-    [ "locked", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#aa35130a5b95246044de83fc4d1f1fb13", null ],
+    [ "AllowsLockedAdd", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a2b9c2baa0ca3275ef48df15cc5585587", null ],
+    [ "IsLocked", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a32f5644b0cc2e10a928922b89c77be54", null ],
+    [ "KeyID", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a90b9a4650ca81696d23397502076c64b", null ],
     [ "message", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#aef36c18bef3bd860fae91c21c219cc99", null ],
     [ "storage", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a8e10e3532caa23338ca23aa5d0fc443d", null ],
     [ "Modified", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_lock.html#a107fee2afe59877f68ffdfb111f2bea1", null ]
