@@ -1,6 +1,7 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension =
 [
     [ "ApplyGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#aee6b4519f3cf9500555985375b096729", null ],
+    [ "ApplyGUIContentInternal", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a2e2b168df864a66093f9c9595cd0c016", null ],
     [ "DropGUIContent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a91eef923b06f7dacc62ff4ba41cc5522", null ],
     [ "EmbedAssetProperties", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ae8670fb329d57f172f2c88c6f53f561c", null ],
     [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#a2ac91640a2d508b361c4592362dacb3d", null ],

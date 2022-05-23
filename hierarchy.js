@@ -49,6 +49,7 @@ var hierarchy =
     ] ],
     [ "Doloro.UIEngine2.Controls.AContentInspectorExtension< StoragesDatabase.ItemContainer >", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html", [
       [ "Doloro.InvetorySystem.UI.Extension.AItemGUIElementExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension.html", [
+        [ "Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension< FeatureType >", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html", null ],
         [ "Doloro.InvetorySystem.UI.Extension.ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html", null ],
         [ "Doloro.InvetorySystem.UI.Extension.ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html", null ]
       ] ]

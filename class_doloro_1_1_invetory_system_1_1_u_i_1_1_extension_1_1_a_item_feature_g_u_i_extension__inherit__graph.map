@@ -1,6 +1,5 @@
-<map id="Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension" name="Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension">
-<area shape="rect" id="node1" title="GUI extension for ItemGUIElement." alt="" coords="291,39,533,80"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html" title="Displays AItemFeature applied to the StoragesDatabase.ItemContainer.Resource selected with UI." alt="" coords="583,5,844,47"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html" title="Creates a bridge between database item entry&#39;s weight parameter of items stack and UI." alt="" coords="581,71,845,112"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="5,39,243,80"/>
+<map id="Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension&lt; FeatureType &gt;" name="Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension&lt; FeatureType &gt;">
+<area shape="rect" id="node1" title="GUI extension for ItemGUIElement. Provides automatically tracking of AItemFeature modification,..." alt="" coords="5,169,248,225"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension.html" title="GUI extension for ItemGUIElement." alt="" coords="35,95,219,121"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html" title=" " alt="" coords="8,5,245,47"/>
 </map>

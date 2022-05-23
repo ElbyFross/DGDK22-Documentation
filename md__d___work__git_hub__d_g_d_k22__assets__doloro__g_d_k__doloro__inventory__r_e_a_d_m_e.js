@@ -33,9 +33,15 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "About", "dinv-storage.html#dinv-storage-a", null ],
       [ "Resource", "dinv-storage.html#dinv-storage-r", null ],
       [ "Features", "dinv-storage.html#dinv-storage-p", [
-        [ "In-box", "dinv-storage.html#dinv-storage-p-box", null ]
+        [ "In-box", "dinv-storage.html#dinv-storage-p-box", null ],
+        [ "Development", "dinv-storage.html#dinv-storage-p-dev", null ]
       ] ],
-      [ "GUI", "dinv-storage.html#dinv-storage-gui", null ]
+      [ "GUI", "dinv-storage.html#dinv-storage-gui", [
+        [ "Storage GUI control", "dinv-storage.html#dinv-storage-gui-control", null ],
+        [ "Storage GUI extensions", "dinv-storage.html#dinv-storage-gui-ext", [
+          [ "Development", "dinv-storage.html#dinv-storage-gui-custom", null ]
+        ] ]
+      ] ]
     ] ],
     [ "Storages Database", "dinv-storages-database.html", [
       [ "About", "dinv-storages-database.html#dinv-storages-database-a", null ],

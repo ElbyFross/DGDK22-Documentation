@@ -1,5 +1,6 @@
 var namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_extension =
 [
+    [ "AItemFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension" ],
     [ "AItemGUIElementExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension" ],
     [ "AStorageFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension" ],
     [ "AStorageGUIElementExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension" ],

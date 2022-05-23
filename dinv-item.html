@@ -115,15 +115,15 @@ The objects with implemented component considering as instances of <code>Dynamic
 <hr  />
 <h1><a class="anchor" id="dinv-item-r"></a>
 Resource</h1>
-<p >To add a new <code>Item</code> resource you need to:</p><ol type="1">
-<li>Create new on-scene prefab.</li>
+<p >To create a new <code>Item</code> resource you need to:</p><ol type="1">
+<li>Create a new game object on a scene.</li>
 <li>Add <code>Item</code> component or its derived variant over it.</li>
 <li>Define resource signature that will allow to access the resource via <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-drt">Dynamic Resource Tools</a> API.<ol type="a">
-<li>(Optional) Setup item tags related to resource categorization of resource using <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a> reaftures.</li>
+<li>(Optional) Setup item tags related to resource categorization of resource using <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a> features.</li>
 </ol>
 </li>
 <li>Add custom <code>AItemFeature</code> derived component to extend item's logic.</li>
-<li>Drag and drop the gamobject to any <code>Resources</code> folder to make it accessible to search.</li>
+<li>Drag and drop the game object to any <code>Resources</code> folder to make it accessible to search.</li>
 <li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
 </ol>
 <hr  />
@@ -142,6 +142,13 @@ Item Features</h1>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">Doloro.InvetorySystem.AItemFeature</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">Doloro.InvetorySystem.AEntityFeature</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a></li>
+</ul>
+<p ><br  />
+</p>
+<p ><code>Item</code> is a <a class="el" href="ddm-drt-dr.html">Dynamic Resource</a> it can be extended with new features via distributing packages that allows to change gameplay dynamically via mods or etc.</p>
+<p ><b>Read more:</b></p><ul>
+<li><a class="el" href="ddm-drt-patchtool.html">Patch Tool</a></li>
+<li><a class="el" href="ddm-drt-mergetool.html">Merge Tool</a></li>
 </ul>
 <p ><br  />
 </p>
@@ -281,7 +288,25 @@ Development</h3>
 <div class="line">                // Release events subscriptions here.</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><p >You also may find useful derivng the component from the <code>AItemFeatureGUIExtension{FeatureType}</code> instead of regular <code>AItemGUIElementExtension</code>. Such a component bonds with a certain <code>AItemFeature</code> over the <code>Item</code> instance and follws its internal events and messages encapsulating objects management demands.</p>
+<div class="fragment"><div class="line">public class CUSTOM_ITEM_FEATURE_GUI_EXTENSION :</div>
+<div class="line">    AItemFeatureGUIExtension&lt;FEATURE_TYPE&gt;</div>
+<div class="line">{</div>
+<div class="line">    ... THE SAME MEMBERS MAP ...</div>
+<div class="line"> </div>
+<div class="line">    protected virtual void OnFeatureModified(FEATURE_TYPE feature)</div>
+<div class="line">    {</div>
+<div class="line">        // Handler that will be called as soon as</div>
+<div class="line">        // bonded feature invoked `AEntityFeature.Modified` event.</div>
+<div class="line"> </div>
+<div class="line">        // Implement GUI update here.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> Where <code>FEATURE_TYPE</code> is <code>AItemFeature</code> derived feature's type.</p>
+<p >Using of the component allows dynamically change a GUI along with the feature's state change.</p>
+<dl class="section warning"><dt>Warning</dt><dd>The <code>AItemFeatureGUIExtension</code> derived component calls <code>Item</code> resource instance. Such an instance has a bond with data base entry and must be destroyed manually in case you need. You may want to do this in case some of custom features takes performance leak, by default such an instance is static and not damage gameplay experience while it stays in on-scene items registry.</dd></dl>
+<p><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html" title="GUI extension for ItemGUIElement. Provides automatically tracking of AItemFeature modification,...">Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension</a>{ FeatureType } </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

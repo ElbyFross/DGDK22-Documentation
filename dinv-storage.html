@@ -91,27 +91,230 @@ $(document).ready(function(){initNavTree('dinv-storage.html',''); initResizable(
 <ul><li class="level1"><a href="#dinv-storage-a">About</a></li>
 <li class="level1"><a href="#dinv-storage-r">Resource</a></li>
 <li class="level1"><a href="#dinv-storage-p">Features</a><ul><li class="level2"><a href="#dinv-storage-p-box">In-box</a></li>
+<li class="level2"><a href="#dinv-storage-p-dev">Development</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dinv-storage-gui">GUI</a></li>
+<li class="level1"><a href="#dinv-storage-gui">GUI</a><ul><li class="level2"><a href="#dinv-storage-gui-control">Storage GUI control</a></li>
+<li class="level2"><a href="#dinv-storage-gui-ext">Storage GUI extensions</a><ul><li class="level3"><a href="#dinv-storage-gui-custom">Development</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-storage-a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Doloro.InvetorySystem.Storage</a></p>
+<p >A <code>Storage</code> object allows to create a model of in-game storage implements its own features and receives database entry as content. <br  />
+The storage resource by itself an entity of Entity Component System implemented with the <a class="el" href="dinv_storages_service.html">Storages Service</a>. When you loads any <code>StorageContainer</code> from <a class="el" href="dinv-storages-database.html">Storages Database</a> on scene via the service you'll get an instance of <code>Storage</code> bond with the container.</p>
+<p >Such an instance will receive saved session data provided with the loaded data container. <br  />
+The changes in the container will be automatically saved to the database as soon as the <code>Storage</code> instance has been released via the service.</p>
+<p >Simply its enough to have a single <code>Storage</code> resource that will be a default container used all around the game, but normally you may need to implement custom features over the storages, like a lock, or ownership rights. For such cases you may need to create extra variants of base <code>Starage</code> resource and extend they with special logic. More about in <a class="el" href="dinv-storage.html#dinv-storage-p">Features</a> section.</p>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Doloro.InvetorySystem.Storage</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">Doloro.InvetorySystem.StoragesService</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html" title="Container that using as data entry for the StoragesDatabase.">Doloro.InvetorySystem.StoragesDatabase.StorageContainer</a></li>
+</ul>
 <h1><a class="anchor" id="dinv-storage-r"></a>
 Resource</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >To create a new <code>Storage</code> resource you need to:</p><ol type="1">
+<li>Create a new game object on a scene.</li>
+<li>Add <code>Storage</code> component or its derived variant over it.</li>
+<li>Define resource signature that will allow to access the resource via <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-drt">Dynamic Resource Tools</a> API.<ol type="a">
+<li>(Optional) Setup item tags related to resource categorization of resource using <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a> features.</li>
+</ol>
+</li>
+<li>Add custom <code>AStorageFeature</code> derived component to extend item's logic.</li>
+<li>Drag and drop the game object to any <code>Resources</code> folder to make it accessible to search.</li>
+<li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
+</ol>
 <h1><a class="anchor" id="dinv-storage-p"></a>
 Features</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >A storage interaction behavior can be extended from base one by adding of new components derived from the <code>AStorageFeature</code> class over the object with defined <code>Storage</code> component. The feature component will be automatically integrated within internal systems, you no need to make any manual assignments.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_a_storage_feature.html" title="A feature attached to the Storage instance that extends its functionality.">Doloro.InvetorySystem.AStorageFeature</a></p>
+<p ><br  />
+</p>
+<p ><code>Storage</code> is a <a class="el" href="ddm-drt-dr.html">Dynamic Resource</a> it can be extended with new features via distributing packages that allows to change gameplay dynamically via mods or etc.</p>
+<p ><b>Read more:</b></p><ul>
+<li><a class="el" href="ddm-drt-patchtool.html">Patch Tool</a></li>
+<li><a class="el" href="ddm-drt-mergetool.html">Merge Tool</a></li>
+</ul>
 <h2><a class="anchor" id="dinv-storage-p-box"></a>
 In-box</h2>
-<p >The package supplies you with several pre-implemented storage features those extends its behavior and features. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h1><a class="anchor" id="dinv-storage-gui"></a>
+<p >The package supplies you with several pre-implemented storage features those extends its behavior and features.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Feature   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>StorageInfo</code>   </td><td class="markdownTableBodyNone">Implements extra properties over the storage like a<br  />
+ Title, Description and Owner ID. <br  />
+ Allows to personalize the storage among others.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>StorageLock</code>   </td><td class="markdownTableBodyNone">Adds ability to lock a storage on a key with defined signature.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>StorageItemsTagsFilter</code>   </td><td class="markdownTableBodyNone">Alows adding to the storage only items with <br  />
+ tags mask passing defined patterns. <br  />
+ Read more: <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a>.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>StorageContentSpawner</code>   </td><td class="markdownTableBodyNone">Defines storage content spawn policy. <br  />
+ Provides API to manage the spawn process.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>StorageSlotsLimiter</code>   </td><td class="markdownTableBodyNone">Limits count of different resource containers that <br  />
+ allowed to place within the same storage.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>StorageWeightLimiter</code>   </td><td class="markdownTableBodyNone">Implements concept of storage weigh and <br  />
+ allows to limit upper bound.   </td></tr>
+</table>
+<h2><a class="anchor" id="dinv-storage-p-dev"></a>
+Development</h2>
+<p >To create a new Storage Feature enough to create a new component class derived from the <code>AStorageFeature</code>. <br  />
+Than the instance of the component has to be added to the game object with <code>Storage</code> component.</p>
+<p >In common the feature class will follow the next pattern: </p><div class="fragment"><div class="line">using Doloro.DataManagement.Serialization;</div>
+<div class="line">using Doloro.InvetorySystem.Features;</div>
+<div class="line">using System;</div>
+<div class="line">using UnityEngine;</div>
+<div class="line"> </div>
+<div class="line">public class STORAGE_FEATURE : AStorageFeature</div>
+<div class="line">{</div>
+<div class="line">    // Data container that defined personalized</div>
+<div class="line">    // storage session members that different for each</div>
+<div class="line">    // unique `Storage`.</div>
+<div class="line">    [SerializeField]</div>
+<div class="line">    private Info _data = new CrossSessionData();</div>
+<div class="line"> </div>
+<div class="line">    public override void LoadSession(byte[] data)</div>
+<div class="line">    {</div>
+<div class="line">          base.LoadSession(data);</div>
+<div class="line"> </div>
+<div class="line">            // Attempting to read binary data to the session container.</div>
+<div class="line">          try { _data = BinarySerializationTool.Deserialize&lt;Info&gt;(data); }</div>
+<div class="line">          catch (Exception ex)</div>
+<div class="line">          {</div>
+<div class="line">                    // Data read failed.</div>
+<div class="line">              Debug.LogError(</div>
+<div class="line">                  &quot;`&quot; + GetType().Name +</div>
+<div class="line">                  &quot;` related binary data corrupted and can&#39;t be loaded.\n&quot; +</div>
+<div class="line">                  ex.Message + &quot;\n\n&quot;);</div>
+<div class="line">          }</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Converting session data to binary format.</div>
+<div class="line">    // Using Doloro Data Management module&#39;s features.</div>
+<div class="line">    public override byte[] SaveSession()</div>
+<div class="line">    {</div>
+<div class="line">      BinarySerializationTool.Serialize(_data, out byte[] output);</div>
+<div class="line">      return output;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public override void SetDefault()</div>
+<div class="line">    {</div>
+<div class="line">        // Creating a new clear data container.</div>
+<div class="line">      _data = new CrossSessionData();</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public override void OnStorageRented()</div>
+<div class="line">    {</div>
+<div class="line">        // Assigning handlers related to</div>
+<div class="line">        // `StorageContainer` renting the</div>
+<div class="line">        // Storage instance</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public override void OnStorageRentOver()</div>
+<div class="line">    {</div>
+<div class="line">        // Releasing data related to previous</div>
+<div class="line">        // `StorageContainer` that had been using</div>
+<div class="line">        // the Storage entity.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Class that declares cross session data</div>
+<div class="line">    // applicable toward the feature.</div>
+<div class="line">    // The data will be different for each `StorageContainer`</div>
+<div class="line">    // at the `StoragesDatabase`.</div>
+<div class="line">    [Serializable]</div>
+<div class="line">    private class CrossSessionData</div>
+<div class="line">    {</div>
+<div class="line">        public CrossSessionData()</div>
+<div class="line">        {</div>
+<div class="line">                // Applying default values</div>
+<div class="line">                // over session data.</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        // Your serializable members here.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> <code>CrossSessionData</code> is an optional implementation. Its not required in case the feature is uniform and has no difference from one Storage instance to other.</p>
+<p >You also may find useful deriving the component from <code>AMaskStorageFeature</code> instead of regular <code>AStorageFeature</code> in case you has to prevent performing not permitted transactions between storages via the ref dinv_trasaction_service. Such feature will validate is the transaction passes defined rules that allows to block the order from execution.</p>
+<p >The class derived from <code>AMaskStorageFeature</code> has only one difference from previous pattern: </p><div class="fragment"><div class="line">public class STORAGE_FEATURE : AMaskStorageFeature</div>
+<div class="line">{</div>
+<div class="line">    ... THE SAME MEMBERS MAP ...</div>
+<div class="line"> </div>
+<div class="line">    public override bool OnTrasactionMask(TransactionService.TransactionOrder order)</div>
+<div class="line">    {</div>
+<div class="line">        //  Validate the order and make the conclusion</div>
+<div class="line">        // is it pass the masking rules.</div>
+<div class="line"> </div>
+<div class="line">        // You also may set `message` property that can be used</div>
+<div class="line">        // at a GUI to let the player know the issue with</div>
+<div class="line">        // the transaction.</div>
+<div class="line"> </div>
+<div class="line">        message = &quot;Transaction passed.&quot;;</div>
+<div class="line">        return true;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><h1><a class="anchor" id="dinv-storage-gui"></a>
 GUI</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="dinv-storage-gui-control"></a>
+Storage GUI control</h2>
+<p >The module provides you with <code>StorageGUIElement</code>, a main content inspector suitable for <code>Storage</code> content display. The component receives <code>StoragesDatabase.StorageContainer</code> as <code>content</code> and loads its key properties to configurated GUI layout.</p>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html" title="GUI element controller that bonds StoragesDatabase entry and UI.">Doloro.InvetorySystem.UI.Controls.StorageGUIElement</a> : AContentInspectorGUIElement</li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it.">Doloro.UIEngine2.Controls.AContentInspectorGUIElement</a></li>
+</ul>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv-storage-gui-ext"></a>
+Storage GUI extensions</h2>
+<p >The inspector can be extended with <code>AStorageGUIElementExtension</code> derived components. <br  />
+The class proofs components configuration on target game object that simplifies development comparing to manual implementation of <code>AContentInspectorExtension&lt;StoragesDatabase.StorageContainer&gt;</code> class.</p>
+<p >The extension follows <code>StorageGUIControl</code> events and updates bonded GUI layout elements along with extension internal logic.</p>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension.html" title="Class that implements storage content managing GUI extension.">Doloro.InvetorySystem.UI.Extension.AStorageGUIElementExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html" title="Creates a bond between AContentInspectorGUIElement&lt;T&gt; and inspecting entity&#39;s feature.">Doloro.UIEngine2.Controls.AContentInspectorExtension</a></li>
+</ul>
+<h3><a class="anchor" id="dinv-storage-gui-custom"></a>
+Development</h3>
+<p >To create a custom GUI extension its enough to create a new class derived from <code>AStorageGUIElementExtension</code>. By overriding provided handlers you may follow common <code>StorageGUIControl</code> events and implement feedback on them.</p>
+<p >Following example shows common template of GUI extension class. </p><div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
+<div class="line">using Doloro.InvetorySystem.UI.Controls;</div>
+<div class="line">using Doloro.InvetorySystem.UI.Extension;</div>
+<div class="line"> </div>
+<div class="line">public class CUSTOM_STORAGE_GUI_EXTENSION : AStorageGUIElementExtension</div>
+<div class="line">{</div>
+<div class="line">    protected override void OnStorageNotSelected()</div>
+<div class="line">    {</div>
+<div class="line">            // Handler that calls when inspector content is `null`.</div>
+<div class="line">            // Clear the GUI elements here.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    protected override void OnStorageModified(StoragesDatabase.StorageContainer source)</div>
+<div class="line">    {</div>
+<div class="line">                // Handler that calls when source storage data container data</div>
+<div class="line">                // has been modified.</div>
+<div class="line">                // Load data to GUI elements here.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p >You also may find useful using of <code>AStorageFeatureGUIExtension{FeatureType}</code> class instead of regular <code>AStorageGUIElementExtension</code>. The class bonds certain <code>AStorageFeature</code> with the component and allows to track internal messages and events via pre-implemented handlers.</p>
+<div class="fragment"><div class="line">public class CUSTOM_STORAGE_FEATURE_GUI_EXTENSION :</div>
+<div class="line">    AStorageFeatureGUIExtension&lt;STORAGE_FEATURE_TYPE&gt;</div>
+<div class="line">{</div>
+<div class="line">        ... THE SAME MEMBERS MAP ...</div>
+<div class="line"> </div>
+<div class="line">    protected virtual void OnFeatureModified(STORAGE_FEATURE_TYPE feature)</div>
+<div class="line">    {</div>
+<div class="line">        // Occurs when a bonded feature invoked `AEntityFeature.Modified` event.</div>
+<div class="line">        // Implement GUI update here.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> Where <code>STORAGE_FEATURE_TYPE</code> is type of <code>AStorageFeature</code> derived component over <code>Storage</code> game object that will be tracked. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
