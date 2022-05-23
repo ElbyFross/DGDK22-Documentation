@@ -26,6 +26,6 @@ var class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map =
     [ "tag", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a2c7eb37ee5e24e24a3bd7f009410ffac", null ],
     [ "title", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#ad5089f0c3a25fc7844414740922f7e3c", null ],
     [ "variables", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a08a20ac1ec534aeeb2f351d89bcc4b3e", null ],
-    [ "saved", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a43eacf66040ff970c785dbeb5c14cd44", null ],
+    [ "IsSaved", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a67d5d8b63639d512d26ce55cdeeb5109", null ],
     [ "target", "class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map.html#a076b4070df0921cdbaab426c34315ea7", null ]
 ];

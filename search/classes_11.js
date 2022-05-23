@@ -18,7 +18,7 @@ var searchData=
   ['tagsettings_15',['TagSettings',['../class_doloro_1_1_editor_extension_1_1_project_settings_1_1_tag_settings.html',1,'Doloro::EditorExtension::ProjectSettings']]],
   ['tagsmanagementwindow_16',['TagsManagementWindow',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tags_management_window.html',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool']]],
   ['taguielement_17',['TagUIElement',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_tag_u_i_element.html',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool']]],
-  ['tooltipguicontroller_18',['TooltipGUIController',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_tooltip_g_u_i_controller.html',1,'Doloro::UIEngine2::Modules::Controls']]],
+  ['tooltipguicontroller_18',['TooltipGUIController',['../class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html',1,'Doloro::UIEngine2::Controls']]],
   ['tradingconsoleguielement_19',['TradingConsoleGUIElement',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::Controls']]],
   ['transactionorder_20',['TransactionOrder',['../class_doloro_1_1_invetory_system_1_1_transaction_service_1_1_transaction_order.html',1,'Doloro::InvetorySystem::TransactionService']]],
   ['transactionorderinspector_21',['TransactionOrderInspector',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_transaction_order_inspector.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::Windows']]],

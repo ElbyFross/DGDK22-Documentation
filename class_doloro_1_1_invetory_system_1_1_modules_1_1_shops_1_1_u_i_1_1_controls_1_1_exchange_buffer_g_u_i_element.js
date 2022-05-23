@@ -16,7 +16,7 @@ var class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_
     [ "OnContextMenu", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#a5e0f6b6d5b2ead001ebb0886e894b195", null ],
     [ "OnDestinationContentChanged", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#aac764dac96ee8e48627475324db7f912", null ],
     [ "OnDestinationItemAddHandler", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#ab8be3e4039c1802c6ca07efd27f97d15", null ],
-    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#ad78974ebb9db6eb24148729d2ad4a777", null ],
+    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#a228daeba71b81d7a755879e1b1202816", null ],
     [ "OnDisable", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#aa1b8c13c66d9f23c201f4b815e6f3d8b", null ],
     [ "OnDrag", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#a8b2c70b0fc680ef03ea9a5ac82daf68a", null ],
     [ "OnDragBegin", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html#aa053c61dfcaa2db57323f25d6156cbee", null ],

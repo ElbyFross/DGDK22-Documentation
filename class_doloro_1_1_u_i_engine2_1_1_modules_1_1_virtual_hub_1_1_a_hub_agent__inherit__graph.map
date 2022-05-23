@@ -8,5 +8,5 @@
 <area shape="rect" id="node7" href="$class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_selection_hub_listener.html" title=" " alt="" coords="651,86,851,127"/>
 <area shape="rect" id="node8" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection...." alt="" coords="629,152,872,208"/>
 <area shape="rect" id="node9" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html" title="Connects ExchangeBufferGUIElement to the VirtualUIHub events network." alt="" coords="927,119,1178,161"/>
-<area shape="rect" id="node10" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; AGUIElements." alt="" coords="925,185,1180,255"/>
+<area shape="rect" id="node10" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentInspector&lt;T&gt; AGUIElements." alt="" coords="925,185,1180,255"/>
 </map>

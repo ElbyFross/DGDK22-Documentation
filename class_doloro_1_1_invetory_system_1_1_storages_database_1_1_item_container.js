@@ -25,6 +25,7 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container =
     [ "Count", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a866c17da7a6d305ea07927b691cd51b9", null ],
     [ "features", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#acaa097e485d13d5c010accf52ec3a5d9", null ],
     [ "IsResourceInstantiated", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a1089f9ffea000e66021e8e11818cf913", null ],
+    [ "ItemsHolder", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aba8ce2280887d741c3b4ad6f28e42407", null ],
     [ "Key", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a2b6c42481cae9cc8aa56a0cebe16afae", null ],
     [ "Reserved", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a9dda009982843a1adea8e059f7166bc1", null ],
     [ "Resource", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1", null ],

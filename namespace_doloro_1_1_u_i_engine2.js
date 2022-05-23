@@ -1,5 +1,6 @@
 var namespace_doloro_1_1_u_i_engine2 =
 [
+    [ "Controls", "namespace_doloro_1_1_u_i_engine2_1_1_controls.html", "namespace_doloro_1_1_u_i_engine2_1_1_controls" ],
     [ "DEVTOOLS", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s.html", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s" ],
     [ "Modules", "namespace_doloro_1_1_u_i_engine2_1_1_modules.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules" ],
     [ "AClampedWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider" ],
@@ -12,7 +13,7 @@ var namespace_doloro_1_1_u_i_engine2 =
     [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_constants.html", "class_doloro_1_1_u_i_engine2_1_1_constants" ],
     [ "GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info" ],
     [ "IClampedSizeLayout", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout" ],
-    [ "IContentHolder", "interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_holder" ],
+    [ "IContentInspector", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector" ],
     [ "IFocusableRoot", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root" ],
     [ "IGUIConvertible", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible" ],
     [ "IWindowRuntimeRegisterEntry", "interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html", "interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry" ],

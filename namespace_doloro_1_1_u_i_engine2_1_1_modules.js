@@ -1,7 +1,6 @@
 var namespace_doloro_1_1_u_i_engine2_1_1_modules =
 [
     [ "Context", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context" ],
-    [ "Controls", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls" ],
     [ "ElementsCollection", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection" ],
     [ "Graphs", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs" ],
     [ "Palettes", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes" ],

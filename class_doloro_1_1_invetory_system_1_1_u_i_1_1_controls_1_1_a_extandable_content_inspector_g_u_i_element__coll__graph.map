@@ -1,0 +1,7 @@
+<map id="Doloro.InvetorySystem.UI.Controls.AExtandableContentInspectorGUIElement&lt; ContentType, GUIExtensionType &gt;" name="Doloro.InvetorySystem.UI.Controls.AExtandableContentInspectorGUIElement&lt; ContentType, GUIExtensionType &gt;">
+<area shape="rect" id="node1" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="5,244,311,300"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it." alt="" coords="59,155,257,196"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="19,80,121,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="15,5,125,32"/>
+<area shape="rect" id="node5" href="$interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html" title=" " alt="" coords="145,80,349,107"/>
+</map>

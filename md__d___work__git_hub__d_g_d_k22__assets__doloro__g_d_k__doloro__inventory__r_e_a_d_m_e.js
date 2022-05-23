@@ -20,12 +20,12 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "Resource", "dinv-item.html#dinv-item-r", null ],
       [ "Asset Properties", "dinv-item.html#dinv-item-p", null ],
       [ "Item Features", "dinv-item.html#dinv-item-f", [
-        [ "Custom feature development", "dinv-item.html#dinv-item-f-custom", null ]
+        [ "Development", "dinv-item.html#dinv-item-f-custom", null ]
       ] ],
       [ "GUI", "dinv-item.html#dinv-item-gui", [
         [ "Item GUI control", "dinv-item.html#dinv-item-gui-control", null ],
         [ "Item GUI extensions", "dinv-item.html#dinv-item-gui-ext", [
-          [ "Custom GUI extensions", "dinv-item.html#dinv-item-gui-custom", null ]
+          [ "Development", "dinv-item.html#dinv-item-gui-custom", null ]
         ] ]
       ] ]
     ] ],

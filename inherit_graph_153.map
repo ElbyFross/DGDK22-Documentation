@@ -1,5 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title=" " alt="" coords="5,5,256,61"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html" title="GUI element controller that bonds StoragesDatabase entry and UI." alt="" coords="304,13,493,54"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_shop_g_u_i_element.html" title="UI controller for store related UI. Provides bond between UI elements and TransactionService." alt="" coords="541,13,772,54"/>
+<area shape="rect" id="node1" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html" title=" " alt="" coords="5,5,268,61"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html" title="Extends StorageGUIElement with Features.StorageWeightLimiter GUI features." alt="" coords="316,13,567,54"/>
 </map>

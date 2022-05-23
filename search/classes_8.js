@@ -3,7 +3,7 @@ var searchData=
   ['ibinarydataprovider_0',['IBinaryDataProvider',['../interface_doloro_1_1_data_management_1_1_serialization_1_1_i_binary_data_provider.html',1,'Doloro::DataManagement::Serialization']]],
   ['iclampedsizelayout_1',['IClampedSizeLayout',['../interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html',1,'Doloro::UIEngine2']]],
   ['iclampedsizelayoutapi_2',['IClampedSizeLayoutAPI',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_i_clamped_size_layout_a_p_i.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
-  ['icontentholder_3',['IContentHolder',['../interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html',1,'Doloro::UIEngine2']]],
+  ['icontentinspector_3',['IContentInspector',['../interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html',1,'Doloro::UIEngine2']]],
   ['idesettings_4',['IDESettings',['../class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_i_d_e_settings.html',1,'Doloro::AI::DAIStudio']]],
   ['ifocusableroot_5',['IFocusableRoot',['../interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html',1,'Doloro::UIEngine2']]],
   ['iguiconvertible_6',['IGUIConvertible',['../interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html',1,'Doloro::UIEngine2']]],

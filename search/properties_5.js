@@ -10,5 +10,6 @@ var searchData=
   ['escapenamespace_7',['escapeNamespace',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector.html#a569b18abbf43c6b0e73b51bafc2fd91c',1,'Doloro::AI::DAIInspector::Inspector']]],
   ['executingtype_8',['ExecutingType',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector.html#ac0861aec45b7e7d9145ebf187c626de8',1,'Doloro::AI::DAIInspector::Inspector']]],
   ['expired_9',['expired',['../class_doloro_1_1_invetory_system_1_1_transaction_service_1_1_transaction_order.html#a5674051252883523cae3f44e498d3f2e',1,'Doloro::InvetorySystem::TransactionService::TransactionOrder']]],
-  ['externalresourceloaderscount_10',['ExternalResourceLoadersCount',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html#a79fb99082f9e89e6c22cf17d7d679521',1,'Doloro::DataManagement::AssetBundlesTools::LoaderUtils']]]
+  ['extension_10',['extension',['../class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html#a122618797c9b5da686210ffd8a25112e',1,'Doloro::UIEngine2::Controls::AExtandableInspectorGUIElement']]],
+  ['externalresourceloaderscount_11',['ExternalResourceLoadersCount',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_loader_utils.html#a79fb99082f9e89e6c22cf17d7d679521',1,'Doloro::DataManagement::AssetBundlesTools::LoaderUtils']]]
 ];

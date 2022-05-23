@@ -91,11 +91,11 @@ $(document).ready(function(){initNavTree('dinv-item.html',''); initResizable(); 
 <ul><li class="level1"><a href="#dinv-item-a">About</a></li>
 <li class="level1"><a href="#dinv-item-r">Resource</a></li>
 <li class="level1"><a href="#dinv-item-p">Asset Properties</a></li>
-<li class="level1"><a href="#dinv-item-f">Item Features</a><ul><li class="level2"><a href="#dinv-item-f-custom">Custom feature development</a></li>
+<li class="level1"><a href="#dinv-item-f">Item Features</a><ul><li class="level2"><a href="#dinv-item-f-custom">Development</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#dinv-item-gui">GUI</a><ul><li class="level2"><a href="#dinv-item-gui-control">Item GUI control</a></li>
-<li class="level2"><a href="#dinv-item-gui-ext">Item GUI extensions</a><ul><li class="level3"><a href="#dinv-item-gui-custom">Custom GUI extensions</a></li>
+<li class="level2"><a href="#dinv-item-gui-ext">Item GUI extensions</a><ul><li class="level3"><a href="#dinv-item-gui-custom">Development</a></li>
 </ul>
 </li>
 </ul>
@@ -110,7 +110,7 @@ The objects with implemented component considering as instances of <code>Dynamic
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">Doloro.InvetorySystem.AItemFeature</a></li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a> isntance)</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html" title="Implements conception of the storage entry.">Doloro.InvetorySystem.StoragesDatabase.ItemContainer</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a> resource)</li>
 </ul>
 <hr  />
 <h1><a class="anchor" id="dinv-item-r"></a>
@@ -146,34 +146,142 @@ Item Features</h1>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-item-f-custom"></a>
-Custom feature development</h2>
-<p >To develope</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+Development</h2>
+<p >To develop a new <code>Item</code> feature you need to create a class derived from <code>AItemFeature</code>. Such a class is a <code>Component</code> and has to be added over the destination <code>Item</code> holding game object. Component integration with the item instance will be made automatically, you no need any manual assignation calls.</p>
+<p >Following example demonstrates template of Item feature class implementation. </p><div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
+<div class="line">using Doloro.DataManagement.Serialization;</div>
+<div class="line">using System;</div>
+<div class="line"> </div>
+<div class="line">public class CUSTOM_ITEM_FEATURE : AItemFeature</div>
+<div class="line">{</div>
+<div class="line">    public override string title { get =&gt; _title; set =&gt; _title = value; }</div>
+<div class="line">    string _title = &quot;Feature title&quot;;</div>
+<div class="line"> </div>
+<div class="line">    public override string description { get =&gt; _title; set =&gt; _title = value; }</div>
+<div class="line">    string _description = &quot;Feature description that could be shown as tooltip.&quot;;</div>
+<div class="line"> </div>
+<div class="line">    [UnityEngine.SerializeField]</div>
+<div class="line">    private CrossSessionData _data = new CrossSessionData();</div>
+<div class="line"> </div>
+<div class="line">    private void Start()</div>
+<div class="line">    {</div>
+<div class="line">        // Initializing feature environment objects.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    private void FixedUpdate()</div>
+<div class="line">    {</div>
+<div class="line">        // Updating feature along with physics.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    private void Update()</div>
+<div class="line">    {</div>
+<div class="line">        // Updating feature GUI related data.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    private void OnDestroy()</div>
+<div class="line">    {</div>
+<div class="line">        // Releasing events subscription.</div>
+<div class="line">        // Releasing unmanaged memory.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Converts runtime session data to binary view.</div>
+<div class="line">    public override byte[] SaveSession()</div>
+<div class="line">    {</div>
+<div class="line">        BinarySerializationTool.Serialize(_data, out byte[] output);</div>
+<div class="line">        return output;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Releases feature setting do default state.</div>
+<div class="line">    public override void SetDefault()</div>
+<div class="line">        {</div>
+<div class="line">        // Creating new clear session data.</div>
+<div class="line">        _data = new CrossSessionData();</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line">    // Loading cross session data container from binary to instance.</div>
+<div class="line">    public override void LoadSession(byte[] data)</div>
+<div class="line">    {</div>
+<div class="line">        try</div>
+<div class="line">        {</div>
+<div class="line">            _data = BinarySerializationTool.Deserialize&lt;CrossSessionData&gt;(data);</div>
+<div class="line">        }</div>
+<div class="line">        catch (Exception ex)</div>
+<div class="line">        {</div>
+<div class="line">            UnityEngine.Debug.LogError(</div>
+<div class="line">                &quot;`&quot; + GetType().Name +</div>
+<div class="line">                &quot;` related binary data corrupted and can&#39;t be loaded.\n&quot; +</div>
+<div class="line">                ex.Message + &quot;\n\n&quot;);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line">    // Serializable data container that can be used as personalized</div>
+<div class="line">    // session data of the feature.</div>
+<div class="line">    // The container may be loaded to the feature instance during next call</div>
+<div class="line">    // of the same item from database.</div>
+<div class="line">    [Serializable]</div>
+<div class="line">    private class CrossSessionData</div>
+<div class="line">    {</div>
+<div class="line">        // Default constructor.</div>
+<div class="line">        public CrossSessionData() { }</div>
+<div class="line"> </div>
+<div class="line">                // Add serializable members here</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p >You may access <code>Item</code> instance bond with the feature using the <code>item</code> property.</p>
+<p >Cross-session data is optional and required only for non static features that has difference from one <code>Item</code> instance to other. In case of implementation the feature data will be stored at <code>StoragesDatabase.FeatureContainer</code> related to certain <code>StoragesDatabase.ItemContainer</code> automatically during item save process and be restored a next time the <code>Item</code> resource be instantiated from the same item container.</p>
 <hr  />
 <h1><a class="anchor" id="dinv-item-gui"></a>
 GUI</h1>
 <h2><a class="anchor" id="dinv-item-gui-control"></a>
 Item GUI control</h2>
-<p >The module provides you with a main content inspector <code>ItemGUIElement</code> suitable for <code>Item</code> content display.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<p >The module provides you with <code>ItemGUIElement</code>, a main content inspector suitable for <code>Item</code> content display. The component receives <code>StoragesDatabase.ItemContainer</code> as <code>content</code> and loads its key properties to configurated GUI layout.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html" title="GUI controller for item data display.">Doloro.InvetorySystem.UI.Controls.ItemGUIElement</a> : AContentInspectorGUIElement</li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data.">Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it.">Doloro.UIEngine2.Controls.AContentInspectorGUIElement</a></li>
 </ul>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-item-gui-ext"></a>
 Item GUI extensions</h2>
-<p >The inspector can be extended with <code>AItemFeatureGUIExtension</code> derived components. <br  />
-The class proofs components configuration on target game object that simplifies development comparing to manual implementation of <code>AEntityFeatureGUIExtension&lt;StoragesDatabase.ItemContainer&gt;</code> class.</p>
+<p >The inspector can be extended with <code>AItemGUIElementExtension</code> derived components. <br  />
+The class proofs components configuration on target game object that simplifies development comparing to manual implementation of <code>AContentInspectorExtension&lt;StoragesDatabase.ItemContainer&gt;</code> class.</p>
+<p >The extension follows <code>ItemGUIControl</code> events and updates bonded GUI layout elements along with extension internal logic.</p>
 <p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html" title="GUI extension for ItemGUIElement.">Doloro.InvetorySystem.UI.Extension.AItemFeatureGUIExtension</a></li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html" title="Creates a bond between AContentInspectorGUIElement&lt;T&gt; and inspecting entity&#39;s feature.">Doloro.InvetorySystem.UI.Extension.AEntityFeatureGUIExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension.html" title="GUI extension for ItemGUIElement.">Doloro.InvetorySystem.UI.Extension.AItemGUIElementExtension</a></li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html" title="Creates a bond between AContentInspectorGUIElement&lt;T&gt; and inspecting entity&#39;s feature.">Doloro.UIEngine2.Controls.AContentInspectorExtension</a></li>
 </ul>
 <h3><a class="anchor" id="dinv-item-gui-custom"></a>
-Custom GUI extensions</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
-</div></div><!-- contents -->
+Development</h3>
+<p >To create a custom GUI extension its enough to create a new class derived from <code>AItemGUIElementExtension</code>. By overriding provided handlers you may follow common <code>ItemGUIControl</code> events and implement feedback on them.</p>
+<p >Following example shows common template of GUI extension class. </p><div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
+<div class="line">using Doloro.InvetorySystem.UI.Controls;</div>
+<div class="line">using Doloro.InvetorySystem.UI.Extension;</div>
+<div class="line"> </div>
+<div class="line">public class CUSTOM_ITEM_GUI_EXTENSION : AItemGUIElementExtension</div>
+<div class="line">{</div>
+<div class="line">    protected override void OnItemNotSelected()</div>
+<div class="line">    {</div>
+<div class="line">            // Handler that calls when inspector content is `null`.</div>
+<div class="line">            // Clear the GUI elements here.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    protected override void OnItemModified(StoragesDatabase.ItemContainer source)</div>
+<div class="line">    {</div>
+<div class="line">                // Handler that calls when source item data container data has been modified.</div>
+<div class="line">                // Load data to GUI elements here.</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    protected override void OnItemRelease(StoragesDatabase.ItemContainer toRelease)</div>
+<div class="line">    {</div>
+<div class="line">                // Occurs before new Item apply and allows to release</div>
+<div class="line">                // data bonded with previously used instance.</div>
+<div class="line"> </div>
+<div class="line">                // Release events subscriptions here.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -9,7 +9,7 @@ var searchData=
   ['collections_6',['Collections',['../namespace_doloro_1_1_data_management_1_1_collections.html',1,'Doloro::DataManagement']]],
   ['compare_7',['Compare',['../namespace_doloro_1_1_a_i_1_1_compare.html',1,'Doloro::AI']]],
   ['context_8',['Context',['../namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context.html',1,'Doloro::UIEngine2::Modules']]],
-  ['controls_9',['Controls',['../namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls.html',1,'Doloro.InvetorySystem.Modules.Shops.UI.Controls'],['../namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_controls.html',1,'Doloro.InvetorySystem.UI.Controls'],['../namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls.html',1,'Doloro.UIEngine2.Modules.Controls']]],
+  ['controls_9',['Controls',['../namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls.html',1,'Doloro.InvetorySystem.Modules.Shops.UI.Controls'],['../namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_controls.html',1,'Doloro.InvetorySystem.UI.Controls'],['../namespace_doloro_1_1_u_i_engine2_1_1_controls.html',1,'Doloro.UIEngine2.Controls']]],
   ['core_10',['Core',['../namespace_doloro_1_1_a_i_1_1_core.html',1,'Doloro::AI']]],
   ['daidebugger_11',['DAIDebugger',['../namespace_doloro_1_1_a_i_1_1_d_a_i_debugger.html',1,'Doloro::AI']]],
   ['daiinspector_12',['DAIInspector',['../namespace_doloro_1_1_a_i_1_1_d_a_i_inspector.html',1,'Doloro::AI']]],

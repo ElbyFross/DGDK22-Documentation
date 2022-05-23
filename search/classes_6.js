@@ -24,9 +24,8 @@ var searchData=
   ['guicollectionasstoragesenumerator_21',['GUICollectionAsStoragesEnumerator',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c.html',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollectionDataConnector']]],
   ['guicollectionhubeventrelay_22',['GUICollectionHubEventRelay',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
   ['guicollectionuihublistener_23',['GUICollectionUIHubListener',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
-  ['guielement_24',['GUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Controls']]],
-  ['guielementhighlighter_25',['GUIElementHighlighter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
-  ['guielementruntimeregister_26',['GUIElementRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html',1,'Doloro::UIEngine2::AGUIElement']]],
-  ['guiinfo_27',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]],
-  ['guiloger_28',['GUILoger',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html',1,'Doloro::UIEngine2::DEVTOOLS']]]
+  ['guielementhighlighter_24',['GUIElementHighlighter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
+  ['guielementruntimeregister_25',['GUIElementRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html',1,'Doloro::UIEngine2::AGUIElement']]],
+  ['guiinfo_26',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]],
+  ['guiloger_27',['GUILoger',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html',1,'Doloro::UIEngine2::DEVTOOLS']]]
 ];

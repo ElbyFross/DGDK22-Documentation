@@ -1,7 +1,7 @@
 <map id="Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionUIHubListener" name="Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionUIHubListener">
 <area shape="rect" id="node1" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection...." alt="" coords="451,38,693,94"/>
 <area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html" title="Connects ExchangeBufferGUIElement to the VirtualUIHub events network." alt="" coords="743,5,994,47"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; AGUIElements." alt="" coords="741,71,996,141"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentInspector&lt;T&gt; AGUIElements." alt="" coords="741,71,996,141"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub." alt="" coords="300,53,403,79"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="164,53,252,79"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,53,116,79"/>

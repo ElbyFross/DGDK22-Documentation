@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="5,31,256,87"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html" title="GUI extension for ItemGUIElement." alt="" coords="304,39,547,80"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html" title="Displays AItemFeature applied to the StoragesDatabase.ItemContainer.Resource selected with UI." alt="" coords="596,5,857,47"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html" title="Creates a bridge between database item entry&#39;s weight parameter of items stack and UI." alt="" coords="595,71,859,112"/>
+<area shape="rect" id="node1" href="$class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html" title=" " alt="" coords="5,5,203,61"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_localization_1_1_localized_sprite_content.html" title="Proxy container that provides you with a localized sprite content." alt="" coords="251,13,441,54"/>
 </map>

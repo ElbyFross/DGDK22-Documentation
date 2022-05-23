@@ -9,6 +9,6 @@ var searchData=
   ['collectionmodified_6',['CollectionModified',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html#a7acb513ec99df9f0d254e9976b34bc5a',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollection']]],
   ['completed_7',['Completed',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html#a0944c34d91c8fd376cda1babc04fdb28',1,'Doloro::DataManagement::AssetBundlesTools::AssetBundlesLoader']]],
   ['containermodified_8',['ContainerModified',['../class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_data_container.html#a6265638b35321cbf078e1af63c923ad8',1,'Doloro::InvetorySystem::StoragesDatabase::ADataContainer']]],
-  ['contentchanged_9',['ContentChanged',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a52ce101680b09849aaa22bf4a7771b22',1,'Doloro.InvetorySystem.UI.Controls.AContentInspectorGUIElement.ContentChanged()'],['../interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html#a811c9c0323e7fc35f34b71c4f6f95681',1,'Doloro.UIEngine2.IContentHolder.ContentChanged()']]],
+  ['contentchanged_9',['ContentChanged',['../interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html#a41b3b2ca151bc1743fac69b6128c772b',1,'Doloro::UIEngine2::IContentInspector']]],
   ['contextmenucalled_10',['ContextMenuCalled',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#afd8b7e19914f9eca9e0740901684c61f',1,'Doloro::UIEngine2::AGUIElement']]]
 ];

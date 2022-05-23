@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_u_i_engine2_1_1_modul
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Uniform <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub.html" title="UI Events hub that gathers messages from virtual children and share then to subscribed connectors.">VirtualUIHub</a> shared events listener for IContentHolder&lt;T&gt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>s. </p>
+<div class="textblock"><p >Uniform <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub.html" title="UI Events hub that gathers messages from virtual children and share then to subscribed connectors.">VirtualUIHub</a> shared events listener for IContentInspector&lt;T&gt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>s. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">GUIElementType</td><td>Type of attached <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>. Must has defined IContentHolder&lt;ContentType&gt; interface. </td></tr>
+    <tr><td class="paramname">GUIElementType</td><td>Type of attached <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>. Must has defined IContentInspector&lt;ContentType&gt; interface. </td></tr>
     <tr><td class="paramname">ContentType</td><td>Type of the content that can be shared to attached GUI element. </td></tr>
   </table>
   </dd>
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_u_i_engine2_1_1_modul
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em>GUIElementType</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html">AGUIElement</a></em></td><td>&#160;</td></tr>
-<tr><td valign="top"><em>GUIElementType</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html">IContentHolder</a>&lt;ContentType&gt;</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>GUIElementType</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html">IContentInspector</a>&lt;ContentType&gt;</em></td><td>&#160;</td></tr>
 <tr><td valign="top"><em>ContentType</em></td><td>&#160;:</td><td valign="top"><em>class</em></td><td>&#160;</td></tr>
 </table>
 </dd>
@@ -116,7 +116,7 @@ Inheritance diagram for Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsC
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_7fe3a798e4038818c5f0f7078f3e4a80.png" border="0" usemap="#a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_inherit__map" id="a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_inherit__map">
-<area shape="rect" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; AGUIElements." alt="" coords="5,304,260,375"/>
+<area shape="rect" title="Uniform VirtualUIHub shared events listener for IContentInspector&lt;T&gt; AGUIElements." alt="" coords="5,304,260,375"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection...." alt="" coords="41,229,224,256"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub." alt="" coords="81,155,184,181"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="89,80,177,107"/>
@@ -128,7 +128,7 @@ Collaboration diagram for Doloro.UIEngine2.Modules.VirtualHub.Extensions.Element
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_ad5dad3d169cdea27d18a83a2c5cd832.png" border="0" usemap="#a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_coll__map" id="a_doloro_8_u_i_engine2_8_modules_8_virtual_hub_8_extensions_8_elements_collection_8_a_content_holder_u_i_hub_listener_3_01_g_u_i_element_type_00_01_content_type_01_4_coll__map">
-<area shape="rect" title="Uniform VirtualUIHub shared events listener for IContentHolder&lt;T&gt; AGUIElements." alt="" coords="5,304,260,375"/>
+<area shape="rect" title="Uniform VirtualUIHub shared events listener for IContentInspector&lt;T&gt; AGUIElements." alt="" coords="5,304,260,375"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection...." alt="" coords="41,229,224,256"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub." alt="" coords="81,155,184,181"/>
 <area shape="rect" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="89,80,177,107"/>
@@ -247,7 +247,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()<
 Properties</h2></td></tr>
 <tr class="memitem:a79efdf3e724a2aa0785bafd88ed02207"><td class="memItemLeft" align="right" valign="top"><a id="a79efdf3e724a2aa0785bafd88ed02207" name="a79efdf3e724a2aa0785bafd88ed02207"></a>
 GUIElementType&#160;</td><td class="memItemRight" valign="bottom"><b>ContentHolder</b><code> [get]</code></td></tr>
-<tr class="memdesc:a79efdf3e724a2aa0785bafd88ed02207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connected IContentHolder&lt;T&gt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>. <br /></td></tr>
+<tr class="memdesc:a79efdf3e724a2aa0785bafd88ed02207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connected IContentInspector&lt;T&gt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">AGUIElement</a>. <br /></td></tr>
 <tr class="separator:a79efdf3e724a2aa0785bafd88ed02207"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10bc3fd101f8600fd8a4621b7afea85f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html#a10bc3fd101f8600fd8a4621b7afea85f">DropHandlerWithHub</a> = true<code> [get, set]</code></td></tr>
 <tr class="memdesc:a10bc3fd101f8600fd8a4621b7afea85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>true</code> then will drops all subscriptions on events related to the <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html#a506e1bbf7dc1c17177be31149d9ffd26" title="Reference to parental hub.">AHubAgent.hub</a> as soon as its value changed.  <a href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html#a10bc3fd101f8600fd8a4621b7afea85f">More...</a><br /></td></tr>

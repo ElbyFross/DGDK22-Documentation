@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a12276b7313fcb1c9f86d000b11a3c421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling by binary serializer to get object's data.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a12276b7313fcb1c9f86d000b11a3c421">More...</a><br /></td></tr>
 <tr class="separator:a12276b7313fcb1c9f86d000b11a3c421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ca938e24dce13b1b52d8c4566314bfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a7ca938e24dce13b1b52d8c4566314bfa">TryCreateStorage</a> (Guid forcedId, params <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a>[] items)</td></tr>
-<tr class="memdesc:a7ca938e24dce13b1b52d8c4566314bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new storage entry in the database with predefined <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6" title="Unique id provided to the storage.">StorageContainer.id</a>.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a7ca938e24dce13b1b52d8c4566314bfa">More...</a><br /></td></tr>
+<tr class="memdesc:a7ca938e24dce13b1b52d8c4566314bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new storage entry in the database with predefined StorageContainer.id.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a7ca938e24dce13b1b52d8c4566314bfa">More...</a><br /></td></tr>
 <tr class="separator:a7ca938e24dce13b1b52d8c4566314bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a9deaf41e89ae6673b0a980485b6f34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a9a9deaf41e89ae6673b0a980485b6f34">TryCreateStorage</a> (Guid forcedId, ICollection&lt; <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a> &gt; items)</td></tr>
-<tr class="memdesc:a9a9deaf41e89ae6673b0a980485b6f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new storage entry in the database with predefined <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6" title="Unique id provided to the storage.">StorageContainer.id</a>.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a9a9deaf41e89ae6673b0a980485b6f34">More...</a><br /></td></tr>
+<tr class="memdesc:a9a9deaf41e89ae6673b0a980485b6f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new storage entry in the database with predefined StorageContainer.id.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a9a9deaf41e89ae6673b0a980485b6f34">More...</a><br /></td></tr>
 <tr class="separator:a9a9deaf41e89ae6673b0a980485b6f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14c8d38e987f4dbf2ff17f4a59f77a6a"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a14c8d38e987f4dbf2ff17f4a59f77a6a">CreateStorage</a> (params <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a>[] items)</td></tr>
 <tr class="memdesc:a14c8d38e987f4dbf2ff17f4a59f77a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new storage entry in the database.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a14c8d38e987f4dbf2ff17f4a59f77a6a">More...</a><br /></td></tr>
@@ -229,7 +229,7 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
 <p>Checks is the storage registered at the database. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">id</td><td><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6" title="Unique id provided to the storage.">StorageContainer.id</a> to search.</td></tr>
+    <tr><td class="paramname">id</td><td>StorageContainer.id to search.</td></tr>
   </table>
   </dd>
 </dl>
@@ -380,7 +380,7 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
       </table>
 </div><div class="memdoc">
 
-<p>Creates new storage entry in the database with predefined <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6" title="Unique id provided to the storage.">StorageContainer.id</a>. </p>
+<p>Creates new storage entry in the database with predefined StorageContainer.id. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">forcedId</td><td>Id of new storage.</td></tr>
@@ -418,7 +418,7 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
       </table>
 </div><div class="memdoc">
 
-<p>Creates new storage entry in the database with predefined <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a8709f4dc27ce79f6ae993a98b6c5fce6" title="Unique id provided to the storage.">StorageContainer.id</a>. </p>
+<p>Creates new storage entry in the database with predefined StorageContainer.id. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">forcedId</td><td>Id of new storage.</td></tr>

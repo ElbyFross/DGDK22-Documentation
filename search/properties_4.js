@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data_0',['data',['../class_doloro_1_1_invetory_system_1_1_storages_database_1_1_feature_container.html#a3c6092807e60bfa8dfed67d1ba59a7ff',1,'Doloro::InvetorySystem::StoragesDatabase::FeatureContainer']]],
-  ['data_1',['Data',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map_1_1_binary_property_container.html#ada71fcb0f07bb9960d479ffc8d047ae9',1,'Doloro::AI::Core::PipelineMap::BinaryPropertyContainer']]],
+  ['data_0',['Data',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_map_1_1_binary_property_container.html#ada71fcb0f07bb9960d479ffc8d047ae9',1,'Doloro::AI::Core::PipelineMap::BinaryPropertyContainer']]],
+  ['data_1',['data',['../class_doloro_1_1_invetory_system_1_1_storages_database_1_1_feature_container.html#a3c6092807e60bfa8dfed67d1ba59a7ff',1,'Doloro::InvetorySystem::StoragesDatabase::FeatureContainer']]],
   ['database_2',['Database',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html#a289b1824577e1634eeba5d758b2b6847',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool::EditableTagsCollectionUIElement']]],
   ['dataconenctor_3',['DataConenctor',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay.html#aafe3c6a7da690d41fad61693fbd05ae2',1,'Doloro::InvetorySystem::UI::VirtualHub::StoragesSelectionEventRelay']]],
   ['dataconnector_4',['DataConnector',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html#ac8079e8eadf620c1d3fa56188cfa07ea',1,'Doloro::InvetorySystem::UI::Extension::ItemFeaturesListGUIExtension']]],

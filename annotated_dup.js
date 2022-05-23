@@ -454,7 +454,6 @@ var annotated_dup =
             [ "GridSpace", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space" ],
             [ "StorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume" ],
             [ "StorageVolumeVisualizer", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer" ],
-            [ "StretchableStorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_stretchable_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_stretchable_storage_volume" ],
             [ "Volume", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume" ],
             [ "VolumeSplitOrder", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume_split_order" ]
           ] ],
@@ -492,7 +491,6 @@ var annotated_dup =
         ] ],
         [ "UI", "namespace_doloro_1_1_invetory_system_1_1_u_i.html", [
           [ "Controls", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_controls.html", [
-            [ "AContentInspectorGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_a_content_inspector_g_u_i_element" ],
             [ "ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element" ],
             [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element" ],
             [ "StorageGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element" ]
@@ -502,10 +500,9 @@ var annotated_dup =
             [ "StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector" ]
           ] ],
           [ "Extension", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_extension.html", [
-            [ "AEntityFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_entity_feature_g_u_i_extension" ],
-            [ "AItemFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_feature_g_u_i_extension" ],
-            [ "AStorageContentGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_content_g_u_i_extension" ],
+            [ "AItemGUIElementExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_item_g_u_i_element_extension" ],
             [ "AStorageFeatureGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_feature_g_u_i_extension" ],
+            [ "AStorageGUIElementExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension" ],
             [ "ItemFeaturesListGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_features_list_g_u_i_extension" ],
             [ "ItemStackWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension" ],
             [ "StorageContentExplorerGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension" ],
@@ -566,6 +563,15 @@ var annotated_dup =
         ] ]
       ] ],
       [ "UIEngine2", "namespace_doloro_1_1_u_i_engine2.html", [
+        [ "Controls", "namespace_doloro_1_1_u_i_engine2_1_1_controls.html", [
+          [ "AContentInspectorExtension", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension" ],
+          [ "AContentInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element" ],
+          [ "AExtandableInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element" ],
+          [ "EmptyGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_empty_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_empty_g_u_i_element" ],
+          [ "MeasuredSliderGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element" ],
+          [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element" ],
+          [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller" ]
+        ] ],
         [ "DEVTOOLS", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s.html", [
           [ "DependenciesLoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger" ],
           [ "ElementsCollectionTester", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester" ],
@@ -587,12 +593,6 @@ var annotated_dup =
             [ "ContextMenu", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu" ],
             [ "ContextMenuItem", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item" ],
             [ "ContextMenuItemInfo", "struct_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item_info.html", "struct_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu_item_info" ]
-          ] ],
-          [ "Controls", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls.html", [
-            [ "GUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_g_u_i_element" ],
-            [ "MeasuredSliderGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_measured_slider_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_measured_slider_g_u_i_element" ],
-            [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_measured_slider_label_g_u_i_element" ],
-            [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_controls_1_1_tooltip_g_u_i_controller" ]
           ] ],
           [ "ElementsCollection", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection.html", [
             [ "AGUIElementsCollection", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection" ],
@@ -661,7 +661,7 @@ var annotated_dup =
         [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_constants.html", "class_doloro_1_1_u_i_engine2_1_1_constants" ],
         [ "GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info" ],
         [ "IClampedSizeLayout", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout" ],
-        [ "IContentHolder", "interface_doloro_1_1_u_i_engine2_1_1_i_content_holder.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_holder" ],
+        [ "IContentInspector", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector" ],
         [ "IFocusableRoot", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root" ],
         [ "IGUIConvertible", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible" ],
         [ "IWindowRuntimeRegisterEntry", "interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html", "interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry" ],

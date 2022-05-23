@@ -1,0 +1,5 @@
+<map id="Doloro.UIEngine2.IContentInspector&lt; ContentType &gt;" name="Doloro.UIEngine2.IContentInspector&lt; ContentType &gt;">
+<area shape="rect" id="node1" title="Object that implement the interface should be operator of some external content of supportive type." alt="" coords="5,13,180,54"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it." alt="" coords="228,5,427,61"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data." alt="" coords="475,5,709,61"/>
+</map>
