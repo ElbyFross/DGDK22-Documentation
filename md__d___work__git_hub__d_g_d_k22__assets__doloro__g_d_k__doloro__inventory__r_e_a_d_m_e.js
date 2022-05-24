@@ -54,8 +54,12 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
         [ "ECS", "dinv-storages-database.html#dinv-storages-database-ecs", null ]
       ] ],
       [ "How to ...", "dinv-storages-database.html#dinv-storages-database-ht", [
-        [ "How to rent entity", "dinv-storages-database.html#dinv-storages-database-ht-rent", null ],
-        [ "How to release entity", "dinv-storages-database.html#dinv-storages-database-ht-release", null ]
+        [ "Create a clear database", "dinv-storages-database.html#dinv-storages-database-ht-clear", null ],
+        [ "Create database entry", "dinv-storages-database.html#dinv-storages-database-ht-create", null ],
+        [ "Delete database entry", "dinv-storages-database.html#dinv-storages-database-ht-delete", null ],
+        [ "Rent Storage entity", "dinv-storages-database.html#dinv-storages-database-ht-rent", null ],
+        [ "Release Storage entity", "dinv-storages-database.html#dinv-storages-database-ht-release", null ],
+        [ "Auto load storages on-scene", "dinv-storages-database.html#dinv-storages-database-ht-auto", null ]
       ] ]
     ] ],
     [ "Storages Service", "dinv_storages_service.html", [

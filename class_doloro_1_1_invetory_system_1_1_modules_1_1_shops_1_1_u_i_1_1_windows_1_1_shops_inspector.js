@@ -63,7 +63,7 @@ var class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1
     [ "Repaint", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a027d365c57fdef7de7ebc156f6ed162e", null ],
     [ "RescanForParent", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a967577ae3857b55136bbc973b31b3b5c", null ],
     [ "Start", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#ab9e5b99c73722646941c36754c4f0b9a", null ],
-    [ "TryToAdd", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#aad9f37dbbd6c758ceded6bb624504542", null ],
+    [ "TryToAdd", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a4ae52b354b81858a8a5ba26c2368c956", null ],
     [ "Unfocus", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a7289c8b975cfd8e93d85ed4438eb36e8", null ],
     [ "UpdateLayout", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a05a16cc7e93674677a9deddfb77c4e3c", null ],
     [ "Validator", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#aaf1235c9d47043fc7390e6e7c3f50b27", null ],

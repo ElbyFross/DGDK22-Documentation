@@ -1,8 +1,8 @@
 <map id="Doloro.InvetorySystem.StoragesDatabase.StorageContainer" name="Doloro.InvetorySystem.StoragesDatabase.StorageContainer">
-<area shape="rect" id="node1" title="Container that using as data entry for the StoragesDatabase." alt="" coords="305,123,513,164"/>
+<area shape="rect" id="node1" title="Container that using as data entry for the StoragesDatabase." alt="" coords="305,115,513,156"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html" title=" " alt="" coords="5,5,257,47"/>
 <area shape="rect" id="node3" title=" " alt="" coords="32,71,231,98"/>
-<area shape="rect" id="node4" title=" " alt="" coords="33,123,230,164"/>
-<area shape="rect" id="node5" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="71,189,191,215"/>
-<area shape="rect" id="node6" title=" " alt="" coords="85,239,177,266"/>
+<area shape="rect" id="node4" href="$interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html" title="Declares sign members for the resource&#45;like type." alt="" coords="71,122,191,149"/>
+<area shape="rect" id="node5" title=" " alt="" coords="85,173,177,199"/>
+<area shape="rect" id="node6" title=" " alt="" coords="87,223,176,250"/>
 </map>

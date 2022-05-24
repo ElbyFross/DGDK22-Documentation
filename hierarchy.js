@@ -503,7 +503,10 @@ var hierarchy =
       [ "Doloro.DataManagement.Tables.DataCluster", "class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html", null ],
       [ "Doloro.DataManagement.Tables.Solution", "class_doloro_1_1_data_management_1_1_tables_1_1_solution.html", null ],
       [ "Doloro.DataManagement.Tables.Spreadsheet", "class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html", null ],
-      [ "Doloro.DataManagement.Tables.Table", "class_doloro_1_1_data_management_1_1_tables_1_1_table.html", null ]
+      [ "Doloro.DataManagement.Tables.Table", "class_doloro_1_1_data_management_1_1_tables_1_1_table.html", null ],
+      [ "Doloro.InvetorySystem.Storage", "class_doloro_1_1_invetory_system_1_1_storage.html", null ],
+      [ "Doloro.InvetorySystem.StoragesDatabase.ItemContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html", null ],
+      [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
     ] ],
     [ "IEnumerable", null, [
       [ "Doloro.AI.Core.Memory", "class_doloro_1_1_a_i_1_1_core_1_1_memory.html", null ],
@@ -519,7 +522,6 @@ var hierarchy =
       ] ],
       [ "Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html", null ],
       [ "Doloro.InvetorySystem.StoragesDatabase.AFeaturesHolderContainer< FeatureType, ContainerType >", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html", null ],
-      [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ],
       [ "Doloro.InvetorySystem.StoragesDatabase.StorageContainer", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html", null ]
     ] ],
     [ "IEnumerator", null, [

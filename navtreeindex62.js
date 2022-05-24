@@ -1,5 +1,15 @@
 var NAVTREEINDEX62 =
 {
+"ddm-aps.html":[10,3],
+"ddm-aps.html#ddm-aps-a":[10,3,0],
+"ddm-collections.html":[10,4],
+"ddm-collections.html#ddm-collections-about":[10,4,0],
+"ddm-collections.html#ddm-collections-pq":[10,4,1],
+"ddm-drt-api-drd.html":[10,5,2],
+"ddm-drt-api-drd.html#ddm-drt-api-drd-a":[10,5,2,0],
+"ddm-drt-api-drd.html#ddm-drt-api-drd-stp":[10,5,2,1],
+"ddm-drt-api-drd.html#ddm-drt-api-drd-stp-abt":[10,5,2,1,1],
+"ddm-drt-api-drd.html#ddm-drt-api-drd-stp-m":[10,5,2,1,0],
 "ddm-drt-api-drd.html#ddm-drt-api-drd-using":[10,5,2,2],
 "ddm-drt-api-rm.html":[10,5,3],
 "ddm-drt-api-rm.html#ddm-drt-api-drm-a":[10,5,3,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX62 =
 "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-a":[14,9,0],
 "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-hdw":[14,9,1],
 "dinv-storage.html":[14,3],
-"dinv-storage.html#dinv-storage-a":[14,3,0],
-"dinv-storage.html#dinv-storage-gui":[14,3,3],
-"dinv-storage.html#dinv-storage-gui-control":[14,3,3,0],
-"dinv-storage.html#dinv-storage-gui-custom":[14,3,3,1,0],
-"dinv-storage.html#dinv-storage-gui-ext":[14,3,3,1],
-"dinv-storage.html#dinv-storage-p":[14,3,2],
-"dinv-storage.html#dinv-storage-p-box":[14,3,2,0],
-"dinv-storage.html#dinv-storage-p-dev":[14,3,2,1],
-"dinv-storage.html#dinv-storage-r":[14,3,1],
-"dinv-storages-database.html":[14,4],
-"dinv-storages-database.html#dinv-storages-database-a":[14,4,0]
+"dinv-storage.html#dinv-storage-a":[14,3,0]
 };

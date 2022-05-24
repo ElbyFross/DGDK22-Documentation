@@ -8,6 +8,7 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container =
     [ "ContainsFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aa00b3ae5642f5b9e4e3978d40925da2e", null ],
     [ "ContainsFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#add9f4adbb34c1992c23c5b7eff4163ac", null ],
     [ "ContainsFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aa7bfd172dd98458011c52d19cd80236e", null ],
+    [ "Dispose", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a5b094314d0394fe8acac799985e63bed", null ],
     [ "DropFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aa7f65cad36483eb663fb247652f98875", null ],
     [ "DropFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a22b80b1670d65aa8f6eac225d470a392", null ],
     [ "GetHashCode", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#ac7246d469463800cade078b7dfc57cff", null ],
