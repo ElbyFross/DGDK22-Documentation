@@ -97,14 +97,6 @@ $(document).ready(function(){initNavTree('dinv-storages-database.html',''); init
 <li class="level1"><a href="#dinv-storages-database-api">API</a><ul><li class="level2"><a href="#dinv-storages-database-ecs">ECS</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dinv-storages-database-ht">How to ...</a><ul><li class="level2"><a href="#dinv-storages-database-ht-clear">Create a clear database</a></li>
-<li class="level2"><a href="#dinv-storages-database-ht-create">Create database entry</a></li>
-<li class="level2"><a href="#dinv-storages-database-ht-delete">Delete database entry</a></li>
-<li class="level2"><a href="#dinv-storages-database-ht-rent">Rent Storage entity</a></li>
-<li class="level2"><a href="#dinv-storages-database-ht-release">Release Storage entity</a></li>
-<li class="level2"><a href="#dinv-storages-database-ht-auto">Auto load storages on-scene</a></li>
-</ul>
-</li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-storages-database-a"></a>
@@ -173,88 +165,7 @@ Any other time its content will be stored inside the <code>StoragesDatabase</cod
 <p ><b>Remarks</b> <br  />
 The service always holds at least one entity of ones loaded <code>Storage</code> resource on the scene even if its content has been released from renting. <br  />
 That made to prevent unnecessary often instantiations during each call. <br  />
-In case if you trying to rent entity but the singleton entity already rented the system will create temporary entity that will be destroyed immediately as soon as released.</p>
-<hr  />
-<h1><a class="anchor" id="dinv-storages-database-ht"></a>
-How to ...</h1>
-<h2><a class="anchor" id="dinv-storages-database-ht-clear"></a>
-Create a clear database</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dinv-storages-database-ht-create"></a>
-Create database entry</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dinv-storages-database-ht-delete"></a>
-Delete database entry</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dinv-storages-database-ht-rent"></a>
-Rent Storage entity</h2>
-<p >There is several ways to rent an entity but the traditional one is to ask for entity with the <code>Storage.id</code> provided by the <code>StoragesDatabase</code> during storage registration.</p>
-<div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
-</div><!-- fragment --><p> Renting by storage ID: </p><div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">var storageEntity = StoragesService.RentStorageEntity(storageId);</div>
-</div><!-- fragment --><p> Renting by database entry: </p><div class="fragment"><div class="line">// Getting target container.</div>
-<div class="line">StoragesDatabase.StorageContainer data = ...</div>
-<div class="line"> </div>
-<div class="line">var storageEntity = StoragesService.RentStorageEntity(data);</div>
-<div class="line">// OR literally the same</div>
-<div class="line">var storageEntity = data.RentStorageEntity();</div>
-</div><!-- fragment --><p >Both the <code>Storage</code> is disposable object so you may access it with <code>using</code> keyword. </p><div class="fragment"><div class="line">using (StoragesService.RentStorageEntity(STORAGE_ID))</div>
-<div class="line">{</div>
-<div class="line">    // Do something with the storage.</div>
-<div class="line">}</div>
-<div class="line">// Rented entity has been automatically released</div>
-<div class="line">// along with entire loaded resources.</div>
-<div class="line">// Changes will be automatically saved to the database.</div>
-</div><!-- fragment --><p ><br  />
-</p>
-<h2><a class="anchor" id="dinv-storages-database-ht-release"></a>
-Release Storage entity</h2>
-<p >When you are done with entity access and it's not required anymore you have to release it with the same source as it was rented.</p>
-<div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
-</div><!-- fragment --><p> Release by ID: </p><div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
-<div class="line">StoragesService.ReleaseRentedEntity(storageId);</div>
-</div><!-- fragment --><p> Release by on-scene entity: </p><div class="fragment"><div class="line">// Getting rented entity reference</div>
-<div class="line">Storage rentedEntity = ...</div>
-<div class="line"> </div>
-<div class="line">StoragesService.ReleaseRentedEntity(rentedEntity);</div>
-<div class="line">// OR literally the same</div>
-<div class="line">rentedEntity.ReleaseRentedEntity();</div>
-</div><!-- fragment --><p> Release by data sources: </p><div class="fragment"><div class="line">// Getting target container.</div>
-<div class="line">StoragesDatabase.StorageContainer data = ...</div>
-<div class="line"> </div>
-<div class="line">StoragesService.ReleaseRentedEntity(data);</div>
-<div class="line">// OR literally the same</div>
-<div class="line">data.ReleaseRentedEntity();</div>
-</div><!-- fragment --><p >Both the <code>Storage</code> and <code>StorageContainer</code> is disposable objects so you may access them with <code>using</code> keyword. </p><div class="fragment"><div class="line">using (StoragesService.RentStorageEntity(STORAGE_ID))</div>
-<div class="line">{</div>
-<div class="line">    // Do something with the storage.</div>
-<div class="line">}</div>
-<div class="line">// Rented entity has been automatically released</div>
-<div class="line">// along with entire loaded resources.</div>
-<div class="line">// Changes will be automatically saved to the database.</div>
-</div><!-- fragment --><p> You also may access directly a database entry without loading related <code>Storage</code> resource entity with it. </p><div class="fragment"><div class="line">using (var storage = StoragesDatabase.Active[STORAGE_ID])</div>
-<div class="line">{</div>
-<div class="line">    // Doing something with items.</div>
-<div class="line"> </div>
-<div class="line">    // Getting an item by its signature.</div>
-<div class="line">    StoragesDatabase.ItemContainer itemData = storage.Find(BUNDLE, KEY);</div>
-<div class="line"> </div>
-<div class="line">    // Calling item entity if needed.</div>
-<div class="line">    // It will be disposed along with the storage container</div>
-<div class="line">    // automatically.</div>
-<div class="line">    var entity = itemData.Resource;</div>
-<div class="line"> </div>
-<div class="line">    // Doing something with the `Item` instance bond with the container.</div>
-<div class="line"> </div>
-<div class="line">    // Applying container changes.</div>
-<div class="line">    // Comparing to use of `Storage` in this case it must be</div>
-<div class="line">    // called manually.</div>
-<div class="line">    itemData.SaveSessionData();</div>
-<div class="line">}</div>
-<div class="line">// Entire called entity resource has been released automatically.</div>
-</div><!-- fragment --><h2><a class="anchor" id="dinv-storages-database-ht-auto"></a>
-Auto load storages on-scene</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+In case if you trying to rent entity but the singleton entity already rented the system will create temporary entity that will be destroyed immediately as soon as released. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

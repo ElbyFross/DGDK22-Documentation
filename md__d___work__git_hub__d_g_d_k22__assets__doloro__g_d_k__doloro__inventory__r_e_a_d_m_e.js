@@ -15,6 +15,22 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "Sub-modules", "dinv-gs.html#dinv-gs-modules", null ],
       [ "Demos", "dinv-gs.html#dinv-gs-demos", null ]
     ] ],
+    [ "How to ...", "dinv-ht.html", [
+      [ "About", "dinv-ht.html#dinv-ht-a", null ],
+      [ "Storages Database", "dinv-ht.html#dinv-ht-db", [
+        [ "Access database", "dinv-ht.html#dinv-ht-db-access", null ],
+        [ "Create a clear database", "dinv-ht.html#dinv-ht-db-clear", null ],
+        [ "Create database entry", "dinv-ht.html#dinv-ht-db-create", null ],
+        [ "Delete database entry", "dinv-ht.html#dinv-ht-db-delete", null ],
+        [ "Save database", "dinv-ht.html#dinv-ht-db-save", null ]
+      ] ],
+      [ "Storages Service", "dinv-ht.html#dinv-ht-strserv", [
+        [ "Rent Storage entity", "dinv-ht.html#dinv-ht-strserv-rent", null ],
+        [ "Release Storage entity", "dinv-ht.html#dinv-ht-strserv-release", null ],
+        [ "Auto load storages on-scene", "dinv-ht.html#dinv-ht-strserv-auto", null ]
+      ] ],
+      [ "Transaction Service", "dinv-ht.html#dinv-ht-transserv", null ]
+    ] ],
     [ "Item", "dinv-item.html", [
       [ "About", "dinv-item.html#dinv-item-a", null ],
       [ "Resource", "dinv-item.html#dinv-item-r", null ],
@@ -52,14 +68,6 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       ] ],
       [ "API", "dinv-storages-database.html#dinv-storages-database-api", [
         [ "ECS", "dinv-storages-database.html#dinv-storages-database-ecs", null ]
-      ] ],
-      [ "How to ...", "dinv-storages-database.html#dinv-storages-database-ht", [
-        [ "Create a clear database", "dinv-storages-database.html#dinv-storages-database-ht-clear", null ],
-        [ "Create database entry", "dinv-storages-database.html#dinv-storages-database-ht-create", null ],
-        [ "Delete database entry", "dinv-storages-database.html#dinv-storages-database-ht-delete", null ],
-        [ "Rent Storage entity", "dinv-storages-database.html#dinv-storages-database-ht-rent", null ],
-        [ "Release Storage entity", "dinv-storages-database.html#dinv-storages-database-ht-release", null ],
-        [ "Auto load storages on-scene", "dinv-storages-database.html#dinv-storages-database-ht-auto", null ]
       ] ]
     ] ],
     [ "Storages Service", "dinv_storages_service.html", [

@@ -4,6 +4,7 @@ var class_doloro_1_1_invetory_system_1_1_storage =
     [ "Dispose", "class_doloro_1_1_invetory_system_1_1_storage.html#a6ac41fc9fcb6676539270e852a8db08a", null ],
     [ "LoadFeatureState", "class_doloro_1_1_invetory_system_1_1_storage.html#a6f936fb7570785b805aa86172c1ed98b", null ],
     [ "OnDestory", "class_doloro_1_1_invetory_system_1_1_storage.html#abde26439f9c200cf7f45bf929caf2159", null ],
+    [ "OnDestroy", "class_doloro_1_1_invetory_system_1_1_storage.html#a7062ecdb19451fdaa60c63905e294a15", null ],
     [ "OnRentOver", "class_doloro_1_1_invetory_system_1_1_storage.html#a081b5017efe8dee8186e34e3ad518f6a", null ],
     [ "OnRentStarted", "class_doloro_1_1_invetory_system_1_1_storage.html#a8b7c82583f4bead15993cb8616f8ac42", null ],
     [ "SaveFeatureState", "class_doloro_1_1_invetory_system_1_1_storage.html#aedf37d546153dbdaa3767dbf19822fdc", null ],

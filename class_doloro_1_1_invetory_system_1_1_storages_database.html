@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_invetory_system_1_1_s
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_doloro_1_1_invetory_system_1_1_storages_database-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Doloro.InvetorySystem.StoragesDatabase Class Reference</div></div>
 </div><!--header-->
@@ -132,6 +133,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a5486ad7f7ed4c2ca2b954f715e5d44be"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a5486ad7f7ed4c2ca2b954f715e5d44be">StorageDelgate</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html">StoragesDatabase</a> database, <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html">StorageContainer</a> storage)</td></tr>
+<tr class="memdesc:a5486ad7f7ed4c2ca2b954f715e5d44be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate using for storage related events.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a5486ad7f7ed4c2ca2b954f715e5d44be">More...</a><br /></td></tr>
+<tr class="separator:a5486ad7f7ed4c2ca2b954f715e5d44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fc8205401bcb128e96381de2559e2fc"><td class="memItemLeft" align="right" valign="top"><a id="a8fc8205401bcb128e96381de2559e2fc" name="a8fc8205401bcb128e96381de2559e2fc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>StoragesDatabase</b> ()</td></tr>
 <tr class="memdesc:a8fc8205401bcb128e96381de2559e2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty constructor. <br /></td></tr>
@@ -157,6 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a44a1ec5b8d54513379e0a436f8b58fd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a44a1ec5b8d54513379e0a436f8b58fd4">DestroyStorage</a> (Guid id)</td></tr>
 <tr class="memdesc:a44a1ec5b8d54513379e0a436f8b58fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safely destroys entire instances related to the storage.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a44a1ec5b8d54513379e0a436f8b58fd4">More...</a><br /></td></tr>
 <tr class="separator:a44a1ec5b8d54513379e0a436f8b58fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99086d2083dbc04f39ffac1553303c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#ab99086d2083dbc04f39ffac1553303c7">Clear</a> ()</td></tr>
+<tr class="memdesc:ab99086d2083dbc04f39ffac1553303c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases entire entries from the database.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#ab99086d2083dbc04f39ffac1553303c7">More...</a><br /></td></tr>
+<tr class="separator:ab99086d2083dbc04f39ffac1553303c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfa905e01591b7a1d60760b205b59a97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#adfa905e01591b7a1d60760b205b59a97">ContainsStorage</a> (Guid id)</td></tr>
 <tr class="memdesc:adfa905e01591b7a1d60760b205b59a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks is the storage registered at the database.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#adfa905e01591b7a1d60760b205b59a97">More...</a><br /></td></tr>
 <tr class="separator:adfa905e01591b7a1d60760b205b59a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +177,17 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
 <tr class="memitem:ad3224a6afe97d49cc7215f23e9143395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html">StorageContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#ad3224a6afe97d49cc7215f23e9143395">this[Guid id]</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad3224a6afe97d49cc7215f23e9143395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the storage by id.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database.html#ad3224a6afe97d49cc7215f23e9143395">More...</a><br /></td></tr>
 <tr class="separator:ad3224a6afe97d49cc7215f23e9143395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a36d1fbdd0a0350e57e63dd9c47c98c1f"><td class="memItemLeft" align="right" valign="top"><a id="a36d1fbdd0a0350e57e63dd9c47c98c1f" name="a36d1fbdd0a0350e57e63dd9c47c98c1f"></a>
+static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a5486ad7f7ed4c2ca2b954f715e5d44be">StorageDelgate</a>&#160;</td><td class="memItemRight" valign="bottom"><b>StorageCreated</b></td></tr>
+<tr class="memdesc:a36d1fbdd0a0350e57e63dd9c47c98c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when a new storage has been created at the database. <br /></td></tr>
+<tr class="separator:a36d1fbdd0a0350e57e63dd9c47c98c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29c1eebc8ef7fe0530b8cf78cf506477"><td class="memItemLeft" align="right" valign="top"><a id="a29c1eebc8ef7fe0530b8cf78cf506477" name="a29c1eebc8ef7fe0530b8cf78cf506477"></a>
+static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html#a5486ad7f7ed4c2ca2b954f715e5d44be">StorageDelgate</a>&#160;</td><td class="memItemRight" valign="bottom"><b>StorageDeleted</b></td></tr>
+<tr class="memdesc:a29c1eebc8ef7fe0530b8cf78cf506477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when a new storage has been deleted from the database. <br /></td></tr>
+<tr class="separator:a29c1eebc8ef7fe0530b8cf78cf506477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa10bbb3b9ebd80effdc0b2989b32a714" name="aa10bbb3b9ebd80effdc0b2989b32a714"></a>
@@ -210,6 +228,26 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab99086d2083dbc04f39ffac1553303c7" name="ab99086d2083dbc04f39ffac1553303c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99086d2083dbc04f39ffac1553303c7">&#9670;&nbsp;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Doloro.InvetorySystem.StoragesDatabase.Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Releases entire entries from the database. </p>
+<p >Releases rented entities and cancels started transactions. </p>
+
+</div>
+</div>
 <a id="adfa905e01591b7a1d60760b205b59a97" name="adfa905e01591b7a1d60760b205b59a97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adfa905e01591b7a1d60760b205b59a97">&#9670;&nbsp;</a></span>ContainsStorage()</h2>
 
@@ -348,6 +386,43 @@ static <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_databas
   <table class="params">
     <tr><td class="paramname">info</td><td></td></tr>
     <tr><td class="paramname">context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5486ad7f7ed4c2ca2b954f715e5d44be" name="a5486ad7f7ed4c2ca2b954f715e5d44be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5486ad7f7ed4c2ca2b954f715e5d44be">&#9670;&nbsp;</a></span>StorageDelgate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Doloro.InvetorySystem.StoragesDatabase.StorageDelgate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html">StoragesDatabase</a>&#160;</td>
+          <td class="paramname"><em>database</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html">StorageContainer</a>&#160;</td>
+          <td class="paramname"><em>storage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delegate using for storage related events. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">database</td><td>Parent database instance.</td></tr>
+    <tr><td class="paramname">storage</td><td>Target storage container.</td></tr>
   </table>
   </dd>
 </dl>
