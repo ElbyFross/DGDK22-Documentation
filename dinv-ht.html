@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('dinv-ht.html',''); initResizable(); })
 <ul><li class="level1"><a href="#dinv-ht-a">About</a></li>
 <li class="level1"><a href="#dinv-ht-db">Storages Database</a><ul><li class="level2"><a href="#dinv-ht-db-access">Access database</a></li>
 <li class="level2"><a href="#dinv-ht-db-clear">Create a clear database</a></li>
-<li class="level2"><a href="#dinv-ht-db-create">Create database entry</a></li>
-<li class="level2"><a href="#dinv-ht-db-delete">Delete database entry</a></li>
+<li class="level2"><a href="#dinv-ht-db-create">Create a storage at database</a></li>
+<li class="level2"><a href="#dinv-ht-db-delete">Delete a storage from database</a></li>
 <li class="level2"><a href="#dinv-ht-db-save">Save database</a></li>
 </ul>
 </li>
@@ -133,8 +133,8 @@ Create a clear database</h2>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-create"></a>
-Create database entry</h2>
-<p >To create a new storage entry you have to follow the netx template: </p><div class="fragment"><div class="line">usign Doloro.InvetorySystem;</div>
+Create a storage at database</h2>
+<p >To create a new storage entry you have to follow the next template: </p><div class="fragment"><div class="line">usign Doloro.InvetorySystem;</div>
 <div class="line"> </div>
 <div class="line">// Defining items that should be applied to the container.</div>
 <div class="line">StoragesDatabase.ItemContainer[] items = ...</div>
@@ -150,20 +150,20 @@ Using this ID you may access the container lately.</p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-delete"></a>
-Delete database entry</h2>
+Delete a storage from database</h2>
+<p >To delete a storage at database you need to know its <code>id</code>. </p><div class="fragment"><div class="line">StoragesDatabase.Active.DestroyStorage(STORAGE_ID).</div>
+</div><!-- fragment --><p ><br  />
+</p>
+<h2><a class="anchor" id="dinv-ht-db-save"></a>
+Save database</h2>
+<p >The data base is serializable object and can be easily saved by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-save"></a>
 Save database</h2>
-<p >The data base is serializable object and can be easily saved by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><br  />
-</p>
-<h2><a class="anchor" id="dinv-ht-db-save"></a>
-Save database</h2>
 <p >The data base is serializable object and can be easily load by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <hr  />
 <h1><a class="anchor" id="dinv-ht-strserv"></a>
 Storages Service</h1>
@@ -249,7 +249,7 @@ Auto load storages on a scene</h2>
 <hr  />
 <h1><a class="anchor" id="dinv-ht-transserv"></a>
 Transaction Service</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

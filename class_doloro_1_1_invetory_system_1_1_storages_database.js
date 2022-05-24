@@ -18,6 +18,7 @@ var class_doloro_1_1_invetory_system_1_1_storages_database =
     [ "TryCreateStorage", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a7ca938e24dce13b1b52d8c4566314bfa", null ],
     [ "Active", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a299b0f290c265ad3a77ac28babb82a49", null ],
     [ "this[Guid id]", "class_doloro_1_1_invetory_system_1_1_storages_database.html#ad3224a6afe97d49cc7215f23e9143395", null ],
+    [ "NewActiveDatabase", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a92447f8751993c87ec737c8f6ddfb8a7", null ],
     [ "StorageCreated", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a36d1fbdd0a0350e57e63dd9c47c98c1f", null ],
     [ "StorageDeleted", "class_doloro_1_1_invetory_system_1_1_storages_database.html#a29c1eebc8ef7fe0530b8cf78cf506477", null ]
 ];

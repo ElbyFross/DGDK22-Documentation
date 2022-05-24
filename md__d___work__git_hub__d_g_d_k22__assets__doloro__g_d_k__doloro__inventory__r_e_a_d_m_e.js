@@ -20,8 +20,8 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "Storages Database", "dinv-ht.html#dinv-ht-db", [
         [ "Access database", "dinv-ht.html#dinv-ht-db-access", null ],
         [ "Create a clear database", "dinv-ht.html#dinv-ht-db-clear", null ],
-        [ "Create database entry", "dinv-ht.html#dinv-ht-db-create", null ],
-        [ "Delete database entry", "dinv-ht.html#dinv-ht-db-delete", null ],
+        [ "Create a storage at database", "dinv-ht.html#dinv-ht-db-create", null ],
+        [ "Delete a storage from database", "dinv-ht.html#dinv-ht-db-delete", null ],
         [ "Save database", "dinv-ht.html#dinv-ht-db-save", null ]
       ] ],
       [ "Storages Service", "dinv-ht.html#dinv-ht-strserv", [

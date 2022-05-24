@@ -92,8 +92,8 @@ var searchData=
   ['logs_89',['Logs',['../class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a600119ae45c5c4b93d606ac18e69d999',1,'Doloro::DataManagement::Serialization::BinarySerializationTool']]],
   ['logsbuild_90',['LogsBuild',['../class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#ab530e2c5fa02f78e01aeb5f3ba2e7ef0',1,'Doloro::DataManagement::Serialization::BinarySerializationTool']]],
   ['logsgenerated_91',['LogsGenerated',['../class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#aaed86b39acdb6e7da9536cdc06689a38',1,'Doloro::DataManagement::Serialization::BinarySerializationTool']]],
-  ['logtype_92',['LogType',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#adde078dfaeb8bb5a15509f4355983bf2',1,'Doloro::AI::Primitive::Log']]],
-  ['logtype_93',['logType',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#a78ea86843fc34997b815e1cde2b7f858',1,'Doloro::AI::Primitive::Log']]],
+  ['logtype_92',['logType',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#a78ea86843fc34997b815e1cde2b7f858',1,'Doloro::AI::Primitive::Log']]],
+  ['logtype_93',['LogType',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#adde078dfaeb8bb5a15509f4355983bf2',1,'Doloro::AI::Primitive::Log']]],
   ['lookingforresources_94',['LookingForResources',['../namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817a46a062c0674968e6ee7228bda1c98900',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool']]],
   ['lookingfortagsdatabases_95',['LookingForTagsDatabases',['../namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#aeee6b3d27ee658ab3388dbd98d8dd817afbdc5b94f76c7c89e66228b419fba539',1,'Doloro::DataManagement::DynamicResources::Modules::TagsTool']]],
   ['loopuntil_96',['LoopUntil',['../class_doloro_1_1_a_i_1_1_core_1_1_pipeline_item.html#a3f9385ac174f079d5e2396f4752da166',1,'Doloro::AI::Core::PipelineItem']]]
