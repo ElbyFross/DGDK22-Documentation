@@ -27,7 +27,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "Storages Service", "dinv-ht.html#dinv-ht-strserv", [
         [ "Rent Storage entity", "dinv-ht.html#dinv-ht-strserv-rent", null ],
         [ "Release Storage entity", "dinv-ht.html#dinv-ht-strserv-release", null ],
-        [ "Auto load storages on-scene", "dinv-ht.html#dinv-ht-strserv-auto", null ]
+        [ "Auto load storages on a scene", "dinv-ht.html#dinv-ht-strserv-auto", null ]
       ] ],
       [ "Transaction Service", "dinv-ht.html#dinv-ht-transserv", null ]
     ] ],

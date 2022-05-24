@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dinv-ht.html',''); initResizable(); })
 </li>
 <li class="level1"><a href="#dinv-ht-strserv">Storages Service</a><ul><li class="level2"><a href="#dinv-ht-strserv-rent">Rent Storage entity</a></li>
 <li class="level2"><a href="#dinv-ht-strserv-release">Release Storage entity</a></li>
-<li class="level2"><a href="#dinv-ht-strserv-auto">Auto load storages on-scene</a></li>
+<li class="level2"><a href="#dinv-ht-strserv-auto">Auto load storages on a scene</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#dinv-ht-transserv">Transaction Service</a></li>
@@ -143,6 +143,10 @@ Create database entry</h2>
 <div class="line">Guid storageID = StoragesDatabase.Active.CreateStorage(items)</div>
 </div><!-- fragment --><p> During creation we're receiving an ID provided by the database to a new storage. <br  />
 Using this ID you may access the container lately.</p>
+<p ><br  />
+</p>
+<p >You also may create a new storage directly from a scene using <code>StorageCaller</code> component. <br  />
+<b>Read more about:</b> <a class="el" href="dinv-ht.html#dinv-ht-strserv-auto">Auto load storages on a scene</a>.</p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-delete"></a>
@@ -229,14 +233,23 @@ Release Storage entity</h2>
 <div class="line">    // called manually.</div>
 <div class="line">    itemData.SaveSessionData();</div>
 <div class="line">}</div>
-<div class="line">// Entire called entity resource has been released automatically.</div>
-</div><!-- fragment --><h2><a class="anchor" id="dinv-ht-strserv-auto"></a>
-Auto load storages on-scene</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<div class="line">// Entire called entity resources has been released automatically.</div>
+</div><!-- fragment --><p ><br  />
+</p>
+<h2><a class="anchor" id="dinv-ht-strserv-auto"></a>
+Auto load storages on a scene</h2>
+<p >You may force call of <code>Storage</code> entity on a scene using <code>StorageCaller</code> component on any object at the scene, avoiding manual API calls.</p>
+<p >The component allows both:</p><ol type="1">
+<li>Load existing storage database entry to a scene.</li>
+<li>Create a new entry at the database along with parameters defined over the <code>StorageCaller</code> component.</li>
+</ol>
+<p >In case of creating a new entry at the database reads entire <code>AStorageFetuare</code> components data and sets they to the entry. That allows you to fully configurate the <code>Storage</code> at a scene it must be located avoiding manual code declaration.</p>
+<p ><b>Read more:</b> <a class="el" href="dinv-storage.html#dinv-storage-p">Features</a> and provided <a class="el" href="dinv-storage.html#dinv-storage-p-box">In-box</a> implementations. <br  />
+<b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage_caller.html" title="Calls instance of the StoragesDatabase.StorageContainer by id. Creates new entry in case if not regis...">Doloro.InvetorySystem.StorageCaller</a></p>
 <hr  />
 <h1><a class="anchor" id="dinv-ht-transserv"></a>
 Transaction Service</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

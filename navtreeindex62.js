@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"ddm-aps-com-pa.html#ddm-aps-com-pa-ca":[10,3,3,3],
+"ddm-aps-com-pa.html#ddm-aps-com-pa-int":[10,3,3,2],
+"ddm-aps-com-pa.html#ddm-aps-com-pa-w":[10,3,3,1],
+"ddm-aps-ddr-patch.html":[10,3,4],
 "ddm-aps-ddr-patch.html#ddm-aps-ddr-patch-a":[10,3,4,0],
 "ddm-aps-ddr-patch.html#ddm-aps-ddr-patch-extensions":[10,3,4,1],
 "ddm-aps-gs.html":[10,3,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "dinv-ht.html":[14,2],
 "dinv-ht.html#dinv-ht-a":[14,2,0],
 "dinv-ht.html#dinv-ht-db":[14,2,1],
-"dinv-ht.html#dinv-ht-db-access":[14,2,1,0],
-"dinv-ht.html#dinv-ht-db-clear":[14,2,1,1],
-"dinv-ht.html#dinv-ht-db-create":[14,2,1,2],
-"dinv-ht.html#dinv-ht-db-delete":[14,2,1,3],
-"dinv-ht.html#dinv-ht-db-save":[14,2,1,4]
+"dinv-ht.html#dinv-ht-db-access":[14,2,1,0]
 };
