@@ -87,9 +87,29 @@ $(document).ready(function(){initNavTree('dinv_storages_service.html',''); initR
   <div class="headertitle"><div class="title">Storages Service </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dinv_storages_service_a">About</a></li>
+<li class="level1"><a href="#dinv_storages_service-ecs">Entity component system</a></li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dinv_storages_service_a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Storages services is a system that encapsulated internal process of database storage entries using when you bond they with in-game <code>Storage</code> entity that implements certain gameplay features over raw data.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">Doloro.InvetorySystem.StoragesService</a></p>
+<p >The service controls <code>Storage</code> loading as template resource and encapsulates its instantiation and data loading from <code>StoragesDatabase.StorageContainer</code> to it.</p>
+<p >This section mostly tells you about background of the service to let you understand how does it work. <br  />
+You may read more about <b>how to use</b> it by following link: <a class="el" href="dinv-ht.html#dinv-ht-strserv">Storages Service</a></p>
+<h1><a class="anchor" id="dinv_storages_service-ecs"></a>
+Entity component system</h1>
+<p >Inventory system has implemented <b>Entity-Component-System</b> architecture pattern. <br  />
+Entities operations provided with a <code>StoragesService</code> service.</p>
+<p >In case of using ECS any <code>Storage</code> within in-game world would exist only when you need it. <br  />
+Any other time its content will be stored inside the <code>StoragesDatabase</code> without creating garbage on the scene and damaging of customer's computer performance.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html" title="Data base that holds data of entire storages created during game session.">Doloro.InvetorySystem.StoragesDatabase</a></p>
+<p ><b>Remarks</b> <br  />
+The service always holds at least one entity of ones loaded <code>Storage</code> resource on the scene even if its content has been released from renting. <br  />
+That made to prevent unnecessary often instantiations during each call. <br  />
+In case if you trying to rent entity but the singleton entity already rented the system will create temporary entity that will be destroyed immediately as soon as released. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

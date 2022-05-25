@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doloro GDK 22: Inventory GUI</title>
+<title>Doloro GDK 22: GUI</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,24 +84,20 @@ $(document).ready(function(){initNavTree('dinv-gui.html',''); initResizable(); }
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Inventory GUI </div></div>
+  <div class="headertitle"><div class="title">GUI </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md136">About</a></li>
-<li class="level2"><a href="#autotoc_md137">Controls</a></li>
-<li class="level2"><a href="#autotoc_md138">GUI extensions</a></li>
-<li class="level2"><a href="#autotoc_md139">How To</a><ul><li class="level3"><a href="#autotoc_md140">Make cross window bond</a></li>
-<li class="level3"><a href="#autotoc_md141">Get an entity feature</a></li>
-</ul>
-</li>
+<ul><ul><li class="level2"><a href="#autotoc_md135">About</a></li>
+<li class="level2"><a href="#autotoc_md136">Controls</a></li>
+<li class="level2"><a href="#autotoc_md137">Cross-windows bond</a></li>
 </ul>
 </ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md136"></a>
+<div class="textblock"><h2><a class="anchor" id="autotoc_md135"></a>
 About</h2>
 <p >GUI elements and related features, and systems related to <code><a class="el" href="namespace_doloro.html">Doloro</a> Inventory</code> module.</p>
-<h2><a class="anchor" id="autotoc_md137"></a>
+<h2><a class="anchor" id="autotoc_md136"></a>
 Controls</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -125,14 +121,8 @@ Controls</h2>
 <td class="markdownTableBodyCenter"><code>StoragesSelectionGUIElement</code>   </td><td class="markdownTableBodyNone">GUI controller that provides selection between <br  />
  several <code>Storage</code> instances.   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md138"></a>
-GUI extensions</h2>
-<p >The inventory entities can has defined custom features those extend logic with a new data and controls. To connect such a feature should be used a custom component derived from <code>AEntityFeatureGUIExtension&lt;T&gt;</code> where <code>T</code> is a type of target entity (<code>Item</code> or <code>Storage</code> as example).</p>
-<p ><b>See also:</b> Doloro.InvetorySystem.UI.AEntityFeatureGUIExtension</p>
-<h2><a class="anchor" id="autotoc_md139"></a>
-How To</h2>
-<h3><a class="anchor" id="autotoc_md140"></a>
-Make cross window bond</h3>
+<h2><a class="anchor" id="autotoc_md137"></a>
+Cross-windows bond</h2>
 <p ><code><a class="el" href="namespace_doloro.html">Doloro</a> UI Engine II</code> implements conception of layouts those could be connected in virtual network. That conception allows to create flexible dynamic UI but can't proof a strong reference to child components.</p>
 <p >Basing on the fact you should avoid embedding any controls to your UI logic in case if you not sure that your implementation is a final and can't be modified with new child UI overriding its controls. The best practice here will be to implement control logic as logic providing component over each control. Such implementation allows to make parts of the UI extendable and overridable.</p>
 <hr  />
@@ -152,66 +142,12 @@ Make cross window bond</h3>
 <li>Direct search from child control up to virtual hierarchy chain parents and subscribing on events<ul>
 <li><b>Cons:</b> Any count of instances. Flexible architecture.<ul>
 <li><b>Props:</b> High-weight search for each control for finding of parent. Hierarchy to parent controller must be strait and not allows parallel branches.</li>
-<li><b>Example:</b> Inspector looking for parental selection controller and than listen to selection events to update its content. <hr  />
-</li>
+<li><b>Example:</b> Inspector looking for parental selection controller and than listen to selection events to update its content. </li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md141"></a>
-Get an entity feature</h3>
-<p >Since the inventory system works via ECS a rented entity could take a different source at different time. <br  />
-So you should follow events to get relevant data.</p>
-<p >Following pattern allows you to update your UI with relevant data as soon as something changed without unnecessary checks.</p>
-<div class="fragment"><div class="line">// Field that will hold handling feature instance.</div>
-<div class="line">private FEATURE_TYPE feature;</div>
-<div class="line"> </div>
-<div class="line">// Connecting to inspector events.</div>
-<div class="line">protected virtual void Start()</div>
-<div class="line">{</div>
-<div class="line">    inspector.ContentChanged += OnGUISourceChanged;</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line">// Releases subscription as soon as object dead.</div>
-<div class="line">protected virtual void OnDestroy()</div>
-<div class="line">{</div>
-<div class="line">    try { inspector.ContentChanged -= OnGUISourceChanged; }</div>
-<div class="line">    catch { } // Object already destroyed and can&#39;t be accessed.</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line">// Occurs as soon as instance selected in inspector has changed.</div>
-<div class="line">private void OnGUISourceChanged(AInspectorGUIElement&lt;Storage&gt; obj)</div>
-<div class="line">{</div>
-<div class="line">        // If feature instance found - using it.</div>
-<div class="line">    if(feature != null)</div>
-<div class="line">    {</div>
-<div class="line">        try { feature.Modified -= OnFeatureModified; }</div>
-<div class="line">        catch { } // Feature can&#39;t be accessed.</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">        // Looking for soruce feature.</div>
-<div class="line">    feature = inspector.content.GetComponent&lt;FEATURE_TYPE&gt;();</div>
-<div class="line">    if(feature != null)</div>
-<div class="line">    {</div>
-<div class="line">    // Subscribing on feature modifying event to stay along with relevant values.</div>
-<div class="line">        feature.Modified += OnFeatureModified;</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line">// Loading relevant data to UI as soon as source updated.</div>
-<div class="line">private void OnFeatureModified(EntityFeature __) =&gt; LoadGUIContent();</div>
-<div class="line"> </div>
-<div class="line">public override void DropGUIContent()</div>
-<div class="line">{</div>
-<div class="line">    // Releasing GUI content.</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line">public override void LoadGUIContent()</div>
-<div class="line">{</div>
-<div class="line">        // Loading feature data to GUI.</div>
-<div class="line">}</div>
-</div><!-- fragment --><p ><code>FEATURE_TYPE</code> is a type of feature targeted by that GUI extension. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

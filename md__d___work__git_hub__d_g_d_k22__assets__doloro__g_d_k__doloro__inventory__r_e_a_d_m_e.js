@@ -73,17 +73,17 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
         [ "Storage Container", "dinv-storages-database.html#dinv-storages-database-sc", null ],
         [ "Item Container", "dinv-storages-database.html#dinv-storages-database-ic", null ],
         [ "Feature Container", "dinv-storages-database.html#dinv-storages-database-pc", null ]
-      ] ],
-      [ "Entity component system", "dinv-storages-database.html#dinv-storages-database-ecs", null ]
+      ] ]
     ] ],
     [ "Storages Service", "dinv_storages_service.html", [
-      [ "About", "dinv_storages_service.html#dinv_storages_service_a", null ]
+      [ "About", "dinv_storages_service.html#dinv_storages_service_a", null ],
+      [ "Entity component system", "dinv_storages_service.html#dinv_storages_service-ecs", null ]
     ] ],
     [ "Trasaction Service", "dinv_trasaction_service.html", [
       [ "About", "dinv_trasaction_service.html#dinv_trasaction_service_a", null ],
       [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", null ]
     ] ],
-    [ "Inventory GUI", "dinv-gui.html", null ],
+    [ "GUI", "dinv-gui.html", null ],
     [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
     [ "Demo: Shops explorer", "dinv-shops_explorer-demo.html", [
       [ "About", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-a", null ],

@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('dinv-storages-database.html',''); init
 <li class="level2"><a href="#dinv-storages-database-pc">Feature Container</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dinv-storages-database-ecs">Entity component system</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-storages-database-a"></a>
@@ -102,6 +101,7 @@ About</h1>
 <p >Entire session data of storages and its connected stored within <code>StoragesDatabase</code> singleton database instance. <br  />
 The data could be serialized to binary view to save for continue cross-session using.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html" title="Data base that holds data of entire storages created during game session.">Doloro.InvetorySystem.StoragesDatabase</a></p>
+<p >Storage database entities should be operated via the <a class="el" href="dinv_storages_service.html">Storages Service</a>.</p>
 <hr  />
 <h1><a class="anchor" id="dinv-storages-database-arch"></a>
 Architecture</h1>
@@ -145,23 +145,8 @@ Feature Container</h2>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_feature_container.html" title="The container fro cross-session hold of the AStorageFeature data.">Doloro.InvetorySystem.StoragesDatabase.FeatureContainer</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in-game logic.">Doloro.InvetorySystem.AEntityFeature</a></li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html#a7bb08a78d8137871bddd403546526c11" title="Converting property session data to the binary formated.">Doloro.InvetorySystem.AEntityFeature.SaveSession</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_entity_feature.html#a7bb08a78d8137871bddd403546526c11" title="Converting property session data to the binary formated.">Doloro.InvetorySystem.AEntityFeature.SaveSession</a> </li>
 </ul>
-<hr  />
-<h1><a class="anchor" id="dinv-storages-database-ecs"></a>
-Entity component system</h1>
-<p >Inventory system has implemented <b>Entity-Component-System</b> architecture pattern. <br  />
-Entities operations provided with a <code>StoragesService</code> service.</p>
-<p >In case of using ECS any <code>Storage</code> within in-game world would exist only when you need it. <br  />
-Any other time its content will be stored inside the <code>StoragesDatabase</code> without creating garbage on the scene and damaging of customer's computer performance.</p>
-<p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html" title="Data base that holds data of entire storages created during game session.">Doloro.InvetorySystem.StoragesDatabase</a></li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">Doloro.InvetorySystem.StoragesService</a></li>
-</ul>
-<p ><b>Remarks</b> <br  />
-The service always holds at least one entity of ones loaded <code>Storage</code> resource on the scene even if its content has been released from renting. <br  />
-That made to prevent unnecessary often instantiations during each call. <br  />
-In case if you trying to rent entity but the singleton entity already rented the system will create temporary entity that will be destroyed immediately as soon as released. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
