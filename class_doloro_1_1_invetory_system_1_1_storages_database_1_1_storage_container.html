@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_invetory_system_1_1_s
 <div class="textblock"><p >Container that using as data entry for the <a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database.html" title="Data base that holds data of entire storages created during game session.">StoragesDatabase</a>. </p>
 <p >Contains meta data related to the in-game storage instance that describes how to recreate it.</p>
 <p >Used <a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Storage</a> prefab resource defined with the ISignedResource properties.</p>
-<p >Not allows direct access to the items. Use <a class="el" href="class_doloro_1_1_invetory_system_1_1_transaction_service.html" title="Services that handles transactions between right owners.">TransactionService</a> to handle items transfer. </p>
+<p >Not allows direct access to the items. Use <a class="el" href="class_doloro_1_1_invetory_system_1_1_transaction_service.html" title="Order that contains meta data related to the resource transfer instruction.">TransactionService</a> to handle items transfer. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">StoragesService</a></dd></dl>
 </div><div class="dynheader">
 Inheritance diagram for Doloro.InvetorySystem.StoragesDatabase.StorageContainer:</div>
@@ -139,9 +139,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59fce4c450d246dd4c7223cf98d56fc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a59fce4c450d246dd4c7223cf98d56fc8">StorageContainer</a> (SerializationInfo info, StreamingContext context)</td></tr>
 <tr class="memdesc:a59fce4c450d246dd4c7223cf98d56fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows to binary serializer instantiate the object from binary.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a59fce4c450d246dd4c7223cf98d56fc8">More...</a><br /></td></tr>
 <tr class="separator:a59fce4c450d246dd4c7223cf98d56fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a462bcb32fde2defc3a153c2aa301a850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a462bcb32fde2defc3a153c2aa301a850">GetObjectData</a> (SerializationInfo info, StreamingContext context)</td></tr>
-<tr class="memdesc:a462bcb32fde2defc3a153c2aa301a850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling by binary serializer to get object's data.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a462bcb32fde2defc3a153c2aa301a850">More...</a><br /></td></tr>
-<tr class="separator:a462bcb32fde2defc3a153c2aa301a850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645f9ec98aab6f87646f23fd95f36b0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html">ItemContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a645f9ec98aab6f87646f23fd95f36b0c">Find</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html">Item</a> item)</td></tr>
 <tr class="memdesc:a645f9ec98aab6f87646f23fd95f36b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for entry related to the source item.  <a href="class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a645f9ec98aab6f87646f23fd95f36b0c">More...</a><br /></td></tr>
 <tr class="separator:a645f9ec98aab6f87646f23fd95f36b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -590,43 +587,6 @@ Dictionary&lt; string, <a class="el" href="class_doloro_1_1_invetory_system_1_1_
 
 </div>
 </div>
-<a id="a462bcb32fde2defc3a153c2aa301a850" name="a462bcb32fde2defc3a153c2aa301a850"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a462bcb32fde2defc3a153c2aa301a850">&#9670;&nbsp;</a></span>GetObjectData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Doloro.InvetorySystem.StoragesDatabase.StorageContainer.GetObjectData </td>
-          <td>(</td>
-          <td class="paramtype">SerializationInfo&#160;</td>
-          <td class="paramname"><em>info</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">StreamingContext&#160;</td>
-          <td class="paramname"><em>context</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calling by binary serializer to get object's data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">info</td><td></td></tr>
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="afcf60f8d173c52491d5b36a412007dc6" name="afcf60f8d173c52491d5b36a412007dc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcf60f8d173c52491d5b36a412007dc6">&#9670;&nbsp;</a></span>Remove()</h2>
 
@@ -904,7 +864,7 @@ Dictionary&lt; string, <a class="el" href="class_doloro_1_1_invetory_system_1_1_
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/DGDK22/Assets/Doloro-GDK/Doloro-Inventory/Runtime/Core/Databases/Entities/StoragesDatabase.StorageContainer.cs</li>
+<li>D:/Work/GitHub/DGDK22/Assets/Doloro-GDK/Doloro-Inventory/Runtime/Databases/Entities/StoragesDatabase.StorageContainer.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

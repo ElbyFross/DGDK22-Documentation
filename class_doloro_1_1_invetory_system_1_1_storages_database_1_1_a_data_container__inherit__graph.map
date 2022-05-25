@@ -1,5 +1,7 @@
 <map id="Doloro.InvetorySystem.StoragesDatabase.ADataContainer&lt; ContainerType &gt;" name="Doloro.InvetorySystem.StoragesDatabase.ADataContainer&lt; ContainerType &gt;">
-<area shape="rect" id="node1" title="Base data container class." alt="" coords="167,5,375,61"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html" title=" " alt="" coords="423,5,656,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,20,119,47"/>
+<area shape="rect" id="node1" title="Base data container class." alt="" coords="167,41,375,97"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_storages_database_1_1_a_features_holder_container.html" title=" " alt="" coords="423,41,656,97"/>
+<area shape="rect" id="node2" title=" " alt="" coords="21,5,103,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="16,56,108,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,107,119,133"/>
 </map>

@@ -6,7 +6,7 @@ var class_doloro_1_1_data_management_1_1_tables_1_1_cell =
     [ "DropBackgroundColor", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a52f131f976952ef1708ebc69db30107a", null ],
     [ "DropPalette", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a4ba6cbbcd4d23bf7517eef5639278b78", null ],
     [ "DropTextColor", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a25004780b1956b08c6670c5af9318137", null ],
-    [ "GetObjectData", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#ab0202f94fd515f87a40e21f45687fba9", null ],
+    [ "GetObjectData", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a91252f2b74fa13e8e7dfbce85ae96b84", null ],
     [ "address", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a1a3012989c534d20987ae80161282a5a", null ],
     [ "BackgroundColor", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a8132af7b485c2d6cdac3f963d9cf3852", null ],
     [ "content", "class_doloro_1_1_data_management_1_1_tables_1_1_cell.html#a4b5e18e26af29548aeab9ce08542468d", null ],

@@ -101,7 +101,15 @@ $(document).ready(function(){initNavTree('dinv-ht.html',''); initResizable(); })
 <li class="level2"><a href="#dinv-ht-strserv-auto">Auto load storages on a scene</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dinv-ht-transserv">Transaction Service</a></li>
+<li class="level1"><a href="#dinv-ht-transserv">Transaction Service</a><ul><li class="level2"><a href="#dinv-ht-transserv-add">Add items to exists storage</a></li>
+<li class="level2"><a href="#dinv-ht-transserv-remove">Remove items to exists storage</a></li>
+<li class="level2"><a href="#dinv-ht-transserv-transfer">Transfer between storages</a><ul><li class="level3"><a href="#dinv-ht-transserv-transfer-isnt">Instant transfer</a></li>
+<li class="level3"><a href="#dinv-ht-transserv-transfer-manual">Manual transfer</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dinv-ht-transserv-search">Find orders</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-ht-a"></a>
@@ -157,14 +165,49 @@ Delete a storage from database</h2>
 <h2><a class="anchor" id="dinv-ht-db-save"></a>
 Save database</h2>
 <p >The data base is serializable object and can be easily saved by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><br  />
+<p >Following example shows the way to save database to file system at the application's folder. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<div class="line">using Doloro.DataManagement.Serialization;</div>
+<div class="line"> </div>
+<div class="line">// Defining destination full path to a file</div>
+<div class="line">// that will contains serialized database.</div>
+<div class="line">// The file will be create \ overridden depending from its existence state.</div>
+<div class="line">string path = Application.dataPath + &quot;\\&quot; + FILE_NAME + &quot;.&quot; + FILE_EXTENSION;</div>
+<div class="line"> </div>
+<div class="line">// Calling serialization of the database to the file.</div>
+<div class="line">BinarySerializationTool.Serialize(StoragesDatabase.Active, path);</div>
+</div><!-- fragment --><p >The next example demonstrates a conversion to binary data that can be used lately as you need. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<div class="line">using Doloro.DataManagement.Serialization;</div>
+<div class="line"> </div>
+<div class="line">// Binary array tha will contain serialized database.</div>
+<div class="line">byte[] binaryData;</div>
+<div class="line"> </div>
+<div class="line">// Calling serialization.</div>
+<div class="line">BinarySerializationTool.Serialize(StoragesDatabase.Active, out binaryData);</div>
+</div><!-- fragment --><p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-save"></a>
 Save database</h2>
 <p >The data base is serializable object and can be easily load by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<hr  />
+<p >To load database you have to provide binary data \ binary file. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<div class="line">using Doloro.DataManagement.Serialization;</div>
+<div class="line"> </div>
+<div class="line">// Defining path in file system to a binary database representaion.</div>
+<div class="line">string FILE_PATH = ...</div>
+<div class="line"> </div>
+<div class="line">// Loading the instnace using DDM module features.</div>
+<div class="line">var db = BinarySerializationTool.Deserialize&lt;StoragesDatabase&gt;(FILE_PATH);</div>
+<div class="line"> </div>
+<div class="line">// Applying database instance as active.</div>
+<div class="line">StoragesDatabase.Active = db;</div>
+</div><!-- fragment --><p> Alternatively you may load database from binary array other then file system. </p><div class="fragment"><div class="line">// Getting previously serialized data in binary view.</div>
+<div class="line">byte[] BINARY_DATA = ...</div>
+<div class="line"> </div>
+<div class="line">// Reading data as the database.</div>
+<div class="line">var db = BinarySerializationTool.Deserialize&lt;StoragesDatabase&gt;(BINARY_DATA);</div>
+<div class="line"> </div>
+<div class="line">// Applying database instance as active.</div>
+<div class="line">StoragesDatabase.Active = db;</div>
+</div><!-- fragment --><hr  />
 <h1><a class="anchor" id="dinv-ht-strserv"></a>
 Storages Service</h1>
 <h2><a class="anchor" id="dinv-ht-strserv-rent"></a>
@@ -249,8 +292,97 @@ Auto load storages on a scene</h2>
 <hr  />
 <h1><a class="anchor" id="dinv-ht-transserv"></a>
 Transaction Service</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-</div></div><!-- contents -->
+<p >The system no allows manual modification of the storage that allows to prevent frequent bugs with items. All the transactions with storages managed with the <a class="el" href="dinv_trasaction_service.html">Trasaction Service</a> via orders.</p>
+<h2><a class="anchor" id="dinv-ht-transserv-add"></a>
+Add items to exists storage</h2>
+<p >To add an items to a storage you need to know a destination storage ID or has reference to its data container, or rented entity.</p>
+<p >Then you need to call <code>TransactionService</code> API member named as <code>ExecuteAddOrder</code> most suitable from your arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ExecuteAddOrder(</div>
+<div class="line">    // Id of storage that will attempt to receive the items.</div>
+<div class="line">    STORAGE_ID,</div>
+<div class="line">    // Item resource that will be added.</div>
+<div class="line">    ITEM,           </div>
+<div class="line">    // Count of items to add.</div>
+<div class="line">    COUNT               </div>
+<div class="line">    );</div>
+</div><!-- fragment --><p> The add order may fail transaction and return <code>false</code> in case the storage has mask features that not allows item or its amount to be added.</p>
+<h2><a class="anchor" id="dinv-ht-transserv-remove"></a>
+Remove items to exists storage</h2>
+<p >To remove items from a storage you has a know target storage ID or has reference to its data container, or rented entity.</p>
+<p >Then you need to call <code>TransactionService</code> API member named as <code>ExecuteRemoveOrder</code> most suitable from your arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ExecuteRemoveOrder(</div>
+<div class="line">    // Id of storage to operate</div>
+<div class="line">    STORAGE_ID, .</div>
+<div class="line">    // Item resource that will be removed.</div>
+<div class="line">    ITEM,           </div>
+<div class="line">    // Count of items to remove.</div>
+<div class="line">    COUNT               </div>
+<div class="line">    );</div>
+</div><!-- fragment --><p> The remove order will be failed and return <code>false</code> in case the resource not found in the storage or it has no enough amount.</p>
+<h2><a class="anchor" id="dinv-ht-transserv-transfer"></a>
+Transfer between storages</h2>
+<p >To transfer some items from one storage to other you has to execute <code>TransactionOrder</code> between them.</p>
+<p >For this you has a 2 ways: Instant, Manual. </p>
+<h3><a class="anchor" id="dinv-ht-transserv-transfer-isnt"></a>
+Instant transfer</h3>
+<p >To execute a transfer order between two storages instantly you enough to call one of <code>TransactionService</code> API members named as <code>InstantTransactionOrder</code> with most suitable arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.InstantTransactionOrder(</div>
+<div class="line">    // Id of storage selected as source of items.</div>
+<div class="line">    FROM_STORAGE_ID,    </div>
+<div class="line">    // Id of storage selected as transfer destination.</div>
+<div class="line">    TO_STORAGE_ID,      </div>
+<div class="line">    // Item resource that will be transferred.</div>
+<div class="line">    ITEM,                       </div>
+<div class="line">    // Count of items to transfer.</div>
+<div class="line">    COUNT                           </div>
+<div class="line">    );</div>
+</div><!-- fragment --><p> Transaction may fail and return <code>false</code> in case the storage has mask features that not allows item or its amount to be added to destination storage.</p>
+<h3><a class="anchor" id="dinv-ht-transserv-transfer-manual"></a>
+Manual transfer</h3>
+<p >For some systems you may need to place a transaction that will make an items \ space reservation at a storages but not execute it instantly leaving an opportunity to cancel the transaction.</p>
+<p >For such operations you have to use <code>TransactionService</code> API members named as <code>PlaceTransactionOrder</code>. <br  />
+ Such a handler makes reservation of items. Also it can call reservation process at <code>AStorageFeature</code> components related to a storage with <code>IReservationAgent</code> interface. <br  />
+ <b>Read more:</b> <a class="el" href="dinv_trasaction_service.html#dinv_trasaction_service_reservation">Reservation Agent</a></p>
+<div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
+<div class="line"> </div>
+<div class="line">// Variable that will hold Id of placed order.</div>
+<div class="line">Guid orderID;</div>
+<div class="line"> </div>
+<div class="line">// Placing a transaction order.</div>
+<div class="line">orderID = TransactionService.PlaceTransactionOrder(</div>
+<div class="line">    // Id of storage selected as source of items.</div>
+<div class="line">    FROM_STORAGE_ID,</div>
+<div class="line">    // Id of storage selected as transfer destination.</div>
+<div class="line">    TO_STORAGE_ID,      </div>
+<div class="line">    // Item resource that will be transferred.</div>
+<div class="line">    ITEM,                       </div>
+<div class="line">    // Count of items to transfer.</div>
+<div class="line">    COUNT                           </div>
+<div class="line">    );</div>
+</div><!-- fragment --><p> Next you may confirm or cancel the order via the <code>TransactionService</code> by calling of <code>ConfirmTransactionOrder</code> or <code>CancelTransactionOrder</code> member.</p>
+<p >To confirm: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ConfirmTransactionOrder(orderID);</div>
+</div><!-- fragment --><p> To cancel: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.CancelTransactionOrder(orderID);</div>
+</div><!-- fragment --><h2><a class="anchor" id="dinv-ht-transserv-search"></a>
+Find orders</h2>
+<p >You may find entire orders place for a storage or orders placed between 2 storages using <code>TrasactionService</code> API members names as <code>FindOrders</code>.</p>
+<div class="fragment"><div class="line">// Looking orders placed to a certain storage.</div>
+<div class="line">Guid[] orders = FindOrders(TARGET_STORAGE);</div>
+<div class="line"> </div>
+<div class="line">// Handling related orders.</div>
+<div class="line">foreach (Guid id in TARGET_STORAGE)</div>
+<div class="line">{</div>
+<div class="line">    // Getting order by its ID.</div>
+<div class="line">  TransactionOrder order = GetOrder(id);</div>
+<div class="line"> </div>
+<div class="line">    // Doing something with it here`</div>
+<div class="line">}</div>
+</div><!-- fragment --><p >The API also allows you to filter order to discard from selection some not passing a condition.</p>
+<p >Following example demonstrates a case when you are selecting only orders with a certain service code applied to the order during its place process. </p><div class="fragment"><div class="line">var orders = TransactionService.FindOrders(</div>
+<div class="line">            STORAGE1.id,</div>
+<div class="line">            STORAGE2.id,</div>
+<div class="line">            OrderFilter);</div>
+<div class="line"> </div>
+<div class="line">// Condition filter that pass only with a certain service code.</div>
+<div class="line">private bool OrderFilter(TransactionService.TransactionOrder order) =&gt;</div>
+<div class="line">    order.code.Equals(TRANSACTIONS_SEVICE_CODE);</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

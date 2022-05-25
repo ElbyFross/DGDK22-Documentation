@@ -12,7 +12,6 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container =
     [ "DropFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aa7f65cad36483eb663fb247652f98875", null ],
     [ "DropFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a22b80b1670d65aa8f6eac225d470a392", null ],
     [ "GetHashCode", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#ac7246d469463800cade078b7dfc57cff", null ],
-    [ "GetObjectData", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a7a796250cb5c0aa8ab314e80a052a3a9", null ],
     [ "LoadAssetProperties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aee4835a87d21a5d15e3aede5b9723a6d", null ],
     [ "OnModified", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aad3329d2adabf04c245cb21cccab35cd", null ],
     [ "SaveAssetProperties", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a8b4ed8dd55b6337bcf896643f35932bf", null ],
@@ -30,7 +29,7 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container =
     [ "Key", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a2b6c42481cae9cc8aa56a0cebe16afae", null ],
     [ "Reserved", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a9dda009982843a1adea8e059f7166bc1", null ],
     [ "Resource", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3d2035c1098096e49ba1ab8224c396e1", null ],
-    [ "storageId", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#af4120e74f33a2594dfcff4da2092bfc7", null ],
+    [ "StorageId", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#aa81a2c732dfcbc4f627ac52c71caa4a5", null ],
     [ "this[string type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a3af6a07a83182e47e241e71b711e37c1", null ],
     [ "this[Type type]", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_item_container.html#a272392c08de569417501c993ee734820", null ]
 ];

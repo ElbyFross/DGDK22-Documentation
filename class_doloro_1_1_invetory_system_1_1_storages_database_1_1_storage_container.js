@@ -13,7 +13,6 @@ var class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container
     [ "Find", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a645f9ec98aab6f87646f23fd95f36b0c", null ],
     [ "Find", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a0519ad1d1029472a2a659f31f6a087b3", null ],
     [ "GetEnumerator", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a1567ba0f4ae2dc67e38ba09e56dccf6f", null ],
-    [ "GetObjectData", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a462bcb32fde2defc3a153c2aa301a850", null ],
     [ "OnChangeInternal", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#a732b2e8ee30d4f17953a12596c4c0f51", null ],
     [ "Remove", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#afcf60f8d173c52491d5b36a412007dc6", null ],
     [ "SetFeatureState", "class_doloro_1_1_invetory_system_1_1_storages_database_1_1_storage_container.html#af4276ac8ccdc32d645624713cb76910d", null ],

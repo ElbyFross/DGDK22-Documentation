@@ -29,7 +29,15 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
         [ "Release Storage entity", "dinv-ht.html#dinv-ht-strserv-release", null ],
         [ "Auto load storages on a scene", "dinv-ht.html#dinv-ht-strserv-auto", null ]
       ] ],
-      [ "Transaction Service", "dinv-ht.html#dinv-ht-transserv", null ]
+      [ "Transaction Service", "dinv-ht.html#dinv-ht-transserv", [
+        [ "Add items to exists storage", "dinv-ht.html#dinv-ht-transserv-add", null ],
+        [ "Remove items to exists storage", "dinv-ht.html#dinv-ht-transserv-remove", null ],
+        [ "Transfer between storages", "dinv-ht.html#dinv-ht-transserv-transfer", [
+          [ "Instant transfer", "dinv-ht.html#dinv-ht-transserv-transfer-isnt", null ],
+          [ "Manual transfer", "dinv-ht.html#dinv-ht-transserv-transfer-manual", null ]
+        ] ],
+        [ "Find orders", "dinv-ht.html#dinv-ht-transserv-search", null ]
+      ] ]
     ] ],
     [ "Item", "dinv-item.html", [
       [ "About", "dinv-item.html#dinv-item-a", null ],
@@ -66,9 +74,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
         [ "Item Container", "dinv-storages-database.html#dinv-storages-database-ic", null ],
         [ "Feature Container", "dinv-storages-database.html#dinv-storages-database-pc", null ]
       ] ],
-      [ "API", "dinv-storages-database.html#dinv-storages-database-api", [
-        [ "ECS", "dinv-storages-database.html#dinv-storages-database-ecs", null ]
-      ] ]
+      [ "Entity component system", "dinv-storages-database.html#dinv-storages-database-ecs", null ]
     ] ],
     [ "Storages Service", "dinv_storages_service.html", [
       [ "About", "dinv_storages_service.html#dinv_storages_service_a", null ]
