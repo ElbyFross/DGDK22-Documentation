@@ -1,0 +1,5 @@
+<map id="Doloro.UIEngine2.AGUIElementsCollectionEditor" name="Doloro.UIEngine2.AGUIElementsCollectionEditor">
+<area shape="rect" id="node1" title="Custom editor for the AGUIElementsCollection component." alt="" coords="5,155,217,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="44,80,179,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="83,5,139,32"/>
+</map>

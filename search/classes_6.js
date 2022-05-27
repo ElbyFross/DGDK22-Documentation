@@ -20,11 +20,12 @@ var searchData=
   ['graphtransform_17',['GraphTransform',['../class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_matrix_1_1_graph_transform.html',1,'Doloro::EditorExtension::SmallToolsHub::Matrix']]],
   ['graphunitguielement_18',['GraphUnitGUIElement',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html',1,'Doloro::UIEngine2::Modules::Graphs']]],
   ['gridcollection_19',['GridCollection',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
-  ['gridspace_20',['GridSpace',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
-  ['guicollectionasstoragesenumerator_21',['GUICollectionAsStoragesEnumerator',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c.html',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollectionDataConnector']]],
-  ['guicollectionhubeventrelay_22',['GUICollectionHubEventRelay',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
-  ['guicollectionuihublistener_23',['GUICollectionUIHubListener',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
-  ['guielementhighlighter_24',['GUIElementHighlighter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
-  ['guielementruntimeregister_25',['GUIElementRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html',1,'Doloro::UIEngine2::AGUIElement']]],
-  ['guiinfo_26',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]]
+  ['gridcollectioneditor_20',['GridCollectionEditor',['../class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html',1,'Doloro::UIEngine2']]],
+  ['gridspace_21',['GridSpace',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
+  ['guicollectionasstoragesenumerator_22',['GUICollectionAsStoragesEnumerator',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c.html',1,'Doloro::UIEngine2::Modules::ElementsCollection::AGUIElementsCollectionDataConnector']]],
+  ['guicollectionhubeventrelay_23',['GUICollectionHubEventRelay',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
+  ['guicollectionuihublistener_24',['GUICollectionUIHubListener',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
+  ['guielementhighlighter_25',['GUIElementHighlighter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
+  ['guielementruntimeregister_26',['GUIElementRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html',1,'Doloro::UIEngine2::AGUIElement']]],
+  ['guiinfo_27',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]]
 ];

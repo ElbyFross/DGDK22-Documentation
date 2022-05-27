@@ -13,6 +13,7 @@ var searchData=
   ['windowsruntimeregister_10',['WindowsRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html',1,'Doloro::UIEngine2::Window']]],
   ['windowstatecontroller_11',['WindowStateController',['../class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html',1,'Doloro::UIEngine2']]],
   ['windowuicontroller_12',['WindowUIController',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html',1,'Doloro::UIEngine2']]],
-  ['workspacealreadysplittedexception_13',['WorkspaceAlreadySplittedException',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_workspace_already_splitted_exception.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
-  ['workspacelayout_14',['WorkspaceLayout',['../class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html',1,'Doloro::UIEngine2']]]
+  ['windowuicontrollereditor_13',['WindowUIControllerEditor',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html',1,'Doloro::UIEngine2']]],
+  ['workspacealreadysplittedexception_14',['WorkspaceAlreadySplittedException',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_workspace_already_splitted_exception.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
+  ['workspacelayout_15',['WorkspaceLayout',['../class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html',1,'Doloro::UIEngine2']]]
 ];

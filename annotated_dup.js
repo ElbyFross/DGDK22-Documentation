@@ -640,11 +640,14 @@ var annotated_dup =
         [ "AClampedWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider" ],
         [ "AFreespaceLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller" ],
         [ "AGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element" ],
+        [ "AGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor" ],
+        [ "AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor" ],
         [ "AGUIField", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_field.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_field" ],
         [ "AWindowLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller" ],
         [ "AWorkspaceGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element" ],
         [ "AWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider" ],
         [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_constants.html", "class_doloro_1_1_u_i_engine2_1_1_constants" ],
+        [ "GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor" ],
         [ "GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info" ],
         [ "IClampedSizeLayout", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout" ],
         [ "IContentInspector", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector" ],
@@ -659,6 +662,7 @@ var annotated_dup =
         [ "WindowResizeController", "class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html", "class_doloro_1_1_u_i_engine2_1_1_window_resize_controller" ],
         [ "WindowStateController", "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html", "class_doloro_1_1_u_i_engine2_1_1_window_state_controller" ],
         [ "WindowUIController", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller" ],
+        [ "WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor" ],
         [ "WorkspaceLayout", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html", "class_doloro_1_1_u_i_engine2_1_1_workspace_layout" ]
       ] ]
     ] ],

@@ -5,6 +5,10 @@ var class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout =
     [ "DrawGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#ae6aa2a3767098f4112c740cd03e8822a", null ],
     [ "DrawGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#aa917cc0703de369efeda9b9b17aa6e55", null ],
     [ "DrawSplitter", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a34c54e6d9110f5946573de65aea8bce5", null ],
+    [ "DrawSubGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#afb0abb82c2c5992db8fe17b9b333ce22", null ],
+    [ "DrawSubGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a7927603565471af27939c52a35b0ece9", null ],
+    [ "DrawSubGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a84e69e77261e345dec7325ac9896da38", null ],
+    [ "DrawSubGroupHeader", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#aba17ed3ea448808733c0cd54fb0b0aac", null ],
     [ "DrawTooltip", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#aaa71e92e6b79c75d9b1f15b9dd97c9c0", null ],
     [ "LayerMaskField", "class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a5606fa635a953a788783b6a0854000f9", null ]
 ];

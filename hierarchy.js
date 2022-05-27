@@ -387,6 +387,12 @@ var hierarchy =
         [ "Doloro.DataManagement.DynamicResources.Modules.PatchTool.Stanadard.RemoveComponentPatchOrderEditor", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1_stanadard_f80b5bb22b152293c2f0bc36c75563fe.html", null ]
       ] ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.EditableTagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html", null ],
+      [ "Doloro.UIEngine2.AGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html", [
+        [ "Doloro.UIEngine2.AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor.html", [
+          [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", null ]
+        ] ],
+        [ "Doloro.UIEngine2.WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", null ]
+      ] ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ]
     ] ],
     [ "Doloro.EditorConfiguration.EditorConstants", "class_doloro_1_1_editor_configuration_1_1_editor_constants.html", null ],
