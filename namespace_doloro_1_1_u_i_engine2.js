@@ -1,7 +1,6 @@
 var namespace_doloro_1_1_u_i_engine2 =
 [
     [ "Controls", "namespace_doloro_1_1_u_i_engine2_1_1_controls.html", "namespace_doloro_1_1_u_i_engine2_1_1_controls" ],
-    [ "DEVTOOLS", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s.html", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s" ],
     [ "Modules", "namespace_doloro_1_1_u_i_engine2_1_1_modules.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules" ],
     [ "AClampedWorkspaceProvider", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html", "class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider" ],
     [ "AFreespaceLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller" ],

@@ -14,6 +14,5 @@ var searchData=
   ['windowstatecontroller_11',['WindowStateController',['../class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html',1,'Doloro::UIEngine2']]],
   ['windowuicontroller_12',['WindowUIController',['../class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html',1,'Doloro::UIEngine2']]],
   ['workspacealreadysplittedexception_13',['WorkspaceAlreadySplittedException',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_workspace_already_splitted_exception.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
-  ['workspacelayout_14',['WorkspaceLayout',['../class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html',1,'Doloro::UIEngine2']]],
-  ['workspacelogger_15',['WorkspaceLogger',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_workspace_logger.html',1,'Doloro::UIEngine2::DEVTOOLS']]]
+  ['workspacelayout_14',['WorkspaceLayout',['../class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html',1,'Doloro::UIEngine2']]]
 ];

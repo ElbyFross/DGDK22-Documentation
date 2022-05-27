@@ -15,12 +15,11 @@ var searchData=
   ['defaultassetpropertyteditor_12',['DefaultAssetPropertytEditor',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_default_asset_propertyt_editor.html',1,'Doloro::DataManagement::AssetPropertiesSystem']]],
   ['defaultpropertiestab_13',['DefaultPropertiesTab',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_default_properties_tab.html',1,'Doloro::AI::DAIInspector']]],
   ['demodrrequester_14',['DemoDRRequester',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_examples_1_1_demo_d_r_requester.html',1,'Doloro::DataManagement::DynamicResources::Examples']]],
-  ['dependenciesloger_15',['DependenciesLoger',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html',1,'Doloro::UIEngine2::DEVTOOLS']]],
-  ['dependentfilteredsensor_16',['DependentFilteredSensor',['../class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html',1,'Doloro::Sensors']]],
-  ['doloroeditorguilayout_17',['DoloroEditorGUILayout',['../class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html',1,'Doloro::EditorExtension']]],
-  ['drsign_18',['DRSign',['../struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database_1_1_d_r_sign.html',1,'Doloro::DataManagement::DynamicResources::DynamicResourcesDatabase']]],
-  ['dynamicresource_19',['DynamicResource',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html',1,'Doloro::DataManagement::DynamicResources']]],
-  ['dynamicresourceeditor_20',['DynamicResourceEditor',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource_editor.html',1,'Doloro::DataManagement::DynamicResources']]],
-  ['dynamicresourcesdatabase_21',['DynamicResourcesDatabase',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html',1,'Doloro::DataManagement::DynamicResources']]],
-  ['dynamicresourcesloader_22',['DynamicResourcesLoader',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html',1,'Doloro::DataManagement::AssetBundlesTools']]]
+  ['dependentfilteredsensor_15',['DependentFilteredSensor',['../class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html',1,'Doloro::Sensors']]],
+  ['doloroeditorguilayout_16',['DoloroEditorGUILayout',['../class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html',1,'Doloro::EditorExtension']]],
+  ['drsign_17',['DRSign',['../struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database_1_1_d_r_sign.html',1,'Doloro::DataManagement::DynamicResources::DynamicResourcesDatabase']]],
+  ['dynamicresource_18',['DynamicResource',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html',1,'Doloro::DataManagement::DynamicResources']]],
+  ['dynamicresourceeditor_19',['DynamicResourceEditor',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource_editor.html',1,'Doloro::DataManagement::DynamicResources']]],
+  ['dynamicresourcesdatabase_20',['DynamicResourcesDatabase',['../class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html',1,'Doloro::DataManagement::DynamicResources']]],
+  ['dynamicresourcesloader_21',['DynamicResourcesLoader',['../class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_dynamic_resources_loader.html',1,'Doloro::DataManagement::AssetBundlesTools']]]
 ];

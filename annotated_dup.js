@@ -569,26 +569,10 @@ var annotated_dup =
           [ "AContentInspectorExtension", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension" ],
           [ "AContentInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element" ],
           [ "AExtandableInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element" ],
-          [ "EmptyGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_empty_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_empty_g_u_i_element" ],
           [ "MeasuredSliderGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element" ],
           [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element" ],
+          [ "RectGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element" ],
           [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller" ]
-        ] ],
-        [ "DEVTOOLS", "namespace_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s.html", [
-          [ "DependenciesLoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_dependencies_loger" ],
-          [ "ElementsCollectionTester", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_elements_collection_tester" ],
-          [ "GUILoger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html", null ],
-          [ "LayoutSearcher", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_searcher" ],
-          [ "LayoutUpdateLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_layout_update_logger.html", null ],
-          [ "NonSplittedBackgroound", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_non_splitted_backgroound.html", null ],
-          [ "PointerAABB", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_pointer_a_a_b_b.html", null ],
-          [ "SearchTarget", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_search_target.html", null ],
-          [ "SelectionHubListener", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_selection_hub_listener.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_selection_hub_listener" ],
-          [ "SetScreenRect", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_set_screen_rect.html", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_set_screen_rect" ],
-          [ "VirtualChildSearchDebuger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_child_search_debuger.html", null ],
-          [ "VirtualHierarchyChildChecker", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_child_checker.html", null ],
-          [ "VirtualHierarchyViewer", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_virtual_hierarchy_viewer.html", null ],
-          [ "WorkspaceLogger", "class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_workspace_logger.html", null ]
         ] ],
         [ "Modules", "namespace_doloro_1_1_u_i_engine2_1_1_modules.html", [
           [ "Context", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context.html", [

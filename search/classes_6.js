@@ -26,6 +26,5 @@ var searchData=
   ['guicollectionuihublistener_23',['GUICollectionUIHubListener',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html',1,'Doloro::UIEngine2::Modules::VirtualHub::Extensions::ElementsCollection']]],
   ['guielementhighlighter_24',['GUIElementHighlighter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html',1,'Doloro::UIEngine2::Modules::ElementsCollection']]],
   ['guielementruntimeregister_25',['GUIElementRuntimeRegister',['../class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html',1,'Doloro::UIEngine2::AGUIElement']]],
-  ['guiinfo_26',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]],
-  ['guiloger_27',['GUILoger',['../class_doloro_1_1_u_i_engine2_1_1_d_e_v_t_o_o_l_s_1_1_g_u_i_loger.html',1,'Doloro::UIEngine2::DEVTOOLS']]]
+  ['guiinfo_26',['GUIInfo',['../class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html',1,'Doloro::UIEngine2']]]
 ];
