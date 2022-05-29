@@ -93,14 +93,14 @@ $(document).ready(function(){initNavTree('class_doloro_1_1_u_i_engine2_1_1_modul
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Looking for the <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a> among resources via the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_resources_manager.html" title="Provides common API for handling resources.">DataManagement.DynamicResources.ResourcesManager</a>. </p>
-<p >The window must has <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ...">DataManagement.DynamicResources.DynamicResource</a> component at the prefab. </p>
+<div class="textblock"><p >Looking for the <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a> among resources via the ResourcesManager. </p>
+<p >The window must has DynamicResource component at the prefab. </p>
 </div><div class="dynheader">
 Inheritance diagram for Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResources:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources__inherit__graph.png" border="0" usemap="#a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_inherit__map" id="a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_inherit__map">
-<area shape="rect" title="Looking for the Window among resources via the DataManagement.DynamicResources.ResourcesManager." alt="" coords="5,80,252,136"/>
+<area shape="rect" title="Looking for the Window among resources via the ResourcesManager." alt="" coords="5,80,252,136"/>
 <area shape="rect" title=" " alt="" coords="73,5,184,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -109,31 +109,22 @@ Collaboration diagram for Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFr
 <div class="dyncontent">
 <div class="center"><img src="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources__coll__graph.png" border="0" usemap="#a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_coll__map" alt="Collaboration graph"/></div>
 <map name="a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_coll__map" id="a_doloro_8_u_i_engine2_8_modules_8_runtime_workspace_8_bond_window_from_resources_coll__map">
-<area shape="rect" title="Looking for the Window among resources via the DataManagement.DynamicResources.ResourcesManager." alt="" coords="5,80,252,136"/>
+<area shape="rect" title="Looking for the Window among resources via the ResourcesManager." alt="" coords="5,80,252,136"/>
 <area shape="rect" title=" " alt="" coords="73,5,184,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad1d4ac22d284527b08af217a7bed7952"><td class="memItemLeft" align="right" valign="top"><a id="ad1d4ac22d284527b08af217a7bed7952" name="ad1d4ac22d284527b08af217a7bed7952"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>bundle</b></td></tr>
-<tr class="memdesc:ad1d4ac22d284527b08af217a7bed7952"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a> resource bundle. <br /></td></tr>
-<tr class="separator:ad1d4ac22d284527b08af217a7bed7952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e3b7050c0e8ecd26275fcbfb8851e8"><td class="memItemLeft" align="right" valign="top"><a id="a13e3b7050c0e8ecd26275fcbfb8851e8" name="a13e3b7050c0e8ecd26275fcbfb8851e8"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>key</b></td></tr>
-<tr class="memdesc:a13e3b7050c0e8ecd26275fcbfb8851e8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a> asset key. <br /></td></tr>
-<tr class="separator:a13e3b7050c0e8ecd26275fcbfb8851e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1361520ea4ad3355b5c157e0ed44dab9"><td class="memItemLeft" align="right" valign="top"><a id="a1361520ea4ad3355b5c157e0ed44dab9" name="a1361520ea4ad3355b5c157e0ed44dab9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>forceRectFolowing</b> = true</td></tr>
-<tr class="memdesc:a1361520ea4ad3355b5c157e0ed44dab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true the will force the window to follow screen space of the layout rect. <br /></td></tr>
-<tr class="separator:a1361520ea4ad3355b5c157e0ed44dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1574e4283e386c1fa54fd597812304"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html#a3b1574e4283e386c1fa54fd597812304">bundle</a> = null</td></tr>
+<tr class="memdesc:a3b1574e4283e386c1fa54fd597812304"><td class="mdescLeft">&#160;</td><td class="mdescRight">DynamicResource signature to search as a loading <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a>.  <a href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html#a3b1574e4283e386c1fa54fd597812304">More...</a><br /></td></tr>
+<tr class="separator:a3b1574e4283e386c1fa54fd597812304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa709ed07edfe331323a1ba5469e952e3"><td class="memItemLeft" align="right" valign="top"><a id="aa709ed07edfe331323a1ba5469e952e3" name="aa709ed07edfe331323a1ba5469e952e3"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="memdesc:aa709ed07edfe331323a1ba5469e952e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling the window instance via the <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html" title="Database of DynamicResources. During loading at the collections resources passing through^">DataManagement.DynamicResources.DynamicResourcesDatabase</a> API. <br /></td></tr>
+<tr class="memdesc:aa709ed07edfe331323a1ba5469e952e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling the window instance via the DynamicResourcesDatabase API. <br /></td></tr>
 <tr class="separator:aa709ed07edfe331323a1ba5469e952e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad385377343d83a1c149cc088408e1f13"><td class="memItemLeft" align="right" valign="top"><a id="ad385377343d83a1c149cc088408e1f13" name="ad385377343d83a1c149cc088408e1f13"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
@@ -153,11 +144,36 @@ Properties</h2></td></tr>
 <tr class="memitem:a09bd7dfd8abe6f926b485048ca608858"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html#a09bd7dfd8abe6f926b485048ca608858">WorkspaceKey</a><code> [get]</code></td></tr>
 <tr class="memdesc:a09bd7dfd8abe6f926b485048ca608858"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key of workspace layout that will be bond to the window instance.  <a href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html#a09bd7dfd8abe6f926b485048ca608858">More...</a><br /></td></tr>
 <tr class="separator:a09bd7dfd8abe6f926b485048ca608858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10afa3865efe117198e699354356a7b"><td class="memItemLeft" align="right" valign="top"><a id="ae10afa3865efe117198e699354356a7b" name="ae10afa3865efe117198e699354356a7b"></a>
+string string key&#160;</td><td class="memItemRight" valign="bottom"><b>WindowSignature</b><code> [get]</code></td></tr>
+<tr class="separator:ae10afa3865efe117198e699354356a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26da8878c14b48f26ebe4a818d5eb4f6"><td class="memItemLeft" align="right" valign="top"><a id="a26da8878c14b48f26ebe4a818d5eb4f6" name="a26da8878c14b48f26ebe4a818d5eb4f6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ForceRectFolowing</b><code> [get]</code></td></tr>
+<tr class="memdesc:a26da8878c14b48f26ebe4a818d5eb4f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true the will force the window to follow screen space of the layout rect. <br /></td></tr>
+<tr class="separator:a26da8878c14b48f26ebe4a818d5eb4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef29e8550a69d157ecbdaea706f3f35"><td class="memItemLeft" align="right" valign="top"><a id="afef29e8550a69d157ecbdaea706f3f35" name="afef29e8550a69d157ecbdaea706f3f35"></a>
 <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html">RuntimeWorkspaceLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BondLayout</b><code> [get]</code></td></tr>
 <tr class="memdesc:afef29e8550a69d157ecbdaea706f3f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to operating layout. <br /></td></tr>
 <tr class="separator:afef29e8550a69d157ecbdaea706f3f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3b1574e4283e386c1fa54fd597812304" name="a3b1574e4283e386c1fa54fd597812304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1574e4283e386c1fa54fd597812304">&#9670;&nbsp;</a></span>bundle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResources.bundle = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DynamicResource signature to search as a loading <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a>. </p>
+<p ><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Window</a> resource bundle. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a09bd7dfd8abe6f926b485048ca608858" name="a09bd7dfd8abe6f926b485048ca608858"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09bd7dfd8abe6f926b485048ca608858">&#9670;&nbsp;</a></span>WorkspaceKey</h2>

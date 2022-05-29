@@ -6,6 +6,5 @@ var namespace_doloro_1_1_u_i_engine2_1_1_modules =
     [ "Palettes", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes" ],
     [ "RuntimeWorkspace", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace" ],
     [ "Tabs", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs" ],
-    [ "VirtualHub", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub" ],
-    [ "InputManager", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager" ]
+    [ "VirtualHub", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub.html", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub" ]
 ];

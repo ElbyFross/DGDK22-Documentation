@@ -1,11 +1,6 @@
 <map id="Doloro.UIEngine2.AWindowLayoutController" name="Doloro.UIEngine2.AWindowLayoutController">
-<area shape="rect" id="node1" title="An abstract class that implement base background features for handling window layout." alt="" coords="1016,145,1197,186"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="539,199,725,225"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="165,192,267,219"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module." alt="" coords="332,5,499,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,192,116,219"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes." alt="" coords="749,107,921,133"/>
-<area shape="rect" id="node7" href="$interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html" title="Declares members for classes that could be part of complex multi&#45;layer windows register." alt="" coords="316,56,515,83"/>
-<area shape="rect" id="node8" href="$interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html" title="Interface that declares API for GUI roots." alt="" coords="359,107,471,133"/>
-<area shape="rect" id="node9" href="$interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html" title="Declares properties required for layouts with a limited size values." alt="" coords="345,157,486,184"/>
+<area shape="rect" id="node1" title="An abstract class that implement base background features for handling window layout." alt="" coords="8,229,189,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html" title="Layout controller that allows to operate GUI element in free space." alt="" coords="5,155,192,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="48,80,149,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="43,5,154,32"/>
 </map>

@@ -1,0 +1,4 @@
+<map id="Doloro.UIEngine2.InputManager" name="Doloro.UIEngine2.InputManager">
+<area shape="rect" id="node1" title="Manager that filtering input by axises to prevent smooth user&#45;friendly experience." alt="" coords="5,80,209,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="52,5,163,32"/>
+</map>

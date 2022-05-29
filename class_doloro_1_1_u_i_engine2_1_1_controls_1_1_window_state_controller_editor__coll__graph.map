@@ -1,0 +1,5 @@
+<map id="Doloro.UIEngine2.Controls.WindowStateControllerEditor" name="Doloro.UIEngine2.Controls.WindowStateControllerEditor">
+<area shape="rect" id="node1" title="Custom editor for the WindowStateController component." alt="" coords="5,155,193,196"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="32,80,167,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="71,5,127,32"/>
+</map>

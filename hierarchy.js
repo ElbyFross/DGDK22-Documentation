@@ -394,6 +394,9 @@ var hierarchy =
         [ "Doloro.UIEngine2.Controls.MeasuredSliderGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.MeasuredSliderLabelGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.TooltipGUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller_editor.html", null ],
+        [ "Doloro.UIEngine2.Controls.WindowDragControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_drag_controller_editor.html", null ],
+        [ "Doloro.UIEngine2.Controls.WindowResizeControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_resize_controller_editor.html", null ],
+        [ "Doloro.UIEngine2.Controls.WindowStateControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_state_controller_editor.html", null ],
         [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", [
           [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", [
             [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayoutEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html", null ]
@@ -402,8 +405,11 @@ var hierarchy =
         [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceSplitterEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor.html", null ],
         [ "Doloro.UIEngine2.WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", null ]
       ] ],
+      [ "Doloro.UIEngine2.InputManagerEditor", "class_doloro_1_1_u_i_engine2_1_1_input_manager_editor.html", null ],
+      [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResourcesEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources_editor.html", null ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ],
-      [ "Doloro.UIEngine2.Modules.VirtualHub.VirtualUIHubEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub_editor.html", null ]
+      [ "Doloro.UIEngine2.Modules.VirtualHub.VirtualUIHubEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub_editor.html", null ],
+      [ "Doloro.UIEngine2.PointerHandlerEditor", "class_doloro_1_1_u_i_engine2_1_1_pointer_handler_editor.html", null ]
     ] ],
     [ "Doloro.EditorConfiguration.EditorConstants", "class_doloro_1_1_editor_configuration_1_1_editor_constants.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.EditorStyles", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_editor_styles.html", null ],
@@ -788,10 +794,10 @@ var hierarchy =
       [ "Doloro.UIEngine2.AGUIElement.GUIElementRuntimeRegister", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_1_1_g_u_i_element_runtime_register.html", null ],
       [ "Doloro.UIEngine2.Controls.AContentInspectorExtension< ContentType >", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html", null ],
       [ "Doloro.UIEngine2.GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", null ],
+      [ "Doloro.UIEngine2.InputManager", "class_doloro_1_1_u_i_engine2_1_1_input_manager.html", null ],
       [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< SourceType, GUIElementType >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", null ],
       [ "Doloro.UIEngine2.Modules.Graphs.ConnectionsVisualizer", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_connections_visualizer.html", null ],
       [ "Doloro.UIEngine2.Modules.Graphs.Demo.LineClusterDemo", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_demo_1_1_line_cluster_demo.html", null ],
-      [ "Doloro.UIEngine2.Modules.InputManager", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager.html", null ],
       [ "Doloro.UIEngine2.Modules.Palettes.PaletteColorPicker", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html", null ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResources", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html", null ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayout.RuntimeWorkspaceLayoutRegister", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df.html", null ],

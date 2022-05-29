@@ -3,6 +3,7 @@ var namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace =
     [ "AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor" ],
     [ "AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor" ],
     [ "BondWindowFromResources", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources" ],
+    [ "BondWindowFromResourcesEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources_editor.html", null ],
     [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_constants.html", null ],
     [ "IClampedSizeLayoutAPI", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_i_clamped_size_layout_a_p_i.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_i_clamped_size_layout_a_p_i" ],
     [ "RuntimeWorkspaceLayout", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout" ],
