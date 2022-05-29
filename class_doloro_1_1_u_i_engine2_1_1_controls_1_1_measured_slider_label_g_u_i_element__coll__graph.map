@@ -1,5 +1,5 @@
 <map id="Doloro.UIEngine2.Controls.MeasuredSliderLabelGUIElement" name="Doloro.UIEngine2.Controls.MeasuredSliderLabelGUIElement">
 <area shape="rect" id="node1" title="GUI controller that handles measure label connected to the MeasuredSliderGUIElement." alt="" coords="5,155,219,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="28,80,196,107"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="61,80,163,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="57,5,167,32"/>
 </map>

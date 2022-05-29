@@ -114,25 +114,25 @@ Runtime part implementation</h1>
 <div class="line">    {</div>
 <div class="line">        // Some variable defined for the node instance.</div>
 <div class="line">        public string STR_VAR_0 = &quot;&quot;;</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">        // Some variable defined for the node instance.</div>
 <div class="line">        public int INT_VAR_0 = 0;</div>
 <div class="line"> </div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">        /// &lt;summary&gt;</div>
 <div class="line">        /// Calling one time when AI initializing.</div>
 <div class="line">        /// &lt;/summary&gt;</div>
 <div class="line">        /// &lt;param name=&quot;ai&quot;&gt;Source AI entity.&lt;/param&gt;</div>
 <div class="line">        public override void Init(Brain ai)</div>
-<div class="line">        { </div>
+<div class="line">        {</div>
 <div class="line">            base.Init(ai);</div>
-<div class="line">            </div>
+<div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">            // Initialise anythig you need here.</div>
 <div class="line">            // That handler will be called when the node instnace will be created.</div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">        }</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">        /// &lt;summary&gt;</div>
 <div class="line">        /// Implements runtime execution logic for the logical node.</div>
 <div class="line">        /// &lt;/summary&gt;</div>
@@ -143,25 +143,25 @@ Runtime part implementation</h1>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">            // Do something that shoul affect the world of character itself here.</div>
 <div class="line">            // ------------------------------------------------------------------</div>
-<div class="line">            </div>
+<div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">            // Conclude the result of operation.</div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">            return Result.Success;</div>
 <div class="line">        }</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">        /// &lt;summary&gt;</div>
 <div class="line">        /// Occurs when action execution is ended.</div>
-<div class="line">        /// Calls each time the node got an explicit result as a </div>
+<div class="line">        /// Calls each time the node got an explicit result as a</div>
 <div class="line">        /// &lt;see cref=&quot;Result.Success&quot;/&gt; or &lt;see cref=&quot;Result.Fail&quot;/&gt;</div>
 <div class="line">        /// &lt;/summary&gt;</div>
 <div class="line">        /// &lt;param name=&quot;ai&quot;&gt;Source AI entity.&lt;/param&gt;</div>
 <div class="line">        public override void End(Brain ai)</div>
 <div class="line">        {</div>
 <div class="line">            base.End(ai);</div>
-<div class="line">            </div>
+<div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
-<div class="line">            // Use to release session data outside the mode loosed its purpose </div>
+<div class="line">            // Use to release session data outside the mode loosed its purpose</div>
 <div class="line">            // till a next action call.         </div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">        }   </div>
@@ -179,7 +179,7 @@ Editor part implementation</h1>
 <p >Following example implements simple editor for the <code>YOUR_NODE_NAME</code> <code>Action</code> implemented at previous section.</p>
 <div class="fragment"><div class="line">namespace Doloro.AI.YOUR_MODULE_NAMESPACE</div>
 <div class="line">{</div>
-<div class="line">    // Editor class that will be used for the `YOUR_NODE_NAME` instances.   </div>
+<div class="line">    // Editor class that will be used for the `YOUR_NODE_NAME` instances.</div>
 <div class="line">    [CustomActionEditor(typeof(YOUR_NODE_NAME))]</div>
 <div class="line">    public class YOUR_NODE_NAME_Editor : ActionEditor</div>
 <div class="line">    {</div>
@@ -188,39 +188,39 @@ Editor part implementation</h1>
 <div class="line">        /// &lt;/summary&gt;</div>
 <div class="line">        /// &lt;param name=&quot;action&quot;&gt;Source action.&lt;/param&gt;</div>
 <div class="line">        /// &lt;param name=&quot;ai&quot;&gt;Source entity.&lt;/param&gt;</div>
-<div class="line">        public override void OnGUI(Action action, Brain ai) </div>
+<div class="line">        public override void OnGUI(Action action, Brain ai)</div>
 <div class="line">        {           </div>
 <div class="line">            var self = action as YOUR_NODE_NAME;</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">            // ---------------------------------------------------</div>
 <div class="line">            // Implement your cusom UI here.</div>
 <div class="line">            // ---------------------------------------------------</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">            // EXAMPLE ------------------------------------------</div>
-<div class="line">            </div>
+<div class="line"> </div>
 <div class="line">            // Providing access to the STR_VAR_0 at the origin.</div>
 <div class="line">            self.STR_VAR_0 = EditorGUILayout.TextField(</div>
 <div class="line">                new GUIContent(&quot;Text variable&quot;),</div>
 <div class="line">                self.STR_VAR_0);</div>
-<div class="line">            </div>
+<div class="line"> </div>
 <div class="line">            // Providing access to the INT_VAR_0 at the origin.</div>
 <div class="line">            self.INT_VAR_0 = EditorGUILayout.IntField(</div>
 <div class="line">                new GUIContent(&quot;Int variable&quot;),</div>
 <div class="line">                self.INT_VAR_0);</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">            // ---------------------------------------------------</div>
 <div class="line"> </div>
 <div class="line">        }</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">        /// &lt;summary&gt;</div>
 <div class="line">        /// Draws the custom interface in debug tab.</div>
 <div class="line">        /// &lt;/summary&gt;</div>
 <div class="line">        /// &lt;param name=&quot;action&quot;&gt;Source action.&lt;/param&gt;</div>
 <div class="line">        /// &lt;param name=&quot;ai&quot;&gt;Source entity.&lt;/param&gt;</div>
-<div class="line">        public override void DebugGUI(Action action, Brain ai) </div>
+<div class="line">        public override void DebugGUI(Action action, Brain ai)</div>
 <div class="line">        {</div>
 <div class="line">            var self = action as YOUR_NODE_NAME;</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">            // ---------------------------------------------------</div>
 <div class="line">            // Implement your cusom GUI UI here.</div>
 <div class="line">            // ---------------------------------------------------          </div>

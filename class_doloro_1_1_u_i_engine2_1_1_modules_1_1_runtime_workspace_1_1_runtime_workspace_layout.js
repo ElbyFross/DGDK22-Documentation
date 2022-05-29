@@ -2,8 +2,8 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_w
 [
     [ "RuntimeWorkspaceLayoutRegister", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df" ],
     [ "InitSplitValueSourceOptions", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a052f07bad61490979ca18f02a6098dd5", [
-      [ "Value", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a052f07bad61490979ca18f02a6098dd5a689202409e48743b914713f96d93947c", null ],
-      [ "SplitterPosition", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a052f07bad61490979ca18f02a6098dd5a15c9c63a5e1b0a2625b49fede10e7647", null ]
+      [ "Manual", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a052f07bad61490979ca18f02a6098dd5ae1ba155a9f2e8c3be94020eef32a0301", null ],
+      [ "SplitterTransform", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a052f07bad61490979ca18f02a6098dd5aa8007c4f95c36ff70824e16063864a54", null ]
     ] ],
     [ "ReleaseOrderOptions", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edb", [
       [ "ContentDrop", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa5875b8c61ffc054ad8fd305f8107edbad9c7f9c6f0888c70e0ff839a827158ea", null ],
@@ -31,7 +31,7 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_w
       [ "FirstFixed", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a5127a4133b94d0e36df912f6d57d753fa4c7688a0ecfad4e72c4ecadbcf529a55", null ],
       [ "SecondFixed", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a5127a4133b94d0e36df912f6d57d753fa2cd57782ef99b3e0277e17407573388c", null ]
     ] ],
-    [ "Awake", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#adc138755ef2789997f42bbacca2e88a1", null ],
+    [ "Awake", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a5b811b387eaf67319b7dab7a3e06ea83", null ],
     [ "CallClick", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aba32a2e9897ba9cd4f3f540085bb9917", null ],
     [ "CallContextMenu", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a2a57ac6d1c4496bb80703004a7dc68e0", null ],
     [ "DetectBounds", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#ad74423a952b40043043dba0663c1f575", null ],
@@ -60,7 +60,6 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_w
     [ "MoveSplitterUpOn", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#ae6cd40a65657044ce950f0464a6b430e", null ],
     [ "OnClampedSizeChanged", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#ae59fc429edab0f34433e5e58a1e92e8e", null ],
     [ "OnContextMenu", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a5e0f6b6d5b2ead001ebb0886e894b195", null ],
-    [ "OnDefaultSet", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a70d8cafcd8999bc25153f4e9f02ea54b", null ],
     [ "OnDestroy", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a17f9456447afbe0c885f8cf4b71fb740", null ],
     [ "OnDisable", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aa1b8c13c66d9f23c201f4b815e6f3d8b", null ],
     [ "OnDrag", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a8b2c70b0fc680ef03ea9a5ac82daf68a", null ],
@@ -73,6 +72,7 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_w
     [ "OnHoverBegin", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a710453427cdc0152713082dd46cf0663", null ],
     [ "OnHoverEnd", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a4fec898729635ce1bab5075c9912a8d7", null ],
     [ "OnInput", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a232cd741726a4fefc49ba86a57904b79", null ],
+    [ "OnIntialization", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a438dc8ea5ab1308a654abd17e95b4aed", null ],
     [ "OnLayoutConfigurationChanged", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a299ffbbd80690b3a136561c4bb376871", null ],
     [ "OnLostFocus", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a2616239f763974a5426e60c98da4a36b", null ],
     [ "OnMoved", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#ae63d7ffd5f61620bc2d1514a1b105bc2", null ],
@@ -98,13 +98,6 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_w
     [ "Split", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a129276edd83b5b9d3c41ffd029b51e6d", null ],
     [ "Split", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a44a6dc9dafe2f333c88873444525715f", null ],
     [ "Unfocus", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a7289c8b975cfd8e93d85ed4438eb36e8", null ],
-    [ "content", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#af273887a356d095292f1a6deb24b0c74", null ],
-    [ "initFirstSubWorkspace", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a325117cd422ba75c79869bce7ac26915", null ],
-    [ "initSecondSubWorkspace", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a7233f3c0049aad436e94a299f4c5eddf", null ],
-    [ "initSplitDirectionOrder", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a3de0f9c0321da3177489529d3fcfb0f4", null ],
-    [ "initSplitType", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a7f6bbe2e7483f6ac58ae176cc2804891", null ],
-    [ "initSplitValue", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a3f7dec216868c349356e1e0287a339a5", null ],
-    [ "initValueSource", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a31b86abf10a50a8c019299a775f84712", null ],
     [ "SafeBounds", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#aed737b710f37869418df4a00d47ba7c6", null ],
     [ "ActiveContent", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a959d9586f7efbd18be0c2de550baf434", null ],
     [ "BondRectTransform", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a45e66a47754c4e04c84cb1dd7dd4519b", null ],

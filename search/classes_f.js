@@ -30,6 +30,8 @@ var searchData=
   ['runtimeconstants_27',['RuntimeConstants',['../class_doloro_1_1_editor_configuration_1_1_runtime_constants.html',1,'Doloro::EditorConfiguration']]],
   ['runtimetypesbinder_28',['RuntimeTypesBinder',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_runtime_types_binder.html',1,'Doloro::AI::DAIDebugger::PatchingTool::AssemblyPatchingTool']]],
   ['runtimeworkspacelayout_29',['RuntimeWorkspaceLayout',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
-  ['runtimeworkspacelayoutregister_30',['RuntimeWorkspaceLayoutRegister',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
-  ['runtimeworkspacesplitter_31',['RuntimeWorkspaceSplitter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]]
+  ['runtimeworkspacelayouteditor_30',['RuntimeWorkspaceLayoutEditor',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
+  ['runtimeworkspacelayoutregister_31',['RuntimeWorkspaceLayoutRegister',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
+  ['runtimeworkspacesplitter_32',['RuntimeWorkspaceSplitter',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]],
+  ['runtimeworkspacesplittereditor_33',['RuntimeWorkspaceSplitterEditor',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor.html',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace']]]
 ];

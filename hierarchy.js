@@ -391,9 +391,19 @@ var hierarchy =
         [ "Doloro.UIEngine2.AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor.html", [
           [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", null ]
         ] ],
+        [ "Doloro.UIEngine2.Controls.MeasuredSliderGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element_editor.html", null ],
+        [ "Doloro.UIEngine2.Controls.MeasuredSliderLabelGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element_editor.html", null ],
+        [ "Doloro.UIEngine2.Controls.TooltipGUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller_editor.html", null ],
+        [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", [
+          [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", [
+            [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayoutEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html", null ]
+          ] ]
+        ] ],
+        [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceSplitterEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor.html", null ],
         [ "Doloro.UIEngine2.WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", null ]
       ] ],
-      [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ]
+      [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ],
+      [ "Doloro.UIEngine2.Modules.VirtualHub.VirtualUIHubEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub_editor.html", null ]
     ] ],
     [ "Doloro.EditorConfiguration.EditorConstants", "class_doloro_1_1_editor_configuration_1_1_editor_constants.html", null ],
     [ "Doloro.AI.DAIDebugger.PatchingTool.EditorStyles", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_editor_styles.html", null ],

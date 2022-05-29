@@ -235,18 +235,18 @@ Reading</h4>
 <div class="fragment"><div class="line">// Checking that the var exists in the memory pool.</div>
 <div class="line">if (!AI_INSTANCE.memory.Exists(VAR_NAME))</div>
 <div class="line">{</div>
-<div class="line">    // Variable not found. </div>
+<div class="line">    // Variable not found.</div>
 <div class="line">    // Considering `Action` execution as failed.</div>
 <div class="line">    return Result.Fail;</div>
 <div class="line">}</div>
-<div class="line">                </div>
+<div class="line"> </div>
 <div class="line">// Reading variable from the memory.</div>
 <div class="line">var VAR_INSTANCE = AI_INSTANCE.memory.Read(VAR_NAME);</div>
 <div class="line"> </div>
 <div class="line">// Validating received var by its type.</div>
 <div class="line">if(!(VAR_INSTANCE.value is EXPECTED_TYPE castedVar))</div>
 <div class="line">{</div>
-<div class="line">    // Variable has unexpected type. </div>
+<div class="line">    // Variable has unexpected type.</div>
 <div class="line">    // Considering `Action` exeution as failed.</div>
 <div class="line">    return Result.Fail;</div>
 <div class="line">}</div>
@@ -280,35 +280,35 @@ Example</h2>
 <div class="line">    // Variables defined by user \ developer via public interface.</div>
 <div class="line">    public int      USER_DEFINED_VAR0;</div>
 <div class="line">    public float    USER_DEFINED_VAR1;</div>
-<div class="line">    </div>
+<div class="line"> </div>
 <div class="line">    // Internal system variables defined from within the script.</div>
 <div class="line">    protected int   SOURCE_DEFINED_VAR0;</div>
 <div class="line">    protected float SOURCE_DEFINED_VAR1;</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">    // Variables that will store our backed up data.</div>
 <div class="line">    // You may use any other more advanced way to backup settings,</div>
 <div class="line">    // current examples shows the simplest one.</div>
 <div class="line">    private int     USER_DEFINED_VAR0_BACKUP;</div>
 <div class="line">    private float   USER_DEFINED_VAR1_BACKUP;</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">    // Occurs when the action instance loaded to the virtual machine.</div>
 <div class="line">    public override void Init(Brain ai)</div>
 <div class="line">    {</div>
 <div class="line">        // Making backup of settings defied by AI developer.</div>
 <div class="line">        MakeUserSettingsBackup();</div>
 <div class="line">    }</div>
-<div class="line">    </div>
+<div class="line"> </div>
 <div class="line">    // Executive logic for the node.</div>
 <div class="line">    public override Result Pass(Brain ai)</div>
 <div class="line">    {</div>
 <div class="line">        // Executing logical node with affect of internal values.</div>
 <div class="line">        ....</div>
 <div class="line">        // ------------------------------------------------------</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">        // Concluding a result.</div>
 <div class="line">        return Result.Success;</div>
 <div class="line">    }</div>
-<div class="line">    </div>
+<div class="line"> </div>
 <div class="line">    // Handler calling when an Action/Order get</div>
 <div class="line">    // and explicit result like a Success or Fail.</div>
 <div class="line">    public override void End(Brain ai)</div>
@@ -316,28 +316,28 @@ Example</h2>
 <div class="line">        // Restoring default state of the node.</div>
 <div class="line">        SetDefaults();</div>
 <div class="line">    }        </div>
-<div class="line">    </div>
-<div class="line">        </div>
+<div class="line"> </div>
+<div class="line"> </div>
 <div class="line">    // Records user defined settings for continue backup.</div>
 <div class="line">    protected virtual void MakeUserSettingsBackup()</div>
 <div class="line">    {</div>
 <div class="line">        USER_DEFINED_VAR0_BACKUP = USER_DEFINED_VAR0;</div>
 <div class="line">        USER_DEFINED_VAR1_BACKUP = USER_DEFINED_VAR1;</div>
 <div class="line">    }</div>
-<div class="line">    </div>
+<div class="line"> </div>
 <div class="line">    // Writes back saved user defined data.</div>
 <div class="line">    protected virtual void RestoreUserSettingsBackup()</div>
 <div class="line">    {</div>
 <div class="line">        USER_DEFINED_VAR0 = USER_DEFINED_VAR0_BACKUP;</div>
 <div class="line">        USER_DEFINED_VAR1 = USER_DEFINED_VAR1_BACKUP;</div>
 <div class="line">    }</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">    // Drops the action to default state.</div>
 <div class="line">    protected virtual void SetDefaults()</div>
 <div class="line">    {</div>
 <div class="line">        // Restoring user defined values.</div>
 <div class="line">        RestoreUserSettingsBackup();</div>
-<div class="line">        </div>
+<div class="line"> </div>
 <div class="line">        // Restoring script defined values.</div>
 <div class="line">        SOURCE_DEFINED_VAR0 = 1;</div>
 <div class="line">        SOURCE_DEFINED_VAR1 = 1f;</div>

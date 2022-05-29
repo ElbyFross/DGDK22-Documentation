@@ -570,9 +570,12 @@ var annotated_dup =
           [ "AContentInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element" ],
           [ "AExtandableInspectorGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element" ],
           [ "MeasuredSliderGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element" ],
+          [ "MeasuredSliderGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element_editor.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element_editor" ],
           [ "MeasuredSliderLabelGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element" ],
+          [ "MeasuredSliderLabelGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element_editor.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element_editor" ],
           [ "RectGUIElement", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element" ],
-          [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller" ]
+          [ "TooltipGUIController", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller" ],
+          [ "TooltipGUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller_editor.html", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller_editor" ]
         ] ],
         [ "Modules", "namespace_doloro_1_1_u_i_engine2_1_1_modules.html", [
           [ "Context", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_context.html", [
@@ -608,11 +611,15 @@ var annotated_dup =
             [ "PaletteHandler", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_handler.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_handler" ]
           ] ],
           [ "RuntimeWorkspace", "namespace_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace.html", [
+            [ "AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor" ],
+            [ "AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor" ],
             [ "BondWindowFromResources", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources" ],
             [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_constants.html", null ],
             [ "IClampedSizeLayoutAPI", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_i_clamped_size_layout_a_p_i.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_i_clamped_size_layout_a_p_i" ],
             [ "RuntimeWorkspaceLayout", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout" ],
+            [ "RuntimeWorkspaceLayoutEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor" ],
             [ "RuntimeWorkspaceSplitter", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter" ],
+            [ "RuntimeWorkspaceSplitterEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor" ],
             [ "WindowAutoSizeClamp", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp" ],
             [ "WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ],
             [ "WorkspaceAlreadySplittedException", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_workspace_already_splitted_exception.html", null ]
@@ -633,7 +640,8 @@ var annotated_dup =
             [ "Constants", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_constants.html", null ],
             [ "UIHubEventRelay", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay" ],
             [ "UIHubListener", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener" ],
-            [ "VirtualUIHub", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub" ]
+            [ "VirtualUIHub", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub" ],
+            [ "VirtualUIHubEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub_editor.html", null ]
           ] ],
           [ "InputManager", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_input_manager" ]
         ] ],

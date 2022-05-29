@@ -1,0 +1,6 @@
+<map id="Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor" name="Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor">
+<area shape="rect" id="node1" title="Custom editor for the AClampedWorkspaceProvider component." alt="" coords="5,229,272,285"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html" title="Custom editor for the AWorkspaceProvider component." alt="" coords="50,155,227,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="71,80,206,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="111,5,167,32"/>
+</map>

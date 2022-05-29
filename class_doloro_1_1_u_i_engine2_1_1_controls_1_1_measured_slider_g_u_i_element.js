@@ -2,7 +2,7 @@ var class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element 
 [
     [ "OnLayoutChanged", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#a739832d87ecd74abbd08c018b976c533", null ],
     [ "OnValueChanged", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#a30722f6121f35c22593f22b4ab53aa0b", null ],
-    [ "HandleSlideArea", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#af9341037323ad7bd29fa6182c5983652", null ],
+    [ "HandleSlideArea", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#a22329c582614dec525c24e9c44ee10f7", null ],
     [ "MaxPoint", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#a6d447edb37f6ce636ee2b41b2c9f7522", null ],
     [ "maxValue", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#aa1ba27d89883e678f31414154eefc900", null ],
     [ "MinPoint", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element.html#a652464200c358e81750cf882ccdaec53", null ],
