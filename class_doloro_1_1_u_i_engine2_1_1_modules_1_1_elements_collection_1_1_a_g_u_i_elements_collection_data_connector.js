@@ -13,9 +13,9 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i
     [ "RemoveAt", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#af5d4c9f3db6d961c76c6351ddc985e20", null ],
     [ "Set", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a52f169c334e7a93f129c3e41b96a6c40", null ],
     [ "Set", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a64037c2a3b55fc0820f335be5fb7d059", null ],
-    [ "collection", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a19e0f20c87b5291111e4e80f41b3118c", null ],
+    [ "CollectionGUI", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a32ab16691e7a5f811e83727123938bfb", null ],
     [ "Count", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a15183ca9dfa35c3edf36b93570f8de8a", null ],
-    [ "GUIPrefab", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a5ac303aab5cdd5343c9f6264b7c9a57d", null ],
+    [ "ElementTemplatePrefab", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a5cf226cda257ed9018c6665e94ef39bf", null ],
     [ "IsReadOnly", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#ab49a7ce41cf672ab3c7522144dfe9f6f", null ],
     [ "this[int index]", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a401150aab54fc872f398c86b506a3276", null ]
 ];

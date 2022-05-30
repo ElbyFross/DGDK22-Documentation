@@ -6,7 +6,6 @@ var namespace_doloro_1_1_u_i_engine2 =
     [ "AFreespaceLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller" ],
     [ "AGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element" ],
     [ "AGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor" ],
-    [ "AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor" ],
     [ "AGUIField", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_field.html", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_field" ],
     [ "AWindowLayoutController", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html", "class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller" ],
     [ "AWorkspaceGUIElement", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html", "class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element" ],

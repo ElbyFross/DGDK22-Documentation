@@ -1,0 +1,6 @@
+<map id="Doloro.UIEngine2.Modules.Tabs.TabsBarEditor" name="Doloro.UIEngine2.Modules.Tabs.TabsBarEditor">
+<area shape="rect" id="node1" title="Custom editor for the TabsBar component." alt="" coords="15,229,194,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_editor.html" title="Custom editor for the AGUIElementsCollection component." alt="" coords="5,155,204,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="37,80,172,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="77,5,133,32"/>
+</map>

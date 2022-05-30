@@ -200,7 +200,8 @@ var hierarchy =
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< Storage, StorageGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
       [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html", [
-        [ "Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html", null ]
+        [ "Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html", null ],
+        [ "Doloro.InvetorySystem.UI.Controls.StoragesGUICollection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection.html", null ]
       ] ]
     ] ],
     [ "Doloro.UIEngine2.AGUIField< float >", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_field.html", [
@@ -388,8 +389,9 @@ var hierarchy =
       ] ],
       [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.EditableTagsCollectionUIElement", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_editable_tags_collection_u_i_element.html", null ],
       [ "Doloro.UIEngine2.AGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html", [
-        [ "Doloro.UIEngine2.AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_elements_collection_editor.html", [
-          [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", null ]
+        [ "Doloro.InvetorySystem.ItemGUIElementEditor", "class_doloro_1_1_invetory_system_1_1_item_g_u_i_element_editor.html", null ],
+        [ "Doloro.InvetorySystem.StorageGUIElementEditor", "class_doloro_1_1_invetory_system_1_1_storage_g_u_i_element_editor.html", [
+          [ "Doloro.InvetorySystem.Modules.Shops.UI.Controls.ShopGUIElementEditor", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_shop_g_u_i_element_editor.html", null ]
         ] ],
         [ "Doloro.UIEngine2.Controls.MeasuredSliderGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_g_u_i_element_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.MeasuredSliderLabelGUIElementEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_measured_slider_label_g_u_i_element_editor.html", null ],
@@ -397,15 +399,28 @@ var hierarchy =
         [ "Doloro.UIEngine2.Controls.WindowDragControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_drag_controller_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.WindowResizeControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_resize_controller_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.WindowStateControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_state_controller_editor.html", null ],
+        [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_editor.html", [
+          [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", null ],
+          [ "Doloro.UIEngine2.Modules.Tabs.TabsBarEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar_editor.html", null ]
+        ] ],
         [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", [
           [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", [
             [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayoutEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html", null ]
           ] ]
         ] ],
         [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceSplitterEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_splitter_editor.html", null ],
-        [ "Doloro.UIEngine2.WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", null ]
+        [ "Doloro.UIEngine2.WindowUIControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html", [
+          [ "Doloro.InvetorySystem.ShopsInspectorEditor", "class_doloro_1_1_invetory_system_1_1_shops_inspector_editor.html", null ],
+          [ "Doloro.InvetorySystem.StoragesInspectorEditor", "class_doloro_1_1_invetory_system_1_1_storages_inspector_editor.html", null ],
+          [ "Doloro.InvetorySystem.TransactionOrderInspectorEditor", "class_doloro_1_1_invetory_system_1_1_transaction_order_inspector_editor.html", null ]
+        ] ]
       ] ],
       [ "Doloro.UIEngine2.InputManagerEditor", "class_doloro_1_1_u_i_engine2_1_1_input_manager_editor.html", null ],
+      [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnectorEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector_editor.html", [
+        [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConectorEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html", [
+          [ "Doloro.InvetorySystem.UI.DataBridge.StoragesGUICollectionEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html", null ]
+        ] ]
+      ] ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.BondWindowFromResourcesEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_bond_window_from_resources_editor.html", null ],
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClampEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp_editor.html", null ],
       [ "Doloro.UIEngine2.Modules.VirtualHub.VirtualUIHubEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub_editor.html", null ],

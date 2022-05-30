@@ -12,9 +12,9 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_c
     [ "RemoveAt", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#af5d4c9f3db6d961c76c6351ddc985e20", null ],
     [ "Set", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a52f169c334e7a93f129c3e41b96a6c40", null ],
     [ "Set", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a64037c2a3b55fc0820f335be5fb7d059", null ],
-    [ "collection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a19e0f20c87b5291111e4e80f41b3118c", null ],
+    [ "CollectionGUI", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a32ab16691e7a5f811e83727123938bfb", null ],
     [ "Count", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a15183ca9dfa35c3edf36b93570f8de8a", null ],
-    [ "GUIPrefab", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a5ac303aab5cdd5343c9f6264b7c9a57d", null ],
+    [ "ElementTemplatePrefab", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a5cf226cda257ed9018c6665e94ef39bf", null ],
     [ "IsReadOnly", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#ab49a7ce41cf672ab3c7522144dfe9f6f", null ],
     [ "this[int index]", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html#a401150aab54fc872f398c86b506a3276", null ]
 ];

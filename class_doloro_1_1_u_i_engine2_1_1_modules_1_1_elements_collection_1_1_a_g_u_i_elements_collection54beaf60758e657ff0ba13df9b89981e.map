@@ -1,0 +1,6 @@
+<map id="Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnectorEditor" name="Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnectorEditor">
+<area shape="rect" id="node1" title="Custom editor for the AGUIElementsCollectionDataConnector&lt;SourceType, GUIElementType&gt; component." alt="" coords="7,80,231,136"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html" title="Custom editor related to the StoragesCollectionDataConector component." alt="" coords="5,184,232,240"/>
+<area shape="rect" id="node2" title=" " alt="" coords="91,5,147,32"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html" title="Custom editor related to the StoragesGUICollection component." alt="" coords="8,288,229,344"/>
+</map>

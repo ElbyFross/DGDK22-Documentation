@@ -1,5 +1,6 @@
 <map id="Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector" name="Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector">
-<area shape="rect" id="node1" title="Provides API to connect Storage or StoragesDatabase.StorageContainer with StorageGUIElement handling ..." alt="" coords="327,5,553,61"/>
+<area shape="rect" id="node1" title="Provides API to connect Storage or StoragesDatabase.StorageContainer with StorageGUIElement handling ..." alt="" coords="327,43,553,99"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html" title="Data connector that could automatically connect to a parent ShopsInspector instance along with the se..." alt="" coords="601,5,828,61"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title=" " alt="" coords="5,13,279,54"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection.html" title="Component that implements layout of StorageGUIElement collection." alt="" coords="612,86,817,127"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title=" " alt="" coords="5,50,279,91"/>
 </map>

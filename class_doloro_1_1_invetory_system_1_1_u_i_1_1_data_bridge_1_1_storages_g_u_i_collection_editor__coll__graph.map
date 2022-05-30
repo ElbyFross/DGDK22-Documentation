@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.UI.DataBridge.StoragesGUICollectionEditor" name="Doloro.InvetorySystem.UI.DataBridge.StoragesGUICollectionEditor">
+<area shape="rect" id="node1" title="Custom editor related to the StoragesGUICollection component." alt="" coords="5,259,227,315"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html" title="Custom editor related to the StoragesCollectionDataConector component." alt="" coords="11,169,221,211"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector_editor.html" title="Custom editor for the AGUIElementsCollectionDataConnector&lt;SourceType, GUIElementType&gt; component." alt="" coords="20,80,212,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="88,5,144,32"/>
+</map>

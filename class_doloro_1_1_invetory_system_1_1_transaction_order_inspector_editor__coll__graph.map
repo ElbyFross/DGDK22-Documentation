@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.TransactionOrderInspectorEditor" name="Doloro.InvetorySystem.TransactionOrderInspectorEditor">
+<area shape="rect" id="node1" title="Custom editor related to the TransactionOrderInspector component." alt="" coords="5,229,228,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html" title="Custom editor for the WindowUIController component." alt="" coords="32,155,201,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="49,80,184,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,5,145,32"/>
+</map>

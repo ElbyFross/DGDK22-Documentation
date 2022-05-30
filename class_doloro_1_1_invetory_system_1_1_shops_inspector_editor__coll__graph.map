@@ -1,0 +1,6 @@
+<map id="Doloro.InvetorySystem.ShopsInspectorEditor" name="Doloro.InvetorySystem.ShopsInspectorEditor">
+<area shape="rect" id="node1" title="Custom editor related to the ShopsInspector component." alt="" coords="5,229,199,271"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller_editor.html" title="Custom editor for the WindowUIController component." alt="" coords="17,155,187,181"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="35,80,169,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="74,5,130,32"/>
+</map>

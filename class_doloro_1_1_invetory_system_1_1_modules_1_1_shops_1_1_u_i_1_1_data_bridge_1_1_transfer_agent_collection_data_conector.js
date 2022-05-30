@@ -21,10 +21,10 @@ var class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_brid
     [ "Set", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a64037c2a3b55fc0820f335be5fb7d059", null ],
     [ "SetToInspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#ab1c37eff03e6d37217db191985501493", null ],
     [ "Start", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#aef9e3ca0cc33a7e45ad10a3c7bb5c927", null ],
-    [ "collection", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a19e0f20c87b5291111e4e80f41b3118c", null ],
+    [ "CollectionGUI", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a32ab16691e7a5f811e83727123938bfb", null ],
     [ "Count", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a15183ca9dfa35c3edf36b93570f8de8a", null ],
+    [ "ElementTemplatePrefab", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a5cf226cda257ed9018c6665e94ef39bf", null ],
     [ "filter", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a741563e01f189069bab8165476e450a1", null ],
-    [ "GUIPrefab", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a5ac303aab5cdd5343c9f6264b7c9a57d", null ],
     [ "inspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#ae6d12d3f6033f9772c4c92753db2c0a6", null ],
     [ "IsReadOnly", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#ab49a7ce41cf672ab3c7522144dfe9f6f", null ],
     [ "this[int index]", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html#a401150aab54fc872f398c86b506a3276", null ]

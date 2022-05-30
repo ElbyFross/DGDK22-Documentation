@@ -1,5 +1,8 @@
 <map id="Doloro.UIEngine2.WindowUIControllerEditor" name="Doloro.UIEngine2.WindowUIControllerEditor">
-<area shape="rect" id="node1" title="Custom editor for the WindowUIController component." alt="" coords="5,155,244,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="57,80,192,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,5,153,32"/>
+<area shape="rect" id="node1" title="Custom editor for the WindowUIController component." alt="" coords="292,71,531,112"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_shops_inspector_editor.html" title="Custom editor related to the ShopsInspector component." alt="" coords="593,5,787,47"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_invetory_system_1_1_storages_inspector_editor.html" title="Custom editor related to the StoragesInspector component." alt="" coords="586,71,794,112"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_invetory_system_1_1_transaction_order_inspector_editor.html" title="Custom editor related to the TransactionOrderInspector component." alt="" coords="579,136,801,177"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="109,78,244,105"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,78,61,105"/>
 </map>

@@ -98,6 +98,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5606fa635a953a788783b6a0854000f9"><td class="memItemLeft" align="right" valign="top">static LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a5606fa635a953a788783b6a0854000f9">LayerMaskField</a> (string label, LayerMask layerMask)</td></tr>
 <tr class="memdesc:a5606fa635a953a788783b6a0854000f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw LayerMask field in inspector.  <a href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a5606fa635a953a788783b6a0854000f9">More...</a><br /></td></tr>
 <tr class="separator:a5606fa635a953a788783b6a0854000f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224c3facbfcfbe3166a8e2ec4799bd25"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a224c3facbfcfbe3166a8e2ec4799bd25">ObjectField</a> (SerializedProperty prop)</td></tr>
+<tr class="memdesc:a224c3facbfcfbe3166a8e2ec4799bd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws validating object field from a property.  <a href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a224c3facbfcfbe3166a8e2ec4799bd25">More...</a><br /></td></tr>
+<tr class="separator:a224c3facbfcfbe3166a8e2ec4799bd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a81611d75caaa57b2d32243b08b70e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a30a81611d75caaa57b2d32243b08b70e">ObjectField</a> (SerializedProperty prop, MessageType nullMessageType)</td></tr>
+<tr class="memdesc:a30a81611d75caaa57b2d32243b08b70e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws validating object field from a property.  <a href="class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html#a30a81611d75caaa57b2d32243b08b70e">More...</a><br /></td></tr>
+<tr class="separator:a30a81611d75caaa57b2d32243b08b70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34c54e6d9110f5946573de65aea8bce5"><td class="memItemLeft" align="right" valign="top"><a id="a34c54e6d9110f5946573de65aea8bce5" name="a34c54e6d9110f5946573de65aea8bce5"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>DrawSplitter</b> ()</td></tr>
 <tr class="memdesc:a34c54e6d9110f5946573de65aea8bce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws layout-wide horizontal splitter. <br /></td></tr>
@@ -585,6 +591,87 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>DrawGroupHeade
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Changed layer mask.</dd></dl>
+
+</div>
+</div>
+<a id="a224c3facbfcfbe3166a8e2ec4799bd25" name="a224c3facbfcfbe3166a8e2ec4799bd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224c3facbfcfbe3166a8e2ec4799bd25">&#9670;&nbsp;</a></span>ObjectField() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Doloro.EditorExtension.DoloroEditorGUILayout.ObjectField </td>
+          <td>(</td>
+          <td class="paramtype">SerializedProperty&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draws validating object field from a property. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>Property to draw.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Is the property value valid.</dd></dl>
+
+</div>
+</div>
+<a id="a30a81611d75caaa57b2d32243b08b70e" name="a30a81611d75caaa57b2d32243b08b70e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a81611d75caaa57b2d32243b08b70e">&#9670;&nbsp;</a></span>ObjectField() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Doloro.EditorExtension.DoloroEditorGUILayout.ObjectField </td>
+          <td>(</td>
+          <td class="paramtype">SerializedProperty&#160;</td>
+          <td class="paramname"><em>prop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MessageType&#160;</td>
+          <td class="paramname"><em>nullMessageType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draws validating object field from a property. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>Property to draw.</td></tr>
+    <tr><td class="paramname">nullMessageType</td><td>Type of message to display in case of null value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Is the property value valid.</dd></dl>
 
 </div>
 </div>
