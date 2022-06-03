@@ -477,11 +477,13 @@ var annotated_dup =
               [ "DataBridge", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge.html", [
                 [ "TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector" ]
               ] ],
+              [ "VirtualHub", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_virtual_hub.html", [
+                [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_virtual_hub_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_virtual_hub_1_1_exchange_buffer_u_i_hub_listener" ]
+              ] ],
               [ "Windows", "namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows.html", [
                 [ "ShopsInspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector" ],
                 [ "TransactionOrderInspector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_transaction_order_inspector.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_transaction_order_inspector" ]
-              ] ],
-              [ "ExchangeBufferUIHubListener", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener" ]
+              ] ]
             ] ],
             [ "ShopFeature", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature" ]
           ] ]
@@ -494,11 +496,13 @@ var annotated_dup =
           [ "Controls", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_controls.html", [
             [ "ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element" ],
             [ "ItemGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_g_u_i_element" ],
+            [ "ItemsGUICollection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_items_g_u_i_collection.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_items_g_u_i_collection" ],
             [ "StorageGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element" ],
             [ "StoragesGUICollection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection" ]
           ] ],
           [ "DataBridge", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge.html", [
             [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector" ],
+            [ "ItemsCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector" ],
             [ "StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector" ],
             [ "StoragesCollectionDataConectorEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html", null ],
             [ "StoragesGUICollectionEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html", null ]
@@ -515,8 +519,9 @@ var annotated_dup =
             [ "StorageWeightGUIExtension", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension" ]
           ] ],
           [ "VirtualHub", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub.html", [
+            [ "ItemSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_selection_event_relay.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_selection_event_relay" ],
             [ "ItemUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener" ],
-            [ "StoragesSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storages_selection_event_relay" ],
+            [ "StorageSelectionEventRelay", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay" ],
             [ "StorageUIHubListener", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_u_i_hub_listener.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_u_i_hub_listener" ]
           ] ],
           [ "Windows", "namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_windows.html", [

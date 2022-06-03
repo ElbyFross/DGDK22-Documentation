@@ -2,7 +2,6 @@ var class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i
 [
     [ "GUICollectionAsStoragesEnumerator", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c.html", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection2e73969db3d890c77a34c4b30984840c" ],
     [ "Add", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a6d9cf6bb72379b7cf573792dffff758a", null ],
-    [ "Awake", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#acd5a607770073c15248bb40e38d72837", null ],
     [ "Clear", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a63d44470b06ded476d8091fcdc958b08", null ],
     [ "Contains", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a3e53141615ee1793b50fe3d93d9a988b", null ],
     [ "CopyTo", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html#a32456ea33e6b1a4da801a4d25c82750c", null ],

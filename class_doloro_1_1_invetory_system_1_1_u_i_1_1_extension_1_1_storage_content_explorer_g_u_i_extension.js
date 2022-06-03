@@ -8,8 +8,7 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_e
     [ "OnItemAddDefaultHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#ac4df04827c287b6ad4c65d8906efd76a", null ],
     [ "OnStorageModified", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#afadb2e7f09e04e85e03285d3634615aa", null ],
     [ "OnStorageNotSelected", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#afc550039f70992d4012244004f9ce9dd", null ],
-    [ "collection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a4d1ec7e981936c2a6eafd89d8a445082", null ],
-    [ "GUIPrefab", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a00e4bc4f92b23e3f2b42a79dcb746893", null ],
+    [ "DataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#aaa273eb62fa925a609e95aa61068d6bd", null ],
     [ "inspector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a9b511de45e6280183535d6f36aae4146", null ],
     [ "OnItemAddHandler", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_content_explorer_g_u_i_extension.html#a53bd54cf520bd838bf4a373b59aaafd1", null ]
 ];

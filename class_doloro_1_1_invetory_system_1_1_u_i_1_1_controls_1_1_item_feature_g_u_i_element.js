@@ -11,5 +11,6 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i
     [ "descriptionLabel", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#af6cb7b1eeb4dc5bfdc2da4a29d699cc8", null ],
     [ "titleLabel", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#ad90ca0a4305d6f7c24c5fe79df1e2d08", null ],
     [ "content", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#a7050005dbc0bd5dcba72e817260c903b", null ],
+    [ "ContentChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#afa4fe8f3a6384811ece0aa890e708e7e", null ],
     [ "TempSource", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html#a3eefd56df059f5417c3fd01459874c16", null ]
 ];

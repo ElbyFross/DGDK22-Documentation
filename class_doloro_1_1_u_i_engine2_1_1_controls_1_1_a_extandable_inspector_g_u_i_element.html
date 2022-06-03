@@ -290,6 +290,9 @@ Properties</h2></td></tr>
 <tr class="memitem:ae3995a0e08a8ddf4db2c31e3504153da"><td class="memItemLeft" align="right" valign="top">virtual ContentType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ae3995a0e08a8ddf4db2c31e3504153da">content</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ae3995a0e08a8ddf4db2c31e3504153da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current selected/bonded item.  <a href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ae3995a0e08a8ddf4db2c31e3504153da">More...</a><br /></td></tr>
 <tr class="separator:ae3995a0e08a8ddf4db2c31e3504153da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4fe8f3a6384811ece0aa890e708e7e"><td class="memItemLeft" align="right" valign="top">Action&lt; ContentType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#afa4fe8f3a6384811ece0aa890e708e7e">ContentChanged</a></td></tr>
+<tr class="memdesc:afa4fe8f3a6384811ece0aa890e708e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ae3995a0e08a8ddf4db2c31e3504153da" title="Current selected/bonded item.">content</a> has been changed.  <a href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#afa4fe8f3a6384811ece0aa890e708e7e">More...</a><br /></td></tr>
+<tr class="separator:afa4fe8f3a6384811ece0aa890e708e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a8240227185027efa055bc1f8505a8f"><td class="memItemLeft" align="right" valign="top"><a id="a1a8240227185027efa055bc1f8505a8f" name="a1a8240227185027efa055bc1f8505a8f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMask</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a1a8240227185027efa055bc1f8505a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then will crop the pointer events out of bounds for children. <br /></td></tr>
@@ -798,7 +801,7 @@ Action&lt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.
 
 <p>Calling each draw frame. Use to update showing data. </p>
 <p >Calling each frame if element displayed. Before self draw call <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#a28e38653a6dd47a5a5d75c520fb1eb33" title="Calling each draw frame. Use to update showing data.">OnElementGUI</a> for all elements in <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#ab6d077cd289fb58f970838118ec89b89" title="Collection of element children.">Children</a> collection.</p>
-<h3><a class="anchor" id="autotoc_md167"></a>
+<h3><a class="anchor" id="autotoc_md164"></a>
 IMPORTANT</h3>
 <p >Avoid reading inputs here. Use <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#a232cd741726a4fefc49ba86a57904b79" title="Handler that will be called for elements in input priority order. use to modify data along with input...">OnInput</a> instead. </p>
 
@@ -1193,6 +1196,32 @@ IMPORTANT</h3>
 <p>Current selected/bonded item. </p>
 
 <p>Implements <a class="el" href="interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html#afa839222a374136353116a521c4a3552">Doloro.UIEngine2.IContentInspector&lt; ContentType &gt;</a>.</p>
+
+</div>
+</div>
+<a id="afa4fe8f3a6384811ece0aa890e708e7e" name="afa4fe8f3a6384811ece0aa890e708e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4fe8f3a6384811ece0aa890e708e7e">&#9670;&nbsp;</a></span>ContentChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;ContentType&gt; <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html">Doloro.UIEngine2.Controls.AContentInspectorGUIElement</a>&lt; ContentType &gt;.ContentChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">add</span><span class="mlabel">remove</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Occurs when <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ae3995a0e08a8ddf4db2c31e3504153da" title="Current selected/bonded item.">content</a> has been changed. </p>
+
+<p>Implements <a class="el" href="interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html#a41b3b2ca151bc1743fac69b6128c772b">Doloro.UIEngine2.IContentInspector&lt; ContentType &gt;</a>.</p>
 
 </div>
 </div>

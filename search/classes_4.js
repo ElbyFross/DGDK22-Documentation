@@ -12,7 +12,7 @@ var searchData=
   ['enumpropertiesvalidator_9',['EnumPropertiesValidator',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_enum_properties_validator.html',1,'Doloro::AI::DAIDebugger::ErrorsListTool']]],
   ['errorslist_10',['ErrorsList',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_errors_list.html',1,'Doloro::AI::DAIDebugger::ErrorsListTool']]],
   ['exchangebufferguielement_11',['ExchangeBufferGUIElement',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_exchange_buffer_g_u_i_element.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::Controls']]],
-  ['exchangebufferuihublistener_12',['ExchangeBufferUIHubListener',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_exchange_buffer_u_i_hub_listener.html',1,'Doloro::InvetorySystem::Modules::Shops::UI']]],
+  ['exchangebufferuihublistener_12',['ExchangeBufferUIHubListener',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_virtual_hub_1_1_exchange_buffer_u_i_hub_listener.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::VirtualHub']]],
   ['exists_13',['Exists',['../class_doloro_1_1_a_i_1_1_memory_1_1_exists.html',1,'Doloro::AI::Memory']]],
   ['existseditor_14',['ExistsEditor',['../class_doloro_1_1_a_i_1_1_memory_1_1_exists_editor.html',1,'Doloro::AI::Memory']]]
 ];

@@ -83,7 +83,6 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       [ "About", "dinv_trasaction_service.html#dinv_trasaction_service_a", null ],
       [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", null ]
     ] ],
-    [ "GUI", "dinv-gui.html", null ],
     [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
     [ "Demo: Shops explorer", "dinv-shops_explorer-demo.html", [
       [ "About", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-a", null ],

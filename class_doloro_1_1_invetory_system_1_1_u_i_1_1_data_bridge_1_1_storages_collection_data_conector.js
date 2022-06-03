@@ -1,7 +1,6 @@
 var class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector =
 [
     [ "Add", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html#a6d9cf6bb72379b7cf573792dffff758a", null ],
-    [ "Awake", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html#acd5a607770073c15248bb40e38d72837", null ],
     [ "Clear", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html#a63d44470b06ded476d8091fcdc958b08", null ],
     [ "Contains", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html#a3e53141615ee1793b50fe3d93d9a988b", null ],
     [ "CopyTo", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html#a32456ea33e6b1a4da801a4d25c82750c", null ],

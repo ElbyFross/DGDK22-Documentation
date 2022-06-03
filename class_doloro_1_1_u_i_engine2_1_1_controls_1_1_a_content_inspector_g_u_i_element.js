@@ -40,6 +40,7 @@ var class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_elem
     [ "BondRectTransform", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a45e66a47754c4e04c84cb1dd7dd4519b", null ],
     [ "Children", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ab6d077cd289fb58f970838118ec89b89", null ],
     [ "content", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#ae3995a0e08a8ddf4db2c31e3504153da", null ],
+    [ "ContentChanged", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#afa4fe8f3a6384811ece0aa890e708e7e", null ],
     [ "ElementOnAction", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a199b1ec0c93ede64d9d3d1188c054a40", null ],
     [ "FocusedChild", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a449e9ab280580a435178d0d492bf21c1", null ],
     [ "IsActive", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a439624a42539c61242690c956fd90112", null ],

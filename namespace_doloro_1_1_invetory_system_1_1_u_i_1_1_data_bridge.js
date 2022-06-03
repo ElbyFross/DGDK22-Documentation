@@ -1,6 +1,7 @@
 var namespace_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge =
 [
     [ "ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector" ],
+    [ "ItemsCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector" ],
     [ "StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector" ],
     [ "StoragesCollectionDataConectorEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html", null ],
     [ "StoragesGUICollectionEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html", null ]
