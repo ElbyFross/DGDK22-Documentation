@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('dinv-ht.html',''); initResizable(); })
 </ul>
 </li>
 <li class="level1"><a href="#dinv-ht-transserv">Transaction Service</a><ul><li class="level2"><a href="#dinv-ht-transserv-add">Add items to exists storage</a></li>
-<li class="level2"><a href="#dinv-ht-transserv-remove">Remove items to exists storage</a></li>
+<li class="level2"><a href="#dinv-ht-transserv-remove">Remove items from exists storage</a></li>
 <li class="level2"><a href="#dinv-ht-transserv-transfer">Transfer between storages</a><ul><li class="level3"><a href="#dinv-ht-transserv-transfer-isnt">Instant transfer</a></li>
 <li class="level3"><a href="#dinv-ht-transserv-transfer-manual">Manual transfer</a></li>
 </ul>
@@ -306,7 +306,7 @@ Add items to exists storage</h2>
 <div class="line">    );</div>
 </div><!-- fragment --><p> The add order may fail transaction and return <code>false</code> in case the storage has mask features that not allows item or its amount to be added.</p>
 <h2><a class="anchor" id="dinv-ht-transserv-remove"></a>
-Remove items to exists storage</h2>
+Remove items from exists storage</h2>
 <p >To remove items from a storage you has a know target storage ID or has reference to its data container, or rented entity.</p>
 <p >Then you need to call <code>TransactionService</code> API member named as <code>ExecuteRemoveOrder</code> most suitable from your arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ExecuteRemoveOrder(</div>
 <div class="line">    // Id of storage to operate</div>

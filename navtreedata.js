@@ -184,9 +184,9 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#adca11e437d0d4612161e981cfd27d6b7",
 "ddm-drt-dabt_integration.html#ddm-drt-dabt_integration_dynres",
 "dinv-shops_explorer-demo.html",
-"interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_i_resource_filter.html#a1773452bd4c30246ae84939434366ebc",
-"namespace_doloro_1_1_invetory_system_1_1_debug_tools.html",
-"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a5f2c0695c7cc40f712d23acc9a421bba"
+"interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html#a7804d40fa64729539329a2863d294182",
+"namespace_doloro_1_1_graphs.html#a5dea66c8993a536f83cc56e0753eb14eaa4ffdcf0dc1f31b9acaf295d75b51d00",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a569b984f7a90a21ec8aa6f3d919d9aa0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

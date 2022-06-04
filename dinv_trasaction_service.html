@@ -87,14 +87,125 @@ $(document).ready(function(){initNavTree('dinv_trasaction_service.html',''); ini
   <div class="headertitle"><div class="title">Trasaction Service </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dinv_trasaction_service_a">About</a></li>
+<li class="level1"><a href="#dinv_trasaction_service_usage">Usage</a></li>
+<li class="level1"><a href="#dinv_trasaction_service_reservation">Reservation Agent</a><ul><li class="level2"><a href="#dinv_trasaction_service_reservation_dev">Development</a></li>
+<li class="level2"><a href="#dinv_trasaction_service_reservation_examples">Examples</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dinv_trasaction_service_a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >A service that manages entire operation with <code>Storage</code> content, both for isolated storages and in cross-storages operation.</p>
+<p >The service prevents operation from popular bugs like a references forge or items dupe, by encapsulated tracking process of entire content during in-game actions.</p>
+<p ><b>Read also:</b> <a class="el" href="dinv-storage.html">Storage</a></p>
+<h1><a class="anchor" id="dinv_trasaction_service_usage"></a>
+Usage</h1>
+<p >The service implemented as a static API class that always available to access. You may reach it via <code>TransactionService</code> class call. More details about usage practices you may find in <a class="el" href="dinv-ht.html">How to ...</a> category at the <a class="el" href="dinv-ht.html#dinv-ht-transserv">Transaction Service</a> section.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_transaction_service.html" title="Order that contains meta data related to the resource transfer instruction.">Doloro.InvetorySystem.TransactionService</a></p>
 <h1><a class="anchor" id="dinv_trasaction_service_reservation"></a>
 Reservation Agent</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>See also:</b></p><ul>
-<li><a class="el" href="interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html" title="Interface that should be implemented for any AEntityFeature that must handle TransactionService....">Doloro.InvetorySystem.IReservationAgent</a></li>
+<p >Reservation is the one of main core operation of the services that guaranties that the items can't be used by not authorized requesters. It allows to proof that the operating items exists from the transaction beginning to its end and never appears / disappears from nowhere.</p>
+<p >As soon as <code>Storage</code> can be extended with <a class="el" href="dinv-storage.html#dinv-storage-p">Features</a> implementations it also may require custom reservation operations to embed the features to the transaction service logic.</p>
+<p ><b>Explore API:</b> <a class="el" href="interface_doloro_1_1_invetory_system_1_1_i_reservation_agent.html" title="Interface that should be implemented for any AEntityFeature that must handle TransactionService....">Doloro.InvetorySystem.IReservationAgent</a></p>
+<h2><a class="anchor" id="dinv_trasaction_service_reservation_dev"></a>
+Development</h2>
+<p >At the moment reservation agents can be connect to the service via <code>AStorageFeature</code> with implemented <code>IReservationAgent</code> interface added to a <code>Storage</code> game object.</p>
+<p >During transaction operations the service looking for agents over the order participating <code>Storage</code> instances. According with order stage it calls related agent handlers to perform they internal logic.</p>
+<p >To create a new feature with reservation operation you need to follow next template: </p><div class="fragment"><div class="line">using Doloro.InvetorySystem.Features;</div>
+<div class="line"> </div>
+<div class="line">public class RESERVATION_STORAGE_FEATURE : AStorageFeature, IReservationAgent</div>
+<div class="line">{</div>
+<div class="line">        // Occurs when some order has been placed.</div>
+<div class="line">        // Shares placed order to make a reservation conclusion.</div>
+<div class="line">    public void Reserve(TransactionService.TransactionOrder order)</div>
+<div class="line">    {</div>
+<div class="line">            // Made a record in internal registry</div>
+<div class="line">            // that the order reserves some</div>
+<div class="line">            // `space` here.</div>
+<div class="line"> </div>
+<div class="line">            // Record entry should be placed as temporal,</div>
+<div class="line">            // because it still can be canceled later.</div>
+<div class="line"> </div>
+<div class="line">            ....</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">        // Occurs when a transaction orders has been canceled.</div>
+<div class="line">        // Must release reservation record.</div>
+<div class="line">    public void CancelReservation(TransactionService.TransactionOrder order)</div>
+<div class="line">    {</div>
+<div class="line">            // Release entire data related to</div>
+<div class="line">            // reservation caused by the order instance</div>
+<div class="line">            // at during `Reserve` hadnler call.</div>
+<div class="line"> </div>
+<div class="line">            ....</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">        // Occurs when a transaction order for the storage has been confirmed.</div>
+<div class="line">    public void ConfirmReservation(TransactionService.TransactionOrder order)</div>
+<div class="line">    {</div>
+<div class="line">            // Move temporal reservation record</div>
+<div class="line">            // to serializable container used</div>
+<div class="line">            // at `SaveSession` and `LoadSession`</div>
+<div class="line">            // of the feature to maintain used</div>
+<div class="line">            // space record at cross-session.</div>
+<div class="line"> </div>
+<div class="line">            ....</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Occurs when `Storage` entity has been released from rent</div>
+<div class="line">        // by database entry.</div>
+<div class="line">    public override void OnStorageRented()</div>
+<div class="line">    {</div>
+<div class="line">                // Calling base rent finalizer.</div>
+<div class="line">        base.OnStorageRented();</div>
+<div class="line"> </div>
+<div class="line">                // Release your reservation data related to</div>
+<div class="line">                // an storage data source that no longer uses the</div>
+<div class="line">                // entity with defined agent.</div>
+<div class="line"> </div>
+<div class="line">                ....</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> A common practice you may require a way to decline order placement in case if reservation isn't possible.</p>
+<p >For that instead of derinving the <code>AStorageFeature</code> class, derive you class from <code>AMaskStorageFeature</code> where you may implement a custom <code>OnTrasactionMask</code> logic.</p>
+<div class="fragment"><div class="line">using Doloro.InvetorySystem.Features;</div>
+<div class="line"> </div>
+<div class="line">public class MASKABLE_RESERVATION_STORAGE_FEATURE :</div>
+<div class="line">        AMaskStorageFeature, IReservationAgent</div>
+<div class="line">{</div>
+<div class="line">    // The same implementation like in previous example.</div>
+<div class="line">    ....</div>
+<div class="line"> </div>
+<div class="line">    // Occurs before transaction order placement.</div>
+<div class="line">    public bool OnTrasactionMask(TransactionService.TransactionOrder order)</div>
+<div class="line">    {</div>
+<div class="line">        // Conclude is the order can be placed along with</div>
+<div class="line">        // your reservation rules here.</div>
+<div class="line"> </div>
+<div class="line">        // Return `true` in case the order valid.</div>
+<div class="line">        // `false` to block the order placement.</div>
+<div class="line">        ...</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><h2><a class="anchor" id="dinv_trasaction_service_reservation_examples"></a>
+Examples</h2>
+<p >The package has several implementation of reservation agent features. We recommend to explore the source of following components to ramp up with implementation practices.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Feature   </th><th class="markdownTableHeadNone">Reservation practice    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>StorageWeightLimiter</code>   </td><td class="markdownTableBodyNone">Reserves weight of storage along with entire incomplete operations, <br  />
+ preventing from placing new order that will lead to storage overflow.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>StorageSlotsLimiter</code>   </td><td class="markdownTableBodyNone">Reserves item slots in Storage for entire incomplete operations <br  />
+ preventing from usage of extra over the defined limit.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>StorageVolume</code>   </td><td class="markdownTableBodyNone">Reserves volumetric space required from transaction items placement.   </td></tr>
+</table>
+<p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_storage_slots_limiter.html" title="Implements the slots limit to the storage.">Doloro.InvetorySystem.Features.StorageSlotsLimiter</a> : IReservationAgent</li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html" title="Implements the weight limit to the storage.">Doloro.InvetorySystem.Features.StorageWeightLimiter</a> : IReservationAgent</li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume-like space bounding the capacity of the storage.">Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolume</a> : IReservationAgent </li>

@@ -31,7 +31,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
       ] ],
       [ "Transaction Service", "dinv-ht.html#dinv-ht-transserv", [
         [ "Add items to exists storage", "dinv-ht.html#dinv-ht-transserv-add", null ],
-        [ "Remove items to exists storage", "dinv-ht.html#dinv-ht-transserv-remove", null ],
+        [ "Remove items from exists storage", "dinv-ht.html#dinv-ht-transserv-remove", null ],
         [ "Transfer between storages", "dinv-ht.html#dinv-ht-transserv-transfer", [
           [ "Instant transfer", "dinv-ht.html#dinv-ht-transserv-transfer-isnt", null ],
           [ "Manual transfer", "dinv-ht.html#dinv-ht-transserv-transfer-manual", null ]
@@ -55,7 +55,11 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
     ] ],
     [ "Trasaction Service", "dinv_trasaction_service.html", [
       [ "About", "dinv_trasaction_service.html#dinv_trasaction_service_a", null ],
-      [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", null ]
+      [ "Usage", "dinv_trasaction_service.html#dinv_trasaction_service_usage", null ],
+      [ "Reservation Agent", "dinv_trasaction_service.html#dinv_trasaction_service_reservation", [
+        [ "Development", "dinv_trasaction_service.html#dinv_trasaction_service_reservation_dev", null ],
+        [ "Examples", "dinv_trasaction_service.html#dinv_trasaction_service_reservation_examples", null ]
+      ] ]
     ] ],
     [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
     [ "Demo: Shops explorer", "dinv-shops_explorer-demo.html", [
