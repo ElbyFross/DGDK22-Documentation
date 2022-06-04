@@ -120,9 +120,9 @@ Collaboration diagram for Doloro.InvetorySystem.UI.VirtualHub.StorageSelectionEv
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af8cac1b0ed2020ee66a65b74f1fc6426"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#af8cac1b0ed2020ee66a65b74f1fc6426">OnSelected</a> (AGUIElement selectedElement)</td></tr>
-<tr class="memdesc:af8cac1b0ed2020ee66a65b74f1fc6426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shares content selection event to the hub.  <a href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#af8cac1b0ed2020ee66a65b74f1fc6426">More...</a><br /></td></tr>
-<tr class="separator:af8cac1b0ed2020ee66a65b74f1fc6426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca81b90df2fc2fa26e59b55455613bfd"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#aca81b90df2fc2fa26e59b55455613bfd">OnSelected</a> (<a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html">AGUIElement</a> selectedElement)</td></tr>
+<tr class="memdesc:aca81b90df2fc2fa26e59b55455613bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shares IContentInspector&lt;StoragesDatabase.StorageContainer&gt; content selection event to the hub. Skips any other not matching selections.  <a href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#aca81b90df2fc2fa26e59b55455613bfd">More...</a><br /></td></tr>
+<tr class="separator:aca81b90df2fc2fa26e59b55455613bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882a535d498c75c60aa6f65a791ac0d7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#a882a535d498c75c60aa6f65a791ac0d7">Start</a> ()</td></tr>
 <tr class="memdesc:a882a535d498c75c60aa6f65a791ac0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers selected events.  <a href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#a882a535d498c75c60aa6f65a791ac0d7">More...</a><br /></td></tr>
 <tr class="separator:a882a535d498c75c60aa6f65a791ac0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,8 +272,8 @@ virtual VirtualUIHub&#160;</td><td class="memItemRight" valign="bottom"><b>hub</
 
 </div>
 </div>
-<a id="af8cac1b0ed2020ee66a65b74f1fc6426" name="af8cac1b0ed2020ee66a65b74f1fc6426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8cac1b0ed2020ee66a65b74f1fc6426">&#9670;&nbsp;</a></span>OnSelected()</h2>
+<a id="aca81b90df2fc2fa26e59b55455613bfd" name="aca81b90df2fc2fa26e59b55455613bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca81b90df2fc2fa26e59b55455613bfd">&#9670;&nbsp;</a></span>OnSelected()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,7 +282,7 @@ virtual VirtualUIHub&#160;</td><td class="memItemRight" valign="bottom"><b>hub</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay.OnSelected </td>
+          <td class="memname">override void Doloro.InvetorySystem.UI.VirtualHub.StorageSelectionEventRelay.OnSelected </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html">AGUIElement</a>&#160;</td>
           <td class="paramname"><em>selectedElement</em></td><td>)</td>
@@ -291,19 +291,21 @@ virtual VirtualUIHub&#160;</td><td class="memItemRight" valign="bottom"><b>hub</
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shares content selection event to the hub. </p>
+<p>Shares IContentInspector&lt;StoragesDatabase.StorageContainer&gt; content selection event to the hub. Skips any other not matching selections. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">selectedElement</td><td>Selected content.</td></tr>
   </table>
   </dd>
 </dl>
-<p >Shares selected AGUIElement as first argument. </p>
+<p >Shares selected inspector as first argument. </p>
+
+<p>Reimplemented from <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#af8cac1b0ed2020ee66a65b74f1fc6426">Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay</a>.</p>
 
 </div>
 </div>

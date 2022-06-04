@@ -39,20 +39,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__
         [ "Find orders", "dinv-ht.html#dinv-ht-transserv-search", null ]
       ] ]
     ] ],
-    [ "Item", "dinv-item.html", [
-      [ "About", "dinv-item.html#dinv-item-a", null ],
-      [ "Resource", "dinv-item.html#dinv-item-r", null ],
-      [ "Asset Properties", "dinv-item.html#dinv-item-p", null ],
-      [ "Item Features", "dinv-item.html#dinv-item-f", [
-        [ "Development", "dinv-item.html#dinv-item-f-custom", null ]
-      ] ],
-      [ "GUI", "dinv-item.html#dinv-item-gui", [
-        [ "Item GUI control", "dinv-item.html#dinv-item-gui-control", null ],
-        [ "Item GUI extensions", "dinv-item.html#dinv-item-gui-ext", [
-          [ "Development", "dinv-item.html#dinv-item-gui-custom", null ]
-        ] ]
-      ] ]
-    ] ],
+    [ "Item", "dinv-item.html", "dinv-item" ],
     [ "Storage", "dinv-storage.html", [
       [ "About", "dinv-storage.html#dinv-storage-a", null ],
       [ "Resource", "dinv-storage.html#dinv-storage-r", null ],
