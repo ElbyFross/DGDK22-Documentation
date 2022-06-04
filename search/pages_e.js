@@ -9,5 +9,6 @@ var searchData=
   ['storages_20database_6',['Storages Database',['../dinv-storages-database.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Inventory_README']]],
   ['storages_20gui_20collections_7',['Storages GUI Collections',['../dinv-storage-gui-collections.html',1,'dinv-storage']]],
   ['storages_20service_8',['Storages Service',['../dinv_storages_service.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Inventory_README']]],
-  ['sub_2dmodules_9',['Sub-modules',['../dinv_modules.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Inventory_README']]]
+  ['storages_20virtual_20hub_20extension_9',['Storages Virtual Hub extension',['../dinv-storage-gui-vh.html',1,'dinv-storage']]],
+  ['sub_2dmodules_10',['Sub-modules',['../dinv_modules.html',1,'md_D__Work_GitHub_DGDK22_Assets_Doloro_GDK_Doloro_Inventory_README']]]
 ];

@@ -18,7 +18,7 @@ var dinv_item =
       [ "Controls", "dinv-item-gui-collections.html#dinv-item-gui-collections-controls", null ],
       [ "Examples", "dinv-item-gui-collections.html#dinv-item-gui-collections-examples", null ]
     ] ],
-    [ "Virtual Hub extension", "dinv-item-gui-vh.html", [
+    [ "Items Virtual Hub extension", "dinv-item-gui-vh.html", [
       [ "About", "dinv-item-gui-vh.html#dinv-item-gui-vh-a", null ],
       [ "Item Selection Event Relay", "dinv-item-gui-vh.html#dinv-item-gui-vh-iser", [
         [ "Usage", "dinv-item-gui-vh.html#dinv-item-gui-vh-iser-usage", null ]

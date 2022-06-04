@@ -39,6 +39,6 @@
 <area shape="rect" id="node32" href="$class_doloro_1_1_invetory_system_1_1_shops_inspector_editor.html" title="Custom editor related to the ShopsInspector component." alt="" coords="761,1053,954,1095"/>
 <area shape="rect" id="node33" href="$class_doloro_1_1_invetory_system_1_1_storages_inspector_editor.html" title="Custom editor related to the StoragesInspector component." alt="" coords="753,1119,961,1160"/>
 <area shape="rect" id="node34" href="$class_doloro_1_1_invetory_system_1_1_transaction_order_inspector_editor.html" title="Custom editor related to the TransactionOrderInspector component." alt="" coords="746,1184,969,1225"/>
-<area shape="rect" id="node37" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html" title="Custom editor related to the StoragesCollectionDataConector component." alt="" coords="429,1218,656,1274"/>
+<area shape="rect" id="node37" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_connector_editor.html" title="Custom editor related to the StoragesCollectionDataConnector component." alt="" coords="429,1218,656,1274"/>
 <area shape="rect" id="node38" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html" title="Custom editor related to the StoragesGUICollection component." alt="" coords="747,1250,968,1306"/>
 </map>

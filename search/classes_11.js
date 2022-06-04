@@ -27,7 +27,7 @@ var searchData=
   ['transactionorderinspectoreditor_24',['TransactionOrderInspectorEditor',['../class_doloro_1_1_invetory_system_1_1_transaction_order_inspector_editor.html',1,'Doloro::InvetorySystem']]],
   ['transactionorderslogger_25',['TransactionOrdersLogger',['../class_doloro_1_1_invetory_system_1_1_debug_tools_1_1_transaction_orders_logger.html',1,'Doloro::InvetorySystem::DebugTools']]],
   ['transactionservice_26',['TransactionService',['../class_doloro_1_1_invetory_system_1_1_transaction_service.html',1,'Doloro::InvetorySystem']]],
-  ['transferagentcollectiondataconector_27',['TransferAgentCollectionDataConector',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::DataBridge']]],
+  ['transferagentcollectiondataconnector_27',['TransferAgentCollectionDataConnector',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_connector.html',1,'Doloro::InvetorySystem::Modules::Shops::UI::DataBridge']]],
   ['transfergraphnode_28',['TransferGraphNode',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_transfer_graph_node.html',1,'Doloro::Graphs::Fragmented::GraphsNetwork']]],
   ['trigger_29',['Trigger',['../class_doloro_1_1_a_i_1_1_primitive_1_1_trigger.html',1,'Doloro::AI::Primitive']]],
   ['triggereditor_30',['TriggerEditor',['../class_doloro_1_1_a_i_1_1_primitive_1_1_trigger_editor.html',1,'Doloro::AI::Primitive']]],

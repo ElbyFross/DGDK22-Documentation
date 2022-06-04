@@ -18,7 +18,7 @@ var dinv_storage =
       [ "Controls", "dinv-storage-gui-collections.html#dinv-storage-gui-collections-controls", null ],
       [ "Examples", "dinv-storage-gui-collections.html#dinv-item-storage-collections-examples", null ]
     ] ],
-    [ "Virtual Hub extension", "dinv-storage-gui-vh.html", [
+    [ "Storages Virtual Hub extension", "dinv-storage-gui-vh.html", [
       [ "About", "dinv-storage-gui-vh.html#dinv-storage-gui-vh-a", null ],
       [ "Item Selection Event Relay", "dinv-storage-gui-vh.html#dinv-storage-gui-vh-iser", [
         [ "Usage", "dinv-storage-gui-vh.html#dinv-storage-gui-vh-iser-usage", null ]

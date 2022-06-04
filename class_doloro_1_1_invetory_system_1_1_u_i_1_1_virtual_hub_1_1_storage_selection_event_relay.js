@@ -7,7 +7,7 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selecti
     [ "ShareEvent", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a7ccd4ef76ecb4ec62133650f9ec118bc", null ],
     [ "Start", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a882a535d498c75c60aa6f65a791ac0d7", null ],
     [ "collection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#ad8adb06fab6f671b39d9db6b34c5b0be", null ],
-    [ "DataConenctor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a129d9fc7856829e31d8b58fdc217e549", null ],
+    [ "DataConenctor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a2a27c1d595aaa7e767bff7dacfcb6fd2", null ],
     [ "element", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a5656a3373409b4bf738a4e039338da59", null ],
     [ "hub", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#a506e1bbf7dc1c17177be31149d9ffd26", null ],
     [ "onContextMenu", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_storage_selection_event_relay.html#aafcd193c5e2b406d0dec05aa1e24bac9", null ],

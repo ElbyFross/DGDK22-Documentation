@@ -1,0 +1,5 @@
+<map id="Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConnector" name="Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConnector">
+<area shape="rect" id="node1" title="Data connector that could automatically connect to a parent ShopsInspector instance along with the se..." alt="" coords="29,169,255,225"/>
+<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_connector.html" title="Provides API to connect Storage or StoragesDatabase.StorageContainer with StorageGUIElement handling ..." alt="" coords="33,95,251,121"/>
+<area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title=" " alt="" coords="5,5,279,47"/>
+</map>

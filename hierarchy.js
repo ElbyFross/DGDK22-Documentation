@@ -196,16 +196,16 @@ var hierarchy =
       [ "Doloro.AI.DAIInspector.StringInspectorProperty", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_string_inspector_property.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< AItemFeature, ItemFeatureGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
-      [ "Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_conector.html", null ]
+      [ "Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_connector.html", null ]
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< Storage, StorageGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
-      [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html", [
-        [ "Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_conector.html", null ],
+      [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_connector.html", [
+        [ "Doloro.InvetorySystem.Modules.Shops.UI.DataBridge.TransferAgentCollectionDataConnector", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_data_bridge_1_1_transfer_agent_collection_data_connector.html", null ],
         [ "Doloro.InvetorySystem.UI.Controls.StoragesGUICollection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection.html", null ]
       ] ]
     ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< StoragesDatabase.ItemContainer, ItemGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
-      [ "Doloro.InvetorySystem.UI.DataBridge.ItemsCollectionDataConector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector.html", [
+      [ "Doloro.InvetorySystem.UI.DataBridge.ItemsCollectionDataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_connector.html", [
         [ "Doloro.InvetorySystem.UI.Controls.ItemsGUICollection", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_items_g_u_i_collection.html", null ]
       ] ]
     ] ],
@@ -422,7 +422,7 @@ var hierarchy =
       ] ],
       [ "Doloro.UIEngine2.InputManagerEditor", "class_doloro_1_1_u_i_engine2_1_1_input_manager_editor.html", null ],
       [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnectorEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector_editor.html", [
-        [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConectorEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector_editor.html", [
+        [ "Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConnectorEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_connector_editor.html", [
           [ "Doloro.InvetorySystem.UI.DataBridge.StoragesGUICollectionEditor", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_g_u_i_collection_editor.html", null ]
         ] ]
       ] ],
