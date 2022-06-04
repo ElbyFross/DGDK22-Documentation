@@ -94,12 +94,7 @@ $(document).ready(function(){initNavTree('dinv-storage.html',''); initResizable(
 <li class="level2"><a href="#dinv-storage-p-dev">Development</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dinv-storage-gui">GUI</a><ul><li class="level2"><a href="#dinv-storage-gui-control">Storage GUI control</a></li>
-<li class="level2"><a href="#dinv-storage-gui-ext">Storage GUI extensions</a><ul><li class="level3"><a href="#dinv-storage-gui-custom">Development</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="level1"><a href="#dinv-storage-gui">GUI</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-storage-a"></a>
@@ -262,59 +257,17 @@ Than the instance of the component has to be added to the game object with <code
 <div class="line">}</div>
 </div><!-- fragment --><h1><a class="anchor" id="dinv-storage-gui"></a>
 GUI</h1>
-<h2><a class="anchor" id="dinv-storage-gui-control"></a>
-Storage GUI control</h2>
-<p >The module provides you with <code>StorageGUIElement</code>, a main content inspector suitable for <code>Storage</code> content display. The component receives <code>StoragesDatabase.StorageContainer</code> as <code>content</code> and loads its key properties to configurated GUI layout.</p>
-<p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storage_g_u_i_element.html" title="GUI element controller that bonds StoragesDatabase entry and UI.">Doloro.InvetorySystem.UI.Controls.StorageGUIElement</a> : AContentInspectorGUIElement</li>
-<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it.">Doloro.UIEngine2.Controls.AContentInspectorGUIElement</a></li>
-</ul>
-<p ><br  />
-</p>
-<h2><a class="anchor" id="dinv-storage-gui-ext"></a>
-Storage GUI extensions</h2>
-<p >The inspector can be extended with <code>AStorageGUIElementExtension</code> derived components. <br  />
-The class proofs components configuration on target game object that simplifies development comparing to manual implementation of <code>AContentInspectorExtension&lt;StoragesDatabase.StorageContainer&gt;</code> class.</p>
-<p >The extension follows <code>StorageGUIControl</code> events and updates bonded GUI layout elements along with extension internal logic.</p>
-<p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_a_storage_g_u_i_element_extension.html" title="Class that implements storage content managing GUI extension.">Doloro.InvetorySystem.UI.Extension.AStorageGUIElementExtension</a></li>
-<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_extension.html" title="Creates a bond between AContentInspectorGUIElement&lt;T&gt; and inspecting entity&#39;s feature.">Doloro.UIEngine2.Controls.AContentInspectorExtension</a></li>
-</ul>
-<h3><a class="anchor" id="dinv-storage-gui-custom"></a>
-Development</h3>
-<p >To create a custom GUI extension its enough to create a new class derived from <code>AStorageGUIElementExtension</code>. By overriding provided handlers you may follow common <code>StorageGUIControl</code> events and implement feedback on them.</p>
-<p >Following example shows common template of GUI extension class. </p><div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
-<div class="line">using Doloro.InvetorySystem.UI.Controls;</div>
-<div class="line">using Doloro.InvetorySystem.UI.Extension;</div>
-<div class="line"> </div>
-<div class="line">public class CUSTOM_STORAGE_GUI_EXTENSION : AStorageGUIElementExtension</div>
-<div class="line">{</div>
-<div class="line">    protected override void OnStorageNotSelected()</div>
-<div class="line">    {</div>
-<div class="line">            // Handler that calls when inspector content is `null`.</div>
-<div class="line">            // Clear the GUI elements here.</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    protected override void OnStorageModified(StoragesDatabase.StorageContainer source)</div>
-<div class="line">    {</div>
-<div class="line">                // Handler that calls when source storage data container data</div>
-<div class="line">                // has been modified.</div>
-<div class="line">                // Load data to GUI elements here.</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-</div><!-- fragment --><p >You also may find useful using of <code>AStorageFeatureGUIExtension{FeatureType}</code> class instead of regular <code>AStorageGUIElementExtension</code>. The class bonds certain <code>AStorageFeature</code> with the component and allows to track internal messages and events via pre-implemented handlers.</p>
-<div class="fragment"><div class="line">public class CUSTOM_STORAGE_FEATURE_GUI_EXTENSION :</div>
-<div class="line">    AStorageFeatureGUIExtension&lt;STORAGE_FEATURE_TYPE&gt;</div>
-<div class="line">{</div>
-<div class="line">        ... THE SAME MEMBERS MAP ...</div>
-<div class="line"> </div>
-<div class="line">    protected virtual void OnFeatureModified(STORAGE_FEATURE_TYPE feature)</div>
-<div class="line">    {</div>
-<div class="line">        // Occurs when a bonded feature invoked `AEntityFeature.Modified` event.</div>
-<div class="line">        // Implement GUI update here.</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-</div><!-- fragment --><p> Where <code>STORAGE_FEATURE_TYPE</code> is type of <code>AStorageFeature</code> derived component over <code>Storage</code> game object that will be tracked. </p>
+<p >Inventory system implements list of controls and extension based on <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> features.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Subject   </th><th class="markdownTableHeadNone">Brief description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="dinv-storage-gui-control.html">Storage GUI control</a>   </td><td class="markdownTableBodyNone">Base <code>Storage</code> inspector and following extension.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="dinv-storage-gui-collections.html">Storages GUI Collections</a>   </td><td class="markdownTableBodyNone"><a class="el" href="dui2-el_col.html">Elements Collection</a> extension controls.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="dinv-storage-gui-vh.html">Virtual Hub extension</a>   </td><td class="markdownTableBodyNone"><a class="el" href="dui2-vh.html">Virtual UI Hub</a> compatibility components.   </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

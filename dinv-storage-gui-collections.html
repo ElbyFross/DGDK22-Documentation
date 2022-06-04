@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doloro GDK 22: Items GUI Collections</title>
+<title>Doloro GDK 22: Storages GUI Collections</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('dinv-item-gui-collections.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('dinv-storage-gui-collections.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -84,49 +84,56 @@ $(document).ready(function(){initNavTree('dinv-item-gui-collections.html',''); i
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Items GUI Collections </div></div>
+  <div class="headertitle"><div class="title">Storages GUI Collections </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#dinv-item-gui-collections-a">About</a></li>
-<li class="level1"><a href="#dinv-item-gui-collections-controls">Controls</a></li>
-<li class="level1"><a href="#dinv-item-gui-collections-examples">Examples</a></li>
+<ul><li class="level1"><a href="#dinv-storage-gui-collections-a">About</a></li>
+<li class="level1"><a href="#dinv-storage-gui-collections-controls">Controls</a></li>
+<li class="level1"><a href="#dinv-item-storage-collections-examples">Examples</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="dinv-item-gui-collections-a"></a>
+<div class="textblock"><h1><a class="anchor" id="dinv-storage-gui-collections-a"></a>
 About</h1>
 <p >The items has implemented <code>AGUIElementsCollectionDataConnector</code> class supplied with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> <a class="el" href="dui2-el_col.html">Elements Collection</a> module. It allows to encapsulate bond between data set and its GUI representation.</p>
 <p ><b>Explore API:</b></p><ul>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_items_g_u_i_collection.html" title="Component that implements layout of ItemGUIElement collection.">Doloro.InvetorySystem.UI.Controls.ItemsGUICollection</a> : ItemsCollectionDataConector</li>
-<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_items_collection_data_conector.html" title="Provides API to connect StoragesDatabase.ItemContainer with ItemGUIElement handling UI.">Doloro.InvetorySystem.UI.DataBridge.ItemsCollectionDataConector</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_storages_g_u_i_collection.html" title="Component that implements layout of StorageGUIElement collection.">Doloro.InvetorySystem.UI.Controls.StoragesGUICollection</a> : StoragesCollectionDataConector</li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_storages_collection_data_conector.html" title="Provides API to connect Storage or StoragesDatabase.StorageContainer with StorageGUIElement handling ...">Doloro.InvetorySystem.UI.DataBridge.StoragesCollectionDataConector</a></li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title="Component that provides API to connect source data with AGUIElementsCollection component in uniform w...">Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector</a>{SourceType, GUIElementType}</li>
 </ul>
-<h1><a class="anchor" id="dinv-item-gui-collections-controls"></a>
+<h1><a class="anchor" id="dinv-storage-gui-collections-controls"></a>
 Controls</h1>
 <dl class="section warning"><dt>Warning</dt><dd>Components add via <code>Add component</code> menu not configures entire required layout controls from adding. Use configured prefabs as source or define the layout manually to use.</dd></dl>
 <p>The package has several main <code>AGUIElementsCollectionDataConnector</code> variants: </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Component   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>ItemsGUICollection</code>   </td><td class="markdownTableBodyNone">A solid layout requirements brings <br  />
- <code>ItemSelectionEventRelay</code> and <code>GridCollection</code> components with it. <br  />
+<td class="markdownTableBodyNone"><code>StoragesGUICollection</code>   </td><td class="markdownTableBodyNone">A solid layout requirements brings <br  />
+ <code>StorageSelectionEventRelay</code> and <code>GridCollection</code> components with it. <br  />
  This option is preferred in common cases.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><code>ItemsCollectionDataConector</code>   </td><td class="markdownTableBodyNone">A more abstract class that not defines precise GUI controls to manage. <br  />
+<td class="markdownTableBodyNone"><code>StoragesCollectionDataConector</code>   </td><td class="markdownTableBodyNone">A more abstract class that not defines precise GUI controls to manage. <br  />
  Use in case you require specific layout made with non standard controls.   </td></tr>
 </table>
-<h1><a class="anchor" id="dinv-item-gui-collections-examples"></a>
+<p >The package also has implementations related to sub-modules: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Component   </th><th class="markdownTableHeadNone">Sub-Module   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>TransferAgentCollectionDataConector</code>   </td><td class="markdownTableBodyNone">Shops   </td><td class="markdownTableBodyNone">Configures part of <code>ShopsInspector</code> layout. <br  />
+ <code>StoragesCollectionDataConector</code> by itself.   </td></tr>
+</table>
+<h1><a class="anchor" id="dinv-item-storage-collections-examples"></a>
 Examples</h1>
 <p >Page has several re-configured layouts to explore. You may find them using through project search field by name or within related module folders.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Prefab   </th><th class="markdownTableHeadNone">Module    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Inventory Content Explorer   </td><td class="markdownTableBodyNone">Doloro-Inventory    </td></tr>
+<td class="markdownTableBodyNone">Storages Selection Inspector   </td><td class="markdownTableBodyNone">Doloro-Inventory    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Exchange Buffer UI Available   </td><td class="markdownTableBodyNone">Doloro-Inventory-Shops    </td></tr>
+<td class="markdownTableBodyNone">Shops UI Shops Selection Explorer   </td><td class="markdownTableBodyNone">Doloro-Inventory-Shops    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Exchange Buffer UI Reserved   </td><td class="markdownTableBodyNone">Doloro-Inventory-Shops   </td></tr>
+<td class="markdownTableBodyNone">Shops UI Player Storages Selection Explorer   </td><td class="markdownTableBodyNone">Doloro-Inventory-Shops   </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -134,7 +141,7 @@ Examples</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li><li class="navelem"><a class="el" href="dinv-item.html">Item</a></li>
+    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li><li class="navelem"><a class="el" href="dinv-storage.html">Storage</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
