@@ -19,6 +19,7 @@ var class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector 
     [ "IsChildOf", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#af3edfc6d231c92996966e4829302cc23", null ],
     [ "IsLocalHierarchyChildOf", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#aaff121e8054fac941311732db351bb33", null ],
     [ "LoadRented", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#ac6fea1b62ee09e3e3eb1f8247c9ce750", null ],
+    [ "OnApplicationQuitting", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#a04ffbe459a60efcea645b41c76983620", null ],
     [ "OnBackground", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#a8e2c65b8d52516a010991d27f093c330", null ],
     [ "OnClampedSizeChanged", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#a0e98cd0c3517eeb21d12393aa870d81a", null ],
     [ "OnClose", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#a0278fc41314ff53473ded207b5471e7d", null ],

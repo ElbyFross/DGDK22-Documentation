@@ -17,6 +17,7 @@ var class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller =
     [ "Hide", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a5bd4d9f1ffd37482cbcab4affcd57541", null ],
     [ "IsChildOf", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#af3edfc6d231c92996966e4829302cc23", null ],
     [ "IsLocalHierarchyChildOf", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#aaff121e8054fac941311732db351bb33", null ],
+    [ "OnApplicationQuitting", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a04ffbe459a60efcea645b41c76983620", null ],
     [ "OnBackground", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a8e2c65b8d52516a010991d27f093c330", null ],
     [ "OnClampedSizeChanged", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a0e98cd0c3517eeb21d12393aa870d81a", null ],
     [ "OnClose", "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a0278fc41314ff53473ded207b5471e7d", null ],

@@ -18,6 +18,7 @@ var class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1
     [ "Hide", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a5bd4d9f1ffd37482cbcab4affcd57541", null ],
     [ "IsChildOf", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#af3edfc6d231c92996966e4829302cc23", null ],
     [ "IsLocalHierarchyChildOf", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#aaff121e8054fac941311732db351bb33", null ],
+    [ "OnApplicationQuitting", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a04ffbe459a60efcea645b41c76983620", null ],
     [ "OnAvailableItemsUIChanged", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a92297709c2b2e45f6d9f25755eabca52", null ],
     [ "OnBackground", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a8e2c65b8d52516a010991d27f093c330", null ],
     [ "OnClampedSizeChanged", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html#a0e98cd0c3517eeb21d12393aa870d81a", null ],
