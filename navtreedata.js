@@ -56,7 +56,6 @@ var NAVTREE =
         [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai_debu", null ]
       ] ],
       [ "Alpha-stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha", [
-        [ "Raymarching Rendering Environment (RMRE)", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_rmre", null ],
         [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_dinput", null ],
         [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_local", null ]
       ] ],
@@ -182,8 +181,8 @@ var NAVTREEINDEX =
 "ddm-drt-dabt_integration.html#ddm-drt-dabt_integration_dynres",
 "dinv-shops_explorer-demo.html",
 "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html",
-"namespace_doloro_1_1_graphs.html#a5dea66c8993a536f83cc56e0753eb14e",
-"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a1afbb995bfc890799a57dde18d1a6ed9"
+"namespace_doloro_1_1_graphs.html#a5dea66c8993a536f83cc56e0753eb14ea2ad9d63b69c4a10a5cc9cad923133bc4",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a238af50441ea36d726a44eb8c4e45567"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
