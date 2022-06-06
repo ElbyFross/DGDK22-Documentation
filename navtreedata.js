@@ -87,8 +87,6 @@ var NAVTREE =
     ] ],
     [ "Doloro Sensor", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
-    [ "LICENSE", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__l_i_c_e_n_s_e.html", null ],
-    [ "README", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__r_e_a_d_m_e.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
@@ -181,8 +179,8 @@ var NAVTREEINDEX =
 "ddm-drt-dabt_integration.html#ddm-drt-dabt_integration_dynres",
 "dinv-shops_explorer-demo.html",
 "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html",
-"namespace_doloro_1_1_graphs.html#a5dea66c8993a536f83cc56e0753eb14ea2ad9d63b69c4a10a5cc9cad923133bc4",
-"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a238af50441ea36d726a44eb8c4e45567"
+"namespace_doloro_1_1_graphs.html#a5dea66c8993a536f83cc56e0753eb14ea92b09c7c48c520c3c55e497875da437c",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a3b6a7a897c51303edd6fbfbf45afb9ba"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
