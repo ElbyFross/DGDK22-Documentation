@@ -7,9 +7,15 @@ var dinv_modules =
     [ "Shops", "dinv_shops.html", [
       [ "About", "dinv_shops.html#dinv_shops-a", null ],
       [ "Resources", "dinv_shops.html#dinv_shops-r", null ],
-      [ "GUI", "dinv_shops.html#dinv_shops-gui", null ],
-      [ "Controls", "dinv_shops.html#dinv_shops-gui-controls", null ],
-      [ "Virtual Hub", "dinv_shops.html#dinv_shops-gui-vh", null ],
-      [ "Windows", "dinv_shops.html#dinv_shops-gui-w", null ]
+      [ "GUI", "dinv_shops.html#dinv_shops-gui", [
+        [ "Windows", "dinv_shops.html#dinv_shops-gui-w", [
+          [ "Shops Inspector", "dinv_shops.html#dinv_shops-gui-w-si", null ],
+          [ "Transaction Order Inspector", "dinv_shops.html#dinv_shops-gui-w-toi", null ]
+        ] ],
+        [ "Controls", "dinv_shops.html#dinv_shops-gui-controls", null ],
+        [ "Virtual Hub", "dinv_shops.html#dinv_shops-gui-vh", [
+          [ "Exchange Buffer UI Hub Listener", "dinv_shops.html#dinv_shops-gui-vh-enuihl", null ]
+        ] ]
+      ] ]
     ] ]
 ];

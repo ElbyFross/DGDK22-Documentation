@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('dinv-item.html',''); initResizable(); 
 <div class="textblock"><h1><a class="anchor" id="dinv-item-a"></a>
 About</h1>
 <p ><code>Item</code> is a one of the core resources implemented within the module. <br  />
-The objects with implemented component considering as instances of <code>DynamicResource</code> and automatically handling with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-navigator">ddm-navigator</a> module features.</p>
+The objects with implemented component considering as instances of <code>DynamicResource</code> and automatically handling with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-navigator">ddm-navigator</a> module features.</p>
 <p ><code>Item</code> resource works as a source resource that instantiates each time when the instance has been requested. Entire changes and session data related to a certain instance shares with <a class="el" href="dinv-storages-database.html">Storages Database</a> in case the item located within some storage or manually via crating of <code>ItemContainer</code> from configurated <code>Item</code> instance.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a></li>
@@ -113,18 +113,18 @@ Resource</h1>
 <p >To create a new <code>Item</code> resource you need to:</p><ol type="1">
 <li>Create a new game object on a scene.</li>
 <li>Add <code>Item</code> component or its derived variant over it.</li>
-<li>Define resource signature that will allow to access the resource via <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-drt">Dynamic Resource Tools</a> API.<ol type="a">
+<li>Define resource signature that will allow to access the resource via <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-drt">Dynamic Resource Tools</a> API.<ol type="a">
 <li>(Optional) Setup item tags related to resource categorization of resource using <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a> features.</li>
 </ol>
 </li>
 <li>Add custom <code>AItemFeature</code> derived component to extend item's logic.</li>
 <li>Drag and drop the game object to any <code>Resources</code> folder to make it accessible to search.</li>
-<li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
+<li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
 </ol>
 <hr  />
 <h1><a class="anchor" id="dinv-item-p"></a>
 Asset Properties</h1>
-<p >As soon as normally in-game items share some parameters (damage, integrity, weight, price, etc.) the <code>Item</code> component also has bond with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-aps">Asset Properties System</a>. That allows flexible extending of the object parameters without changes in the source of items.</p>
+<p >As soon as normally in-game items share some parameters (damage, integrity, weight, price, etc.) the <code>Item</code> component also has bond with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-aps">Asset Properties System</a>. That allows flexible extending of the object parameters without changes in the source of items.</p>
 <p >Some of GUI controls and systems may automatically search for values stored within the <code>AssetPropertiesCollection</code> attached to the <code>Item</code>. Normally the search goes within <code>public</code> domain, but the handlers must provide you with API to manage this option.</p>
 <p ><b>Read also:</b> <a class="el" href="ddm-aps-com-ap.html">Asset Property</a></p>
 <hr  />
@@ -236,7 +236,7 @@ Development</h2>
 <hr  />
 <h1><a class="anchor" id="dinv-item-gui"></a>
 GUI</h1>
-<p >Inventory system implements list of controls and extension based on <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> features.</p>
+<p >Inventory system implements list of controls and extension based on <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> features.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Subject   </th><th class="markdownTableHeadNone">Brief description    </th></tr>
@@ -253,7 +253,7 @@ GUI</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li>
+    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

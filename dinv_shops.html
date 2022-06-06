@@ -87,30 +87,97 @@ $(document).ready(function(){initNavTree('dinv_shops.html',''); initResizable();
   <div class="headertitle"><div class="title">Shops </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dinv_shops-a">About</a></li>
+<li class="level1"><a href="#dinv_shops-r">Resources</a></li>
+<li class="level1"><a href="#dinv_shops-gui">GUI</a><ul><li class="level2"><a href="#dinv_shops-gui-w">Windows</a><ul><li class="level3"><a href="#dinv_shops-gui-w-si">Shops Inspector</a></li>
+<li class="level3"><a href="#dinv_shops-gui-w-toi">Transaction Order Inspector</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dinv_shops-gui-controls">Controls</a></li>
+<li class="level2"><a href="#dinv_shops-gui-vh">Virtual Hub</a><ul><li class="level3"><a href="#dinv_shops-gui-vh-enuihl">Exchange Buffer UI Hub Listener</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dinv_shops-a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Sub module that extends <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#dinv">dinv</a> core features with in-game shops required API \ features and GUI controls. <br  />
+With the module you can turn a storage to a shop with specific features.</p>
 <h1><a class="anchor" id="dinv_shops-r"></a>
 Resources</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >To create a new shop you have to create a regular <code>Storage</code> template resource and extend it with the <code>ShopFeature</code> component. The feature defines main shops parameters and makes it visible within the <code>ShopsInspector</code> window.</p>
+<ol type="1">
+<li>Create a new game object on a scene.</li>
+<li>Add <code>Storage</code> component or its derived variant over it.</li>
+<li>Define resource signature that will allow to access the resource via <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-drt">Dynamic Resource Tools</a> API.<ol type="a">
+<li>(Optional) Setup item tags related to resource categorization of resource using <a class="el" href="ddm-drt-tagstool.html">Tags Tool</a> features.</li>
+</ol>
+</li>
+<li>Add <code>ShopFeature</code> component to turn the <code>Storge</code> into a shop. Configure shop behavior parameters.</li>
+<li>Add custom <code>AStorageFeature</code> derived component to extend item's logic.</li>
+<li>Drag and drop the game object to any <code>Resources</code> folder to make it accessible to search.</li>
+<li>(Optional) Define asset bundle parameters in case you plan to distribute the resource via <b>AssetBundle</b> packages using <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-catalog-abt">Asset Bundles Tools</a> features.</li>
+</ol>
+<p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html" title="Implements shop functionality to the storage.">Doloro.InvetorySystem.Modules.Shops.ShopFeature</a></li>
+<li><a class="el" href="class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html" title="Standalone window that provides logic and API related to stores inspector UI.">Doloro.InvetorySystem.Modules.Shops.UI.Windows.ShopsInspector</a></li>
+</ul>
 <h1><a class="anchor" id="dinv_shops-gui"></a>
 GUI</h1>
-<h1><a class="anchor" id="dinv_shops-gui-controls"></a>
-Controls</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h1><a class="anchor" id="dinv_shops-gui-vh"></a>
-Virtual Hub</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h1><a class="anchor" id="dinv_shops-gui-w"></a>
-Windows</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="dinv_shops-gui-w"></a>
+Windows</h2>
+<p >The package supplying you with several <a class="el" href="dui2-window.html">Window</a> implementation to complex task solving.</p>
+<h3><a class="anchor" id="dinv_shops-gui-w-si"></a>
+Shops Inspector</h3>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_shops_inspector.html" title="Standalone window that provides logic and API related to stores inspector UI.">Doloro.InvetorySystem.Modules.Shops.UI.Windows.ShopsInspector</a></p>
+<h3><a class="anchor" id="dinv_shops-gui-w-toi"></a>
+Transaction Order Inspector</h3>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_windows_1_1_transaction_order_inspector.html" title="Controller that manages UI related to TransactionService.TransactionOrders handling.">Doloro.InvetorySystem.Modules.Shops.UI.Windows.TransactionOrderInspector</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv_shops-gui-controls"></a>
+Controls</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">GUI Element   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>ShopGUIElement</code>   </td><td class="markdownTableBodyNone">Extended <a class="el" href="dinv-storage-gui-control.html">Storage GUI control</a> that visualizes <code>Storage</code> in GUI as a store. <br  />
+ Example: using at the <code>ShopsInspector</code> stores catalog as collection element.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>ExchangeBufferGUIElement</code>   </td><td class="markdownTableBodyNone">GUI element that visualizes items for 2 storages along with currently placed transactions orders. <br  />
+ <br  />
+ Can work in 3 modes:<br  />
+ - Raw: shows not formated storages content.<br  />
+ - Available: shows only items not reserved with placed transaction orders. <br  />
+ - Reserved: Shows items reserved in transactions between two selected storages.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>InvalidOrderInfoGUIElement</code>   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>TradingConsoleGUIElement</code>   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv_shops-gui-vh"></a>
+Virtual Hub</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<p ><br  />
+</p>
+<h3><a class="anchor" id="dinv_shops-gui-vh-enuihl"></a>
+Exchange Buffer UI Hub Listener</h3>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li><li class="navelem"><a class="el" href="dinv_modules.html">Sub-modules</a></li>
+    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html">Doloro Inventory System</a></li><li class="navelem"><a class="el" href="dinv_modules.html">Sub-modules</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
