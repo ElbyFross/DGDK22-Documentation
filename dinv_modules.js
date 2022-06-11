@@ -2,7 +2,13 @@ var dinv_modules =
 [
     [ "Volumetric storage", "dinv_volume.html", [
       [ "About", "dinv_volume.html#dinv_volume_about", null ],
-      [ "How to use", "dinv_volume.html#dinv_volume_htu", null ]
+      [ "How to use", "dinv_volume.html#dinv_volume_htu", [
+        [ "Storage configuration", "dinv_volume.html#dinv_volume_htu_sc", null ],
+        [ "Item configuration", "dinv_volume.html#dinv_volume_htu_ic", null ],
+        [ "Reservation logic", "dinv_volume.html#dinv_volume_htu_res", null ],
+        [ "Cross-session data", "dinv_volume.html#dinv_volume_htu_cs", null ]
+      ] ],
+      [ "Visualizer", "dinv_volume.html#dinv_volume_visualizer", null ]
     ] ],
     [ "Shops", "dinv_shops.html", [
       [ "About", "dinv_shops.html#dinv_shops-a", null ],

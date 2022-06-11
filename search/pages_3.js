@@ -2,10 +2,10 @@ var searchData=
 [
   ['dai_20debugger_0',['DAI Debugger',['../dai-debug-env-debug_tool.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_AI_Debug_Environment_README']]],
   ['demo_3a_20inventories_20explorer_1',['Demo: Inventories explorer',['../dinv-inventories_explorer-demo.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
-  ['demo_3a_20shops_20explorer_2',['Demo: Shops explorer',['../dinv-shops_explorer-demo.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
+  ['demo_3a_20shops_20inspector_2',['Demo: Shops inspector',['../dinv-shops_inspector-demo.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
   ['doloro_20ai_20core_3',['Doloro AI Core',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__core__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20ai_20debug_20environment_4',['Doloro AI Debug Environment',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e.html',1,'']]],
-  ['doloro_20ai_20nodes_5',['Doloro AI Nodes',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html',1,'']]],
+  ['doloro_20ai_20nodes_5',['Doloro AI Nodes',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs__d_a_i__nodes.html',1,'']]],
   ['doloro_20ai_20studio_6',['Doloro AI Studio',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20data_20management_7',['Doloro Data Management',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20editor_20extension_8',['Doloro Editor Extension',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e.html',1,'']]],

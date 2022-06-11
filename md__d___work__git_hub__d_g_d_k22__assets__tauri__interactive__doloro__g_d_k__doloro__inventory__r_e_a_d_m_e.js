@@ -62,9 +62,9 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       ] ]
     ] ],
     [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
-    [ "Demo: Shops explorer", "dinv-shops_explorer-demo.html", [
-      [ "About", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-a", null ],
-      [ "How does it work", "dinv-shops_explorer-demo.html#dinv-shops_explorer-demo-hdw", null ]
+    [ "Demo: Shops inspector", "dinv-shops_inspector-demo.html", [
+      [ "About", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-a", null ],
+      [ "How does it work", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw", null ]
     ] ],
     [ "Demo: Inventories explorer", "dinv-inventories_explorer-demo.html", [
       [ "About", "dinv-inventories_explorer-demo.html#dinv-inventories_explorer-demo-a", null ],

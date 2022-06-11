@@ -49,6 +49,7 @@ var searchData=
   ['itemsguicollection_46',['ItemsGUICollection',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_items_g_u_i_collection.html',1,'Doloro::InvetorySystem::UI::Controls']]],
   ['itemstackweightguiextension_47',['ItemStackWeightGUIExtension',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html',1,'Doloro::InvetorySystem::UI::Extension']]],
   ['itemuihublistener_48',['ItemUIHubListener',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_virtual_hub_1_1_item_u_i_hub_listener.html',1,'Doloro::InvetorySystem::UI::VirtualHub']]],
-  ['iuniqueresource_49',['IUniqueResource',['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.IUniqueResource'],['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.Modules.MergeTool.IUniqueResource']]],
-  ['iwindowruntimeregisterentry_50',['IWindowRuntimeRegisterEntry',['../interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html',1,'Doloro::UIEngine2']]]
+  ['itemvolume_49',['ItemVolume',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_item_volume.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace']]],
+  ['iuniqueresource_50',['IUniqueResource',['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.IUniqueResource'],['../interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merge_tool_1_1_i_unique_resource.html',1,'Doloro.DataManagement.DynamicResources.Modules.MergeTool.IUniqueResource']]],
+  ['iwindowruntimeregisterentry_51',['IWindowRuntimeRegisterEntry',['../interface_doloro_1_1_u_i_engine2_1_1_i_window_runtime_register_entry.html',1,'Doloro::UIEngine2']]]
 ];

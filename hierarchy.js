@@ -745,6 +745,7 @@ var hierarchy =
       [ "Doloro.EditorExtension.SmallToolsHub.PositionTest", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_position_test.html", null ],
       [ "Doloro.InvetorySystem.AEntityFeature", "class_doloro_1_1_invetory_system_1_1_a_entity_feature.html", [
         [ "Doloro.InvetorySystem.AItemFeature", "class_doloro_1_1_invetory_system_1_1_a_item_feature.html", [
+          [ "Doloro.InvetorySystem.Features.VolumetricSpace.ItemVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_item_volume.html", null ],
           [ "Doloro.InvetorySystem.UI.Controls.ItemFeatureGUIElement.AssetPropertyAdapter", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element_1_1_asset_property_adapter.html", null ]
         ] ],
         [ "Doloro.InvetorySystem.AStorageFeature", "class_doloro_1_1_invetory_system_1_1_a_storage_feature.html", [
@@ -758,8 +759,7 @@ var hierarchy =
           [ "Doloro.InvetorySystem.Features.StorageContentSpawner", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_content_spawner.html", null ],
           [ "Doloro.InvetorySystem.Features.StorageInfo", "class_doloro_1_1_invetory_system_1_1_features_1_1_storage_info.html", null ],
           [ "Doloro.InvetorySystem.Modules.Shops.ShopFeature", "class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_shop_feature.html", null ]
-        ] ],
-        [ "Doloro.InvetorySystem.Features.VolumetricSpace.EntityVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume.html", null ]
+        ] ]
       ] ],
       [ "Doloro.InvetorySystem.DebugTools.StrorageTransOrdersPairsLogger", "class_doloro_1_1_invetory_system_1_1_debug_tools_1_1_strorage_trans_orders_pairs_logger.html", null ],
       [ "Doloro.InvetorySystem.DebugTools.TransactionOrdersLogger", "class_doloro_1_1_invetory_system_1_1_debug_tools_1_1_transaction_orders_logger.html", null ],

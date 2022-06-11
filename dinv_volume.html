@@ -87,12 +87,57 @@ $(document).ready(function(){initNavTree('dinv_volume.html',''); initResizable()
   <div class="headertitle"><div class="title">Volumetric storage </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dinv_volume_about">About</a></li>
+<li class="level1"><a href="#dinv_volume_htu">How to use</a><ul><li class="level2"><a href="#dinv_volume_htu_sc">Storage configuration</a></li>
+<li class="level2"><a href="#dinv_volume_htu_ic">Item configuration</a></li>
+<li class="level2"><a href="#dinv_volume_htu_res">Reservation logic</a></li>
+<li class="level2"><a href="#dinv_volume_htu_cs">Cross-session data</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dinv_volume_visualizer">Visualizer</a></li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dinv_volume_about"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Sub-module that implements concept of volume for items and storages. Allows to moderate using space that allows to provide much more immersive experience for the player.</p>
+<p ><b>Read also:</b></p><ul>
+<li><a class="el" href="dinv-storage.html">Storage</a></li>
+<li><a class="el" href="dinv-item.html">Item</a></li>
+</ul>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html" title="Implements the conception of volume-like space bounding the capacity of the storage.">Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolume</a></p>
+<hr  />
 <h1><a class="anchor" id="dinv_volume_htu"></a>
 How to use</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="dinv_volume_htu_sc"></a>
+Storage configuration</h2>
+<p >To implement volume of a <code>Storage</code> you have to add the <code>StorageVolume</code> feature over the same game object as the <code>Storage</code>. <br  />
+To add the feature in <code>Add Component</code> menu navigate to <em><a class="el" href="namespace_doloro.html">Doloro</a> GDK \ Inventory system \ Features \ Storage \ Storage Volume</em>.</p>
+<p >After adding the feature will automatically embed into internal object. <br  />
+All you need is configurate a physical size of the storage at the component inspector.</p>
+<p ><b>Read more about Storage resource creation:</b> <a class="el" href="dinv-storage.html#dinv-storage-r">Resource</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv_volume_htu_ic"></a>
+Item configuration</h2>
+<p >To implement volume setting over a certain <code>Item</code> resource you have to navigate to its prefab and add <code>ItemVolume</code> feature over the same game object.</p>
+<p >Next you need to defined volume parameters applied defining physical size of the item. <br  />
+During each transaction <code>StorageVolume</code> feature will search for <code>ItemVolume</code> features over target resources and manages the space along with it configuration.</p>
+<p ><b>Read more about Item resource creation:</b> <a class="el" href="dinv-item.html#dinv-item-r">Resource</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv_volume_htu_res"></a>
+Reservation logic</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dinv_volume_htu_cs"></a>
+Cross-session data</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<hr  />
+<h1><a class="anchor" id="dinv_volume_visualizer"></a>
+Visualizer</h1>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -450,8 +450,8 @@ var annotated_dup =
         [ "Features", "namespace_doloro_1_1_invetory_system_1_1_features.html", [
           [ "VolumetricSpace", "namespace_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space.html", [
             [ "Coordinate", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate" ],
-            [ "EntityVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_entity_volume" ],
             [ "GridSpace", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space" ],
+            [ "ItemVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_item_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_item_volume" ],
             [ "StorageVolume", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume" ],
             [ "StorageVolumeVisualizer", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html", "class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer" ],
             [ "Volume", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume" ],

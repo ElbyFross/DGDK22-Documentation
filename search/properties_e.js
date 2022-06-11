@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['offset_0',['offset',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a721f97dfa7854888d8c6c9a91da71137',1,'Doloro::DataManagement::Tables::Spreadsheet']]],
-  ['offset_1',['OFFSET',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html#a2529e88d74cc973e796f8d5014d51bf7',1,'Doloro::AI::DAIInspector::InspectorHeader']]],
+  ['offset_0',['OFFSET',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html#a2529e88d74cc973e796f8d5014d51bf7',1,'Doloro::AI::DAIInspector::InspectorHeader']]],
+  ['offset_1',['offset',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a721f97dfa7854888d8c6c9a91da71137',1,'Doloro::DataManagement::Tables::Spreadsheet']]],
   ['oncontextmenu_2',['onContextMenu',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html#aafcd193c5e2b406d0dec05aa1e24bac9',1,'Doloro::UIEngine2::Modules::VirtualHub::UIHubEventRelay']]],
   ['ondrag_3',['onDrag',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html#ad5f11df115dbf1b2475ee23d6f0e536b',1,'Doloro::UIEngine2::Modules::VirtualHub::UIHubEventRelay']]],
   ['one_4',['one',['../struct_doloro_1_1_base_types_1_1_vector2.html#a62ab3f2d4bce640e0ecb1c7bee818b21',1,'Doloro.BaseTypes.Vector2.one()'],['../struct_doloro_1_1_base_types_1_1_vector2d.html#acad17f73b92811976c0b36b692e1d5b3',1,'Doloro.BaseTypes.Vector2d.one()'],['../struct_doloro_1_1_base_types_1_1_vector3.html#a63b605d08a88805544bbd31a190e4921',1,'Doloro.BaseTypes.Vector3.one()'],['../struct_doloro_1_1_base_types_1_1_vector3d.html#ae4b0737caa7f64659a3c8e9207921edc',1,'Doloro.BaseTypes.Vector3d.one()'],['../struct_doloro_1_1_base_types_1_1_vector4.html#a3c93c187d8e7529255006bdca3ba877a',1,'Doloro.BaseTypes.Vector4.one()'],['../struct_doloro_1_1_base_types_1_1_vector4d.html#ade2c5a4576b77e721415a0d956ba7c5a',1,'Doloro.BaseTypes.Vector4d.one()']]],

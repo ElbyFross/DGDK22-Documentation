@@ -40,7 +40,7 @@ var searchData=
   ['less_37',['Less',['../class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action.html#ae262f1ae122764b75456aff5db5bb563',1,'Doloro::AI::Compare::ACompareAction']]],
   ['lessorequal_38',['LessOrEqual',['../class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action.html#a8fd72774b1b3707397563e3ae47beaf5',1,'Doloro::AI::Compare::ACompareAction']]],
   ['level_39',['level',['../class_doloro_1_1_a_i_1_1_primitive_1_1_log.html#a1465b7272c2a8379e5b23adb4668d498',1,'Doloro::AI::Primitive::Log']]],
-  ['licensing_40',['Licensing',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__licenses.html',1,'']]],
+  ['licensing_40',['Licensing',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_1__licenses.html',1,'']]],
   ['limit_41',['Limit',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_slots_limiter.html#ab43c960d87d889126930b00cecc1c11a',1,'Doloro.InvetorySystem.Features.StorageSlotsLimiter.Limit()'],['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a7e57143827b277cfb4cf550a25832d30',1,'Doloro.InvetorySystem.Features.StorageWeightLimiter.Limit()']]],
   ['lineclusterdemo_42',['LineClusterDemo',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_demo_1_1_line_cluster_demo.html',1,'Doloro::UIEngine2::Modules::Graphs::Demo']]],
   ['lineshiftutils_43',['LineShiftUtils',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_line_shift_utils.html',1,'Doloro::UIEngine2::Modules::Graphs']]],

@@ -119,13 +119,13 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Repaint</b> ()</td></tr>
 <tr class="memdesc:ac5070929b59986ceab7a4d2a5cfec67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys current <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a> and generates new visualization. <br /></td></tr>
 <tr class="separator:ac5070929b59986ceab7a4d2a5cfec67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17adb977a7d8fbcdcf8450453657b07"><td class="memItemLeft" align="right" valign="top"><a id="aa17adb977a7d8fbcdcf8450453657b07" name="aa17adb977a7d8fbcdcf8450453657b07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearContent</b> ()</td></tr>
-<tr class="memdesc:aa17adb977a7d8fbcdcf8450453657b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clearing entire volumes placed inside the volume. <br /></td></tr>
-<tr class="separator:aa17adb977a7d8fbcdcf8450453657b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f0f06ef7afea065298b18bd325851e8"><td class="memItemLeft" align="right" valign="top"><a id="a7f0f06ef7afea065298b18bd325851e8" name="a7f0f06ef7afea065298b18bd325851e8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateUIElement</b> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html">GridSpace</a> space, Material mat, Transform h)</td></tr>
-<tr class="separator:a7f0f06ef7afea065298b18bd325851e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbcd678d6dd7077b0fada47ea41d24c"><td class="memItemLeft" align="right" valign="top"><a id="a5fbcd678d6dd7077b0fada47ea41d24c" name="a5fbcd678d6dd7077b0fada47ea41d24c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
+<tr class="memdesc:a5fbcd678d6dd7077b0fada47ea41d24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears entire volumes placed inside the volume. <br /></td></tr>
+<tr class="separator:a5fbcd678d6dd7077b0fada47ea41d24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed269247ca370c2e13c15be923187f7c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html#aed269247ca370c2e13c15be923187f7c">CreateVisualizationElement</a> (<a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html">GridSpace</a> space, Material mat, Transform parent)</td></tr>
+<tr class="memdesc:aed269247ca370c2e13c15be923187f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler that instantiate element of the space visualization.  <a href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html#aed269247ca370c2e13c15be923187f7c">More...</a><br /></td></tr>
+<tr class="separator:aed269247ca370c2e13c15be923187f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -149,6 +149,7 @@ Properties</h2></td></tr>
 <tr class="separator:ae07e8979ecb6e56a1e71cbf37ac79a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07813f25c577b47be61e1175fcbd8d68"><td class="memItemLeft" align="right" valign="top"><a id="a07813f25c577b47be61e1175fcbd8d68" name="a07813f25c577b47be61e1175fcbd8d68"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>PointSize</b><code> [get]</code></td></tr>
+<tr class="memdesc:a07813f25c577b47be61e1175fcbd8d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of single unit computing accordingly with provided visualization <a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html#ae07e8979ecb6e56a1e71cbf37ac79a7b" title="The volume instance connected to the view.">volume</a> and current content size. <br /></td></tr>
 <tr class="separator:a07813f25c577b47be61e1175fcbd8d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af287281a575af915129985bec092920a"><td class="memItemLeft" align="right" valign="top"><a id="af287281a575af915129985bec092920a" name="af287281a575af915129985bec092920a"></a>
 Transform&#160;</td><td class="memItemRight" valign="bottom"><b>bound</b><code> [get, set]</code></td></tr>
@@ -160,15 +161,70 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>holder</b><code>
 <tr class="separator:acc5343ea73c5b78c4e70dd5c349ec1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08921485cf3b7a66bc9816fbe2f862af"><td class="memItemLeft" align="right" valign="top"><a id="a08921485cf3b7a66bc9816fbe2f862af" name="a08921485cf3b7a66bc9816fbe2f862af"></a>
 Material&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeMaterial</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a08921485cf3b7a66bc9816fbe2f862af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material using for regular volume objects. <br /></td></tr>
 <tr class="separator:a08921485cf3b7a66bc9816fbe2f862af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a926020015ca75e439f07750f9c8a8827"><td class="memItemLeft" align="right" valign="top"><a id="a926020015ca75e439f07750f9c8a8827" name="a926020015ca75e439f07750f9c8a8827"></a>
 Material&#160;</td><td class="memItemRight" valign="bottom"><b>SelectionMaterial</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a926020015ca75e439f07750f9c8a8827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material using to highlight selected volume. <br /></td></tr>
 <tr class="separator:a926020015ca75e439f07750f9c8a8827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe76858dbf58c456909dda7920d7d6f2"><td class="memItemLeft" align="right" valign="top"><a id="abe76858dbf58c456909dda7920d7d6f2" name="abe76858dbf58c456909dda7920d7d6f2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>DrawFreespaceZones</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:abe76858dbf58c456909dda7920d7d6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines is unused space volume should be filled with padding geometry. <br /></td></tr>
 <tr class="separator:abe76858dbf58c456909dda7920d7d6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aed269247ca370c2e13c15be923187f7c" name="aed269247ca370c2e13c15be923187f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed269247ca370c2e13c15be923187f7c">&#9670;&nbsp;</a></span>CreateVisualizationElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolumeVisualizer.CreateVisualizationElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_grid_space.html">GridSpace</a>&#160;</td>
+          <td class="paramname"><em>space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Material&#160;</td>
+          <td class="paramname"><em>mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handler that instantiate element of the space visualization. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">space</td><td>Space to fill.</td></tr>
+    <tr><td class="paramname">mat</td><td>Material supposed to be used.</td></tr>
+    <tr><td class="paramname">parent</td><td>Object supposed to be coordinates center and game object parent.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="abbaafb5a57455419dccbfc31f73b78e1" name="abbaafb5a57455419dccbfc31f73b78e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbaafb5a57455419dccbfc31f73b78e1">&#9670;&nbsp;</a></span>OnVolumeModified()</h2>
 
