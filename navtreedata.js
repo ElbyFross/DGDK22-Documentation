@@ -37,7 +37,37 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
+    [ "Licensing", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__licenses.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__licenses" ],
+    [ "Getting Started", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__getting_started.html", [
+      [ "How to use the documentation?", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__getting_started.html#gstart_docs", null ]
+    ] ],
+    [ "Modules Brief Overview", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html", [
+      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_about", null ],
+      [ "Module states legend", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_about_msl", null ],
+      [ "Regular modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl", [
+        [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_ddm", null ],
+        [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_eext", null ],
+        [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_graphs", null ],
+        [ "Doloro Inventory", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_inv", null ],
+        [ "Doloro Sensors", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_sens", null ],
+        [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dui2", null ],
+        [ "Doloro AI Core", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai", null ],
+        [ "Doloro AI Dev Kit", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai_dev_tools", null ],
+        [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai_debu", null ]
+      ] ],
+      [ "Alpha-stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha", [
+        [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_dinput", null ],
+        [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_local", null ]
+      ] ],
+      [ "Early stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_inprogress", null ],
+      [ "Deprecated modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_deprecated", null ]
+    ] ],
+    [ "Roadmap", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_4__roadmap.html", null ],
     [ "Editor Configs Assembly", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__configs__r_e_a_d_m_e.html", null ],
+    [ "Doloro AI Nodes", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html", [
+      [ "Orders", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_orders", null ],
+      [ "Actions", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_actions", null ]
+    ] ],
     [ "Doloro AI Core", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__core__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__core__r_e_a_d_m_e" ],
     [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e" ],
     [ "Doloro AI Studio", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e" ],
@@ -57,36 +87,6 @@ var NAVTREE =
     ] ],
     [ "Doloro Sensor", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e" ],
     [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
-    [ "Licensing", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_1__licenses.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_1__licenses" ],
-    [ "Getting Started", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_2__getting_started.html", [
-      [ "How to use the documentation?", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_2__getting_started.html#gstart_docs", null ]
-    ] ],
-    [ "Modules Brief Overview", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html", [
-      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_about", null ],
-      [ "Module states legend", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_about_msl", null ],
-      [ "Regular modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl", [
-        [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_ddm", null ],
-        [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_eext", null ],
-        [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_graphs", null ],
-        [ "Doloro Inventory", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_inv", null ],
-        [ "Doloro Sensors", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_sens", null ],
-        [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_dui2", null ],
-        [ "Doloro AI Core", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_dai", null ],
-        [ "Doloro AI Dev Kit", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_dai_dev_tools", null ],
-        [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_incl_dai_debu", null ]
-      ] ],
-      [ "Alpha-stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_alpha", [
-        [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_alpha_dinput", null ],
-        [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_alpha_local", null ]
-      ] ],
-      [ "Early stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_inprogress", null ],
-      [ "Deprecated modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_3__modules_overview.html#modules_overview_deprecated", null ]
-    ] ],
-    [ "Roadmap", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs_4__roadmap.html", null ],
-    [ "Doloro AI Nodes", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs__d_a_i__nodes.html", [
-      [ "Orders", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs__d_a_i__nodes.html#dai_core_nodes_orders", null ],
-      [ "Actions", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doxygen_docs__d_a_i__nodes.html#dai_core_nodes_actions", null ]
-    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
