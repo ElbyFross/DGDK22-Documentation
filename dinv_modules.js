@@ -8,7 +8,10 @@ var dinv_modules =
         [ "Reservation logic", "dinv_volume.html#dinv_volume_htu_res", null ],
         [ "Cross-session data", "dinv_volume.html#dinv_volume_htu_cs", null ]
       ] ],
-      [ "Visualizer", "dinv_volume.html#dinv_volume_visualizer", null ]
+      [ "Visualizer", "dinv_volume.html#dinv_volume_visualizer", [
+        [ "Storage's content set", "dinv_volume.html#dinv_volume_visualizer_content", null ],
+        [ "Manual content sets", "dinv_volume.html#dinv_volume_visualizer_content_manual", null ]
+      ] ]
     ] ],
     [ "Shops", "dinv_shops.html", [
       [ "About", "dinv_shops.html#dinv_shops-a", null ],

@@ -1,6 +1,8 @@
 var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e =
 [
     [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#s_dinv_a", null ],
+    [ "Sub-modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#dinv_modules", null ],
+    [ "Demo Scenes", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html#dinv_demos", null ],
     [ "Getting started", "dinv-gs.html", [
       [ "About", "dinv-gs.html#dinv-gs-a", null ],
       [ "Resources", "dinv-gs.html#dinv-gs-resoruces", null ],
@@ -61,10 +63,39 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
         [ "Examples", "dinv_trasaction_service.html#dinv_trasaction_service_reservation_examples", null ]
       ] ]
     ] ],
-    [ "Sub-modules", "dinv_modules.html", "dinv_modules" ],
+    [ "Volumetric storage", "dinv_volume.html", [
+      [ "About", "dinv_volume.html#dinv_volume_about", null ],
+      [ "How to use", "dinv_volume.html#dinv_volume_htu", [
+        [ "Storage configuration", "dinv_volume.html#dinv_volume_htu_sc", null ],
+        [ "Item configuration", "dinv_volume.html#dinv_volume_htu_ic", null ],
+        [ "Reservation logic", "dinv_volume.html#dinv_volume_htu_res", null ],
+        [ "Cross-session data", "dinv_volume.html#dinv_volume_htu_cs", null ]
+      ] ],
+      [ "Visualizer", "dinv_volume.html#dinv_volume_visualizer", [
+        [ "Storage's content set", "dinv_volume.html#dinv_volume_visualizer_content", null ],
+        [ "Manual content sets", "dinv_volume.html#dinv_volume_visualizer_content_manual", null ]
+      ] ]
+    ] ],
+    [ "Shops", "dinv_shops.html", [
+      [ "About", "dinv_shops.html#dinv_shops-a", null ],
+      [ "Resources", "dinv_shops.html#dinv_shops-r", null ],
+      [ "GUI", "dinv_shops.html#dinv_shops-gui", [
+        [ "Windows", "dinv_shops.html#dinv_shops-gui-w", [
+          [ "Shops Inspector", "dinv_shops.html#dinv_shops-gui-w-si", null ],
+          [ "Transaction Order Inspector", "dinv_shops.html#dinv_shops-gui-w-toi", null ]
+        ] ],
+        [ "Controls", "dinv_shops.html#dinv_shops-gui-controls", null ],
+        [ "Virtual Hub", "dinv_shops.html#dinv_shops-gui-vh", [
+          [ "Exchange Buffer UI Hub Listener", "dinv_shops.html#dinv_shops-gui-vh-enuihl", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Demo: Shops inspector", "dinv-shops_inspector-demo.html", [
       [ "About", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-a", null ],
-      [ "How does it work", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw", null ]
+      [ "How does it work", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw", [
+        [ "Shops declaration", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-shops", null ],
+        [ "Storages generation", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-storages", null ]
+      ] ]
     ] ],
     [ "Demo: Inventories explorer", "dinv-inventories_explorer-demo.html", [
       [ "About", "dinv-inventories_explorer-demo.html#dinv-inventories_explorer-demo-a", null ],

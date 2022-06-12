@@ -87,12 +87,33 @@ $(document).ready(function(){initNavTree('dinv-shops_inspector-demo.html',''); i
   <div class="headertitle"><div class="title">Demo: Shops inspector </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dinv-shops_inspector-demo-a">About</a></li>
+<li class="level1"><a href="#dinv-shops_inspector-demo-hdw">How does it work</a><ul><li class="level2"><a href="#dinv-shops_inspector-demo-hdw-shops">Shops declaration</a></li>
+<li class="level2"><a href="#dinv-shops_inspector-demo-hdw-storages">Storages generation</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="dinv-shops_inspector-demo-a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The demo demonstrates a complex inspector window that provides access to on-scene <code>Shop</code> instances and on-scene <code>Storages</code> related a certain person by it's id.</p>
+<p >\sectiond inv-shops_inspector-demo-hts How to start</p><ol type="1">
+<li>Navigate by following path towared scenes collection: <code>Doloro-GDK \ Doloro-Inventory-Shops \ Scenes \</code>.</li>
+<li>Open <code>Shops Inspector</code> scene.</li>
+</ol>
+<p >Before running we recommend you to enable <code>Maximize on Play</code> mode of the <b>Game</b> view.</p>
 <h1><a class="anchor" id="dinv-shops_inspector-demo-hdw"></a>
 How does it work</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-shops"></a>
+Shops declaration</h2>
+<p >The scene hierarchy has <code>Shops declaration</code> game object. Open it to gen on-scene declarations configs for a storages.</p>
+<p >Note that entire <code>Storage Caller</code> components refer <code>default.shop</code>. Such a storages will be instantiated with using of <code>Shop Default</code> resource. <br  />
+The default features settings will be applied according with features declared over the <code>Storage Caller</code> instance. in case if provided. <br  />
+In case the feature no exists over the storage entity resource, it will be skipped.</p>
+<h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-storages"></a>
+Storages generation</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
