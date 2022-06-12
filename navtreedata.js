@@ -32,7 +32,7 @@ var NAVTREE =
       [ "BETA", "index.html#mainpage_beta", [
         [ "F.A.Q.", "index.html#mainpage_beta_faq", [
           [ "How long BETA will go?", "index.html#mainpage_beta_faq_long", null ],
-          [ "Is the beta time goes into year subscribtion?", "index.html#mainpage_beta_faq_year", null ],
+          [ "Is the beta time goes into year subscription?", "index.html#mainpage_beta_faq_year", null ],
           [ "Is BETA means the product can't be used?", "index.html#mainpage_beta_faq_stability", null ]
         ] ]
       ] ]

@@ -128,16 +128,23 @@ During each transaction <code>StorageVolume</code> feature will search for <code
 </p>
 <h2><a class="anchor" id="dinv_volume_htu_res"></a>
 Reservation logic</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >When you are placing transaction order of volumetric objects the <code>StorageVolume</code> feature component reserves space required for the object in temporal buffer.</p>
+<ul>
+<li>In case of transaction canceling the space releases from occupation and becomes accessible to new transactions.</li>
+<li>In case of transaction confirmation the temporal buffer data migrates toward static buffer that allowed in cross-session database.</li>
+</ul>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv_volume_htu_cs"></a>
 Cross-session data</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >As any right implemented <code>AStorageFeature</code> <code>StorageVolume</code> loads its state automatically during rend of <code>Storage</code> for <code>StoragesDatabase.StorageContainer</code> instance, and saves it's stable state as soon as <code>Storage</code> entity has been released.</p>
+<p >All incomplete transaction will be automatically canceled during rent finalization, temporal buffer entries will be released.</p>
 <hr  />
 <h1><a class="anchor" id="dinv_volume_visualizer"></a>
 Visualizer</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The package implements a visualization tool for volumetric spaces content. <br  />
+The tool by itself supplies only base logic that can be extended with a new features according with your requirements. The tool also can be used as example of visualizer during implementation of custom visualizer following your specific features.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
