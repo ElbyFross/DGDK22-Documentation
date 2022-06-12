@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('dinv-shops_inspector-demo.html',''); i
 <ul><li class="level1"><a href="#dinv-shops_inspector-demo-a">About</a></li>
 <li class="level1"><a href="#dinv-shops_inspector-demo-hdw">How does it work</a><ul><li class="level2"><a href="#dinv-shops_inspector-demo-hdw-shops">Shops declaration</a></li>
 <li class="level2"><a href="#dinv-shops_inspector-demo-hdw-storages">Storages generation</a></li>
+<li class="level2"><a href="#dinv-shops_inspector-demo-hdw-ui-layout">GUI layout</a></li>
 </ul>
 </li>
 </ul>
@@ -109,12 +110,55 @@ How does it work</h1>
 <h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-shops"></a>
 Shops declaration</h2>
 <p >The scene hierarchy has <code>Shops declaration</code> game object. Open it to gen on-scene declarations configs for a storages.</p>
-<p >Note that entire <code>Storage Caller</code> components refer to <code>default.shop</code> synamic resource. Such a storages will be instantiated by using of <code>Shop Default</code> resource instance as enity to rent. <br  />
+<p >Note that entire <code>Storage Caller</code> components refer to <code>default.shop</code> synamic resource. Such a storages will be instantiated by using of <code>Shop Default</code> resource instance as entity to rent. <br  />
 The default features settings will be applied according with features declared over the <code>Storage Caller</code> instance. in case if provided. <br  />
 In case the feature no exists over the storage entity resource, it will be skipped.</p>
 <h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-storages"></a>
 Storages generation</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The demo scene implements custom demo script<code>StorageDatabaseGenerator</code> to provide you with alternative example to of storage generations.</p>
+<p >The component located over <code>Demo services</code> game object. <br  />
+The script allows continues spawn of storages with a random content.</p>
+<h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-ui-layout"></a>
+GUI layout</h2>
+<p >The entire GUI layout elements located under <code>Canvas</code> game object. <br  />
+Here you can locate 2 importan objects:</p><ol type="1">
+<li><code>Shops Inspector</code>. It's an assembled layout works as the demo window.</li>
+<li><code>Parts</code>. The game object that refers parts used at the <code>Shops Inspector</code> window as children. The elements are disabled and added only to make it more obvious which parts the explorer has built.</li>
+</ol>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Part   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Shops UI Shops Selection Explorer   </td><td class="markdownTableBodyNone"><a class="el" href="dui2-el_col.html">Elements Collection</a> of <a class="el" href="dinv-storage-gui-control.html">Storage GUI control</a> represented via <code>ShopGUIElement</code> control. <br  />
+ Displays entire stores loaded to the scene via rented <a class="el" href="dinv-storage.html">Storage</a> entities.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Shops UI Player Storages Selection Explorer   </td><td class="markdownTableBodyNone"><a class="el" href="dui2-el_col.html">Elements Collection</a> of <a class="el" href="dinv-storage-gui-control.html">Storage GUI control</a>. <br  />
+ Displays entire storages loaded to the scene via rented <a class="el" href="dinv-storage.html">Storage</a> entities related to inspecting owner with id defined at <code>ShopsInspector</code> as <code>playerId</code>.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Exchange Buffer UI Available   </td><td class="markdownTableBodyNone">Displays content of 2 selected <code>Storage</code> instances available to use in transaction. <br  />
+ - Left side receives as source selected player's <code>Storage.</code> <br  />
+ - Right side receives as source selected shop's <code>Storage.</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Exchange Buffer UI Reserved   </td><td class="markdownTableBodyNone">Displays content of 2 selected <code>Storage</code> instances reserved by <code>TransactionOrder</code> placed between them. <br  />
+ - Left side receives as source selected player's <code>Storage.</code> <br  />
+ - Right side receives as source selected shop's <code>Storage.</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Storages Exchange Explorer   </td><td class="markdownTableBodyNone">Layout that builds following layout parts into common layout:<br  />
+- Exchange Buffer UI Available <br  />
+ - Exchange Buffer UI Reserved <br  />
+<br  />
+ Not implements any specific features or controls.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Transaction order GUI Standalone   </td><td class="markdownTableBodyNone">Standalone <a class="el" href="dui2-window.html">Window</a> that calls when you selecting <code>ItemGUIElement</code> in any exchange buffer. <br  />
+<br  />
+ Provides <code>TransactionOrderInspector</code> instance that manages visualization of <br  />
+ <code>TransactionService.TransactionOrder</code> content. <br  />
+<br  />
+ Allows to place order by pressing confirmation button, or cancel it by closing the window.   </td></tr>
+</table>
+<dl class="section warning"><dt>Warning</dt><dd>Parts by themselves not works as stand alone windows and must be consumed with a <code>Storage Inspector</code> component defined as hierarchy (or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> hierarchy) root. The inspector performs role of behavior provider and manages operation between window parts.</dd></dl>
+<p>In the demo the component not requires assignation of any child part over component. Entire parts implemented as separated <a class="el" href="dui2-window.html">Window</a> instances connected to a solid layout by using of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features.</p>
+<p >During windows instantiation process the parts assigns themselves to a parental <code>Storage Inspector</code> found in virtual hierarchy provided with a <a class="el" href="dui2-vh.html">Virtual UI Hub</a> established with the <code>Storage Inspector</code> game object with <code>VirtualUIHub</code> component. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -94,7 +94,8 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       [ "About", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-a", null ],
       [ "How does it work", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw", [
         [ "Shops declaration", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-shops", null ],
-        [ "Storages generation", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-storages", null ]
+        [ "Storages generation", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-storages", null ],
+        [ "GUI layout", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-ui-layout", null ]
       ] ]
     ] ],
     [ "Demo: Inventories explorer", "dinv-inventories_explorer-demo.html", [
