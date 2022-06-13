@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('dinv-shops_inspector-demo.html',''); i
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dinv-shops_inspector-demo-a">About</a></li>
+<li class="level1"><a href="#inv-shops_inspector-demo-hts">How to start</a></li>
 <li class="level1"><a href="#dinv-shops_inspector-demo-hdw">How does it work</a><ul><li class="level2"><a href="#dinv-shops_inspector-demo-hdw-shops">Shops declaration</a></li>
 <li class="level2"><a href="#dinv-shops_inspector-demo-hdw-storages">Storages generation</a></li>
 <li class="level2"><a href="#dinv-shops_inspector-demo-hdw-ui-layout">GUI layout</a></li>
@@ -99,8 +100,10 @@ $(document).ready(function(){initNavTree('dinv-shops_inspector-demo.html',''); i
 <div class="textblock"><h1><a class="anchor" id="dinv-shops_inspector-demo-a"></a>
 About</h1>
 <p >The demo demonstrates a complex inspector window that provides access to on-scene <code>Shop</code> instances and on-scene <code>Storages</code> related a certain person by it's id.</p>
-<p >\sectiond inv-shops_inspector-demo-hts How to start</p><ol type="1">
-<li>Navigate by following path towared scenes collection: <br  />
+<h1><a class="anchor" id="inv-shops_inspector-demo-hts"></a>
+How to start</h1>
+<ol type="1">
+<li>Navigate by following path toward scenes collection: <br  />
 <code>Doloro-GDK \ Doloro-Inventory-Shops \ Scenes \</code>.</li>
 <li>Open <code>Shops Inspector</code> scene.</li>
 </ol>
@@ -121,7 +124,7 @@ The script allows continues spawn of storages with a random content.</p>
 <h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-ui-layout"></a>
 GUI layout</h2>
 <p >The entire GUI layout elements located under <code>Canvas</code> game object. <br  />
-Here you can locate 2 importan objects:</p><ol type="1">
+Here you can locate 2 important objects:</p><ol type="1">
 <li><code>Shops Inspector</code>. It's an assembled layout works as the demo window.</li>
 <li><code>Parts</code>. The game object that refers parts used at the <code>Shops Inspector</code> window as children. The elements are disabled and added only to make it more obvious which parts the explorer has built.</li>
 </ol>
@@ -156,9 +159,9 @@ Here you can locate 2 importan objects:</p><ol type="1">
 <br  />
  Allows to place order by pressing confirmation button, or cancel it by closing the window.   </td></tr>
 </table>
-<dl class="section warning"><dt>Warning</dt><dd>Parts by themselves not works as stand alone windows and must be consumed with a <code>Storage Inspector</code> component defined as hierarchy (or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> hierarchy) root. The inspector performs role of behavior provider and manages operation between window parts.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Parts by themselves not works as stand alone windows and must be consumed with a <code>Shops Inspector</code> component defined as hierarchy (or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> hierarchy) root. The inspector performs role of behavior provider and manages operation between window parts.</dd></dl>
 <p>In the demo the component not requires assignation of any child part over component. Entire parts implemented as separated <a class="el" href="dui2-window.html">Window</a> instances connected to a solid layout by using of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features.</p>
-<p >During windows instantiation process the parts assigns themselves to a parental <code>Storage Inspector</code> found in virtual hierarchy provided with a <a class="el" href="dui2-vh.html">Virtual UI Hub</a> established with the <code>Storage Inspector</code> game object with <code>VirtualUIHub</code> component. </p>
+<p >During windows instantiation process the parts assigns themselves to a parental <code>Storage Inspector</code> found in virtual hierarchy provided with a <a class="el" href="dui2-vh.html">Virtual UI Hub</a> established with the <code>Shops Inspector</code> game object with <code>VirtualUIHub</code> component. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

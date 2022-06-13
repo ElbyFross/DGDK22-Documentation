@@ -191,7 +191,7 @@ var searchData=
   ['asset_188',['asset',['../class_doloro_1_1_data_management_1_1_serialization_1_1_storable_asset.html#a429b155c4a846c95904cd5f357493def',1,'Doloro::DataManagement::Serialization::StorableAsset']]],
   ['asset_20bundles_20tools_189',['Asset Bundles Tools',['../ddm-abt.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Data_Management_README']]],
   ['asset_20bundles_20tools_20extensions_190',['Asset Bundles Tools extensions',['../ddm-drt-dabt_integration.html',1,'ddm-drt']]],
-  ['asset_20properties_20collection_191',['Asset Properties Collection',['../ddm-aps-com-apc.html',1,'ddm-aps-gs']]],
+  ['asset_20properties_20collection_191',['Asset Properties Collection',['../ddm-aps-com-apc.html',1,'']]],
   ['asset_20properties_20system_192',['Asset Properties System',['../ddm-aps.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Data_Management_README']]],
   ['asset_20property_193',['Asset Property',['../ddm-aps-com-ap.html',1,'ddm-aps']]],
   ['asset_5fname_194',['ASSET_NAME',['../class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_assembly_patching_tool_1_1_constants.html#ade4b95fbeb7702c222d000e1a1adfebc',1,'Doloro::AI::DAIDebugger::PatchingTool::AssemblyPatchingTool::Constants']]],

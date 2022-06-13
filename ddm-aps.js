@@ -1,7 +1,16 @@
 var ddm_aps =
 [
     [ "About", "ddm-aps.html#ddm-aps-a", null ],
-    [ "Getting started", "ddm-aps-gs.html", "ddm-aps-gs" ],
+    [ "Getting started", "ddm-aps-gs.html", [
+      [ "Idea", "ddm-aps-gs.html#ddm-aps-gs-idea", null ],
+      [ "Main entities", "ddm-aps-gs.html#ddm-aps-gs-ent", null ],
+      [ "Object space", "ddm-aps-gs.html#ddm-aps-gs-object", null ],
+      [ "Scalability", "ddm-aps-gs.html#ddm-aps-gs-scale", [
+        [ "Custom properties", "ddm-aps-gs.html#ddm-aps-gs-scale-props", null ],
+        [ "Object structure", "ddm-aps-gs.html#ddm-aps-gs-scale-object", null ],
+        [ "Resources structure", "ddm-aps-gs.html#ddm-aps-gs-scale-resources", null ]
+      ] ]
+    ] ],
     [ "Asset Property", "ddm-aps-com-ap.html", [
       [ "About", "ddm-aps-com-ap.html#ddm-aps-com-ap-a", null ],
       [ "Pre-integrated types", "ddm-aps-com-ap.html#ddm-aps-com-ap-types", null ],

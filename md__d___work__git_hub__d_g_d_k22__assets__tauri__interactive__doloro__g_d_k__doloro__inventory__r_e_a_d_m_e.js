@@ -92,14 +92,19 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
     ] ],
     [ "Demo: Shops inspector", "dinv-shops_inspector-demo.html", [
       [ "About", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-a", null ],
+      [ "How to start", "dinv-shops_inspector-demo.html#inv-shops_inspector-demo-hts", null ],
       [ "How does it work", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw", [
         [ "Shops declaration", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-shops", null ],
         [ "Storages generation", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-storages", null ],
         [ "GUI layout", "dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-hdw-ui-layout", null ]
       ] ]
     ] ],
-    [ "Demo: Inventories explorer", "dinv-inventories_explorer-demo.html", [
-      [ "About", "dinv-inventories_explorer-demo.html#dinv-inventories_explorer-demo-a", null ],
-      [ "How does it work", "dinv-inventories_explorer-demo.html#dinv-inventories_explorer-demo-hdw", null ]
+    [ "Demo: Storages Inspector", "dinv-storages_inspector-demo.html", [
+      [ "About", "dinv-storages_inspector-demo.html#dinv-storages_inspector-demo-a", null ],
+      [ "How to start", "dinv-storages_inspector-demo.html#inv-storages_inspector-demo-hts", null ],
+      [ "How does it work", "dinv-storages_inspector-demo.html#dinv-storages_inspector-demo-hdw", [
+        [ "Storages generation", "dinv-storages_inspector-demo.html#dinv-storages_inspector-demo-hdw-storages", null ],
+        [ "GUI layout", "dinv-storages_inspector-demo.html#dinv-storages_inspector-demo-hdw-ui-layout", null ]
+      ] ]
     ] ]
 ];

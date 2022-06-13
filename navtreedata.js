@@ -72,6 +72,15 @@ var NAVTREE =
     [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e" ],
     [ "Doloro AI Studio", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e" ],
     [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e" ],
+    [ "Asset Properties Collection", "ddm-aps-com-apc.html", [
+      [ "About", "ddm-aps-com-apc.html#ddm-aps-com-apc-a", null ],
+      [ "Getting started", "ddm-aps-com-apc.html#ddm-aps-com-apc-use", [
+        [ "Beginning", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-begin", null ],
+        [ "GUI properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-gui", null ],
+        [ "Code properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-code", null ],
+        [ "Cross-session data", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-session", null ]
+      ] ]
+    ] ],
     [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e" ],
     [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e" ],
     [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__input__tools__r_e_a_d_m_e.html", [
@@ -177,10 +186,10 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#aa7fcccb1b74892fd1207bcd262ff4b8f",
 "class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ad0c18608273e83f868bca3320a1bc056",
 "ddm-drt-api-drd.html#ddm-drt-api-drd-using",
-"dinv-item-gui-control.html#dinv-item-gui-ext",
-"interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_session_properties_provider.html#a8a718f6d570be400b24b4f971a5abc9c",
-"namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool.html#abe7190e81aac50665e87062a56030ba6a68eec46437c384d8dad18d5464ebc35c",
-"struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html#a38e0c39781ef57cea0bed0da777492bb"
+"dinv-item-gui-vh.html#dinv-item-gui-vh-iser",
+"interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_session_properties_provider.html#a61af6d3508cbd2e860867879bfe00f1f",
+"namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool.html#a80aa3b0abe2f7d5afe90f42015b296d3ae1ba155a9f2e8c3be94020eef32a0301",
+"struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
