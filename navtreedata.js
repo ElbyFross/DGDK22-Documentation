@@ -72,15 +72,6 @@ var NAVTREE =
     [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__debug__environment__r_e_a_d_m_e" ],
     [ "Doloro AI Studio", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__studio__r_e_a_d_m_e" ],
     [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e" ],
-    [ "Asset Properties Collection", "ddm-aps-com-apc.html", [
-      [ "About", "ddm-aps-com-apc.html#ddm-aps-com-apc-a", null ],
-      [ "Getting started", "ddm-aps-com-apc.html#ddm-aps-com-apc-use", [
-        [ "Beginning", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-begin", null ],
-        [ "GUI properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-gui", null ],
-        [ "Code properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-code", null ],
-        [ "Cross-session data", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-session", null ]
-      ] ]
-    ] ],
     [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__editor__extension__r_e_a_d_m_e" ],
     [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__graphs__r_e_a_d_m_e" ],
     [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__input__tools__r_e_a_d_m_e.html", [

@@ -97,15 +97,15 @@ $(document).ready(function(){initNavTree('dsensors-env-filter-new.html',''); ini
 <h2><a class="anchor" id="autotoc_md151"></a>
 New filter creation</h2>
 <ul>
-<li>Create a <code>MonoBechavior</code> component and inheirt it from the <code>ASensorFilter</code> interface.</li>
+<li>Create a <code>MonoBechavior</code> component and inherit it from the <code>ASensorFilter</code> interface.</li>
 <li>Add the component on the same object as the target <code>SensorManager</code>.</li>
 <li>The new filter will be loaded during the sensor awaking or manual via <code>ReloadFilters</code> API.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md152"></a>
 Development rules</h2>
 <ul>
-<li>Call <code>ASensorFilter.OnModified</code> handler each time when you modifies core properties of your filter in case if you what to update your filtered colletion alnong with new rules.</li>
-<li>You no need to implement <code>ASensorFilter.Inverted</code> property into your filter's logic. It will auto applyied into the <code>ASensorFilter.CheckCollision</code> handler calling by the sensors. </li>
+<li>Call <code>ASensorFilter.OnModified</code> handler each time when you modifies core properties of your filter in case if you what to update your filtered collection along with new rules.</li>
+<li>You no need to implement <code>ASensorFilter.Inverted</code> property into your filter's logic. It will auto applied into the <code>ASensorFilter.CheckCollision</code> handler calling by the sensors. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -11,6 +11,15 @@ var ddm_aps =
         [ "Resources structure", "ddm-aps-gs.html#ddm-aps-gs-scale-resources", null ]
       ] ]
     ] ],
+    [ "Asset Properties Collection", "ddm-aps-com-apc.html", [
+      [ "About", "ddm-aps-com-apc.html#ddm-aps-com-apc-a", null ],
+      [ "Getting started", "ddm-aps-com-apc.html#ddm-aps-com-apc-use", [
+        [ "Beginning", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-begin", null ],
+        [ "GUI properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-gui", null ],
+        [ "Code properties management", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-code", null ],
+        [ "Cross-session data", "ddm-aps-com-apc.html#ddm-aps-com-apc-use-cprop-session", null ]
+      ] ]
+    ] ],
     [ "Asset Property", "ddm-aps-com-ap.html", [
       [ "About", "ddm-aps-com-ap.html#ddm-aps-com-ap-a", null ],
       [ "Pre-integrated types", "ddm-aps-com-ap.html#ddm-aps-com-ap-types", null ],
