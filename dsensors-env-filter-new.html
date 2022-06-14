@@ -88,24 +88,78 @@ $(document).ready(function(){initNavTree('dsensors-env-filter-new.html',''); ini
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md148">New filter creation</a></li>
-<li class="level2"><a href="#autotoc_md149">Development rules</a></li>
-</ul>
+<ul><li class="level1"><a href="#dsensors-env-filter-new-a">About</a></li>
+<li class="level1"><a href="#dsensors-env-filter-new-creation">New filter creation</a></li>
+<li class="level1"><a href="#dsensors-env-filter-new-rules">Development rules</a></li>
 </ul>
 </div>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Not completed tutorial</dd></dl>
-<h2><a class="anchor" id="autotoc_md148"></a>
-New filter creation</h2>
-<ul>
-<li>Create a <code>MonoBechavior</code> component and inherit it from the <code>ASensorFilter</code> interface.</li>
-<li>Add the component on the same object as the target <code>SensorManager</code>.</li>
-<li>The new filter will be loaded during the sensor awaking or manual via <code>ReloadFilters</code> API.</li>
+<div class="textblock"><h1><a class="anchor" id="dsensors-env-filter-new-a"></a>
+About</h1>
+<p >A common sense for you to create a custom filtering behaviors to adjust your sensors logic according with you features. The system allows you to make it in any easy way. <br  />
+</p>
+<h1><a class="anchor" id="dsensors-env-filter-new-creation"></a>
+New filter creation</h1>
+<ol type="1">
+<li>Create a new script and inherit it from the <a class="el" href="class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build-in sensor filter algorithms.">Doloro.Sensors.ASensorFilter</a> class.</li>
+<li>Add the component over the same object as the target <code>FilteredSensor</code> component.</li>
+<li>The new filter will be loaded during the sensor awaking or manually via <code>ReloadFilters</code> call.</li>
+</ol>
+<p >Now the time to implement the filter selection logic. <br  />
+The following template shows base class implementation. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<div class="line">using Doloro.Sensors.Filters;</div>
+<div class="line"> </div>
+<div class="line">public class YourCustomSensorFilter : ASensorFilter</div>
+<div class="line">{</div>
+<div class="line">    // Occurs when an object entering the filter.</div>
+<div class="line">    // Applies filter&#39;s rules over the object and</div>
+<div class="line">    // makes a conclusion about rules passing.</div>
+<div class="line">    //</div>
+<div class="line">    // invocker: sensor detected collision.</div>
+<div class="line">    // obj: Object entered the trigger.</div>
+<div class="line">    //</div>
+<div class="line">    // returns: filter&#39;s rules passing result.</div>
+<div class="line">    protected override bool FilterLogic(FilteredSensor invocker, GameObject obj)</div>
+<div class="line">    {</div>
+<div class="line">      // Implement your logic that concludes is the</div>
+<div class="line">      // `obj` passing the filter&#39;s rules or not.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> When you are integrates some filter customizations you have to follow next pattern. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<div class="line">using Doloro.Sensors.Filters;</div>
+<div class="line"> </div>
+<div class="line">public class YourCustomSensorFilter : ASensorFilter</div>
+<div class="line">{</div>
+<div class="line">  // Custom property to manage filter settings at runtime.</div>
+<div class="line">  public bool Option0</div>
+<div class="line">  {</div>
+<div class="line">    get =&gt; _option0;</div>
+<div class="line">    set</div>
+<div class="line">    {</div>
+<div class="line">      // Updating option value.</div>
+<div class="line">      _option0 = value;</div>
+<div class="line"> </div>
+<div class="line">      // Informing system that the filter rules has bee changed.</div>
+<div class="line">      // That will cause selection pool reconsideration along.</div>
+<div class="line">      OnModified();</div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line"> </div>
+<div class="line">  // Serializable field available to Unity editor.</div>
+<div class="line">  [SerializeField] private bool _option0;</div>
+<div class="line"> </div>
+<div class="line">  ... LOGIC IMPLEMENTATION HERE ...</div>
+<div class="line">}</div>
+</div><!-- fragment --><p ><b>Explore API:</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build-in sensor filter algorithms.">Doloro.Sensors.ASensorFilter</a></li>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filtered_sensor.html" title="Sensor that pass only objects that pass conditions defined with ASensorFilter.">Doloro.Sensors.FilteredSensor</a></li>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filtered_sensor.html#ad0555cc9937bb7db07c99603d6d10a73" title="Dropping current collection of bond filters and looking for new.">Doloro.Sensors.FilteredSensor.ReloadFilters()</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md149"></a>
-Development rules</h2>
+<h1><a class="anchor" id="dsensors-env-filter-new-rules"></a>
+Development rules</h1>
+<p >The filters development has several practices that have to be followed to guarantee stable embedding of the filter into the sensors ecosystem.</p>
 <ul>
 <li>Call <code>ASensorFilter.OnModified</code> handler each time when you modifies core properties of your filter in case if you what to update your filtered collection along with new rules.</li>
-<li>You no need to implement <code>ASensorFilter.Inverted</code> property into your filter's logic. It will auto applied into the <code>ASensorFilter.CheckCollision</code> handler calling by the sensors. </li>
+<li>Do not involve <code>ASensorFilter.Inverted</code> property into your filter's logic. It will automatically applied into the <code>ASensorFilter.CheckCollision</code> handler calling by the sensors. Direct use into the behavior can lead to unexpected results during reverting your results. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

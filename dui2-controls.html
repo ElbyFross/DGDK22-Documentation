@@ -88,20 +88,53 @@ $(document).ready(function(){initNavTree('dui2-controls.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md150">AGUIElement</a></li>
-<li class="level2"><a href="#autotoc_md151">AGUIField</a></li>
+<ul><li class="level1"><a href="#dui2-controls-a">About</a></li>
+<li class="level1"><a href="#dui2-controls-core">Core classes</a><ul><li class="level2"><a href="#dui2-controls-core-element">AGUIElement</a></li>
+<li class="level2"><a href="#dui2-controls-core-field">AGUIField</a></li>
 </ul>
+</li>
+<li class="level1"><a href="#dui2-controls-impl">Implemented controls</a></li>
 </ul>
 </div>
-<div class="textblock"><p ><b>Implemented GUI controls</b></p><ul>
-<li><a class="el" href="dui2-controls-mslider.html">Measured Slider</a></li>
-</ul>
-<h2><a class="anchor" id="autotoc_md150"></a>
+<div class="textblock"><h1><a class="anchor" id="dui2-controls-a"></a>
+About</h1>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<hr  />
+<h1><a class="anchor" id="dui2-controls-core"></a>
+Core classes</h1>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-controls-core-element"></a>
 AGUIElement</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<h2><a class="anchor" id="autotoc_md151"></a>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-controls-core-field"></a>
 AGUIField</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty page</dd></dl>
+<hr  />
+<h1><a class="anchor" id="dui2-controls-impl"></a>
+Implemented controls</h1>
+<p >Following category highlights only main controls supplied only with <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> package and not mentions controls implemented by other modules. <br  />
+Provided controls implement a very diverse logic with different complexity that should be useful as example for your custom implementations.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Control   </th><th class="markdownTableHeadNone">Complexity   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Grid collection   </td><td class="markdownTableBodyNone">Medium   </td><td class="markdownTableBodyNone">Control implemented with the <a class="el" href="dui2-el_col.html">Elements Collection</a> module. <br  />
+ Provides you with a flexible solution for <code>AGUIElement</code> collections explorer fully integrated with core engine features.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Window UI Controller   </td><td class="markdownTableBodyNone">Medium   </td><td class="markdownTableBodyNone">Control that implements <a class="el" href="dui2-window.html">Window</a> features into in-game GUI.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Window Drag controller   </td><td class="markdownTableBodyNone">Simple   </td><td class="markdownTableBodyNone">Control that works along with parental <code>Window</code> and handles its move over the screen during self-drag.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Window Resize controller   </td><td class="markdownTableBodyNone">Simple   </td><td class="markdownTableBodyNone">Control that works along with parental <code>Window</code> and handles its resize during self-drag. Defines drag behavior suitable to control position to layout.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Runtime Workspace Layout   </td><td class="markdownTableBodyNone">Advanced   </td><td class="markdownTableBodyNone">Complex control implemented with the <a class="el" href="dui2-rwl.html">Runtime Workspace</a> module.<br  />
+   </td></tr>
+</table>
+<p>Defines logic of dynamic layout that can be assembled into a complex multi-layouts solution. | | Runtime Workspace Splitter| Simple | Part of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> logic. The control initializes resize of runtime layouts divided with it. | | Measured slider | Simple | Control over the Unity's <code>Slider</code> that allows to make it measures visible to player making the experience more comfort. | </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

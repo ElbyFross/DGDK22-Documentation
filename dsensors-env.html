@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('dsensors-env.html',''); initResizable(
 <li class="level2"><a href="#dsensors-env-types-dfsensor">Dependent Filtered Sensor</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dsensors-env-example">Example</a></li>
+<li class="level1"><a href="#dsensors-env-example">Sensors layout example</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dsensors-env-a"></a>
@@ -122,18 +122,25 @@ Dependent Filtered Sensor</h2>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html" title="Sensor that has not self trigger zone and using another sensor as source of triggered object to extra...">Doloro.Sensors.DependentFilteredSensor</a></p>
 <hr  />
 <h1><a class="anchor" id="dsensors-env-example"></a>
-Example</h1>
+Sensors layout example</h1>
 <p >Normal using supposed adding of list of specified filters over the depended sensor. <br  />
 <b>Sample hierarchy example:</b> <br  />
-</p><div class="fragment"><div class="line">|_`Sensor` - detects entire on scene objects passing trigger rules defined at physics.</div>
+</p><div class="fragment"><div class="line">|_ 0 `Sensor` | `FilteredSensor`</div>
 <div class="line">|__</div>
-<div class="line">|  |_`DependentFilteredSensor`:</div>
-<div class="line">|  |  Follows parent selection, but selects enemies with custom filters of the sensor.</div>
-<div class="line">|  |_`DependentFilteredSensor`:</div>
-<div class="line">|  |  Follows parent selection, but filters selection for detecting environment action points.</div>
-<div class="line">|  |_... OTHER SUB FILTERS ALONG WITH YOUR logic.</div>
-<div class="line">|_`FilteredSensor`:</div>
-<div class="line">  Another sensor with different physics settings. Comparing to first sensor applies the selection filtering logic by itself with applied filters.</div>
+<div class="line">|  |_ 0-0: `DependentFilteredSensor`</div>
+<div class="line">|  |  |_0-0-0 `DependentFilteredSensor`</div>
+<div class="line">|  |_ 0-1`DependentFilteredSensor`</div>
+<div class="line">|  |_ ... Other sub sensors</div>
+<div class="line">|  |_ 0-x</div>
+<div class="line">|_ 1: `Sensor` | `FilteredSensor`</div>
+<div class="line">|_ ... Other sensors</div>
+<div class="line">|_ x: `Sensor` | `FilteredSensor`</div>
+<div class="line"> </div>
+<div class="line">0: Detects entire on scene objects passing trigger rules defined at physics.</div>
+<div class="line">0-0: Follows parent selection, but selects enemies with custom filters of the sensor.</div>
+<div class="line">0-0-0: Sensor that will make filtered selection from objects selected on 0-0 stage.</div>
+<div class="line">0-1: Follows parent selection, but filters selection for detecting environment action points.</div>
+<div class="line">1: Another sensor with different physics settings. Comparing to first sensor applies the selection filtering logic by itself with applied filters.</div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

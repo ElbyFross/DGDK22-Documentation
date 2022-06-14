@@ -95,11 +95,17 @@ $(document).ready(function(){initNavTree('dsensors-env-filters.html',''); initRe
 </div>
 <div class="textblock"><h1><a class="anchor" id="dsensors-env-filters-a"></a>
 About</h1>
-<p >The system allows to bond custom extra filters to extend basic rules. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Text seems meaningless</dd></dl>
+<p >The system allows to bond custom extra filters to extend basic rules. <br  />
+Filters works as logic extension over the <code>FilteredSensor</code> component or derived alternatives. The sensor calls filters when unity trigger event occurs. In case the object passing entire filters it will be added to <code>triggered</code> objects collection.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build-in sensor filter algorithms.">Doloro.Sensors.ASensorFilter</a></p>
+<p ><b>Read also:</b></p><ul>
+<li><a class="el" href="dsensors-env.html#dsensors-env-types-fsensor">Filtered Sensor</a></li>
+<li><a class="el" href="dsensors-env.html#dsensors-env-types-dfsensor">Dependent Filtered Sensor</a></li>
+</ul>
 <h1><a class="anchor" id="dsensors-env-filters-htu"></a>
 How to use</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >To add a filter to the sensor and override selection logic it's enough to add <code>ASensorFilter</code> derived component over the game object with <code>FilteredSensor</code> component.</p>
+<p >The filter automatically adds to a filtered sensor instance at runtime and integrates into internal calls logic.</p>
 <h1><a class="anchor" id="dsensors-env-filters-bf"></a>
 Included filters</h1>
 <p >The package supplies you with collection of pre-implemented filters. The filters both integrates filtering by base objects properties and works as example to help you ramp up with custom filters development.</p>
