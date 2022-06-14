@@ -20,8 +20,6 @@ var class_doloro_1_1_sensors_1_1_dependent_filtered_sensor =
     [ "ReloadFilters", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#ad0555cc9937bb7db07c99603d6d10a73", null ],
     [ "Remove", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a0b898c306b0d69ac730802c9656e16f8", null ],
     [ "RemoveFilter", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a77f4076e3a32a7aee536e0205956e887", null ],
-    [ "debugLog", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a729f23035f27ca5d7560d3209870e567", null ],
-    [ "dropIfParentEqual", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a508f3ac71e66ba28ecd122f5d6a88751", null ],
     [ "registred", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a1a4e3bf15b6c4e0e5a6f0fd5248aaac8", null ],
     [ "triggered", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#ac6b92ba279713eceef897b0178793e36", null ],
     [ "BondFilters", "class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html#a3c930119deb8deed000ef3c0b71c2b64", null ],

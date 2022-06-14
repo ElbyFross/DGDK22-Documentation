@@ -10,8 +10,6 @@ var class_doloro_1_1_sensors_1_1_sensor =
     [ "OnTriggerEnter", "class_doloro_1_1_sensors_1_1_sensor.html#aa0f25977a7b23a8c28482c66433c1f64", null ],
     [ "OnTriggerExit", "class_doloro_1_1_sensors_1_1_sensor.html#a61987dc30491aba78573293b383287b6", null ],
     [ "Remove", "class_doloro_1_1_sensors_1_1_sensor.html#a8980b573d1ff851ec6d8aa71a108bd09", null ],
-    [ "debugLog", "class_doloro_1_1_sensors_1_1_sensor.html#a729f23035f27ca5d7560d3209870e567", null ],
-    [ "dropIfParentEqual", "class_doloro_1_1_sensors_1_1_sensor.html#a508f3ac71e66ba28ecd122f5d6a88751", null ],
     [ "registred", "class_doloro_1_1_sensors_1_1_sensor.html#a1a4e3bf15b6c4e0e5a6f0fd5248aaac8", null ],
     [ "triggered", "class_doloro_1_1_sensors_1_1_sensor.html#ac6b92ba279713eceef897b0178793e36", null ],
     [ "Count", "class_doloro_1_1_sensors_1_1_sensor.html#a1d651244fbcc9e7ae09d2cdfc115a486", null ],

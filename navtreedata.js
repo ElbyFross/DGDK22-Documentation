@@ -37,32 +37,30 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
-    [ "Licensing", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__licenses.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__licenses" ],
-    [ "Getting Started", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__getting_started.html", [
-      [ "How to use the documentation?", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__getting_started.html#gstart_docs", null ]
+    [ "Getting Started", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html", [
+      [ "How to use the documentation?", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html#gstart_docs", null ]
     ] ],
-    [ "Modules Brief Overview", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html", [
-      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_about", null ],
-      [ "Module states legend", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_about_msl", null ],
-      [ "Regular modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl", [
-        [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_ddm", null ],
-        [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_eext", null ],
-        [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_graphs", null ],
-        [ "Doloro Inventory", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_inv", null ],
-        [ "Doloro Sensors", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_sens", null ],
-        [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dui2", null ],
-        [ "Doloro AI Core", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai", null ],
-        [ "Doloro AI Dev Kit", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai_dev_tools", null ],
-        [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_incl_dai_debu", null ]
+    [ "Modules Brief Overview", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html", [
+      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_about", null ],
+      [ "Module states legend", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_about_msl", null ],
+      [ "Regular modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl", [
+        [ "Doloro Data Management", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_ddm", null ],
+        [ "Doloro Editor Extension", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_eext", null ],
+        [ "Doloro Graphs", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_graphs", null ],
+        [ "Doloro Inventory", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_inv", null ],
+        [ "Doloro Sensors", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_sens", null ],
+        [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_dui2", null ],
+        [ "Doloro AI Core", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_dai", null ],
+        [ "Doloro AI Dev Kit", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_dai_dev_tools", null ],
+        [ "Doloro AI Debug Environment", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_incl_dai_debu", null ]
       ] ],
-      [ "Alpha-stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha", [
-        [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_dinput", null ],
-        [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_alpha_local", null ]
+      [ "Alpha-stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_alpha", [
+        [ "Doloro Input Tools", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_alpha_dinput", null ],
+        [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_alpha_local", null ]
       ] ],
-      [ "Early stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_inprogress", null ],
-      [ "Deprecated modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_3__modules_overview.html#modules_overview_deprecated", null ]
+      [ "Early stage modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_inprogress", null ],
+      [ "Deprecated modules", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_deprecated", null ]
     ] ],
-    [ "Roadmap", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_4__roadmap.html", null ],
     [ "Editor Configs Assembly", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__configs__r_e_a_d_m_e.html", null ],
     [ "Doloro AI Nodes", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html", [
       [ "Orders", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_orders", null ],
@@ -149,38 +147,38 @@ var NAVTREEINDEX =
 "class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_item_stack_weight_g_u_i_extension.html#a6a42061ce56a42caa8bbab5003db131c",
 "class_doloro_1_1_invetory_system_1_1_u_i_1_1_windows_1_1_storages_inspector.html#a45e66a47754c4e04c84cb1dd7dd4519b",
 "class_doloro_1_1_localization_1_1_localized_text_content.html#ae186addc265b1cb91453b45e8324e9d4",
-"class_doloro_1_1_sensors_1_1_sensor.html#a0c99c1a67711d3e2fa6220305c8647b3",
-"class_doloro_1_1_u_i_engine2_1_1_a_clamped_workspace_provider.html#af9a59f6c1befe46964854281f632f825",
-"class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#a94c104e427cff4e9a65efb1b2e86dda3",
-"class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html#a223b8ebcf959ba77b96bc5d12f929e5d",
-"class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#a9dcd48a97c9d278d9141a44fd42bb494",
-"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a01053a177e8bce08187d92c31f80bc4e",
-"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html#aac689d9024b939c1b7c132672334ea5c",
-"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element.html#a2184fed72c9096b66bb3697ed3b5c936",
-"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller.html#af3edfc6d231c92996966e4829302cc23",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html#ab35ed0ecc614ca7907f439d5282bce8a",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html#a25d05657cb0069ae57623d323f5c5b59",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html#a25d92afac53360f90d15f13c265281c7",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html#a95915292063f1588b04aadf81f7ffd4f",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html#a4b34cdcc3348e6ce70c1d0c628348039",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_family_tree_demo.html#afceac10b0aa2f95be7959870530aeaf1",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#a94c104e427cff4e9a65efb1b2e86dda3",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html#a6c903e9d445b810d942986f8dbabd2d3",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a299ffbbd80690b3a136561c4bb376871",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_1_1_ec95717c273d51f983b2190861a5b6df.html",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tab_g_u_i_element.html#a4b34cdcc3348e6ce70c1d0c628348039",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#ab479f4fa72d426b2f7b73ac9a1262f80",
-"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#a33dd6fabd1ff0b68e849a154c044f72d",
-"class_doloro_1_1_u_i_engine2_1_1_window.html#a199b1ec0c93ede64d9d3d1188c054a40",
-"class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html#af26a9352a882abb739f9ac2fa60040d9",
-"class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html#a439624a42539c61242690c956fd90112",
-"class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#aa7fcccb1b74892fd1207bcd262ff4b8f",
-"class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ad0c18608273e83f868bca3320a1bc056",
-"ddm-drt-api-drd.html#ddm-drt-api-drd-using",
-"dinv-item-gui-vh.html#dinv-item-gui-vh-iser",
-"interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_session_properties_provider.html#a61af6d3508cbd2e860867879bfe00f1f",
-"namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool.html#a80aa3b0abe2f7d5afe90f42015b296d3ae1ba155a9f2e8c3be94020eef32a0301",
-"struct_doloro_1_1_data_management_1_1_dynamic_resources_1_1_version.html"
+"class_doloro_1_1_sensors_1_1_sensor.html#a255b6eb105837e079f7059d88bd26579",
+"class_doloro_1_1_u_i_engine2_1_1_a_freespace_layout_controller.html#a04ed461a4b0557251e6b0bca79bbc7a2",
+"class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html#aaff121e8054fac941311732db351bb33",
+"class_doloro_1_1_u_i_engine2_1_1_a_window_layout_controller.html#a28e38653a6dd47a5a5d75c520fb1eb33",
+"class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html#aba0f4940bc9dc8b54f7e0bba1d53416a",
+"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html#a199b1ec0c93ede64d9d3d1188c054a40",
+"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html#ac204f395bc8f2c912aee3b343c191fa8",
+"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_rect_g_u_i_element.html#a2a57ac6d1c4496bb80703004a7dc68e0",
+"class_doloro_1_1_u_i_engine2_1_1_controls_1_1_tooltip_g_u_i_controller_editor.html",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html#ac204f395bc8f2c912aee3b343c191fa8",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html#a3f156519bf620e27e709acd0eb148a31",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_g_u_i_element_highlighter.html#a439624a42539c61242690c956fd90112",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html#a9dcd48a97c9d278d9141a44fd42bb494",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_cluster_graph_g_u_i_element.html#a6a0c18d67d7dec7fd1197792ec5f74bd",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_g_u_i_element.html#a0b00bf4115731c7cb399b044153cf27b",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_graph_unit_g_u_i_element.html#aaff121e8054fac941311732db351bb33",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_graphs_1_1_scalable_line_graph_g_u_i_element.html#a7d49f23ad1c601f01c57010f6d467d29",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a438dc8ea5ab1308a654abd17e95b4aed",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout_editor.html#af6f65e0cf01d0742d1d842758247dd8b",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tab_g_u_i_element.html#a6a0c18d67d7dec7fd1197792ec5f74bd",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar.html#ac25a2c0e733c013f15c9d3afcdc7e626",
+"class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html#a9f3790dbed8b08788c33812a749d2281",
+"class_doloro_1_1_u_i_engine2_1_1_window.html#a25099641c161f4221587c16b7328b39e",
+"class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html#ac86fb097fdfb72eca59c677ccbb1f08f",
+"class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html#a49b3246739a322d22bd7b9b38c887d57",
+"class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html#ac4c208e581d8f92bb10f7cd88405d075",
+"class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ada727e8c94fdaac9c3eca835bee3831f",
+"ddm-drt-dabt_integration.html",
+"dinv-shops_inspector-demo.html#dinv-shops_inspector-demo-a",
+"interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html",
+"namespace_doloro_1_1_editor_extension_1_1_project_settings.html#a1ab5452edbbd7adc9f95ef117ceb1d6da4ad51e34586648a4cc20b087179cee37",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

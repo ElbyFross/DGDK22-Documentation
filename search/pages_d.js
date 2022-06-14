@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['resources_20manager_0',['Resources Manager',['../ddm-drt-api-rm.html',1,'ddm-drt']]],
-  ['roadmap_1',['Roadmap',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_4__roadmap.html',1,'']]],
-  ['runtime_20_5c_20data_20structure_2',['Runtime \ Data Structure',['../ddm-tables-s.html',1,'ddm-tables']]],
-  ['runtime_20workspace_3',['Runtime Workspace',['../dui2-rwl.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_UI_2_README']]]
+  ['sensor_20filters_0',['Sensor filters',['../dsensors-env-filters.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Sensor_README']]],
+  ['serialization_20tools_1',['Serialization Tools',['../ddm-ser.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Data_Management_README']]],
+  ['shops_2',['Shops',['../dinv_shops.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
+  ['small_20tools_20hub_3',['Small Tools Hub',['../deditorext_sth.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Editor_Extension_README']]],
+  ['storage_4',['Storage',['../dinv-storage.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
+  ['storage_20gui_20control_5',['Storage GUI control',['../dinv-storage-gui-control.html',1,'dinv-storage']]],
+  ['storages_20database_6',['Storages Database',['../dinv-storages-database.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
+  ['storages_20gui_20collections_7',['Storages GUI Collections',['../dinv-storage-gui-collections.html',1,'dinv-storage']]],
+  ['storages_20service_8',['Storages Service',['../dinv_storages_service.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
+  ['storages_20virtual_20hub_20extension_9',['Storages Virtual Hub extension',['../dinv-storage-gui-vh.html',1,'dinv-storage']]]
 ];

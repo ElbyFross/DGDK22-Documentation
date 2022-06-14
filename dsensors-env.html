@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doloro GDK 22: Evirounment sensors</title>
+<title>Doloro GDK 22: Environment sensors</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,34 +84,57 @@ $(document).ready(function(){initNavTree('dsensors-env.html',''); initResizable(
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Evirounment sensors </div></div>
+  <div class="headertitle"><div class="title">Environment sensors </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dsensors-env-a">About</a></li>
 <li class="level1"><a href="#dsensors-env-types">Sensor types</a><ul><li class="level2"><a href="#dsensors-env-types-sensor">Sensor</a></li>
-<li class="level2"><a href="#dsensors-env-types-fsensor">FilteredSensor</a></li>
-<li class="level2"><a href="#dsensors-env-types-dfsensor">DependentFilteredSensor</a></li>
+<li class="level2"><a href="#dsensors-env-types-fsensor">Filtered Sensor</a></li>
+<li class="level2"><a href="#dsensors-env-types-dfsensor">Dependent Filtered Sensor</a></li>
 </ul>
 </li>
+<li class="level1"><a href="#dsensors-env-example">Example</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dsensors-env-a"></a>
 About</h1>
 <p >Standardizes a flexible trigger system that allows collecting and filtering objects passing through a collider zone.</p>
+<hr  />
 <h1><a class="anchor" id="dsensors-env-types"></a>
 Sensor types</h1>
 <h2><a class="anchor" id="dsensors-env-types-sensor"></a>
 Sensor</h2>
 <p >Primitive sensor can establish demanded physics environment. Detects the objects colliding with the child trigger zones.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_sensor.html" title="Menages the object entering and exits">Doloro.Sensors.Sensor</a></p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dsensors-env-types-fsensor"></a>
-FilteredSensor</h2>
-<p >Derived from the <code>Sensor</code> class this implementation allows to filter detecting objects passing through only the ones who goes along with filter rules.</p>
+Filtered Sensor</h2>
+<p >Derived from the <code>Sensor</code> class which implementation allows to filter detecting objects passing through only the ones who goes along with filter rules.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_filtered_sensor.html" title="Sensor that pass only objects that pass conditions defined with ASensorFilter.">Doloro.Sensors.FilteredSensor</a></p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="dsensors-env-types-dfsensor"></a>
-DependentFilteredSensor</h2>
-<p >The sensor derived from the <code>FilteredSensor</code>. Not handles physics itself, but following the events of another <code>FilteredSensor</code> derived instance to make extra filtered collection along with filters result of the source.</p>
-<p >Use to prevent extra colliders using. This sensor allows to use the same trigger zone any count of times. </p>
-</div></div><!-- contents -->
+Dependent Filtered Sensor</h2>
+<p >The sensor derived from the <code>FilteredSensor</code>. Not handles physics by itself, but following the events of another <code>FilteredSensor</code> derived instance to make extra filtered collection along with filters result of the source.</p>
+<p >Use to prevent extra colliders using. This sensor allows to use the same trigger zone any count of times.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_dependent_filtered_sensor.html" title="Sensor that has not self trigger zone and using another sensor as source of triggered object to extra...">Doloro.Sensors.DependentFilteredSensor</a></p>
+<hr  />
+<h1><a class="anchor" id="dsensors-env-example"></a>
+Example</h1>
+<p >Normal using supposed adding of list of specified filters over the depended sensor. <br  />
+<b>Sample hierarchy example:</b> <br  />
+</p><div class="fragment"><div class="line">|_`Sensor` - detects entire on scene objects passing trigger rules defined at physics.</div>
+<div class="line">|__</div>
+<div class="line">|  |_`DependentFilteredSensor`:</div>
+<div class="line">|  |  Follows parent selection, but selects enemies with custom filters of the sensor.</div>
+<div class="line">|  |_`DependentFilteredSensor`:</div>
+<div class="line">|  |  Follows parent selection, but filters selection for detecting environment action points.</div>
+<div class="line">|  |_... OTHER SUB FILTERS ALONG WITH YOUR logic.</div>
+<div class="line">|_`FilteredSensor`:</div>
+<div class="line">  Another sensor with different physics settings. Comparing to first sensor applies the selection filtering logic by itself with applied filters.</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

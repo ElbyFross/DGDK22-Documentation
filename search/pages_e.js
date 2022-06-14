@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['sensor_20filters_0',['Sensor filters',['../dsensors-env-filters.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Sensor_README']]],
-  ['serialization_20tools_1',['Serialization Tools',['../ddm-ser.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Data_Management_README']]],
-  ['shops_2',['Shops',['../dinv_shops.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
-  ['small_20tools_20hub_3',['Small Tools Hub',['../deditorext_sth.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Editor_Extension_README']]],
-  ['storage_4',['Storage',['../dinv-storage.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
-  ['storage_20gui_20control_5',['Storage GUI control',['../dinv-storage-gui-control.html',1,'dinv-storage']]],
-  ['storages_20database_6',['Storages Database',['../dinv-storages-database.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
-  ['storages_20gui_20collections_7',['Storages GUI Collections',['../dinv-storage-gui-collections.html',1,'dinv-storage']]],
-  ['storages_20service_8',['Storages Service',['../dinv_storages_service.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]],
-  ['storages_20virtual_20hub_20extension_9',['Storages Virtual Hub extension',['../dinv-storage-gui-vh.html',1,'dinv-storage']]]
+  ['tables_0',['Tables',['../ddm-tables.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Data_Management_README']]],
+  ['tabs_1',['Tabs',['../dui2-tabs.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_UI_2_README']]],
+  ['tags_20database_2',['Tags Database',['../ddm-drt-tagstool-tdb.html',1,'ddm-drt-tagstool']]],
+  ['tags_20management_20window_3',['Tags Management Window',['../ddm-drt-tagstool-tm.html',1,'ddm-drt-tagstool']]],
+  ['tags_20tool_4',['Tags Tool',['../ddm-drt-tagstool.html',1,'ddm-drt']]],
+  ['todo_20list_5',['Todo List',['../todo.html',1,'']]],
+  ['tools_6',['Tools',['../dai_core_gs_tools.html',1,'dai_core_gs']]],
+  ['trasaction_20service_7',['Trasaction Service',['../dinv_trasaction_service.html',1,'md_D__Work_GitHub_DGDK22_Assets_Tauri_Interactive_Doloro_GDK_Doloro_Inventory_README']]]
 ];

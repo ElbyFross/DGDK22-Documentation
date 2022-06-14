@@ -90,44 +90,38 @@ $(document).ready(function(){initNavTree('dsensors-env-filters.html',''); initRe
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dsensors-env-filters-a">About</a></li>
 <li class="level1"><a href="#dsensors-env-filters-htu">How to use</a></li>
-<li class="level1"><a href="#dsensors-env-filters-bf">Included filters</a><ul><li class="level2"><a href="#dsensors-env-filters-bf-hrsf">Hierarchy Root Sensor Filter</a></li>
-<li class="level2"><a href="#dsensors-env-filters-bf-lsf">Layer Sensor Filter</a></li>
-<li class="level2"><a href="#dsensors-env-filters-bf-tsf">Tag Sensor Filter</a></li>
-<li class="level2"><a href="#dsensors-env-filters-bf-gosf">Game Object Sensor Filter</a></li>
-</ul>
-</li>
+<li class="level1"><a href="#dsensors-env-filters-bf">Included filters</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dsensors-env-filters-a"></a>
 About</h1>
-<p >The system allows to bond custom extra filters to extend basic rules. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Text seems meaningless</dd></dl>
+<p >The system allows to bond custom extra filters to extend basic rules. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Text seems meaningless</dd></dl>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_sensors_1_1_a_sensor_filter.html" title="An interface used into the Doloro Sensors module to extend the build-in sensor filter algorithms.">Doloro.Sensors.ASensorFilter</a></p>
 <h1><a class="anchor" id="dsensors-env-filters-htu"></a>
 How to use</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dsensors-env-filters-bf"></a>
 Included filters</h1>
-<hr  />
-<h2><a class="anchor" id="dsensors-env-filters-bf-hrsf"></a>
-Hierarchy Root Sensor Filter</h2>
-<p >Filters objects by hierarchy check.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Not enough details</dd></dl>
-<hr  />
-<h2><a class="anchor" id="dsensors-env-filters-bf-lsf"></a>
-Layer Sensor Filter</h2>
-<p >Filters objects along with the <code>GameObject.layer</code> property.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Not enough details</dd></dl>
-<hr  />
-<h2><a class="anchor" id="dsensors-env-filters-bf-tsf"></a>
-Tag Sensor Filter</h2>
-<p >Filters objects along with the <code>GameObject.tag</code> property.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Not enough details</dd></dl>
-<hr  />
-<h2><a class="anchor" id="dsensors-env-filters-bf-gosf"></a>
-Game Object Sensor Filter</h2>
-<p >Filters the certain game object instance.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>Not enough details</dd></dl>
-<hr  />
- </div></div><!-- contents -->
+<p >The package supplies you with collection of pre-implemented filters. The filters both integrates filtering by base objects properties and works as example to help you ramp up with custom filters development.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Filter   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Hierarchy Root Sensor Filter   </td><td class="markdownTableBodyNone">Filters objects by hierarchy check.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Layer Sensor Filter   </td><td class="markdownTableBodyNone">Filters objects along with the <code>GameObject.layer</code> property.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Tag Sensor Filter   </td><td class="markdownTableBodyNone">Filters objects along with the <code>GameObject.tag</code> property.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Game Object Sensor Filter   </td><td class="markdownTableBodyNone">Filters the certain game object instance.   </td></tr>
+</table>
+<p ><b>Explore API</b></p><ul>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_game_object_sensor_filter.html" title="Compares game objects and pass through the filter only if object the same.">Doloro.Sensors.Filters.GameObjectSensorFilter</a></li>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_hierarchy_root_sensor_filter.html" title="Checks is the detecting objects belong to the same root as the filter.">Doloro.Sensors.Filters.HierarchyRootSensorFilter</a></li>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_layer_sensor_filter.html" title="Filters objects detected by the FilteredSensor along with the GameObject.layer property.">Doloro.Sensors.Filters.LayerSensorFilter</a></li>
+<li><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_tag_sensor_filter.html" title="Filtering detecting objects along with the GameObject.tag property.">Doloro.Sensors.Filters.TagSensorFilter</a> </li>
+</ul>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
