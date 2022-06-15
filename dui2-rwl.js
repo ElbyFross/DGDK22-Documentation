@@ -1,5 +1,6 @@
 var dui2_rwl =
 [
+    [ "About", "dui2-rwl.html#dui2-rwl-a", null ],
     [ "Virtual hierarchies", "dui2-rwl.html#sec_dui2-rwl-vh", null ],
     [ "How to", "dui2-rwl.html#sec_dui2-rwl-ht", [
       [ "Create custom grid", "dui2-rwl.html#sec_dui2-rwl-ccg", null ],
