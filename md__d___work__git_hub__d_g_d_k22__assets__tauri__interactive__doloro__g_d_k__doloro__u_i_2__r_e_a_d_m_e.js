@@ -13,8 +13,8 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
     ] ],
     [ "Window", "dui2-window.html", [
       [ "About", "dui2-window.html#dui2-window-a", null ],
-      [ "Messages handlers", "dui2-window.html#dui2-window-messages", null ],
       [ "Main API", "dui2-window.html#dui-window-api", null ],
+      [ "Messages handlers", "dui2-window.html#dui2-window-messages", null ],
       [ "Background operations", "dui2-window.html#dui2-window-background", null ],
       [ "Windows Runtime Registry", "dui2-window.html#dui2-window-regsitry", null ],
       [ "Classic window", "dui2-window.html#dui2-window-classic", [

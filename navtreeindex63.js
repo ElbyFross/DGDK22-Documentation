@@ -1,17 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"ddm-drt-tagstool-tm.html#ddm-drt-tagstool-tm-using-removedb":[8,5,5,1,1,3],
-"ddm-drt-tagstool-tm.html#ddm-drt-tagstool-tm-using-removeddb":[8,5,5,1,1,1],
-"ddm-drt-tagstool.html":[8,5,5],
-"ddm-drt-tagstool.html#ddm-drt-tagstool-a":[8,5,5,0],
-"ddm-drt.html":[8,5],
-"ddm-drt.html#ddm-drt-a":[8,5,0],
-"ddm-drt.html#ddm-drt-submodules":[8,5,0,0],
-"ddm-ser.html":[8,6],
-"ddm-ser.html#ddm-ser-a":[8,6,0],
-"ddm-ser.html#ddm-ser-bst":[8,6,2],
-"ddm-ser.html#ddm-ser-bst-a":[8,6,2,0],
-"ddm-ser.html#ddm-ser-bst-deser":[8,6,2,1,2],
 "ddm-ser.html#ddm-ser-bst-for":[8,6,2,1,3],
 "ddm-ser.html#ddm-ser-bst-for-api":[8,6,2,1,3,0],
 "ddm-ser.html#ddm-ser-bst-for-exe":[8,6,2,1,3,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX63 =
 "dinv_shops.html#dinv_shops-gui-w-si":[12,11,2,0,0],
 "dinv_shops.html#dinv_shops-gui-w-toi":[12,11,2,0,1],
 "dinv_shops.html#dinv_shops-r":[12,11,1],
-"dinv_storages_service.html":[12,8]
+"dinv_storages_service.html":[12,8],
+"dinv_storages_service.html#dinv_storages_service-ecs":[12,8,1],
+"dinv_storages_service.html#dinv_storages_service_a":[12,8,0],
+"dinv_trasaction_service.html":[12,9],
+"dinv_trasaction_service.html#dinv_trasaction_service_a":[12,9,0],
+"dinv_trasaction_service.html#dinv_trasaction_service_reservation":[12,9,2],
+"dinv_trasaction_service.html#dinv_trasaction_service_reservation_dev":[12,9,2,0],
+"dinv_trasaction_service.html#dinv_trasaction_service_reservation_examples":[12,9,2,1],
+"dinv_trasaction_service.html#dinv_trasaction_service_usage":[12,9,1],
+"dinv_volume.html":[12,10],
+"dinv_volume.html#dinv_volume_about":[12,10,0],
+"dinv_volume.html#dinv_volume_htu":[12,10,1],
+"dinv_volume.html#dinv_volume_htu_cs":[12,10,1,3]
 };

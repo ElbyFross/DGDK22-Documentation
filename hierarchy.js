@@ -584,9 +584,6 @@ var hierarchy =
       [ "Doloro.InvetorySystem.Features.VolumetricSpace.Coordinate", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate.html", null ],
       [ "Doloro.InvetorySystem.Features.VolumetricSpace.Volume", "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_volume.html", null ]
     ] ],
-    [ "Doloro.UIEngine2.IFocusableRoot", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html", [
-      [ "Doloro.UIEngine2.Window", "class_doloro_1_1_u_i_engine2_1_1_window.html", null ]
-    ] ],
     [ "Doloro.UIEngine2.IGUIConvertible< T >", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html", null ],
     [ "Doloro.DataManagement.AssetPropertiesSystem.IKeyHolder", "interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_key_holder.html", [
       [ "Doloro.DataManagement.AssetPropertiesSystem.AssetPropertiesCollection.ProperiesDomain", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection_1_1_properies_domain.html", null ],

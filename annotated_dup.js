@@ -678,7 +678,6 @@ var annotated_dup =
         [ "GUIInfo", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info.html", "class_doloro_1_1_u_i_engine2_1_1_g_u_i_info" ],
         [ "IClampedSizeLayout", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout.html", "interface_doloro_1_1_u_i_engine2_1_1_i_clamped_size_layout" ],
         [ "IContentInspector", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector.html", "interface_doloro_1_1_u_i_engine2_1_1_i_content_inspector" ],
-        [ "IFocusableRoot", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root.html", "interface_doloro_1_1_u_i_engine2_1_1_i_focusable_root" ],
         [ "IGUIConvertible", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible.html", "interface_doloro_1_1_u_i_engine2_1_1_i_g_u_i_convertible" ],
         [ "InputManager", "class_doloro_1_1_u_i_engine2_1_1_input_manager.html", "class_doloro_1_1_u_i_engine2_1_1_input_manager" ],
         [ "InputManagerEditor", "class_doloro_1_1_u_i_engine2_1_1_input_manager_editor.html", null ],

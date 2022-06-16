@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['weight_0',['Weight',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a43b21735a2837883a0593312e62f02a5',1,'Doloro::InvetorySystem::Features::StorageWeightLimiter']]],
-  ['weight_1',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro::Graphs::Connection']]],
+  ['weight_0',['weight',['../class_doloro_1_1_graphs_1_1_connection.html#aa10a11012e23da70bc43e71d5da08855',1,'Doloro::Graphs::Connection']]],
+  ['weight_1',['Weight',['../class_doloro_1_1_invetory_system_1_1_features_1_1_storage_weight_limiter.html#a43b21735a2837883a0593312e62f02a5',1,'Doloro::InvetorySystem::Features::StorageWeightLimiter']]],
   ['weightlabel_2',['WeightLabel',['../class_doloro_1_1_invetory_system_1_1_u_i_1_1_extension_1_1_storage_weight_g_u_i_extension.html#a9c6924926f8ef09fc2ef8f927dfb0f4e',1,'Doloro::InvetorySystem::UI::Extension::StorageWeightGUIExtension']]],
   ['white_3',['white',['../struct_doloro_1_1_base_types_1_1_color.html#ab8a723e62e40f60ebf483ca52dd83615',1,'Doloro::BaseTypes::Color']]],
   ['width_4',['width',['../class_doloro_1_1_data_management_1_1_tables_1_1_data_cluster.html#ad2934c349e2350620fda6d03ea84eb3b',1,'Doloro::DataManagement::Tables::DataCluster']]],

@@ -89,8 +89,8 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-window-a">About</a></li>
-<li class="level1"><a href="#dui2-window-messages">Messages handlers</a></li>
 <li class="level1"><a href="#dui-window-api">Main API</a></li>
+<li class="level1"><a href="#dui2-window-messages">Messages handlers</a></li>
 <li class="level1"><a href="#dui2-window-background">Background operations</a></li>
 <li class="level1"><a href="#dui2-window-regsitry">Windows Runtime Registry</a></li>
 <li class="level1"><a href="#dui2-window-classic">Classic window</a><ul><li class="level2"><a href="#dui2-window-cw-control">Window UI Controller</a></li>
@@ -111,36 +111,108 @@ About</h1>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module.">Doloro.UIEngine2.AWorkspaceGUIElement</a></li>
 </ul>
-<h1><a class="anchor" id="dui2-window-messages"></a>
-Messages handlers</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dui-window-api"></a>
 Main API</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Current subject highlights most important API members <code>Window</code> management. <br  />
+Full list you may find in class documentation by the following link: <br  />
+<a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Method   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>Open</code>   </td><td class="markdownTableBodyNone">Registering the window into the system. <br  />
+ The handler immediately calls <code>AGUIElement.Focus</code> after call of <code>OnOpening</code> message handler and <code>Opened</code> event. <br  />
+ Allows to reopen a window with <code>WindowStateOptions.Closed</code> <code>WindowState</code>. <br  />
+ <dl class="section warning"><dt>Warning</dt><dd>To be integrated into windows' engine a window must be opened. <br  />
+ Even if it exists at scene it not means it considers opened. <br  />
+<br  />
+ Solutions like a <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> encapsulates the opening process for you <br  />
+ while any custom implementation must decide opening behavior explicitly along with common features logic.    </dd></dl>
+</td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>Open (Window parent)</code>   </td><td class="markdownTableBodyNone">Specific handler for multi-windows layouts. <br  />
+ Opening the window with the bond to another window. <br  />
+ Automatically morphs the parent <code>Window</code> into the <code>WindowsLayer</code> in case the window not morphed yet. <br  />
+ Forces child windows to follow parent window events and allows to access them via <code>WindowsLayer</code> service API.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>Open (WindowsLayer parent)</code>   </td><td class="markdownTableBodyNone">Specific handler for multi-windows layouts. <br  />
+ Comparing to previous variant skips layers pre-processing <br  />
+ and works directly with the <code>WindowsLayer</code> instance.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>Hide</code>   </td><td class="markdownTableBodyNone">Hiding window. The window continue to operate background tasks <br  />
+ and can be restored by <code>Open</code> or <code>Focus</code> call.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>Close</code>   </td><td class="markdownTableBodyNone">Releases instance from engine processing. <br  />
+ - Closed window can't be operated via the API but the instance stays for continue management options. <br  />
+ - Closed window may be reopened with the <code>Open</code> handler. <br  />
+ <dl class="section warning"><dt>Warning</dt><dd>Solutions like a <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> built above the core logic encapsulates <br  />
+ GC operation and destroys game object that leads destroying of <code>Window</code> reference.   </dd></dl>
+</td></tr>
+</table>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Property   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>WindowState</code>   </td><td class="markdownTableBodyNone">Property that represents current state of the window instance.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>LayoutMode</code>   </td><td class="markdownTableBodyNone">Property allows to manage layout rendering mode.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>BackgroundTaskCallMode</code>   </td><td class="markdownTableBodyNone">Defines background tasks management behavior.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>MinSize</code> &amp; <code>MaxSize</code>   </td><td class="markdownTableBodyNone">Properties that allows to define allowed layout size. <br  />
+ Axis value less or equal to 0 means that the layout is not clamped.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>Position</code> &amp; <code>Size</code>   </td><td class="markdownTableBodyNone">Allows to get or define layout transform. <br  />
+ <dl class="section warning"><dt>Warning</dt><dd>Always use if instead on manual transform management.    </dd></dl>
+</td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>ClampToScreenBorder</code>   </td><td class="markdownTableBodyNone">If true than not allows the window rect to cross bounds defined with the <code>LayoutMode</code>.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>DynamicSizeIfClamped</code>   </td><td class="markdownTableBodyNone">Works in case the <code>ClampToScreenBorder</code> is on. <br  />
+ Dynamically change window size and position when the window collides the bound. <br  />
+ The size is temporal and will be returned to origin one in case the free space occurred. <br  />
+ Size change follow <code>MinSize</code> &amp; <code>MaxSize</code> values.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>RawSize</code>   </td><td class="markdownTableBodyNone">Suitable when you works with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
+ Allows you to get origin size instead of real one.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>RawPosition</code>   </td><td class="markdownTableBodyNone">Suitable when you works with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
+ Allows you to get origin position instead of real one.   </td></tr>
+</table>
+<h1><a class="anchor" id="dui2-window-messages"></a>
+Messages handlers</h1>
+<p >The <code>Window</code> class allows you to extend its logic with implementation of messages handlers to react on window states change.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Message   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"></td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 <h1><a class="anchor" id="dui2-window-background"></a>
 Background operations</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dui2-window-regsitry"></a>
 Windows Runtime Registry</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dui2-window-classic"></a>
 Classic window</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-control"></a>
 Window UI Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-drag"></a>
 Drag Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-resize"></a>
 Resize Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-statecontrol"></a>
 State Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dui2-window-custom"></a>
 Custom window implementation</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
