@@ -34,8 +34,7 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
           [ "State Controller", "dui2-window.html#dui2-window-cw-statecontrol", null ]
         ] ],
         [ "Example", "dui2-window.html#dui2-window-cw-example", null ]
-      ] ],
-      [ "Custom window implementation", "dui2-window.html#dui2-window-custom", null ]
+      ] ]
     ] ],
     [ "Workspaces", "dui2-workspaces.html", [
       [ "About", "dui2-workspaces.html#dui2-workspaces-a", null ]

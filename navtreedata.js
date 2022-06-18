@@ -84,7 +84,7 @@ var NAVTREE =
       [ "Roadmap", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html#doloro_local_roadmap", null ]
     ] ],
     [ "Doloro Sensor", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e" ],
-    [ "Doloro UI 2", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
+    [ "Doloro UI II", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],
     [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
@@ -177,7 +177,7 @@ var NAVTREEINDEX =
 "ddm-ser.html#ddm-ser-bst-for",
 "dinv_volume.html#dinv_volume_htu_ic",
 "interface_doloro_1_1_data_management_1_1_tables_1_1_i_table_format_converter.html",
-"namespace_doloro_1_1_tools_1_1_input_service.html#a6dec7b6c6097c1ccc72d5ab9f717ada3",
+"namespace_doloro_1_1_tools_1_1_input_service.html#a6dec7b6c6097c1ccc72d5ab9f717ada3a6ce4d85a628a88bbdb3ac24a8e5a9c2e",
 "struct_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_coordinate.html#a2b75b3dbb1b3bfcf6cac4d6cad9521ec"
 ];
 

@@ -113,7 +113,7 @@ var searchData=
   ['doloro_20inventory_20system_110',['Doloro Inventory System',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20localization_111',['Doloro Localization',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html',1,'']]],
   ['doloro_20sensor_112',['Doloro Sensor',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html',1,'']]],
-  ['doloro_20ui_202_113',['Doloro UI 2',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html',1,'']]],
+  ['doloro_20ui_20ii_113',['Doloro UI II',['../md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html',1,'']]],
   ['doloroeditorguilayout_114',['DoloroEditorGUILayout',['../class_doloro_1_1_editor_extension_1_1_doloro_editor_g_u_i_layout.html',1,'Doloro::EditorExtension']]],
   ['domain_115',['Domain',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_new_property_window.html#ae73960a6dbf6d9dace927339e34c2c13',1,'Doloro.DataManagement.AssetPropertiesSystem.NewPropertyWindow.Domain()'],['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property.html#ae83e20a8716a5c520f70a187f0b621fc',1,'Doloro.DataManagement.AssetPropertiesSystem.AssetProperty.Domain()']]],
   ['domain_5frank_5fprop_116',['DOMAIN_RANK_PROP',['../class_doloro_1_1_invetory_system_1_1_constants.html#abbf895df5765f42de3f16d2443956294',1,'Doloro::InvetorySystem::Constants']]],

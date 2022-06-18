@@ -111,7 +111,6 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 <li class="level2"><a href="#dui2-window-cw-example">Example</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dui2-window-custom">Custom window implementation</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-window-a"></a>
@@ -331,33 +330,89 @@ Implementation Design Pattern</h2>
 Controls</h2>
 <h3><a class="anchor" id="dui2-window-cw-control"></a>
 Window UI Controller</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back-end logic.">Doloro.UIEngine2.WindowUIController</a> : Window</p>
+<p >Main controller that implements features of the <code>Window</code> component. <br  />
+Allows to configurate window settings.</p>
+<dl class="section warning"><dt>Warning</dt><dd>The object with the <code>WindowUIController</code> represents the <code>Window</code> instance. Entire GUI representation of the window must be located under <code>Layout</code> referenced game object.</dd></dl>
+<p><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back-end logic.">Doloro.UIEngine2.WindowUIController</a> : Window</p>
+<p ><b>Layout references</b> </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Layout objects   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Layout   </td><td class="markdownTableBodyNone">Non-optional property that must define the game object that represents GUI implementation of the window. The object will be managed by internal system during layout operations.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Content   </td><td class="markdownTableBodyNone">Allows to define hierarchy object that should be used as holder of any GUI element excluding service and design controls of the window. <br  />
+ Can be accessed via the <code>ContentHolder</code> property.   </td></tr>
+</table>
+<p ><b>Behavior settings</b><br  />
+Allows to configure specific window behavior.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Option   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Open during start   </td><td class="markdownTableBodyNone">In case of <code>true</code> will automatically integrate the object into <a class="el" href="dui2-window.html#dui2-window-u-regsitry">Windows Runtime Registry</a> by <code>Open</code> handler call. For most cases the default <code>true</code> value is a normal behavior state that should not be changed. <br  />
+<br  />
+ In case for some reasons you have to integrate window with a delay set the <code>false</code> and call <code>Open</code> handler manually lately, when you need.   </td></tr>
+</table>
+<p ><b>Layout configuration</b><br  />
+In this sub-group of properties you may define layout clamp options. <br  />
+By default window has a free-space value. Minimal size always clamped with the <code>SafeBorder</code> property.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Note that clamping options not works in case <code>LayoutMode</code> other than <code>Rect</code> if not managed by external system.</dd></dl>
+<p>You may always unclamp layout via editor controls by pressing <code>Set free</code> over the target property or manually via source by applying 0 clamp size to axis.</p>
+<p ><br  />
+</p>
 <h3><a class="anchor" id="dui2-window-cw-drag"></a>
 Drag Controller</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The GUI controller locating as <code>Window</code> child in hierarchy that turns self <code>Graphics</code> into a space that can move a parent window via the drag of the mouse. <br  />
+Allows to relocate the window over its workspace.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_drag_controller.html" title="Provides free-space drag for Window related instance.">Doloro.UIEngine2.WindowDragController</a></p>
+<p ><br  />
+</p>
 <h3><a class="anchor" id="dui2-window-cw-resize"></a>
 Resize Controller</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The GUI controller locating as <code>Window</code> child in hierarchy that turns self <code>Graphics</code> into a space that allows to resize a parent window.</p>
+<p >Take a note that you must declare behavior options that defines where the controller located considering the window layout. According with selection options the controller will manage window's layout in different way to provide an expected result.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_resize_controller.html" title="Component that provides handling features for resizing of the Window by using its edges or corners.">Doloro.UIEngine2.WindowResizeController</a></p>
+<p ><br  />
+</p>
 <h3><a class="anchor" id="dui2-window-cw-statecontrol"></a>
 State Controller</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The GUI controller locating as <code>Window</code> child in hierarchy. <br  />
+The controller allows to connect several buttons that will manage main <code>Window</code> states.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Button   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Close   </td><td class="markdownTableBodyNone">Closes the window by the call.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Layout mode   </td><td class="markdownTableBodyNone">Pressing toggles <code>LayoutMode</code> property between <code>Rect</code> and selected mode (<code>FullScreen</code> or <code>FullWorkspace</code>)    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Hide   </td><td class="markdownTableBodyNone">Click over the button causes call of <code>Hide</code> handler over the window.   </td></tr>
+</table>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_state_controller.html" title="Handles control panel with window state managing elements.">Doloro.UIEngine2.WindowStateController</a></p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dui2-window-cw-example"></a>
 Example</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<hr  />
-<h1><a class="anchor" id="dui2-window-custom"></a>
-Custom window implementation</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >You may find implementation of layout built around <b>Classic Window</b> sub-module's controller at <code>Classic Window</code> prefab located by the path: <br  />
+<code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates \ Windows \</code>.</p>
+<p >Entire package demos using window have built with using of the prefab as a ground or variant.</p>
+<ul>
+<li>Prefabs contains 3 drag zones:<ol type="1">
+<li>Header</li>
+<li>Footer Drag L</li>
+<li>Footer Drag R</li>
+</ol>
+</li>
+<li>State controller located under the <code>Header</code> game object as a component over <code>Window controls</code> object.</li>
+<li>Resize controller located over the <code>Scaling control</code> game object and named according with defined anchor point. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html">Doloro UI 2</a></li>
+    <li class="navelem"><a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html">Doloro UI II</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
