@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-window-a">About</a></li>
+<li class="level1"><a href="#dui-window-isolation">Isolation principles</a></li>
+<li class="level1"><a href="#dui-window-layers">Layering</a></li>
 <li class="level1"><a href="#dui-window-api">Main API</a></li>
 <li class="level1"><a href="#dui2-window-messages">Messages handlers</a></li>
 <li class="level1"><a href="#dui2-window-background">Background operations</a></li>
@@ -111,6 +113,26 @@ About</h1>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module.">Doloro.UIEngine2.AWorkspaceGUIElement</a></li>
 </ul>
+<h1><a class="anchor" id="dui-window-isolation"></a>
+Isolation principles</h1>
+<p >Any window exists considers by the engine as an isolated GUI root. That makes tree of elements isolated from an other roots. <br  />
+ This means that GUI elements occurring in separated windows *(or alternative root-like implementation)* not affect the state of a system of your window.</p>
+<p >The only difference is a window depending from each other with the <code>WindowLayer</code> bond, like a windows collection bonded with <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features. <br  />
+In such system events and messages may be relayed trough virtual hierarchy, due to expectation of the layout to work as a single GUI instance. Explore related documentation to find out details.</p>
+<p ><b>Read more</b> <a class="el" href="dui2-rwl.html">Runtime Workspace</a></p>
+<h1><a class="anchor" id="dui-window-layers"></a>
+Layering</h1>
+<p >They engine allows to gather <code>Window</code> instances into layers. Usage of the feature allows to create a complex tree-like hierarchy of windows for the engine backstage. In such hierarchy child windows will follow core operations of parental instance.</p>
+<p >This allows to create a behavior when some parental layout window with a list of children considers by the engine as a single instance. <br  />
+In case of <code>Close</code> \ <code>Hide</code> or performing any other core operations the children will receive the same orders and will follow the state of the window.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html" title="Defines layer of windows.">Doloro.UIEngine2.Window.WindowsLayer</a></p>
+<p ><br  />
+</p>
+<dl class="section warning"><dt>Warning</dt><dd>Note that layering by itself ONLY makes windows depended on a core logic level.</dd></dl>
+<p>Layering not overrides any high-level handlers like a <code>Position</code> or <code>Size</code> properties to turn the layout of bonded windows to a single instance. <br  />
+It also not affects Unity objects hierarchy.</p>
+<p >The windows stays stand alone game objects that can be handled according with your implementation of engine features configuration.</p>
+<p ><b>Tip:</b> to implement highest-level dependencies one window from another affecting GUI visual results you may consider usage of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> and <a class="el" href="dui2-tabs.html">Tabs</a> features.</p>
 <h1><a class="anchor" id="dui-window-api"></a>
 Main API</h1>
 <p >Current subject highlights most important API members <code>Window</code> management. <br  />
@@ -186,33 +208,85 @@ Messages handlers</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">Message   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"></td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyCenter"><code>OnOpening</code>   </td><td class="markdownTableBodyNone">Handle all the data that should be loaded once during window start.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>OnHide</code>   </td><td class="markdownTableBodyNone">Calling during hiding process before Hidden event.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>OnPreCloseCheck</code>   </td><td class="markdownTableBodyNone">Occurs before window closed. Conclude is the window can be closed with returning bool value.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>OnClose</code>   </td><td class="markdownTableBodyNone">Occurs during closing process before <code>Closed</code> event. Use to finalize window.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>OnFocus</code>   </td><td class="markdownTableBodyNone">Focusing window and moving it one the rendering top order. Calling it from hide status in case if hidden.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>OnWindowMovedOnTop</code>   </td><td class="markdownTableBodyNone">Occurs when the window has been moved to top of the windows stack.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>OnWindowFocusLost</code>   </td><td class="markdownTableBodyNone">Occurs when current active window is changed. <br  />
+ <dl class="section warning"><dt>Warning</dt><dd>Note that this callback not the same as <code>AGUIElement.OnLostFocus</code>. <br  />
+ The window works as isolated GUI root and not reflect GUI events in bounds of other independent roots.   </dd></dl>
+</td></tr>
 </table>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Incomplete section</dd></dl>
 <h1><a class="anchor" id="dui2-window-background"></a>
 Background operations</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h1><a class="anchor" id="dui2-window-regsitry"></a>
+<p >The <code>Window</code> implemented as an isolated GUI engine execution branch that supposed you to use it as an app-in-app. Considering this you may require an option to implement some backstage operation that will perform one or both from two behaviors:</p><ol type="1">
+<li>Streaming data to the window and updating content along with it.</li>
+<li>Updating environment along with in-window implemented features. Streaming data from the window to other windows or apply to environment.</li>
+</ol>
+<p >For such tasks the <code>Window</code> offers you two handlers. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Handler   </th><th class="markdownTableHeadCenter">Call policy   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>OnBackground</code>   </td><td class="markdownTableBodyCenter">Each frame. Moderated with <br  />
+ <code>BackgroundTaskCallMode</code>   </td><td class="markdownTableBodyNone">Use to perform GUI related operations. <br  />
+ The handler calls based on defined <code>Window.BackgroundTaskCallMode</code> property policy. <br  />
+<br  />
+ Can be called in two variants:<br  />
+ - Each frame: in case the behavior implements the window or environment logic. <br  />
+ - If Hidden: in case you need to maintain some operations only <br  />
+ when the window moved to tray.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>FixedUpdate</code>   </td><td class="markdownTableBodyCenter">Each physics engine tic   </td><td class="markdownTableBodyNone">Regular Unity message. Use to perform the physics related actions.   </td></tr>
+</table>
+<p >To implement a background behavior in your custom window you enough to override the handlers mentioned above with your custom logic. </p><div class="fragment"><div class="line">public class CustomWindow : Window</div>
+<div class="line">{</div>
+<div class="line">    // Override opening message to initialize</div>
+<div class="line">    // the window execution settings.</div>
+<div class="line">    protected override void OnOpening()</div>
+<div class="line">    {</div>
+<div class="line">        // Defining background tasks call</div>
+<div class="line">        // policy.</div>
+<div class="line">        // By default the value is: `Always`</div>
+<div class="line">        BackgroundTaskCallMode = YOU_POLICY</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Override background message handler</div>
+<div class="line">    // to implement window logic not bond to the</div>
+<div class="line">    // internal GUI elements by itself.</div>
+<div class="line">    protected override void OnBackground()</div>
+<div class="line">    {</div>
+<div class="line">        \\ Implement background task here</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><h1><a class="anchor" id="dui2-window-regsitry"></a>
 Windows Runtime Registry</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html" title="Class that handles window calls.">Doloro.UIEngine2.Window.WindowsRuntimeRegister</a></p>
 <h1><a class="anchor" id="dui2-window-classic"></a>
 Classic window</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-control"></a>
 Window UI Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-drag"></a>
 Drag Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-resize"></a>
 Resize Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h2><a class="anchor" id="dui2-window-cw-statecontrol"></a>
 State Controller</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
 <h1><a class="anchor" id="dui2-window-custom"></a>
 Custom window implementation</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

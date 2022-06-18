@@ -259,7 +259,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVirtualHier
 <tr class="memdesc:ae1311f8c8dee9e9a4120377d343570e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when window lost focus.  <a href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae1311f8c8dee9e9a4120377d343570e3">More...</a><br /></td></tr>
 <tr class="separator:ae1311f8c8dee9e9a4120377d343570e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21cccdf97bb8edab8c58056bf7089fc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae21cccdf97bb8edab8c58056bf7089fc">OnWindowMovedOnTop</a> ()</td></tr>
-<tr class="memdesc:ae21cccdf97bb8edab8c58056bf7089fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the window has been moved to top of the widows stack.  <a href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae21cccdf97bb8edab8c58056bf7089fc">More...</a><br /></td></tr>
+<tr class="memdesc:ae21cccdf97bb8edab8c58056bf7089fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the window has been moved to top of the windows stack.  <a href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#ae21cccdf97bb8edab8c58056bf7089fc">More...</a><br /></td></tr>
 <tr class="separator:ae21cccdf97bb8edab8c58056bf7089fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b99dbd829d1441deb76242a6a597712"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a2b99dbd829d1441deb76242a6a597712">OnHoverBegin</a> ()</td></tr>
 <tr class="memdesc:a2b99dbd829d1441deb76242a6a597712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when pointer starts hovering above the window.  <a href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html#a2b99dbd829d1441deb76242a6a597712">More...</a><br /></td></tr>
@@ -283,8 +283,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnApplication
 <tr class="memitem:a4b9e95a592b8ec2b8b8caff5c4850b47"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a4b9e95a592b8ec2b8b8caff5c4850b47">OnPreCloseCheck</a> ()</td></tr>
 <tr class="memdesc:a4b9e95a592b8ec2b8b8caff5c4850b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs before window closed.  <a href="class_doloro_1_1_u_i_engine2_1_1_window.html#a4b9e95a592b8ec2b8b8caff5c4850b47">More...</a><br /></td></tr>
 <tr class="separator:a4b9e95a592b8ec2b8b8caff5c4850b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e2c65b8d52516a010991d27f093c330"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a8e2c65b8d52516a010991d27f093c330">OnBackground</a> ()</td></tr>
-<tr class="memdesc:a8e2c65b8d52516a010991d27f093c330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling when the window is hidden and not drawing UI.  <a href="class_doloro_1_1_u_i_engine2_1_1_window.html#a8e2c65b8d52516a010991d27f093c330">More...</a><br /></td></tr>
+<tr class="memitem:a8e2c65b8d52516a010991d27f093c330"><td class="memItemLeft" align="right" valign="top"><a id="a8e2c65b8d52516a010991d27f093c330" name="a8e2c65b8d52516a010991d27f093c330"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnBackground</b> ()</td></tr>
+<tr class="memdesc:a8e2c65b8d52516a010991d27f093c330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler using to performing of window's behavior not related to GUI. Occurs along with the <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#aaeda65ff34e158f55d83c3d0b53c8d6b" title="Defines background tasks call mode.">BackgroundTaskCallMode</a> policy. Class each frame in case if allowed. <br /></td></tr>
 <tr class="separator:a8e2c65b8d52516a010991d27f093c330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e98cd0c3517eeb21d12393aa870d81a"><td class="memItemLeft" align="right" valign="top"><a id="a0e98cd0c3517eeb21d12393aa870d81a" name="a0e98cd0c3517eeb21d12393aa870d81a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnClampedSizeChanged</b> ()</td></tr>
@@ -955,34 +956,6 @@ Action&lt; AGUIElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> in case if child. <code>false</code> otherwise.</dd></dl>
-
-</div>
-</div>
-<a id="a8e2c65b8d52516a010991d27f093c330" name="a8e2c65b8d52516a010991d27f093c330"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e2c65b8d52516a010991d27f093c330">&#9670;&nbsp;</a></span>OnBackground()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Doloro.UIEngine2.Window.OnBackground </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Calling when the window is hidden and not drawing <a class="el" href="namespace_doloro_1_1_invetory_system_1_1_u_i.html">UI</a>. </p>
-<p >Calling each frame. Use to handle tasks that should be invoked separately from </p>
 
 </div>
 </div>
@@ -1675,7 +1648,7 @@ Case:</h3>
 </table>
 </div><div class="memdoc">
 
-<p>Occurs when the window has been moved to top of the widows stack. </p>
+<p>Occurs when the window has been moved to top of the windows stack. </p>
 
 <p>Reimplemented from <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html#a3e3c7993325788c39a0a93e7e35cd7d1">Doloro.UIEngine2.Window</a>.</p>
 
