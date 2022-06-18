@@ -13,17 +13,27 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
     ] ],
     [ "Window", "dui2-window.html", [
       [ "About", "dui2-window.html#dui2-window-a", null ],
-      [ "Isolation principles", "dui2-window.html#dui-window-isolation", null ],
-      [ "Layering", "dui2-window.html#dui-window-layers", null ],
-      [ "Main API", "dui2-window.html#dui-window-api", null ],
-      [ "Messages handlers", "dui2-window.html#dui2-window-messages", null ],
+      [ "Usage", "dui2-window.html#dui2-window-u", [
+        [ "As workspace element", "dui2-window.html#dui-window-u-ws", null ],
+        [ "Isolation principles", "dui2-window.html#dui-window-u-isolation", null ],
+        [ "Windows Runtime Registry", "dui2-window.html#dui2-window-u-regsitry", null ],
+        [ "Layering", "dui2-window.html#dui-window-u-layers", null ]
+      ] ],
+      [ "API", "dui2-window.html#dui-window-api", [
+        [ "Methods", "dui2-window.html#dui-window-api-m", null ],
+        [ "Properties", "dui2-window.html#dui-window-api-p", null ],
+        [ "Messages handlers", "dui2-window.html#dui2-window-api-messages", null ]
+      ] ],
       [ "Background operations", "dui2-window.html#dui2-window-background", null ],
-      [ "Windows Runtime Registry", "dui2-window.html#dui2-window-regsitry", null ],
       [ "Classic window", "dui2-window.html#dui2-window-classic", [
-        [ "Window UI Controller", "dui2-window.html#dui2-window-cw-control", null ],
-        [ "Drag Controller", "dui2-window.html#dui2-window-cw-drag", null ],
-        [ "Resize Controller", "dui2-window.html#dui2-window-cw-resize", null ],
-        [ "State Controller", "dui2-window.html#dui2-window-cw-statecontrol", null ]
+        [ "Implementation Design Pattern", "dui2-window.html#dui2-window-cw-design", null ],
+        [ "Controls", "dui2-window.html#dui2-window-cw-cotnrols", [
+          [ "Window UI Controller", "dui2-window.html#dui2-window-cw-control", null ],
+          [ "Drag Controller", "dui2-window.html#dui2-window-cw-drag", null ],
+          [ "Resize Controller", "dui2-window.html#dui2-window-cw-resize", null ],
+          [ "State Controller", "dui2-window.html#dui2-window-cw-statecontrol", null ]
+        ] ],
+        [ "Example", "dui2-window.html#dui2-window-cw-example", null ]
       ] ],
       [ "Custom window implementation", "dui2-window.html#dui2-window-custom", null ]
     ] ],

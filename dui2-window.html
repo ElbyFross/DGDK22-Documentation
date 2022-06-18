@@ -89,16 +89,26 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-window-a">About</a></li>
-<li class="level1"><a href="#dui-window-isolation">Isolation principles</a></li>
-<li class="level1"><a href="#dui-window-layers">Layering</a></li>
-<li class="level1"><a href="#dui-window-api">Main API</a></li>
-<li class="level1"><a href="#dui2-window-messages">Messages handlers</a></li>
+<li class="level1"><a href="#dui2-window-u">Usage</a><ul><li class="level2"><a href="#dui-window-u-ws">As workspace element</a></li>
+<li class="level2"><a href="#dui-window-u-isolation">Isolation principles</a></li>
+<li class="level2"><a href="#dui2-window-u-regsitry">Windows Runtime Registry</a></li>
+<li class="level2"><a href="#dui-window-u-layers">Layering</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui-window-api">API</a><ul><li class="level2"><a href="#dui-window-api-m">Methods</a></li>
+<li class="level2"><a href="#dui-window-api-p">Properties</a></li>
+<li class="level2"><a href="#dui2-window-api-messages">Messages handlers</a></li>
+</ul>
+</li>
 <li class="level1"><a href="#dui2-window-background">Background operations</a></li>
-<li class="level1"><a href="#dui2-window-regsitry">Windows Runtime Registry</a></li>
-<li class="level1"><a href="#dui2-window-classic">Classic window</a><ul><li class="level2"><a href="#dui2-window-cw-control">Window UI Controller</a></li>
-<li class="level2"><a href="#dui2-window-cw-drag">Drag Controller</a></li>
-<li class="level2"><a href="#dui2-window-cw-resize">Resize Controller</a></li>
-<li class="level2"><a href="#dui2-window-cw-statecontrol">State Controller</a></li>
+<li class="level1"><a href="#dui2-window-classic">Classic window</a><ul><li class="level2"><a href="#dui2-window-cw-design">Implementation Design Pattern</a></li>
+<li class="level2"><a href="#dui2-window-cw-cotnrols">Controls</a><ul><li class="level3"><a href="#dui2-window-cw-control">Window UI Controller</a></li>
+<li class="level3"><a href="#dui2-window-cw-drag">Drag Controller</a></li>
+<li class="level3"><a href="#dui2-window-cw-resize">Resize Controller</a></li>
+<li class="level3"><a href="#dui2-window-cw-statecontrol">State Controller</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dui2-window-cw-example">Example</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#dui2-window-custom">Custom window implementation</a></li>
@@ -107,38 +117,71 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 <div class="textblock"><h1><a class="anchor" id="dui2-window-a"></a>
 About</h1>
 <p >The module implements a complex GUI element that represents a layout and implementing a standard expected window features.</p>
-<p >The window is <code>AWorkspaceGUIElement</code> and exists in bounds of certain <code>WorkspaceLayout</code>. That allows you to define work zones for instances separating screen on different zones. <br  />
-<b>Read more:</b> <a class="el" href="dui2-workspaces.html">Workspaces</a>.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module.">Doloro.UIEngine2.AWorkspaceGUIElement</a></li>
 </ul>
-<h1><a class="anchor" id="dui-window-isolation"></a>
-Isolation principles</h1>
+<hr  />
+<h1><a class="anchor" id="dui2-window-u"></a>
+Usage</h1>
+<p >The <code>Window</code> by itself it's an abstract <code>GUIElement</code> and <code>Component</code> that implements a core logic but left final integration with Unity and object configuration to developer of custom implementation.</p>
+<p >This made to provide you with maximum flexibility in features development and prevent pre-definition of window instance high-level features.</p>
+<p >If you are looking <b>for ready to use implementation take a look on</b> <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> <b>sub-module</b>. <br  />
+It provides you with <code>WindowUIController</code> that implements the <code>Window</code> class with full integration with Unity as well as provides you with extra GUI controllers to window instance management.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui-window-u-ws"></a>
+As workspace element</h2>
+<p >The window is <code>AWorkspaceGUIElement</code> and exists in bounds of certain <code>WorkspaceLayout</code>. That allows you to define work zones for instances separating screen on different zones.</p>
+<p >You may configure <code>Window</code>'s behavior during interaction with its parental workspace bounds with window's properties like a:</p><ul>
+<li><code>ClampToScreenBorder</code></li>
+<li><code>DynamicSizeIfClamped</code></li>
+</ul>
+<p ><b>Read more:</b> <a class="el" href="dui2-workspaces.html">Workspaces</a>.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui-window-u-isolation"></a>
+Isolation principles</h2>
 <p >Any window exists considers by the engine as an isolated GUI root. That makes tree of elements isolated from an other roots. <br  />
  This means that GUI elements occurring in separated windows *(or alternative root-like implementation)* not affect the state of a system of your window.</p>
 <p >The only difference is a window depending from each other with the <code>WindowLayer</code> bond, like a windows collection bonded with <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features. <br  />
 In such system events and messages may be relayed trough virtual hierarchy, due to expectation of the layout to work as a single GUI instance. Explore related documentation to find out details.</p>
 <p ><b>Read more</b> <a class="el" href="dui2-rwl.html">Runtime Workspace</a></p>
-<h1><a class="anchor" id="dui-window-layers"></a>
-Layering</h1>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-window-u-regsitry"></a>
+Windows Runtime Registry</h2>
+<p >The module provides you with a service that manages entire started windows, they integration into the engine and execution logic.</p>
+<p ><code>WindowsRuntimeRegister</code> is a singleton instance that never is null during the call. The object works as a host for entire <code>Window</code> derived component using game objects.</p>
+<p ><b>Important to know:</b></p><ul>
+<li>The object establishes <code>Window</code> rendering environment during its <code>Awake</code>.</li>
+<li>The object holds entire spawned <code>Window</code> instances as children.</li>
+<li>The object always allocated as part of <code>DoNotDestroy</code> scene and not destroying during scene change.</li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd>Object destroy will cause destroying of entire ran windows. Awoid this operation in normal cases and consider the object as a stand alone service preforming duties of the engine.</dd></dl>
+<p><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html" title="Class that handles window calls.">Doloro.UIEngine2.Window.WindowsRuntimeRegister</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui-window-u-layers"></a>
+Layering</h2>
 <p >They engine allows to gather <code>Window</code> instances into layers. Usage of the feature allows to create a complex tree-like hierarchy of windows for the engine backstage. In such hierarchy child windows will follow core operations of parental instance.</p>
 <p >This allows to create a behavior when some parental layout window with a list of children considers by the engine as a single instance. <br  />
 In case of <code>Close</code> \ <code>Hide</code> or performing any other core operations the children will receive the same orders and will follow the state of the window.</p>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html" title="Defines layer of windows.">Doloro.UIEngine2.Window.WindowsLayer</a></p>
-<p ><br  />
-</p>
 <dl class="section warning"><dt>Warning</dt><dd>Note that layering by itself ONLY makes windows depended on a core logic level.</dd></dl>
 <p>Layering not overrides any high-level handlers like a <code>Position</code> or <code>Size</code> properties to turn the layout of bonded windows to a single instance. <br  />
 It also not affects Unity objects hierarchy.</p>
 <p >The windows stays stand alone game objects that can be handled according with your implementation of engine features configuration.</p>
 <p ><b>Tip:</b> to implement highest-level dependencies one window from another affecting GUI visual results you may consider usage of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> and <a class="el" href="dui2-tabs.html">Tabs</a> features.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html" title="Defines layer of windows.">Doloro.UIEngine2.Window.WindowsLayer</a></p>
+<hr  />
 <h1><a class="anchor" id="dui-window-api"></a>
-Main API</h1>
+API</h1>
 <p >Current subject highlights most important API members <code>Window</code> management. <br  />
 Full list you may find in class documentation by the following link: <br  />
 <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></p>
-<table class="markdownTable">
+<h2><a class="anchor" id="dui-window-api-m"></a>
+Methods</h2>
+<p >Current subject reviews most common using methods you should know. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">Method   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -171,7 +214,9 @@ Full list you may find in class documentation by the following link: <br  />
  GC operation and destroys game object that leads destroying of <code>Window</code> reference.   </dd></dl>
 </td></tr>
 </table>
-<table class="markdownTable">
+<h2><a class="anchor" id="dui-window-api-p"></a>
+Properties</h2>
+<p >Current subject reviews most common using properties you should know. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">Property   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -201,8 +246,8 @@ Full list you may find in class documentation by the following link: <br  />
 <td class="markdownTableBodyCenter"><code>RawPosition</code>   </td><td class="markdownTableBodyNone">Suitable when you works with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
  Allows you to get origin position instead of real one.   </td></tr>
 </table>
-<h1><a class="anchor" id="dui2-window-messages"></a>
-Messages handlers</h1>
+<h2><a class="anchor" id="dui2-window-api-messages"></a>
+Messages handlers</h2>
 <p >The <code>Window</code> class allows you to extend its logic with implementation of messages handlers to react on window states change.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -266,24 +311,43 @@ Background operations</h1>
 <div class="line">        \\ Implement background task here</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1><a class="anchor" id="dui2-window-regsitry"></a>
-Windows Runtime Registry</h1>
-<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html" title="Class that handles window calls.">Doloro.UIEngine2.Window.WindowsRuntimeRegister</a></p>
+</div><!-- fragment --><hr  />
 <h1><a class="anchor" id="dui2-window-classic"></a>
 Classic window</h1>
+<p >The package supplies you with sub-module that implement <code>Window</code> feature with a tight bond with Unity.</p><ul>
+<li>The supplied variant encapsulates module features using and lower requirements to developer to <b>beginner experience level</b>.</li>
+<li><b>Advanced users</b> may consider to use the class as example to creating a custom implementation most suitable for your in-game features.</li>
+</ul>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-window-cw-design"></a>
+Implementation Design Pattern</h2>
+<p >Sub-module provides collection of pluggable controllers that allows separately adding of core module features along with your need avoiding any unnecessary controls. Such design pattern allows you flexibly adjust an instance features along with your gameplay requirements.</p>
+<p ><em>Not every game and player requires advanced GUI features when other games can't be built with a primitive solutions.</em></p>
+<p >The sub-module follows this understanding and implements <code>Window</code> features over list of components those can be or not be used over the build. Entire controls are uniform and supposed to be fully compatible with any custom implementation.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-window-cw-cotnrols"></a>
+Controls</h2>
+<h3><a class="anchor" id="dui2-window-cw-control"></a>
+Window UI Controller</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dui2-window-cw-control"></a>
-Window UI Controller</h2>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_u_i_controller.html" title="The controller of window that bonds to the Window back-end logic.">Doloro.UIEngine2.WindowUIController</a> : Window</p>
+<h3><a class="anchor" id="dui2-window-cw-drag"></a>
+Drag Controller</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dui2-window-cw-drag"></a>
-Drag Controller</h2>
+<h3><a class="anchor" id="dui2-window-cw-resize"></a>
+Resize Controller</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dui2-window-cw-resize"></a>
-Resize Controller</h2>
+<h3><a class="anchor" id="dui2-window-cw-statecontrol"></a>
+State Controller</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dui2-window-cw-statecontrol"></a>
-State Controller</h2>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-window-cw-example"></a>
+Example</h2>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<hr  />
 <h1><a class="anchor" id="dui2-window-custom"></a>
 Custom window implementation</h1>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Empty section</dd></dl>
