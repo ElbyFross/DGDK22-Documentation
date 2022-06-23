@@ -91,8 +91,12 @@ $(document).ready(function(){initNavTree('dui2-rwl.html',''); initResizable(); }
 <ul><li class="level1"><a href="#dui2-rwl-a">About</a></li>
 <li class="level1"><a href="#dui2-rwl-component">Runtime Workspace Layout</a></li>
 <li class="level1"><a href="#sec_dui2-rwl-vh">Virtual hierarchies</a></li>
-<li class="level1"><a href="#sec_dui2-rwl-ht">How to</a><ul><li class="level2"><a href="#sec_dui2-rwl-ccg">Create custom grid</a></li>
+<li class="level1"><a href="#sec_dui2-rwl-ht">How to</a><ul><li class="level2"><a href="#sec_dui2-rwl-cdl">Create divided layout</a></li>
+<li class="level2"><a href="#sec_dui2-rwl-col">Create outer layout</a></li>
 <li class="level2"><a href="#sec_dui2-rwl-load">Load window to grid from resources</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui2-rwl-examples">Examples</a><ul><li class="level2"><a href="#dui2-rwl-examples-remplates">Templates</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#dui2-rwl-addons">Addons</a><ul><li class="level2"><a href="#dui2-rwl-utils-waz">Window Auto Size</a><ul><li class="level3"><a href="#dui2-rwl-utils-waz-lims">Limits</a></li>
@@ -114,17 +118,18 @@ Encapsulates layouts size \ position management along with following of its pred
 </ul>
 <h1><a class="anchor" id="dui2-rwl-component"></a>
 Runtime Workspace Layout</h1>
-<p ><code>RuntimeWorkspaceLayout</code> is a main component that implements RWL features for in-game graphics element. The component derived from the <code>AGUIElement</code> class and integrates the object into the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> engine.</p>
+<p ><code>RuntimeWorkspaceLayout</code> is a main component that implements <b>RWL</b> features for in-game graphics element. The component derived from the <code>AGUIElement</code> class and integrates the object into the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> engine.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html" title="Runtime workspace zone.">Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayout</a></p>
 <p >By default the component creates as undefined and must be configured. <br  />
-RWL has 2 two global states that can be configured: </p><table class="markdownTable">
+<b>RWL</b> has 2 two global states that can be configured: </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">State   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><b>Intermediate layout</b>   </td><td class="markdownTableBodyNone">A layout divided with a splitter that has some RWL instances as child (both Unity or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> reflected).    </td></tr>
+<td class="markdownTableBodyCenter"><b>Intermediate layout</b>   </td><td class="markdownTableBodyNone">A layout divided with a splitter that has some <b>RWL</b> instances as child (both Unity or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> reflected).    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter"><b>Outer layout</b>   </td><td class="markdownTableBodyNone">A layout that NOT divided with sub-layouts. Such layout reflects itself with a <code>WorkspaceLayout</code> with defined key and supposed to contain a content inside the scope.   </td></tr>
 </table>
+<p >Take a note that the <b>RWL</b> layout can be configured as you need and not demands you to follow a solid objects configuration, but still demands expected hierarchy to be implemented.</p>
 <h1><a class="anchor" id="sec_dui2-rwl-vh"></a>
 Virtual hierarchies</h1>
 <p >The system allow to embed layouts inside each other. Such layouts must be powered with a <code>Window</code> component as root <code>AGUIElement</code>. Any layout exists in local hierarchy and connects each other with virtual links.</p>
@@ -132,42 +137,86 @@ Virtual hierarchies</h1>
 <hr  />
 <h1><a class="anchor" id="sec_dui2-rwl-ht"></a>
 How to</h1>
-<h2><a class="anchor" id="sec_dui2-rwl-ccg"></a>
-Create custom grid</h2>
-<ol type="1">
-<li>Create new game object and add <code>RuntimeWorkspaceLayout</code> component.</li>
-<li>Put selected pair of layouts as child (Bottom-Top | Left-Right) located by <code>Resources\Prefabs\RWL\</code> directory.</li>
-<li>Set added layout to init sub layout fields of the parent layout with following rule:<ul>
-<li><code>Bottom</code> | <code>Left</code> is first sub layout.</li>
-<li><code>Top</code> | <code>Right</code> is second sub layout.</li>
-</ul>
+<h2><a class="anchor" id="sec_dui2-rwl-cdl"></a>
+Create divided layout</h2>
+<p >To create a layout divided on 2 zones you have to:</p><ol type="1">
+<li>Create a game object and add the <code>RuntimeWorkspaceLayout</code> component over it.</li>
+<li>Press <code>Split</code> button at <b>Workspace configuration</b> group at the component editor.<ol type="a">
+<li>Define split direction</li>
+<li>Define layout prefabs to instantiate. The component should offer you default options, but you may implement a custom view according with your GUI need and refer it here.</li>
+</ol>
 </li>
-<li>Select split type, direction and value.<ul>
-<li>Direction defies and order of layouts (LR - Horizontal, BT - Vertical).</li>
-<li>Type could be defined in ratio or fixed value modes.</li>
-<li>In case of <code>ratio</code> type option the <code>value</code> must be defined in range from 0 to 1. Otherwise value equal to pixel size.</li>
-</ul>
+<li>Confirm split operation.</li>
+<li>Configure layout behavior options like a <code>SplitType</code> and <code>Value</code> to setup the backstage logic of <b>RWL</b> upscaling | downscaling.</li>
+</ol>
+<p >In case the layout already created but you want to refer it to some other root follow the next instruction:</p><ol type="1">
+<li>Relocate layouts to refer toward child hierarchy of supposed root \ parent <code>RuntimeWorkspaceLayout</code>.</li>
+<li>Select the <code>RuntimeWorkspaceLayout</code> expected to be root or parent for referring layouts.</li>
+<li>Open <b>Layout references</b> group at the component editor.<ol type="a">
+<li>In case the object refers some layouts delete them and release they references into the fields of the group.</li>
+<li>Press <code>Detect All</code> button to auto detect objects among children, or define references manually. <br  />
+<dl class="section warning"><dt>Warning</dt><dd>Make sure the layouts located in expected order: Left-Right for horizontally divided, Bottom-Top for vertically divided. Invalid order could cause critical GUI bugs.</dd></dl>
+Every layout dividing only on two zones. To create a more complex layout you may split child layout to follow expected configuration.</li>
+</ol>
 </li>
 </ol>
 <p ><br  />
 </p>
+<h2><a class="anchor" id="sec_dui2-rwl-col"></a>
+Create outer layout</h2>
+<p >To create an outer layout that supports reflection of a <a class="el" href="dui2-workspaces.html">Workspaces</a> you has to create a game object with <code>RuntimeWorkspaceLayout</code> component, but without child <b>RWL</b> instances referenced within <b>Layout references</b> group.</p>
+<p >Such <b>RWL</b> must has a defined <b>workspace key</b>. The component will automatically create a <code>WorkspaceLayout</code> with selected key and bond it with the layout instance.</p>
+<p >Any <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a> spawned within <b>RWL</b> scope will be associated with the declared <code>WorkspaceLayout</code>.</p>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="sec_dui2-rwl-load"></a>
 Load window to grid from resources</h2>
-<p >Add <code>BondWindowFromResources</code> component on the object with outer <code>RuntimeWorkspaceLayout</code> component. Define the signature of window resource with defied <code>DynamicResource</code> component.</p>
-<p >The window will be loaded after <code>Start</code> handler as soon as the resource will be loaded by background services. Such a window will be connected to virtual hierarchy chain and will follow that parental layout events.</p>
+<p >The module encapsulates <code>Window</code> resources loading to <b>RWL</b> layouts by <code>BondWindowFromResources</code> component using.</p>
+<p >To load the window it must be located at the <code>Resources</code> folder and has added <a class="el" href="ddm-drt-dr.html">Dynamic Resource</a> component over it.</p>
+<ol type="1">
+<li>Add <code>BondWindowFromResources</code> component on the object with outer <code>RuntimeWorkspaceLayout</code> component.</li>
+<li>Define the signature of window resource with defied <code>DynamicResource</code> component.</li>
+</ol>
+<p >The window will be loaded after <code>Start</code> handler, as soon as the resource will be loaded by background services. <br  />
+Such a window will be connected to virtual hierarchy chain and will follow that parental layout events.</p>
+<p ><br  />
+</p>
+<h1><a class="anchor" id="dui2-rwl-examples"></a>
+Examples</h1>
+<h2><a class="anchor" id="dui2-rwl-examples-remplates"></a>
+Templates</h2>
+<p >The package supply you with pre-configurated resources using all along with module features. <br  />
+The resources located under following path: <br  />
+<code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates</code></p>
+<p >You may reconfigure them along with you layout requirements to apply as default to use.</p>
+<h2><a class="anchor" id="dui2-rwl-examples-remplates"></a>
+Templates</h2>
+<p >The package provides you with library of demo scenes and results by following path:<br  />
+<code>Doloro-GDK \ Doloro-UI-2 \ Scenes</code>. <br  />
+You may find collection of complex layouts configured to demonstrate you flexibility and required setting to achieve any option.</p>
 <hr  />
 <h1><a class="anchor" id="dui2-rwl-addons"></a>
 Addons</h1>
 <h2><a class="anchor" id="dui2-rwl-utils-waz"></a>
 Window Auto Size</h2>
-<p >An utility component that allows to compute the <code>Window</code> min and max sized along with content in auto mode.</p>
+<p >Some of <code>Window</code> instances located at the same <b>RWL</b> scope may have some clamp options that affects entire layout behavior. It's not an issue when you are working with a predictable layouts, but in cases of complex virtual hierarchies the clamp values can be undefined during development.</p>
+<p >To make the development process simplified the package supplies you with the <code>WindowAutoSizeClamp</code> component that tracks complex changes of layout settings and reconfigures assigned <code>Window</code> along with settings of child layouts' settings.</p>
+<p >An utility component that allows to compute the <code>Window</code> min and max sized along with content in auto mode, encapsulating entire process from developer.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_window_auto_size_clamp.html" title="Component that allows to auto configure the Window.MinSize and Window.MaxSize parameters along with i...">Doloro.UIEngine2.Modules.RuntimeWorkspace.WindowAutoSizeClamp</a></p>
+<p ><br  />
+</p>
 <h3><a class="anchor" id="dui2-rwl-utils-waz-lims"></a>
 Limits</h3>
-<p >An util considers that entire hierarchy including virtual one built with using of <code>RuntimeWorkspaceLayout</code> module and not using some custom layouts derived directly from the <code>AClampedWorkspaceProvider</code>.</p>
+<dl class="section warning"><dt>Warning</dt><dd>An utility considers that entire hierarchy including virtual one built with using of <code>RuntimeWorkspaceLayout</code> module and not using some custom layouts derived directly from the <code>AClampedWorkspaceProvider</code>.</dd></dl>
+<p><br  />
+</p>
 <h3><a class="anchor" id="dui2-rwl-utils-waz-htu"></a>
 How to use</h3>
-<p >Just add <code>WindowAutoSizeClamp</code> component on the game object with applied <code>Window</code> derived component. After that it'll automatically recalculate entire layout in first <code>LateUpdate</code>.</p>
-<p >You can call manual update of layout with <code>WindowAutoSizeClamp.Recopute()</code> handler. </p>
+<ol type="1">
+<li>Add <code>WindowAutoSizeClamp</code> component on the game object with applied <a class="el" href="dui2-window.html">Window</a> derived component.</li>
+<li>The component automatically recalculate entire layout in first <code>LateUpdate</code> call.</li>
+</ol>
+<p >You can call manual update of layout with <code>WindowAutoSizeClamp.Recopute()</code> handler in case the layout has been changed without notification of entire hierarchy. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

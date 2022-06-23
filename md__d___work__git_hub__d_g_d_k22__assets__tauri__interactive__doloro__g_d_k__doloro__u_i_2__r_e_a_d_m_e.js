@@ -50,8 +50,12 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       [ "Runtime Workspace Layout", "dui2-rwl.html#dui2-rwl-component", null ],
       [ "Virtual hierarchies", "dui2-rwl.html#sec_dui2-rwl-vh", null ],
       [ "How to", "dui2-rwl.html#sec_dui2-rwl-ht", [
-        [ "Create custom grid", "dui2-rwl.html#sec_dui2-rwl-ccg", null ],
+        [ "Create divided layout", "dui2-rwl.html#sec_dui2-rwl-cdl", null ],
+        [ "Create outer layout", "dui2-rwl.html#sec_dui2-rwl-col", null ],
         [ "Load window to grid from resources", "dui2-rwl.html#sec_dui2-rwl-load", null ]
+      ] ],
+      [ "Examples", "dui2-rwl.html#dui2-rwl-examples", [
+        [ "Templates", "dui2-rwl.html#dui2-rwl-examples-remplates", null ]
       ] ],
       [ "Addons", "dui2-rwl.html#dui2-rwl-addons", [
         [ "Window Auto Size", "dui2-rwl.html#dui2-rwl-utils-waz", [
