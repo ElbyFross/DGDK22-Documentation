@@ -113,9 +113,9 @@ About</h1>
 Encapsulates layouts size \ position management along with following of its predefined rules.</p>
 <p >That system is fully dynamic and not demands predefinition of entire layout.</p><ul>
 <li>The layout can be created dynamically.</li>
-<li>The layout supports layering with usage of <a class="el" href="dui2-vh.html">Virtual UI Hub</a> features. That allows creation of complex sub layouts in depended windows. Such layout will be embedded into virtual hierarchy and start follow common layout behavior. <br  />
- <b>Read more:</b> <a class="el" href="dui2-rwl.html#sec_dui2-rwl-vh">Virtual hierarchies</a></li>
+<li>The layout supports layering with usage of <code>VirtualHierarchyLinker</code> features. That allows creation of complex sub layouts in depended windows. Such layout will be embedded into virtual hierarchy and start follow common layout behavior.</li>
 </ul>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_virtual_hierarchy_linker.html" title="A static handler that gathers standalone AWorkspaceProvider hierarchies bonded in chain to a single v...">Doloro.UIEngine2.VirtualHierarchyLinker</a></p>
 <h1><a class="anchor" id="dui2-rwl-component"></a>
 Runtime Workspace Layout</h1>
 <p ><code>RuntimeWorkspaceLayout</code> is a main component that implements <b>RWL</b> features for in-game graphics element. The component derived from the <code>AGUIElement</code> class and integrates the object into the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> engine.</p>
@@ -125,7 +125,7 @@ Runtime Workspace Layout</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">State   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><b>Intermediate layout</b>   </td><td class="markdownTableBodyNone">A layout divided with a splitter that has some <b>RWL</b> instances as child (both Unity or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> reflected).    </td></tr>
+<td class="markdownTableBodyCenter"><b>Intermediate layout</b>   </td><td class="markdownTableBodyNone">A layout divided with a splitter that has some <b>RWL</b> instances as child (both standard Unity hierarchy or <code>VirtualHierarchyLinker</code> reflected).    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter"><b>Outer layout</b>   </td><td class="markdownTableBodyNone">A layout that NOT divided with sub-layouts. Such layout reflects itself with a <code>WorkspaceLayout</code> with defined key and supposed to contain a content inside the scope.   </td></tr>
 </table>

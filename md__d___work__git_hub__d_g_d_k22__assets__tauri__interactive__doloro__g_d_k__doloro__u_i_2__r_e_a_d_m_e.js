@@ -64,7 +64,15 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
         ] ]
       ] ]
     ] ],
-    [ "Virtual UI Hub", "dui2-vh.html", null ],
+    [ "Virtual UI Hub", "dui2-vh.html", [
+      [ "About", "dui2-vh.html#dui2-vh-a", null ],
+      [ "Getting started", "dui2-vh.html#dui2-vh-gs", [
+        [ "Auto network", "dui2-vh.html#dui2-vh-gs-an", null ],
+        [ "Manual network", "dui2-vh.html#dui2-vh-gs-mn", null ],
+        [ "Custom events", "dui2-vh.html#dui2-vh-gs-ce", null ],
+        [ "Custom Hub's agent", "dui2-vh.html#dui2-vh-gs-cha", null ]
+      ] ]
+    ] ],
     [ "Color Palettes", "dui2-palette.html", null ],
     [ "Elements Collection", "dui2-el_col.html", null ],
     [ "Context Menu", "dui2-context.html", null ],
