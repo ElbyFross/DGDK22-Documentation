@@ -38,7 +38,9 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Getting Started", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html", [
-      [ "How to use the documentation?", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html#gstart_docs", null ]
+      [ "Letter to customer", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html#gstart-a", null ],
+      [ "Helpful links", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html#gstart-links", null ],
+      [ "Contacts", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_1__getting_started.html#gstart-c", null ]
     ] ],
     [ "Modules Brief Overview", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html", [
       [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_2__modules_overview.html#modules_overview_about", null ],
@@ -177,8 +179,8 @@ var NAVTREEINDEX =
 "ddm-ser.html#ddm-ser-bst-for",
 "dinv_volume.html#dinv_volume_htu_ic",
 "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_search_1_1_i_resource_filter.html",
-"namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls.html",
-"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#aa350fc521d9d1be4a9c40282c4d8df73"
+"namespace_doloro_1_1_invetory_system_1_1_modules_1_1_shops.html",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#aa2642f83f6c002151c187ae5ff45ce78"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
