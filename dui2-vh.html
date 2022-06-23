@@ -100,15 +100,25 @@ $(document).ready(function(){initNavTree('dui2-vh.html',''); initResizable(); })
 <div class="textblock"><h1><a class="anchor" id="dui2-vh-a"></a>
 About</h1>
 <p >The <b><a class="el" href="namespace_doloro.html">Doloro</a> UI Engine II</b>'s module that provides event forwarding features. That module could be useful in case if you need to bind standalone UI elements to virtual events network.</p>
-<p >Works in virtual chained hierarchies provided with layout bonds in auto way. So the network would consider all chained element as solid hierarchy.</p>
+<p >Has compatibility with the <a class="el" href="dui2-workspaces.html">Workspaces</a> features. <br  />
+Works in virtual chained hierarchies provided with layout bonds in auto way. So the network would consider all chained element as solid hierarchy.</p>
+<p ><b>Explore API:</b> <br  />
+</p><ul>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_virtual_u_i_hub.html" title="UI Events hub that gathers messages from virtual children and share then to subscribed connectors.">Doloro.UIEngine2.Modules.VirtualHub.VirtualUIHub</a><br  />
+</li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html" title="Component that listens events from attached AGUIElement and re-translates them to parental or manuall...">Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRelay</a><br  />
+</li>
+<li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_listener.html" title="Agent that receives events forwarded with the VirtualUIHub.">Doloro.UIEngine2.Modules.VirtualHub.UIHubListener</a><br  />
+ </li>
+</ul>
 <h1><a class="anchor" id="dui2-vh-gs"></a>
 Getting started</h1>
 <h2><a class="anchor" id="dui2-vh-gs-an"></a>
 Auto network</h2>
 <ol type="1">
-<li>Put <code>UIHubListener</code> component on some <code>GameObject</code> that you consider as network root.</li>
-<li>Put <code>UIHubEventRetranslator</code> on child object with <code>AGUIElement</code> that should forward its events to another network connected elements. Select events that will be shared to the <code>hub</code>.</li>
-<li>Put <code>UIHubListener</code> on the object that is direct of virtual child of the <code>UIHubListener</code> from first step. Get it with you event destination component and subscribe you event handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> or on of predefined by API events.</li>
+<li>Put <code>VirtualUIHub</code> component (or component derived from it) on some <code>GameObject</code> that you consider as network root.</li>
+<li>Put <code>UIHubEventRelay</code> (or component derived from it) on child object with <code>AGUIElement</code> that should forward its events to another network connected elements. Select events that will be shared to the <code>hub</code>.</li>
+<li>Put <code>UIHubListener</code> (or component derived from it) on an object that is a virtual (supplied with the <code>VirtualHierarchyLinker</code>) or actual child of the <code>VirtualUIHub</code> hosting game object from the first step. Get it with you event destination component and subscribe you event handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> or on of predefined by API events.</li>
 <li>Release handler from the network with the <code>UIHubListener.ReleaseEventHanler(string, VirtualUIHub.SharedEvent)</code> as soon as it's unnecessary.</li>
 </ol>
 <h2><a class="anchor" id="dui2-vh-gs-mn"></a>
