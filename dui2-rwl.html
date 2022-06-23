@@ -89,23 +89,47 @@ $(document).ready(function(){initNavTree('dui2-rwl.html',''); initResizable(); }
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-rwl-a">About</a></li>
+<li class="level1"><a href="#dui2-rwl-component">Runtime Workspace Layout</a></li>
 <li class="level1"><a href="#sec_dui2-rwl-vh">Virtual hierarchies</a></li>
 <li class="level1"><a href="#sec_dui2-rwl-ht">How to</a><ul><li class="level2"><a href="#sec_dui2-rwl-ccg">Create custom grid</a></li>
 <li class="level2"><a href="#sec_dui2-rwl-load">Load window to grid from resources</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui2-rwl-addons">Addons</a><ul><li class="level2"><a href="#dui2-rwl-utils-waz">Window Auto Size</a><ul><li class="level3"><a href="#dui2-rwl-utils-waz-lims">Limits</a></li>
+<li class="level3"><a href="#dui2-rwl-utils-waz-htu">How to use</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-rwl-a"></a>
 About</h1>
-<p >Comprehensive module that allows to combine several windows in one view with grid management feature.</p>
-<p ><b>More in this category</b></p><ul>
-<li><a class="el" href="dui2-rwl-addons.html">Addons</a></li>
+<p >Comprehensive module that allows to combine windows in one view with a grid management feature.<br  />
+Encapsulates layouts size \ position management along with following of its predefined rules.</p>
+<p >That system is fully dynamic and not demands predefinition of entire layout.</p><ul>
+<li>The layout can be created dynamically.</li>
+<li>The layout supports layering with usage of <a class="el" href="dui2-vh.html">Virtual UI Hub</a> features. That allows creation of complex sub layouts in depended windows. Such layout will be embedded into virtual hierarchy and start follow common layout behavior. <br  />
+ <b>Read more:</b> <a class="el" href="dui2-rwl.html#sec_dui2-rwl-vh">Virtual hierarchies</a></li>
 </ul>
+<h1><a class="anchor" id="dui2-rwl-component"></a>
+Runtime Workspace Layout</h1>
+<p ><code>RuntimeWorkspaceLayout</code> is a main component that implements RWL features for in-game graphics element. The component derived from the <code>AGUIElement</code> class and integrates the object into the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> engine.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html" title="Runtime workspace zone.">Doloro.UIEngine2.Modules.RuntimeWorkspace.RuntimeWorkspaceLayout</a></p>
+<p >By default the component creates as undefined and must be configured. <br  />
+RWL has 2 two global states that can be configured: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">State   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><b>Intermediate layout</b>   </td><td class="markdownTableBodyNone">A layout divided with a splitter that has some RWL instances as child (both Unity or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> reflected).    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><b>Outer layout</b>   </td><td class="markdownTableBodyNone">A layout that NOT divided with sub-layouts. Such layout reflects itself with a <code>WorkspaceLayout</code> with defined key and supposed to contain a content inside the scope.   </td></tr>
+</table>
 <h1><a class="anchor" id="sec_dui2-rwl-vh"></a>
 Virtual hierarchies</h1>
 <p >The system allow to embed layouts inside each other. Such layouts must be powered with a <code>Window</code> component as root <code>AGUIElement</code>. Any layout exists in local hierarchy and connects each other with virtual links.</p>
 <p >Virtual connection could be provided by any outer (not divided) layout with applying of connected window via <code>AWorkspaceProvider.ActiveContent</code> property.</p>
+<hr  />
 <h1><a class="anchor" id="sec_dui2-rwl-ht"></a>
 How to</h1>
 <h2><a class="anchor" id="sec_dui2-rwl-ccg"></a>
@@ -125,10 +149,25 @@ Create custom grid</h2>
 </ul>
 </li>
 </ol>
+<p ><br  />
+</p>
 <h2><a class="anchor" id="sec_dui2-rwl-load"></a>
 Load window to grid from resources</h2>
 <p >Add <code>BondWindowFromResources</code> component on the object with outer <code>RuntimeWorkspaceLayout</code> component. Define the signature of window resource with defied <code>DynamicResource</code> component.</p>
-<p >The window will be loaded after <code>Start</code> handler as soon as the resource will be loaded by background services. Such a window will be connected to virtual hierarchy chain and will follow that parental layout events. </p>
+<p >The window will be loaded after <code>Start</code> handler as soon as the resource will be loaded by background services. Such a window will be connected to virtual hierarchy chain and will follow that parental layout events.</p>
+<hr  />
+<h1><a class="anchor" id="dui2-rwl-addons"></a>
+Addons</h1>
+<h2><a class="anchor" id="dui2-rwl-utils-waz"></a>
+Window Auto Size</h2>
+<p >An utility component that allows to compute the <code>Window</code> min and max sized along with content in auto mode.</p>
+<h3><a class="anchor" id="dui2-rwl-utils-waz-lims"></a>
+Limits</h3>
+<p >An util considers that entire hierarchy including virtual one built with using of <code>RuntimeWorkspaceLayout</code> module and not using some custom layouts derived directly from the <code>AClampedWorkspaceProvider</code>.</p>
+<h3><a class="anchor" id="dui2-rwl-utils-waz-htu"></a>
+How to use</h3>
+<p >Just add <code>WindowAutoSizeClamp</code> component on the game object with applied <code>Window</code> derived component. After that it'll automatically recalculate entire layout in first <code>LateUpdate</code>.</p>
+<p >You can call manual update of layout with <code>WindowAutoSizeClamp.Recopute()</code> handler. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -89,11 +89,68 @@ $(document).ready(function(){initNavTree('dui2-workspaces.html',''); initResizab
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-workspaces-a">About</a></li>
+<li class="level1"><a href="#dui2-workspaces-uc">Usage case</a></li>
+<li class="level1"><a href="#dui2-workspaces-agents">Agents</a><ul><li class="level2"><a href="#dui2-workspaces-agents-wl">Workspace Layout</a></li>
+<li class="level2"><a href="#dui2-workspaces-agents-wguie">Workspace GUI Element</a></li>
+<li class="level2"><a href="#dui2-workspaces-agents-wp">Workspace Provider</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-workspaces-a"></a>
 About</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >Workspaces is a one of the main concepts of the engine. The core allows you to define on-screen zone where the GUI element supposed to work.</p>
+<p >The module allows you to split up the screen on layout that allows you to make your GUI:</p><ul>
+<li><em>More ergonomic</em>. <br  />
+ You have ability to control where the controls exists that allows to make important controls always accessible, when some less important GUI will always follow less useful space on screen.</li>
+<li><em>More formatted</em>. <br  />
+ Because you may define how the game screen looks like never mind what content will be displayed into the workspace.</li>
+<li><em>More flexible</em>. <br  />
+ Change your GUI view following workspaces at runtime. Extend GUI with new zones when you need and release as soon as it purpose fulfilled.</li>
+</ul>
+<h1><a class="anchor" id="dui2-workspaces-uc"></a>
+Usage case</h1>
+<p >Currently the package provides you with several modules using <code>Workspace</code> features. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module   </th><th class="markdownTableHeadNone">Usage    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="dui2-rwl.html">Runtime Workspace</a>   </td><td class="markdownTableBodyNone">Provides you with dynamic workspace layouts feature that controls collection of workspace providing agents at runtime according with GUI controls activity over the scene. <br  />
+<br  />
+ By using <code>RuntimeWorkspaceLayout</code> features you create a complex solution of elements with dynamic scopes bonded with <code>WorkspaceLayout</code> instances. That makes your collection of <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a> to follow a grid of workspaces along with predefined layouts settings. <br  />
+<br  />
+ Implements <code>RuntimeWorkspaceLayout</code> as <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wp">Workspace Provider</a> agent.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="dui2-window.html">Window</a>   </td><td class="markdownTableBodyNone"><code>Window</code> by itself is a component that implements <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a>. <br  />
+ That allows to window to be bond with <code>WorkspaceLayout</code> instance and implements base control behaviors that encapsulates and simplifies features configuration and management.   </td></tr>
+</table>
+<p >Still the module is uniform and not built directly to be used within the modules provided above. You may create your own workspace agents that will implement a custom features and solutions specified for your needs.</p>
+<h1><a class="anchor" id="dui2-workspaces-agents"></a>
+Agents</h1>
+<h2><a class="anchor" id="dui2-workspaces-agents-wl"></a>
+Workspace Layout</h2>
+<p ><code>WorkspaceLayout</code> class combines both:</p><ul>
+<li>Operating instance that allows you to manage layout space</li>
+<li>Static API using to creation and management of created layout. Also provides features to management of <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a> instances bond with layouts.</li>
+</ul>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html" title="Provides API for handling layout features. Contains meta-data and runtime data about workspace layout...">Doloro.UIEngine2.WorkspaceLayout</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-workspaces-agents-wguie"></a>
+Workspace GUI Element</h2>
+<p ><code>AGUIElement</code> derived component that allows to integrate a control to <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wl">Workspace Layout</a>. Encapsulates layout transform handlers management and provides you with new properties to configure of the element behavior within layout scope.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module.">Doloro.UIEngine2.AWorkspaceGUIElement</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-workspaces-agents-wp"></a>
+Workspace Provider</h2>
+<p ><code>AGUIElement</code> derived component that allows to associate an element with a <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wl">Workspace Layout</a>.</p>
+<ul>
+<li>Provides API for layout registration and management at backstage.</li>
+<li>Supports layered layout hierarchy.</li>
+<li>Implements transform math.</li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd>The component provides you only API to manage element ass layout provides, but not handles internal logic. The stage skipped because layouts logic are very specific to its features. Use <a class="el" href="dui2-rwl.html">Runtime Workspace</a> implementation as example.</dd></dl>
+<p><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_provider.html" title="GUI Element that provides workspace connection features.">Doloro.UIEngine2.AWorkspaceProvider</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

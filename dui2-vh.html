@@ -88,28 +88,28 @@ $(document).ready(function(){initNavTree('dui2-vh.html',''); initResizable(); })
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md156">About</a></li>
-<li class="level2"><a href="#autotoc_md157">Features</a></li>
-<li class="level2"><a href="#autotoc_md158">Getting started</a><ul><li class="level3"><a href="#autotoc_md159">Auto network</a></li>
-<li class="level3"><a href="#autotoc_md160">Manual network</a></li>
-<li class="level3"><a href="#autotoc_md161">Custom events</a></li>
-<li class="level3"><a href="#autotoc_md162">Custom Hub&#39;s agent</a></li>
+<ul><ul><li class="level2"><a href="#autotoc_md155">About</a></li>
+<li class="level2"><a href="#autotoc_md156">Features</a></li>
+<li class="level2"><a href="#autotoc_md157">Getting started</a><ul><li class="level3"><a href="#autotoc_md158">Auto network</a></li>
+<li class="level3"><a href="#autotoc_md159">Manual network</a></li>
+<li class="level3"><a href="#autotoc_md160">Custom events</a></li>
+<li class="level3"><a href="#autotoc_md161">Custom Hub&#39;s agent</a></li>
 </ul>
 </li>
 </ul>
 </ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md156"></a>
+<div class="textblock"><h2><a class="anchor" id="autotoc_md155"></a>
 About</h2>
 <p >The <code><a class="el" href="namespace_doloro.html">Doloro</a> UI Engine II</code>'s module that provides event forwarding features. That module could be useful in case if you need to bind standalone UI elements to virtual events network.</p>
-<h2><a class="anchor" id="autotoc_md157"></a>
+<h2><a class="anchor" id="autotoc_md156"></a>
 Features</h2>
 <ul>
 <li>Works in virtual chained hierarchies provided with layout bonds in auto way. So the network would consider all chained element as solid hierarchy.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md158"></a>
+<h2><a class="anchor" id="autotoc_md157"></a>
 Getting started</h2>
-<h3><a class="anchor" id="autotoc_md159"></a>
+<h3><a class="anchor" id="autotoc_md158"></a>
 Auto network</h3>
 <ol type="1">
 <li>Put <code>UIHubListener</code> component on some <code>GameObject</code> that you consider as network root.</li>
@@ -117,19 +117,19 @@ Auto network</h3>
 <li>Put <code>UIHubListener</code> on the object that is direct of virtual child of the <code>UIHubListener</code> from first step. Get it with you event destination component and subscribe you event handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> or on of predefined by API events.</li>
 <li>Release handler from the network with the <code>UIHubListener.ReleaseEventHanler(string, VirtualUIHub.SharedEvent)</code> as soon as it's unnecessary.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md160"></a>
+<h3><a class="anchor" id="autotoc_md159"></a>
 Manual network</h3>
 <p >You could define <code>AHubAgent.hub</code> manually. Using this you could connect some <code>AGUIElement</code> outside of virtual hierarchy chain to the network.</p>
 <p >Note that by default all the placed handlers up to the moment will be released. To prevent this you have to set <code>UIHubListener.DropHandlerWithHub</code> property to false.</p>
 <p >You could implement your own logic with defining a custom <code>OnHubPreChange</code> and <code>OnHubPostChange</code> handler at your custom <code>AHubAgent</code>.</p>
-<h3><a class="anchor" id="autotoc_md161"></a>
+<h3><a class="anchor" id="autotoc_md160"></a>
 Custom events</h3>
 <p >As has been mentioned above you could set handler to network with not predefined API by using <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> method.</p>
 <ol type="1">
 <li>Put your handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> by using custom <code>eventCode</code>.</li>
 <li>Put <code>UIHubEventRetranslator</code> derived component to the <code>AGUIElement</code> that will share the custom event. When event occurs call <code>UIHubEventRetranslator.hub.ShareEvent(this, YOUR_EVENT_CODE, ARGS_ARRAY)</code> at the re-translator instance and it will share it to each network's <code>UIHubListener</code> with a handler subscribed of <code>YOUR_EVENT_CODE</code>.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md162"></a>
+<h3><a class="anchor" id="autotoc_md161"></a>
 Custom Hub's agent</h3>
 <p >Just create new class derived from abstract <code>AHubAgent</code> class or from class derived from it. It will provides you auto connection to virtual hierarchy hub by default. Now you could implement your own logic.</p>
 <p >Look on <code>UIHubListener</code> and <code>UIHubEventRetranslator</code> implementation as on <code>AHubAgent</code> example. </p>

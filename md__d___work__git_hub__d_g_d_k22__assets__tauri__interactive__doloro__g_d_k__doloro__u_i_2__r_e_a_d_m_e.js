@@ -37,9 +37,29 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       ] ]
     ] ],
     [ "Workspaces", "dui2-workspaces.html", [
-      [ "About", "dui2-workspaces.html#dui2-workspaces-a", null ]
+      [ "About", "dui2-workspaces.html#dui2-workspaces-a", null ],
+      [ "Usage case", "dui2-workspaces.html#dui2-workspaces-uc", null ],
+      [ "Agents", "dui2-workspaces.html#dui2-workspaces-agents", [
+        [ "Workspace Layout", "dui2-workspaces.html#dui2-workspaces-agents-wl", null ],
+        [ "Workspace GUI Element", "dui2-workspaces.html#dui2-workspaces-agents-wguie", null ],
+        [ "Workspace Provider", "dui2-workspaces.html#dui2-workspaces-agents-wp", null ]
+      ] ]
     ] ],
-    [ "Runtime Workspace", "dui2-rwl.html", "dui2-rwl" ],
+    [ "Runtime Workspace", "dui2-rwl.html", [
+      [ "About", "dui2-rwl.html#dui2-rwl-a", null ],
+      [ "Runtime Workspace Layout", "dui2-rwl.html#dui2-rwl-component", null ],
+      [ "Virtual hierarchies", "dui2-rwl.html#sec_dui2-rwl-vh", null ],
+      [ "How to", "dui2-rwl.html#sec_dui2-rwl-ht", [
+        [ "Create custom grid", "dui2-rwl.html#sec_dui2-rwl-ccg", null ],
+        [ "Load window to grid from resources", "dui2-rwl.html#sec_dui2-rwl-load", null ]
+      ] ],
+      [ "Addons", "dui2-rwl.html#dui2-rwl-addons", [
+        [ "Window Auto Size", "dui2-rwl.html#dui2-rwl-utils-waz", [
+          [ "Limits", "dui2-rwl.html#dui2-rwl-utils-waz-lims", null ],
+          [ "How to use", "dui2-rwl.html#dui2-rwl-utils-waz-htu", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Virtual UI Hub", "dui2-vh.html", null ],
     [ "Color Palettes", "dui2-palette.html", null ],
     [ "Elements Collection", "dui2-el_col.html", null ],
