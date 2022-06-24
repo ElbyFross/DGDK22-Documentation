@@ -87,23 +87,100 @@ $(document).ready(function(){initNavTree('dui2-el_col.html',''); initResizable()
   <div class="headertitle"><div class="title">Elements Collection </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2><a class="anchor" id="autotoc_md155"></a>
-About</h2>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dui2-el_col-a">About</a></li>
+<li class="level1"><a href="#dui2-el_col-aguiec">GUI Elements Collection</a><ul><li class="level2"><a href="#dui2-el_col-aguiec-grid">Grid collection</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui2-el_col-dc">Data connector</a><ul><li class="level2"><a href="#dui2-el_col-dc-custom">Development</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui2-el_col-vh">Virtual hub compatibility</a></li>
+<li class="level1"><a href="#dui2-el_col-ht">How to</a><ul><li class="level2"><a href="#dui2-el_col-ht-csgc">Create standard grid collection</a><ul><li class="level3"><a href="#dui2-el_col-ht-csgc-l">Layout</a></li>
+<li class="level3"><a href="#dui2-el_col-ht-csgc-api">Main API</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#dui2-el_col-ht-ccuic">Create custom UI collection</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="dui2-el_col-a"></a>
+About</h1>
 <p >The engine provides embedded core for handling the collection-like UIs with standardized API and predefined bridge between internal logic and high level collection's features.</p>
-<h2><a class="anchor" id="autotoc_md156"></a>
-How to</h2>
-<h3><a class="anchor" id="autotoc_md157"></a>
-Create standard grid collection</h3>
-<h4><a class="anchor" id="autotoc_md158"></a>
-Layout</h4>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<h4><a class="anchor" id="autotoc_md159"></a>
-Main API</h4>
+<hr  />
+<h1><a class="anchor" id="dui2-el_col-aguiec"></a>
+GUI Elements Collection</h1>
+<p >The core of the framework implements and encapsulated entire backstage logic for collections powering with an abstract <code>AGUIElementsCollection</code> class. The class derived from the <code>AGUIElement</code> supplied with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> core.</p>
+<p >The component by itself implements <code>IList&lt;AGUIElement&gt;</code> interface that allows you to operate it as list of other GUI elements.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection.html" title="Base class for any UI element that handling bunch of another elements and should provide navigation a...">Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollection</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-el_col-aguiec-grid"></a>
+Grid collection</h2>
+<p >The package supplies you with powerful implementation of the abstract <code>AGUIElementsCollection</code> that can be used from-box and not demands any extra features development.</p>
+<p >The collection provided with the <code>GridCollection</code> component that. <br  />
+The component implements collection of uniform features that enough to fulfil any standard task:</p><ul>
+<li>Compatible with Unity's scroll view</li>
+<li>Draws only elements on the view's scope</li>
+<li>Supports both elements starching and fixed sizes</li>
+<li>Implements navigation with Input axes.</li>
+<li>Highlights selected element</li>
+<li>Compatible with <a class="el" href="dui2-vh.html">Virtual UI Hub</a> features.</li>
+</ul>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_grid_collection.html" title="Collection of the AGUIElements that displays content in the grid format.">Doloro.UIEngine2.Modules.ElementsCollection.GridCollection</a></p>
+<hr  />
+<h1><a class="anchor" id="dui2-el_col-dc"></a>
+Data connector</h1>
+<p >To simplify loading data to the GUI the core implements <code>AGUIElementsCollectionDataConnector</code> component that encapsulates bridge between data and <a class="el" href="dui2-controls.html#dui2-controls-core-inspector">Content Inspectors</a>. <br  />
+Usage of component allows to operate <code>AGUIElementsCollection</code> as <code>IList</code> of operating data type.</p>
+<p >To encapsulate data loading to the GUI the component requires you to select GUI element instance that implements <code>IContentInspector</code> interface for an operating type. In such way the controller will instantiate the element from prefab during <code>Add</code> or <code>Insert</code> call automatically.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html" title="Component that provides API to connect source data with AGUIElementsCollection component in uniform w...">Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-el_col-dc-custom"></a>
+Development</h2>
+<p >Implementation of a custom data connector is very easy. In case you not demands any extra features all you need to do is create a new class derived from the <code>AGUIElementsCollectionDataConnector</code> defining the operating type and expected GUI element type that supports operating type as content.</p>
+<div class="fragment"><div class="line">using Doloro.UIEngine2.Modules.ElementsCollection;</div>
+<div class="line"> </div>
+<div class="line">public class CustomDataConnector :</div>
+<div class="line">    AGUIElementsCollectionDataConnector</div>
+<div class="line">    &lt;</div>
+<div class="line">        YOUR_DATA_TYPE,</div>
+<div class="line">        YOUR_INSPECTOR_TYPE</div>
+<div class="line">    &gt;</div>
+<div class="line">{</div>
+<div class="line">    // Add extra features here.</div>
+<div class="line">}</div>
+</div><!-- fragment --> <table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Member   </th><th class="markdownTableHeadCenter">Requirements   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>YOUR_DATA_TYPE</code>   </td><td class="markdownTableBodyCenter"><code>class</code>   </td><td class="markdownTableBodyNone">Data type that will be reflected at GUI with the collection elements.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>YOUR_INSPECTOR_TYPE</code>   </td><td class="markdownTableBodyCenter"><code>AGUIElement</code>,<br  />
+<code>IContentInspector&lt;SourceType&gt;</code>   </td><td class="markdownTableBodyNone">Type of expecting GUI element content inspector <br  />
+ that will receive the data type member as <code>content</code>.   </td></tr>
+</table>
+<hr  />
+<h1><a class="anchor" id="dui2-el_col-vh"></a>
+Virtual hub compatibility</h1>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<hr  />
+<h1><a class="anchor" id="dui2-el_col-ht"></a>
+How to</h1>
+<h2><a class="anchor" id="dui2-el_col-ht-csgc"></a>
+Create standard grid collection</h2>
+<h3><a class="anchor" id="dui2-el_col-ht-csgc-l"></a>
+Layout</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<h3><a class="anchor" id="autotoc_md160"></a>
-Create custom UI collection</h3>
+<h3><a class="anchor" id="dui2-el_col-ht-csgc-api"></a>
+Main API</h3>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Describe <code>GUICollectionHubEventRelay</code></dd></dl>
+<h2><a class="anchor" id="dui2-el_col-ht-ccuic"></a>
+Create custom UI collection</h2>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty page</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Describe <code>GUICollectionHubEventRelay</code></dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

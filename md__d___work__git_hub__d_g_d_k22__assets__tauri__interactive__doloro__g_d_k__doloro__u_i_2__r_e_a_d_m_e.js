@@ -81,7 +81,23 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
         [ "Default palettes", "dui2-palette.html#dui2-palette-htc-default", null ]
       ] ]
     ] ],
-    [ "Elements Collection", "dui2-el_col.html", null ],
+    [ "Elements Collection", "dui2-el_col.html", [
+      [ "About", "dui2-el_col.html#dui2-el_col-a", null ],
+      [ "GUI Elements Collection", "dui2-el_col.html#dui2-el_col-aguiec", [
+        [ "Grid collection", "dui2-el_col.html#dui2-el_col-aguiec-grid", null ]
+      ] ],
+      [ "Data connector", "dui2-el_col.html#dui2-el_col-dc", [
+        [ "Development", "dui2-el_col.html#dui2-el_col-dc-custom", null ]
+      ] ],
+      [ "Virtual hub compatibility", "dui2-el_col.html#dui2-el_col-vh", null ],
+      [ "How to", "dui2-el_col.html#dui2-el_col-ht", [
+        [ "Create standard grid collection", "dui2-el_col.html#dui2-el_col-ht-csgc", [
+          [ "Layout", "dui2-el_col.html#dui2-el_col-ht-csgc-l", null ],
+          [ "Main API", "dui2-el_col.html#dui2-el_col-ht-csgc-api", null ]
+        ] ],
+        [ "Create custom UI collection", "dui2-el_col.html#dui2-el_col-ht-ccuic", null ]
+      ] ]
+    ] ],
     [ "Context Menu", "dui2-context.html", null ],
     [ "Tabs", "dui2-tabs.html", null ],
     [ "Helpers", "dui2-helpers.html", null ]
