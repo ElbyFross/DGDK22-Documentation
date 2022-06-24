@@ -88,27 +88,68 @@ $(document).ready(function(){initNavTree('dui2-palette.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md155">About</a></li>
-<li class="level2"><a href="#autotoc_md156">How to setup</a><ul><li class="level3"><a href="#autotoc_md157">Palette creation</a></li>
-<li class="level3"><a href="#autotoc_md158">Element connection</a></li>
+<ul><li class="level1"><a href="#dui2-palette-a">About</a></li>
+<li class="level1"><a href="#dui2-palette-tech">Technical introduction</a></li>
+<li class="level1"><a href="#dui2-palette-hts">How to setup</a><ul><li class="level2"><a href="#dui2-palette-htc">Palette creation</a></li>
+<li class="level2"><a href="#dui2-palette-htc-default">Default palettes</a></li>
 </ul>
 </li>
 </ul>
-</ul>
 </div>
-<div class="textblock"><h2><a class="anchor" id="autotoc_md155"></a>
-About</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Add more details The UI Engine 2 module that allow runtime manipulating of the UI elements' color.</dd></dl>
-<h2><a class="anchor" id="autotoc_md156"></a>
-How to setup</h2>
-<h3><a class="anchor" id="autotoc_md157"></a>
-Palette creation</h3>
-<p >Press LMB on Project panel, next select <code>Create\Color Palette (DoloroUI2)</code> line. Place created asset ibn subdirectory <code>Resources\palettes</code> to make it visible for <code>PalettHandler</code> service.</p>
-<p >Using the asset you can define the colors to certain palette's positions.</p>
-<h3><a class="anchor" id="autotoc_md158"></a>
-Element connection</h3>
-<p >For connecting the element to the module you need to put the <code>PaletteColorPicker</code> component on the game object with the <code>Image</code> or <code>Renderer</code> component.</p>
-<p >In case of <code>Renderer</code> attachment the picker will apply a bond palette color to the <code>Renderer.color</code> property. </p>
+<div class="textblock"><h1><a class="anchor" id="dui2-palette-a"></a>
+About</h1>
+<p >The UI Engine 2 module that allow runtime control over the UI elements' color without demands to anyhow address each element impersonally. By using the module features you may manage entire GUI palette for GUI elements bonded with the module just with a simple commands via API.</p>
+<h1><a class="anchor" id="dui2-palette-tech"></a>
+Technical introduction</h1>
+<p >The module supports 2 palettes to be used at the same time. <br  />
+The system declares them as <code>Main</code> and <code>Alternative</code>. Each palette contains 5 colors: <code>background</code>, <code>background2</code>, <code>foreground</code>, <code>hover</code>, <code>selection</code>.</p>
+<ul>
+<li>Entire manual operations with the pallets going via <code>PaletteHandler</code> service that encapsulates instances update. <br  />
+</li>
+<li>Palettes declaration goes via creation of from a <code>ColorPalette</code> asset. Read more: <a class="el" href="dui2-palette.html#dui2-palette-htc">Palette creation</a>.</li>
+</ul>
+<p >Module integration is very easy and shorten yo user for only 3 important classes to use. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_handler.html" title="API for handling of the ColorPalette content at runtime.">Doloro.UIEngine2.Modules.Palettes.PaletteHandler</a>   </td><td class="markdownTableBodyNone">Static API service to resources management. Using for any operations with palettes other that defaults loading going automatically.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_palette_color_picker.html" title="The component that binds UI element to the Doloro UI engine&#39;s Palette module.">Doloro.UIEngine2.Modules.Palettes.PaletteColorPicker</a>   </td><td class="markdownTableBodyNone">Component that bond graphic with the module's backstage. Allows to defined paired color source to the GUI element.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_palettes_1_1_color_palette.html" title="Class that describes color palette with handling its embedding to the UI engine.">Doloro.UIEngine2.Modules.Palettes.ColorPalette</a>   </td><td class="markdownTableBodyNone">Resource asset that declares and configures palette settings. <br  />
+<dl class="section warning"><dt>Warning</dt><dd>To be auto detected and loaded to the service resources must be located at the <code>Resources\palettes</code> folder.   </dd></dl>
+</td></tr>
+</table>
+<h1><a class="anchor" id="dui2-palette-hts"></a>
+How to setup</h1>
+<h2><a class="anchor" id="dui2-palette-htc"></a>
+Palette creation</h2>
+<ol type="1">
+<li>Press LMB on <b>Project</b> panel</li>
+<li>Select <code>Create\Color Palette (DoloroUI2)</code> in context menu.</li>
+<li>Place created asset in sub-directory <code>Resources\palettes</code> to make it visible for <code>PaletteHandler</code> service.</li>
+<li>Open resource in inspector and define colors according with it pallet position.</li>
+</ol>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-palette-htc"></a>
+Palette creation</h2>
+<p >For bond of a GUI element to the module you have to put the <code>PaletteColorPicker</code> component to a destination game object with an <code>Image</code> or <code>Renderer</code> component.</p>
+<p >In case of <code>Renderer</code> attachment the picker will apply a bond palette color to the <code>Renderer.color</code> property.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-palette-htc-default"></a>
+Default palettes</h2>
+<p >You may define default palettes to load. They will applied to <code>PaletteHandler</code> service during its loading.<br  />
+To setup default palettes you have to name target <code>ColorPalette</code> resources according with the next pattern: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code>default_main</code>   </td><td class="markdownTableBodyNone">Declares palette resource as the default source for main palette.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code>default_alt</code>   </td><td class="markdownTableBodyNone">Declares palette resource as the default source for alternative palette.   </td></tr>
+</table>
+<p >Main or Alternative palette selecting on <code>PaletteColorPicker</code> component as a source to apply. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

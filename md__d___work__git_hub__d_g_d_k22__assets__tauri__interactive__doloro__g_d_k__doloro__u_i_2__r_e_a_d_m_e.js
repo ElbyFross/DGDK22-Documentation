@@ -73,7 +73,14 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
         [ "Custom Hub's agent", "dui2-vh.html#dui2-vh-gs-cha", null ]
       ] ]
     ] ],
-    [ "Color Palettes", "dui2-palette.html", null ],
+    [ "Color Palettes", "dui2-palette.html", [
+      [ "About", "dui2-palette.html#dui2-palette-a", null ],
+      [ "Technical introduction", "dui2-palette.html#dui2-palette-tech", null ],
+      [ "How to setup", "dui2-palette.html#dui2-palette-hts", [
+        [ "Palette creation", "dui2-palette.html#dui2-palette-htc", null ],
+        [ "Default palettes", "dui2-palette.html#dui2-palette-htc-default", null ]
+      ] ]
+    ] ],
     [ "Elements Collection", "dui2-el_col.html", null ],
     [ "Context Menu", "dui2-context.html", null ],
     [ "Tabs", "dui2-tabs.html", null ],

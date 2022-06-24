@@ -118,7 +118,8 @@ Auto network</h2>
 <ol type="1">
 <li>Put <code>VirtualUIHub</code> component (or component derived from it) on some <code>GameObject</code> that you consider as network root.</li>
 <li>Put <code>UIHubEventRelay</code> (or component derived from it) on child object with <code>AGUIElement</code> that should forward its events to another network connected elements. Select events that will be shared to the <code>hub</code>.</li>
-<li>Put <code>UIHubListener</code> (or component derived from it) on an object that is a virtual (supplied with the <code>VirtualHierarchyLinker</code>) or actual child of the <code>VirtualUIHub</code> hosting game object from the first step. Get it with you event destination component and subscribe you event handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> or on of predefined by API events.</li>
+<li>Put <code>UIHubListener</code> (or component derived from it) on an object that is a virtual (supplied with the <code>VirtualHierarchyLinker</code>) or actual child of the <code>VirtualUIHub</code> hosting game object from the first step.<br  />
+Get it with you event destination component and subscribe you event handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> or on of predefined by API events.</li>
 <li>Release handler from the network with the <code>UIHubListener.ReleaseEventHanler(string, VirtualUIHub.SharedEvent)</code> as soon as it's unnecessary.</li>
 </ol>
 <h2><a class="anchor" id="dui2-vh-gs-mn"></a>
@@ -131,12 +132,13 @@ Custom events</h2>
 <p >As has been mentioned above you could set handler to network with not predefined API by using <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> method.</p>
 <ol type="1">
 <li>Put your handler with the <code>UIHubListener.SetEventHandler(string, VirtualUIHub.SharedEvent)</code> by using custom <code>eventCode</code>.</li>
-<li>Put <code>UIHubEventRetranslator</code> derived component to the <code>AGUIElement</code> that will share the custom event. When event occurs call <code>UIHubEventRetranslator.hub.ShareEvent(this, YOUR_EVENT_CODE, ARGS_ARRAY)</code> at the re-translator instance and it will share it to each network's <code>UIHubListener</code> with a handler subscribed of <code>YOUR_EVENT_CODE</code>.</li>
+<li>Put <code>UIHubEventRelay</code> derived component to the <code>AGUIElement</code> that will share the custom event. When event occurs call <code>UIHubEventRelay.hub.ShareEvent(this, YOUR_EVENT_CODE, ARGS_ARRAY)</code> at the re-translator instance and it will share it to each network's <code>UIHubListener</code> with a handler subscribed of <code>YOUR_EVENT_CODE</code>.</li>
 </ol>
 <h2><a class="anchor" id="dui2-vh-gs-cha"></a>
 Custom Hub's agent</h2>
-<p >Just create new class derived from abstract <code>AHubAgent</code> class or from class derived from it. It will provides you auto connection to virtual hierarchy hub by default. Now you could implement your own logic.</p>
-<p >Look on <code>UIHubListener</code> and <code>UIHubEventRetranslator</code> implementation as on <code>AHubAgent</code> example. </p>
+<p >Create a new class derived from abstract <code>AHubAgent</code> or from a class derived from it. It will provide you integration with virtual hierarchy hub.</p>
+<p >In the created hub you may implement your own logic according with component proposes. <br  />
+Look on <code>UIHubListener</code> and <code>UIHubEventRelay</code> implementation as on <code>AHubAgent</code> example. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
