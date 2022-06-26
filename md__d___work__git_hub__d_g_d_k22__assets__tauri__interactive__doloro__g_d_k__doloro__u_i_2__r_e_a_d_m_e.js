@@ -89,13 +89,17 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       [ "Data connector", "dui2-el_col.html#dui2-el_col-dc", [
         [ "Development", "dui2-el_col.html#dui2-el_col-dc-custom", null ]
       ] ],
-      [ "Virtual hub compatibility", "dui2-el_col.html#dui2-el_col-vh", null ],
+      [ "Virtual hub compatibility", "dui2-el_col.html#dui2-el_col-vh", [
+        [ "Event Relay", "dui2-el_col.html#dui2-el_col-vh-relay", null ],
+        [ "Listener", "dui2-el_col.html#dui2-el_col-vh-listener", null ]
+      ] ],
+      [ "Content Inspector listener", "dui2-el_col.html#dui2-el_col-vh-listener-ci", null ],
       [ "How to", "dui2-el_col.html#dui2-el_col-ht", [
         [ "Create standard grid collection", "dui2-el_col.html#dui2-el_col-ht-csgc", [
           [ "Layout", "dui2-el_col.html#dui2-el_col-ht-csgc-l", null ],
+          [ "Cells stretching", "dui2-el_col.html#dui2-el_col-ht-csgc-cs", null ],
           [ "Main API", "dui2-el_col.html#dui2-el_col-ht-csgc-api", null ]
-        ] ],
-        [ "Create custom UI collection", "dui2-el_col.html#dui2-el_col-ht-ccuic", null ]
+        ] ]
       ] ]
     ] ],
     [ "Context Menu", "dui2-context.html", null ],

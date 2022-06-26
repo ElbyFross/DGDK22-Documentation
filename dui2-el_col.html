@@ -95,12 +95,16 @@ $(document).ready(function(){initNavTree('dui2-el_col.html',''); initResizable()
 <li class="level1"><a href="#dui2-el_col-dc">Data connector</a><ul><li class="level2"><a href="#dui2-el_col-dc-custom">Development</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#dui2-el_col-vh">Virtual hub compatibility</a></li>
+<li class="level1"><a href="#dui2-el_col-vh">Virtual hub compatibility</a><ul><li class="level2"><a href="#dui2-el_col-vh-relay">Event Relay</a></li>
+<li class="level2"><a href="#dui2-el_col-vh-listener">Listener</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dui2-el_col-vh-listener-ci">Content Inspector listener</a></li>
 <li class="level1"><a href="#dui2-el_col-ht">How to</a><ul><li class="level2"><a href="#dui2-el_col-ht-csgc">Create standard grid collection</a><ul><li class="level3"><a href="#dui2-el_col-ht-csgc-l">Layout</a></li>
+<li class="level3"><a href="#dui2-el_col-ht-csgc-cs">Cells stretching</a></li>
 <li class="level3"><a href="#dui2-el_col-ht-csgc-api">Main API</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#dui2-el_col-ht-ccuic">Create custom UI collection</a></li>
 </ul>
 </li>
 </ul>
@@ -158,14 +162,50 @@ Development</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyCenter"><code>YOUR_DATA_TYPE</code>   </td><td class="markdownTableBodyCenter"><code>class</code>   </td><td class="markdownTableBodyNone">Data type that will be reflected at GUI with the collection elements.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter"><code>YOUR_INSPECTOR_TYPE</code>   </td><td class="markdownTableBodyCenter"><code>AGUIElement</code>,<br  />
+<td class="markdownTableBodyCenter"><code>YOUR_INSPECTOR_TYPE</code>   </td><td class="markdownTableBodyCenter"><code>AGUIElement</code><br  />
 <code>IContentInspector&lt;SourceType&gt;</code>   </td><td class="markdownTableBodyNone">Type of expecting GUI element content inspector <br  />
  that will receive the data type member as <code>content</code>.   </td></tr>
 </table>
 <hr  />
 <h1><a class="anchor" id="dui2-el_col-vh"></a>
 Virtual hub compatibility</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >The collection module provides you with collection of suitable components that allows to embed collection into virtual hierarchy created with the <a class="el" href="dui2-vh.html">Virtual UI Hub</a> module features.</p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-el_col-vh-relay"></a>
+Event Relay</h2>
+<p >The package supplies you with <code>GUICollectionHubEventRelay</code> component derived from the regular <code>UIHubEventRelay</code> class that extends it with child element selection event sharing feature.</p>
+<p >In case the <code>onSelected</code> property is <code>true</code>, the component shares <code>AGUIElement</code> from collection children as soon as a new one has been selected.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_72b0b11bcc6b0bac6e8fa2c75133e464.html" title="Extends base UIHubEventRelay with logic related to the AGUIElementsCollection component.">Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionHubEventRelay</a></p>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-el_col-vh-listener"></a>
+Listener</h2>
+<p >As pair to Collection's <a class="el" href="dui2-el_col.html#dui2-el_col-vh-relay">Event Relay</a> the package provides you that supports. The component extends regular <code>UIHubListener</code> provided with the <a class="el" href="dui2-vh.html">Virtual UI Hub</a> module.</p>
+<p >The module allows to catch events shared with the relay in parental UI hub scope marked with the <code>OnSelected</code> key. According with this the component implements API to defined handler for selection events in encapsulated way.</p>
+<p >Note that the handler receives <code>AGUIElement</code> as first argument of the handler. Shared element is the one that has been selected in collection.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection....">Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionUIHubListener</a></p>
+<p ><br  />
+</p>
+<h1><a class="anchor" id="dui2-el_col-vh-listener-ci"></a>
+Content Inspector listener</h1>
+<p >The package supplies you with an abstract class <code>AContentHolderUIHubListener</code> compatible with the <a class="el" href="dui2-controls.html#dui2-controls-core-inspector">Content Inspectors</a> features. The component derived from the regular <code>GUICollectionUIHubListener</code>. <br  />
+Usage of the class allows to encapsulate <code>content</code> update at inspector according with selection of compatible object at the scope of parental <a class="el" href="dui2-vh.html">Virtual UI Hub</a>.</p>
+<p >To configure an inspector with the listener you have to create a new class derived from the <code>AContentHolderUIHubListener</code> with declared type of compatible inspector GUI element and operating content type.</p>
+<div class="fragment"><div class="line">using Doloro.UIEngine2.Modules.VirtualHub;</div>
+<div class="line">using Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection;</div>
+<div class="line">using UnityEngine;</div>
+<div class="line"> </div>
+<div class="line">// Force inspector component over the same object.</div>
+<div class="line">[RequireComponent(typeof(CONTENT_INSPECTOR_TYPE))]</div>
+<div class="line">public class CustomInspectorUIHubListener :</div>
+<div class="line">    AContentHolderUIHubListener&lt;</div>
+<div class="line">        CONTENT_INSPECTOR_TYPE, // Type of compatible inspector.</div>
+<div class="line">        CONTENT_TYPE&gt;                       // Type of inspector operating content</div>
+<div class="line">{</div>
+<div class="line">    // Implement custom features here.</div>
+<div class="line">}</div>
+</div><!-- fragment --><p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_4fa932bbb2c08cdbe8c481cb223a53c3.html" title="Uniform VirtualUIHub shared events listener for IContentInspector&lt;T&gt; AGUIElements.">Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.AContentHolderUIHubListener</a>{GUIElementType, ContentType}</p>
 <hr  />
 <h1><a class="anchor" id="dui2-el_col-ht"></a>
 How to</h1>
@@ -173,14 +213,31 @@ How to</h1>
 Create standard grid collection</h2>
 <h3><a class="anchor" id="dui2-el_col-ht-csgc-l"></a>
 Layout</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty page</dd></dl>
+<p >The package provides you with pre-configured collection layout that can be used as example of source for your custom solutions. All you need to do is move it to your UI. In case you are planning to changed it we are strongly recommend you to create a prefab variant from it.</p>
+<p >The template prefabs can be found by the following path:<br  />
+<code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates \ Elements Collection</code></p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Prefab   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Horizontal Grid collection   </td><td class="markdownTableBodyNone">Collection with horizontal order of content elements.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter">Vertical Grid collection   </td><td class="markdownTableBodyNone">Collection with vertical order of content elements.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Selection   </td><td class="markdownTableBodyNone">GUI element using as a selection border with pre-configured selection.   </td></tr>
+</table>
+<p ><br  />
+</p>
+<h3><a class="anchor" id="dui2-el_col-ht-csgc-cs"></a>
+Cells stretching</h3>
+<p >To stretch a cell by some axis set it's related size to 0. Undefined size means <code>full layout</code>.</p>
+<p ><br  />
+</p>
 <h3><a class="anchor" id="dui2-el_col-ht-csgc-api"></a>
 Main API</h3>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<h2><a class="anchor" id="dui2-el_col-ht-ccuic"></a>
-Create custom UI collection</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Empty page</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Describe <code>GUICollectionHubEventRelay</code></dd></dl>
+<p >The pre-configured collections are using <code>GridCollection</code> components to empower the collection. According with this you may use entire API to manage its features.</p>
+<p >If we talking about more abstract concept of collections management, you have to understand that the <code>AGUIElementsCollection</code> implements <code>IList&lt;AGUIElement&gt;</code>, so you may work with elements directly using a regular interface as with <code>AGUIElement</code> instances.</p>
+<p >In case you want to work with collection's content avoiding GUI element representation you have to implement a custom <code>AGUIElementsCollectionDataConnector</code>. More about here: <a class="el" href="dui2-el_col.html#dui2-el_col-dc-custom">Development</a>. In that case you may access elements by its value content reference instead addressing the representation. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
