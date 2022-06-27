@@ -105,7 +105,9 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
     [ "Context Menu", "dui2-context.html", [
       [ "About", "dui2-context.html#dui2-context-a", null ],
       [ "Menu creation", "dui2-context.html#dui2-context-dev", [
-        [ "In-game layout", "dui2-context.html#dui2-context-dev-layout", null ]
+        [ "In-game layout", "dui2-context.html#dui2-context-dev-layout", null ],
+        [ "Context call", "dui2-context.html#dui2-context-dev-call", null ],
+        [ "AGUIElement integration", "dui2-context.html#dui2-context-dev-aguielement", null ]
       ] ]
     ] ],
     [ "Tabs", "dui2-tabs.html", null ],

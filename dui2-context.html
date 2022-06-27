@@ -90,6 +90,8 @@ $(document).ready(function(){initNavTree('dui2-context.html',''); initResizable(
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#dui2-context-a">About</a></li>
 <li class="level1"><a href="#dui2-context-dev">Menu creation</a><ul><li class="level2"><a href="#dui2-context-dev-layout">In-game layout</a></li>
+<li class="level2"><a href="#dui2-context-dev-call">Context call</a></li>
+<li class="level2"><a href="#dui2-context-dev-aguielement">AGUIElement integration</a></li>
 </ul>
 </li>
 </ul>
@@ -102,10 +104,88 @@ About</h1>
 Menu creation</h1>
 <h2><a class="anchor" id="dui2-context-dev-layout"></a>
 In-game layout</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Empty section</dd></dl>
-<h2><a class="anchor" id="dui2-context-dev-layout"></a>
-In-game layout</h2>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<p >In-game context menu by itself powered with:</p><ul>
+<li><a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> sub-module features, to handle <code>Window</code> instance behavior.</li>
+<li><a class="el" href="ddm-drt.html">Dynamic Resource Tools</a> module features, to provide flexible access to the layout resource at runtime.</li>
+</ul>
+<p >Layout fetching from the <code>Resources</code> folder as <code>DynamicResource</code> by the following resource signature: <br  />
+<b>Bundle:</b> <code>dui2.context</code> <br  />
+<b>Key:</b> <code>default</code></p>
+<p >You may find default pre-configured layout resource by the following path:<br  />
+<code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates \ Context \ Context menu.prefab</code></p>
+<dl class="section warning"><dt>Warning</dt><dd><ol type="1">
+<li>The resource with the key MUST exist in <code>Resources</code> repository to be found.</li>
+<li><a class="el" href="ddm-drt-api-drd.html">Dynamic Resources Database</a> must be loaded before <code>resource</code> property addressing or context menu <code>Open</code> method call. Otherwise the layout resource will not be located even in case of exist among resources.</li>
+</ol>
+</dd></dl>
+<p><br  />
+</p>
+<h2><a class="anchor" id="dui2-context-dev-call"></a>
+Context call</h2>
+<p >Context menus implemented as static service. All operations with menus going via <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_context_1_1_context_menu.html" title="Controller that implements context menu related features.">Doloro.UIEngine2.Modules.Context.ContextMenu</a> class's API.</p>
+<p >Following example demonstrates a sample menu creation and call. </p><div class="fragment"><div class="line">// Declaring first item.</div>
+<div class="line">var _ctxt0 = new Context.ContextMenuItemInfo()</div>
+<div class="line">{</div>
+<div class="line">        directory = &quot;Item0&quot;,</div>
+<div class="line">        callback = OnItem0Callback;</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line">// Declaring second item.</div>
+<div class="line">var _ctxt1 = new Context.ContextMenuItemInfo()</div>
+<div class="line">{</div>
+<div class="line">        directory = &quot;Item1&quot;,</div>
+<div class="line">        callback = OnItem1Callback;</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line">// Declaring third item.</div>
+<div class="line">var _ctxt2 = new Context.ContextMenuItemInfo()</div>
+<div class="line">{</div>
+<div class="line">        directory = &quot;Item2&quot;,</div>
+<div class="line">        callback = OnItem2Callback;</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line">// Opening context menu with declared items.</div>
+<div class="line">Context.ContextMenu.Open(</div>
+<div class="line">    new Rect(MOUSE_POSITION, WINDOW_SIZE),</div>
+<div class="line">    _ctxt0,</div>
+<div class="line">    _ctxt1,</div>
+<div class="line">    _ctxt2);</div>
+<div class="line"> </div>
+<div class="line">// Handler to call with first item click.</div>
+<div class="line">void OnItem0Callback() {...}</div>
+<div class="line"> </div>
+<div class="line">// Handler to call with second item click.</div>
+<div class="line">void OnItem1Callback() {...}</div>
+<div class="line"> </div>
+<div class="line">// Handler to call with third item click.</div>
+<div class="line">void OnItem2Callback() {...}</div>
+</div><!-- fragment --><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Property   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter"><code>direction</code>   </td><td class="markdownTableBodyNone">Allows to define item name. <dl class="section warning"><dt>Warning</dt><dd>On current stage context menus not supports multi-layer directories. The features will be added with future updates.    </dd></dl>
+</td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"><code>callback</code>   </td><td class="markdownTableBodyNone"><code>Action</code> to call with item click.   </td></tr>
+</table>
+<p ><br  />
+</p>
+<h2><a class="anchor" id="dui2-context-dev-aguielement"></a>
+AGUIElement integration</h2>
+<p >To integrate context menu into <code>AGUIElement</code> source you have to implement <code>OnContext</code> handler with context generation logic.</p>
+<div class="fragment"><div class="line">public void OnCustomGUIElement : AGUIElement</div>
+<div class="line">{</div>
+<div class="line">    protected override void OnContextMenu()</div>
+<div class="line">  {</div>
+<div class="line">      base.OnContextMenu();</div>
+<div class="line"> </div>
+<div class="line">            // Declare items.</div>
+<div class="line">            // Declare callbacks.</div>
+<div class="line">            // Call context menu Open.</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> The handler automatically call when the element receives RMB click event over it. That allows to define extra actions for interaction with any instance in GUI engine and create much more advance UI. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
