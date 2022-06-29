@@ -11,6 +11,9 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
       ] ],
       [ "Implemented controls", "dui2-controls.html#dui2-controls-impl", null ]
     ] ],
+    [ "Input Manager", "dui2-input.html", [
+      [ "About", "dui2-input.html#dui2-input-a", null ]
+    ] ],
     [ "Window", "dui2-window.html", [
       [ "About", "dui2-window.html#dui2-window-a", null ],
       [ "Usage", "dui2-window.html#dui2-window-u", [
@@ -110,6 +113,12 @@ var md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k_
         [ "AGUIElement integration", "dui2-context.html#dui2-context-dev-aguielement", null ]
       ] ]
     ] ],
-    [ "Tabs", "dui2-tabs.html", null ],
-    [ "Helpers", "dui2-helpers.html", null ]
+    [ "Tabs", "dui2-tabs.html", [
+      [ "About", "dui2-tabs.html#dui2-tabs-a", null ],
+      [ "GUI Controls", "dui2-tabs.html#dui2-tabs-controls", [
+        [ "Tabs Bar", "dui2-tabs.html#dui2-tabs-controls-tb", null ],
+        [ "Tab GUI Element", "dui2-tabs.html#dui2-tabs-controls-tguie", null ]
+      ] ],
+      [ "Example", "dui2-tabs.html#dui2-tabs-example", null ]
+    ] ]
 ];

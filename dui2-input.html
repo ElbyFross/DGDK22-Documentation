@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doloro GDK 22: Tabs</title>
+<title>Doloro GDK 22: Input Manager</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('dui2-tabs.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('dui2-input.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -84,40 +84,16 @@ $(document).ready(function(){initNavTree('dui2-tabs.html',''); initResizable(); 
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Tabs </div></div>
+  <div class="headertitle"><div class="title">Input Manager </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#dui2-tabs-a">About</a></li>
-<li class="level1"><a href="#dui2-tabs-controls">GUI Controls</a><ul><li class="level2"><a href="#dui2-tabs-controls-tb">Tabs Bar</a></li>
-<li class="level2"><a href="#dui2-tabs-controls-tguie">Tab GUI Element</a></li>
-</ul>
-</li>
-<li class="level1"><a href="#dui2-tabs-example">Example</a></li>
-</ul>
-</div>
-<div class="textblock"><h1><a class="anchor" id="dui2-tabs-a"></a>
+<div class="textblock"><h1><a class="anchor" id="dui2-input-a"></a>
 About</h1>
-<dl class="section warning"><dt>Warning</dt><dd>Early access module. The GUI features will be extended with following updates.</dd></dl>
-<p>The GUI module that allows to manage active content of workspace on screen implemented with the <a class="el" href="dui2-workspaces.html">Workspaces</a> module. With the module features you can organize windows or other \ref dui2-workspaces-agents-wguie in a single workspace in switch mode.</p>
-<h1><a class="anchor" id="dui2-tabs-controls"></a>
-GUI Controls</h1>
-<h2><a class="anchor" id="dui2-tabs-controls-tb"></a>
-Tabs Bar</h2>
-<p >Extended <a class="el" href="dui2-el_col.html#dui2-el_col-aguiec-grid">Grid collection</a> GUI control that operates with the dui2-tabs-tguie controls as collection items.</p>
-<p >The control connects to <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wp">Workspace Provider</a> instances and represents collection of <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a> bond to the workspace with automatically instantiating dui2-tabs-tguie controls referred to them.</p>
-<h2><a class="anchor" id="dui2-tabs-controls-tguie"></a>
-Tab GUI Element</h2>
-<p >GUI control that bonds <a class="el" href="dui2-workspaces.html#dui2-workspaces-agents-wguie">Workspace GUI Element</a> with GUI representation. Provides controls that allow to manages the representation as dui2-tabs-tb element. Calls workspace <code>ActiveContent</code> switch to bonded content after click over the element.</p>
-<p >The control by itself is GUI layout that should implement entire tab element features and integration within the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> logic. <br  />
-The default control implementation supports pre-integrated context menu with extra features attachment.</p>
-<h1><a class="anchor" id="dui2-tabs-example"></a>
-Example</h1>
-<p >The package supplies you with a pre-build example layout. To exmplore it navigate to the <code>Doloro-GDK \ Doloro-UI-2 \ Scenes \ Tabs \</code> folder and select <code>Tabs+ Context menu Demo</code> scene.</p>
-<p >You may find pre-configured layouts for <a class="el" href="dui2-tabs.html#dui2-tabs-controls-tb">Tabs Bar</a> and <a class="el" href="dui2-tabs.html#dui2-tabs-controls-tguie">Tab GUI Element</a> at the following catalog: <br  />
-<code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates \ Tabs \</code>.</p>
-<p >Custom resources recommended to be created as variant to continue following of the base templates' structure with updates. <br  />
- </p>
+<p >The <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html#dui2">dui2</a> engine using alternative events system that is still fully compatible with the default one. That allows to integrate events into the core and provide you with the base functionality avoiding you to receive a phantom events consumed with the core.</p>
+<dl class="section warning"><dt>Warning</dt><dd>In any possible case you have to use the new Input Manager other that any other service.</dd></dl>
+<p><code>InputManager</code> it's a singleton service implemented with on scene component, as a regular Event system. The component always not null during API calls.</p>
+<p >To access the service you have to address <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_input_manager.html#a43a9981ab00fc674a3b1364ce98c5135" title="Reference to the current singleton instance of the manager.">Doloro.UIEngine2.InputManager.Active</a> property. Referenced instance provides you current state of GUI events to handle.</p>
+<p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_input_manager.html" title="Manager that filtering input by axises to prevent smooth user-friendly experience.">Doloro.UIEngine2.InputManager</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
