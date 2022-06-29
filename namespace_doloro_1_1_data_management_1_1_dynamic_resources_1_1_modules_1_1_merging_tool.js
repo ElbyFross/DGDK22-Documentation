@@ -1,7 +1,0 @@
-var namespace_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool =
-[
-    [ "IMergeableResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_mergeable_resource" ],
-    [ "IUniqueResource", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource.html", "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_i_unique_resource" ],
-    [ "MergingAPI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i.html", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_merging_a_p_i" ],
-    [ "NotMergeableAttribute", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_merging_tool_1_1_not_mergeable_attribute.html", null ]
-];

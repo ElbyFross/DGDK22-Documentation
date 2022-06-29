@@ -1,6 +1,0 @@
-<map id="Doloro.DataManagement.DynamicResources.Modules.MergingTool.IUniqueResource" name="Doloro.DataManagement.DynamicResources.Modules.MergingTool.IUniqueResource">
-<area shape="rect" id="node1" title="Not allows exist of two resources that has conflict in the same collection." alt="" coords="75,5,333,61"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resource.html" title="Provides a personal signature data for the resource that allows to register the object into resource ..." alt="" coords="94,109,314,151"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in&#45;game inventory item." alt="" coords="5,199,187,225"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in&#45;game storage." alt="" coords="211,199,413,225"/>
-</map>

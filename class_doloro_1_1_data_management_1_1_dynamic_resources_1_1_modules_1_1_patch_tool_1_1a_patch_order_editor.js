@@ -1,4 +1,0 @@
-var class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1a_patch_order_editor =
-[
-    [ "OnInspectorGUI", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_patch_tool_1_1a_patch_order_editor.html#a34a72281bd7a6badc3c9cf2b61fc695c", null ]
-];

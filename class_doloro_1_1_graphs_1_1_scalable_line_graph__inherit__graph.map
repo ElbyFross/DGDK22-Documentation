@@ -1,8 +1,0 @@
-<map id="Doloro.Graphs.ScalableLineGraph" name="Doloro.Graphs.ScalableLineGraph">
-<area shape="rect" id="node1" title="Side cluster that holds collection of related hyper cells." alt="" coords="116,229,299,271"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_graphs_1_1_fragmented_1_1_a_fragment_graph.html" title="Graph that has entry points that allows to attack this graph to another fragments." alt="" coords="147,155,268,181"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic." alt="" coords="179,80,236,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,97,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="122,5,293,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="317,5,455,32"/>
-</map>

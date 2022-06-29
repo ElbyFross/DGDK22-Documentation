@@ -1,9 +1,0 @@
-<map id="Doloro.InvetorySystem.UI.ItemAssetPropertyGUIElement.AssetPropertyAdapter" name="Doloro.InvetorySystem.UI.ItemAssetPropertyGUIElement.AssetPropertyAdapter">
-<area shape="rect" id="node1" title="ItemProperty connected to the AssetProperty instance." alt="" coords="29,261,268,317"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_item_property.html" title="The custom property of the Item instance that defines item moderation policy." alt="" coords="13,165,109,191"/>
-<area shape="rect" id="node3" href="$class_doloro_1_1_invetory_system_1_1_entity_property.html" title="The custom property related to instance that extends entity&#39;s features." alt="" coords="8,81,113,108"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node5" href="$class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_property.html" title="Abstract class that implements core features related to the dynamic asset properties framework." alt="" coords="133,157,346,199"/>
-<area shape="rect" id="node6" href="$interface_doloro_1_1_data_management_1_1_asset_properties_system_1_1_i_key_holder.html" title="Declares member for key related features." alt="" coords="167,81,253,108"/>
-<area shape="rect" id="node7" title=" " alt="" coords="277,81,369,108"/>
-</map>

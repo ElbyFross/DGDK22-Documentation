@@ -1,5 +1,0 @@
-<map id="Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRetranslator" name="Doloro.UIEngine2.Modules.VirtualHub.UIHubEventRetranslator">
-<area shape="rect" id="node1" title="Component that listens events from attached GUIElement and re&#45;translates them to parental or manually..." alt="" coords="5,155,228,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_a_hub_agent.html" title="Agent that bond with a VirtualUIHub via hierarchy." alt="" coords="73,80,161,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="61,5,172,32"/>
-</map>

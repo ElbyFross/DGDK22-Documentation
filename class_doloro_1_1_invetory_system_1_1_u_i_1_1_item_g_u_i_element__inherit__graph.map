@@ -1,4 +1,0 @@
-<map id="Doloro.InvetorySystem.UI.ItemGUIElement" name="Doloro.InvetorySystem.UI.ItemGUIElement">
-<area shape="rect" id="node1" title="GUI controller for item data display." alt="" coords="38,95,210,136"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_content_inspector_g_u_i_element.html" title=" " alt="" coords="5,5,243,47"/>
-</map>

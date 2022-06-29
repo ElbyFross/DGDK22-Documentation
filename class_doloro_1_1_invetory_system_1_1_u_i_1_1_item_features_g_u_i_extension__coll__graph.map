@@ -1,4 +1,0 @@
-<map id="Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension" name="Doloro.InvetorySystem.UI.ItemFeaturesGUIExtension">
-<area shape="rect" id="node1" title="Displays AItemFeature applied to the StoragesDatabase.ItemContainer.Resource selected with UI." alt="" coords="35,95,213,136"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_u_i_1_1_a_entity_feature_g_u_i_extension.html" title=" " alt="" coords="5,5,243,47"/>
-</map>

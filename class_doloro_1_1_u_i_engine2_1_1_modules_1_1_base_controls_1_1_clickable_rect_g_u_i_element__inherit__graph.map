@@ -1,5 +1,0 @@
-<map id="Doloro.UIEngine2.Modules.BaseControls.ClickableRectGUIElement" name="Doloro.UIEngine2.Modules.BaseControls.ClickableRectGUIElement">
-<area shape="rect" id="node1" title="Primitive elements that allows to change current window focus stack onto this element." alt="" coords="5,155,260,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine." alt="" coords="82,80,183,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="77,5,188,32"/>
-</map>

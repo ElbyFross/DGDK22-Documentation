@@ -1,4 +1,0 @@
-<map id="Doloro.AI.Memory.Set.SetStringToMemory" name="Doloro.AI.Memory.Set.SetStringToMemory">
-<area shape="rect" id="node1" title="Action that sending string value to the memory." alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_memory_1_1_set_1_1_a_set_memory_value_action.html" title=" " alt="" coords="9,5,177,47"/>
-</map>

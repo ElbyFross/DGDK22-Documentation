@@ -1,5 +1,0 @@
-<map id="Doloro.InvetorySystem.Features.VolumetricSpace.EntityVolume" name="Doloro.InvetorySystem.Features.VolumetricSpace.EntityVolume">
-<area shape="rect" id="node1" title="Defines a volumetric size of the entity." alt="" coords="5,155,216,196"/>
-<area shape="rect" id="node2" href="$class_doloro_1_1_invetory_system_1_1_a_entity_feature.html" title="The custom feature related to instance that extends entity&#39;s in&#45;game logic." alt="" coords="56,80,165,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="55,5,166,32"/>
-</map>
