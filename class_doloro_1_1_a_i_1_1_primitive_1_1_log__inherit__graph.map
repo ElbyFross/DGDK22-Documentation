@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Primitive.Log" name="Doloro.AI.Primitive.Log">
-<area shape="rect" id="node1" title="Invokes UnityEngine.Debug.Log(object) method with defined message." alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node1" title="Invokes Debug.Log(object) method with defined message." alt="" coords="5,80,159,107"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="53,5,111,32"/>
 </map>

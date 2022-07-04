@@ -38,7 +38,6 @@ var searchData=
   ['copyeditor_35',['CopyEditor',['../class_doloro_1_1_a_i_1_1_memory_1_1_copy_editor.html',1,'Doloro::AI::Memory']]],
   ['crossgraphvirtualconnection_36',['CrossGraphVirtualConnection',['../class_doloro_1_1_graphs_1_1_fragmented_1_1_graphs_network_1_1_cross_graph_virtual_connection.html',1,'Doloro::Graphs::Fragmented::GraphsNetwork']]],
   ['crosssessiondata_37',['CrossSessionData',['../class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_1_1_cross_session_data.html',1,'Doloro::InvetorySystem::Features::VolumetricSpace::StorageVolume']]],
-  ['currentpositionincircleareabymemory_38',['CurrentPositionInCircleAreaByMemory',['../class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory.html',1,'Doloro::AI::Check']]],
-  ['customactioneditorattribute_39',['CustomActionEditorAttribute',['../class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html',1,'Doloro::AI']]],
-  ['custompropertiestab_40',['CustomPropertiesTab',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_custom_properties_tab.html',1,'Doloro::AI::DAIInspector']]]
+  ['customactioneditorattribute_38',['CustomActionEditorAttribute',['../class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html',1,'Doloro::AI']]],
+  ['custompropertiestab_39',['CustomPropertiesTab',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_custom_properties_tab.html',1,'Doloro::AI::DAIInspector']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['v3targetpositionvariable_0',['v3TargetPositionVariable',['../class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory.html#a86ea15f55c5bdb403cde121183d66105',1,'Doloro::AI::Check::CurrentPositionInCircleAreaByMemory']]],
+  ['v3targetpositionvariable_0',['v3TargetPositionVariable',['../class_doloro_1_1_a_i_1_1_check_1_1_is_current_position_in_radius.html#a0a54e5d064520c43c5adc210aaaf03f7',1,'Doloro::AI::Check::IsCurrentPositionInRadius']]],
   ['validatingmethod_1',['ValidatingMethod',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_custom_properties_tab.html#aac15f93d0f44358b9ac8b1db1dca27c6',1,'Doloro.AI.DAIInspector.CustomPropertiesTab.ValidatingMethod()'],['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_default_properties_tab.html#ad3a3edb79f78e28802d7365974d4e8f5',1,'Doloro.AI.DAIInspector.DefaultPropertiesTab.ValidatingMethod()']]],
   ['validconfirmationlabel_2',['validConfirmationLabel',['../class_doloro_1_1_invetory_system_1_1_modules_1_1_shops_1_1_u_i_1_1_controls_1_1_trading_console_g_u_i_element.html#a093bcc75463036fd2e15ae8a995f4e1e',1,'Doloro::InvetorySystem::Modules::Shops::UI::Controls::TradingConsoleGUIElement']]],
   ['valueasbool_3',['valueAsBool',['../class_doloro_1_1_a_i_1_1_core_1_1_variable.html#aa433064a3d5c8ccc2bcda9cd42bcf371',1,'Doloro::AI::Core::Variable']]],

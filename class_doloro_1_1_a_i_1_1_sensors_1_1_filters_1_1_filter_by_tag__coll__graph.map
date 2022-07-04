@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Sensors.Filters.FilterByTag" name="Doloro.AI.Sensors.Filters.FilterByTag">
-<area shape="rect" id="node1" title="Declaring Doloro.Sensors.Filters.TagSensorFilter filter." alt="" coords="14,109,185,151"/>
+<area shape="rect" id="node1" title="Declares Doloro.Sensors.Filters.TagSensorFilter filter." alt="" coords="14,109,185,151"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_a_sensor_filter_action.html" title=" " alt="" coords="5,5,193,61"/>
 </map>

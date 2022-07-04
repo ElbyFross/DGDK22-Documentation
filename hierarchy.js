@@ -58,7 +58,7 @@ var hierarchy =
       [ "Doloro.InvetorySystem.UI.Controls.ItemFeatureGUIElement", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_controls_1_1_item_feature_g_u_i_element.html", null ]
     ] ],
     [ "Doloro.AI.Action", "class_doloro_1_1_a_i_1_1_action.html", [
-      [ "Doloro.AI.Check.CurrentPositionInCircleAreaByMemory", "class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory.html", null ],
+      [ "Doloro.AI.Check.IsCurrentPositionInRadius", "class_doloro_1_1_a_i_1_1_check_1_1_is_current_position_in_radius.html", null ],
       [ "Doloro.AI.Compare.ABinaryCompareAction< T >", "class_doloro_1_1_a_i_1_1_compare_1_1_a_binary_compare_action.html", [
         [ "Doloro.AI.Compare.ACompareAction< T >", "class_doloro_1_1_a_i_1_1_compare_1_1_a_compare_action.html", null ]
       ] ],

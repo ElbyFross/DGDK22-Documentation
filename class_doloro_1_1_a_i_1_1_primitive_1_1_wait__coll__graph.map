@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Primitive.Wait" name="Doloro.AI.Primitive.Wait">
-<area shape="rect" id="node1" title="Waiting defined seconds till return Success result." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node1" title="Waits defined seconds till return Result.Success result." alt="" coords="5,80,164,107"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="55,5,114,32"/>
 </map>

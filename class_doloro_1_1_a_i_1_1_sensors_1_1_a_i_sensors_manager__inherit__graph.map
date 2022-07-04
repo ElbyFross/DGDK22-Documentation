@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Sensors.AISensorsManager" name="Doloro.AI.Sensors.AISensorsManager">
-<area shape="rect" id="node1" title="Manager that controls placing of sensors and their core functions." alt="" coords="5,80,196,121"/>
+<area shape="rect" id="node1" title="AI related manager that controls placing of sensors and their core functions. Works as the sensors hu..." alt="" coords="5,80,196,121"/>
 <area shape="rect" id="node2" title=" " alt="" coords="45,5,156,32"/>
 </map>

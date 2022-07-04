@@ -1,5 +1,5 @@
 <map id="Doloro.AI.Switch.Switch" name="Doloro.AI.Switch.Switch">
-<area shape="rect" id="node1" title="Switches to child action\order by tag defined at memory." alt="" coords="5,155,167,181"/>
+<area shape="rect" id="node1" title="Switches to child action\order by its tag defined as a string variable in AI&#39;s memory." alt="" coords="5,155,167,181"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order" alt="" coords="59,80,113,107"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="57,5,115,32"/>
 </map>

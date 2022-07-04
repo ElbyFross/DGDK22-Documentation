@@ -65,6 +65,7 @@ var NAVTREE =
     ] ],
     [ "Editor Configs Assembly", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__configs__r_e_a_d_m_e.html", null ],
     [ "Doloro AI Nodes", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html", [
+      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes-a", null ],
       [ "Orders", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_orders", null ],
       [ "Actions", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_actions", null ]
     ] ],
@@ -82,8 +83,7 @@ var NAVTREE =
     ] ],
     [ "Doloro Inventory System", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__inventory__r_e_a_d_m_e" ],
     [ "Doloro Localization", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html", [
-      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html#doloro_local_about", null ],
-      [ "Roadmap", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html#doloro_local_roadmap", null ]
+      [ "About", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__localization__r_e_a_d_m_e.html#doloro_local_about", null ]
     ] ],
     [ "Doloro Sensor", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__sensor__r_e_a_d_m_e" ],
     [ "Doloro UI II", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e.html", "md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__u_i_2__r_e_a_d_m_e" ],

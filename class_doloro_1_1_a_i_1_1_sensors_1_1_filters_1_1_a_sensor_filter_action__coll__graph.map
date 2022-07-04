@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title="Base class for actions that should declares ASensorFilters for the FilteredSensor instances via the A..." alt="" coords="5,261,176,303"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="36,185,145,212"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="40,89,99,115"/>
-<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="Manager that controls placing of sensors and their core functions." alt="" coords="123,81,314,123"/>
+<area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="AI related manager that controls placing of sensors and their core functions. Works as the sensors hu..." alt="" coords="123,81,314,123"/>
 <area shape="rect" id="node5" title=" " alt="" coords="163,5,274,32"/>
 </map>

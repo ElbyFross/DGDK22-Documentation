@@ -1,9 +1,9 @@
 <map id="Doloro.AI.Sensors.SoundListener" name="Doloro.AI.Sensors.SoundListener">
-<area shape="rect" id="node1" title="Checking noise parameter at the AudioSourceLoudnessTester for the detected object." alt="" coords="5,413,220,440"/>
+<area shape="rect" id="node1" title="Checks noise parameter at the AudioSourceLoudnessTester for the detected object." alt="" coords="5,413,220,440"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_selecting_sensor_action.html" title="Base class for any action that selected one object for the Sensor&#39;s pool." alt="" coords="31,337,194,364"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_invertible_sensor_action.html" title="Sensor related action that result can be inverted." alt="" coords="33,261,192,288"/>
 <area shape="rect" id="node4" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_sensor_action.html" title="Base class for sensor&#45;like AI behaviors." alt="" coords="58,185,167,212"/>
 <area shape="rect" id="node5" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="62,89,121,115"/>
-<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="Manager that controls placing of sensors and their core functions." alt="" coords="145,81,336,123"/>
+<area shape="rect" id="node6" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="AI related manager that controls placing of sensors and their core functions. Works as the sensors hu..." alt="" coords="145,81,336,123"/>
 <area shape="rect" id="node7" title=" " alt="" coords="185,5,296,32"/>
 </map>

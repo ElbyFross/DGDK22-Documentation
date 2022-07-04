@@ -125,7 +125,7 @@
 <area shape="rect" id="node124" title=" " alt="" coords="356,5118,467,5145"/>
 <area shape="rect" id="node125" href="$class_a_i_map_search_by_string.html" title="TODO ADD DESCRIPTION TODO ADD AddComponentMenu entry." alt="" coords="669,5793,819,5819"/>
 <area shape="rect" id="node126" href="$class_doloro_1_1_a_i_1_1_brain.html" title="AI Components that executes node based actions map." alt="" coords="689,5910,799,5937"/>
-<area shape="rect" id="node127" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="Manager that controls placing of sensors and their core functions." alt="" coords="649,5961,839,6003"/>
+<area shape="rect" id="node127" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_a_i_sensors_manager.html" title="AI related manager that controls placing of sensors and their core functions. Works as the sensors hu..." alt="" coords="649,5961,839,6003"/>
 <area shape="rect" id="node128" href="$class_doloro_1_1_a_i_1_1_sensors_1_1_audio_source_loudness_tester.html" title="Records audio producing by the binded source and defining the target noise." alt="" coords="641,6027,847,6068"/>
 <area shape="rect" id="node129" href="$class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_a_resource_loading_behavior.html" title="Abstract class that provides base API of component based on a dynamic resource." alt="" coords="613,5844,875,5885"/>
 <area shape="rect" id="node132" href="$class_doloro_1_1_data_management_1_1_asset_bundles_tools_1_1_asset_bundles_loader.html" title="Manager that loads assets from the Asset Bundles." alt="" coords="632,6157,856,6199"/>

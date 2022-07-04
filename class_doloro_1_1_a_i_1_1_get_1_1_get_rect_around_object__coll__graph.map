@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Get.GetRectAroundObject" name="Doloro.AI.Get.GetRectAroundObject">
-<area shape="rect" id="node1" title="Computing rect with AI instance in the center." alt="" coords="5,80,199,121"/>
+<area shape="rect" id="node1" title="Computes rect with AI instance in the center." alt="" coords="5,80,199,121"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="73,5,131,32"/>
 </map>

@@ -87,13 +87,131 @@ $(document).ready(function(){initNavTree('md__d___work__git_hub__d_g_d_k22__asse
   <div class="headertitle"><div class="title"><a class="el" href="namespace_doloro.html">Doloro</a> AI Nodes </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="dai_core_nodes"></a></p>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dai_core_nodes-a">About</a></li>
+<li class="level1"><a href="#dai_core_nodes_orders">Orders</a></li>
+<li class="level1"><a href="#dai_core_nodes_actions">Actions</a></li>
+</ul>
+</div>
+<div class="textblock"><p ><a class="anchor" id="dai_core_nodes"></a> </p>
+<h1><a class="anchor" id="dai_core_nodes-a"></a>
+About</h1>
+<p >Current section provides you with a brief overview of <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__a_i__core__r_e_a_d_m_e.html#dai_core">dai_core</a> based nodes. <br  />
+Explore the list to plan you AI behavior logic development.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Take a note that DAI is a framework and fundamental solutions. It provides you with architecture to solutions development but avoids implementation of non uniform nodes that applicable only to specific tasks suitable for low ranged specter of games and products.</dd></dl>
+<p>You may find more about nodes development in following subject: <a class="el" href="dai_core_gs_asm_inst.html">Action \ Order implementation structure</a>. <br  />
+In case it is your first time using DAI core pleas take a look over next subjects:</p><ul>
+<li><a class="el" href="dai_core_gs.html">Getting Started</a></li>
+<li><a class="el" href="dai_core_ht.html">How to...</a></li>
+</ul>
 <h1><a class="anchor" id="dai_core_nodes_orders"></a>
 Orders</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Empty section</dd></dl>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module   </th><th class="markdownTableHeadNone">Group   </th><th class="markdownTableHeadNone">Node   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone" rowspan="7">Core Nodes   </td><td class="markdownTableBodyNone" rowspan="5">None   </td><td class="markdownTableBodyNone">Sequence   </td><td class="markdownTableBodyNone">Executes child behaviors at sequence.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Breakable Sequence   </td><td class="markdownTableBodyNone">Sequence that allow to interrupt execution in case if faced certain result at the child.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Reorderable Sequence   </td><td class="markdownTableBodyNone">Sequence those order defining by external logic handler.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Parallel   </td><td class="markdownTableBodyNone">Executes child nodes in parallel way.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Bind External   </td><td class="markdownTableBodyNone">Embeds external AI behavior project to the current behavior by the resource path.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="2">Switches   </td><td class="markdownTableBodyNone">Switch   </td><td class="markdownTableBodyNone">Switches to child action\order by its tag defined as a string variable in AI's memory.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Random   </td><td class="markdownTableBodyNone">Executes random child.   </td></tr>
+</table>
 <h1><a class="anchor" id="dai_core_nodes_actions"></a>
 Actions</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Empty section </dd></dl>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module   </th><th class="markdownTableHeadNone">Group   </th><th class="markdownTableHeadNone">Node   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone" rowspan="31">Core Nodes   </td><td class="markdownTableBodyNone" rowspan="3">Get   </td><td class="markdownTableBodyNone">Child Object   </td><td class="markdownTableBodyNone">Searches the first or nearest child object of an object saved to variable in AI's memory.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Near Game Object   </td><td class="markdownTableBodyNone">Searches for nearest object in offset by tag and layer.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Get Rect Around Object   </td><td class="markdownTableBodyNone">Computes rect with AI instance in the center.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="10">Set   </td><td class="markdownTableBodyNone">Set Animator Property   </td><td class="markdownTableBodyNone">Set the value to animator's property.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Set Variable   </td><td class="markdownTableBodyNone">Works as <code>var</code> keyword and allows flexible declaration of the variable type. <br  />
+ More convenient in use, but has higher complexity comparing to explicit declarations below.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Set Bool   </td><td class="markdownTableBodyNone">Sends <code>bool</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Set Float   </td><td class="markdownTableBodyNone">Sends <code>float</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Set Int   </td><td class="markdownTableBodyNone">Sends <code>int</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Set Rect   </td><td class="markdownTableBodyNone">Sends <code>rect</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Set String   </td><td class="markdownTableBodyNone">Sends <code>string</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Set Vector2   </td><td class="markdownTableBodyNone">Sends <code>Vector2</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Set Vector3   </td><td class="markdownTableBodyNone">Sends <code>Vector3</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Set Vector4   </td><td class="markdownTableBodyNone">Sends <code>Vector4</code> value to the memory.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="4">Memory   </td><td class="markdownTableBodyNone">Copy   </td><td class="markdownTableBodyNone">Copies variable's to other variable.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Exists   </td><td class="markdownTableBodyNone">Checks is the variable exists in the memory by its name.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Remove   </td><td class="markdownTableBodyNone">Removes variable from the memory by its name.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Remove By Type   </td><td class="markdownTableBodyNone">Removes entire variables from memory by a string representation of a type.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="4">Operators   </td><td class="markdownTableBodyNone">Float Operation   </td><td class="markdownTableBodyNone">Provides arithmetic operations for <code>float</code> variables.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Int Operator   </td><td class="markdownTableBodyNone">Provides arithmetic operations for <code>int</code> variables.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Rect Operator   </td><td class="markdownTableBodyNone">Provides arithmetic operations for <code>Rect</code> variables.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">String Operator   </td><td class="markdownTableBodyNone">Provides arithmetic concatenation and replacement operation for <code>string</code> variables.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="5">Compare   </td><td class="markdownTableBodyNone">Comapre Float   </td><td class="markdownTableBodyNone">Implement comparison logic for <code>float</code> variables.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Comapre Int   </td><td class="markdownTableBodyNone">Implement comparison logic for <code>int</code> variables.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Comapre Object Ref   </td><td class="markdownTableBodyNone">Implement comparison logic for <code>object</code> variables.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Comapre Bool   </td><td class="markdownTableBodyNone">Implement comparison logic for <code>bool</code> variables.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Comapre String   </td><td class="markdownTableBodyNone">Implement comparison logic for <code>string</code> variables.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone" rowspan="4">System   </td><td class="markdownTableBodyNone">Log   </td><td class="markdownTableBodyNone">Invokes <code>Debug.Log</code> method with defined message. Allows to define message type.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Return   </td><td class="markdownTableBodyNone">Returns pre-defined result.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Trigger   </td><td class="markdownTableBodyNone">Allows passing through only one time. After first call closing the brunch.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Wait   </td><td class="markdownTableBodyNone">Waits defined seconds till return <code>Result.Success</code> result.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Check   </td><td class="markdownTableBodyNone">Is Current Position <br  />
+ In Radius   </td><td class="markdownTableBodyNone">Checks does the current position of AI's entity is within a sphere with defined offset.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="9">AI Sensors   </td><td class="markdownTableBodyNone" rowspan="4">None   </td><td class="markdownTableBodyNone">Get Object From Zone   </td><td class="markdownTableBodyNone">Looks for an object at the sensor's zone along with defined search parameters.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Sound Listener   </td><td class="markdownTableBodyNone">Checks noise parameter at the <code>AudioSourceLoudnessTester</code> for the detected object.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Visual   </td><td class="markdownTableBodyNone">Sensor that simulates character's view scope.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Zone   </td><td class="markdownTableBodyNone">Returns <code>Result.Success</code> in case bonded sensor has detected objects.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="2">Filters   </td><td class="markdownTableBodyNone">Filter By Layer   </td><td class="markdownTableBodyNone">Declares <code><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_layer_sensor_filter.html" title="Filters objects detected by the FilteredSensor along with the GameObject.layer property.">Doloro.Sensors.Filters.LayerSensorFilter</a></code> filter.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Filter By Tag   </td><td class="markdownTableBodyNone">Declares <code><a class="el" href="class_doloro_1_1_sensors_1_1_filters_1_1_tag_sensor_filter.html" title="Filtering detecting objects along with the GameObject.tag property.">Doloro.Sensors.Filters.TagSensorFilter</a></code> filter.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone" rowspan="3">Instance   </td><td class="markdownTableBodyNone">Declare Dependent Filtered Sensor   </td><td class="markdownTableBodyNone">Declares new <a class="el" href="dsensors-env.html#dsensors-env-types-dfsensor">Dependent Filtered Sensor</a> with <code>SphereCollider</code> via the <code>AISensorsManager</code>.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Declare Filtered Sphere Sensor   </td><td class="markdownTableBodyNone">Declares new <a class="el" href="dsensors-env.html#dsensors-env-types-fsensor">Filtered Sensor</a> with <code>SphereCollider</code> via the <code>AISensorsManager</code>.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Release Sensor   </td><td class="markdownTableBodyNone">Requests sensor to release via the <code>AISensorsManager</code>.   </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

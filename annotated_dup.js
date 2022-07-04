@@ -3,7 +3,7 @@ var annotated_dup =
     [ "Doloro", "namespace_doloro.html", [
       [ "AI", "namespace_doloro_1_1_a_i.html", [
         [ "Check", "namespace_doloro_1_1_a_i_1_1_check.html", [
-          [ "CurrentPositionInCircleAreaByMemory", "class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory.html", "class_doloro_1_1_a_i_1_1_check_1_1_current_position_in_circle_area_by_memory" ]
+          [ "IsCurrentPositionInRadius", "class_doloro_1_1_a_i_1_1_check_1_1_is_current_position_in_radius.html", "class_doloro_1_1_a_i_1_1_check_1_1_is_current_position_in_radius" ]
         ] ],
         [ "Compare", "namespace_doloro_1_1_a_i_1_1_compare.html", [
           [ "ABinaryCompareAction", "class_doloro_1_1_a_i_1_1_compare_1_1_a_binary_compare_action.html", "class_doloro_1_1_a_i_1_1_compare_1_1_a_binary_compare_action" ],

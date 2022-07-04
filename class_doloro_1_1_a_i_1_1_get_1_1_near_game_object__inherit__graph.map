@@ -1,4 +1,4 @@
 <map id="Doloro.AI.Get.NearGameObject" name="Doloro.AI.Get.NearGameObject">
-<area shape="rect" id="node1" title="Searching for nearest object in offset by bundle and layer." alt="" coords="5,80,209,107"/>
+<area shape="rect" id="node1" title="Searches for nearest object in offset by tag and layer." alt="" coords="5,80,209,107"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions" alt="" coords="78,5,137,32"/>
 </map>
