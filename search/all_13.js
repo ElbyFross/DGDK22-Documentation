@@ -101,7 +101,7 @@ var searchData=
   ['setint_98',['SetInt',['../class_doloro_1_1_a_i_1_1_set_1_1_set_int.html',1,'Doloro::AI::Set']]],
   ['setinteditor_99',['SetIntEditor',['../class_doloro_1_1_a_i_1_1_set_1_1_set_int_editor.html',1,'Doloro::AI::Set']]],
   ['setleft_100',['SetLeft',['../class_doloro_1_1_u_i_engine2_1_1_rect_transform_extensions.html#a67f842ff85ea0e9c7b4f66054b26d154',1,'Doloro::UIEngine2::RectTransformExtensions']]],
-  ['setlocalzationhandler_101',['SetLocalzationHandler',['../class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html#a51ea5380aa437d4cdc3c1e0c717fe93e',1,'Doloro::Localization::GenericProxyContentProvider']]],
+  ['setlocalzationhandler_101',['SetLocalzationHandler',['../class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html#a8585d93e3277214a7d2336110938d03f',1,'Doloro::Localization::AGenericProxyContentProvider']]],
   ['setmaxsize_102',['SetMaxSize',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a9d9b9c5ee676703e3bcc84d4a8e66220',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
   ['setminsize_103',['SetMinSize',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_runtime_workspace_layout.html#a8d0d2b239496272449eab5738d0e5d4b',1,'Doloro::UIEngine2::Modules::RuntimeWorkspace::RuntimeWorkspaceLayout']]],
   ['setmodified_104',['SetModified',['../class_doloro_1_1_a_i_1_1_core_1_1_utils.html#a1b19a4d5c08bf7d06493db9c16da3f0f',1,'Doloro::AI::Core::Utils']]],

@@ -1,5 +1,6 @@
 <map id="Doloro.UIEngine2.GridCollectionEditor" name="Doloro.UIEngine2.GridCollectionEditor">
 <area shape="rect" id="node1" title="Custom editor for the GridCollection component." alt="" coords="5,229,212,271"/>
+<area shape="rect" id="node5" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar_editor.html" title="Custom editor for the TabsBar component." alt="" coords="19,319,198,360"/>
 <area shape="rect" id="node2" href="$class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_editor.html" title="Custom editor for the AGUIElementsCollection component." alt="" coords="9,155,208,181"/>
 <area shape="rect" id="node3" href="$class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element_editor.html" title="Custom editor for the AGUIElement component." alt="" coords="41,80,176,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="81,5,137,32"/>

@@ -365,7 +365,6 @@ var annotated_dup =
         ] ],
         [ "Serialization", "namespace_doloro_1_1_data_management_1_1_serialization.html", [
           [ "BinarySerializationTool", "class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html", "class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool" ],
-          [ "Constants", "class_doloro_1_1_data_management_1_1_serialization_1_1_constants.html", "class_doloro_1_1_data_management_1_1_serialization_1_1_constants" ],
           [ "IBinaryDataProvider", "interface_doloro_1_1_data_management_1_1_serialization_1_1_i_binary_data_provider.html", "interface_doloro_1_1_data_management_1_1_serialization_1_1_i_binary_data_provider" ],
           [ "NotSerializeAttribute", "class_doloro_1_1_data_management_1_1_serialization_1_1_not_serialize_attribute.html", null ],
           [ "SerializeAttribute", "class_doloro_1_1_data_management_1_1_serialization_1_1_serialize_attribute.html", null ],
@@ -551,12 +550,12 @@ var annotated_dup =
         [ "TransactionService", "class_doloro_1_1_invetory_system_1_1_transaction_service.html", "class_doloro_1_1_invetory_system_1_1_transaction_service" ]
       ] ],
       [ "Localization", "namespace_doloro_1_1_localization.html", [
-        [ "GenericProxyContentProvider", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider" ],
+        [ "AGenericProxyContentProvider", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider" ],
+        [ "AProxyContentProvider", "class_doloro_1_1_localization_1_1_a_proxy_content_provider.html", "class_doloro_1_1_localization_1_1_a_proxy_content_provider" ],
         [ "LocalizedGUIContent", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html", "class_doloro_1_1_localization_1_1_localized_g_u_i_content" ],
         [ "LocalizedSpriteContent", "class_doloro_1_1_localization_1_1_localized_sprite_content.html", "class_doloro_1_1_localization_1_1_localized_sprite_content" ],
         [ "LocalizedTextContent", "class_doloro_1_1_localization_1_1_localized_text_content.html", "class_doloro_1_1_localization_1_1_localized_text_content" ],
-        [ "LocalizedWorldContent", "class_doloro_1_1_localization_1_1_localized_world_content.html", "class_doloro_1_1_localization_1_1_localized_world_content" ],
-        [ "ProxyContentProvider", "class_doloro_1_1_localization_1_1_proxy_content_provider.html", "class_doloro_1_1_localization_1_1_proxy_content_provider" ]
+        [ "LocalizedWorldContent", "class_doloro_1_1_localization_1_1_localized_world_content.html", "class_doloro_1_1_localization_1_1_localized_world_content" ]
       ] ],
       [ "Sensors", "namespace_doloro_1_1_sensors.html", [
         [ "Filters", "namespace_doloro_1_1_sensors_1_1_filters.html", [

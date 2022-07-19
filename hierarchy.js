@@ -195,6 +195,18 @@ var hierarchy =
     [ "Doloro.AI.DAIInspector.AGenericInspectorProperty< string >", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_a_generic_inspector_property.html", [
       [ "Doloro.AI.DAIInspector.StringInspectorProperty", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_string_inspector_property.html", null ]
     ] ],
+    [ "Doloro.Localization.AGenericProxyContentProvider< GameObject, GameObject >", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", [
+      [ "Doloro.Localization.LocalizedWorldContent", "class_doloro_1_1_localization_1_1_localized_world_content.html", null ]
+    ] ],
+    [ "Doloro.Localization.AGenericProxyContentProvider< GUIContent, GUIContent >", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", [
+      [ "Doloro.Localization.LocalizedGUIContent", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html", null ]
+    ] ],
+    [ "Doloro.Localization.AGenericProxyContentProvider< Sprite, Sprite >", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", [
+      [ "Doloro.Localization.LocalizedSpriteContent", "class_doloro_1_1_localization_1_1_localized_sprite_content.html", null ]
+    ] ],
+    [ "Doloro.Localization.AGenericProxyContentProvider< string, string >", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", [
+      [ "Doloro.Localization.LocalizedTextContent", "class_doloro_1_1_localization_1_1_localized_text_content.html", null ]
+    ] ],
     [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionDataConnector< AItemFeature, ItemFeatureGUIElement >", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_data_connector.html", [
       [ "Doloro.InvetorySystem.UI.DataBridge.ItemFeaturesCollectionDataConnector", "class_doloro_1_1_invetory_system_1_1_u_i_1_1_data_bridge_1_1_item_features_collection_data_connector.html", null ]
     ] ],
@@ -252,6 +264,9 @@ var hierarchy =
       ] ],
       [ "Doloro.AI.DAIDebugger.PatchingTool.ObsoletePropertyPatcher", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_obsolete_property_patcher.html", null ],
       [ "Doloro.AI.DAIDebugger.PatchingTool.VariablesVersionPatcher", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_patching_tool_1_1_variables_version_patcher.html", null ]
+    ] ],
+    [ "Doloro.Localization.AProxyContentProvider", "class_doloro_1_1_localization_1_1_a_proxy_content_provider.html", [
+      [ "Doloro.Localization.AGenericProxyContentProvider< ContentType, LocalizatorType >", "class_doloro_1_1_localization_1_1_a_generic_proxy_content_provider.html", null ]
     ] ],
     [ "Doloro.AI.Sensors.Filters.ASensorFilterAction< Doloro.Sensors.Filters.LayerSensorFilter >", "class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_a_sensor_filter_action.html", [
       [ "Doloro.AI.Sensors.Filters.FilterByLayer", "class_doloro_1_1_a_i_1_1_sensors_1_1_filters_1_1_filter_by_layer.html", null ]
@@ -363,7 +378,6 @@ var hierarchy =
     [ "Doloro.DataManagement.AssetPropertiesSystem.Constants", "class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_constants.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Constants", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_constants.html", null ],
     [ "Doloro.DataManagement.DynamicResources.Modules.TagsTool.Constants", "class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_modules_1_1_tags_tool_1_1_constants.html", null ],
-    [ "Doloro.DataManagement.Serialization.Constants", "class_doloro_1_1_data_management_1_1_serialization_1_1_constants.html", null ],
     [ "Doloro.EditorExtension.SmallToolsHub.Constants", "class_doloro_1_1_editor_extension_1_1_small_tools_hub_1_1_constants.html", null ],
     [ "Doloro.InvetorySystem.Constants", "class_doloro_1_1_invetory_system_1_1_constants.html", null ],
     [ "Doloro.Sensors.Constants", "class_doloro_1_1_sensors_1_1_constants.html", null ],
@@ -405,8 +419,9 @@ var hierarchy =
         [ "Doloro.UIEngine2.Controls.WindowResizeControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_resize_controller_editor.html", null ],
         [ "Doloro.UIEngine2.Controls.WindowStateControllerEditor", "class_doloro_1_1_u_i_engine2_1_1_controls_1_1_window_state_controller_editor.html", null ],
         [ "Doloro.UIEngine2.Modules.ElementsCollection.AGUIElementsCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_elements_collection_1_1_a_g_u_i_elements_collection_editor.html", [
-          [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", null ],
-          [ "Doloro.UIEngine2.Modules.Tabs.TabsBarEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar_editor.html", null ]
+          [ "Doloro.UIEngine2.GridCollectionEditor", "class_doloro_1_1_u_i_engine2_1_1_grid_collection_editor.html", [
+            [ "Doloro.UIEngine2.Modules.Tabs.TabsBarEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_tabs_1_1_tabs_bar_editor.html", null ]
+          ] ]
         ] ],
         [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_workspace_provider_editor.html", [
           [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.AClampedWorkspaceProviderEditor", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_a_clamped_workspace_provider_editor.html", [
@@ -459,18 +474,6 @@ var hierarchy =
       [ "Doloro.UIEngine2.Modules.RuntimeWorkspace.WorkspaceAlreadySplittedException", "class_doloro_1_1_u_i_engine2_1_1_modules_1_1_runtime_workspace_1_1_workspace_already_splitted_exception.html", null ],
       [ "Doloro.UIEngine2.Window.WindowClosedException", "class_doloro_1_1_u_i_engine2_1_1_window_1_1_window_closed_exception.html", null ],
       [ "Doloro.UIEngine2.Window.WindowNotOpenedYetException", "class_doloro_1_1_u_i_engine2_1_1_window_1_1_window_not_opened_yet_exception.html", null ]
-    ] ],
-    [ "Doloro.Localization.GenericProxyContentProvider< GameObject, GameObject >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
-      [ "Doloro.Localization.LocalizedWorldContent", "class_doloro_1_1_localization_1_1_localized_world_content.html", null ]
-    ] ],
-    [ "Doloro.Localization.GenericProxyContentProvider< GUIContent, GUIContent >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
-      [ "Doloro.Localization.LocalizedGUIContent", "class_doloro_1_1_localization_1_1_localized_g_u_i_content.html", null ]
-    ] ],
-    [ "Doloro.Localization.GenericProxyContentProvider< Sprite, Sprite >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
-      [ "Doloro.Localization.LocalizedSpriteContent", "class_doloro_1_1_localization_1_1_localized_sprite_content.html", null ]
-    ] ],
-    [ "Doloro.Localization.GenericProxyContentProvider< string, string >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", [
-      [ "Doloro.Localization.LocalizedTextContent", "class_doloro_1_1_localization_1_1_localized_text_content.html", null ]
     ] ],
     [ "Doloro.AI.DAIStudio.Gizmos", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_gizmos.html", null ],
     [ "Doloro.Graphs.GraphNodeAPI", "class_doloro_1_1_graphs_1_1_graph_node_a_p_i.html", null ],
@@ -850,9 +853,6 @@ var hierarchy =
     [ "Doloro.AI.DAIDebugger.ErrorsListTool.ProjectEnumeratorEntry", "class_doloro_1_1_a_i_1_1_d_a_i_debugger_1_1_errors_list_tool_1_1_project_enumerator_entry.html", null ],
     [ "Doloro.EditorExtension.ProjectSettings.ProjectSettingsManager", "class_doloro_1_1_editor_extension_1_1_project_settings_1_1_project_settings_manager.html", null ],
     [ "Doloro.AI.DAIInspector.PropertyInspectorHelper", "class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_property_inspector_helper.html", null ],
-    [ "Doloro.Localization.ProxyContentProvider", "class_doloro_1_1_localization_1_1_proxy_content_provider.html", [
-      [ "Doloro.Localization.GenericProxyContentProvider< ContentType, LocalizatorType >", "class_doloro_1_1_localization_1_1_generic_proxy_content_provider.html", null ]
-    ] ],
     [ "Doloro.BaseTypes.Quaternion", "struct_doloro_1_1_base_types_1_1_quaternion.html", null ],
     [ "Doloro.BaseTypes.Rect", "struct_doloro_1_1_base_types_1_1_rect.html", null ],
     [ "Doloro.AI.DAIStudio.RectExtensions", "class_doloro_1_1_a_i_1_1_d_a_i_studio_1_1_rect_extensions.html", null ],

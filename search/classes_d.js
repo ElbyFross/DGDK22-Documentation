@@ -30,6 +30,5 @@ var searchData=
   ['propertiesaggregatoreditor_27',['PropertiesAggregatorEditor',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_properties_aggregator_editor.html',1,'Doloro::DataManagement::AssetPropertiesSystem']]],
   ['propertieslayerenum_28',['PropertiesLayerEnum',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_asset_properties_collection_1_141f23d755ddab57653e19b8978bc1e71.html',1,'Doloro::DataManagement::AssetPropertiesSystem::AssetPropertiesCollection::ProperiesDomain']]],
   ['propertyinspectorattribute_29',['PropertyInspectorAttribute',['../class_doloro_1_1_data_management_1_1_asset_properties_system_1_1_property_inspector_attribute.html',1,'Doloro::DataManagement::AssetPropertiesSystem']]],
-  ['propertyinspectorhelper_30',['PropertyInspectorHelper',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_property_inspector_helper.html',1,'Doloro::AI::DAIInspector']]],
-  ['proxycontentprovider_31',['ProxyContentProvider',['../class_doloro_1_1_localization_1_1_proxy_content_provider.html',1,'Doloro::Localization']]]
+  ['propertyinspectorhelper_30',['PropertyInspectorHelper',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_property_inspector_helper.html',1,'Doloro::AI::DAIInspector']]]
 ];
