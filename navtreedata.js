@@ -29,10 +29,11 @@ var NAVTREE =
       [ "Thanks", "index.html#mainpage_thnx", null ],
       [ "About", "index.html#mainpage_about", null ],
       [ "Important", "index.html#mainpage_warning", null ],
+      [ "Distribution model", "index.html#mainpage_distribution", null ],
       [ "BETA", "index.html#mainpage_beta", [
         [ "F.A.Q.", "index.html#mainpage_beta_faq", [
           [ "How long BETA will go?", "index.html#mainpage_beta_faq_long", null ],
-          [ "Is the beta time goes into year subscription?", "index.html#mainpage_beta_faq_year", null ],
+          [ "Is the beta time goes into year license lifespan?", "index.html#mainpage_beta_faq_year", null ],
           [ "Is BETA means the product can't be used?", "index.html#mainpage_beta_faq_stability", null ]
         ] ]
       ] ]
@@ -178,9 +179,9 @@ var NAVTREEINDEX =
 "class_doloro_1_1_u_i_engine2_1_1_workspace_layout.html#acffbdb3a3b1896311a05037c9f0cb261",
 "ddm-tables-editor.html#ddm-tables-editor-sse",
 "dsensors-env.html",
-"interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_tags_collection.html",
-"namespace_doloro_1_1_editor_extension_1_1_small_tools_hub.html",
-"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html#a08955bdc84d86858de86d3e514527ba8"
+"interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html#ac47bb5b24389cf87be827ba5bf576166",
+"namespace_doloro_1_1_editor_extension_1_1_project_settings.html#a1ab5452edbbd7adc9f95ef117ceb1d6dad9dfb70649b07275b34921903c734eb7",
+"struct_doloro_1_1_editor_extension_1_1_project_settings_1_1_input_axis.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
