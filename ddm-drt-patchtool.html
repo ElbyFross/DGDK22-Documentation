@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -136,14 +136,14 @@ Runtime part</h2>
 <p >Now you have a distributable runtime patch object that can be prepared to <a class="el" href="ddm-drt-patchtool.html#ddm-drt-patchtool-distr">Distibution</a> process.</p>
 <h4><a class="anchor" id="ddm-drt-patchtool-dev-rt"></a>
 Runtime part</h4>
-<p >Following example demonstrates tamplete of patch runtime part.</p>
+<p >Following example demonstrates template of patch runtime part.</p>
 <div class="fragment"><div class="line">using UnityEngine;</div>
 <div class="line">using Doloro.DataManagement.DynamicResources.Modules.PatchTool;</div>
 <div class="line"> </div>
 <div class="line">public class YourPatchOrder : APatchOrder</div>
 <div class="line">{</div>
 <div class="line">    /// &lt;summary&gt;</div>
-<div class="line">    /// Handler where you have to define patch logic over patching game obejct.</div>
+<div class="line">    /// Handler where you have to define patch logic over patching game object.</div>
 <div class="line">    /// &lt;/summary&gt;</div>
 <div class="line">    /// &lt;param name=&quot;obj&quot;&gt;Target object that receives the patch.&lt;/param&gt;</div>
 <div class="line">    public override void Patch(GameObject obj)</div>
@@ -167,7 +167,7 @@ Editor part</h2>
 <li>Locate it in <code>Editor</code> folder.</li>
 <li>Derive the class from the <code>APatchOrderEditor</code> class.</li>
 <li>Define <code>CustomEditor</code> forwarding to your runtime part class.</li>
-<li>(Optional) If you has public members to display:<ol type="a">
+<li>(Optional) If you have public members to display:<ol type="a">
 <li>Override <code>OnInspectorGUI</code> method.</li>
 <li>Call <code>base.OnInspectorGUI()</code> to draw uniform GUI.</li>
 <li>Implement your custom GUI.</li>
@@ -218,7 +218,7 @@ Distibution</h1>
  <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK / Build asset bundles</code>.</li>
 <li>Set destination folder and confirm build.</li>
 </ol>
-<dl class="section warning"><dt>Warning</dt><dd>At some platforms of package versions <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK</code> categoury can be sub-category of the <code>Tools</code> category.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>At some platforms of package versions <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK</code> category can be sub-category of the <code>Tools</code> category.</dd></dl>
 <p>Asset bundle at the destination folder contains the patch resource. <br  />
 Now the bundle has to be delivered to the client ad loaded to the game via <a class="el" href="ddm-abt.html">Asset Bundles Tools</a>. </p>
 </div></div><!-- contents -->

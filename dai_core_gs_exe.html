@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -120,27 +120,27 @@ Logic Cores Root</h1>
 </ul>
 <h1><a class="anchor" id="dai_core_gs_exe_action"></a>
 Actions using</h1>
-<p ><code>Action</code> is a final state logical block the represents leaf of the branch. It has no any children and stops in-depth hierarchy navigation on itself.</p>
+<p ><code>Action</code> is a final state logical block the represents leaf of the branch. It has no children and stops in-depth hierarchy navigation on itself.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">State   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">Success   </td><td class="markdownTableBodyNone">Execution of an action has being competed with an expected result.\nIn case of conditional actions <code>Success</code> result should mean <code>true</code>.    </td></tr>
+<td class="markdownTableBodyCenter">Success   </td><td class="markdownTableBodyNone">Execution of an action has been competed with an expected result.\nIn case of conditional actions <code>Success</code> result should mean <code>true</code>.    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter">Fail   </td><td class="markdownTableBodyNone">Execution of an action has been failed.\nIn case of conditional actions <code>Success</code> result should mean <code>false</code>.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">In progress   </td><td class="markdownTableBodyNone">Execution of action has not being finished yet.\nThe node will be called on the next tic as soon as be reached in execution queue.   </td></tr>
+<td class="markdownTableBodyCenter">In progress   </td><td class="markdownTableBodyNone">Execution of action has not been finished yet.\nThe node will be called on the next tic as soon as be reached in execution queue.   </td></tr>
 </table>
 <h1><a class="anchor" id="dai_core_gs_exe_orders"></a>
 Orders using</h1>
-<p ><code>Order</code> is also the <code>Action</code> derived class. The difference is the <code>Order</code> can receive other <code>Action</code> instances as child. using othders you creating in-depth hierarchy of logic that allows to make you conditional branching of AI instance behavior.</p>
+<p ><code>Order</code> is an <code>Action</code> derived class. The difference is the <code>Order</code> can receive other <code>Action</code> instances as child. By using orders, you are creating in-depth hierarchy of logic that allows to make you conditional branching of AI instance behavior.</p>
 <p >By global logical concept orders splits on following ideas: </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">Concept   </th><th class="markdownTableHeadNone">Idea    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">Sequencer   </td><td class="markdownTableBodyNone">Executes children logical nodes in some sequence following a straight algorithm.    </td></tr>
+<td class="markdownTableBodyCenter">Sequencer   </td><td class="markdownTableBodyNone">Executes child logical nodes in some sequence following a straight algorithm.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter">Multi-task   </td><td class="markdownTableBodyNone">Executes children logical nodes independently providing you with fake or real multi-threading operations.    </td></tr>
+<td class="markdownTableBodyCenter">Multi-task   </td><td class="markdownTableBodyNone">Executes child logical nodes independently providing you with fake or real multi-threading operations.    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyCenter">Randomizer   </td><td class="markdownTableBodyNone">Executes children logical node in some randomly way to simulate flexible behavior in the cases with the same entry conditions.    </td></tr>
 <tr class="markdownTableRowEven">
@@ -205,7 +205,7 @@ via Action</h2>
 <p >More details you may find by following link: <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__d_a_i__nodes.html#dai_core_nodes_actions">Actions</a></p>
 <h2><a class="anchor" id="dai_core_gs_exe_mem_code"></a>
 via code</h2>
-<p >During <code><a class="el" href="class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions">Doloro.AI.Action</a></code> or <code><a class="el" href="class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order">Doloro.AI.Order</a></code> development, or managing process of an <code><a class="el" href="class_doloro_1_1_a_i_1_1_brain.html" title="AI Components that executes node based actions map.">Doloro.AI.Brain</a></code> instace from the external tools and components you may interact with the Virutal Memory of the AI instance.</p>
+<p >During <code><a class="el" href="class_doloro_1_1_a_i_1_1_action.html" title="Abstract class for creating custom actions">Doloro.AI.Action</a></code> or <code><a class="el" href="class_doloro_1_1_a_i_1_1_order.html" title="Abstract class that used for calculations of order">Doloro.AI.Order</a></code> development or managing process of an <code><a class="el" href="class_doloro_1_1_a_i_1_1_brain.html" title="AI Components that executes node based actions map.">Doloro.AI.Brain</a></code> instace from the external tools and components you may interact with the Virtual Memory of the AI instance.</p>
 <h4><a class="anchor" id="dai_core_gs_exe_mem_code_w"></a>
 Writing</h4>
 <p >Following example demonstrates how to set variable to the <code><a class="el" href="class_doloro_1_1_a_i_1_1_core_1_1_memory.html" title="The class that add an ability to AI to member the references and values. Required to orientation in t...">Doloro.AI.Core.Memory</a></code> instance allocated over a <code><a class="el" href="class_doloro_1_1_a_i_1_1_brain.html" title="AI Components that executes node based actions map.">Doloro.AI.Brain</a></code> component.</p>
@@ -247,7 +247,7 @@ Reading</h4>
 <div class="line">if(!(VAR_INSTANCE.value is EXPECTED_TYPE castedVar))</div>
 <div class="line">{</div>
 <div class="line">    // Variable has unexpected type.</div>
-<div class="line">    // Considering `Action` exeution as failed.</div>
+<div class="line">    // Considering `Action` execution as failed.</div>
 <div class="line">    return Result.Fail;</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -271,7 +271,7 @@ Reading</h4>
 Session data</h1>
 <p >Normally any <code>Action</code> which behavior based on its internal data should release this entire temporal data as soon as its active session is ended.</p>
 <p >To handle this you need to override <code><a class="el" href="class_doloro_1_1_a_i_1_1_action.html#af09f24bbd14e3e38ad653e18e63021aa" title="Occurs when action execution is ended. Calls each time the node got an explicit result as a Result....">Doloro.AI.Action.End</a></code> handler and dispatch the entire session data within.</p>
-<p >Such a data must be set back to parameters considering default to the node along with its definition made by AI developer or default values defied within the source itself. Otherwise it could cause unexpected behavior during the next session</p>
+<p >Such a data must be set back to parameters considering default to the node along with its definition made by AI developer or default values defied within the source itself. Otherwise, it could cause unexpected behavior during the next session</p>
 <h2><a class="anchor" id="dai_core_gs_exe_session_example"></a>
 Example</h2>
 <p >Following example shows a good practice of work with session data that dully modifies an <code>Action</code> instance from inside.</p>
@@ -301,7 +301,7 @@ Example</h2>
 <div class="line">    // Executive logic for the node.</div>
 <div class="line">    public override Result Pass(Brain ai)</div>
 <div class="line">    {</div>
-<div class="line">        // Executing logical node with affect of internal values.</div>
+<div class="line">        // Executing logical node with effect over internal values.</div>
 <div class="line">        ....</div>
 <div class="line">        // ------------------------------------------------------</div>
 <div class="line"> </div>
@@ -345,8 +345,8 @@ Example</h2>
 <div class="line">}</div>
 </div><!-- fragment --><h2><a class="anchor" id="dai_core_gs_exe_session_example_bp"></a>
 Best practice</h2>
-<p >Instead of creating such complex schemas mentioned in previous paragraph, we recommend you to avoid overriding of initial setting members and separate your permanent and temporal data.</p>
-<p >Just make your choose in conditional logic using initial members and reinitialize temporal members according to it.</p>
+<p >Instead of creating such complex schemas mentioned in previous paragraph, we recommend you avoid overriding of initial setting members and separate your permanent and temporal data.</p>
+<p >Just make you choose in conditional logic using initial members and reinitialize temporal members according to it.</p>
 <p >This will allow you to avoid unnecessary operations of backing up and restoring of the values. Remember that an AI should be as fast as possible and anything that could be reduced must be reduced.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The practice applicable only to management of memory allocated within the Action instance. Any external data should be handled using the previous concept.</dd></dl>
 <h1><a class="anchor" id="dai_core_gs_exe_flow"></a>

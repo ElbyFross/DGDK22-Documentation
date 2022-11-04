@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -108,9 +108,9 @@ $(document).ready(function(){initNavTree('dgraphs_pathfinding.html',''); initRes
 </div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_pathfinding_about"></a>
 About</h1>
-<p >One of the main operation during work with graphs is a pathfinding. <br  />
+<p >One of the main operations during work with graphs is a pathfinding. <br  />
 The operation allows to find path between graph nodes.</p>
-<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> implements architecture and core concepts for this tasks for you. Getting you both options:</p><ul>
+<p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> implements architecture and core concepts for these tasks for you. Getting you both options:</p><ul>
 <li>use pre-implemented algorithms</li>
 <li>implement your own by extension of the architecture, in case you need non-standard output.</li>
 </ul>
@@ -119,17 +119,17 @@ Brief idea of pathfinding, for beginners</h2>
 <p >Following section isn't a serious lecture and made to introduce you into base ideas of pathfinding in simple words.</p>
 <p ><b>How pathfinding works:</b> <br  />
 </p><ul>
-<li>The main concept you should understand when you are working with graphs that the pathfinder algorithms usually builds a path basing computing on connection weights, that allows to build most efficient path cross the graph node.</li>
+<li>The main concept you should understand when you are working with graphs that the pathfinder algorithms usually build a path basing computing on connection weights, that allows to build most efficient path cross the graph node.</li>
 <li>Second important part of pathfinder algorithms is a world position of the nodes. By using this data an algorithm can determine is the path leading toward destination point or now. Such knowledge allows to define which path in current pool is more perspective comparing to each other. <br  />
 </li>
 </ul>
 <p ><em>Always consider this ideas when you are planning implementation of some graph into the game.</em></p>
-<p >For more precise \ correct information we recommend you to introduce into Graph Theory as a segment of discrete math. Its important part of wide bunch of game development tasks and understanding of fundamentals will help you to reach higher grounds than any brief explanation.</p>
+<p >For more precise \ correct information we recommend you introduce into Graph Theory as a segment of discrete math. Its important part of wide bunch of game development tasks and understanding of fundamentals will help you to reach higher grounds than any brief explanation.</p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_pathfinding_path"></a>
 Path</h1>
 <p ><code>Path</code> by itself is an abstract class that represents path finding algorithm. Using a <code>Path</code> derived class instance you may request path build within some graph using <code>Path.Build</code> method.</p>
-<p >Pathfinding works in 3 ways, depending from which one is mode preffered with your architecture. </p><table class="markdownTable">
+<p >Pathfinding works in 3 ways, depending on which one is mode preferred with your architecture. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Operation type   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -140,7 +140,7 @@ Path</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Coroutine   </td><td class="markdownTableBodyNone"><code>BuildCoroutine</code>   </td><td class="markdownTableBodyNone">Also kind of async operation using Unity <code>Coroutine</code> implementation that computes path not in a single call but as long as it takes without damage to performance.   </td></tr>
 </table>
-<dl class="section warning"><dt>Warning</dt><dd><code>Path</code> by itself not implements any pathfinding algorithm. <br  />
+<dl class="section warning"><dt>Warning</dt><dd><code>Path</code> by itself does not implement any pathfinding algorithm. <br  />
 You still may use it to get access to cached paths if it's not important which exactly pathfinder has been used during search.</dd></dl>
 <p><b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_path.html" title="Base logic of the navigation path between two points.">Doloro.Graphs.Path</a></p>
 <p ><br  />
@@ -165,7 +165,7 @@ Cache</h2>
 <div class="line">  // The path between nodes has found in cache.</div>
 <div class="line">  // use output `path` as you need.</div>
 <div class="line">}</div>
-</div><!-- fragment --><p >You may force some path to cache to make something like a manual waypoints. </p><div class="fragment"><div class="line">var waypoints = new List&lt;GraphNode&gt;();</div>
+</div><!-- fragment --><p >You may force some path to cache to make something like manual waypoints. </p><div class="fragment"><div class="line">var waypoints = new List&lt;GraphNode&gt;();</div>
 <div class="line">// Filling manual path</div>
 <div class="line">....</div>
 <div class="line">// -------------------</div>
@@ -176,7 +176,7 @@ Cache</h2>
 </p>
 <h2><a class="anchor" id="dgraphs_pathfinding_path_relayed"></a>
 Relayed state</h2>
-<p >In case you are requesting pathfinding between same points that already has been computed with the same algorithm you are using and the path has not been removed from the cache, the core will skip pathfinding and instantly return you related <code>Path</code> instance with computed result.</p>
+<p >In case you are requesting pathfinding between same points that already has been computed with the same algorithm you are using, and the path has not been removed from the cache, the core will skip pathfinding and instantly return you related <code>Path</code> instance with computed result.</p>
 <p >Such a <code>Path</code> instance will has relayed <code>state</code> and will forward to another precomputed instance. The state considering as <code>isComputed</code> the same as <code>Built</code> one.</p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_pathfinding_astar"></a>
@@ -190,7 +190,7 @@ A*</h1>
 How to...</h1>
 <h2><a class="anchor" id="dgraphs_pathfinding_ht_build"></a>
 Build a path</h2>
-<p >To build the path at first you should defined which algorithm you want to use. <br  />
+<p >To build the path at first you should define which algorithm you want to use. <br  />
  Following example uses A* implemented with <code>AStarPath</code> class. An example skips a part of graph creation and connections establishing. </p><table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Member   </th><th class="markdownTableHeadNone">Type   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
@@ -212,7 +212,7 @@ Build a path</h2>
 <div class="line"> </div>
 <div class="line">if(!path.isComputed)</div>
 <div class="line">{</div>
-<div class="line">  // Path can&#39;t be build</div>
+<div class="line">  // Path can&#39;t be built</div>
 <div class="line">  throw new ...</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -223,7 +223,7 @@ Build a path</h2>
 </p>
 <h2><a class="anchor" id="dgraphs_pathfinding_ht_get"></a>
 Get built path</h2>
-<p >At first in case of normal implementation of pathfinder algorithm and its interfragion within <b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> logic you no need any manual calls. Just build a new path the way you want and in case if its already has been built the system will return you chached instance instead on new computing process start.</p>
+<p >At first in case of normal implementation of pathfinder algorithm and its integration within <b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> logic you no need any manual calls. Just build a new path the way you want and in case if its already has been built the system will return you cached instance instead on new computing process start.</p>
 <p >Still the API leave you several manual ways to get access to the cached instances.</p>
 <h3><a class="anchor" id="dgraphs_pathfinding_ht_get_abstract"></a>
 Abstract path</h3>

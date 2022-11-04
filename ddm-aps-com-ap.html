@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -155,7 +155,7 @@ Empty domains</h2>
 Such a property can be accessed both with empty domain by the property name only, or by addressing it via the <code>root\PROP_NAME</code> path where the <code>PROP_NAME</code> is the name of the property.</p>
 <h2><a class="anchor" id="ddm-aps-com-ap-d-r-conf"></a>
 Name conflicts</h2>
-<p >Domain or property can't has the same path. <br  />
+<p >Domain or property can't have the same path. <br  />
 In case if a property of domain conflicts each other such a set will cause an exception.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -165,7 +165,7 @@ In case if a property of domain conflicts each other such a set will cause an ex
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Property path   </td><td class="markdownTableBodyNone"><code>Player.Body.health</code>   </td><td class="markdownTableBodyNone"><code>Player.body</code>   </td></tr>
 </table>
-<p>Following <code>exception</code> example simulates the situation when you attempts to create <code>body</code> property in <code>Player</code> domain, but there already exits a domain <code>Player\Body</code> that conflicts with the property path. Same goes to other side.</p>
+<p>Following <code>exception</code> example simulates the situation when you attempt to create <code>body</code> property in <code>Player</code> domain, but there already exits a domain <code>Player\Body</code> those conflicts with the property path. Same goes to other side.</p>
 <hr  />
 <h1><a class="anchor" id="ddm-aps-com-ap-ser"></a>
 Serialization</h1>
@@ -183,7 +183,7 @@ Development</h2>
 <p >Following tutorial introduce you into entire development stages.</p>
 <h4><a class="anchor" id="ddm-aps-com-ap-cstm-dev-rt"></a>
 Runtime part</h4>
-<p >To create a new runtime property implementation you need to create a new class derived from the <code>AssetProperty</code> following the pattern provided below.</p>
+<p >To create a new runtime property implementation, you need to create a new class derived from the <code>AssetProperty</code> following the pattern provided below.</p>
 <ol type="1">
 <li>Create new class.</li>
 <li>Derive it from <code>AssetProperty</code></li>
@@ -199,7 +199,7 @@ Runtime part</h4>
 <div class="line">[Serializable] // Marking class the serializable.</div>
 <div class="line">public class PROPERTY_NAME :</div>
 <div class="line">    AssetProperty,  // Deriving `AssetProperty` class.</div>
-<div class="line">    ISerializable   // Implementing members demanded to serialization process..</div>
+<div class="line">    ISerializable   // Implementing members demanded to serialization process.</div>
 <div class="line">{</div>
 <div class="line">    // Property that handle the raw `Value` as expected type.</div>
 <div class="line">    VALUE_TYPE ValueAs_VALUE_TYPE</div>
@@ -240,7 +240,7 @@ Runtime part</h4>
 </ul>
 <h4><a class="anchor" id="ddm-aps-com-ap-cstm-dev-reditor"></a>
 Editor part</h4>
-<p >After creating the runtime part you need to create editor part to let the tool know how to display and treat the property in Editor GUI.</p>
+<p >After creating the runtime part, you need to create editor part to let the tool know how to display and treat the property in Editor GUI.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The class created for this part MUST be located at <code>Editor</code> folder.</dd></dl>
 <ol type="1">
 <li>Create new class.</li>

@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -107,7 +107,7 @@ About</h2>
 In-box tabs</h2>
 <h4><a class="anchor" id="dai-inspector-asm"></a>
 Core UI</h4>
-<p >The main tab in inspector that always exists for any logical node. Provides control for base settigns of the node assembly and pipeline behavior.</p>
+<p >The main tab in inspector that always exists for any logical node. Provides control for base settings of the node assembly and pipeline behavior.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Member   </th><th class="markdownTableHeadNone">Description    </th></tr>
@@ -139,7 +139,7 @@ Custom node inspector</h4>
 </li>
 <li>Derive the class from the <code><a class="el" href="class_doloro_1_1_a_i_1_1_action_editor.html" title="Base class of AI behavior inspectors used at the editor for entities configuration.">Doloro.AI.ActionEditor</a></code>.</li>
 <li>Add a <code><a class="el" href="class_doloro_1_1_a_i_1_1_custom_action_editor_attribute.html" title="Attribute that bonds editor script with the Action source script.">Doloro.AI.CustomActionEditorAttribute(typeof(YOUR_ACTION_NAME))</a></code> where <code>YOUR_ACTION_NAME</code> is the action you'd like to bond with the editor.</li>
-<li>Overide <code><a class="el" href="class_doloro_1_1_a_i_1_1_action_editor.html#a46c72f0cf489796326de23f8dc9fc08f" title="Draw the custom interface in editor">Doloro.AI.ActionEditor.OnGUI(Action action, Brain ai)</a></code> member. Insert you custom GUI within the scope.</li>
+<li>Override <code><a class="el" href="class_doloro_1_1_a_i_1_1_action_editor.html#a46c72f0cf489796326de23f8dc9fc08f" title="Draw the custom interface in editor">Doloro.AI.ActionEditor.OnGUI(Action action, Brain ai)</a></code> member. Insert your custom GUI within the scope.</li>
 </ul>
 <p >You no need to carry about marking any changes <em>dirty</em> or confirm changes in any way. The <code>DAI Inspector</code> handles all routine tasks for you.</p>
 <hr  />
@@ -152,7 +152,7 @@ History tab</h4>
 Debug tab</h4>
 <p >Debug tab is an extension provided from the box that connects <code><a class="el" href="class_doloro_1_1_a_i_1_1_action_editor.html#a772bc225fbd8aaf0f74e33d6e6424fb1" title="Draws the custom interface in debug tab.">Doloro.AI.ActionEditor.DebugGUI(Action action, Brain ai)</a></code> handler and inspector.</p>
 <p >The purpose of this tab to show a detailed info about internal process within a node that the developer's of the node considering important to analysis and bug-tracking.</p>
-<p >Also the tab provides base controls for managing the bond between the node and <code><a class="el" href="namespace_doloro.html">Doloro</a> AI Debug Environment</code>. </p>
+<p >Also, the tab provides base controls for managing the bond between the node and <code><a class="el" href="namespace_doloro.html">Doloro</a> AI Debug Environment</code>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

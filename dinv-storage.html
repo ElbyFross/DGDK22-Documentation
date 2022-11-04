@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -100,10 +100,10 @@ $(document).ready(function(){initNavTree('dinv-storage.html',''); initResizable(
 <div class="textblock"><h1><a class="anchor" id="dinv-storage-a"></a>
 About</h1>
 <p >A <code>Storage</code> object allows to create a model of in-game storage implements its own features and receives database entry as content. <br  />
-The storage resource by itself an entity of Entity Component System implemented with the <a class="el" href="dinv_storages_service.html">Storages Service</a>. When you loads any <code>StorageContainer</code> from <a class="el" href="dinv-storages-database.html">Storages Database</a> on scene via the service you'll get an instance of <code>Storage</code> bond with the container.</p>
+The storage resource by itself an entity of Entity Component System implemented with the <a class="el" href="dinv_storages_service.html">Storages Service</a>. When you load any <code>StorageContainer</code> from <a class="el" href="dinv-storages-database.html">Storages Database</a> on scene via the service, you'll get an instance of <code>Storage</code> bond with the container.</p>
 <p >Such an instance will receive saved session data provided with the loaded data container. <br  />
 The changes in the container will be automatically saved to the database as soon as the <code>Storage</code> instance has been released via the service.</p>
-<p >Simply its enough to have a single <code>Storage</code> resource that will be a default container used all around the game, but normally you may need to implement custom features over the storages, like a lock, or ownership rights. For such cases you may need to create extra variants of base <code>Starage</code> resource and extend they with special logic. More about in <a class="el" href="dinv-storage.html#dinv-storage-p">Features</a> section.</p>
+<p >Simply it’s enough to have a single <code>Storage</code> resource that will be a default container used all around the game, but normally you may need to implement custom features over the storages, like a lock, or ownership rights. For such cases you may need to create extra variants of base <code>Starage</code> resource and extend they with special logic. More about in <a class="el" href="dinv-storage.html#dinv-storage-p">Features</a> section.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storage.html" title="Implements conception of the in-game storage.">Doloro.InvetorySystem.Storage</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_storages_service.html" title="Helper class that provides API for handling Storage instances at runtime. Implements entity component...">Doloro.InvetorySystem.StoragesService</a></li>
@@ -162,7 +162,7 @@ In-box</h2>
 <h2><a class="anchor" id="dinv-storage-p-dev"></a>
 Development</h2>
 <p >To create a new Storage Feature enough to create a new component class derived from the <code>AStorageFeature</code>. <br  />
-Than the instance of the component has to be added to the game object with <code>Storage</code> component.</p>
+Then the instance of the component has to be added to the game object with <code>Storage</code> component.</p>
 <p >In common the feature class will follow the next pattern: </p><div class="fragment"><div class="line">using Doloro.DataManagement.Serialization;</div>
 <div class="line">using Doloro.InvetorySystem.Features;</div>
 <div class="line">using System;</div>
@@ -236,7 +236,7 @@ Than the instance of the component has to be added to the game object with <code
 <div class="line">        // Your serializable members here.</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><p> <code>CrossSessionData</code> is an optional implementation. Its not required in case the feature is uniform and has no difference from one Storage instance to other.</p>
+</div><!-- fragment --><p> <code>CrossSessionData</code> is an optional implementation. It’s not required in case the feature is uniform and has no difference from one Storage instance to other.</p>
 <p >You also may find useful deriving the component from <code>AMaskStorageFeature</code> instead of regular <code>AStorageFeature</code> in case you has to prevent performing not permitted transactions between storages via the ref dinv_trasaction_service. Such feature will validate is the transaction passes defined rules that allows to block the order from execution.</p>
 <p >The class derived from <code>AMaskStorageFeature</code> has only one difference from previous pattern: </p><div class="fragment"><div class="line">public class STORAGE_FEATURE : AMaskStorageFeature</div>
 <div class="line">{</div>
@@ -244,7 +244,7 @@ Than the instance of the component has to be added to the game object with <code
 <div class="line"> </div>
 <div class="line">    public override bool OnTrasactionMask(TransactionService.TransactionOrder order)</div>
 <div class="line">    {</div>
-<div class="line">        //  Validate the order and make the conclusion</div>
+<div class="line">        // Validate the order and make the conclusion</div>
 <div class="line">        // is it pass the masking rules.</div>
 <div class="line"> </div>
 <div class="line">        // You also may set `message` property that can be used</div>

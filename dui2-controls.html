@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('dui2-controls.html',''); initResizable
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-controls-a"></a>
 About</h1>
-<p >As any object oriented engine DUI2 supposed that any GUI control is a different instance. <br  />
-GUI elements declaring in the engine by using the components derived from a certain classes supported with embedding into backstage engine logic.</p>
-<p >The engine by itself is a frameworks so allows you to create a control as from a scratch using the most basic classes that handling only the control integration into the engine, or by using more advanced solutions created from specific tasks.</p>
+<p >As any object-oriented engine DUI2 supposed that any GUI control is a different instance. <br  />
+GUI elements declaring in the engine by using the components derived from certain classes supported with embedding into backstage engine logic.</p>
+<p >The engine by itself is a framework so allows you to create a control as from a scratch using the most basic classes that handling only the control integration into the engine, or by using more advanced solutions created from specific tasks.</p>
 <p >During development it's important to understand that a single object can has only a single component derived from <a class="el" href="dui2-controls.html#dui2-controls-core-element">AGUIElement</a> class. <br  />
 But if you need to make a control more extendable and flexible you always my use <a class="el" href="dui2-controls.html#dui2-controls-core-inspector">Content Inspectors</a> features</p>
 <hr  />
@@ -114,7 +114,7 @@ Core classes</h1>
 AGUIElement</h2>
 <p >It a ground level abstract class that must be derived by any element of <a class="el" href="namespace_doloro.html">Doloro</a> UI 2. The element encapsulates object integration to the engine. Implements a wide collection of message handler that occurs along with engine internal events.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_g_u_i_element.html" title="Base class of all UI elements int Doloro UI Engine.">Doloro.UIEngine2.AGUIElement</a></p>
-<p >To implement a new GUI element you enough to create a new script derived from the <code>AGUIElement</code>. <br  />
+<p >To implement a new GUI element, you enough to create a new script derived from the <code>AGUIElement</code>. <br  />
 </p><dl class="section warning"><dt>Warning</dt><dd>In case of overriding of base Unity's messages handlers like always call base method in body before any extra action. <div class="fragment"><div class="line">public class CustomGUIElement : AGUIElement</div>
 <div class="line">{</div>
 <div class="line">    protected override void Awake()</div>
@@ -126,7 +126,7 @@ AGUIElement</h2>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></dd></dl>
-<p>When you overriding the base message handlers you no need to care about base method call. Entire handlers calls are fully encapsulated so can be implemented safely without consideration of the backstage operations.</p>
+<p>When you are overriding the base message handlers you no need to care about base method call. Entire handlers’ calls are fully encapsulated so can be implemented safely without consideration of the backstage operations.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Message Handler   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
@@ -137,7 +137,7 @@ AGUIElement</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code>OnFocus</code>   </td><td class="markdownTableBodyNone">Occurs when element requested on focus.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><code>OnLostFocus</code>   </td><td class="markdownTableBodyNone">Occurs when UI loosing focus.    </td></tr>
+<td class="markdownTableBodyNone"><code>OnLostFocus</code>   </td><td class="markdownTableBodyNone">Occurs when UI losing focus.    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code>OnHoverBegin</code>   </td><td class="markdownTableBodyNone">Occurs when pointer starts hovering the element.    </td></tr>
 <tr class="markdownTableRowEven">
@@ -147,7 +147,7 @@ AGUIElement</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>OnDragBegin</code>   </td><td class="markdownTableBodyNone">Occurs when pointer is start drag process.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>OnDrag</code>   </td><td class="markdownTableBodyNone">Occurs each frame when you drags the element.    </td></tr>
+<td class="markdownTableBodyNone"><code>OnDrag</code>   </td><td class="markdownTableBodyNone">Occurs each frame when you drag the element.    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>OnDragEnd</code>   </td><td class="markdownTableBodyNone">Occurs when dragging element from <code>ElementOnAction</code> is released.    </td></tr>
 <tr class="markdownTableRowOdd">
@@ -155,13 +155,13 @@ AGUIElement</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>OnPointerUp</code>   </td><td class="markdownTableBodyNone">Occurs when LBM released above hovering element.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>OnContextMenu</code>   </td><td class="markdownTableBodyNone">Occurs when you calling context menu with focused element.   </td></tr>
+<td class="markdownTableBodyNone"><code>OnContextMenu</code>   </td><td class="markdownTableBodyNone">Occurs when you are calling context menu with focused element.   </td></tr>
 </table>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dui2-controls-core-field"></a>
 AGUIField</h2>
-<p >Light weighted class derived from <code>AGUIElement</code> extends it's logic with <code>value</code> property according with events and messages related to its changes.</p>
+<p >Light weighted class derived from <code>AGUIElement</code> extends its logic with <code>value</code> property according with events and messages related to its changes.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Allows only operations by values, not by type.</dd></dl>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -186,7 +186,7 @@ Content Inspectors</h2>
 </table>
 <p ><code>AExtandableInspectorGUIElement</code> is the <code>AContentInspectorGUIElement</code> derived component that allows to create a complex extendable ecosystem of controls that affects GUI along with backstage content update. <br  />
 The control attaches <code>AContentInspectorExtension</code> components located over the same game object and relays internal messages to destination handlers.</p>
-<p >Such controls are fully supports ddm merging features that makes it possible to extend controller with a new GUI features at runtime with custom modifications shared with asset bundles without affecting the main layout and core solutions.</p>
+<p >Such controls are fully supports ddm merging features that makes it possible to extend controller with new GUI features at runtime with custom modifications shared with asset bundles without affecting the main layout and core solutions.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_content_inspector_g_u_i_element.html" title="GUI Element that allows to apply a content of certain type to it.">Doloro.UIEngine2.Controls.AContentInspectorGUIElement</a>{ContentType}</li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_controls_1_1_a_extandable_inspector_g_u_i_element.html" title="GUIElement that using to displaying and modifying of content related to some external item data.">Doloro.UIEngine2.Controls.AExtandableInspectorGUIElement</a>{ContentType, GUIExtensionType}</li>
@@ -210,12 +210,12 @@ Provided controls implement a very diverse logic with different complexity that 
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Window Drag controller   </td><td class="markdownTableBodyNone">Simple   </td><td class="markdownTableBodyNone">Control that works along with parental <code>Window</code> and handles its move over the screen during self-drag.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Window Resize controller   </td><td class="markdownTableBodyNone">Simple   </td><td class="markdownTableBodyNone">Control that works along with parental <code>Window</code> and handles its resize during self-drag. Defines drag behavior suitable to control position to layout.    </td></tr>
+<td class="markdownTableBodyNone">Window Resize controller   </td><td class="markdownTableBodyNone">Simple   </td><td class="markdownTableBodyNone">Control that works along with parental <code>Window</code> and handles it resize during self-drag. Defines drag behavior suitable to control position to layout.    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Runtime Workspace Layout   </td><td class="markdownTableBodyNone">Advanced   </td><td class="markdownTableBodyNone">Complex control implemented with the <a class="el" href="dui2-rwl.html">Runtime Workspace</a> module.<br  />
    </td></tr>
 </table>
-<p>Defines logic of dynamic layout that can be assembled into a complex multi-layouts solution. | | Runtime Workspace Splitter| Simple | Part of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> logic. The control initializes resize of runtime layouts divided with it. | | Measured slider | Simple | Control over the Unity's <code>Slider</code> that allows to make it measures visible to player making the experience more comfort. | </p>
+<p>Defines logic of dynamic layout that can be assembled into a complex multi-layout’ solution. | | Runtime Workspace Splitter| Simple | Part of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> logic. The control initializes resize of runtime layouts divided with it. | | Measured slider | Simple | Control over the Unity's <code>Slider</code> that allows to make it measures visible to player making the experience more comfort. | </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -128,9 +128,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a10c2776b518645603648a321c5427785"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a10c2776b518645603648a321c5427785">Serialize</a> (object obj, string fullPath)</td></tr>
 <tr class="memdesc:a10c2776b518645603648a321c5427785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes data container to the file.  <a href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a10c2776b518645603648a321c5427785">More...</a><br /></td></tr>
 <tr class="separator:a10c2776b518645603648a321c5427785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab207bcf713007e568d872f54354b3f81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#ab207bcf713007e568d872f54354b3f81">Serialize</a> (object obj, string fullPath, BinaryFormatter formatter)</td></tr>
+<tr class="memdesc:ab207bcf713007e568d872f54354b3f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes data container to the file.  <a href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#ab207bcf713007e568d872f54354b3f81">More...</a><br /></td></tr>
+<tr class="separator:ab207bcf713007e568d872f54354b3f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626e39084e80faa7d7ad151e34b595bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a626e39084e80faa7d7ad151e34b595bd">Serialize</a> (object obj, out byte[] data)</td></tr>
 <tr class="memdesc:a626e39084e80faa7d7ad151e34b595bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes data container to the binary array.  <a href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a626e39084e80faa7d7ad151e34b595bd">More...</a><br /></td></tr>
 <tr class="separator:a626e39084e80faa7d7ad151e34b595bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63704baa0a6969704d7859c95d546091"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a63704baa0a6969704d7859c95d546091">Serialize</a> (object obj, out byte[] data, BinaryFormatter formatter)</td></tr>
+<tr class="memdesc:a63704baa0a6969704d7859c95d546091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes data container to the binary array.  <a href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#a63704baa0a6969704d7859c95d546091">More...</a><br /></td></tr>
+<tr class="separator:a63704baa0a6969704d7859c95d546091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affafb50694cf06aaab12d938417ec19f"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#affafb50694cf06aaab12d938417ec19f">Deserialize&lt; T &gt;</a> (byte[] data)</td></tr>
 <tr class="memdesc:affafb50694cf06aaab12d938417ec19f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserializes data from the binary array.  <a href="class_doloro_1_1_data_management_1_1_serialization_1_1_binary_serialization_tool.html#affafb50694cf06aaab12d938417ec19f">More...</a><br /></td></tr>
 <tr class="separator:affafb50694cf06aaab12d938417ec19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -689,7 +695,7 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>LogsGenerate
 </div>
 </div>
 <a id="a626e39084e80faa7d7ad151e34b595bd" name="a626e39084e80faa7d7ad151e34b595bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a626e39084e80faa7d7ad151e34b595bd">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a626e39084e80faa7d7ad151e34b595bd">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -725,14 +731,74 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>LogsGenerate
 <p>Serializes data container to the binary array. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">obj</td><td>Object for serialization. </td></tr>
-    <tr><td class="paramname">data</td><td>Output binary array. </td></tr>
+    <tr><td class="paramname">obj</td><td>Object for serialization.</td></tr>
+    <tr><td class="paramname">data</td><td>Output binary array.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed. </td></tr>
+    <tr><td class="paramname">ArgumentNullException</td><td><code>obj</code> or \ and <code>formatter</code> is null.</td></tr>
+    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a63704baa0a6969704d7859c95d546091" name="a63704baa0a6969704d7859c95d546091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63704baa0a6969704d7859c95d546091">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Doloro.DataManagement.Serialization.BinarySerializationTool.Serialize </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out byte[]&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryFormatter&#160;</td>
+          <td class="paramname"><em>formatter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serializes data container to the binary array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Object for serialization.</td></tr>
+    <tr><td class="paramname">data</td><td>Output binary array.</td></tr>
+    <tr><td class="paramname">formatter</td><td>Custom binary formatter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentNullException</td><td><code>obj</code> or \ and <code>formatter</code> is null.</td></tr>
+    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -740,7 +806,7 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>LogsGenerate
 </div>
 </div>
 <a id="a10c2776b518645603648a321c5427785" name="a10c2776b518645603648a321c5427785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c2776b518645603648a321c5427785">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c2776b518645603648a321c5427785">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -783,7 +849,69 @@ static Action&#160;</td><td class="memItemRight" valign="bottom"><b>LogsGenerate
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed. </td></tr>
+    <tr><td class="paramname">ArgumentNullException</td><td><code>obj</code> or \ and <code>formatter</code> is null.</td></tr>
+    <tr><td class="paramname">ArgumentException</td><td><code>fullPath</code> is null or whitespace.</td></tr>
+    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab207bcf713007e568d872f54354b3f81" name="ab207bcf713007e568d872f54354b3f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab207bcf713007e568d872f54354b3f81">&#9670;&nbsp;</a></span>Serialize() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Doloro.DataManagement.Serialization.BinarySerializationTool.Serialize </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>fullPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryFormatter&#160;</td>
+          <td class="paramname"><em>formatter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serializes data container to the file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Object for serialization. </td></tr>
+    <tr><td class="paramname">fullPath</td><td>Output relative directory with file name and extension. </td></tr>
+    <tr><td class="paramname">formatter</td><td>Custom binary formatter to use.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentNullException</td><td><code>obj</code> or \ and <code>formatter</code> is null.</td></tr>
+    <tr><td class="paramname">ArgumentException</td><td><code>fullPath</code> is null or whitespace.</td></tr>
+    <tr><td class="paramname">SerializationException</td><td><a class="el" href="namespace_doloro_1_1_data_management_1_1_serialization.html">Serialization</a> failed.</td></tr>
   </table>
   </dd>
 </dl>

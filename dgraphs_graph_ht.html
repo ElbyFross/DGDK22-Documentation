@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dgraphs_graph_ht.html',''); initResiza
 </div>
 <div class="textblock"><h1><a class="anchor" id="dgraphs_graph_ht_gr_create"></a>
 Create graph</h1>
-<p >To create a new empty graph you need to follow next pattern. <br  />
+<p >To create a new empty graph, you need to follow next pattern. <br  />
 <code>var graph = new <a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Doloro.Graphs.Graph()</a>;</code></p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_node_create"></a>
@@ -151,7 +151,7 @@ Create node</h1>
 <div class="line"> </div>
 <div class="line">// New node of custom node type derived from `GrpahNode`</div>
 <div class="line">CUSTOM_TYPE node5 = graph.Add&lt;CUSTOM_TYPE&gt;();</div>
-</div><!-- fragment --><p >All the options leads to the save result but useful for different cases of nodes handling processes.</p>
+</div><!-- fragment --><p >All the options lead to the save result but useful for different cases of nodes handling processes.</p>
 <p ><b>See also:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_graphs_1_1_graph.html" title="Base graph implementation logic.">Doloro.Graphs.Graph</a></li>
 <li><a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html" title="Instance that defies">Doloro.Graphs.GraphNode</a></li>
@@ -170,7 +170,7 @@ Get node</h1>
 <p >Each node has its own signature that allows to access it on graph. <br  />
 <b>See also:</b> <a class="el" href="class_doloro_1_1_graphs_1_1_graph_node.html#af309bc5a1716e0cd38de3d706b605ec5" title="Signature of the graph point to direct access via the graph&#39;s nodes table.">Doloro.Graphs.GraphNode.signature</a></p>
 <p >The signature may be defined explicitly during node creation via constructor. <br  />
-In case if has no been defined will be generated automatically.</p>
+In case if has not been defined will be generated automatically.</p>
 <p >Access to the <code>GraphNode</code> by its signature goes in element access format: </p><div class="fragment"><div class="line">using Doloro.Graphs;</div>
 <div class="line"> </div>
 <div class="line">// Creating a graph with node signed as &quot;node0&quot;</div>
@@ -193,7 +193,7 @@ In case if has no been defined will be generated automatically.</p>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_connect"></a>
 Connect nodes</h1>
-<p >For connection of two nodes you enough to call them following next pattern. </p><div class="fragment"><div class="line">// Creating graph.</div>
+<p >For connection of two nodes, you enough to call them following next pattern. </p><div class="fragment"><div class="line">// Creating graph.</div>
 <div class="line">var graph = new Graph();</div>
 <div class="line"> </div>
 <div class="line">// Adding nodes into it.</div>
@@ -260,7 +260,7 @@ Instance</h2>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_duplex"></a>
 Set duplex connection state</h1>
-<p >By default entire connections goes as duplex (works in two way). <br  />
+<p >By default, entire connections goes as duplex (works in two way). <br  />
 But normal case in graphs math when the connection works only in one way. For this you have to turn off duplex mode on connection.</p>
 <h2><a class="anchor" id="dgraphs_graph_ht_duplex_ctr"></a>
 via constructor</h2>
@@ -278,7 +278,7 @@ Instance</h2>
 <hr  />
 <h1><a class="anchor" id="dgraphs_graph_ht_pos"></a>
 Define node's world position</h1>
-<p >As soon as we are talking about graphs using in games development, its a regular task to be able to use graph not only like a data set, but also as part of the in-game world (UI, Pathfinding, Maps, etc).</p>
+<p >As soon as we are talking about graphs using in games development, it’s a regular task to be able to use graph not only like a data set, but also as part of the in-game world (UI, Pathfinding, Maps, etc).</p>
 <p ><b><a class="el" href="namespace_doloro.html">Doloro</a> Graphs</b> allows you to make a bond between a <code>GraphNode</code> and its in-world representation coordinates. </p><div class="fragment"><div class="line">// Creating graph.</div>
 <div class="line">var graph = new Graph();</div>
 <div class="line"> </div>

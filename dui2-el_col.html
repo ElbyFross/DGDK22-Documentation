@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('dui2-el_col.html',''); initResizable()
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-el_col-a"></a>
 About</h1>
-<p >The engine provides embedded core for handling the collection-like UIs with standardized API and predefined bridge between internal logic and high level collection's features.</p>
+<p >The engine provides embedded core for handling the collection-like UIs with standardized API and predefined bridge between internal logic and high-level collection's features.</p>
 <hr  />
 <h1><a class="anchor" id="dui2-el_col-aguiec"></a>
 GUI Elements Collection</h1>
@@ -144,7 +144,7 @@ Usage of component allows to operate <code>AGUIElementsCollection</code> as <cod
 </p>
 <h2><a class="anchor" id="dui2-el_col-dc-custom"></a>
 Development</h2>
-<p >Implementation of a custom data connector is very easy. In case you not demands any extra features all you need to do is create a new class derived from the <code>AGUIElementsCollectionDataConnector</code> defining the operating type and expected GUI element type that supports operating type as content.</p>
+<p >Implementation of a custom data connector is very easy. In case you do not demand any extra features all you need to do is create a new class derived from the <code>AGUIElementsCollectionDataConnector</code> defining the operating type and expected GUI element type that supports operating type as content.</p>
 <div class="fragment"><div class="line">using Doloro.UIEngine2.Modules.ElementsCollection;</div>
 <div class="line"> </div>
 <div class="line">public class CustomDataConnector :</div>
@@ -181,7 +181,7 @@ Event Relay</h2>
 </p>
 <h2><a class="anchor" id="dui2-el_col-vh-listener"></a>
 Listener</h2>
-<p >As pair to Collection's <a class="el" href="dui2-el_col.html#dui2-el_col-vh-relay">Event Relay</a> the package provides you that supports. The component extends regular <code>UIHubListener</code> provided with the <a class="el" href="dui2-vh.html">Virtual UI Hub</a> module.</p>
+<p >As pair to Collection's <a class="el" href="dui2-el_col.html#dui2-el_col-vh-relay">Event Relay</a> the package provides you with such support. The component extends regular <code>UIHubListener</code> provided with the <a class="el" href="dui2-vh.html">Virtual UI Hub</a> module.</p>
 <p >The module allows to catch events shared with the relay in parental UI hub scope marked with the <code>OnSelected</code> key. According with this the component implements API to defined handler for selection events in encapsulated way.</p>
 <p >Note that the handler receives <code>AGUIElement</code> as first argument of the handler. Shared element is the one that has been selected in collection.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_extensions_1_1_elements_collection_08bbce1e30d37de7854366a73cd9276a.html" title="Uniform VirtualUIHub shared events listener that provides API to handle AGUIElementsCollection....">Doloro.UIEngine2.Modules.VirtualHub.Extensions.ElementsCollection.GUICollectionUIHubListener</a></p>
@@ -213,7 +213,7 @@ How to</h1>
 Create standard grid collection</h2>
 <h3><a class="anchor" id="dui2-el_col-ht-csgc-l"></a>
 Layout</h3>
-<p >The package provides you with pre-configured collection layout that can be used as example of source for your custom solutions. All you need to do is move it to your UI. In case you are planning to changed it we are strongly recommend you to create a prefab variant from it.</p>
+<p >The package provides you with pre-configured collection layout that can be used as example of source for your custom solutions. All you need to do is move it to your UI. In case you are planning to change it we are strongly recommend you to create a prefab variant from it.</p>
 <p >The template prefabs can be found by the following path:<br  />
 <code>Doloro-GDK \ Doloro-UI-2 \ Resources \ Templates \ Elements Collection</code></p>
 <table class="markdownTable">
@@ -231,13 +231,13 @@ Layout</h3>
 <h3><a class="anchor" id="dui2-el_col-ht-csgc-cs"></a>
 Cells stretching</h3>
 <p ><code>GridCollection</code> supports line stretching of elements in case you need to created not a cell layout but, locate a single element in line. <br  />
-To stretch a cell by some axis set it's related size to 0. Undefined size means <code>full layout</code>.</p>
+To stretch a cell by some axes set it's related size to 0. Undefined size means <code>full layout</code>.</p>
 <p ><br  />
 </p>
 <h3><a class="anchor" id="dui2-el_col-ht-csgc-api"></a>
 Main API</h3>
 <p >The pre-configured collections are using <code>GridCollection</code> components to empower the collection. According with this you may use entire API to manage its features.</p>
-<p >If we talking about more abstract concept of collections management, you have to understand that the <code>AGUIElementsCollection</code> implements <code>IList&lt;AGUIElement&gt;</code>, so you may work with elements directly using a regular interface as with <code>AGUIElement</code> instances.</p>
+<p >If we are talking about more abstract concept of collections management, you have to understand that the <code>AGUIElementsCollection</code> implements <code>IList&lt;AGUIElement&gt;</code>, so you may work with elements directly using a regular interface as with <code>AGUIElement</code> instances.</p>
 <p >In case you want to work with collection's content avoiding GUI element representation you have to implement a custom <code>AGUIElementsCollectionDataConnector</code>. More about here: <a class="el" href="dui2-el_col.html#dui2-el_col-dc-custom">Development</a>. In that case you may access elements by its value content reference instead addressing the representation. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

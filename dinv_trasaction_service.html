@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('dinv_trasaction_service.html',''); ini
 <div class="textblock"><h1><a class="anchor" id="dinv_trasaction_service_a"></a>
 About</h1>
 <p >A service that manages entire operation with <code>Storage</code> content, both for isolated storages and in cross-storages operation.</p>
-<p >The service prevents operation from popular bugs like a references forge or items dupe, by encapsulated tracking process of entire content during in-game actions.</p>
+<p >The service prevents operation from popular bugs like references forge or items dupe, by encapsulated tracking process of entire content during in-game actions.</p>
 <p ><b>Read also:</b> <a class="el" href="dinv-storage.html">Storage</a></p>
 <h1><a class="anchor" id="dinv_trasaction_service_usage"></a>
 Usage</h1>
@@ -132,7 +132,7 @@ Development</h2>
 <div class="line">            ....</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">        // Occurs when a transaction orders has been canceled.</div>
+<div class="line">        // Occurs when a transaction order has been canceled.</div>
 <div class="line">        // Must release reservation record.</div>
 <div class="line">    public void CancelReservation(TransactionService.TransactionOrder order)</div>
 <div class="line">    {</div>
@@ -163,20 +163,20 @@ Development</h2>
 <div class="line">        base.OnStorageRented();</div>
 <div class="line"> </div>
 <div class="line">                // Release your reservation data related to</div>
-<div class="line">                // an storage data source that no longer uses the</div>
+<div class="line">                // a storage data source that no longer uses the</div>
 <div class="line">                // entity with defined agent.</div>
 <div class="line"> </div>
 <div class="line">                ....</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p> A common practice you may require a way to decline order placement in case if reservation isn't possible.</p>
-<p >For that instead of derinving the <code>AStorageFeature</code> class, derive you class from <code>AMaskStorageFeature</code> where you may implement a custom <code>OnTrasactionMask</code> logic.</p>
+<p >For that instead of deriving the <code>AStorageFeature</code> class, derive you class from <code>AMaskStorageFeature</code> where you may implement a custom <code>OnTrasactionMask</code> logic.</p>
 <div class="fragment"><div class="line">using Doloro.InvetorySystem.Features;</div>
 <div class="line"> </div>
 <div class="line">public class MASKABLE_RESERVATION_STORAGE_FEATURE :</div>
 <div class="line">        AMaskStorageFeature, IReservationAgent</div>
 <div class="line">{</div>
-<div class="line">    // The same implementation like in previous example.</div>
+<div class="line">    // The same implementation as in the previous example.</div>
 <div class="line">    ....</div>
 <div class="line"> </div>
 <div class="line">    // Occurs before transaction order placement.</div>
@@ -192,7 +192,7 @@ Development</h2>
 <div class="line">}</div>
 </div><!-- fragment --><h2><a class="anchor" id="dinv_trasaction_service_reservation_examples"></a>
 Examples</h2>
-<p >The package has several implementation of reservation agent features. We recommend to explore the source of following components to ramp up with implementation practices.</p>
+<p >The package has several implementations of reservation agent features. We recommend exploring the source of following components to ramp up with implementation practices.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Feature   </th><th class="markdownTableHeadNone">Reservation practice    </th></tr>

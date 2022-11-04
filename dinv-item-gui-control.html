@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -115,7 +115,7 @@ The class proofs components configuration on target game object that simplifies 
 </p>
 <h2><a class="anchor" id="dinv-item-gui-custom"></a>
 Development</h2>
-<p >To create a custom GUI extension its enough to create a new class derived from <code>AItemGUIElementExtension</code>. By overriding provided handlers you may follow common <code>ItemGUIControl</code> events and implement feedback on them.</p>
+<p >To create a custom GUI extension, it’s enough to create a new class derived from <code>AItemGUIElementExtension</code>. By overriding provided handlers you may follow common <code>ItemGUIControl</code> events and implement feedback on them.</p>
 <p >Following example shows common template of GUI extension class. </p><div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
 <div class="line">using Doloro.InvetorySystem.UI.Controls;</div>
 <div class="line">using Doloro.InvetorySystem.UI.Extension;</div>
@@ -142,7 +142,7 @@ Development</h2>
 <div class="line">                // Release events subscriptions here.</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><p >You also may find useful derivng the component from the <code>AItemFeatureGUIExtension{FeatureType}</code> instead of regular <code>AItemGUIElementExtension</code>. Such a component bonds with a certain <code>AItemFeature</code> over the <code>Item</code> instance and follws its internal events and messages encapsulating objects management demands.</p>
+</div><!-- fragment --><p >You also may find useful deriving the component from the <code>AItemFeatureGUIExtension{FeatureType}</code> instead of regular <code>AItemGUIElementExtension</code>. Such a component bonds with a certain <code>AItemFeature</code> over the <code>Item</code> instance and follows its internal events and messages encapsulating objects management demands.</p>
 <div class="fragment"><div class="line">public class CUSTOM_ITEM_FEATURE_GUI_EXTENSION :</div>
 <div class="line">    AItemFeatureGUIExtension&lt;FEATURE_TYPE&gt;</div>
 <div class="line">{</div>

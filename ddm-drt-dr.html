@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -111,8 +111,8 @@ Using</h1>
 Creation</h2>
 <p >For creation of a new <code>Dynamic Resource</code> within a project you need to follow a few simple steps.</p>
 <ol type="1">
-<li>Create a <code>Resources</code> folder in the <code>Project</code> window. The folder will makes the resources located inside visible to search engine.</li>
-<li>Create new <code>GameObject</code> using <code>Hierarchy</code> window that will be used as resource, or select exists object that you want to turn to <code>DynamicResource</code>.</li>
+<li>Create a <code>Resources</code> folder in the <code>Project</code> window. The folder will make the resources located inside visible to search engine.</li>
+<li>Create new <code>GameObject</code> using <code>Hierarchy</code> window that will be used as resource or select exists object that you want to turn to <code>DynamicResource</code>.</li>
 <li>In the <code>Inspector</code> window press <code>Add component</code> button and navigate by following directory in drop-down list <br  />
  <code><a class="el" href="namespace_doloro.html">Doloro</a> GDK / <a class="el" href="namespace_doloro.html">Doloro</a> Data Management / Dynamic Resource</code></li>
 </ol>
@@ -133,7 +133,7 @@ Signature</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Key   </td><td class="markdownTableBodyNone">Key of the resource itself to direct access via the <code>DynamicResourcesDatabase</code>.   </td></tr>
 </table>
-<p >In common case the signature should be unique for each resource, but the system not prevents names collision. Some systems like a <a class="el" href="ddm-drt-mergetool.html">Merge Tool</a> or <a class="el" href="ddm-drt-patchtool.html">Patch Tool</a> managing resources with the same signatures like a part of whole, that allows to supply certain resource with new features / objects or modify them along with a scripts.</p>
+<p >In common case the signature should be unique for each resource, but the system does not prevent names collision. Some systems like a <a class="el" href="ddm-drt-mergetool.html">Merge Tool</a> or <a class="el" href="ddm-drt-patchtool.html">Patch Tool</a> managing resources with the same signatures as a part of whole, that allows to supply certain resource with new features / objects or modify them along with scripts.</p>
 <p ><b>See also:</b> <a class="el" href="class_doloro_1_1_data_management_1_1_dynamic_resources_1_1_dynamic_resources_database.html" title="Database of DynamicResources. During loading at the collections resources passing through^">Doloro.DataManagement.DynamicResources.DynamicResourcesDatabase</a></p>
 <h2><a class="anchor" id="ddm-drt-dr-use-versions"></a>
 Version</h2>
@@ -156,7 +156,7 @@ That will allow you to categorize the resource within internal data base and use
 <hr  />
 <h1><a class="anchor" id="ddm-drt-dr-ext"></a>
 Custom resource</h1>
-<p >During development you may face a requirements to create a custom class derived from the <code>DynamicResoruce</code>. <br  />
+<p >During development you may face requirements to create a custom class derived from the <code>DynamicResoruce</code>. <br  />
 <b>DDM</b> do not interferes with this. Any internal data base will work with such resource without any issues.</p>
 <h2><a class="anchor" id="ddm-drt-dr-rt"></a>
 Runtime</h2>
@@ -170,7 +170,7 @@ Runtime</h2>
 </div><!-- fragment --><p >Where <code>CUSTOM_D_RESOURCE_CLASS</code> is a name of your class and source file.</p>
 <h2><a class="anchor" id="ddm-drt-dr-ed"></a>
 Editor</h2>
-<p >If you want to re-use default <code>DynamicResoruce</code> editor inspector you need to create a custom editor script following next pattern.</p>
+<p >If you want to re-use default <code>DynamicResoruce</code> editor inspector, you need to create a custom editor script following next pattern.</p>
 <div class="fragment"><div class="line">using UnityEditor;</div>
 <div class="line"> </div>
 <div class="line">// Bonding you editor class with runtime class.</div>

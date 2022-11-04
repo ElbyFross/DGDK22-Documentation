@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -105,12 +105,12 @@ About</h1>
 </li>
 <li>You may handle its content via <em>Inspector</em> window by selecting the asset.</li>
 </ul>
-<p >The project may contains several databases. This lefts you with an option to use personal database related to some module instead of using a common database.</p><ol type="1">
+<p >The project may contain several databases. This lefts you with an option to use personal database related to some module instead of using a common database.</p><ol type="1">
 <li>Such database will have separated interface that makes it easier to manage it instead of using some big database with dozens of tags.</li>
 <li>Such database can be shared via <code>package</code> or <code>AssetBundle</code>.</li>
 <li>Independent databases makes your architecture much more flexible, stable and isolated from other modules.</li>
 </ol>
-<p >Even if you are using several databases the backstage not requires you any addressable access toward them. <br  />
+<p >Even if you are using several databases the backstage does not require you any addressable access toward them. <br  />
 Tags tools merge databases into a single one on runtime for common purposes, but also leave access to separated instances in case you need. <br  />
 <b>More about:</b> <a class="el" href="ddm-drt-tagstool-api.html">API</a></p>
 <dl class="section warning"><dt>Warning</dt><dd>Any <code>TagsDatabase</code> instance must be located within <code>Resources</code> folder to be accessible after build.</dd></dl>
@@ -119,7 +119,7 @@ Tags tools merge databases into a single one on runtime for common purposes, but
 Tag</h1>
 <p >Is an atomic entity of the <b>Tags Tool</b> that could be applied on over compatible objects.</p>
 <p >By itself <code>Tag</code> not provides any features and using only as a flag applied to an object. <br  />
-The tags exists for several purposes:</p><ul>
+The tags exist for several purposes:</p><ul>
 <li>Speed up access via cached collections.</li>
 <li>Categorization of abstract dynamic resources.</li>
 <li>Provide Decorator-like concept that allows to decorate object with a tag and let external system to handle it along with features related to the tag.</li>
@@ -130,7 +130,7 @@ The tags exists for several purposes:</p><ul>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Key   </td><td class="markdownTableBodyNone"><code>string</code>   </td><td class="markdownTableBodyNone">Key of the tag using as flag. Case insensitive for backstage systems.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Visibility   </td><td class="markdownTableBodyNone"><code>TagVisibility</code>   </td><td class="markdownTableBodyNone">Declaration of tag using policy. Not uses by core logic itself, but can be useful for higher level systems.    </td></tr>
+<td class="markdownTableBodyNone">Visibility   </td><td class="markdownTableBodyNone"><code>TagVisibility</code>   </td><td class="markdownTableBodyNone">Declaration of tag using policy. Not uses by core logic itself but can be useful for higher level systems.    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">IsCached   </td><td class="markdownTableBodyNone"><code>bool</code>   </td><td class="markdownTableBodyNone"><b>Editor only</b> flag that allows to move tag related resources to cached collections for instance access in future. More about: <a class="el" href="ddm-drt-tagstool-tdb.html#ddm-drt-tagstool-tdb-cache">Cache</a>    </td></tr>
 <tr class="markdownTableRowEven">
@@ -144,11 +144,11 @@ Cache</h1>
 <p >This allows you to optimize operations during runtime and pre-compute part of catalogs during the game loading without ruining game experience of players with loading screens of micro-freezes during gameplay.</p>
 <h2><a class="anchor" id="ddm-drt-tagstool-tdb-cache-case"></a>
 Example case</h2>
-<p >One of the possible exception <code>Item</code> tag that allows to filter dynamic resources to inventory related system. <br  />
+<p >One of the possible exceptions <code>Item</code> tag that allows to filter dynamic resources to inventory related system. <br  />
  Such a tag should has the <code>To Cache</code> flag defined as <code>true</code>.</p>
 <p >That will allow to get entire items in any frequently using systems like a: <br  />
 <em>Rewards, Shops, Inventories, Spawners</em>.</p>
-<p >At the same time the <code>Item</code> market resource also may has some details tags like one of offered:</p>
+<p >At the same time the <code>Item</code> market resource also may have some details tags like one of offered:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Tag   </th><th class="markdownTableHeadNone">Sample in-game feature over the objects with the tag    </th></tr>
@@ -167,8 +167,8 @@ Example case</h2>
 <hr  />
 <h1><a class="anchor" id="ddm-drt-tagstool-tdb-tag-merge"></a>
 Merge</h1>
-<p >A soon as the project may has several databases its a common sense that you may face a situation where you go a conflict databases that has the same name and the same tags.</p>
-<p >For a such case the backstage services not uses the databases directly but accessing them using <a class="el" href="ddm-drt-tagstool-api.html">API</a> that provides merged database got via <a class="el" href="ddm-drt-mergetool.html">Merge Tool</a> from entire detected <code>TagsDatabase</code> instances into the project and asset bundles.</p>
+<p >As soon as the project may has several databases its a common sense that you may face a situation where you face a databases conflict when they have the same name and the same tags.</p>
+<p >For a such case the backstage services do not use the databases directly but accessing them using <a class="el" href="ddm-drt-tagstool-api.html">API</a> that provides merged database got via <a class="el" href="ddm-drt-mergetool.html">Merge Tool</a> from entire detected <code>TagsDatabase</code> instances into the project and asset bundles.</p>
 <p >Databases merged to each other by following rules: <br  />
 In case if the <code>Tag</code> instance collides by the key to a tag in merge target collection then collided tag will be updated with the source one via the <code>Tag.MergeTo(Tag)</code> handler.</p>
 <hr  />

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['offset_0',['offset',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a721f97dfa7854888d8c6c9a91da71137',1,'Doloro::DataManagement::Tables::Spreadsheet']]],
-  ['offset_1',['OFFSET',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html#a2529e88d74cc973e796f8d5014d51bf7',1,'Doloro::AI::DAIInspector::InspectorHeader']]],
+  ['offset_0',['OFFSET',['../class_doloro_1_1_a_i_1_1_d_a_i_inspector_1_1_inspector_header.html#a2529e88d74cc973e796f8d5014d51bf7',1,'Doloro::AI::DAIInspector::InspectorHeader']]],
+  ['offset_1',['offset',['../class_doloro_1_1_data_management_1_1_tables_1_1_spreadsheet.html#a721f97dfa7854888d8c6c9a91da71137',1,'Doloro::DataManagement::Tables::Spreadsheet']]],
   ['oncontextmenu_2',['onContextMenu',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html#aafcd193c5e2b406d0dec05aa1e24bac9',1,'Doloro::UIEngine2::Modules::VirtualHub::UIHubEventRelay']]],
   ['ondrag_3',['onDrag',['../class_doloro_1_1_u_i_engine2_1_1_modules_1_1_virtual_hub_1_1_u_i_hub_event_relay.html#ad5f11df115dbf1b2475ee23d6f0e536b',1,'Doloro::UIEngine2::Modules::VirtualHub::UIHubEventRelay']]],
   ['one_4',['One',['../struct_doloro_1_1_base_types_1_1_rect.html#aa4e3eabd9c8d2738dc32dd88f77b4451',1,'Doloro::BaseTypes::Rect']]],

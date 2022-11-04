@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('dui2-window.html',''); initResizable()
 </div>
 <div class="textblock"><h1><a class="anchor" id="dui2-window-a"></a>
 About</h1>
-<p >The module implements a complex GUI element that represents a layout and implementing a standard expected window features.</p>
+<p >The module implements a complex GUI element that represents a layout and implementing standard expected window features.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window.html" title="The base class that implements core window features and processes.">Doloro.UIEngine2.Window</a></li>
 <li><a class="el" href="class_doloro_1_1_u_i_engine2_1_1_a_workspace_g_u_i_element.html" title="GUI element that support workspace layout module.">Doloro.UIEngine2.AWorkspaceGUIElement</a></li>
@@ -125,7 +125,7 @@ About</h1>
 Usage</h1>
 <p >The <code>Window</code> by itself it's an abstract <code>GUIElement</code> and <code>Component</code> that implements a core logic but left final integration with Unity and object configuration to developer of custom implementation.</p>
 <p >This made to provide you with maximum flexibility in features development and prevent pre-definition of window instance high-level features.</p>
-<p >If you are looking <b>for ready to use implementation take a look on</b> <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> <b>sub-module</b>. <br  />
+<p >If you are looking <b>for ready to use implementation, take a look on</b> <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> <b>sub-module</b>. <br  />
 It provides you with <code>WindowUIController</code> that implements the <code>Window</code> class with full integration with Unity as well as provides you with extra GUI controllers to window instance management.</p>
 <p ><br  />
 </p>
@@ -141,9 +141,9 @@ As workspace element</h2>
 </p>
 <h2><a class="anchor" id="dui-window-u-isolation"></a>
 Isolation principles</h2>
-<p >Any window exists considers by the engine as an isolated GUI root. That makes tree of elements isolated from an other roots. <br  />
+<p >Any window exists considers by the engine as an isolated GUI root. That makes tree of elements isolated from other roots. <br  />
  This means that GUI elements occurring in separated windows *(or alternative root-like implementation)* not affect the state of a system of your window.</p>
-<p >The only difference is a window depending from each other with the <code>WindowLayer</code> bond, like a windows collection bonded with <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features. <br  />
+<p >The only difference is a window depending on each other with the <code>WindowLayer</code> bond, like a windows collection bonded with <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features. <br  />
 In such system events and messages may be relayed trough virtual hierarchy, due to expectation of the layout to work as a single GUI instance. Explore related documentation to find out details.</p>
 <p ><b>Read more</b> <a class="el" href="dui2-rwl.html">Runtime Workspace</a></p>
 <p ><br  />
@@ -157,7 +157,7 @@ Windows Runtime Registry</h2>
 <li>The object holds entire spawned <code>Window</code> instances as children.</li>
 <li>The object always allocated as part of <code>DoNotDestroy</code> scene and not destroying during scene change.</li>
 </ul>
-<dl class="section warning"><dt>Warning</dt><dd>Object destroy will cause destroying of entire ran windows. Awoid this operation in normal cases and consider the object as a stand alone service preforming duties of the engine.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Object destroy will cause destroying of entire ran windows. Avoid this operation in normal cases and consider the object as a stand-alone service preforming duties of the engine.</dd></dl>
 <p><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_runtime_register.html" title="Class that handles window calls.">Doloro.UIEngine2.Window.WindowsRuntimeRegister</a></p>
 <p ><br  />
 </p>
@@ -169,7 +169,7 @@ In case of <code>Close</code> \ <code>Hide</code> or performing any other core o
 <dl class="section warning"><dt>Warning</dt><dd>Note that layering by itself ONLY makes windows depended on a core logic level.</dd></dl>
 <p>Layering not overrides any high-level handlers like a <code>Position</code> or <code>Size</code> properties to turn the layout of bonded windows to a single instance. <br  />
 It also not affects Unity objects hierarchy.</p>
-<p >The windows stays stand alone game objects that can be handled according with your implementation of engine features configuration.</p>
+<p >The windows stay stand-alone game objects that can be handled according with your implementation of engine features configuration.</p>
 <p ><b>Tip:</b> to implement highest-level dependencies one window from another affecting GUI visual results you may consider usage of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> and <a class="el" href="dui2-tabs.html">Tabs</a> features.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_u_i_engine2_1_1_window_1_1_windows_layer.html" title="Defines layer of windows.">Doloro.UIEngine2.Window.WindowsLayer</a></p>
 <hr  />
@@ -188,7 +188,7 @@ Methods</h2>
  The handler immediately calls <code>AGUIElement.Focus</code> after call of <code>OnOpening</code> message handler and <code>Opened</code> event. <br  />
  Allows to reopen a window with <code>WindowStateOptions.Closed</code> <code>WindowState</code>. <br  />
  <dl class="section warning"><dt>Warning</dt><dd>To be integrated into windows' engine a window must be opened. <br  />
- Even if it exists at scene it not means it considers opened. <br  />
+ Even if it exists at scene it does not mean it considers opened. <br  />
 <br  />
  Solutions like a <a class="el" href="dui2-window.html#dui2-window-classic">Classic window</a> encapsulates the opening process for you <br  />
  while any custom implementation must decide opening behavior explicitly along with common features logic.    </dd></dl>
@@ -203,7 +203,7 @@ Methods</h2>
  Comparing to previous variant skips layers pre-processing <br  />
  and works directly with the <code>WindowsLayer</code> instance.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter"><code>Hide</code>   </td><td class="markdownTableBodyNone">Hiding window. The window continue to operate background tasks <br  />
+<td class="markdownTableBodyCenter"><code>Hide</code>   </td><td class="markdownTableBodyNone">Hiding window. The window continues to operate background tasks <br  />
  and can be restored by <code>Open</code> or <code>Focus</code> call.    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyCenter"><code>Close</code>   </td><td class="markdownTableBodyNone">Releases instance from engine processing. <br  />
@@ -239,10 +239,10 @@ Properties</h2>
  The size is temporal and will be returned to origin one in case the free space occurred. <br  />
  Size change follow <code>MinSize</code> &amp; <code>MaxSize</code> values.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter"><code>RawSize</code>   </td><td class="markdownTableBodyNone">Suitable when you works with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
+<td class="markdownTableBodyCenter"><code>RawSize</code>   </td><td class="markdownTableBodyNone">Suitable when you work with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
  Allows you to get origin size instead of real one.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><code>RawPosition</code>   </td><td class="markdownTableBodyNone">Suitable when you works with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
+<td class="markdownTableBodyCenter"><code>RawPosition</code>   </td><td class="markdownTableBodyNone">Suitable when you work with enabled <code>DynamicSizeIfClamped</code> feature. <br  />
  Allows you to get origin position instead of real one.   </td></tr>
 </table>
 <h2><a class="anchor" id="dui2-window-api-messages"></a>
@@ -298,12 +298,12 @@ Background operations</h1>
 <div class="line">    {</div>
 <div class="line">        // Defining background tasks call</div>
 <div class="line">        // policy.</div>
-<div class="line">        // By default the value is: `Always`</div>
+<div class="line">        // By default, the value is: `Always`</div>
 <div class="line">        BackgroundTaskCallMode = YOU_POLICY</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    // Override background message handler</div>
-<div class="line">    // to implement window logic not bond to the</div>
+<div class="line">    // to implement window logic does not bond to the</div>
 <div class="line">    // internal GUI elements by itself.</div>
 <div class="line">    protected override void OnBackground()</div>
 <div class="line">    {</div>
@@ -315,13 +315,13 @@ Background operations</h1>
 Classic window</h1>
 <p >The package supplies you with sub-module that implement <code>Window</code> feature with a tight bond with Unity.</p><ul>
 <li>The supplied variant encapsulates module features using and lower requirements to developer to <b>beginner experience level</b>.</li>
-<li><b>Advanced users</b> may consider to use the class as example to creating a custom implementation most suitable for your in-game features.</li>
+<li><b>Advanced users</b> may consider using the class as example to create a custom implementation most suitable for your in-game features.</li>
 </ul>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dui2-window-cw-design"></a>
 Implementation Design Pattern</h2>
-<p >Sub-module provides collection of pluggable controllers that allows separately adding of core module features along with your need avoiding any unnecessary controls. Such design pattern allows you flexibly adjust an instance features along with your gameplay requirements.</p>
+<p >Sub-module provides collection of pluggable controllers that allows separately adding of core module features along with your need avoiding any unnecessary controls. Such design pattern allows you flexibly adjust instance features along with your gameplay requirements.</p>
 <p ><em>Not every game and player requires advanced GUI features when other games can't be built with a primitive solutions.</em></p>
 <p >The sub-module follows this understanding and implements <code>Window</code> features over list of components those can be or not be used over the build. Entire controls are uniform and supposed to be fully compatible with any custom implementation.</p>
 <p ><br  />
@@ -354,8 +354,8 @@ Allows to configure specific window behavior.</p>
  In case for some reasons you have to integrate window with a delay set the <code>false</code> and call <code>Open</code> handler manually lately, when you need.   </td></tr>
 </table>
 <p ><b>Layout configuration</b><br  />
-In this sub-group of properties you may define layout clamp options. <br  />
-By default window has a free-space value. Minimal size always clamped with the <code>SafeBorder</code> property.</p>
+In this sub-group of properties, you may define layout clamp options. <br  />
+By default, window has a free-space value. Minimal size always clamped with the <code>SafeBorder</code> property.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Note that clamping options not works in case <code>LayoutMode</code> other than <code>Rect</code> if not managed by external system.</dd></dl>
 <p>You may always unclamp layout via editor controls by pressing <code>Set free</code> over the target property or manually via source by applying 0 clamp size to axis.</p>
 <p ><br  />

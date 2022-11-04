@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('dinv-shops_inspector-demo.html',''); i
 </div>
 <div class="textblock"><h1><a class="anchor" id="dinv-shops_inspector-demo-a"></a>
 About</h1>
-<p >The demo demonstrates a complex inspector window that provides access to on-scene <code>Shop</code> instances and on-scene <code>Storages</code> related a certain person by it's id.</p>
+<p >The demo demonstrates a complex inspector window that provides access to on-scene <code>Shop</code> instances and on-scene <code>Storages</code> related a certain person by its id.</p>
 <h1><a class="anchor" id="inv-shops_inspector-demo-hts"></a>
 How to start</h1>
 <ol type="1">
@@ -107,13 +107,13 @@ How to start</h1>
 <code>Doloro-GDK \ Doloro-Inventory-Shops \ Scenes \</code>.</li>
 <li>Open <code>Shops Inspector</code> scene.</li>
 </ol>
-<p >Before running we recommend you to enable <code>Maximize on Play</code> mode of the <b>Game</b> view.</p>
+<p >Before running we recommend you enable <code>Maximize on Play</code> mode of the <b>Game</b> view.</p>
 <h1><a class="anchor" id="dinv-shops_inspector-demo-hdw"></a>
 How does it work</h1>
 <h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-shops"></a>
 Shops declaration</h2>
 <p >The scene hierarchy has <code>Shops declaration</code> game object. Open it to gen on-scene declarations configs for a storages.</p>
-<p >Note that entire <code>Storage Caller</code> components refer to <code>default.shop</code> synamic resource. Such a storages will be instantiated by using of <code>Shop Default</code> resource instance as entity to rent. <br  />
+<p >Note that entire <code>Storage Caller</code> components refer to <code>default.shop</code> dynamic resource. Such a storages will be instantiated by using of <code>Shop Default</code> resource instance as entity to rent. <br  />
 The default features settings will be applied according with features declared over the <code>Storage Caller</code> instance. in case if provided. <br  />
 In case the feature no exists over the storage entity resource, it will be skipped.</p>
 <h2><a class="anchor" id="dinv-shops_inspector-demo-hdw-storages"></a>
@@ -152,15 +152,15 @@ Here you can locate 2 important objects:</p><ol type="1">
 <br  />
  Not implements any specific features or controls.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Transaction order GUI Standalone   </td><td class="markdownTableBodyNone">Standalone <a class="el" href="dui2-window.html">Window</a> that calls when you selecting <code>ItemGUIElement</code> in any exchange buffer. <br  />
+<td class="markdownTableBodyNone">Transaction order GUI Standalone   </td><td class="markdownTableBodyNone">Standalone <a class="el" href="dui2-window.html">Window</a> that calls when you are selecting <code>ItemGUIElement</code> in any exchange buffer. <br  />
 <br  />
  Provides <code>TransactionOrderInspector</code> instance that manages visualization of <br  />
  <code>TransactionService.TransactionOrder</code> content. <br  />
 <br  />
- Allows to place order by pressing confirmation button, or cancel it by closing the window.   </td></tr>
+ Allows to place order by pressing confirmation button or cancel it by closing the window.   </td></tr>
 </table>
-<dl class="section warning"><dt>Warning</dt><dd>Parts by themselves not works as stand alone windows and must be consumed with a <code>Shops Inspector</code> component defined as hierarchy (or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> hierarchy) root. The inspector performs role of behavior provider and manages operation between window parts.</dd></dl>
-<p>In the demo the component not requires assignation of any child part over component. Entire parts implemented as separated <a class="el" href="dui2-window.html">Window</a> instances connected to a solid layout by using of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Parts by themselves not works as stand-alone windows and must be consumed with a <code>Shops Inspector</code> component defined as hierarchy (or <a class="el" href="dui2-vh.html">Virtual UI Hub</a> hierarchy) root. The inspector performs role of behavior provider and manages operation between window parts.</dd></dl>
+<p>In the demo the component does not require assignation of any child part over component. Entire parts implemented as separated <a class="el" href="dui2-window.html">Window</a> instances connected to a solid layout by using of <a class="el" href="dui2-rwl.html">Runtime Workspace</a> features.</p>
 <p >During windows instantiation process the parts assigns themselves to a parental <code>Storage Inspector</code> found in virtual hierarchy provided with a <a class="el" href="dui2-vh.html">Virtual UI Hub</a> established with the <code>Shops Inspector</code> game object with <code>VirtualUIHub</code> component. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

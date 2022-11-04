@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('ddm-aps-com-pa.html',''); initResizabl
 </div>
 <div class="textblock"><h1><a class="anchor" id="ddm-aps-com-pa-a"></a>
 About</h1>
-<p ><code>PropertiesAggregator</code> is a component that composites hierarchy of <code>IPropertiesProvider</code> instances over a game object and allows to threat them like a wholesome collection of properties.</p>
+<p ><code>PropertiesAggregator</code> is a component that composites hierarchy of <code>IPropertiesProvider</code> instances over a game object and allows to treat them like a wholesome collection of properties.</p>
 <p >The main purpose of the component is providing public interface of asset properties shared all around an object's hierarchy. This is very handful for following cases:</p><ul>
 <li>An object is compatible with <a class="el" href="ddm-drt-mergetool.html">Merge Tool</a> provided with the <a class="el" href="ddm-drt.html">Dynamic Resource Tools</a>. In that case the object part loading at runtime can contain its own properties that will be accessible via the aggregator instance.</li>
 <li>Game object has a wide in-depth hierarchy where different branches related to different sub-systems. In such case it's very useful to use separated <code>AssetPorpertiesCollection</code> instances for an each sub-system dividing its properties from each other from more clear view.</li>
@@ -109,15 +109,15 @@ About</h1>
 <h1><a class="anchor" id="ddm-aps-com-pa-w"></a>
 How does it work</h1>
 <p >During the <code>Start</code> the component scans child hierarchy for instance that implements <code>IPropertiesProvider</code> interface. <br  />
-Entire found providers assing to the collection and treating as virtual hierarchy during request to the component's API.</p>
-<p >The the component forwards its API operation toward children any goes with a role of Proxy.</p>
+Entire found providers assigning to the collection and treating as virtual hierarchy during request to the component's API.</p>
+<p >The component forwards its API operation toward children any goes with a role of Proxy.</p>
 <hr  />
 <h1><a class="anchor" id="ddm-aps-com-pa-int"></a>
 Interaction</h1>
 <p ><code>PropertieseAggrecator</code> works very similar to <code>AssetPropertiesCollection</code> for developer due to implementations of almost the same interfaces.</p>
 <p >For developer there is no difference between components because they are following ideas of <code>Composite</code> design pattern.</p>
 <p >But the difference here that the <code>PropertiesAggregator</code> not cares about which aggregated child component it works so the methods like <code>Add</code> just forwarding to the first found child and can't be sent toward precise component by using the default API.</p>
-<p >The second important difference is that the component not guaranties that the hierarchy has no conflicts with domains and properties due to:</p><ul>
+<p >The second important difference is that the component does not guaranty that the hierarchy has no conflicts with domains and properties due to:</p><ul>
 <li>trust to the <code>AssetPropertiesCollection</code> logic.</li>
 <li>duplicates of virtual hierarchy members hides automatically because the search in properties aggregator not goes further than first entry has been collided.</li>
 </ul>
@@ -125,7 +125,7 @@ Interaction</h1>
 <h1><a class="anchor" id="ddm-aps-com-pa-ca"></a>
 Custom Aggregator</h1>
 <p >During your development you may face a case when you'll need to extend default logic or create some intermediate filtering properties provider.</p>
-<p >To do this you just need to create a new class by following pattern with adding of you custom logic within.</p>
+<p >To do this you just need to create a new class by following pattern with adding of your custom logic within.</p>
 <div class="fragment"><div class="line">using System;</div>
 <div class="line">using System.Collections.Generic;</div>
 <div class="line">using System.Linq;</div>
@@ -145,7 +145,7 @@ Custom Aggregator</h1>
 <div class="line">        \\return count of aggregated providers</div>
 <div class="line"> </div>
 <div class="line">    public bool IsReadOnly =&gt;</div>
-<div class="line">        \\ normally `false` for the system, but depends from your implementation.</div>
+<div class="line">        \\ normally `false` for the system but depends on your implementation.</div>
 <div class="line"> </div>
 <div class="line">    public event Action&lt;AssetProperty&gt; onPropertyAdded;</div>
 <div class="line">    public event Action&lt;AssetProperty&gt; onPropertyRemoved;</div>

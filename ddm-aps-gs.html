@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -141,17 +141,17 @@ The structure of system in objects hierarchy is a tree where:</p>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter">(optional) Branches   </td><td class="markdownTableBodyNone"><code>IPropertiesProvider</code> derived components child to root via the hierarchy   </td><td class="markdownTableBodyNone">Allows to create intermediate properties hubs inside hierarchy. Useful when you want to make in-scope-like property, avoiding access to global properties of object available via the root.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">Leafs   </td><td class="markdownTableBodyNone"><code>AssetPropertiesCollection</code>   </td><td class="markdownTableBodyNone">Collection of soft properties applied to an object. The only demanded part of the tree, if you have no needs in others. Provides you with access of its properties and API to them handling.   </td></tr>
+<td class="markdownTableBodyCenter">Leaves   </td><td class="markdownTableBodyNone"><code>AssetPropertiesCollection</code>   </td><td class="markdownTableBodyNone">Collection of soft properties applied to an object. The only demanded part of the tree if you have no needs in others. Provides you with access of its properties and API to them handling.   </td></tr>
 </table>
 <dl class="section warning"><dt>Warning</dt><dd><b>Limits:</b> the default implementation not allows several properties at the same domain under the same name to be stored within internal registry. <br  />
-When you attempts to reach such a conflict property via the <code>PropertiesAggregator</code> you'll get a first meet entry.</dd></dl>
+When you attempt to reach such a conflict property via the <code>PropertiesAggregator</code> you'll get a first meet entry.</dd></dl>
 <hr  />
 <h1><a class="anchor" id="ddm-aps-gs-scale"></a>
 Scalability</h1>
 <p ><b>DDM APS</b> its a very flexible system that allows you to modify its structure with a custom architecture solutions affecting or extending the base logic.</p>
 <h2><a class="anchor" id="ddm-aps-gs-scale-props"></a>
 Custom properties</h2>
-<p >You can easy extend base collection of supported <code>AssetProperty</code> implementations according with your project data structures.</p>
+<p >You can easily extend base collection of supported <code>AssetProperty</code> implementations according with your project data structures.</p>
 <p ><b>More about:</b> <a class="el" href="ddm-aps-com-ap.html#ddm-aps-com-ap-cstm">Custom properties</a></p>
 <h2><a class="anchor" id="ddm-aps-gs-scale-object"></a>
 Object structure</h2>

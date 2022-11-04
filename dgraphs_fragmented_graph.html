@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -144,7 +144,7 @@ Create network</h2>
 <div class="line">network.Connect(graph00, graph10, Direction.Right);</div>
 <div class="line">network.Connect(graph01, graph11, Direction.Right);</div>
 <div class="line">network.Connect(graph10, graph11, Direction.Top);</div>
-</div><!-- fragment --><p >You also can connect nodes of graphs in network manually using following pattern. In case if graphs not included to the network yet, the system will make this appointment automatically. </p><div class="fragment"><div class="line">var node0 =  graph00[NODE_SIGNATURE_0];</div>
+</div><!-- fragment --><p >You also can connect nodes of graphs in network manually using following pattern. In case if graphs not included to the network yet, the system would make this appointment automatically. </p><div class="fragment"><div class="line">var node0 =  graph00[NODE_SIGNATURE_0];</div>
 <div class="line">var node1 =  graph11[NODE_SIGNATURE_1];</div>
 <div class="line"> </div>
 <div class="line">network.Connect(node0, node1);</div>
@@ -153,7 +153,7 @@ Create network</h2>
 </p>
 <h2><a class="anchor" id="dgraphs_fragmented_graph_ht_path"></a>
 Build cross-network path</h2>
-<p >To navigate cross graphs you enough to request path build via <code>GraphsNetwork</code> API. </p><div class="fragment"><div class="line">var path = network.BuildPath(</div>
+<p >To navigate cross graphs, you enough to request path build via <code>GraphsNetwork</code> API. </p><div class="fragment"><div class="line">var path = network.BuildPath(</div>
 <div class="line">  graph00[NODE_SIGNATURE_0], Direction.Top,</div>
 <div class="line">  graph11[NODE_SIGNATURE_1], Direction.Bottom);</div>
 </div><!-- fragment --><p> or </p><div class="fragment"><div class="line">var path = await network.BuildPathAsync(</div>

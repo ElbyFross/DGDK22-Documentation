@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -135,7 +135,7 @@ About</h2>
 <p ><b>Features:</b></p><ul>
 <li>Allows data loading to an object with changed members.<ol type="1">
 <li>Removed members avoiding.</li>
-<li>New members initializes with pre-defined or default values.</li>
+<li>New members initialize with pre-defined or default values.</li>
 </ol>
 </li>
 <li>Encapsulates serialization\deserialization process to single line calls.</li>
@@ -170,8 +170,8 @@ Create supportive class</h3>
 <h3><a class="anchor" id="ddm-ser-bst-ht-ser"></a>
 Serialize (save data)</h3>
 <p >Send your object to the most suitable <code>Doloro.DataManagement.Serialization.Serialize</code> method.</p>
-<p >Follwoing example demonstrates serialization process for the compatible object created by following instruction provided at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-create">Create supportive class</a> section.</p>
-<p >The example works within runtime memory. But tool also allows you to work with streams and file system. </p><div class="fragment"><div class="line">OBJ_TYPE ORIGIN_OBJ = ... // Initializing the obejct.</div>
+<p >Following example demonstrates serialization process for the compatible object created by following instruction provided at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-create">Create supportive class</a> section.</p>
+<p >The example works within runtime memory. But tool also allows you to work with streams and file system. </p><div class="fragment"><div class="line">OBJ_TYPE ORIGIN_OBJ = ... // Initializing the object.</div>
 <div class="line"> </div>
 <div class="line">using DataManagement.Serialization;</div>
 <div class="line">BinarySerializationTool.Serialize(ORIGIN_OBJ, out byte[] BINARY_DATA);</div>
@@ -187,7 +187,7 @@ Serialize (save data)</h3>
 <h3><a class="anchor" id="ddm-ser-bst-deser"></a>
 Deserialize (load data)</h3>
 <p >Send binary data path to the <code>Doloro.DataManagement.Serialization.Deserialize</code> method and get decoded object.</p>
-<p >Follwoing example demonstrates deserialization process of the serialized object created at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-ser">Serialize (save data)</a> step. </p><div class="fragment"><div class="line">using DataManagement.Serialization;</div>
+<p >Following example demonstrates deserialization process of the serialized object created at the <a class="el" href="ddm-ser.html#ddm-ser-bst-ht-ser">Serialize (save data)</a> step. </p><div class="fragment"><div class="line">using DataManagement.Serialization;</div>
 <div class="line">OBJ_TYPE loadedObj = null;</div>
 <div class="line"> </div>
 <div class="line">try</div>
@@ -211,8 +211,8 @@ Deserialize (load data)</h3>
 <h3><a class="anchor" id="ddm-ser-bst-for"></a>
 Apply a binary formatter</h3>
 <p >During source modification you may face incompatibility of serialized data with a new object structure. <br  />
-By default <b>BST</b> handles such compatibility issues automatically, but for advanced task you may like to handle the process manually.</p>
-<p ><b>BST</b> leaves you a way to handle you data as you wish. For this during deserialization you may add a <br  />
+By default, <b>BST</b> handles such compatibility issues automatically, but for advanced task you may like to handle the process manually.</p>
+<p ><b>BST</b> leaves you a way to handle your data as you wish. For this during deserialization you may add a <br  />
 <code>System.Runtime.Serialization.Formatters.Binary.BinaryFormatter</code>.</p>
 <h4><a class="anchor" id="ddm-ser-bst-for-api"></a>
 API</h4>

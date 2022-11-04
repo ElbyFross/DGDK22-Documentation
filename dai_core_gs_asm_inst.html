@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('dai_core_gs_asm_inst.html',''); initRe
 </li>
 </ul>
 </div>
-<div class="textblock"><p >As mention in <a class="el" href="dai_core_gs_mp.html#dai_core_gs_asm">Assemblies</a> section the logical nodes of execution graph represented as <code>Action</code> and <code>Order</code> derived classes instances are splited on two parts:</p><ul>
+<div class="textblock"><p >As mentioned in <a class="el" href="dai_core_gs_mp.html#dai_core_gs_asm">Assemblies</a> section the logical nodes of execution graph represented as <code>Action</code> and <code>Order</code> derived classes instances are separated on two parts:</p><ul>
 <li><b>Runtime</b> part that contains execution logic.</li>
 <li><b>Editor</b> part that provides editor GUI and debug\tracking logic.</li>
 </ul>
@@ -128,8 +128,8 @@ Runtime part implementation</h1>
 <div class="line">            base.Init(ai);</div>
 <div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
-<div class="line">            // Initialise anythig you need here.</div>
-<div class="line">            // That handler will be called when the node instnace will be created.</div>
+<div class="line">            // Initialize anything you need here.</div>
+<div class="line">            // That handler will be called when the node instance will be created.</div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">        }</div>
 <div class="line"> </div>
@@ -141,7 +141,7 @@ Runtime part implementation</h1>
 <div class="line">        public override Result Pass(Brain ai)</div>
 <div class="line">        {</div>
 <div class="line">            // ------------------------------------------------------------------</div>
-<div class="line">            // Do something that shoul affect the world of character itself here.</div>
+<div class="line">            // Do something that should affect the world of character itself here.</div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
@@ -161,7 +161,7 @@ Runtime part implementation</h1>
 <div class="line">            base.End(ai);</div>
 <div class="line"> </div>
 <div class="line">            // ------------------------------------------------------------------</div>
-<div class="line">            // Use to release session data outside the mode loosed its purpose</div>
+<div class="line">            // Use to release session data outside the mode lost its purpose</div>
 <div class="line">            // till a next action call.         </div>
 <div class="line">            // ------------------------------------------------------------------</div>
 <div class="line">        }   </div>
@@ -222,7 +222,7 @@ Editor part implementation</h1>
 <div class="line">            var self = action as YOUR_NODE_NAME;</div>
 <div class="line"> </div>
 <div class="line">            // ---------------------------------------------------</div>
-<div class="line">            // Implement your cusom GUI UI here.</div>
+<div class="line">            // Implement your custom GUI UI here.</div>
 <div class="line">            // ---------------------------------------------------          </div>
 <div class="line">        }</div>
 <div class="line">    }</div>

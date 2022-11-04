@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('dinv-item.html',''); initResizable(); 
 About</h1>
 <p ><code>Item</code> is a one of the core resources implemented within the module. <br  />
 The objects with implemented component considering as instances of <code>DynamicResource</code> and automatically handling with the <a class="el" href="md__d___work__git_hub__d_g_d_k22__assets__tauri__interactive__doloro__g_d_k__doloro__data__management__r_e_a_d_m_e.html#ddm-navigator">ddm-navigator</a> module features.</p>
-<p ><code>Item</code> resource works as a source resource that instantiates each time when the instance has been requested. Entire changes and session data related to a certain instance shares with <a class="el" href="dinv-storages-database.html">Storages Database</a> in case the item located within some storage or manually via crating of <code>ItemContainer</code> from configurated <code>Item</code> instance.</p>
+<p ><code>Item</code> resource works as a source resource that instantiates each time when the instance has been requested. Entire changes and session data related to a certain instance share with <a class="el" href="dinv-storages-database.html">Storages Database</a> in case the item located within some storage or manually via crating of <code>ItemContainer</code> from configurated <code>Item</code> instance.</p>
 <p ><b>Explore API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_item.html" title="Loadable resource that implements conception of the in-game inventory item.">Doloro.InvetorySystem.Item</a></li>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_a_item_feature.html" title="The custom feature that implements extra logic over of the Item instance.">Doloro.InvetorySystem.AItemFeature</a></li>
@@ -232,7 +232,7 @@ Development</h2>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p >You may access <code>Item</code> instance bond with the feature using the <code>item</code> property.</p>
-<p >Cross-session data is optional and required only for non static features that has difference from one <code>Item</code> instance to other. In case of implementation the feature data will be stored at <code>StoragesDatabase.FeatureContainer</code> related to certain <code>StoragesDatabase.ItemContainer</code> automatically during item save process and be restored a next time the <code>Item</code> resource be instantiated from the same item container.</p>
+<p >Cross-session data is optional and required only for non-static features that has difference from one <code>Item</code> instance to other. In case of implementation the feature data will be stored at <code>StoragesDatabase.FeatureContainer</code> related to certain <code>StoragesDatabase.ItemContainer</code> automatically during item save process and be restored a next time the <code>Item</code> resource be instantiated from the same item container.</p>
 <hr  />
 <h1><a class="anchor" id="dinv-item-gui"></a>
 GUI</h1>

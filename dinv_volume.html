@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -125,7 +125,7 @@ All you need is configurate a physical size of the storage at the component insp
 Item configuration</h2>
 <p >To implement volume setting over a certain <code>Item</code> resource you have to navigate to its prefab and add <code>ItemVolume</code> feature over the same game object.</p>
 <p >Next you need to defined volume parameters applied defining physical size of the item. <br  />
-During each transaction <code>StorageVolume</code> feature will search for <code>ItemVolume</code> features over target resources and manages the space along with it configuration.</p>
+During each transaction <code>StorageVolume</code> feature will search for <code>ItemVolume</code> features over target resources and manages the space along with its configuration.</p>
 <p ><b>Read more about Item resource creation:</b> <a class="el" href="dinv-item.html#dinv-item-r">Resource</a></p>
 <p ><br  />
 </p>
@@ -134,20 +134,20 @@ Reservation logic</h2>
 <p >When you are placing transaction order of volumetric objects the <code>StorageVolume</code> feature component reserves space required for the object in temporal buffer.</p>
 <ul>
 <li>In case of transaction canceling the space releases from occupation and becomes accessible to new transactions.</li>
-<li>In case of transaction confirmation the temporal buffer data migrates toward static buffer that allowed in cross-session database.</li>
+<li>In case of transaction confirmation, the temporal buffer data migrates toward static buffer that allowed in cross-session database.</li>
 </ul>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv_volume_htu_cs"></a>
 Cross-session data</h2>
-<p >As any right implemented <code>AStorageFeature</code> <code>StorageVolume</code> loads its state automatically during rend of <code>Storage</code> for <code>StoragesDatabase.StorageContainer</code> instance, and saves it's stable state as soon as <code>Storage</code> entity has been released.</p>
+<p >As any right implemented <code>AStorageFeature</code> <code>StorageVolume</code> loads its state automatically during rend of <code>Storage</code> for <code>StoragesDatabase.StorageContainer</code> instance and saves it's stable state as soon as <code>Storage</code> entity has been released.</p>
 <p >All incomplete transaction will be automatically canceled during rent finalization, temporal buffer entries will be released.</p>
 <hr  />
 <h1><a class="anchor" id="dinv_volume_visualizer"></a>
 Visualizer</h1>
 <dl class="section warning"><dt>Warning</dt><dd>The feature on an <b>EARLY STAGE</b> and will be improved along with next updates.</dd></dl>
 <p>The package implements a visualization tool for volumetric spaces content. <br  />
-The tool by itself supplies only base logic that can be extended with a new features according with your requirements. The tool also can be used as example of visualizer during implementation of custom visualizer following your specific features.</p>
+The tool by itself supplies only base logic that can be extended with new features according with your requirements. The tool also can be used as example of visualizer during implementation of custom visualizer following your specific features.</p>
 <p >You may find <code>Volume visualizer</code> demo scene that supplies you with using example. <br  />
 Assembled layout with pre-built visualizer provided with <code>Storage Volume Visualizer</code> prefab.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html" title="The view script that visualizes the StorageVolume content with scene placed game objects.">Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolumeVisualizer</a></p>
@@ -156,14 +156,14 @@ Assembled layout with pre-built visualizer provided with <code>Storage Volume Vi
 <h2><a class="anchor" id="dinv_volume_visualizer_content"></a>
 Storage's content set</h2>
 <p >To apply visualization content from a <code>Storage</code> to a view you have to address it and share <code>StorageVolume</code> feature to draw to <code>volume</code> property. <br  />
-The shared volume's content update will be tracked automatically. You no need to sigh up any extra events.</p>
+The shared volume's content update will be tracked automatically. You no need to sign up any extra events.</p>
 <p ><b>Explore API:</b> <a class="el" href="class_doloro_1_1_invetory_system_1_1_features_1_1_volumetric_space_1_1_storage_volume_visualizer.html#ae07e8979ecb6e56a1e71cbf37ac79a7b" title="The volume instance connected to the view.">Doloro.InvetorySystem.Features.VolumetricSpace.StorageVolumeVisualizer.volume</a></p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv_volume_visualizer_content_manual"></a>
 Manual content sets</h2>
 <p >The visualizer may be initialized manual by using <code>PlaceVolume</code> handler provided with component API. <br  />
-During placing the volume the system returns you assigned id to continue access to the space entry. Use it to manage the instance during next calls.</p>
+During placing the volume, the system returns you assigned id to continue access to the space entry. Use it to manage the instance during next calls.</p>
 <p >The <code>Volume visualizer</code> demo scene uses sample script filling volumes located over <code>Storage</code> game object.</p>
 <p ><b>Explore Demo's API:</b></p><ul>
 <li><a class="el" href="class_doloro_1_1_invetory_system_1_1_tests_1_1_volume_test_sequences_executer.html" title="Test script that executes the VolumeFillSequences orders above the parent volume.">Doloro.InvetorySystem.Tests.VolumeTestSequencesExecuter</a></li>

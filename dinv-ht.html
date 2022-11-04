@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Doloro GDK 22<span id="projectnumber">&#160;.1.0 Beta</span>
    </div>
-   <div id="projectbrief">by Tauri Interactive LLC.</div>
+   <div id="projectbrief">by Tauri Interactive</div>
   </td>
  </tr>
  </tbody>
@@ -130,19 +130,19 @@ The subject skips details of services work process. You may find detailed inform
 Storages Database</h1>
 <h2><a class="anchor" id="dinv-ht-db-access"></a>
 Access database</h2>
-<p ><code>StoragesDatabase</code> works as a singleton instnace that can be accessed by following call: </p><div class="fragment"><div class="line">var db = Doloro.InvetorySystem.StoragesDatabase.Active;</div>
+<p ><code>StoragesDatabase</code> works as a singleton instance that can be accessed by following call: </p><div class="fragment"><div class="line">var db = Doloro.InvetorySystem.StoragesDatabase.Active;</div>
 </div><!-- fragment --><p> Database is never <code>null</code>.</p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-clear"></a>
 Create a clear database</h2>
 <p >To clear the database enough to call <code>Clear()</code> handler by following template: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.StoragesDatabase.Active.Clear();</div>
-</div><!-- fragment --><p> Database clearance suppose to release entire related on-scene instances in case they object managed by the database or services. Be sure to include any custom objects into <code>Dispose</code> handlers where supported or release they in <code>OnDestroy</code> callbacks.</p>
+</div><!-- fragment --><p> Database clearance supposed to release entire related on-scene instances in case they object managed by the database or services. Be sure to include any custom objects into <code>Dispose</code> handlers where are supported or release they in <code>OnDestroy</code> callbacks.</p>
 <p ><br  />
 </p>
 <h2><a class="anchor" id="dinv-ht-db-create"></a>
 Create a storage at database</h2>
-<p >To create a new storage entry you have to follow the next template: </p><div class="fragment"><div class="line">usign Doloro.InvetorySystem;</div>
+<p >To create a new storage entry, you have to follow the next template: </p><div class="fragment"><div class="line">usign Doloro.InvetorySystem;</div>
 <div class="line"> </div>
 <div class="line">// Defining items that should be applied to the container.</div>
 <div class="line">StoragesDatabase.ItemContainer[] items = ...</div>
@@ -150,7 +150,7 @@ Create a storage at database</h2>
 <div class="line">// Creating a new container inside the database.</div>
 <div class="line">Guid storageID = StoragesDatabase.Active.CreateStorage(items)</div>
 </div><!-- fragment --><p> During creation we're receiving an ID provided by the database to a new storage. <br  />
-Using this ID you may access the container lately.</p>
+Using this ID, you may access the container lately.</p>
 <p ><br  />
 </p>
 <p >You also may create a new storage directly from a scene using <code>StorageCaller</code> component. <br  />
@@ -169,8 +169,8 @@ Save database</h2>
 <div class="line">using Doloro.DataManagement.Serialization;</div>
 <div class="line"> </div>
 <div class="line">// Defining destination full path to a file</div>
-<div class="line">// that will contains serialized database.</div>
-<div class="line">// The file will be create \ overridden depending from its existence state.</div>
+<div class="line">// that will contain serialized database.</div>
+<div class="line">// The file will be created \ overridden depending from its existence state.</div>
 <div class="line">string path = Application.dataPath + &quot;\\&quot; + FILE_NAME + &quot;.&quot; + FILE_EXTENSION;</div>
 <div class="line"> </div>
 <div class="line">// Calling serialization of the database to the file.</div>
@@ -188,7 +188,7 @@ Save database</h2>
 <h2><a class="anchor" id="dinv-ht-db-save"></a>
 Save database</h2>
 <p >The data base is serializable object and can be easily load by using of the <a class="el" href="ddm-ser.html">Serialization Tools</a> features.</p>
-<p >To load database you have to provide binary data \ binary file. </p><div class="fragment"><div class="line">using UnityEngine;</div>
+<p >To load database, you have to provide binary data \ binary file. </p><div class="fragment"><div class="line">using UnityEngine;</div>
 <div class="line">using Doloro.DataManagement.Serialization;</div>
 <div class="line"> </div>
 <div class="line">// Defining path in file system to a binary database representaion.</div>
@@ -199,7 +199,7 @@ Save database</h2>
 <div class="line"> </div>
 <div class="line">// Applying database instance as active.</div>
 <div class="line">StoragesDatabase.Active = db;</div>
-</div><!-- fragment --><p> Alternatively you may load database from binary array other then file system. </p><div class="fragment"><div class="line">// Getting previously serialized data in binary view.</div>
+</div><!-- fragment --><p> Alternatively, you may load database from binary array other than file system. </p><div class="fragment"><div class="line">// Getting previously serialized data in binary view.</div>
 <div class="line">byte[] BINARY_DATA = ...</div>
 <div class="line"> </div>
 <div class="line">// Reading data as the database.</div>
@@ -213,7 +213,7 @@ Storages Service</h1>
 <h2><a class="anchor" id="dinv-ht-strserv-rent"></a>
 Rent Storage entity</h2>
 <p >To operate a <code>StorageDatabase.StorageContainer</code> you have to call an <a class="el" href="dinv-storage.html">Storage</a> instance bond with the database entry.</p>
-<p >There is several ways to rent an entity but the traditional one is to ask for entity with the <code>Storage.id</code> provided by the <code>StoragesDatabase</code> during storage registration.</p>
+<p >There are several ways to rent an entity but the traditional one is to ask for entity with the <code>Storage.id</code> provided by the <code>StoragesDatabase</code> during storage registration.</p>
 <div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
 </div><!-- fragment --><p> Renting by storage ID: </p><div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
 <div class="line">var storageEntity = StoragesService.RentStorageEntity(storageId);</div>
@@ -234,7 +234,7 @@ Rent Storage entity</h2>
 </p>
 <h2><a class="anchor" id="dinv-ht-strserv-release"></a>
 Release Storage entity</h2>
-<p >When you are done with entity access and it's not required anymore you have to release it with the same source as it was rented.</p>
+<p >When you are done with entity access, and it's not required anymore you have to release it with the same source as it was rented.</p>
 <div class="fragment"><div class="line">using Doloro.InvetorySystem;</div>
 </div><!-- fragment --><p> Release by ID: </p><div class="fragment"><div class="line">Guid storageId = YOUR_ID;</div>
 <div class="line">StoragesService.ReleaseRentedEntity(storageId);</div>
@@ -295,7 +295,7 @@ Transaction Service</h1>
 <p >The system no allows manual modification of the storage that allows to prevent frequent bugs with items. All the transactions with storages managed with the <a class="el" href="dinv_trasaction_service.html">Trasaction Service</a> via orders.</p>
 <h2><a class="anchor" id="dinv-ht-transserv-add"></a>
 Add items to exists storage</h2>
-<p >To add an items to a storage you need to know a destination storage ID or has reference to its data container, or rented entity.</p>
+<p >To add items to a storage you need to know a destination storage ID or has reference to its data container or rented entity.</p>
 <p >Then you need to call <code>TransactionService</code> API member named as <code>ExecuteAddOrder</code> most suitable from your arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ExecuteAddOrder(</div>
 <div class="line">    // Id of storage that will attempt to receive the items.</div>
 <div class="line">    STORAGE_ID,</div>
@@ -307,20 +307,20 @@ Add items to exists storage</h2>
 </div><!-- fragment --><p> The add order may fail transaction and return <code>false</code> in case the storage has mask features that not allows item or its amount to be added.</p>
 <h2><a class="anchor" id="dinv-ht-transserv-remove"></a>
 Remove items from exists storage</h2>
-<p >To remove items from a storage you has a know target storage ID or has reference to its data container, or rented entity.</p>
+<p >To remove items from a storage you have to know target storage ID or has reference to its data container, or rented entity.</p>
 <p >Then you need to call <code>TransactionService</code> API member named as <code>ExecuteRemoveOrder</code> most suitable from your arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.ExecuteRemoveOrder(</div>
 <div class="line">    // Id of storage to operate</div>
-<div class="line">    STORAGE_ID, .</div>
+<div class="line">    STORAGE_ID, </div>
 <div class="line">    // Item resource that will be removed.</div>
 <div class="line">    ITEM,           </div>
 <div class="line">    // Count of items to remove.</div>
 <div class="line">    COUNT               </div>
 <div class="line">    );</div>
-</div><!-- fragment --><p> The remove order will be failed and return <code>false</code> in case the resource not found in the storage or it has no enough amount.</p>
+</div><!-- fragment --><p> The remove order will be failed and return <code>false</code> in case the resource not found in the storage, or it has no enough amount.</p>
 <h2><a class="anchor" id="dinv-ht-transserv-transfer"></a>
 Transfer between storages</h2>
-<p >To transfer some items from one storage to other you has to execute <code>TransactionOrder</code> between them.</p>
-<p >For this you has a 2 ways: Instant, Manual. </p>
+<p >To transfer some items from one storage to other you have to execute <code>TransactionOrder</code> between them.</p>
+<p >For this you have a 2 ways: Instant, Manual. </p>
 <h3><a class="anchor" id="dinv-ht-transserv-transfer-isnt"></a>
 Instant transfer</h3>
 <p >To execute a transfer order between two storages instantly you enough to call one of <code>TransactionService</code> API members named as <code>InstantTransactionOrder</code> with most suitable arguments. As example: </p><div class="fragment"><div class="line">Doloro.InvetorySystem.TransactionService.InstantTransactionOrder(</div>
@@ -333,10 +333,10 @@ Instant transfer</h3>
 <div class="line">    // Count of items to transfer.</div>
 <div class="line">    COUNT                           </div>
 <div class="line">    );</div>
-</div><!-- fragment --><p> Transaction may fail and return <code>false</code> in case the storage has mask features that not allows item or its amount to be added to destination storage.</p>
+</div><!-- fragment --><p> Transaction may fail and return <code>false</code> in case the storage has mask features that do not allow item or its amount to be added to destination storage.</p>
 <h3><a class="anchor" id="dinv-ht-transserv-transfer-manual"></a>
 Manual transfer</h3>
-<p >For some systems you may need to place a transaction that will make an items \ space reservation at a storages but not execute it instantly leaving an opportunity to cancel the transaction.</p>
+<p >For some systems you may need to place a transaction that will make an items \ space reservation at storages but not execute it instantly leaving an opportunity to cancel the transaction.</p>
 <p >For such operations you have to use <code>TransactionService</code> API members named as <code>PlaceTransactionOrder</code>. <br  />
  Such a handler makes reservation of items. Also it can call reservation process at <code>AStorageFeature</code> components related to a storage with <code>IReservationAgent</code> interface. <br  />
  <b>Read more:</b> <a class="el" href="dinv_trasaction_service.html#dinv_trasaction_service_reservation">Reservation Agent</a></p>
