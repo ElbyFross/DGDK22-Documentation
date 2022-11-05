@@ -29,12 +29,13 @@ var NAVTREE =
       [ "Thanks", "index.html#mainpage_thnx", null ],
       [ "About", "index.html#mainpage_about", null ],
       [ "Important", "index.html#mainpage_warning", null ],
-      [ "Distribution model", "index.html#mainpage_distribution", null ],
       [ "BETA", "index.html#mainpage_beta", [
         [ "F.A.Q.", "index.html#mainpage_beta_faq", [
+          [ "Is BETA means the product can't be used?", "index.html#mainpage_beta_faq_stability", null ],
           [ "How long BETA will go?", "index.html#mainpage_beta_faq_long", null ],
-          [ "Is the beta time goes into year license lifespan?", "index.html#mainpage_beta_faq_year", null ],
-          [ "Is BETA means the product can't be used?", "index.html#mainpage_beta_faq_stability", null ]
+          [ "Is the product cheaper during the BETA?", "index.html#mainpage_beta_faq_price", null ],
+          [ "May I pre-pay several years ahead to save money in future?", "index.html#mainpage_beta_faq_yars", null ],
+          [ "Will a subscription fee will change after BETA’s end?", "index.html#mainpage_beta_faq_update", null ]
         ] ]
       ] ]
     ] ],
@@ -180,7 +181,7 @@ var NAVTREEINDEX =
 "ddm-tables-converter-cstm.html#ddm-tables-converter-cstm-exe",
 "dsensors-env-filters.html",
 "interface_doloro_1_1_data_management_1_1_dynamic_resources_1_1_i_signed_resource.html",
-"namespace_doloro_1_1_editor_extension_1_1_project_settings.html",
+"namespace_doloro_1_1_editor_extension.html",
 "struct_doloro_1_1_data_management_1_1_tables_1_1_address.html#a38baa1421a957980da5faeb8d02d0b0d"
 ];
 
